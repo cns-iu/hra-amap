@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HuBMAP
+  provider_name: TMC-Test
+  provider_uuid: Test-UUID
+  defaults:
+    id: http://example.com/required/id
+    thumbnail: assets/icons/ico-unknown.svg
+    link: http://example.com/user/link
+  donors:
+  - sex: Female
+    samples:
+    - rui_location: g_oval_ob_A-1-I.003.json
+    - rui_location: g_oval_ob_A-2-I.002.json
+    - rui_location: g_oval_ob_A-3-I.001.json
+    - rui_location: g_oval_ob_A-4-I.001.json
+    - rui_location: g_oval_ob_A-5-I.001.json
+    - rui_location: g_oval_ob_A-6-I.001.json
+    - rui_location: g_oval_ob_A-7-I.001.json
+    - rui_location: g_oval_ob_A-8-I.001.json
+    - rui_location: g_oval_ob_A-9-I.001.json
+    - rui_location: g_oval_ob_A-10-I.001.json
+    - rui_location: g_oval_ob_A-11-I.001.json
+    - rui_location: g_oval_ob_A-12-I.001.json

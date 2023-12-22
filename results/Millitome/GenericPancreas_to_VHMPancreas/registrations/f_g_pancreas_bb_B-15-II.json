@@ -1,0 +1,32 @@
+{
+	"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+	"@id": "b713ae5e-a1c9-4009-8e7b-28e4bf7dc0e3",
+	"@type": "SpatialEntity",
+	"creator": "Bhargav Desai",
+	"label": "f_g_pancreas_bb_B-15-II",
+	"creation_date": "2023-07-22",
+	"dimension_units": "millimeter",
+	"placement": {
+		"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+		"@id": "b713ae5e-a1c9-4009-8e7b-28e4bf7dc0e3_placement",
+		"@type": "SpatialPlacement",
+		"target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
+		"placement_date": "2023-07-22",
+		"scaling_units": "ratio",
+		"rotation_order": "XYZ",
+		"rotation_units": "degree",
+		"translation_units": "millimeter",
+		"x_scaling": 1.0,
+		"y_scaling": 1.0,
+		"z_scaling": 1.0,
+		"x_rotation": 0.0,
+		"y_rotation": 0.0,
+		"z_rotation": 0.0,
+		"x_translation": 38.1395191971462,
+		"y_translation": 31.456230547626863,
+		"z_translation": 75.02718400729879
+	},
+	"x_dimension": 12.141071106842011,
+	"y_dimension": 15.813553245114687,
+	"z_dimension": 13.519134924287718
+}

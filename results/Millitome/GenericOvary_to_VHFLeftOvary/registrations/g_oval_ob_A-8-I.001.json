@@ -1,0 +1,32 @@
+{
+	"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+	"@id": "f7f6dc6f-0dc3-4e81-aee0-41903d4e0360",
+	"@type": "SpatialEntity",
+	"creator": "Bhargav Desai",
+	"label": "g_oval_ob_A-8-I.001",
+	"creation_date": "2023-10-07",
+	"dimension_units": "millimeter",
+	"placement": {
+		"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+		"@id": "f7f6dc6f-0dc3-4e81-aee0-41903d4e0360_placement",
+		"@type": "SpatialPlacement",
+		"target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftOvary",
+		"placement_date": "2023-10-07",
+		"scaling_units": "ratio",
+		"rotation_order": "XYZ",
+		"rotation_units": "degree",
+		"translation_units": "millimeter",
+		"x_scaling": 1.0,
+		"y_scaling": 1.0,
+		"z_scaling": 1.0,
+		"x_rotation": 0.0,
+		"y_rotation": 0.0,
+		"z_rotation": 0.0,
+		"x_translation": 6.378220908128056,
+		"y_translation": 8.58434208370852,
+		"z_translation": 5.984910440877081
+	},
+	"x_dimension": 9.549839765843698,
+	"y_dimension": 5.760282979263135,
+	"z_dimension": 8.036982974517063
+}

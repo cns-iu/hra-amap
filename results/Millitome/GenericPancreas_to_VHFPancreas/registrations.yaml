@@ -1,0 +1,112 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HuBMAP
+  provider_name: TMC-Test
+  provider_uuid: Test-UUID
+  defaults:
+    id: http://example.com/required/id
+    thumbnail: assets/icons/ico-unknown.svg
+    link: http://example.com/user/link
+  donors:
+  - sex: Female
+    samples:
+    - rui_location: f_g_pancreas_bb_A-1-I.json
+    - rui_location: f_g_pancreas_bb_A-1-II.json
+    - rui_location: f_g_pancreas_bb_A-2-I.json
+    - rui_location: f_g_pancreas_bb_A-2-II.json
+    - rui_location: f_g_pancreas_bb_A-3-I.json
+    - rui_location: f_g_pancreas_bb_A-3-II.json
+    - rui_location: f_g_pancreas_bb_A-4-I.json
+    - rui_location: f_g_pancreas_bb_A-4-II.json
+    - rui_location: f_g_pancreas_bb_A-5-I.json
+    - rui_location: f_g_pancreas_bb_A-5-II.json
+    - rui_location: f_g_pancreas_bb_A-6-I.json
+    - rui_location: f_g_pancreas_bb_A-6-II.json
+    - rui_location: f_g_pancreas_bb_A-7-I.json
+    - rui_location: f_g_pancreas_bb_A-7-II.json
+    - rui_location: f_g_pancreas_bb_A-8-I.json
+    - rui_location: f_g_pancreas_bb_A-8-II.json
+    - rui_location: f_g_pancreas_bb_A-9-I.json
+    - rui_location: f_g_pancreas_bb_A-9-II.json
+    - rui_location: f_g_pancreas_bb_A-10-I.json
+    - rui_location: f_g_pancreas_bb_A-10-II.json
+    - rui_location: f_g_pancreas_bb_A-11-I.json
+    - rui_location: f_g_pancreas_bb_A-11-II.json
+    - rui_location: f_g_pancreas_bb_A-12-I.json
+    - rui_location: f_g_pancreas_bb_A-12-II.json
+    - rui_location: f_g_pancreas_bb_A-13-I.json
+    - rui_location: f_g_pancreas_bb_A-13-II.json
+    - rui_location: f_g_pancreas_bb_A-14-I.json
+    - rui_location: f_g_pancreas_bb_A-14-II.json
+    - rui_location: f_g_pancreas_bb_A-15-I.json
+    - rui_location: f_g_pancreas_bb_A-15-II.json
+    - rui_location: f_g_pancreas_bb_A-16-I.json
+    - rui_location: f_g_pancreas_bb_A-16-II.json
+    - rui_location: f_g_pancreas_bb_A-17-I.json
+    - rui_location: f_g_pancreas_bb_A-17-II.json
+    - rui_location: f_g_pancreas_bb_A-18-I.json
+    - rui_location: f_g_pancreas_bb_A-18-II.json
+    - rui_location: f_g_pancreas_bb_A-19-I.json
+    - rui_location: f_g_pancreas_bb_A-19-II.json
+    - rui_location: f_g_pancreas_bb_A-20-I.json
+    - rui_location: f_g_pancreas_bb_A-20-II.json
+    - rui_location: f_g_pancreas_bb_A-21-I.json
+    - rui_location: f_g_pancreas_bb_A-21-II.json
+    - rui_location: f_g_pancreas_bb_A-22-I.json
+    - rui_location: f_g_pancreas_bb_A-22-II.json
+    - rui_location: f_g_pancreas_bb_A-23-I.json
+    - rui_location: f_g_pancreas_bb_A-23-II.json
+    - rui_location: f_g_pancreas_bb_A-24-I.json
+    - rui_location: f_g_pancreas_bb_A-24-II.json
+    - rui_location: f_g_pancreas_bb_A-25-I.json
+    - rui_location: f_g_pancreas_bb_A-25-II.json
+    - rui_location: f_g_pancreas_bb_B-1-I.json
+    - rui_location: f_g_pancreas_bb_B-1-II.json
+    - rui_location: f_g_pancreas_bb_B-2-I.json
+    - rui_location: f_g_pancreas_bb_B-2-II.json
+    - rui_location: f_g_pancreas_bb_B-3-I.json
+    - rui_location: f_g_pancreas_bb_B-3-II.json
+    - rui_location: f_g_pancreas_bb_B-4-I.json
+    - rui_location: f_g_pancreas_bb_B-4-II.json
+    - rui_location: f_g_pancreas_bb_B-5-I.json
+    - rui_location: f_g_pancreas_bb_B-5-II.json
+    - rui_location: f_g_pancreas_bb_B-6-I.json
+    - rui_location: f_g_pancreas_bb_B-6-II.json
+    - rui_location: f_g_pancreas_bb_B-7-I.json
+    - rui_location: f_g_pancreas_bb_B-7-II.json
+    - rui_location: f_g_pancreas_bb_B-8-I.json
+    - rui_location: f_g_pancreas_bb_B-8-II.json
+    - rui_location: f_g_pancreas_bb_B-9-I.json
+    - rui_location: f_g_pancreas_bb_B-9-II.json
+    - rui_location: f_g_pancreas_bb_B-10-I.json
+    - rui_location: f_g_pancreas_bb_B-10-II.json
+    - rui_location: f_g_pancreas_bb_B-11-I.json
+    - rui_location: f_g_pancreas_bb_B-11-II.json
+    - rui_location: f_g_pancreas_bb_B-12-I.json
+    - rui_location: f_g_pancreas_bb_B-12-II.json
+    - rui_location: f_g_pancreas_bb_B-13-I.json
+    - rui_location: f_g_pancreas_bb_B-13-II.json
+    - rui_location: f_g_pancreas_bb_B-14-I.json
+    - rui_location: f_g_pancreas_bb_B-14-II.json
+    - rui_location: f_g_pancreas_bb_B-15-I.json
+    - rui_location: f_g_pancreas_bb_B-15-II.json
+    - rui_location: f_g_pancreas_bb_B-16-I.json
+    - rui_location: f_g_pancreas_bb_B-16-II.json
+    - rui_location: f_g_pancreas_bb_B-17-I.json
+    - rui_location: f_g_pancreas_bb_B-17-II.json
+    - rui_location: f_g_pancreas_bb_B-18-I.json
+    - rui_location: f_g_pancreas_bb_B-18-II.json
+    - rui_location: f_g_pancreas_bb_B-19-I.json
+    - rui_location: f_g_pancreas_bb_B-19-II.json
+    - rui_location: f_g_pancreas_bb_B-20-I.json
+    - rui_location: f_g_pancreas_bb_B-20-II.json
+    - rui_location: f_g_pancreas_bb_B-21-I.json
+    - rui_location: f_g_pancreas_bb_B-21-II.json
+    - rui_location: f_g_pancreas_bb_B-22-I.json
+    - rui_location: f_g_pancreas_bb_B-22-II.json
+    - rui_location: f_g_pancreas_bb_B-23-I.json
+    - rui_location: f_g_pancreas_bb_B-23-II.json
+    - rui_location: f_g_pancreas_bb_B-24-I.json
+    - rui_location: f_g_pancreas_bb_B-24-II.json
+    - rui_location: f_g_pancreas_bb_B-25-I.json
+    - rui_location: f_g_pancreas_bb_B-25-II.json
