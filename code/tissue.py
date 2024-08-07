@@ -128,6 +128,9 @@ class TissueBlock(trimesh.Trimesh):
             self.metadata['@id'] = str(uuid.uuid4())
             self.metadata['@type'] = 'SpatialEntity'
             self.metadata['creator'] = 'Bhargav Desai'
+            self.metadata['creator_first_name'] = 'Bhargav'
+            self.metadata['creator_last_name'] = 'Desai'
+            self.metadata['creator_orcid'] = 'https://orcid.org/0009-0008-6509-7698'
             self.metadata['label'] = self.label
             self.metadata['creation_date'] = datetime.today().strftime('%Y-%m-%d')
             self.metadata['dimension_units'] = 'millimeter'
