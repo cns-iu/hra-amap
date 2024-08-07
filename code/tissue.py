@@ -125,7 +125,7 @@ class TissueBlock(trimesh.Trimesh):
         # (this is for tissue blocks created using from_geometry method)
         if not self.metadata:
             self.metadata['@context'] = "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld"
-            self.metadata['@id'] = self.donor['id']
+            self.metadata['@id'] = f"{self.donor['id']}#{self.label}"
             self.metadata['@type'] = 'SpatialEntity'
             self.metadata['creator'] = 'Bhargav Snehal Desai'
             self.metadata['creator_first_name'] = 'Bhargav Snehal'
