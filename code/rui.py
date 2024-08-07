@@ -12,7 +12,7 @@ class RUIProcessor:
         subprocess.run(['npx', 'github:hubmapconsortium/hra-rui-locations-processor', 'new', str(self.registration_dir)])
         
         # read YAML
-        registrations = read_yaml(self.registration_dir / 'registrations.yaml')
+        registrations = read_yaml(self.registration_dir.joinpath('registrations.yaml'))
 
         # modify attributes
         assert len(set([block.donor['id'] for block in self.blocks])) == 1, "Writing tissue blocks for multiple donors not supported yet"
@@ -28,10 +28,10 @@ class RUIProcessor:
         registrations[0]['donors'][0]['samples'] = [{'rui_location': f'{name}.json'} for name in names]
 
         # write yaml
-        write_yaml(self.registration_dir / 'registrations.yaml', registrations)
+        write_yaml(self.registration_dir.joinpath('registrations.yaml'), registrations)
 
         # write header
-        add_header(self.registration_dir / 'registrations.yaml')
+        add_header(self.registration_dir.joinpath('registrations.yaml'))
 
 
     def generate_rui_locations(self):
@@ -40,7 +40,7 @@ class RUIProcessor:
 
         # save tissue blocks as jsons
         for block in self.blocks:
-            block.to_sample(self.registration_dir / 'registrations')
+            block.to_sample(self.registration_dir.joinpath('registrations'))
         
         # normalize
         subprocess.run(['npx', 'github:hubmapconsortium/hra-rui-locations-processor', 'normalize', str(self.registration_dir)])
