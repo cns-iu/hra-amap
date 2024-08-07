@@ -20,9 +20,11 @@ class DivisionFactor(Enum):
     meter = 1
 
 class TissueBlock(trimesh.Trimesh):
-    def __init__(self, vertices, faces, metadata: dict = None) -> None:
+    def __init__(self, vertices, faces, donor: dict = None, metadata: dict = None) -> None:
         super(TissueBlock, self).__init__()
         self.vertices, self.faces = (vertices, faces)
+        if donor:
+            self.donor = donor
         if metadata:
             self.metadata = metadata
         self.mappings = read_yaml('../configs/atlas_paths.yaml')
@@ -51,12 +53,11 @@ class TissueBlock(trimesh.Trimesh):
                 sample['rui_location']['z_dimension'] / division_factor)
         # create block
         block = trimesh.creation.box(extents=size, origin=(0, 0, 0))
-        block = cls(vertices=block.vertices, faces=block.faces, metadata=sample['rui_location'])
+        block = cls(vertices=block.vertices, faces=block.faces, donor=donor, metadata=sample['rui_location'])
 
         # add attributes
         block.division_factor = division_factor
         block.label = sample.get('label', None)
-        block.donor = donor
         block.target_name = target_name
 
         # get transforms
@@ -73,11 +74,10 @@ class TissueBlock(trimesh.Trimesh):
 
     @classmethod
     def from_geometry(cls, geometry, donor, target_name: str, label=None):
-        block = cls(geometry.vertices, geometry.faces)
+        block = cls(geometry.vertices, geometry.faces, donor)
 
         # add attributes
         block.label = label
-        block.donor = donor
         block.target_name = target_name
         block.division_factor = 1e3
 
@@ -125,10 +125,10 @@ class TissueBlock(trimesh.Trimesh):
         # (this is for tissue blocks created using from_geometry method)
         if not self.metadata:
             self.metadata['@context'] = "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld"
-            self.metadata['@id'] = str(uuid.uuid4())
+            self.metadata['@id'] = self.donor['id']
             self.metadata['@type'] = 'SpatialEntity'
-            self.metadata['creator'] = 'Bhargav Desai'
-            self.metadata['creator_first_name'] = 'Bhargav'
+            self.metadata['creator'] = 'Bhargav Snehal Desai'
+            self.metadata['creator_first_name'] = 'Bhargav Snehal'
             self.metadata['creator_last_name'] = 'Desai'
             self.metadata['creator_orcid'] = 'https://orcid.org/0009-0008-6509-7698'
             self.metadata['label'] = self.label
