@@ -1,7 +1,7 @@
 import trimesh
-import vtk
 import numpy as np
 import pandas as pd
+import pyvista as pv
 import open3d as o3d
 
 from pathlib import Path
@@ -99,35 +99,11 @@ def nii_to_mesh(path: str) -> trimesh.Trimesh:
 
 def vtk_to_mesh(path: str) -> trimesh.Trimesh:
     filename = Path(path)
+    vtk_data = pv.read(filename)
+    mesh = vtk_data.extract_surface()
+    writer = pv.Plotter()
+    writer.add_mesh(mesh)
+    writer.export_gltf(f'{filename.stem}.gltf', save_normals=True, inline_data=True)
 
-    try:
-        # read
-        reader = vtk.vtkGenericDataObjectReader()
-        reader.SetFileName(filename)
-        reader.Update()
-        
-        # write
-        writer = vtk.vtkSTLWriter()
-        writer.SetInputConnection(reader.GetOutputPort())
-        writer.SetFileName(f'{filename.stem}.stl')
-        writer.Write()
-
-        # read as trimesh instance and return
-        return trimesh.load(f'{filename.stem}.stl')
-    except:
-        reader = vtk.vtkUnstructuredGridReader()
-        reader.SetFileName(filename)
-
-        surface_filter = vtk.vtkDataSetSurfaceFilter()
-        surface_filter.SetInputConnection(reader.GetOutputPort())
-
-        triangle_filter = vtk.vtkTriangleFilter()
-        triangle_filter.SetInputConnection(surface_filter.GetOutputPort())
-
-        writer = vtk.vtkSTLWriter()
-        writer.SetFileName(f'{filename.stem}.stl')
-        writer.SetInputConnection(triangle_filter.GetOutputPort())
-        writer.Write()
-
-        # read as trimesh instance and return
-        return trimesh.load(f'{filename.stem}.stl')
+    # read as trimesh instance and return
+    return trimesh.load(f'{filename.stem}.gltf')
