@@ -108,4 +108,4 @@ def vtk_to_mesh(path: str) -> trimesh.Trimesh:
     with tempfile.NamedTemporaryFile(suffix='.gltf') as tfile:
         writer.export_gltf(tfile.name, save_normals=True, inline_data=True)
         # return as trimesh
-        return trimesh.load(tfile.name)
+        return trimesh.load(tfile.name, force='mesh')
