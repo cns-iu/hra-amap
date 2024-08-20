@@ -1,4 +1,5 @@
 import trimesh
+import tempfile
 import numpy as np
 import pandas as pd
 import pyvista as pv
@@ -103,7 +104,8 @@ def vtk_to_mesh(path: str) -> trimesh.Trimesh:
     mesh = vtk_data.extract_surface()
     writer = pv.Plotter()
     writer.add_mesh(mesh)
-    writer.export_gltf(f'{filename.stem}.gltf', save_normals=True, inline_data=True)
-
-    # read as trimesh instance and return
-    return trimesh.load(f'{filename.stem}.gltf')
+    # write vtk as gltf temporarily (gltf preserves data like texture from vtk)
+    with tempfile.NamedTemporaryFile(suffix='.gltf') as tfile:
+        writer.export_gltf(tfile.name, save_normals=True, inline_data=True)
+        # return as trimesh
+        return trimesh.load(tfile.name)
