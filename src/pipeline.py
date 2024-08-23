@@ -67,9 +67,10 @@ class Pipeline():
                                  source=source, 
                                  target=target,
                                  params=self.params,
-                                 registration=to_mesh(self.steps['denormalize_rigid'].output['Source'], source.faces),
+                                 registration=to_mesh(self.steps['denormalize_rigid'].output['Source'], source.faces, process=False),
                                  transformations=[(name, step.transform['Source']) for name, step in self.steps.items() if step.transform])
 
+        # return projections
         return projections
 
     def compute_metrics(self, metric: str):

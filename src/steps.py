@@ -121,34 +121,63 @@ def nonrigid_registration(source, target, params):
     target_array = pointcloud_to_numpy(target)
 
     # save the source and target point clouds as .txt
-    np.savetxt(f"../../source.txt", source_array, delimiter=',')
-    np.savetxt(f"../../target.txt", target_array, delimiter=',')
+    np.savetxt(f"../bcpd/source.txt", source_array, delimiter=',')
+    np.savetxt(f"../bcpd/target.txt", target_array, delimiter=',')
+
+    # build registration args 
+    reigstration_args = ['./bcpd', 
+                         '-x', f"../bcpd/target.txt", 
+                         '-y', f"../bcpd/source.txt", 
+                         '-J', '300', 
+                         '-K', '70', 
+                         '-p', '-u', 'n', 
+                         '-c', str(params['distance_threshold']), 
+                         '-r', str(params['seed']), 
+                         '-n', str(params['max_iterations']), 
+                         '-l', str(params['lambda']), 
+                         '-b', str(params['beta']),
+                         '-s', 'yxuveTY']
+
+    # for rotation
+    if 'gamma' in params:
+        reigstration_args.extend(['-g', str(params['gamma'])])
+
+    # for downsampling acceleration
+    # TODO: auto-detect when downsampling acceleration is needed instead of having it specified
+    if 'downsampling' in params:
+        reigstration_args.extend(['-D', str(params['downsampling'])])
 
     # register using BCPD
-    result = subprocess.run(['./bcpd', 
-                             '-x', f"../target.txt", 
-                             '-y', f"../source.txt", 
-                             '-J', '300', '-K', '70', '-p', '-u', 'n', '-c', str(params['distance_threshold']), '-r', str(params['seed']), '-n', str(params['max_iterations']), '-l', str(params['lambda']), '-b', str(params['beta']),
-                             '-s', 'yxuveTY'], 
-                             cwd="../../bcpd",
-                             capture_output=True)
+    result = subprocess.run(reigstration_args, cwd="../bcpd", capture_output=True)
     
     # read transformations
-    dvf = np.genfromtxt('../../bcpd/output_u.txt') - source_array
-    translation = txt_to_numpy('../../bcpd/output_t.txt')
-    scale = txt_to_numpy('../../bcpd/output_s.txt').item()
-    rotation = txt_to_numpy('../../bcpd/output_r.txt')
+    if 'downsampling' in params:
+        downsampled_source = np.genfromtxt('../bcpd/output_normY.txt')
+        dvf = np.genfromtxt('../bcpd/output_u.txt') - downsampled_source
+    else:
+        dvf = np.genfromtxt('../bcpd/output_u.txt') - source_array
+    translation = txt_to_numpy('../bcpd/output_t.txt')
+    scale = txt_to_numpy('../bcpd/output_s.txt').item()
+    rotation = txt_to_numpy('../bcpd/output_r.txt')
     
     # create transform
     transform = Transform(scale=scale, rotate=rotation, translate=translation, deformation_vector_field=dvf)
 
-    # apply transform
-    source = transform(source)
+    # apply transform and store outputs
+    if 'downsampling' in params:
+        # this automatically calculates and stores an interpolated DVF to use with ANY geometry
+        downsampled_source = transform(downsampled_source)
+        # transform the original source using the interpolated DVF calculated
+        source = transform(source)
+        registered = numpy_to_pointcloud(txt_to_numpy('../bcpd/output_y.interpolated.txt'))
+    else:
+        source = transform(source)
+        registered = numpy_to_pointcloud(txt_to_numpy('../bcpd/output_y.txt'))
 
     # store outputs
     outputs = {'Source': source, 
                'Target': None, 
-               'Registered': numpy_to_pointcloud(txt_to_numpy('../../bcpd/output_y.txt'))}
+               'Registered': registered}
     
     # store transforms
     transforms = {'Source': transform,

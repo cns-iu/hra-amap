@@ -1,9 +1,11 @@
 nonrigid_registration:
   autotune: 'False'
-  beta: 0.5
+  gamma: 10
+  beta: 2
   decimation: 'False'
   distance_threshold: 1e-8
-  lambda: 50
+  lambda: 10
+  downsampling: 'Y, 26443, 0.05'
   max_iterations: 1000
   seed: 26
 rigid_registration:

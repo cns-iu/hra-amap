@@ -40,11 +40,11 @@ def to_pointcloud(geometry):
     else: 
         return geometry
     
-def to_mesh(geometry, faces):
+def to_mesh(geometry, faces, process=True):
     if isinstance(geometry, np.ndarray):
-        return numpy_to_mesh(geometry, faces)
+        return numpy_to_mesh(geometry, faces, process)
     elif isinstance(geometry, o3d.geometry.PointCloud):
-        return pointcloud_to_mesh(geometry, faces)
+        return pointcloud_to_mesh(geometry, faces, process)
     else: 
         return geometry
 
@@ -66,15 +66,15 @@ def numpy_to_pointcloud(numpy_array: np.ndarray) -> o3d.geometry.PointCloud:
     pcd.estimate_normals()
     return pcd
 
-def numpy_to_mesh(numpy_array: np.ndarray, faces: np.ndarray) -> trimesh.base.Trimesh:
-    return trimesh.Trimesh(vertices=numpy_array, faces=faces)
+def numpy_to_mesh(numpy_array: np.ndarray, faces: np.ndarray, process=True) -> trimesh.base.Trimesh:
+    return trimesh.Trimesh(vertices=numpy_array, faces=faces, process=process)
 
 def pointcloud_to_numpy(pointcloud: o3d.geometry.PointCloud) -> np.ndarray:
     return np.array(pointcloud.points)
 
-def pointcloud_to_mesh(pointcloud: o3d.geometry.PointCloud, faces: np.ndarray) -> o3d.geometry.PointCloud:
+def pointcloud_to_mesh(pointcloud: o3d.geometry.PointCloud, faces: np.ndarray, process=True) -> o3d.geometry.PointCloud:
     """Converts a open3d point cloud object to trimesh mesh object"""
-    return trimesh.Trimesh(vertices=np.array(pointcloud.points), faces=faces)
+    return trimesh.Trimesh(vertices=np.array(pointcloud.points), faces=faces, process=process)
 
 def txt_to_numpy(path: str) -> np.ndarray:
     """Converts an array saved as a text to a numpy object"""
