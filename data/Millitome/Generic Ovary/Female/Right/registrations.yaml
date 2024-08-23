@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HRA
+  provider_name: MC-IU
+  provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
+  defaults:
+    id: https://purl.humanatlas.io/millitome/generic-ovary-female-right
+    thumbnail: assets/icons/ico-unknown.svg
+    link: https://purl.humanatlas.io/millitome/generic-ovary-female-right
+  donors:
+  - sex: Female
+    samples:
+    - rui_location: 1.json
+    - rui_location: 10.json
+    - rui_location: 11.json
+    - rui_location: 12.json
+    - rui_location: 13.json
+    - rui_location: 14.json
+    - rui_location: 15.json
+    - rui_location: 16.json
+    - rui_location: 17.json
+    - rui_location: 18.json
+    - rui_location: 19.json
+    - rui_location: 2.json
+    - rui_location: 20.json
+    - rui_location: 21.json
+    - rui_location: 22.json
+    - rui_location: 23.json
+    - rui_location: 24.json
+    - rui_location: 25.json
+    - rui_location: 26.json
+    - rui_location: 27.json
+    - rui_location: 28.json
+    - rui_location: 29.json
+    - rui_location: 3.json
+    - rui_location: 30.json
+    - rui_location: 31.json
+    - rui_location: 32.json
+    - rui_location: 33.json
+    - rui_location: 34.json
+    - rui_location: 35.json
+    - rui_location: 36.json
+    - rui_location: 4.json
+    - rui_location: 5.json
+    - rui_location: 6.json
+    - rui_location: 7.json
+    - rui_location: 8.json
+    - rui_location: 9.json
