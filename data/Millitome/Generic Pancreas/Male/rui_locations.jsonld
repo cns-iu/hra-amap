@@ -2,28 +2,28 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1",
+      "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1",
       "@type": "Donor",
       "label": "Male",
       "description": "Entered 7/14/2024, Bhargav Snehal Desai, MC-IU",
-      "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+      "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
       "consortium_name": "HRA",
       "provider_name": "MC-IU",
       "provider_uuid": "87751d4c-a850-4e2c-84dc-da6a797d76de",
       "sex": "Male",
       "samples": [
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock1",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "20.762410956377238 x 22.002622559289254 x 26.837080782615306 millimeter, 26.837080782615306 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 26.837080782615306,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#25",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#25",
             "@type": "SpatialEntity",
             "label": "25",
             "creator": "Bhargav Snehal Desai",
@@ -37,7 +37,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#25_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#25_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -61,17 +61,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock2",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "24.007657956444884 x 15.514086895224711 x 18.36120924775516 millimeter, 18.36120924775516 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 18.36120924775516,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C24",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C24",
             "@type": "SpatialEntity",
             "label": "C24",
             "creator": "Bhargav Snehal Desai",
@@ -85,7 +85,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C24_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C24_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -109,17 +109,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock3",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.668145341048378 x 13.710327371625697 x 16.919875819798882 millimeter, 16.919875819798882 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 16.919875819798882,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D24",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D24",
             "@type": "SpatialEntity",
             "label": "D24",
             "creator": "Bhargav Snehal Desai",
@@ -133,7 +133,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D24_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D24_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -157,17 +157,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock4",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock4",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "22.677083979253915 x 15.257962834074101 x 25.09426290228272 millimeter, 25.09426290228272 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 25.09426290228272,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C23",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C23",
             "@type": "SpatialEntity",
             "label": "C23",
             "creator": "Bhargav Snehal Desai",
@@ -181,7 +181,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C23_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C23_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -205,17 +205,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock5",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock5",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.650740503829752 x 10.708682119996205 x 21.27948794082502 millimeter, 21.27948794082502 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 21.27948794082502,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D23",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D23",
             "@type": "SpatialEntity",
             "label": "D23",
             "creator": "Bhargav Snehal Desai",
@@ -229,7 +229,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D23_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D23_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -253,17 +253,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock6",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock6",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "18.890573109737158 x 14.97996519692385 x 28.935701693813563 millimeter, 28.935701693813563 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 28.935701693813563,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C22",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C22",
             "@type": "SpatialEntity",
             "label": "C22",
             "creator": "Bhargav Snehal Desai",
@@ -277,7 +277,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C22_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C22_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -301,17 +301,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock7",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock7",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.984663989387357 x 10.750295508083097 x 26.58782425845837 millimeter, 26.58782425845837 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 26.58782425845837,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D22",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D22",
             "@type": "SpatialEntity",
             "label": "D22",
             "creator": "Bhargav Snehal Desai",
@@ -325,7 +325,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D22_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D22_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -349,17 +349,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock8",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock8",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.79605932078848 x 14.42814342657972 x 29.887404433723606 millimeter, 29.887404433723606 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 29.887404433723606,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C21",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C21",
             "@type": "SpatialEntity",
             "label": "C21",
             "creator": "Bhargav Snehal Desai",
@@ -373,7 +373,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C21_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C21_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -398,17 +398,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock9",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock9",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "9.704558815976426 x 11.714804660407696 x 29.792628164578943 millimeter, 29.792628164578943 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 29.792628164578943,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D21",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D21",
             "@type": "SpatialEntity",
             "label": "D21",
             "creator": "Bhargav Snehal Desai",
@@ -422,7 +422,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D21_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D21_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -446,17 +446,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock10",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock10",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.917035305798935 x 13.528593312881254 x 30.426144909402776 millimeter, 30.426144909402776 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 30.426144909402776,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C20",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C20",
             "@type": "SpatialEntity",
             "label": "C20",
             "creator": "Bhargav Snehal Desai",
@@ -470,7 +470,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C20_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C20_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -495,17 +495,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock11",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock11",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.63214456572359 x 13.861891167547935 x 29.61845714973587 millimeter, 29.61845714973587 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 29.61845714973587,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D20",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D20",
             "@type": "SpatialEntity",
             "label": "D20",
             "creator": "Bhargav Snehal Desai",
@@ -519,7 +519,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D20_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D20_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -544,17 +544,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock12",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock12",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.994187817174039 x 12.24813976320166 x 30.37532637365943 millimeter, 30.37532637365943 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 30.37532637365943,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C19",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C19",
             "@type": "SpatialEntity",
             "label": "C19",
             "creator": "Bhargav Snehal Desai",
@@ -568,7 +568,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C19_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C19_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -593,17 +593,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock13",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock13",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.920250323258191 x 15.08176357383767 x 29.906165057620424 millimeter, 29.906165057620424 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 29.906165057620424,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D19",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D19",
             "@type": "SpatialEntity",
             "label": "D19",
             "creator": "Bhargav Snehal Desai",
@@ -617,7 +617,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D19_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D19_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -642,17 +642,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock14",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock14",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.1267017545586 x 12.396034750079776 x 29.84334621520847 millimeter, 29.84334621520847 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 29.84334621520847,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C18",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C18",
             "@type": "SpatialEntity",
             "label": "C18",
             "creator": "Bhargav Snehal Desai",
@@ -666,7 +666,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C18_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C18_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -691,17 +691,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock15",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock15",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.241837799198345 x 14.489933900961816 x 30.282087293321403 millimeter, 30.282087293321403 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 30.282087293321403,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D18",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D18",
             "@type": "SpatialEntity",
             "label": "D18",
             "creator": "Bhargav Snehal Desai",
@@ -715,7 +715,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D18_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D18_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -740,17 +740,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock16",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock16",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.220602936483113 x 12.08497565253397 x 28.170145913829103 millimeter, 28.170145913829103 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 28.170145913829103,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C17",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C17",
             "@type": "SpatialEntity",
             "label": "C17",
             "creator": "Bhargav Snehal Desai",
@@ -764,7 +764,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C17_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C17_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -789,17 +789,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock17",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock17",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.68008518986477 x 14.394282052450746 x 29.742091452664294 millimeter, 29.742091452664294 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 29.742091452664294,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D17",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D17",
             "@type": "SpatialEntity",
             "label": "D17",
             "creator": "Bhargav Snehal Desai",
@@ -813,7 +813,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D17_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D17_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -838,17 +838,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock18",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock18",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "16.212655499133284 x 12.045284147068735 x 24.528139482831335 millimeter, 24.528139482831335 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 24.528139482831335,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C16",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C16",
             "@type": "SpatialEntity",
             "label": "C16",
             "creator": "Bhargav Snehal Desai",
@@ -862,7 +862,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C16_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C16_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -886,17 +886,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock19",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock19",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.227576194449307 x 13.697523596672145 x 27.999908431974585 millimeter, 27.999908431974585 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 27.999908431974585,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D16",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D16",
             "@type": "SpatialEntity",
             "label": "D16",
             "creator": "Bhargav Snehal Desai",
@@ -910,7 +910,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D16_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D16_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -935,17 +935,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock20",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock20",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "17.28722906636862 x 13.96387461092391 x 19.811194488652887 millimeter, 19.811194488652887 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 19.811194488652887,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C15",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C15",
             "@type": "SpatialEntity",
             "label": "C15",
             "creator": "Bhargav Snehal Desai",
@@ -959,7 +959,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C15_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C15_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -983,17 +983,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock21",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock21",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.932770225618478 x 12.245528283735263 x 24.903903922436772 millimeter, 24.903903922436772 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 24.903903922436772,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D15",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D15",
             "@type": "SpatialEntity",
             "label": "D15",
             "creator": "Bhargav Snehal Desai",
@@ -1007,7 +1007,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D15_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D15_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1031,17 +1031,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock22",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock22",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "16.90214406996801 x 14.991640377754024 x 16.588151543755938 millimeter, 16.588151543755938 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 16.588151543755938,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C14",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C14",
             "@type": "SpatialEntity",
             "label": "C14",
             "creator": "Bhargav Snehal Desai",
@@ -1055,7 +1055,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C14_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C14_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1079,17 +1079,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock23",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock23",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.837980508062063 x 12.413829535337651 x 20.691555971484323 millimeter, 20.691555971484323 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 20.691555971484323,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D14",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D14",
             "@type": "SpatialEntity",
             "label": "D14",
             "creator": "Bhargav Snehal Desai",
@@ -1103,7 +1103,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D14_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D14_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1127,17 +1127,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock24",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock24",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.225086129223019 x 15.086664124104699 x 14.945651530243381 millimeter, 14.945651530243381 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 14.945651530243381,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C13",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C13",
             "@type": "SpatialEntity",
             "label": "C13",
             "creator": "Bhargav Snehal Desai",
@@ -1151,7 +1151,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C13_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C13_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1176,17 +1176,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock25",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock25",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "13.932478386093655 x 12.346339447885214 x 15.75708143951704 millimeter, 15.75708143951704 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 15.75708143951704,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D13",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D13",
             "@type": "SpatialEntity",
             "label": "D13",
             "creator": "Bhargav Snehal Desai",
@@ -1200,7 +1200,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D13_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D13_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1224,17 +1224,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock26",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock26",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.52461959791329 x 15.536564978598067 x 13.616108836343892 millimeter, 13.616108836343892 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 13.616108836343892,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C12",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C12",
             "@type": "SpatialEntity",
             "label": "C12",
             "creator": "Bhargav Snehal Desai",
@@ -1248,7 +1248,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C12_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C12_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1273,17 +1273,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock27",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock27",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "16.042672768903294 x 11.35171771274618 x 11.803823621302723 millimeter, 11.803823621302723 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 11.803823621302723,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D12",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D12",
             "@type": "SpatialEntity",
             "label": "D12",
             "creator": "Bhargav Snehal Desai",
@@ -1297,7 +1297,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D12_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D12_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1322,17 +1322,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock28",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock28",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.948493707769044 x 16.818208208485785 x 11.918863272471151 millimeter, 11.918863272471151 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 11.918863272471151,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C11",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C11",
             "@type": "SpatialEntity",
             "label": "C11",
             "creator": "Bhargav Snehal Desai",
@@ -1346,7 +1346,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C11_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C11_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1372,17 +1372,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock29",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock29",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.987743092616205 x 9.491750348887606 x 14.008764582273987 millimeter, 14.008764582273987 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 14.008764582273987,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D11",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D11",
             "@type": "SpatialEntity",
             "label": "D11",
             "creator": "Bhargav Snehal Desai",
@@ -1396,7 +1396,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D11_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D11_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1422,17 +1422,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock30",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock30",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.023974138847892 x 17.483051857535624 x 14.512018305133628 millimeter, 14.512018305133628 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 14.512018305133628,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C10",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C10",
             "@type": "SpatialEntity",
             "label": "C10",
             "creator": "Bhargav Snehal Desai",
@@ -1446,7 +1446,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C10_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C10_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1472,17 +1472,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock31",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock31",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.164157759991635 x 6.680385085646002 x 18.36298021475616 millimeter, 18.36298021475616 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 18.36298021475616,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D10",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D10",
             "@type": "SpatialEntity",
             "label": "D10",
             "creator": "Bhargav Snehal Desai",
@@ -1496,7 +1496,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D10_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D10_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1522,17 +1522,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock32",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock32",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "13.798279214178692 x 16.92787273107016 x 17.67496301286309 millimeter, 17.67496301286309 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 17.67496301286309,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C9",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C9",
             "@type": "SpatialEntity",
             "label": "C9",
             "creator": "Bhargav Snehal Desai",
@@ -1546,7 +1546,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C9_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C9_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1572,17 +1572,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock33",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock33",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "13.565898273927054 x 5.40038179727892 x 20.49278990529396 millimeter, 20.49278990529396 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 20.49278990529396,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D9",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D9",
             "@type": "SpatialEntity",
             "label": "D9",
             "creator": "Bhargav Snehal Desai",
@@ -1596,7 +1596,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D9_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D9_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1622,17 +1622,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock34",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock34",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.817095489694607 x 15.53997846428745 x 18.818336501381523 millimeter, 18.818336501381523 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 18.818336501381523,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C8",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C8",
             "@type": "SpatialEntity",
             "label": "C8",
             "creator": "Bhargav Snehal Desai",
@@ -1646,7 +1646,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C8_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C8_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1671,17 +1671,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock35",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock35",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.3617972812457 x 7.788591652253707 x 19.89856310857288 millimeter, 19.89856310857288 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 19.89856310857288,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D8",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D8",
             "@type": "SpatialEntity",
             "label": "D8",
             "creator": "Bhargav Snehal Desai",
@@ -1695,7 +1695,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D8_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D8_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1720,17 +1720,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock36",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock36",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.64326392765239 x 15.11347030305238 x 19.141228726119756 millimeter, 19.141228726119756 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 19.141228726119756,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C7",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C7",
             "@type": "SpatialEntity",
             "label": "C7",
             "creator": "Bhargav Snehal Desai",
@@ -1744,7 +1744,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C7_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C7_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1769,17 +1769,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock37",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock37",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "17.011283924915578 x 10.463023071452081 x 19.849642298999605 millimeter, 19.849642298999605 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 19.849642298999605,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D7",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D7",
             "@type": "SpatialEntity",
             "label": "D7",
             "creator": "Bhargav Snehal Desai",
@@ -1793,7 +1793,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D7_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D7_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1817,17 +1817,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock38",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock38",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.49708694853655 x 15.75101743475943 x 21.27968154543329 millimeter, 21.27968154543329 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 21.27968154543329,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C6",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C6",
             "@type": "SpatialEntity",
             "label": "C6",
             "creator": "Bhargav Snehal Desai",
@@ -1841,7 +1841,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C6_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C6_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1866,17 +1866,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock39",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock39",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "19.197133612299133 x 13.319919944183468 x 21.27968154543329 millimeter, 21.27968154543329 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 21.27968154543329,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D6",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D6",
             "@type": "SpatialEntity",
             "label": "D6",
             "creator": "Bhargav Snehal Desai",
@@ -1890,7 +1890,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D6_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D6_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1915,17 +1915,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock40",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock40",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.803549849550446 x 15.779486751725635 x 23.44616310733409 millimeter, 23.44616310733409 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 23.44616310733409,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C5",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C5",
             "@type": "SpatialEntity",
             "label": "C5",
             "creator": "Bhargav Snehal Desai",
@@ -1939,7 +1939,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C5_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C5_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -1963,17 +1963,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock41",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock41",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "22.04793808969424 x 15.806602332202047 x 23.44616310733409 millimeter, 23.44616310733409 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 23.44616310733409,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D5",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D5",
             "@type": "SpatialEntity",
             "label": "D5",
             "creator": "Bhargav Snehal Desai",
@@ -1987,7 +1987,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D5_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D5_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2012,17 +2012,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock42",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock42",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.732740112690266 x 13.020641530717135 x 23.83558020073269 millimeter, 23.83558020073269 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 23.83558020073269,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C4",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C4",
             "@type": "SpatialEntity",
             "label": "C4",
             "creator": "Bhargav Snehal Desai",
@@ -2036,7 +2036,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C4_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C4_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2060,17 +2060,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock43",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock43",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "25.26169720862835 x 16.661256596941733 x 23.87931074044736 millimeter, 23.87931074044736 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 23.87931074044736,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D4",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D4",
             "@type": "SpatialEntity",
             "label": "D4",
             "creator": "Bhargav Snehal Desai",
@@ -2084,7 +2084,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D4_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D4_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2109,17 +2109,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock44",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock44",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.849845381848779 x 11.88912422468097 x 22.60558744275784 millimeter, 22.60558744275784 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 22.60558744275784,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C3",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C3",
             "@type": "SpatialEntity",
             "label": "C3",
             "creator": "Bhargav Snehal Desai",
@@ -2133,7 +2133,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C3_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C3_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2157,17 +2157,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock45",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock45",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "27.837243161564178 x 18.905947669019763 x 23.36139366060333 millimeter, 23.36139366060333 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 23.36139366060333,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D3",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D3",
             "@type": "SpatialEntity",
             "label": "D3",
             "creator": "Bhargav Snehal Desai",
@@ -2181,7 +2181,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D3_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D3_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2206,17 +2206,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock46",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock46",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.507227835040037 x 18.54800194932027 x 18.989249794458928 millimeter, 18.989249794458928 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 18.989249794458928,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C2",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C2",
             "@type": "SpatialEntity",
             "label": "C2",
             "creator": "Bhargav Snehal Desai",
@@ -2230,7 +2230,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C2_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C2_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2254,17 +2254,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock47",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock47",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "28.17411342046182 x 20.174424241389765 x 20.462086932585972 millimeter, 20.462086932585972 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 20.462086932585972,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D2",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D2",
             "@type": "SpatialEntity",
             "label": "D2",
             "creator": "Bhargav Snehal Desai",
@@ -2278,7 +2278,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D2_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D2_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2303,17 +2303,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock48",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock48",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "7.670441639357685 x 23.325841996760854 x 13.028565794920732 millimeter, 13.028565794920732 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 13.028565794920732,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C1",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C1",
             "@type": "SpatialEntity",
             "label": "C1",
             "creator": "Bhargav Snehal Desai",
@@ -2327,7 +2327,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C1_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C1_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2352,17 +2352,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock49",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock49",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "20.449357798231244 x 20.000012494744922 x 14.530669481901167 millimeter, 14.530669481901167 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 14.530669481901167,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D1",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D1",
             "@type": "SpatialEntity",
             "label": "D1",
             "creator": "Bhargav Snehal Desai",
@@ -2376,7 +2376,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#D1_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#D1_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2401,17 +2401,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock50",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock50",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "19.669530745074354 x 17.46471450162429 x 27.73987269771858 millimeter, 27.73987269771858 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 27.73987269771858,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B24",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B24",
             "@type": "SpatialEntity",
             "label": "B24",
             "creator": "Bhargav Snehal Desai",
@@ -2425,7 +2425,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B24_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B24_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2449,17 +2449,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock51",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock51",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.026907535616747 x 21.379934009064737 x 27.73987269771858 millimeter, 27.73987269771858 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 27.73987269771858,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A24",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A24",
             "@type": "SpatialEntity",
             "label": "A24",
             "creator": "Bhargav Snehal Desai",
@@ -2473,7 +2473,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A24_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A24_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2497,17 +2497,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock52",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock52",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "17.124413169062603 x 16.614724887303034 x 29.30019403485963 millimeter, 29.30019403485963 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 29.30019403485963,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B23",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B23",
             "@type": "SpatialEntity",
             "label": "B23",
             "creator": "Bhargav Snehal Desai",
@@ -2521,7 +2521,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B23_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B23_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2545,17 +2545,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock53",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock53",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.602855100848851 x 19.440185137408694 x 29.222140876980724 millimeter, 29.222140876980724 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 29.222140876980724,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A23",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A23",
             "@type": "SpatialEntity",
             "label": "A23",
             "creator": "Bhargav Snehal Desai",
@@ -2569,7 +2569,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A23_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A23_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2593,17 +2593,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock54",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock54",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.873165356021817 x 15.160127460138506 x 29.002647767576384 millimeter, 29.002647767576384 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 29.002647767576384,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B22",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B22",
             "@type": "SpatialEntity",
             "label": "B22",
             "creator": "Bhargav Snehal Desai",
@@ -2617,7 +2617,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B22_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B22_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2642,17 +2642,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock55",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock55",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.60690197334202 x 18.09295751778539 x 29.002647767576384 millimeter, 29.002647767576384 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 29.002647767576384,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A22",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A22",
             "@type": "SpatialEntity",
             "label": "A22",
             "creator": "Bhargav Snehal Desai",
@@ -2666,7 +2666,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A22_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A22_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2691,17 +2691,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock56",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock56",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.73121930582166 x 13.142812649363734 x 25.577570119364164 millimeter, 25.577570119364164 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 25.577570119364164,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B21",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B21",
             "@type": "SpatialEntity",
             "label": "B21",
             "creator": "Bhargav Snehal Desai",
@@ -2715,7 +2715,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B21_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B21_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2740,17 +2740,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock57",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock57",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.738114583987102 x 16.942699430293363 x 25.577570119364164 millimeter, 25.577570119364164 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 25.577570119364164,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A21",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A21",
             "@type": "SpatialEntity",
             "label": "A21",
             "creator": "Bhargav Snehal Desai",
@@ -2764,7 +2764,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A21_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A21_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2789,17 +2789,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock58",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock58",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.500823348546628 x 11.997444190421147 x 22.543158398906623 millimeter, 22.543158398906623 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 22.543158398906623,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B20",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B20",
             "@type": "SpatialEntity",
             "label": "B20",
             "creator": "Bhargav Snehal Desai",
@@ -2813,7 +2813,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B20_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B20_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2838,17 +2838,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock59",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock59",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.515507022270805 x 17.84052423623056 x 22.543158398906623 millimeter, 22.543158398906623 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 22.543158398906623,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A20",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A20",
             "@type": "SpatialEntity",
             "label": "A20",
             "creator": "Bhargav Snehal Desai",
@@ -2862,7 +2862,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A20_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A20_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2887,17 +2887,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock60",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock60",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "9.12368947460345 x 12.118077017233663 x 20.508316827357735 millimeter, 20.508316827357735 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 20.508316827357735,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B19",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B19",
             "@type": "SpatialEntity",
             "label": "B19",
             "creator": "Bhargav Snehal Desai",
@@ -2911,7 +2911,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B19_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B19_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2936,17 +2936,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock61",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock61",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.971787422085518 x 19.39253239936789 x 20.385026426063394 millimeter, 20.385026426063394 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 20.385026426063394,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A19",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A19",
             "@type": "SpatialEntity",
             "label": "A19",
             "creator": "Bhargav Snehal Desai",
@@ -2960,7 +2960,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A19_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A19_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -2985,17 +2985,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock62",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock62",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "9.142810870481966 x 12.437455447359413 x 19.041388175582792 millimeter, 19.041388175582792 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 19.041388175582792,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B18",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B18",
             "@type": "SpatialEntity",
             "label": "B18",
             "creator": "Bhargav Snehal Desai",
@@ -3009,7 +3009,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B18_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B18_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3033,17 +3033,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock63",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock63",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.803123267174692 x 19.004015096016847 x 21.531386663215052 millimeter, 21.531386663215052 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 21.531386663215052,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A18",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A18",
             "@type": "SpatialEntity",
             "label": "A18",
             "creator": "Bhargav Snehal Desai",
@@ -3057,7 +3057,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A18_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A18_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3082,17 +3082,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock64",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock64",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.654958263430284 x 12.121040697786745 x 17.857642209854376 millimeter, 17.857642209854376 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 17.857642209854376,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B17",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B17",
             "@type": "SpatialEntity",
             "label": "B17",
             "creator": "Bhargav Snehal Desai",
@@ -3106,7 +3106,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B17_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B17_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3130,17 +3130,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock65",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock65",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.804815467759022 x 16.567582250975654 x 24.235008181404393 millimeter, 24.235008181404393 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 24.235008181404393,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A17",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A17",
             "@type": "SpatialEntity",
             "label": "A17",
             "creator": "Bhargav Snehal Desai",
@@ -3154,7 +3154,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A17_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A17_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3178,17 +3178,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock66",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock66",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.733271079718472 x 11.768742047957081 x 16.745886787060396 millimeter, 16.745886787060396 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 16.745886787060396,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B16",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B16",
             "@type": "SpatialEntity",
             "label": "B16",
             "creator": "Bhargav Snehal Desai",
@@ -3202,7 +3202,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B16_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B16_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3226,17 +3226,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock67",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock67",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.937602170963665 x 14.367867828357195 x 26.163435553029856 millimeter, 26.163435553029856 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 26.163435553029856,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A16",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A16",
             "@type": "SpatialEntity",
             "label": "A16",
             "creator": "Bhargav Snehal Desai",
@@ -3250,7 +3250,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A16_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A16_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3274,17 +3274,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock68",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock68",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "13.93428189003637 x 12.162688643768183 x 14.7707475163599 millimeter, 14.7707475163599 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 14.7707475163599,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B15",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B15",
             "@type": "SpatialEntity",
             "label": "B15",
             "creator": "Bhargav Snehal Desai",
@@ -3298,7 +3298,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B15_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B15_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3322,17 +3322,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock69",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock69",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.279799700463817 x 13.447603810362697 x 25.481680128542823 millimeter, 25.481680128542823 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 25.481680128542823,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A15",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A15",
             "@type": "SpatialEntity",
             "label": "A15",
             "creator": "Bhargav Snehal Desai",
@@ -3346,7 +3346,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A15_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A15_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3370,17 +3370,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock70",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock70",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "13.628401271117669 x 12.960940501329453 x 12.391728112957413 millimeter, 12.391728112957413 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 12.391728112957413,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B14",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B14",
             "@type": "SpatialEntity",
             "label": "B14",
             "creator": "Bhargav Snehal Desai",
@@ -3394,7 +3394,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B14_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B14_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3418,17 +3418,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock71",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock71",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "9.512244690568716 x 13.432977901616738 x 21.984675847075113 millimeter, 21.984675847075113 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 21.984675847075113,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A14",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A14",
             "@type": "SpatialEntity",
             "label": "A14",
             "creator": "Bhargav Snehal Desai",
@@ -3442,7 +3442,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A14_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A14_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3466,17 +3466,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock72",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock72",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "13.01732464439459 x 14.7592544528522 x 12.436569260360104 millimeter, 12.436569260360104 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 12.436569260360104,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B13",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B13",
             "@type": "SpatialEntity",
             "label": "B13",
             "creator": "Bhargav Snehal Desai",
@@ -3490,7 +3490,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B13_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B13_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3515,17 +3515,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock73",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock73",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "8.527730937573946 x 13.825410747052958 x 17.430202788520866 millimeter, 17.430202788520866 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 17.430202788520866,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A13",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A13",
             "@type": "SpatialEntity",
             "label": "A13",
             "creator": "Bhargav Snehal Desai",
@@ -3539,7 +3539,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A13_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A13_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3563,17 +3563,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock74",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock74",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.980460661589307 x 17.113940344774814 x 13.480211911561401 millimeter, 13.480211911561401 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 13.480211911561401,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B12",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B12",
             "@type": "SpatialEntity",
             "label": "B12",
             "creator": "Bhargav Snehal Desai",
@@ -3587,7 +3587,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B12_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B12_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3612,17 +3612,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock75",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock75",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "6.785718595675977 x 13.911566973472123 x 14.097333684957025 millimeter, 14.097333684957025 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 14.097333684957025,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A12",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A12",
             "@type": "SpatialEntity",
             "label": "A12",
             "creator": "Bhargav Snehal Desai",
@@ -3636,7 +3636,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A12_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A12_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3661,17 +3661,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock76",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock76",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.6375796173223 x 18.933264828449925 x 14.413553381067034 millimeter, 14.413553381067034 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 14.413553381067034,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B11",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B11",
             "@type": "SpatialEntity",
             "label": "B11",
             "creator": "Bhargav Snehal Desai",
@@ -3685,7 +3685,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B11_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B11_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3711,17 +3711,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock77",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock77",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "9.052129101659173 x 12.768950205087338 x 13.48399967285574 millimeter, 13.48399967285574 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 13.48399967285574,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A11",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A11",
             "@type": "SpatialEntity",
             "label": "A11",
             "creator": "Bhargav Snehal Desai",
@@ -3735,7 +3735,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A11_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A11_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3761,17 +3761,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock78",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock78",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "13.278554115763882 x 18.817672685370766 x 16.174632343688433 millimeter, 16.174632343688433 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 16.174632343688433,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B10",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B10",
             "@type": "SpatialEntity",
             "label": "B10",
             "creator": "Bhargav Snehal Desai",
@@ -3785,7 +3785,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B10_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B10_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3811,17 +3811,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock79",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock79",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "9.701555689971359 x 11.461533216277076 x 18.093522202702495 millimeter, 18.093522202702495 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 18.093522202702495,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A10",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A10",
             "@type": "SpatialEntity",
             "label": "A10",
             "creator": "Bhargav Snehal Desai",
@@ -3835,7 +3835,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A10_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A10_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3861,17 +3861,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock80",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock80",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.476752503711172 x 17.50000429965748 x 19.294271114290385 millimeter, 19.294271114290385 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 19.294271114290385,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B9",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B9",
             "@type": "SpatialEntity",
             "label": "B9",
             "creator": "Bhargav Snehal Desai",
@@ -3885,7 +3885,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B9_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B9_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3911,17 +3911,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock81",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock81",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "7.570677096647292 x 11.148682145453058 x 24.3427086826044 millimeter, 24.3427086826044 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 24.3427086826044,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A9",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A9",
             "@type": "SpatialEntity",
             "label": "A9",
             "creator": "Bhargav Snehal Desai",
@@ -3935,7 +3935,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A9_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A9_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -3960,17 +3960,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock82",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock82",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.669385818653584 x 16.270454822407963 x 21.29746543548694 millimeter, 21.29746543548694 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 21.29746543548694,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B8",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B8",
             "@type": "SpatialEntity",
             "label": "B8",
             "creator": "Bhargav Snehal Desai",
@@ -3984,7 +3984,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B8_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B8_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4009,17 +4009,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock83",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock83",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "5.215723880609723 x 12.386439583163877 x 28.123079634101128 millimeter, 28.123079634101128 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 28.123079634101128,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A8",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A8",
             "@type": "SpatialEntity",
             "label": "A8",
             "creator": "Bhargav Snehal Desai",
@@ -4033,7 +4033,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A8_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A8_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4058,17 +4058,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock84",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock84",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.72110394144579 x 15.601627257414874 x 24.07524842111669 millimeter, 24.07524842111669 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 24.07524842111669,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B7",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B7",
             "@type": "SpatialEntity",
             "label": "B7",
             "creator": "Bhargav Snehal Desai",
@@ -4082,7 +4082,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B7_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B7_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4107,17 +4107,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock85",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock85",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.650405099628681 x 14.470594985785512 x 28.489254877613334 millimeter, 28.489254877613334 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 28.489254877613334,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A7",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A7",
             "@type": "SpatialEntity",
             "label": "A7",
             "creator": "Bhargav Snehal Desai",
@@ -4131,7 +4131,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A7_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A7_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4156,17 +4156,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock86",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock86",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.619884641661116 x 14.924638492018193 x 25.770019436205633 millimeter, 25.770019436205633 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 25.770019436205633,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B6",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B6",
             "@type": "SpatialEntity",
             "label": "B6",
             "creator": "Bhargav Snehal Desai",
@@ -4180,7 +4180,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B6_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B6_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4204,17 +4204,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock87",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock87",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "16.973098748110456 x 16.73185383511405 x 26.28150400977117 millimeter, 26.28150400977117 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 26.28150400977117,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A6",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A6",
             "@type": "SpatialEntity",
             "label": "A6",
             "creator": "Bhargav Snehal Desai",
@@ -4228,7 +4228,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A6_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A6_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4254,17 +4254,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock88",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock88",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.503180469068393 x 14.062028010432659 x 26.577320586028712 millimeter, 26.577320586028712 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 26.577320586028712,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B5",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B5",
             "@type": "SpatialEntity",
             "label": "B5",
             "creator": "Bhargav Snehal Desai",
@@ -4278,7 +4278,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B5_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B5_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4302,17 +4302,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock89",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock89",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "21.423280655887318 x 19.096437193006633 x 20.918607641094184 millimeter, 20.918607641094184 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 20.918607641094184,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A5",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A5",
             "@type": "SpatialEntity",
             "label": "A5",
             "creator": "Bhargav Snehal Desai",
@@ -4326,7 +4326,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A5_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A5_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4353,17 +4353,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock90",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock90",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.599041496206175 x 14.517951930844763 x 25.62201593615418 millimeter, 25.62201593615418 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 25.62201593615418,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B4",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B4",
             "@type": "SpatialEntity",
             "label": "B4",
             "creator": "Bhargav Snehal Desai",
@@ -4377,7 +4377,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B4_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B4_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4401,17 +4401,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock91",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock91",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "24.98519228344055 x 19.887675157089667 x 17.820804557396034 millimeter, 17.820804557396034 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 17.820804557396034,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A4",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A4",
             "@type": "SpatialEntity",
             "label": "A4",
             "creator": "Bhargav Snehal Desai",
@@ -4425,7 +4425,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A4_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A4_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4451,17 +4451,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock92",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock92",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "16.079305532122593 x 16.24419577175229 x 23.758757967196676 millimeter, 23.758757967196676 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 23.758757967196676,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B3",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B3",
             "@type": "SpatialEntity",
             "label": "B3",
             "creator": "Bhargav Snehal Desai",
@@ -4475,7 +4475,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B3_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B3_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4499,17 +4499,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock93",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock93",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "26.542093260824753 x 19.947964753163294 x 20.42684714659121 millimeter, 20.42684714659121 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 20.42684714659121,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A3",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A3",
             "@type": "SpatialEntity",
             "label": "A3",
             "creator": "Bhargav Snehal Desai",
@@ -4523,7 +4523,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A3_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A3_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4549,17 +4549,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock94",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock94",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.752693333583967 x 20.59826562448808 x 22.1303265634101 millimeter, 22.1303265634101 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 22.1303265634101,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B2",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B2",
             "@type": "SpatialEntity",
             "label": "B2",
             "creator": "Bhargav Snehal Desai",
@@ -4573,7 +4573,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B2_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B2_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4598,17 +4598,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock95",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock95",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "25.058356326391777 x 19.041397871059573 x 21.70671848318134 millimeter, 21.70671848318134 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 21.70671848318134,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A2",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A2",
             "@type": "SpatialEntity",
             "label": "A2",
             "creator": "Bhargav Snehal Desai",
@@ -4622,7 +4622,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A2_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A2_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4647,17 +4647,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock96",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock96",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.953821731071896 x 23.617841189626564 x 17.893646498155753 millimeter, 17.893646498155753 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 17.893646498155753,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B1",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B1",
             "@type": "SpatialEntity",
             "label": "B1",
             "creator": "Bhargav Snehal Desai",
@@ -4671,7 +4671,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#B1_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#B1_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,
@@ -4696,17 +4696,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#Donor1_TissueBlock97",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#Donor1_TissueBlock97",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/14/2024, Bhargav Snehal Desai, MC-IU",
           "description": "18.850990146045188 x 14.285070134219369 x 18.530511598518373 millimeter, 18.530511598518373 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-male",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl",
           "section_count": 0,
           "section_size": 18.530511598518373,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A1",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A1",
             "@type": "SpatialEntity",
             "label": "A1",
             "creator": "Bhargav Snehal Desai",
@@ -4720,7 +4720,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#A1_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#A1_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-15",
               "x_scaling": 1,

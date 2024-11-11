@@ -1,7 +1,7 @@
 [
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#1",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#1",
     "@type": "SpatialEntity",
     "label": "1",
     "creator": "Bhargav Snehal Desai",
@@ -15,7 +15,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#1_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#1_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -39,7 +39,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#10",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#10",
     "@type": "SpatialEntity",
     "label": "10",
     "creator": "Bhargav Snehal Desai",
@@ -53,7 +53,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#10_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#10_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -77,7 +77,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#11",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#11",
     "@type": "SpatialEntity",
     "label": "11",
     "creator": "Bhargav Snehal Desai",
@@ -91,7 +91,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#11_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#11_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -115,7 +115,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#12",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#12",
     "@type": "SpatialEntity",
     "label": "12",
     "creator": "Bhargav Snehal Desai",
@@ -129,7 +129,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#12_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#12_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -153,7 +153,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#13",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#13",
     "@type": "SpatialEntity",
     "label": "13",
     "creator": "Bhargav Snehal Desai",
@@ -167,7 +167,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#13_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#13_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -191,7 +191,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#14",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#14",
     "@type": "SpatialEntity",
     "label": "14",
     "creator": "Bhargav Snehal Desai",
@@ -205,7 +205,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#14_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#14_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -229,7 +229,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#15",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#15",
     "@type": "SpatialEntity",
     "label": "15",
     "creator": "Bhargav Snehal Desai",
@@ -243,7 +243,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#15_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#15_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -267,7 +267,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#16",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#16",
     "@type": "SpatialEntity",
     "label": "16",
     "creator": "Bhargav Snehal Desai",
@@ -281,7 +281,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#16_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#16_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -305,7 +305,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#17",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#17",
     "@type": "SpatialEntity",
     "label": "17",
     "creator": "Bhargav Snehal Desai",
@@ -319,7 +319,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#17_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#17_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -343,7 +343,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#18",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#18",
     "@type": "SpatialEntity",
     "label": "18",
     "creator": "Bhargav Snehal Desai",
@@ -357,7 +357,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#18_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#18_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -381,7 +381,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#19",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#19",
     "@type": "SpatialEntity",
     "label": "19",
     "creator": "Bhargav Snehal Desai",
@@ -395,7 +395,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#19_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#19_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -419,7 +419,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#2",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#2",
     "@type": "SpatialEntity",
     "label": "2",
     "creator": "Bhargav Snehal Desai",
@@ -433,7 +433,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#2_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#2_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -457,7 +457,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#20",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#20",
     "@type": "SpatialEntity",
     "label": "20",
     "creator": "Bhargav Snehal Desai",
@@ -471,7 +471,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#20_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#20_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -495,7 +495,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#21",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#21",
     "@type": "SpatialEntity",
     "label": "21",
     "creator": "Bhargav Snehal Desai",
@@ -509,7 +509,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#21_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#21_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -533,7 +533,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#22",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#22",
     "@type": "SpatialEntity",
     "label": "22",
     "creator": "Bhargav Snehal Desai",
@@ -547,7 +547,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#22_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#22_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -571,7 +571,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#23",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#23",
     "@type": "SpatialEntity",
     "label": "23",
     "creator": "Bhargav Snehal Desai",
@@ -585,7 +585,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#23_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#23_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -609,7 +609,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#24",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#24",
     "@type": "SpatialEntity",
     "label": "24",
     "creator": "Bhargav Snehal Desai",
@@ -623,7 +623,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#24_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#24_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -647,7 +647,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#25",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#25",
     "@type": "SpatialEntity",
     "label": "25",
     "creator": "Bhargav Snehal Desai",
@@ -661,7 +661,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#25_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#25_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -685,7 +685,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#26",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#26",
     "@type": "SpatialEntity",
     "label": "26",
     "creator": "Bhargav Snehal Desai",
@@ -699,7 +699,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#26_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#26_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -723,7 +723,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#27",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#27",
     "@type": "SpatialEntity",
     "label": "27",
     "creator": "Bhargav Snehal Desai",
@@ -737,7 +737,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#27_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#27_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -761,7 +761,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#28",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#28",
     "@type": "SpatialEntity",
     "label": "28",
     "creator": "Bhargav Snehal Desai",
@@ -775,7 +775,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#28_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#28_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -799,7 +799,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#29",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#29",
     "@type": "SpatialEntity",
     "label": "29",
     "creator": "Bhargav Snehal Desai",
@@ -813,7 +813,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#29_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#29_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -837,7 +837,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#3",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#3",
     "@type": "SpatialEntity",
     "label": "3",
     "creator": "Bhargav Snehal Desai",
@@ -851,7 +851,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#3_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#3_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -875,7 +875,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#30",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#30",
     "@type": "SpatialEntity",
     "label": "30",
     "creator": "Bhargav Snehal Desai",
@@ -889,7 +889,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#30_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#30_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -913,7 +913,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#31",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#31",
     "@type": "SpatialEntity",
     "label": "31",
     "creator": "Bhargav Snehal Desai",
@@ -927,7 +927,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#31_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#31_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -951,7 +951,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#32",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#32",
     "@type": "SpatialEntity",
     "label": "32",
     "creator": "Bhargav Snehal Desai",
@@ -965,7 +965,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#32_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#32_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -989,7 +989,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#33",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#33",
     "@type": "SpatialEntity",
     "label": "33",
     "creator": "Bhargav Snehal Desai",
@@ -1003,7 +1003,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#33_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#33_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -1027,7 +1027,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#34",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#34",
     "@type": "SpatialEntity",
     "label": "34",
     "creator": "Bhargav Snehal Desai",
@@ -1041,7 +1041,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#34_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#34_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -1065,7 +1065,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#35",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#35",
     "@type": "SpatialEntity",
     "label": "35",
     "creator": "Bhargav Snehal Desai",
@@ -1079,7 +1079,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#35_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#35_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -1103,7 +1103,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#36",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#36",
     "@type": "SpatialEntity",
     "label": "36",
     "creator": "Bhargav Snehal Desai",
@@ -1117,7 +1117,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#36_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#36_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -1141,7 +1141,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#4",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#4",
     "@type": "SpatialEntity",
     "label": "4",
     "creator": "Bhargav Snehal Desai",
@@ -1155,7 +1155,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#4_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#4_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -1179,7 +1179,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#5",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#5",
     "@type": "SpatialEntity",
     "label": "5",
     "creator": "Bhargav Snehal Desai",
@@ -1193,7 +1193,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#5_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#5_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -1217,7 +1217,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#6",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#6",
     "@type": "SpatialEntity",
     "label": "6",
     "creator": "Bhargav Snehal Desai",
@@ -1231,7 +1231,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#6_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#6_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -1255,7 +1255,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#7",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#7",
     "@type": "SpatialEntity",
     "label": "7",
     "creator": "Bhargav Snehal Desai",
@@ -1269,7 +1269,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#7_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#7_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -1293,7 +1293,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#8",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#8",
     "@type": "SpatialEntity",
     "label": "8",
     "creator": "Bhargav Snehal Desai",
@@ -1307,7 +1307,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#8_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#8_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,
@@ -1331,7 +1331,7 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#9",
+    "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#9",
     "@type": "SpatialEntity",
     "label": "9",
     "creator": "Bhargav Snehal Desai",
@@ -1345,7 +1345,7 @@
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-      "@id": "https://purl.humanatlas.io/millitome/generic-ovary-female-right#9_placement",
+      "@id": "https://purl.humanatlas.io/millitome/ovary-female-right-pnnl#9_placement",
       "@type": "SpatialPlacement",
       "placement_date": "2024-08-23",
       "x_scaling": 1,

@@ -4,9 +4,9 @@
   provider_name: MC-IU
   provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
   defaults:
-    id: https://purl.humanatlas.io/millitome/generic-pancreas-male
+    id: https://purl.humanatlas.io/millitome/pancreas-male-pnnl
     thumbnail: assets/icons/ico-unknown.svg
-    link: https://purl.humanatlas.io/millitome/generic-pancreas-male
+    link: https://purl.humanatlas.io/millitome/pancreas-male-pnnl
   donors:
   - sex: Male
     samples:

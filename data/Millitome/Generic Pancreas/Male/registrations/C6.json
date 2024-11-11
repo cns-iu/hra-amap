@@ -1,6 +1,6 @@
 {
 	"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-	"@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C6",
+	"@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C6",
 	"@type": "SpatialEntity",
 	"creator": "Bhargav Snehal Desai",
 	"creator_first_name": "Bhargav Snehal",
@@ -11,7 +11,7 @@
 	"dimension_units": "millimeter",
 	"placement": {
 		"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-		"@id": "https://purl.humanatlas.io/millitome/generic-pancreas-male#C6_placement",
+		"@id": "https://purl.humanatlas.io/millitome/pancreas-male-pnnl#C6_placement",
 		"@type": "SpatialPlacement",
 		"target": "http://purl.org/ccf/latest/ccf.owl#VHMPancreas",
 		"placement_date": "2024-08-15",

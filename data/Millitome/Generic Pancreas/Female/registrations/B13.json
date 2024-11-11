@@ -1,6 +1,6 @@
 {
 	"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-	"@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B13",
+	"@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B13",
 	"@type": "SpatialEntity",
 	"creator": "Bhargav Snehal Desai",
 	"creator_first_name": "Bhargav Snehal",
@@ -11,7 +11,7 @@
 	"dimension_units": "millimeter",
 	"placement": {
 		"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-		"@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B13_placement",
+		"@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B13_placement",
 		"@type": "SpatialPlacement",
 		"target": "http://purl.org/ccf/latest/ccf.owl#VHFPancreas",
 		"placement_date": "2024-08-07",

@@ -2,28 +2,28 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1",
+      "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1",
       "@type": "Donor",
       "label": "Female",
       "description": "Entered 7/6/2024, Bhargav Snehal Desai, MC-IU",
-      "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+      "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
       "consortium_name": "HRA",
       "provider_name": "MC-IU",
       "provider_uuid": "87751d4c-a850-4e2c-84dc-da6a797d76de",
       "sex": "Female",
       "samples": [
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock1",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "37.814348046441296 x 22.67768789713187 x 26.06753099439034 millimeter, 26.06753099439034 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 26.06753099439034,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#25",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#25",
             "@type": "SpatialEntity",
             "label": "25",
             "creator": "Bhargav Snehal Desai",
@@ -37,7 +37,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#25_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#25_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -61,17 +61,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock2",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock2",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "38.62300610717527 x 14.840699167472826 x 14.500890622438673 millimeter, 14.500890622438673 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 14.500890622438673,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C24",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C24",
             "@type": "SpatialEntity",
             "label": "C24",
             "creator": "Bhargav Snehal Desai",
@@ -85,7 +85,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C24_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C24_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -109,17 +109,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock3",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "37.42025424862049 x 13.19871909290693 x 19.15329710266869 millimeter, 19.15329710266869 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 19.15329710266869,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D24",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D24",
             "@type": "SpatialEntity",
             "label": "D24",
             "creator": "Bhargav Snehal Desai",
@@ -133,7 +133,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D24_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D24_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -157,17 +157,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock4",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock4",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "34.98645224492791 x 14.72991263670015 x 11.420317850176234 millimeter, 11.420317850176234 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 11.420317850176234,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C23",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C23",
             "@type": "SpatialEntity",
             "label": "C23",
             "creator": "Bhargav Snehal Desai",
@@ -181,7 +181,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C23_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C23_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -205,17 +205,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock5",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock5",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "32.25290385266466 x 14.143641371806181 x 16.784511705130846 millimeter, 16.784511705130846 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 16.784511705130846,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D23",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D23",
             "@type": "SpatialEntity",
             "label": "D23",
             "creator": "Bhargav Snehal Desai",
@@ -229,7 +229,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D23_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D23_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -253,17 +253,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock6",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock6",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "31.02318915532043 x 18.082912998819754 x 10.111529143283768 millimeter, 10.111529143283768 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 10.111529143283768,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C22",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C22",
             "@type": "SpatialEntity",
             "label": "C22",
             "creator": "Bhargav Snehal Desai",
@@ -277,7 +277,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C22_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C22_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -302,17 +302,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock7",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock7",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "28.749945025342587 x 19.286697287825618 x 13.578299580446277 millimeter, 13.578299580446277 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 13.578299580446277,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D22",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D22",
             "@type": "SpatialEntity",
             "label": "D22",
             "creator": "Bhargav Snehal Desai",
@@ -326,7 +326,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D22_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D22_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -351,17 +351,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock8",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock8",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "28.705079630687607 x 19.58410567980373 x 11.471986332552738 millimeter, 11.471986332552738 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 11.471986332552738,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C21",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C21",
             "@type": "SpatialEntity",
             "label": "C21",
             "creator": "Bhargav Snehal Desai",
@@ -375,7 +375,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C21_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C21_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -400,17 +400,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock9",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock9",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "25.976047865008013 x 23.547458853457048 x 13.452440014743189 millimeter, 13.452440014743189 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 13.452440014743189,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D21",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D21",
             "@type": "SpatialEntity",
             "label": "D21",
             "creator": "Bhargav Snehal Desai",
@@ -424,7 +424,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D21_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D21_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -449,17 +449,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock10",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock10",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "27.241646887440936 x 19.65038893021198 x 14.633552639459868 millimeter, 14.633552639459868 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 14.633552639459868,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C20",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C20",
             "@type": "SpatialEntity",
             "label": "C20",
             "creator": "Bhargav Snehal Desai",
@@ -473,7 +473,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C20_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C20_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -498,17 +498,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock11",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock11",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "23.913020191043604 x 24.50860383836384 x 14.849929461932199 millimeter, 14.849929461932199 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 14.849929461932199,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D20",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D20",
             "@type": "SpatialEntity",
             "label": "D20",
             "creator": "Bhargav Snehal Desai",
@@ -522,7 +522,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D20_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D20_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -547,17 +547,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock12",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock12",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "26.1635238922818 x 18.97346007366241 x 19.416399369178023 millimeter, 19.416399369178023 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 19.416399369178023,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C19",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C19",
             "@type": "SpatialEntity",
             "label": "C19",
             "creator": "Bhargav Snehal Desai",
@@ -571,7 +571,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C19_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C19_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -596,17 +596,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock13",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock13",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "22.854146503112126 x 24.25668487904814 x 16.216590422362092 millimeter, 16.216590422362092 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 16.216590422362092,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D19",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D19",
             "@type": "SpatialEntity",
             "label": "D19",
             "creator": "Bhargav Snehal Desai",
@@ -620,7 +620,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D19_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D19_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -645,17 +645,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock14",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock14",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "25.055817698892145 x 18.009514888191692 x 22.497890054985923 millimeter, 22.497890054985923 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 22.497890054985923,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C18",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C18",
             "@type": "SpatialEntity",
             "label": "C18",
             "creator": "Bhargav Snehal Desai",
@@ -669,7 +669,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C18_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C18_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -694,17 +694,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock15",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock15",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "22.50706205433145 x 25.228043459170568 x 19.292323830556914 millimeter, 19.292323830556914 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 19.292323830556914,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D18",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D18",
             "@type": "SpatialEntity",
             "label": "D18",
             "creator": "Bhargav Snehal Desai",
@@ -718,7 +718,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D18_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D18_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -743,17 +743,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock16",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock16",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "23.636332984523335 x 20.533801420285712 x 24.25461750090835 millimeter, 24.25461750090835 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 24.25461750090835,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C17",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C17",
             "@type": "SpatialEntity",
             "label": "C17",
             "creator": "Bhargav Snehal Desai",
@@ -767,7 +767,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C17_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C17_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -792,17 +792,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock17",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock17",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "22.344437636869802 x 27.99424716725818 x 21.513590659767377 millimeter, 21.513590659767377 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 21.513590659767377,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D17",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D17",
             "@type": "SpatialEntity",
             "label": "D17",
             "creator": "Bhargav Snehal Desai",
@@ -816,7 +816,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D17_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D17_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -840,17 +840,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock18",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock18",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "22.709072950201666 x 23.58886622356765 x 24.609958650756212 millimeter, 24.609958650756212 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 24.609958650756212,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C16",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C16",
             "@type": "SpatialEntity",
             "label": "C16",
             "creator": "Bhargav Snehal Desai",
@@ -864,7 +864,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C16_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C16_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -888,17 +888,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock19",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock19",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "22.522328574049233 x 29.96678920772927 x 22.84172896165411 millimeter, 22.84172896165411 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 22.84172896165411,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D16",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D16",
             "@type": "SpatialEntity",
             "label": "D16",
             "creator": "Bhargav Snehal Desai",
@@ -912,7 +912,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D16_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D16_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -936,17 +936,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock20",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock20",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "23.17653280561488 x 23.631574503049258 x 25.312242660737574 millimeter, 25.312242660737574 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 25.312242660737574,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C15",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C15",
             "@type": "SpatialEntity",
             "label": "C15",
             "creator": "Bhargav Snehal Desai",
@@ -960,7 +960,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C15_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C15_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -984,17 +984,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock21",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock21",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "25.54836564649666 x 28.36314852952515 x 22.952313817818037 millimeter, 22.952313817818037 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 22.952313817818037,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D15",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D15",
             "@type": "SpatialEntity",
             "label": "D15",
             "creator": "Bhargav Snehal Desai",
@@ -1008,7 +1008,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D15_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D15_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1032,17 +1032,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock22",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock22",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "23.88882195386255 x 19.383470103281788 x 29.283674350155206 millimeter, 29.283674350155206 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 29.283674350155206,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C14",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C14",
             "@type": "SpatialEntity",
             "label": "C14",
             "creator": "Bhargav Snehal Desai",
@@ -1056,7 +1056,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C14_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C14_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1080,17 +1080,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock23",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock23",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "26.85639294573444 x 22.18424122643592 x 24.63704794745275 millimeter, 24.63704794745275 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 24.63704794745275,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D14",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D14",
             "@type": "SpatialEntity",
             "label": "D14",
             "creator": "Bhargav Snehal Desai",
@@ -1104,7 +1104,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D14_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D14_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1130,17 +1130,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock24",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock24",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "22.538544836266965 x 18.495246454510784 x 33.65416386369474 millimeter, 33.65416386369474 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 33.65416386369474,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C13",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C13",
             "@type": "SpatialEntity",
             "label": "C13",
             "creator": "Bhargav Snehal Desai",
@@ -1154,7 +1154,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C13_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C13_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1178,17 +1178,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock25",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock25",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "24.17035795554967 x 15.75492907874898 x 27.146301522589567 millimeter, 27.146301522589567 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 27.146301522589567,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D13",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D13",
             "@type": "SpatialEntity",
             "label": "D13",
             "creator": "Bhargav Snehal Desai",
@@ -1202,7 +1202,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D13_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D13_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1228,17 +1228,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock26",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock26",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "19.656356350643485 x 15.789380845919244 x 36.09250621022147 millimeter, 36.09250621022147 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 36.09250621022147,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C12",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C12",
             "@type": "SpatialEntity",
             "label": "C12",
             "creator": "Bhargav Snehal Desai",
@@ -1252,7 +1252,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C12_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C12_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1278,17 +1278,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock27",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock27",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "17.47362178483887 x 17.359644043516976 x 26.25855105265236 millimeter, 26.25855105265236 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 26.25855105265236,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D12",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D12",
             "@type": "SpatialEntity",
             "label": "D12",
             "creator": "Bhargav Snehal Desai",
@@ -1302,7 +1302,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D12_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D12_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1328,17 +1328,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock28",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock28",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "17.324488817340583 x 13.029140614177038 x 36.18464463466807 millimeter, 36.18464463466807 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 36.18464463466807,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C11",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C11",
             "@type": "SpatialEntity",
             "label": "C11",
             "creator": "Bhargav Snehal Desai",
@@ -1352,7 +1352,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C11_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C11_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1378,17 +1378,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock29",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock29",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.128121587264394 x 23.735352826850797 x 22.461819399943142 millimeter, 22.461819399943142 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 22.461819399943142,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D11",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D11",
             "@type": "SpatialEntity",
             "label": "D11",
             "creator": "Bhargav Snehal Desai",
@@ -1402,7 +1402,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D11_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D11_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1428,17 +1428,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock30",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock30",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.85662343234856 x 17.261709398431968 x 33.829883824453916 millimeter, 33.829883824453916 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 33.829883824453916,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C10",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C10",
             "@type": "SpatialEntity",
             "label": "C10",
             "creator": "Bhargav Snehal Desai",
@@ -1452,7 +1452,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C10_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C10_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1478,17 +1478,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock31",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock31",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.130445070523297 x 30.2878248156202 x 19.007875192636746 millimeter, 19.007875192636746 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 19.007875192636746,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D10",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D10",
             "@type": "SpatialEntity",
             "label": "D10",
             "creator": "Bhargav Snehal Desai",
@@ -1502,7 +1502,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D10_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D10_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1527,17 +1527,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock32",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock32",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.173519326167144 x 21.059459256088765 x 30.66116856214439 millimeter, 30.66116856214439 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 30.66116856214439,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C9",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C9",
             "@type": "SpatialEntity",
             "label": "C9",
             "creator": "Bhargav Snehal Desai",
@@ -1551,7 +1551,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C9_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C9_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1577,17 +1577,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock33",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock33",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "17.055721265283818 x 32.96986511577188 x 16.800294306590636 millimeter, 16.800294306590636 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 16.800294306590636,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D9",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D9",
             "@type": "SpatialEntity",
             "label": "D9",
             "creator": "Bhargav Snehal Desai",
@@ -1601,7 +1601,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D9_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D9_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1626,17 +1626,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock34",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock34",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "16.78041562159585 x 23.906303259464412 x 27.624919548210087 millimeter, 27.624919548210087 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 27.624919548210087,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C8",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C8",
             "@type": "SpatialEntity",
             "label": "C8",
             "creator": "Bhargav Snehal Desai",
@@ -1650,7 +1650,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C8_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C8_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1675,17 +1675,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock35",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock35",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "25.801859601859643 x 31.498179593441698 x 15.61848544268954 millimeter, 15.61848544268954 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 15.61848544268954,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D8",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D8",
             "@type": "SpatialEntity",
             "label": "D8",
             "creator": "Bhargav Snehal Desai",
@@ -1699,7 +1699,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D8_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D8_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1724,17 +1724,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock36",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock36",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "20.10339708743817 x 26.554780266581812 x 24.908969098072387 millimeter, 24.908969098072387 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 24.908969098072387,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C7",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C7",
             "@type": "SpatialEntity",
             "label": "C7",
             "creator": "Bhargav Snehal Desai",
@@ -1748,7 +1748,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C7_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C7_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1773,17 +1773,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock37",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock37",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "32.77577507880552 x 28.0136906870464 x 14.423521783922089 millimeter, 14.423521783922089 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 14.423521783922089,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D7",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D7",
             "@type": "SpatialEntity",
             "label": "D7",
             "creator": "Bhargav Snehal Desai",
@@ -1797,7 +1797,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D7_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D7_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1822,17 +1822,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock38",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock38",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "20.577763263889068 x 27.281925126917127 x 22.21909846170192 millimeter, 22.21909846170192 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 22.21909846170192,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C6",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C6",
             "@type": "SpatialEntity",
             "label": "C6",
             "creator": "Bhargav Snehal Desai",
@@ -1846,7 +1846,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C6_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C6_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1870,17 +1870,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock39",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock39",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "34.74298262446241 x 24.928069643738617 x 13.858677049345221 millimeter, 13.858677049345221 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 13.858677049345221,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D6",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D6",
             "@type": "SpatialEntity",
             "label": "D6",
             "creator": "Bhargav Snehal Desai",
@@ -1894,7 +1894,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D6_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D6_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1919,17 +1919,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock40",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock40",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "19.0059370446728 x 25.1034824595896 x 20.615917533160847 millimeter, 20.615917533160847 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 20.615917533160847,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C5",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C5",
             "@type": "SpatialEntity",
             "label": "C5",
             "creator": "Bhargav Snehal Desai",
@@ -1943,7 +1943,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C5_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C5_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -1967,17 +1967,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock41",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock41",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "31.262666639120084 x 22.908800090187505 x 15.12933052797892 millimeter, 15.12933052797892 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 15.12933052797892,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D5",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D5",
             "@type": "SpatialEntity",
             "label": "D5",
             "creator": "Bhargav Snehal Desai",
@@ -1991,7 +1991,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D5_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D5_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2016,17 +2016,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock42",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock42",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "19.353818182843227 x 22.259911658083944 x 21.378023297532494 millimeter, 21.378023297532494 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 21.378023297532494,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C4",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C4",
             "@type": "SpatialEntity",
             "label": "C4",
             "creator": "Bhargav Snehal Desai",
@@ -2040,7 +2040,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C4_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C4_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2064,17 +2064,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock43",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock43",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "26.5545416566701 x 21.568940875346083 x 15.64583343424275 millimeter, 15.64583343424275 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 15.64583343424275,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D4",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D4",
             "@type": "SpatialEntity",
             "label": "D4",
             "creator": "Bhargav Snehal Desai",
@@ -2088,7 +2088,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D4_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D4_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2113,17 +2113,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock44",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock44",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "22.10306097557462 x 18.450740064999806 x 20.82062159085586 millimeter, 20.82062159085586 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 20.82062159085586,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C3",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C3",
             "@type": "SpatialEntity",
             "label": "C3",
             "creator": "Bhargav Snehal Desai",
@@ -2137,7 +2137,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C3_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C3_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2161,17 +2161,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock45",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock45",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "25.908175794464785 x 25.59768507911028 x 15.241585810108274 millimeter, 15.241585810108274 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 15.241585810108274,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D3",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D3",
             "@type": "SpatialEntity",
             "label": "D3",
             "creator": "Bhargav Snehal Desai",
@@ -2185,7 +2185,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D3_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D3_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2210,17 +2210,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock46",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock46",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "26.875976807712245 x 17.191557054801855 x 26.166762660675886 millimeter, 26.166762660675886 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 26.166762660675886,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C2",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C2",
             "@type": "SpatialEntity",
             "label": "C2",
             "creator": "Bhargav Snehal Desai",
@@ -2234,7 +2234,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C2_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C2_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2258,17 +2258,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock47",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock47",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "27.006209703669864 x 25.45501211839893 x 22.209776110606775 millimeter, 22.209776110606775 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 22.209776110606775,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D2",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D2",
             "@type": "SpatialEntity",
             "label": "D2",
             "creator": "Bhargav Snehal Desai",
@@ -2282,7 +2282,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D2_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D2_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2307,17 +2307,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock48",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock48",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "22.466750295205948 x 18.774957086990284 x 21.584554678493838 millimeter, 21.584554678493838 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 21.584554678493838,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C1",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C1",
             "@type": "SpatialEntity",
             "label": "C1",
             "creator": "Bhargav Snehal Desai",
@@ -2331,7 +2331,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#C1_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#C1_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2355,17 +2355,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock49",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock49",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "18.684127950298834 x 21.65042513713192 x 18.269295745617143 millimeter, 18.269295745617143 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 18.269295745617143,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D1",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D1",
             "@type": "SpatialEntity",
             "label": "D1",
             "creator": "Bhargav Snehal Desai",
@@ -2379,7 +2379,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#D1_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#D1_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2404,17 +2404,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock50",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock50",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "21.50425286955915 x 21.902194136494302 x 20.06283010920763 millimeter, 20.06283010920763 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 20.06283010920763,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B24",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B24",
             "@type": "SpatialEntity",
             "label": "B24",
             "creator": "Bhargav Snehal Desai",
@@ -2428,7 +2428,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B24_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B24_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2452,17 +2452,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock51",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock51",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "18.01792147843284 x 19.084033299739456 x 23.737114446650914 millimeter, 23.737114446650914 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 23.737114446650914,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A24",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A24",
             "@type": "SpatialEntity",
             "label": "A24",
             "creator": "Bhargav Snehal Desai",
@@ -2476,7 +2476,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A24_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A24_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2500,17 +2500,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock52",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock52",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "20.100825293483435 x 19.921721335529995 x 14.155262171497707 millimeter, 14.155262171497707 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 14.155262171497707,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B23",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B23",
             "@type": "SpatialEntity",
             "label": "B23",
             "creator": "Bhargav Snehal Desai",
@@ -2524,7 +2524,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B23_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B23_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2548,17 +2548,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock53",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock53",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.04878101153305 x 17.156793113621006 x 19.115721556623374 millimeter, 19.115721556623374 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 19.115721556623374,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A23",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A23",
             "@type": "SpatialEntity",
             "label": "A23",
             "creator": "Bhargav Snehal Desai",
@@ -2572,7 +2572,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A23_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A23_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2596,17 +2596,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock54",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock54",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "18.336045354522906 x 20.945142161526487 x 13.713252138394916 millimeter, 13.713252138394916 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 13.713252138394916,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B22",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B22",
             "@type": "SpatialEntity",
             "label": "B22",
             "creator": "Bhargav Snehal Desai",
@@ -2620,7 +2620,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B22_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B22_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2644,17 +2644,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock55",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock55",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.189815934760041 x 16.804877664293173 x 16.87128215703454 millimeter, 16.87128215703454 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 16.87128215703454,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A22",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A22",
             "@type": "SpatialEntity",
             "label": "A22",
             "creator": "Bhargav Snehal Desai",
@@ -2668,7 +2668,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A22_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A22_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2692,17 +2692,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock56",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock56",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "18.039366213986717 x 21.443816625046686 x 14.620323528978089 millimeter, 14.620323528978089 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 14.620323528978089,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B21",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B21",
             "@type": "SpatialEntity",
             "label": "B21",
             "creator": "Bhargav Snehal Desai",
@@ -2716,7 +2716,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B21_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B21_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2740,17 +2740,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock57",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock57",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.635978581369613 x 15.444851650041336 x 16.69546549876226 millimeter, 16.69546549876226 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 16.69546549876226,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A21",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A21",
             "@type": "SpatialEntity",
             "label": "A21",
             "creator": "Bhargav Snehal Desai",
@@ -2764,7 +2764,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A21_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A21_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2788,17 +2788,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock58",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock58",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "17.351945261708966 x 21.142821817888734 x 15.351561719175317 millimeter, 15.351561719175317 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 15.351561719175317,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B20",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B20",
             "@type": "SpatialEntity",
             "label": "B20",
             "creator": "Bhargav Snehal Desai",
@@ -2812,7 +2812,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B20_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B20_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2837,17 +2837,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock59",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock59",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.406145544711315 x 15.157309426488407 x 17.64946427991282 millimeter, 17.64946427991282 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 17.64946427991282,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A20",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A20",
             "@type": "SpatialEntity",
             "label": "A20",
             "creator": "Bhargav Snehal Desai",
@@ -2861,7 +2861,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A20_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A20_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2886,17 +2886,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock60",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock60",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "16.183927936776477 x 20.844660944247472 x 14.78405732183266 millimeter, 14.78405732183266 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 14.78405732183266,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B19",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B19",
             "@type": "SpatialEntity",
             "label": "B19",
             "creator": "Bhargav Snehal Desai",
@@ -2910,7 +2910,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B19_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B19_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2935,17 +2935,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock61",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock61",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.900274430069473 x 14.72150948489065 x 18.711821475550643 millimeter, 18.711821475550643 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 18.711821475550643,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A19",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A19",
             "@type": "SpatialEntity",
             "label": "A19",
             "creator": "Bhargav Snehal Desai",
@@ -2959,7 +2959,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A19_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A19_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -2984,17 +2984,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock62",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock62",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.103341373998962 x 21.093665564377527 x 12.896712530350074 millimeter, 12.896712530350074 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 12.896712530350074,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B18",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B18",
             "@type": "SpatialEntity",
             "label": "B18",
             "creator": "Bhargav Snehal Desai",
@@ -3008,7 +3008,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B18_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B18_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3033,17 +3033,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock63",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock63",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.696238014360125 x 14.936658116984692 x 18.86059246294973 millimeter, 18.86059246294973 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 18.86059246294973,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A18",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A18",
             "@type": "SpatialEntity",
             "label": "A18",
             "creator": "Bhargav Snehal Desai",
@@ -3057,7 +3057,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A18_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A18_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3082,17 +3082,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock64",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock64",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.526433794716297 x 20.468816624361118 x 11.341102977984546 millimeter, 11.341102977984546 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 11.341102977984546,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B17",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B17",
             "@type": "SpatialEntity",
             "label": "B17",
             "creator": "Bhargav Snehal Desai",
@@ -3106,7 +3106,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B17_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B17_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3130,17 +3130,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock65",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock65",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.108167880359847 x 15.801402156573886 x 17.351409263830927 millimeter, 17.351409263830927 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 17.351409263830927,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A17",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A17",
             "@type": "SpatialEntity",
             "label": "A17",
             "creator": "Bhargav Snehal Desai",
@@ -3154,7 +3154,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A17_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A17_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3179,17 +3179,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock66",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock66",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.480580165786986 x 19.313641047574215 x 10.63310695778108 millimeter, 10.63310695778108 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 10.63310695778108,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B16",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B16",
             "@type": "SpatialEntity",
             "label": "B16",
             "creator": "Bhargav Snehal Desai",
@@ -3203,7 +3203,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B16_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B16_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3227,17 +3227,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock67",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock67",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "18.559830136560347 x 17.982048540882754 x 15.552829212289703 millimeter, 15.552829212289703 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 15.552829212289703,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A16",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A16",
             "@type": "SpatialEntity",
             "label": "A16",
             "creator": "Bhargav Snehal Desai",
@@ -3251,7 +3251,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A16_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A16_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3275,17 +3275,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock68",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock68",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.939445455610379 x 18.54660438810063 x 9.880830481160508 millimeter, 9.880830481160508 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 9.880830481160508,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B15",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B15",
             "@type": "SpatialEntity",
             "label": "B15",
             "creator": "Bhargav Snehal Desai",
@@ -3299,7 +3299,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B15_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B15_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3323,17 +3323,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock69",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock69",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "24.35680194320347 x 21.51532671340062 x 14.335332305450477 millimeter, 14.335332305450477 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 14.335332305450477,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A15",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A15",
             "@type": "SpatialEntity",
             "label": "A15",
             "creator": "Bhargav Snehal Desai",
@@ -3347,7 +3347,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A15_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A15_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3371,17 +3371,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock70",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock70",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "17.88961707023981 x 23.48218413734099 x 10.73709296230696 millimeter, 10.73709296230696 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 10.73709296230696,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B14",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B14",
             "@type": "SpatialEntity",
             "label": "B14",
             "creator": "Bhargav Snehal Desai",
@@ -3395,7 +3395,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B14_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B14_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3419,17 +3419,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock71",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock71",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "29.0085143888347 x 24.82175358487443 x 12.739705713381017 millimeter, 12.739705713381017 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 12.739705713381017,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A14",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A14",
             "@type": "SpatialEntity",
             "label": "A14",
             "creator": "Bhargav Snehal Desai",
@@ -3443,7 +3443,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A14_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A14_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3467,17 +3467,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock72",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock72",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "19.000067899524026 x 26.962293942900615 x 15.112817868063178 millimeter, 15.112817868063178 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 15.112817868063178,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B13",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B13",
             "@type": "SpatialEntity",
             "label": "B13",
             "creator": "Bhargav Snehal Desai",
@@ -3491,7 +3491,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B13_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B13_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3515,17 +3515,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock73",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock73",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "30.405293658764542 x 26.99383582973075 x 14.113098234561527 millimeter, 14.113098234561527 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 14.113098234561527,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A13",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A13",
             "@type": "SpatialEntity",
             "label": "A13",
             "creator": "Bhargav Snehal Desai",
@@ -3539,7 +3539,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A13_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A13_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3564,17 +3564,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock74",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock74",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "18.779892804872606 x 28.567785343658393 x 19.610338990661084 millimeter, 19.610338990661084 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 19.610338990661084,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B12",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B12",
             "@type": "SpatialEntity",
             "label": "B12",
             "creator": "Bhargav Snehal Desai",
@@ -3588,7 +3588,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B12_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B12_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3613,17 +3613,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock75",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock75",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "27.179719041500462 x 28.41218724365685 x 15.44269183363612 millimeter, 15.44269183363612 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 15.44269183363612,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A12",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A12",
             "@type": "SpatialEntity",
             "label": "A12",
             "creator": "Bhargav Snehal Desai",
@@ -3637,7 +3637,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A12_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A12_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3663,17 +3663,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock76",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock76",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "17.59158452684631 x 29.87700688045508 x 23.575063482952853 millimeter, 23.575063482952853 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 23.575063482952853,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B11",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B11",
             "@type": "SpatialEntity",
             "label": "B11",
             "creator": "Bhargav Snehal Desai",
@@ -3687,7 +3687,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B11_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B11_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3712,17 +3712,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock77",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock77",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "20.698095001844592 x 29.482141452051746 x 16.70971100960611 millimeter, 16.70971100960611 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 16.70971100960611,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A11",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A11",
             "@type": "SpatialEntity",
             "label": "A11",
             "creator": "Bhargav Snehal Desai",
@@ -3736,7 +3736,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A11_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A11_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3762,17 +3762,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock78",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock78",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.360805686769243 x 31.585342827679387 x 26.554252316194184 millimeter, 26.554252316194184 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 26.554252316194184,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B10",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B10",
             "@type": "SpatialEntity",
             "label": "B10",
             "creator": "Bhargav Snehal Desai",
@@ -3786,7 +3786,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B10_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B10_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3812,17 +3812,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock79",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock79",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.833791757993321 x 31.530263549157446 x 18.851151421537494 millimeter, 18.851151421537494 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 18.851151421537494,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A10",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A10",
             "@type": "SpatialEntity",
             "label": "A10",
             "creator": "Bhargav Snehal Desai",
@@ -3836,7 +3836,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A10_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A10_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3862,17 +3862,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock80",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock80",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "12.822083395915174 x 31.341710044969883 x 28.566368315804556 millimeter, 28.566368315804556 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 28.566368315804556,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B9",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B9",
             "@type": "SpatialEntity",
             "label": "B9",
             "creator": "Bhargav Snehal Desai",
@@ -3886,7 +3886,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B9_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B9_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3912,17 +3912,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock81",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock81",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.951852474339331 x 34.03013683217537 x 21.503100792528983 millimeter, 21.503100792528983 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 21.503100792528983,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A9",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A9",
             "@type": "SpatialEntity",
             "label": "A9",
             "creator": "Bhargav Snehal Desai",
@@ -3936,7 +3936,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A9_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A9_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -3963,17 +3963,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock82",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock82",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "10.916355764155922 x 33.16086783237021 x 30.400846960019628 millimeter, 30.400846960019628 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 30.400846960019628,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B8",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B8",
             "@type": "SpatialEntity",
             "label": "B8",
             "creator": "Bhargav Snehal Desai",
@@ -3987,7 +3987,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B8_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B8_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4014,17 +4014,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock83",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock83",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "15.898684223526665 x 33.31615603900245 x 23.538433923851894 millimeter, 23.538433923851894 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 23.538433923851894,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A8",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A8",
             "@type": "SpatialEntity",
             "label": "A8",
             "creator": "Bhargav Snehal Desai",
@@ -4038,7 +4038,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A8_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A8_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4065,17 +4065,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock84",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock84",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "9.732221282466549 x 34.27816538388589 x 32.22236259001269 millimeter, 32.22236259001269 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 32.22236259001269,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B7",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B7",
             "@type": "SpatialEntity",
             "label": "B7",
             "creator": "Bhargav Snehal Desai",
@@ -4089,7 +4089,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B7_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B7_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4116,17 +4116,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock85",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock85",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "19.06461630733472 x 30.839679318009654 x 24.997780119705855 millimeter, 24.997780119705855 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 24.997780119705855,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A7",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A7",
             "@type": "SpatialEntity",
             "label": "A7",
             "creator": "Bhargav Snehal Desai",
@@ -4140,7 +4140,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A7_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A7_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4167,17 +4167,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock86",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock86",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "9.523530169906577 x 35.0485775953473 x 33.04935752703424 millimeter, 33.04935752703424 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 33.04935752703424,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B6",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B6",
             "@type": "SpatialEntity",
             "label": "B6",
             "creator": "Bhargav Snehal Desai",
@@ -4191,7 +4191,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B6_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B6_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4217,17 +4217,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock87",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock87",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "23.2358207695761 x 28.986076681290022 x 28.024211994177747 millimeter, 28.024211994177747 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 28.024211994177747,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A6",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A6",
             "@type": "SpatialEntity",
             "label": "A6",
             "creator": "Bhargav Snehal Desai",
@@ -4241,7 +4241,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A6_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A6_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4268,17 +4268,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock88",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock88",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.819525216041669 x 35.40074702205182 x 33.469832525721884 millimeter, 33.469832525721884 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 33.469832525721884,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B5",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B5",
             "@type": "SpatialEntity",
             "label": "B5",
             "creator": "Bhargav Snehal Desai",
@@ -4292,7 +4292,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B5_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B5_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4318,17 +4318,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock89",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock89",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "25.008560326117646 x 28.65531478774072 x 30.691018789507307 millimeter, 30.691018789507307 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 30.691018789507307,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A5",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A5",
             "@type": "SpatialEntity",
             "label": "A5",
             "creator": "Bhargav Snehal Desai",
@@ -4342,7 +4342,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A5_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A5_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4368,17 +4368,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock90",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock90",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.932230514782423 x 35.02485725895199 x 32.500259906857465 millimeter, 32.500259906857465 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 32.500259906857465,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B4",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B4",
             "@type": "SpatialEntity",
             "label": "B4",
             "creator": "Bhargav Snehal Desai",
@@ -4392,7 +4392,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B4_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B4_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4418,17 +4418,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock91",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock91",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "24.476576495013614 x 27.815694401173957 x 32.155649288210434 millimeter, 32.155649288210434 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 32.155649288210434,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A4",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A4",
             "@type": "SpatialEntity",
             "label": "A4",
             "creator": "Bhargav Snehal Desai",
@@ -4442,7 +4442,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A4_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A4_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4468,17 +4468,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock92",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock92",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "16.507892663752457 x 32.14451702745025 x 29.238812049075275 millimeter, 29.238812049075275 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 29.238812049075275,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B3",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B3",
             "@type": "SpatialEntity",
             "label": "B3",
             "creator": "Bhargav Snehal Desai",
@@ -4492,7 +4492,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B3_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B3_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4517,17 +4517,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock93",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock93",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "21.48101027977916 x 26.645614875486974 x 29.717403180449715 millimeter, 29.717403180449715 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 29.717403180449715,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A3",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A3",
             "@type": "SpatialEntity",
             "label": "A3",
             "creator": "Bhargav Snehal Desai",
@@ -4541,7 +4541,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A3_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A3_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4566,17 +4566,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock94",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock94",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "16.475200452905167 x 28.15749149014263 x 22.763525648223204 millimeter, 22.763525648223204 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 22.763525648223204,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B2",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B2",
             "@type": "SpatialEntity",
             "label": "B2",
             "creator": "Bhargav Snehal Desai",
@@ -4590,7 +4590,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B2_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B2_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4615,17 +4615,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock95",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock95",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "16.932467804241362 x 25.037835012914705 x 24.158949900527777 millimeter, 24.158949900527777 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 24.158949900527777,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A2",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A2",
             "@type": "SpatialEntity",
             "label": "A2",
             "creator": "Bhargav Snehal Desai",
@@ -4639,7 +4639,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A2_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A2_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4664,17 +4664,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock96",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock96",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "14.189191261989974 x 23.072062559111455 x 15.587464852724997 millimeter, 15.587464852724997 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 15.587464852724997,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B1",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B1",
             "@type": "SpatialEntity",
             "label": "B1",
             "creator": "Bhargav Snehal Desai",
@@ -4688,7 +4688,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#B1_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#B1_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,
@@ -4713,17 +4713,17 @@
           }
         },
         {
-          "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#Donor1_TissueBlock97",
+          "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#Donor1_TissueBlock97",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 7/6/2024, Bhargav Snehal Desai, MC-IU",
           "description": "11.360601597485712 x 18.34146409607612 x 13.566198965965059 millimeter, 13.566198965965059 millimeter",
-          "link": "https://purl.humanatlas.io/millitome/generic-pancreas-female",
+          "link": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl",
           "section_count": 0,
           "section_size": 13.566198965965059,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A1",
+            "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A1",
             "@type": "SpatialEntity",
             "label": "A1",
             "creator": "Bhargav Snehal Desai",
@@ -4737,7 +4737,7 @@
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-              "@id": "https://purl.humanatlas.io/millitome/generic-pancreas-female#A1_placement",
+              "@id": "https://purl.humanatlas.io/millitome/pancreas-female-pnnl#A1_placement",
               "@type": "SpatialPlacement",
               "placement_date": "2024-08-07",
               "x_scaling": 1,

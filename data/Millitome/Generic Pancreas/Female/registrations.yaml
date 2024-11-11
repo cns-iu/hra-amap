@@ -4,9 +4,9 @@
   provider_name: MC-IU
   provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
   defaults:
-    id: https://purl.humanatlas.io/millitome/generic-pancreas-female
+    id: https://purl.humanatlas.io/millitome/pancreas-female-pnnl
     thumbnail: assets/icons/ico-unknown.svg
-    link: https://purl.humanatlas.io/millitome/generic-pancreas-female
+    link: https://purl.humanatlas.io/millitome/pancreas-female-pnnl
   donors:
   - sex: Female
     samples:
