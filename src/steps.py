@@ -121,8 +121,8 @@ def nonrigid_registration(source, target, params):
     target_array = pointcloud_to_numpy(target)
 
     # save the source and target point clouds as .txt
-    np.savetxt(f"../bcpd/source.txt", source_array, delimiter=',')
-    np.savetxt(f"../bcpd/target.txt", target_array, delimiter=',')
+    np.savetxt(f"../../bcpd/source.txt", source_array, delimiter=',')
+    np.savetxt(f"../../bcpd/target.txt", target_array, delimiter=',')
 
     # build registration args 
     reigstration_args = ['./bcpd', 
@@ -148,17 +148,17 @@ def nonrigid_registration(source, target, params):
         reigstration_args.extend(['-D', str(params['downsampling'])])
 
     # register using BCPD
-    result = subprocess.run(reigstration_args, cwd="../bcpd", capture_output=True)
+    result = subprocess.run(reigstration_args, cwd="../../bcpd", capture_output=True)
     
     # read transformations
     if 'downsampling' in params:
-        downsampled_source = np.genfromtxt('../bcpd/output_normY.txt')
-        dvf = np.genfromtxt('../bcpd/output_u.txt') - downsampled_source
+        downsampled_source = np.genfromtxt('../../bcpd/output_normY.txt')
+        dvf = np.genfromtxt('../../bcpd/output_u.txt') - downsampled_source
     else:
-        dvf = np.genfromtxt('../bcpd/output_u.txt') - source_array
-    translation = txt_to_numpy('../bcpd/output_t.txt')
-    scale = txt_to_numpy('../bcpd/output_s.txt').item()
-    rotation = txt_to_numpy('../bcpd/output_r.txt')
+        dvf = np.genfromtxt('../../bcpd/output_u.txt') - source_array
+    translation = txt_to_numpy('../../bcpd/output_t.txt')
+    scale = txt_to_numpy('../../bcpd/output_s.txt').item()
+    rotation = txt_to_numpy('../../bcpd/output_r.txt')
     
     # create transform
     transform = Transform(scale=scale, rotate=rotation, translate=translation, deformation_vector_field=dvf)
@@ -169,10 +169,10 @@ def nonrigid_registration(source, target, params):
         downsampled_source = transform(downsampled_source)
         # transform the original source using the interpolated DVF calculated
         source = transform(source)
-        registered = numpy_to_pointcloud(txt_to_numpy('../bcpd/output_y.interpolated.txt'))
+        registered = numpy_to_pointcloud(txt_to_numpy('../../bcpd/output_y.interpolated.txt'))
     else:
         source = transform(source)
-        registered = numpy_to_pointcloud(txt_to_numpy('../bcpd/output_y.txt'))
+        registered = numpy_to_pointcloud(txt_to_numpy('../../bcpd/output_y.txt'))
 
     # store outputs
     outputs = {'Source': source, 

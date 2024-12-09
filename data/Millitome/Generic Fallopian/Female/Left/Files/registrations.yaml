@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HRA
+  provider_name: MC-IU
+  provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
+  defaults:
+    id: https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left
+    thumbnail: assets/icons/ico-unknown.svg
+    link: https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left
+  donors:
+  - sex: Female
+    samples:
+    - rui_location: 19-20-21-22-23-24.json
+    - rui_location: 16-17-18.json
+    - rui_location: 13-14-15.json

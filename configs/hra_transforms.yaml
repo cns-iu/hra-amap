@@ -1,3 +1,45 @@
+VHFLeftFallopianTube:
+  scaling: 
+    - 1.0
+    - 1.0
+    - 1.0
+  rotation: 
+    - 0
+    - 0 
+    - 0
+  translation: 
+    - -12.0652765
+    - -40.887355799999995
+    - 52.033919999999995
+
+VHFRightFallopianTube:
+  scaling: 
+    - 1.0
+    - 1.0
+    - 1.0
+  rotation: 
+    - 0
+    - 0 
+    - 0
+  translation: 
+    - 73.73370999999999
+    - -39.8927853
+    - 57.979620000000004
+
+VHFUterus:
+  scaling: 
+    - 1.0
+    - 1.0
+    - 1.0
+  rotation: 
+    - 0
+    - 0 
+    - 0
+  translation: 
+    - 39.745044
+    - -6.2188454900000005
+    - 86.19217
+
 VHFLeftOvary:
   scaling: 
     - 1.0

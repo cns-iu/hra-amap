@@ -1,0 +1,166 @@
+{
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+  "@graph": [
+    {
+      "@id": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left#Donor1",
+      "@type": "Donor",
+      "label": "Female",
+      "description": "Entered 10/26/2024, Bhargav Snehal Desai, MC-IU",
+      "link": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left",
+      "consortium_name": "HRA",
+      "provider_name": "MC-IU",
+      "provider_uuid": "87751d4c-a850-4e2c-84dc-da6a797d76de",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left#Donor1_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/26/2024, Bhargav Snehal Desai, MC-IU",
+          "description": "6.674893195851295 x 12.398762665320737 x 7.298749315020281 millimeter, 7.298749315020281 millimeter",
+          "link": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left",
+          "section_count": 0,
+          "section_size": 7.298749315020281,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left#19-20-21-22-23-24",
+            "@type": "SpatialEntity",
+            "label": "19-20-21-22-23-24",
+            "creator": "Bhargav Snehal Desai",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
+            "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
+            "creation_date": "2024-11-26",
+            "x_dimension": 6.674893195851295,
+            "y_dimension": 12.398762665320737,
+            "z_dimension": 7.298749315020281,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left#19-20-21-22-23-24_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-11-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 28.333054942887536,
+              "y_translation": 36.209642821336544,
+              "z_translation": 5.383336757911958,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftFallopianTube"
+            },
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18498",
+              "http://purl.org/sig/ont/fma/fma18490"
+            ]
+          }
+        },
+        {
+          "@id": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left#Donor1_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/26/2024, Bhargav Snehal Desai, MC-IU",
+          "description": "13.683585961716958 x 35.34621904579638 x 16.218565566945774 millimeter, 16.218565566945774 millimeter",
+          "link": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left",
+          "section_count": 0,
+          "section_size": 16.218565566945774,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left#16-17-18",
+            "@type": "SpatialEntity",
+            "label": "16-17-18",
+            "creator": "Bhargav Snehal Desai",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
+            "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
+            "creation_date": "2024-11-26",
+            "x_dimension": 13.683585961716958,
+            "y_dimension": 35.34621904579638,
+            "z_dimension": 16.218565566945774,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left#16-17-18_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-11-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 32.47898322515423,
+              "y_translation": 26.46940323127571,
+              "z_translation": 10.855511827663054,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftFallopianTube"
+            },
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18498",
+              "http://purl.org/sig/ont/fma/fma18492",
+              "http://purl.org/sig/ont/fma/fma18490"
+            ]
+          }
+        },
+        {
+          "@id": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left#Donor1_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/26/2024, Bhargav Snehal Desai, MC-IU",
+          "description": "31.044544334791105 x 13.987070221577039 x 6.143024255450075 millimeter, 6.143024255450075 millimeter",
+          "link": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left",
+          "section_count": 0,
+          "section_size": 6.143024255450075,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left#13-14-15",
+            "@type": "SpatialEntity",
+            "label": "13-14-15",
+            "creator": "Bhargav Snehal Desai",
+            "creator_first_name": "Bhargav Snehal",
+            "creator_last_name": "Desai",
+            "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
+            "creation_date": "2024-11-26",
+            "x_dimension": 31.044544334791105,
+            "y_dimension": 13.987070221577039,
+            "z_dimension": 6.143024255450075,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+              "@id": "https://purl.humanatlas.io/millitome/generic-fallopiantube-female-left#13-14-15_placement",
+              "@type": "SpatialPlacement",
+              "placement_date": "2024-11-26",
+              "x_scaling": 1,
+              "y_scaling": 1,
+              "z_scaling": 1,
+              "scaling_units": "ratio",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "rotation_order": "XYZ",
+              "rotation_units": "degree",
+              "x_translation": 16.198131536088624,
+              "y_translation": 8.604680380756562,
+              "z_translation": 15.35858920538622,
+              "translation_units": "millimeter",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftFallopianTube"
+            },
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18492",
+              "http://purl.org/sig/ont/fma/fma18494"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

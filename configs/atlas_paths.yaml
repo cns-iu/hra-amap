@@ -23,6 +23,9 @@ Reference Datasets:
   HRA Large Intestine (Female): "../data/Colon/Reference/SBU_F_Intestine_Large.glb"
   HRA Ovary (Female, Left): "../data/Ovary/Reference/VH_F_Ovary_L.glb" 
   HRA Ovary (Female, Right): "../data/Ovary/Reference/VH_F_Ovary_R.glb" 
+  HRA Fallopian Tube (Female, Left): "../data/Fallopian Tube/Reference/3d-vh-f-fallopian-tube-l.glb"
+  HRA Fallopian Tube (Female, Right): "../data/Fallopian Tube/Reference/3d-vh-f-fallopian-tube-r.glb"
+  HRA Uterus (Female): "../data/Uterus/Reference/VH_F_Uterus.glb"
 
 RUI:
   VHMAllenBrain: "../data/Brain/Reference/Allen_M_Brain.glb"
@@ -35,3 +38,6 @@ RUI:
   VHMPancreas: "../data/Pancreas/Reference/VH_M_Pancreas.glb"
   VHFLeftOvary: "../data/Ovary/Reference/VH_F_Ovary_L.glb"
   VHFRightOvary: "../data/Ovary/Reference/VH_F_Ovary_R.glb"
+  VHFLeftFallopianTube: "../data/Fallopian Tube/Reference/3d-vh-f-fallopian-tube-l.glb"
+  VHFRightFallopianTube: "../data/Fallopian Tube/Reference/3d-vh-f-fallopian-tube-r.glb"
+  VHFUterua: "../data/Uterus/Reference/VH_F_Uterus.glb"
