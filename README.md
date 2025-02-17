@@ -40,6 +40,7 @@ pip install pyvista
 pip install point-cloud-utils
 pip install rtree
 pip install seaborn
+pip install scikit-learn
 ```
 
 5. To run a quick registration using the provided pipeline, please see ```notebooks/Usage.ipynb```. Make sure to set appropriate parts in the code on your local system. 
