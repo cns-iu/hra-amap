@@ -46,3 +46,15 @@ pip install scikit-learn
 5. To run a quick registration using the provided pipeline, please see ```notebooks/Usage.ipynb```. Make sure to set appropriate parts in the code on your local system. 
 
 6. Additionally, to create RUI JSONs for Millitomes (as shown in `Millitome.ipynb`), one needs to install [Node.js] (https://nodejs.org/en/download/) and run ```npx github:hubmapconsortium/hra-rui-locations-processor help```
+
+7. List of Millitomes
+
+| Millitomes                                      | Data Provider                                       | Institution | Link To Resources                                                                 |
+|-------------------------------------------------|----------------------------------------------------|-------------|----------------------------------------------------------------------------------|
+| hubmap-kidney_millitome-spraggins-2024           | Jamie Allen                                        | VU          | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-kidney_millitome-spraggins-2024) |
+| hubmap-pancreas_millitome-saunders-2024          | Angela Kruse and Diane Saunders                    | VU          | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-pancreas_millitome-saunders-2024) |
+| hubmap-pancreas_millitome-thompson-2024          | Jing Chen, James Carson, Martha Campbell Thompson  | UF          | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-pancreas_millitome-thompson-2024) |
+| hubmap-ovary_millitome-fisher-2024               | Stephen Fisher, Erik Nogden                        | UPenn       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-ovary_millitome-fisher-2024) |
+| hubmap-uterus_millitome-fisher-2024              | Stephen Fisher, Erik Nogden                        | UPenn       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-uterus_millitome-fisher-2024) |
+| hubmap-fallopian_tube_millitome-fisher-2024      | Stephen Fisher, Erik Nogden                        | UPenn       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-fallopian_tube_millitome-fisher-2024) |
+| allen-brain_millitome-linnarsson-2023            | Jeremy Miller, Ashwin Bhandiwad, Lydia Ng          | Allen       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/allen-brain_millitome-linnarsson-2022) |
