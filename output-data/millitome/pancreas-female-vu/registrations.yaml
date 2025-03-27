@@ -1,0 +1,109 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HRA
+  provider_name: MC-IU
+  provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
+  defaults:
+    id: https://purl.humanatlas.io/millitome/generic-pancreas-female
+    thumbnail: assets/icons/ico-unknown.svg
+    link: https://purl.humanatlas.io/millitome/generic-pancreas-female
+  donors:
+  - sex: Female
+    samples:
+    - rui_location: 25.json
+    - rui_location: C24.json
+    - rui_location: D24.json
+    - rui_location: C23.json
+    - rui_location: D23.json
+    - rui_location: C22.json
+    - rui_location: D22.json
+    - rui_location: C21.json
+    - rui_location: D21.json
+    - rui_location: C20.json
+    - rui_location: D20.json
+    - rui_location: C19.json
+    - rui_location: D19.json
+    - rui_location: C18.json
+    - rui_location: D18.json
+    - rui_location: C17.json
+    - rui_location: D17.json
+    - rui_location: C16.json
+    - rui_location: D16.json
+    - rui_location: C15.json
+    - rui_location: D15.json
+    - rui_location: C14.json
+    - rui_location: D14.json
+    - rui_location: C13.json
+    - rui_location: D13.json
+    - rui_location: C12.json
+    - rui_location: D12.json
+    - rui_location: C11.json
+    - rui_location: D11.json
+    - rui_location: C10.json
+    - rui_location: D10.json
+    - rui_location: C9.json
+    - rui_location: D9.json
+    - rui_location: C8.json
+    - rui_location: D8.json
+    - rui_location: C7.json
+    - rui_location: D7.json
+    - rui_location: C6.json
+    - rui_location: D6.json
+    - rui_location: C5.json
+    - rui_location: D5.json
+    - rui_location: C4.json
+    - rui_location: D4.json
+    - rui_location: C3.json
+    - rui_location: D3.json
+    - rui_location: C2.json
+    - rui_location: D2.json
+    - rui_location: C1.json
+    - rui_location: D1.json
+    - rui_location: B24.json
+    - rui_location: A24.json
+    - rui_location: B23.json
+    - rui_location: A23.json
+    - rui_location: B22.json
+    - rui_location: A22.json
+    - rui_location: B21.json
+    - rui_location: A21.json
+    - rui_location: B20.json
+    - rui_location: A20.json
+    - rui_location: B19.json
+    - rui_location: A19.json
+    - rui_location: B18.json
+    - rui_location: A18.json
+    - rui_location: B17.json
+    - rui_location: A17.json
+    - rui_location: B16.json
+    - rui_location: A16.json
+    - rui_location: B15.json
+    - rui_location: A15.json
+    - rui_location: B14.json
+    - rui_location: A14.json
+    - rui_location: B13.json
+    - rui_location: A13.json
+    - rui_location: B12.json
+    - rui_location: A12.json
+    - rui_location: B11.json
+    - rui_location: A11.json
+    - rui_location: B10.json
+    - rui_location: A10.json
+    - rui_location: B9.json
+    - rui_location: A9.json
+    - rui_location: B8.json
+    - rui_location: A8.json
+    - rui_location: B7.json
+    - rui_location: A7.json
+    - rui_location: B6.json
+    - rui_location: A6.json
+    - rui_location: B5.json
+    - rui_location: A5.json
+    - rui_location: B4.json
+    - rui_location: A4.json
+    - rui_location: B3.json
+    - rui_location: A3.json
+    - rui_location: B2.json
+    - rui_location: A2.json
+    - rui_location: B1.json
+    - rui_location: A1.json
