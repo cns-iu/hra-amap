@@ -47,7 +47,7 @@ pip install scikit-learn
 
 6. Additionally, to create RUI JSONs for Millitomes (as shown in `Millitome.ipynb`), one needs to install [Node.js] (https://nodejs.org/en/download/) and run ```npx github:hubmapconsortium/hra-rui-locations-processor help```
 
-7. List of Millitomes
+## List of Millitomes
 
 | Millitomes                                      | Data Provider                                       | Institution | Link To Resources                                                                 |
 |-------------------------------------------------|----------------------------------------------------|-------------|----------------------------------------------------------------------------------|
