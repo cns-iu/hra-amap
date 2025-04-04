@@ -9,7 +9,7 @@ from pathlib import Path
 from copy import deepcopy
 from datetime import datetime
 from functools import lru_cache
-from dataclass import Transform
+from src.registration.dataclass import Transform
 from utils.io import read_yaml, write_json
 from utils.conversions import to_pointcloud, to_array, split_transform
 

@@ -4,18 +4,18 @@ import numpy as np
 
 from pathlib import Path
 
-from dataclass import Transform
-from utils.io import load, read_yaml
-from utils.conversions import to_array, to_pointcloud
+from src.registration.dataclass import Transform
+from src.utils.io import load, read_yaml
+from src.utils.conversions import to_array, to_pointcloud
 
 class Organ(trimesh.Trimesh):
-    def __init__(self, path: str, metadata: dict = None) -> None:
+    def __init__(self, path: str, mapping_path, transform_path, metadata: dict = None) -> None:
         super(Organ, self).__init__()
         self.path = Path(path)
         self.name = self.path.stem
         self.file_type = self.path.suffix if self.path.suffix else '.glb'
-        self.mappings = read_yaml('../configs/atlas_paths.yaml')
-        self.hra_transforms = read_yaml('../configs/hra_transforms.yaml')
+        self.mappings = read_yaml(mapping_path)
+        self.hra_transforms = read_yaml(transform_path)
         if metadata:
             self.metadata = metadata
         if self.name in self.mappings['RUI']:

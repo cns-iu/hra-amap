@@ -1,7 +1,7 @@
 import numpy as np
 import point_cloud_utils as pcu
 
-from utils.conversions import mesh_to_numpy
+from src.utils.conversions import mesh_to_numpy
 
 def sinkhorn(target_mesh, registered_mesh):
     dec_ref, dec_reg = target_mesh.simplify_quadratic_decimation(20000), registered_mesh.simplify_quadratic_decimation(20000)

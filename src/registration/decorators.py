@@ -1,4 +1,4 @@
-from dataclass import PipelineStep
+from src.registration.dataclass import PipelineStep
 
 
 def step(name, description):

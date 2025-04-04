@@ -5,8 +5,8 @@ import open3d as o3d
 
 from typing import Any, Optional
 from dataclasses import dataclass
-from utils.preprocess import mean
-from utils.conversions import to_array, to_pointcloud, to_mesh
+from src.utils.preprocess import mean
+from src.utils.conversions import to_array, to_pointcloud, to_mesh
 
 from copy import deepcopy
 from pathlib import Path
@@ -104,9 +104,9 @@ class Projection:
             cls = pickle.load(file)
         return cls
          
-    def export(self, path: str):
+    def export(self, path: str, folder_name: str):
         # create the parent directory with the id
-        parent_dir = Path(f'{path}-{self.id}')
+        parent_dir = Path(f'{path}/{folder_name}-{self.id}') 
         parent_dir.mkdir()
 
         # save as pickle

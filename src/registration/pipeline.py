@@ -4,11 +4,11 @@ import uuid
 from copy import deepcopy
 from scipy.spatial import distance
 
-from organ import Organ
-from dataclass import Projection
-from steps import *
-from utils.conversions import to_mesh
-from utils.metrics import sinkhorn, chamfer, hausdorff
+from src.registration.organ import Organ
+from src.registration.dataclass import Projection
+from src.registration.steps import *
+from src.utils.conversions import to_mesh
+from src.utils.metrics import sinkhorn, chamfer, hausdorff
 
 
 class Pipeline():

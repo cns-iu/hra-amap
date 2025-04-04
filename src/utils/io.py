@@ -6,7 +6,7 @@ import open3d as o3d
 from pathlib import Path
 from datetime import datetime
 
-from utils.conversions import pointcloud_to_mesh, ply_to_mesh, nii_to_mesh, vtk_to_mesh
+from src.utils.conversions import pointcloud_to_mesh, ply_to_mesh, nii_to_mesh, vtk_to_mesh
 
 def load(file_name: str, file_type: str) -> trimesh.Trimesh:
     """Loads a mesh from a local path"""
