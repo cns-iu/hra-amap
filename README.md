@@ -61,9 +61,10 @@ pip install scikit-learn
 
 
 ### Registration Stage 1 : 
-This command executes the first stage of the 3D model registration process.
+This command executes the first stage of the 3D model registration process. It takes a source and target organ file along with optional configuration files as input, then processes them to generate a registration pipeline pickle file for further stages.
 
 Usage:
+```
 python -m scripts.registration_stage_1 \
     --source_path <path_to_source_file> \
     --target_path <path_to_target_file> \
@@ -72,6 +73,7 @@ python -m scripts.registration_stage_1 \
     [--transform_config_path <path_to_transform>] \
     [--pipeline_name <name>] \
     [--pipeline_description <description>]
+```
 
 | Argument                 | Type   | Required | Description |
 |--------------------------|--------|----------|-------------|
