@@ -1,7 +1,7 @@
 import numpy as np
 import open3d as o3d
 
-from src.utils.conversions import to_array, to_mesh, to_pointcloud
+from hra_amap.utils.conversions import to_array, to_mesh, to_pointcloud
 
 
 def mean(geometry):

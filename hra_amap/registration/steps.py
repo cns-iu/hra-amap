@@ -2,10 +2,10 @@ import subprocess
 import numpy as np
 import open3d as o3d
 
-from src.registration.decorators import step
-from src.registration.dataclass import Transform
-from src.utils.conversions import pointcloud_to_numpy, numpy_to_pointcloud, txt_to_numpy, pointcloud_to_mesh
-from src.utils.preprocess import scale, compute_features
+from hra_amap.registration.decorators import step
+from hra_amap.registration.dataclass import Transform
+from hra_amap.utils.conversions import pointcloud_to_numpy, numpy_to_pointcloud, txt_to_numpy, pointcloud_to_mesh
+from hra_amap.utils.preprocess import scale, compute_features
 
 @step(name='Normalize ICP', description='Scale organs to a common range about the centre')
 def normalize_rigid(source, target):

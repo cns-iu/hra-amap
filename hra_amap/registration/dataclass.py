@@ -5,8 +5,8 @@ import open3d as o3d
 
 from typing import Any, Optional
 from dataclasses import dataclass
-from src.utils.preprocess import mean
-from src.utils.conversions import to_array, to_pointcloud, to_mesh
+from hra_amap.utils.preprocess import mean
+from hra_amap.utils.conversions import to_array, to_pointcloud, to_mesh
 
 from copy import deepcopy
 from pathlib import Path

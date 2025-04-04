@@ -47,7 +47,7 @@ pip install scikit-learn
 
 6. Additionally, to create RUI JSONs for Millitomes (as shown in `Millitome.ipynb`), one needs to install [Node.js] (https://nodejs.org/en/download/) and run ```npx github:hubmapconsortium/hra-rui-locations-processor help```
 
-## List of Millitomes
+## List of Millitome Based Registrations
 
 | Millitomes                                      | Data Provider                                       | Institution | Link To Resources                                                                 |
 |-------------------------------------------------|----------------------------------------------------|-------------|----------------------------------------------------------------------------------|
@@ -58,3 +58,28 @@ pip install scikit-learn
 | hubmap-uterus_millitome-fisher-2024              | Stephen Fisher, Erik Nogden                        | UPenn       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-uterus_millitome-fisher-2024) |
 | hubmap-fallopian_tube_millitome-fisher-2024      | Stephen Fisher, Erik Nogden                        | UPenn       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-fallopian_tube_millitome-fisher-2024) |
 | allen-brain_millitome-linnarsson-2023            | Jeremy Miller, Ashwin Bhandiwad, Lydia Ng          | Allen       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/allen-brain_millitome-linnarsson-2022) |
+
+
+### Registration Stage 1 : 
+This command executes the first stage of the 3D model registration process.
+
+Usage:
+python -m scripts.registration_stage_1 \
+    --source_path <path_to_source_file> \
+    --target_path <path_to_target_file> \
+    [--params_config_path <path_to_config>] \
+    [--atlas_config_path <path_to_atlas>] \
+    [--transform_config_path <path_to_transform>] \
+    [--pipeline_name <name>] \
+    [--pipeline_description <description>]
+
+| Argument                 | Type   | Required | Description |
+|--------------------------|--------|----------|-------------|
+| `--source_path`          | `Path` | **Yes**  | Path to the **source** 3D model file (`.glb` file). |
+| `--target_path`          | `Path` | **Yes**  | Path to the **target** 3D model file (`.glb` file). |
+| `--params_config_path`   | `Path` | No       | Path to the **non-rigid registration** config file. |
+| `--atlas_config_path`    | `Path` | No       | Path to the **mapping atlas** configuration file. |
+| `--transform_config_path`| `Path` | No       | Path to the **HRA transformations** configuration file. |
+| `--pipeline_name`        | `str`  | No       | Name of the **pipeline** being executed. |
+| `--pipeline_description` | `str`  | No       | Description of the **registration pipeline**. |
+
