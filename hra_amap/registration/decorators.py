@@ -1,4 +1,4 @@
-from src.registration.dataclass import PipelineStep
+from hra_amap.registration.dataclass import PipelineStep
 
 
 def step(name, description):

@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="src",
+    name="hra_amap",
     version="1.0",
-    package_dir={'src': 'src'},
-    packages = ['src.registration', 'src.utils']
+    package_dir={'hra_amap': 'hra_amap'},
+    packages = ['hra_amap.registration', 'hra_amap.utils']
 )

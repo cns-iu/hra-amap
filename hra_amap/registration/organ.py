@@ -4,9 +4,9 @@ import numpy as np
 
 from pathlib import Path
 
-from src.registration.dataclass import Transform
-from src.utils.io import load, read_yaml
-from src.utils.conversions import to_array, to_pointcloud
+from hra_amap.registration.dataclass import Transform
+from hra_amap.utils.io import load, read_yaml
+from hra_amap.utils.conversions import to_array, to_pointcloud
 
 class Organ(trimesh.Trimesh):
     def __init__(self, path: str, mapping_path, transform_path, metadata: dict = None) -> None:
