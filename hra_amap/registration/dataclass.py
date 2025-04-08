@@ -104,10 +104,10 @@ class Projection:
             cls = pickle.load(file)
         return cls
          
-    def export(self, path: str, folder_name: str):
+    def export(self, path: str):
         # create the parent directory with the id
-        parent_dir = Path(f'{path}/{folder_name}-{self.id}') 
-        parent_dir.mkdir()
+        parent_dir = Path(f'{path}') 
+        # parent_dir.mkdir()
 
         # save as pickle
         with open(parent_dir / 'projections.pickle', 'wb') as file:
