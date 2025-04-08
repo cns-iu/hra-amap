@@ -2,8 +2,6 @@ import argparse
 from pathlib import Path
 from hra_amap.registration.organ import Organ
 from hra_amap.registration.pipeline import Pipeline
-from hra_amap.utils.path import extract_relative_path
-from hra_amap.utils.path import create_directory
 
 REGISTRATION_CONFIG =  {
     "pipeline_name" : "millitome_projections",
@@ -13,9 +11,8 @@ REGISTRATION_CONFIG =  {
     "mapping_config" : Path('configs/atlas_paths.yaml')
 }
 
-RAW_DATA_DIR = "raw-data"
 
-def generate_projection(source_path: Path, target_path: Path, param_config_path: Path, mapping_config_path: Path, transform_config_path: Path, pipeline_name: str, pipeline_discription:str):
+def generate_projection(source_path: Path, target_path: Path, output_path: Path, param_config_path: Path, mapping_config_path: Path, transform_config_path: Path, pipeline_name: str, pipeline_discription:str):
     if not source_path.exists():
         raise FileNotFoundError(f"Source path not found: {source_path}")
     if not target_path.exists():
@@ -29,16 +26,15 @@ def generate_projection(source_path: Path, target_path: Path, param_config_path:
         description= pipeline_discription,
         params=param_config_path
     )
-    
-    relative_path = extract_relative_path(source_path)
-    projection_dir = create_directory(RAW_DATA_DIR, relative_path)
+
     projections = pipeline.run(source=source, target=target)
-    projections.export(path=str(projection_dir))
+    projections.export(path=str(output_path))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Millitome Registrations stage 1')
     parser.add_argument('--source_path', type=Path, required=True, help="Path to source organ file")
     parser.add_argument('--target_path', type=Path, required=True, help="Path to target organ file")
+    parser.add_argument('--output_path',type=Path, required= True, help="path to store projections pickle file")
     parser.add_argument('--params_config_path', type=Path, required=False, help="Path to non rigid registration config file", default = REGISTRATION_CONFIG["params"])
     parser.add_argument('--atlas_config_path', type=Path, required= False, help="Path to mapping atlas path", default = REGISTRATION_CONFIG["mapping_config"])
     parser.add_argument('--transform_config_path', type=Path, required=False, help="Path to hra transformations", default = REGISTRATION_CONFIG["transform_config"])
@@ -48,6 +44,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     try:
-        generate_projection(args.source_path, args.target_path, args.params_config_path, args.atlas_config_path, args.transform_config_path, args.pipeline_name, args.pipeline_discription)
+        generate_projection(args.source_path, args.target_path, args.output_path, args.params_config_path, args.atlas_config_path, args.transform_config_path, args.pipeline_name, args.pipeline_discription)
     except Exception as e:
         raise
+
+
+# python -m scripts.registration_stage_1 \
+#     --source_path input-data/millitome/pancreas-male-vu/source/generic-pancreas-organ.glb \
+#     --target_path input-data/millitome/pancreas-male-vu/target/VH_M_Pancreas.glb\
+#     --output_path raw-data/millitome/pancreas-female-vu/v.0.0.1
