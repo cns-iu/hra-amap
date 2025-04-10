@@ -10,9 +10,8 @@ from copy import deepcopy
 from datetime import datetime
 from functools import lru_cache
 from hra_amap.registration.dataclass import Transform
-from utils.io import read_yaml, write_json
-from utils.conversions import to_pointcloud, to_array, split_transform
-
+from hra_amap.utils.io import read_yaml, write_json
+from hra_amap.utils.conversions import to_pointcloud, to_array, split_transform
 
 class DivisionFactor(Enum):
     millimeter = 1e3
@@ -27,8 +26,8 @@ class TissueBlock(trimesh.Trimesh):
             self.donor = donor
         if metadata:
             self.metadata = metadata
-        self.mappings = read_yaml('../configs/atlas_paths.yaml')
-        self.hra_transforms = read_yaml('../configs/hra_transforms.yaml')
+        self.mappings = read_yaml('configs/atlas_paths.yaml')
+        self.hra_transforms = read_yaml('configs/hra_transforms.yaml')
 
     @property
     def pointcloud(self):
