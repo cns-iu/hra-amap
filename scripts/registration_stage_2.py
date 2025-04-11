@@ -43,9 +43,6 @@ class TissueBlockGenerator:
         self.registration_dict[self.rui_location_key]['creation_date'] = date_today
         self.registration_dict[self.rui_location_key]['placement']['placement_date'] = date_today
 
-        # TODO: This line will not be required in the future once provider_uuid is handled.
-        self.registration_dict[self.donor_data_key]['provider_uuid'] = str(uuid.UUID(int=rd.getrandbits(128), version=4))
-
     def generate_blocks(self):
         self.load_registration_data()
         millitome = trimesh.load(self.source)
