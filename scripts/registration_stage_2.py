@@ -16,35 +16,36 @@ class TissueBlockGenerator:
     input_files = 'input_files'
     source = 'source'
     target_name = 'target_name'
-    def __init__(self, registration_data_path : Path):
-        self.registration_data_path = registration_data_path
-        self.registration_dict = {}
+    def __init__(self, config : Path):
+        self.config = config
+        self.config_dict = {}
         self.tissue_blocks = []
     
     def load_registration_data(self):
-        with open(self.registration_data_path, "r") as file:
-            self.registration_dict = yaml.safe_load(file)
+        with open(self.config, "r") as file:
+            self.config_dict = yaml.safe_load(file)
 
     def update_id_label_date(self, label):
-        donor_id = self.registration_dict[self.donor_data_key]['id']
-        self.registration_dict[self.rui_location_key]['@id'] = f"{donor_id}#{label}"
-        self.registration_dict[self.rui_location_key]['placement']['@id'] =  f"{donor_id}#{label}_placement"
+        donor_id = self.config_dict[self.donor_data_key]['id']
+        self.config_dict[self.rui_location_key]['@id'] = f"{donor_id}#{label}"
+        self.config_dict[self.rui_location_key]['placement']['@id'] =  f"{donor_id}#{label}_placement"
 
-        self.registration_dict[self.donor_data_key]['label'] = label
-        self.registration_dict[self.rui_location_key]['label'] = label
+        self.config_dict[self.donor_data_key]['label'] = label
+        self.config_dict[self.rui_location_key]['label'] = label
         
         date_today = datetime.today().strftime('%Y-%m-%d')
-        self.registration_dict[self.rui_location_key]['creation_date'] = date_today
-        self.registration_dict[self.rui_location_key]['placement']['placement_date'] = date_today
+        self.config_dict[self.rui_location_key]['creation_date'] = date_today
+        self.config_dict[self.rui_location_key]['placement']['placement_date'] = date_today
 
     def generate_blocks(self):
         self.load_registration_data()
-        millitome = trimesh.load(Path(self.registration_dict[self.input_files][self.source]))
+        source_file = self.config.parent / self.config_dict[self.input_files][self.source]
+        millitome = trimesh.load(source_file)
         for label, block in millitome.geometry.items():
             self.update_id_label_date(label)
             tissue_block = TissueBlock.from_millitome(
-                block, donor=self.registration_dict[self.donor_data_key], metadata=self.registration_dict[self.rui_location_key],
-                target_name=self.registration_dict[self.target_name], label=label
+                block, donor=self.config_dict[self.donor_data_key], metadata=self.config_dict[self.rui_location_key],
+                target_name=self.config_dict["transform_target_id"], label=label
             )
             self.tissue_blocks.append(tissue_block)
 
@@ -54,9 +55,9 @@ class TissueBlockGenerator:
         return self.tissue_blocks
 
 class ProjectionBlockGenerator:
-    def __init__(self, projection: Path, registration_data_path : Path):
+    def __init__(self, projection: Path, config : Path):
         self.projection = Projection.load(projection)
-        self.tissue_blocks = TissueBlockGenerator(registration_data_path).generate_blocks()
+        self.tissue_blocks = TissueBlockGenerator(config).generate_blocks()
 
     def generate_projections(self):
         projected_blocks = [self.projection.project(block) for block in self.tissue_blocks]
@@ -68,8 +69,8 @@ class ProjectionBlockGenerator:
 
         return projected_blocks
 
-def generate_output(projection: Path, output_dir: Path,registration_data_path : Path):
-    projected_blocks = ProjectionBlockGenerator(projection, registration_data_path).generate_projections()
+def generate_output(projection: Path, output_dir: Path,config : Path):
+    projected_blocks = ProjectionBlockGenerator(projection, config).generate_projections()
     processor = RUIProcessor(blocks=projected_blocks, registration_dir=output_dir)
     processor.initialize_registration()
     processor.generate_rui_locations()
@@ -91,12 +92,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Millitome Registrations stage 2')
     parser.add_argument("--stage1_projection_path", type=Path, required=True, help="Path where stage 1 output was saved")
     parser.add_argument("--output_path", type=Path, required=True, help="Path to store the results")
-    parser.add_argument('--registration_data_path', type = Path, required= True, help="rui location and donor data config file")
+    parser.add_argument('--config', type = Path, required= True, help="rui location and donor data config file")
 
     args = parser.parse_args()
 
     try:
-        generate_output(args.stage1_projection_path, args.output_path,args.registration_data_path)
+        generate_output(args.stage1_projection_path, args.output_path,args.config)
     except Exception as e:
         print(e)
         raise e
@@ -105,4 +106,4 @@ if __name__ == '__main__':
 # python -m scripts.registration_stage_2 \
 #      --stage1_projection_path raw-data/millitome/pancreas-female-vu/v1.3/projections.pickle \
 #      --output_path output-data/millitome/pancreas-female-vu/v1.3 \
-#      --registration_data_path input-data/millitome/pancreas-female-vu/v1.3/registration_data.yaml
+#      --config input-data/millitome/pancreas-female-vu/v1.3/config.yaml

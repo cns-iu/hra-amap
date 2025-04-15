@@ -26,7 +26,6 @@ class TissueBlock(trimesh.Trimesh):
             self.donor = donor
         if metadata:
             self.metadata = metadata
-        self.mappings = read_yaml('configs/atlas_paths.yaml')
         self.hra_transforms = read_yaml('configs/hra_transforms.yaml')
 
     @property
@@ -169,7 +168,7 @@ class TissueBlock(trimesh.Trimesh):
 
     @lru_cache
     def show_on_target(self):
-        self.target = trimesh.load(self.mappings['RUI'][self.target_name], force='mesh')
+        self.target = trimesh.load(self.metadata["input_files"]["target"], force='mesh')
         return trimesh.scene.Scene(geometry=[self, 
                                              trimesh.creation.axis(), 
                                              deepcopy(self.target)]).show()

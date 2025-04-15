@@ -1,7 +1,8 @@
-target_name: "VHFPancreas"
 input_files:
-  source: "input-data/millitome/pancreas-female-vu/v1.3/source/generic-pancreas-organ.glb"
-  target: "input-data/millitome/pancreas-female-vu/v1.3/target/3d-vh-f-pancreas.glb"
+  source: "generic-pancreas-organ.glb"
+  target: "generic-pancreas-organ.glb"
+
+target_name: "https://lod.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
 
 donor:
   sex: Female
@@ -27,3 +28,5 @@ rui_location:
     rotation_order: "XYZ"
     rotation_units: "degree"
     translation_units: "millimeter"
+
+transform_target_id: "VHFPancreas" #existing implementation of tissue.py,this value is required for referring transformation data from hra_transform.yaml
