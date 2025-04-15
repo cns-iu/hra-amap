@@ -50,6 +50,6 @@ if __name__ == '__main__':
 
 
 # python -m scripts.registration_stage_1 \
-#     --source_path input-data/millitome/pancreas-male-vu/source/generic-pancreas-organ.glb \
-#     --target_path input-data/millitome/pancreas-male-vu/target/VH_M_Pancreas.glb\
-#     --output_path raw-data/millitome/pancreas-female-vu/v.0.0.1
+#     --source_path input-data/millitome/pancreas-female-vu/v1.3/source/generic-pancreas-organ.glb \
+#     --target_path input-data/millitome/pancreas-female-vu/v1.3/target/3d-vh-f-pancreas.glb\
+#     --output_path raw-data/millitome/pancreas-female-vu/v1.3

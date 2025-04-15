@@ -2,9 +2,7 @@ import argparse
 from copy import deepcopy
 from datetime import datetime
 import json
-import uuid
 import yaml
-import random
 import trimesh # type: ignore
 from pathlib import Path
 from tqdm.auto import tqdm
@@ -12,17 +10,13 @@ from hra_amap.registration.tissue import TissueBlock
 from hra_amap.registration.dataclass import Projection
 from hra_amap.registration.rui import RUIProcessor
 
-
-rd = random.Random()
-rd.seed(12)
-
-
 class TissueBlockGenerator:
-    donor_data_key = 'Donor Data'
-    rui_location_key ='RUI Location'
-    def __init__(self, source: Path, target_name : str, registration_data_path : Path):
-        self.source = source
-        self.target_name = target_name
+    donor_data_key = 'donor'
+    rui_location_key ='rui_location'
+    input_files = 'input_files'
+    source = 'source'
+    target_name = 'target_name'
+    def __init__(self, registration_data_path : Path):
         self.registration_data_path = registration_data_path
         self.registration_dict = {}
         self.tissue_blocks = []
@@ -45,12 +39,12 @@ class TissueBlockGenerator:
 
     def generate_blocks(self):
         self.load_registration_data()
-        millitome = trimesh.load(self.source)
+        millitome = trimesh.load(Path(self.registration_dict[self.input_files][self.source]))
         for label, block in millitome.geometry.items():
             self.update_id_label_date(label)
             tissue_block = TissueBlock.from_millitome(
                 block, donor=self.registration_dict[self.donor_data_key], metadata=self.registration_dict[self.rui_location_key],
-                target_name=self.target_name, label=label
+                target_name=self.registration_dict[self.target_name], label=label
             )
             self.tissue_blocks.append(tissue_block)
 
@@ -60,10 +54,9 @@ class TissueBlockGenerator:
         return self.tissue_blocks
 
 class ProjectionBlockGenerator:
-    def __init__(self, source: Path, projection: Path, target_name: str, registration_data_path : Path):
-        self.source = source
+    def __init__(self, projection: Path, registration_data_path : Path):
         self.projection = Projection.load(projection)
-        self.tissue_blocks = TissueBlockGenerator(source, target_name, registration_data_path).generate_blocks()
+        self.tissue_blocks = TissueBlockGenerator(registration_data_path).generate_blocks()
 
     def generate_projections(self):
         projected_blocks = [self.projection.project(block) for block in self.tissue_blocks]
@@ -75,8 +68,8 @@ class ProjectionBlockGenerator:
 
         return projected_blocks
 
-def generate_output(source: Path, projection: Path, output_dir: Path, target_name : str, registration_data_path : Path):
-    projected_blocks = ProjectionBlockGenerator(source, projection, target_name, registration_data_path).generate_projections()
+def generate_output(projection: Path, output_dir: Path,registration_data_path : Path):
+    projected_blocks = ProjectionBlockGenerator(projection, registration_data_path).generate_projections()
     processor = RUIProcessor(blocks=projected_blocks, registration_dir=output_dir)
     processor.initialize_registration()
     processor.generate_rui_locations()
@@ -96,24 +89,20 @@ def generate_output(source: Path, projection: Path, output_dir: Path, target_nam
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Millitome Registrations stage 2')
-    parser.add_argument('--source_path', type=Path, required=True, help="Path to source organ file")
     parser.add_argument("--stage1_projection_path", type=Path, required=True, help="Path where stage 1 output was saved")
     parser.add_argument("--output_path", type=Path, required=True, help="Path to store the results")
-    parser.add_argument('--target_name', type=str,required=True, help="rui target name as given in atlas_paths.yaml")
     parser.add_argument('--registration_data_path', type = Path, required= True, help="rui location and donor data config file")
 
     args = parser.parse_args()
 
     try:
-        generate_output(args.source_path, args.stage1_projection_path, args.output_path, args.target_name, args.registration_data_path)
+        generate_output(args.stage1_projection_path, args.output_path,args.registration_data_path)
     except Exception as e:
         print(e)
         raise e
 
 
 # python -m scripts.registration_stage_2 \
-#      --source_path input-data/millitome/pancreas-female-vu/v.0.0.1/source/generic-pancreas-organ.glb \
-#      --stage1_projection_path raw-data/millitome/pancreas-female-vu/v.0.0.1/projections.pickle \
-#      --output_path output-data/millitome/pancreas-female-vu/v.0.0.1 \
-#      --target_name VHFPancreas \
-#      --registration_data_path configs/millitome/pancreas-female-vu/v.0.0.1/registration_data.yaml
+#      --stage1_projection_path raw-data/millitome/pancreas-female-vu/v1.3/projections.pickle \
+#      --output_path output-data/millitome/pancreas-female-vu/v1.3 \
+#      --registration_data_path input-data/millitome/pancreas-female-vu/v1.3/registration_data.yaml
