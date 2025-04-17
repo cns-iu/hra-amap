@@ -9,27 +9,27 @@
 	"placement": {
 		"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
 		"@type": "SpatialPlacement",
-		"target": "https://lod.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+		"target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
 		"scaling_units": "ratio",
 		"rotation_order": "XYZ",
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://lod.humanatlas.io/millitome/pancreas-female-pnnl#A1_placement",
-		"placement_date": "2025-04-15",
+		"placement_date": "2025-04-17",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
 		"z_scaling": 1.0,
 		"x_rotation": 0.0,
 		"y_rotation": 0.0,
 		"z_rotation": 0.0,
-		"x_translation": 52.463820762456415,
-		"y_translation": 37.908522740567165,
-		"z_translation": 45.9123765831981
+		"x_translation": -55.4723749375436,
+		"y_translation": 512.9806537405672,
+		"z_translation": -178.26164641680188
 	},
 	"@id": "https://lod.humanatlas.io/millitome/pancreas-female-pnnl#A1",
 	"label": "A1",
-	"creation_date": "2025-04-15",
-	"x_dimension": 17.019735009514452,
-	"y_dimension": 36.1404169207315,
-	"z_dimension": 23.700925291128744
+	"creation_date": "2025-04-17",
+	"x_dimension": 17.019735009514466,
+	"y_dimension": 36.14041692073155,
+	"z_dimension": 23.700925291128716
 }

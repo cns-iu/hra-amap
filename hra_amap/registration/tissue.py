@@ -19,6 +19,8 @@ class DivisionFactor(Enum):
     meter = 1
 
 class TissueBlock(trimesh.Trimesh):
+    scaling = [1.0,1.0,1.0]
+    rotation = [0.0,0.0,0.0]
     def __init__(self, vertices, faces, donor: dict = None, metadata: dict = None) -> None:
         super(TissueBlock, self).__init__()
         self.vertices, self.faces = (vertices, faces)
@@ -26,7 +28,6 @@ class TissueBlock(trimesh.Trimesh):
             self.donor = donor
         if metadata:
             self.metadata = metadata
-        self.hra_transforms = read_yaml('configs/hra_transforms.yaml')
 
     @property
     def pointcloud(self):
@@ -71,16 +72,14 @@ class TissueBlock(trimesh.Trimesh):
         return block
 
     @classmethod
-    def from_millitome(cls, millitome, donor: dict, metadata: dict, target_name: str, label=None):
+    def from_millitome(cls, millitome, donor: dict, metadata: dict, translation_arr : list, label=None):
         block = cls(millitome.vertices, millitome.faces, donor, metadata)
-
         # add attributes
         block.label = label
-        block.target_name = target_name
         block.division_factor = 1e3
 
         # get transforms
-        block.target_transform = block._get_target_transform()
+        block.target_transform = block._get_target_transform(translation_arr)
 
         return block
     
@@ -104,17 +103,18 @@ class TissueBlock(trimesh.Trimesh):
         return block_transform
 
 
-    def _get_target_transform(self):
+    def _get_target_transform(self, translation_arr: list):
         """Get the necessary transform shift the target HRA organ (it's back-bottom-left) to the world origin (0, 0, 0)"""
         # https://raw.githubusercontent.com/hubmapconsortium/hubmap-ontology/master/source_data/generated-reference-spatial-entities.jsonld
         if not hasattr(self, 'target_name'):
             self.target_name = self.metadata['placement']['target'].split('#')[-1]
-        hra_transform = self.hra_transforms[self.target_name]
-        target_transform = Transform(hra_transform['scaling'], 
-                                     hra_transform['rotation'], 
-                                     np.array(hra_transform['translation']) / self.division_factor)
+        
+        target_transform = Transform(self.scaling, 
+                                     self.rotation, 
+                                     translation_arr)
         return target_transform
     
+   
     def to_sample(self, export_path: str):
         # split the transform matrix back to individual transforms
         scale, rotation, translation = split_transform(self.bounding_box.transform)
@@ -168,7 +168,7 @@ class TissueBlock(trimesh.Trimesh):
 
     @lru_cache
     def show_on_target(self):
-        self.target = trimesh.load(self.metadata["input_files"]["target"], force='mesh')
+        self.target = trimesh.load(Path(self.metadata["input_files"]["target"]), force='mesh')
         return trimesh.scene.Scene(geometry=[self, 
                                              trimesh.creation.axis(), 
                                              deepcopy(self.target)]).show()

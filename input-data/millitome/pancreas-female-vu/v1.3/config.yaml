@@ -1,8 +1,8 @@
 input_files:
   source: "generic-pancreas-organ.glb"
-  target: "generic-pancreas-organ.glb"
+  target: "3d-vh-f-pancreas.glb"
 
-target_name: "https://lod.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
+target_name: "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
 
 donor:
   sex: Female
@@ -10,7 +10,6 @@ donor:
   provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
   consortium_name: HRA
   id: "https://lod.humanatlas.io/millitome/pancreas-female-pnnl"
-  link: "https://lod.humanatlas.io/millitome/pancreas-female-pnnl"
 
 rui_location:
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld"
@@ -23,10 +22,8 @@ rui_location:
   placement:
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld"
     "@type": "SpatialPlacement"
-    target: "https://lod.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
+    target: "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     scaling_units: "ratio"
     rotation_order: "XYZ"
     rotation_units: "degree"
     translation_units: "millimeter"
-
-transform_target_id: "VHFPancreas" #existing implementation of tissue.py,this value is required for referring transformation data from hra_transform.yaml
