@@ -1,6 +1,7 @@
 import argparse
 from copy import deepcopy
 from datetime import datetime
+from scripts.constants import ConfigKeys
 import json
 import yaml
 import trimesh # type: ignore
@@ -14,55 +15,46 @@ from tqdm.auto import tqdm
 from hra_amap.registration.tissue import TissueBlock
 from hra_amap.registration.dataclass import Projection
 from hra_amap.registration.rui import RUIProcessor
-
+from hra_amap.utils.io import read_yaml
+from hra_amap.utils.metrics import get_translations
 
 class TissueBlockGenerator:
-    donor_data_key = 'donor'
-    rui_location_key ='rui_location'
-    input_files = 'input_files'
-    source = 'source'
-    target = 'target'
-    target_name = 'target_name'
-    link = 'link'
-    id = 'id'
     def __init__(self, config : Path):
         self.config = config
         self.config_dict = {}
         self.tissue_blocks = []
-    
-    def load_registration_data(self):
-        with open(self.config, "r") as file:
-            self.config_dict = yaml.safe_load(file)
-
+   
     def update_id_label_date(self, label):
-        donor_id = self.config_dict[self.donor_data_key][self.id]
-        self.config_dict[self.rui_location_key]['@id'] = f"{donor_id}#{label}"
-        self.config_dict[self.rui_location_key]['placement']['@id'] =  f"{donor_id}#{label}_placement"
+        donor_id = self.config_dict[ConfigKeys.DONOR_DATA_KEY][ConfigKeys.ID]
+        self.config_dict[ConfigKeys.RUI_LOCATION_KEY][ConfigKeys.AT_ID] = f"{donor_id}#{label}"
+        self.config_dict[ConfigKeys.RUI_LOCATION_KEY][ConfigKeys.PLACEMENT][ConfigKeys.AT_ID] =  f"{donor_id}#{label}_placement"
 
-        self.config_dict[self.donor_data_key]['label'] = label
-        self.config_dict[self.rui_location_key]['label'] = label
+        self.config_dict[ConfigKeys.DONOR_DATA_KEY][ConfigKeys.LABEL] = label
+        self.config_dict[ConfigKeys.RUI_LOCATION_KEY][ConfigKeys.LABEL] = label
         
         date_today = datetime.today().strftime('%Y-%m-%d')
-        self.config_dict[self.rui_location_key]['creation_date'] = date_today
-        self.config_dict[self.rui_location_key]['placement']['placement_date'] = date_today
+        self.config_dict[ConfigKeys.RUI_LOCATION_KEY][ConfigKeys.CREATION_DATE] = date_today
+        self.config_dict[ConfigKeys.RUI_LOCATION_KEY][ConfigKeys.PLACEMENT][ConfigKeys.PLACEMENT_DATE] = date_today
 
 
     def update_config_values(self):
         # Update input file path relative to config
-        self.config_dict[self.input_files][self.source] = self.config.parent / self.config_dict[self.input_files][self.source]
-        self.config_dict[self.input_files][self.target] = self.config.parent / self.config_dict[self.input_files][self.target]
+        self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE] = self.config.parent / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE]
+        self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET] = self.config.parent / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET]
 
         # update donar data link values
-        self.config_dict[self.donor_data_key]['link'] = self.config_dict[self.donor_data_key][self.id]
+        self.config_dict[ConfigKeys.DONOR_DATA_KEY][ConfigKeys.LINK] = self.config_dict[ConfigKeys.DONOR_DATA_KEY][ConfigKeys.ID]
+    
     def generate_blocks(self):
-        self.load_registration_data()
+        self.config_dict = read_yaml(self.config)
         self.update_config_values()
-        millitome = trimesh.load(Path(self.config_dict[self.input_files][self.source]))
-        translation_list = self.get_translations()
+        millitome = trimesh.load(Path(self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE]))
+        translation_list = get_translations(target_name=self.config_dict[ConfigKeys.TARGET_NAME])
+        
         for label, block in millitome.geometry.items():
             self.update_id_label_date(label)
             tissue_block = TissueBlock.from_millitome(
-                block, donor=self.config_dict[self.donor_data_key], metadata=self.config_dict[self.rui_location_key],
+                block, donor=self.config_dict[ConfigKeys.DONOR_DATA_KEY], metadata=self.config_dict[ConfigKeys.RUI_LOCATION_KEY],
                 translation_arr = translation_list, label=label
             )
             self.tissue_blocks.append(tissue_block)
@@ -72,28 +64,6 @@ class TissueBlockGenerator:
 
         return self.tissue_blocks
     
-    def get_translations(self):
-        hra_transforms = self.fetch_anatomical_structure()
-        for row in hra_transforms:
-            if row[list(row.keys())[0]] == self.config_dict[self.target_name] and row[list(row.keys())[1]] == self.config_dict[self.target_name]:
-                return list(row.values())[-3:]
-        return None
-    
-    def fetch_anatomical_structure(self):
-        url = "https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/mesh-collision//anatomical-structures"
-        params = {
-            "endpoint": "https://lod.humanatlas.io/sparql"
-        }
-        headers = {
-            "accept": "text/csv"
-        }
-
-        response = requests.get(url, headers=headers, params=params)
-        if response.status_code != 200:
-            raise Exception(f"Failed to fetch hra_transforms: {response.status_code}")
-
-        csv_data = list(csv.DictReader(io.StringIO(response.text)))
-        return csv_data
     
 class ProjectionBlockGenerator:
     def __init__(self, projection: Path, config : Path):
@@ -145,6 +115,6 @@ if __name__ == '__main__':
 
 
 # python -m scripts.registration_stage_2 \
-#      --stage1_projection_path raw-data/millitome/pancreas-female-vu/v1.3/projections.pickle \
-#      --output_path output-data/millitome/pancreas-female-vu/v1.3 \
-#      --config input-data/millitome/pancreas-female-vu/v1.3/config.yaml
+#      --stage1_projection_path raw-data/millitome/pancreas-female-vu/v1.0/projections.pickle \
+#      --output_path output-data/millitome/pancreas-female-vu/v1.0 \
+#      --config input-data/millitome/pancreas-female-vu/v1.0/config.yaml

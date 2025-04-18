@@ -12,15 +12,14 @@ from functools import lru_cache
 from hra_amap.registration.dataclass import Transform
 from hra_amap.utils.io import read_yaml, write_json
 from hra_amap.utils.conversions import to_pointcloud, to_array, split_transform
-
+from hra_amap.utils.metrics import scaling, rotation
+from scripts.constants import ConfigKeys
 class DivisionFactor(Enum):
     millimeter = 1e3
     centimeter = 1e2
     meter = 1
 
 class TissueBlock(trimesh.Trimesh):
-    scaling = [1.0,1.0,1.0]
-    rotation = [0.0,0.0,0.0]
     def __init__(self, vertices, faces, donor: dict = None, metadata: dict = None) -> None:
         super(TissueBlock, self).__init__()
         self.vertices, self.faces = (vertices, faces)
@@ -109,8 +108,8 @@ class TissueBlock(trimesh.Trimesh):
         if not hasattr(self, 'target_name'):
             self.target_name = self.metadata['placement']['target'].split('#')[-1]
         
-        target_transform = Transform(self.scaling, 
-                                     self.rotation, 
+        target_transform = Transform(scaling, 
+                                     rotation, 
                                      translation_arr)
         return target_transform
     
@@ -168,7 +167,7 @@ class TissueBlock(trimesh.Trimesh):
 
     @lru_cache
     def show_on_target(self):
-        self.target = trimesh.load(Path(self.metadata["input_files"]["target"]), force='mesh')
+        self.target = trimesh.load(Path(self.metadata[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET]), force='mesh')
         return trimesh.scene.Scene(geometry=[self, 
                                              trimesh.creation.axis(), 
                                              deepcopy(self.target)]).show()
