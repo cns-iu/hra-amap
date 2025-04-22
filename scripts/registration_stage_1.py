@@ -1,17 +1,22 @@
 import argparse
+import yaml
 from pathlib import Path
 from hra_amap.registration.organ import Organ
 from hra_amap.registration.pipeline import Pipeline
-from hra_amap.utils.io import read_yaml
+from hra_amap.utils.io import read_yaml, write_yaml
 from scripts.constants import ConfigKeys
 
-
-REGISTRATION_CONFIG =  {
-    "pipeline_name" : "millitome_projections",
-    "description" : "HRA Millitome Projection Pipeline",
-    "params" : Path('configs/params.yaml'),
-}
 class ProjectionPickle:
+
+    def dump_registration_params(self):
+        param_data = {}
+        
+        param_data[ConfigKeys.RIGID_REGISTRATION.value] = self.config_dict[ConfigKeys.RIGID_REGISTRATION]
+        param_data[ConfigKeys.NONRIGID_REGISTRATION.value] = self.config_dict[ConfigKeys.NONRIGID_REGISTRATION]
+
+        self.params_path = self.config.parent/'params.yaml'
+        write_yaml(self.params_path, param_data)
+        
     def load_registration_data(self):
         self.config_dict = read_yaml(self.config)
         self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE] = self.config.parent / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE]
@@ -20,8 +25,9 @@ class ProjectionPickle:
     def __init__(self, config : Path):
         self.config = config
         self.load_registration_data()
+        self.dump_registration_params()
 
-    def generate_projection(self, output_path: Path, param_config_path: Path, pipeline_name: str, pipeline_discription:str):
+    def generate_projection(self, output_path: Path, pipeline_name: str, pipeline_discription:str):
         if not self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE].exists():
             raise FileNotFoundError(f"Source path not found: {self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE]}")
         if not self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET].exists():
@@ -33,7 +39,7 @@ class ProjectionPickle:
         pipeline = Pipeline( 
             name= pipeline_name,
             description= pipeline_discription,
-            params=param_config_path
+            params= self.params_path
         )
 
         projections = pipeline.run(source=source, target=target)
@@ -43,14 +49,13 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Millitome Registrations stage 1')
     parser.add_argument('--config', type = Path, required= True, help="rui location and donor data config file")
     parser.add_argument('--output_path',type=Path, required= True, help="path to store projections pickle file")
-    parser.add_argument('--params_config_path', type=Path, required=False, help="Path to non rigid registration config file", default = REGISTRATION_CONFIG["params"])
-    parser.add_argument('--pipeline_name', type=str, required=False, help="Name of pipeline", default = REGISTRATION_CONFIG["pipeline_name"])
-    parser.add_argument('--pipeline_discription', type=str, required=False,help="Discription of pipeline", default= REGISTRATION_CONFIG["description"])
+    parser.add_argument('--pipeline_name', type=str, required=False, help="Name of pipeline", default = 'millitome_projections')
+    parser.add_argument('--pipeline_discription', type=str, required=False,help="Discription of pipeline", default= 'HRA Millitome Projection Pipeline')
     
     args = parser.parse_args()
 
     try:
-        ProjectionPickle(args.config).generate_projection( args.output_path, args.params_config_path, args.pipeline_name, args.pipeline_discription)
+        ProjectionPickle(args.config).generate_projection( args.output_path, args.pipeline_name, args.pipeline_discription)
     except Exception as e:
         raise
 
