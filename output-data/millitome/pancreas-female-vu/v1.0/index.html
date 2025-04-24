@@ -26,8 +26,7 @@
       window.addEventListener('DOMContentLoaded', () => {
         const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
         const homeUrl = location.href;
-        // const source = `${basePath}rui_locations.jsonld#837c649a9869c45a3e22d01efb3f062f`;
-        const source = `https://raw.githubusercontent.com/cns-iu/hra-amap/refs/heads/stage2_implementation/output-data/millitome/pancreas-female-vu/v1.0/rui_locations.jsonld`
+        const source = `${basePath}rui_locations.jsonld#e9a9d2cbb0fbf686c56fbc81555d4004`;
         const euiTemplate = document.getElementById('eui-template');
         const eui = euiTemplate.innerHTML.replace('SOURCE', source).replace('HOME_URL', homeUrl);
         document.body.innerHTML = eui;
