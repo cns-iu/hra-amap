@@ -1,54 +1,68 @@
-import argparse
-import yaml
 import subprocess
 from pathlib import Path
-from constants import PathKeys
 
 import logging
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
-def run_command(cmd):
-    log.info(f"Running: {' '.join(str(x) for x in cmd)}")
+def run_command(cmd, cur_millitome):
+    log.info(f"[{cur_millitome}] Running: {' '.join(str(x) for x in cmd)}")
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
-        log.error(f"Error:\n{result.stderr}")
-        raise RuntimeError(f"Command failed: {' '.join(str(x) for x in cmd)}")
+        raise RuntimeError(
+            f"[{cur_millitome}] Command failed!\n"
+            f"STDOUT:\n{result.stdout}\nSTDERR:\n{result.stderr}"
+        )
+    log.info(result.stdout)
 
-def run_pipeline(config_path: Path):
-    with open(config_path, 'r') as f:
-        config = yaml.safe_load(f)
+def run_pipeline():
+    base_input = Path("input-data/millitome")
+    base_raw = Path("raw-data/millitome")
+    base_output = Path("output-data/millitome")
 
-    for key, millitome in config.items():
-        stage1_projection_path = Path(millitome[PathKeys.RAW_DATA_PATH]) / "projections.pickle"
+    if not base_input.exists():
+        raise FileNotFoundError(f"Input base path not found: {base_input}")
 
-        stage1_cmd = [
-            "python", "-m", "scripts.registration_stage_1",
-            "--config", millitome[PathKeys.CONFIG_PATH],
-            "--output_path", millitome[PathKeys.RAW_DATA_PATH]
-        ]
-        run_command(stage1_cmd)
+    for millitome in base_input.iterdir():
+        if millitome.is_dir():
+            for version_folder in millitome.iterdir():
+                if version_folder.is_dir():
+                    relative_path = version_folder.relative_to(base_input)
+                    cur_millitome = str(relative_path)
+                    config_file = version_folder / "config.yaml"
+                    raw_data_path = base_raw / relative_path
+                    output_path = base_output / relative_path
+                    stage1_projection_path = raw_data_path / "projections.pickle"
 
-        stage2_cmd = [
-            "python", "-m", "scripts.registration_stage_2",
-            "--stage1_projection_path", str(stage1_projection_path),
-            "--output_path", millitome[PathKeys.OUTPUT_PATH],
-            "--config", millitome[PathKeys.CONFIG_PATH]
-        ]
-        run_command(stage2_cmd)
+                    if not config_file.exists():
+                        log.warning(f"[{cur_millitome}] Skipping: config.yaml not found")
+                        continue
+
+                    log.info(f"\n--- Running pipeline for: {cur_millitome} ---")
+
+                    stage1_cmd = [
+                        "python", "-m", "scripts.registration_stage_1",
+                        "--config", str(config_file),
+                        "--output_path", str(raw_data_path)
+                    ]
+                    run_command(stage1_cmd, cur_millitome)
+
+                    stage2_cmd = [
+                        "python", "-m", "scripts.registration_stage_2",
+                        "--stage1_projection_path", str(stage1_projection_path),
+                        "--output_path", str(output_path),
+                        "--config", str(config_file)
+                    ]
+                    run_command(stage2_cmd, cur_millitome)
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Millitome Registration Runner')
-    parser.add_argument('--config', type=Path, required=True, help='Path to YAML config with all dataset entries')
-
-    args = parser.parse_args()
-
     try:
-        run_pipeline(args.config)
+        run_pipeline()
     except Exception as e:
-        print("Pipeline failed:", e)
+        log.error("Pipeline failed!")
         raise e
+
 
 
 # python scripts/run.py --config scripts/millitome_config.yaml
