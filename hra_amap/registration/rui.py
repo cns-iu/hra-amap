@@ -1,7 +1,7 @@
 import subprocess
 
 from pathlib import Path
-from utils.io import read_yaml, write_yaml, add_header
+from hra_amap.utils.io import read_yaml, write_yaml, add_header
 
 class RUIProcessor:
     def __init__(self, blocks, registration_dir):

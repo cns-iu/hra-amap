@@ -6,6 +6,11 @@ from hra_amap.registration.decorators import step
 from hra_amap.registration.dataclass import Transform
 from hra_amap.utils.conversions import pointcloud_to_numpy, numpy_to_pointcloud, txt_to_numpy, pointcloud_to_mesh
 from hra_amap.utils.preprocess import scale, compute_features
+import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BCPD_DIR = Path(os.getenv("BCPD_DIR", BASE_DIR / "bcpd"))
 
 @step(name='Normalize ICP', description='Scale organs to a common range about the centre')
 def normalize_rigid(source, target):
@@ -114,20 +119,21 @@ def normalize_nonrigid(source, target):
     
     return (outputs, transforms)
 
+import os
 @step(name='Non-rigid Registration', description='Registration using rigid and non-rigid (local deformations) with BCPD algorithm')
 def nonrigid_registration(source, target, params):
     # convert to array
     source_array = pointcloud_to_numpy(source)
     target_array = pointcloud_to_numpy(target)
 
-    # save the source and target point clouds as .txt
-    np.savetxt(f"bcpd/source.txt", source_array, delimiter=',')
-    np.savetxt(f"bcpd/target.txt", target_array, delimiter=',')
+    # # save the source and target point clouds as .txt
+    np.savetxt(f"{BCPD_DIR}/source.txt", source_array, delimiter=',')
+    np.savetxt(f"{BCPD_DIR}/target.txt", target_array, delimiter=',')
 
     # build registration args 
     reigstration_args = ['./bcpd', 
-                         '-x', f"bcpd/target.txt", 
-                         '-y', f"bcpd/source.txt", 
+                         '-x', f"{BCPD_DIR}/target.txt", 
+                         '-y', f"{BCPD_DIR}/source.txt", 
                          '-J', '300', 
                          '-K', '70', 
                          '-p', '-u', 'n', 
@@ -148,17 +154,17 @@ def nonrigid_registration(source, target, params):
         reigstration_args.extend(['-D', str(params['downsampling'])])
 
     # register using BCPD
-    result = subprocess.run(reigstration_args, cwd="bcpd", capture_output=True)
+    result = subprocess.run(reigstration_args, cwd=str(BCPD_DIR), capture_output=True)
     
     # read transformations
     if 'downsampling' in params:
-        downsampled_source = np.genfromtxt('bcpd/output_normY.txt')
-        dvf = np.genfromtxt('bcpd/output_u.txt') - downsampled_source
+        downsampled_source = np.genfromtxt(BCPD_DIR/'output_normY.txt')
+        dvf = np.genfromtxt(BCPD_DIR/'output_u.txt') - downsampled_source
     else:
-        dvf = np.genfromtxt('bcpd/output_u.txt') - source_array
-    translation = txt_to_numpy('bcpd/output_t.txt')
-    scale = txt_to_numpy('bcpd/output_s.txt').item()
-    rotation = txt_to_numpy('bcpd/output_r.txt')
+        dvf = np.genfromtxt(BCPD_DIR/'output_u.txt') - source_array
+    translation = txt_to_numpy(BCPD_DIR/'output_t.txt')
+    scale = txt_to_numpy(BCPD_DIR/'output_s.txt').item()
+    rotation = txt_to_numpy(BCPD_DIR/'output_r.txt')
     
     # create transform
     transform = Transform(scale=scale, rotate=rotation, translate=translation, deformation_vector_field=dvf)
@@ -169,10 +175,10 @@ def nonrigid_registration(source, target, params):
         downsampled_source = transform(downsampled_source)
         # transform the original source using the interpolated DVF calculated
         source = transform(source)
-        registered = numpy_to_pointcloud(txt_to_numpy('bcpd/output_y.interpolated.txt'))
+        registered = numpy_to_pointcloud(txt_to_numpy(BCPD_DIR/'output_y.interpolated.txt'))
     else:
         source = transform(source)
-        registered = numpy_to_pointcloud(txt_to_numpy('bcpd/output_y.txt'))
+        registered = numpy_to_pointcloud(txt_to_numpy(BCPD_DIR/'output_y.txt'))
 
     # store outputs
     outputs = {'Source': source, 
