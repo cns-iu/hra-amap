@@ -7,15 +7,6 @@ from hra_amap.utils.io import read_yaml, write_yaml
 from scripts.constants import ConfigKeys
 
 class ProjectionPickle:
-
-    def dump_registration_params(self):
-        param_data = {}
-        
-        param_data[ConfigKeys.RIGID_REGISTRATION.value] = self.config_dict[ConfigKeys.RIGID_REGISTRATION]
-        param_data[ConfigKeys.NONRIGID_REGISTRATION.value] = self.config_dict[ConfigKeys.NONRIGID_REGISTRATION]
-
-        self.params_path = self.config.parent/'params.yaml'
-        write_yaml(self.params_path, param_data)
         
     def load_registration_data(self):
         self.config_dict = read_yaml(self.config)
@@ -25,7 +16,6 @@ class ProjectionPickle:
     def __init__(self, config : Path):
         self.config = config
         self.load_registration_data()
-        self.dump_registration_params()
 
     def generate_projection(self, output_path: Path, pipeline_name: str, pipeline_discription:str):
         if not self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE].exists():
@@ -39,7 +29,7 @@ class ProjectionPickle:
         pipeline = Pipeline( 
             name= pipeline_name,
             description= pipeline_discription,
-            params= self.params_path
+            params= self.config
         )
 
         projections = pipeline.run(source=source, target=target)
@@ -58,8 +48,3 @@ if __name__ == '__main__':
         ProjectionPickle(args.config).generate_projection( args.output_path, args.pipeline_name, args.pipeline_discription)
     except Exception as e:
         raise
-
-
-# python -m scripts.registration_stage_1 \
-#     --config input-data/millitome/pancreas-female-vu/v1.0/config.yaml \
-#     --output_path raw-data/millitome/pancreas-female-vu/v1.0

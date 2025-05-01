@@ -60,28 +60,38 @@ pip install scikit-learn
 | allen-brain_millitome-linnarsson-2023            | Jeremy Miller, Ashwin Bhandiwad, Lydia Ng          | Allen       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/allen-brain_millitome-linnarsson-2022) |
 
 
-### Registration Stage 1 : 
-This command executes the first stage of the 3D model registration process. It takes a source and target organ file along with optional configuration files as input, then processes them to generate a registration pipeline pickle file for further stages.
+## Millitome Registration: Stage 1
 
-Usage:
-```
+This command executes the **first stage** of the millitome registration process. It takes a configuration file containing RUI location and donor data, then generates the projected 3D model data needed for Stage 2 of the registration pipeline.
+
+### Usage
+
+```bash
 python -m scripts.registration_stage_1 \
-    --source_path <path_to_source_file> \
-    --target_path <path_to_target_file> \
-    [--params_config_path <path_to_config>] \
-    [--atlas_config_path <path_to_atlas>] \
-    [--transform_config_path <path_to_transform>] \
-    [--pipeline_name <name>] \
-    [--pipeline_description <description>]
+    --config <path_to_config.yaml> \
+    --output_path <path_to_output_directory>
 ```
 
-| Argument                 | Type   | Required | Description |
-|--------------------------|--------|----------|-------------|
-| `--source_path`          | `Path` | **Yes**  | Path to the **source** 3D model file (`.glb` file). |
-| `--target_path`          | `Path` | **Yes**  | Path to the **target** 3D model file (`.glb` file). |
-| `--params_config_path`   | `Path` | No       | Path to the **non-rigid registration** config file. |
-| `--atlas_config_path`    | `Path` | No       | Path to the **mapping atlas** configuration file. |
-| `--transform_config_path`| `Path` | No       | Path to the **HRA transformations** configuration file. |
-| `--pipeline_name`        | `str`  | No       | Name of the **pipeline** being executed. |
-| `--pipeline_description` | `str`  | No       | Description of the **registration pipeline**. |
+##  Millitome Registration: Stage 2
 
+This command executes the **second stage** of the millitome registration process. It takes the output from Stage 1 (a projection file), a configuration file, and produces the final registered organ models.
+
+### Usage
+
+```bash
+python -m scripts.registration_stage_2 \
+    --stage1_projection_path <path_to_projections.pickle.gz> \
+    --output_path <path_to_output_directory> \
+    --config <path_to_config.yaml>
+```
+
+## Build All Millitomes
+
+This command runs both **Stage 1** and **Stage 2** of the registration pipeline across all available millitome datasets by convention.  
+It automatically discovers all valid organ configurations in the `input-data/millitome/` directory and processes each accordingly.
+
+### Usage
+
+```bash
+python scripts/run.py
+```

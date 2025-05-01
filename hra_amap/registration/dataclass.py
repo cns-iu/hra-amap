@@ -2,6 +2,7 @@ import pickle
 import trimesh
 import numpy as np
 import open3d as o3d
+import gzip
 
 from typing import Any, Optional
 from dataclasses import dataclass
@@ -99,18 +100,18 @@ class Projection:
 
     @classmethod
     def load(cls, path: str):
-         # load from pickle
-        with open(path, 'rb') as file:
-            cls = pickle.load(file)
-        return cls
-         
+        # load compressed pickle using gzip
+        with gzip.open(path, 'rb') as file:
+            obj = pickle.load(file)
+        return obj
+
     def export(self, path: str):
         # create the parent directory with the id
-        parent_dir = Path(f'{path}') 
-        # parent_dir.mkdir()
+        parent_dir = Path(path)
+        parent_dir.mkdir(parents=True, exist_ok=True)
 
-        # save as pickle
-        with open(parent_dir / 'projections.pickle', 'wb') as file:
+        # save as compressed pickle using gzip
+        with gzip.open(parent_dir / 'projections.pickle.gz', 'wb') as file:
             pickle.dump(self, file)
             
     def project(self, geometry):

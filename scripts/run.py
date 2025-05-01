@@ -33,7 +33,7 @@ def run_pipeline():
                     config_file = version_folder / "config.yaml"
                     raw_data_path = base_raw / relative_path
                     output_path = base_output / relative_path
-                    stage1_projection_path = raw_data_path / "projections.pickle"
+                    stage1_projection_path = raw_data_path / "projections.pickle.gz"
 
                     if not config_file.exists():
                         log.warning(f"[{cur_millitome}] Skipping: config.yaml not found")
@@ -62,7 +62,3 @@ if __name__ == '__main__':
     except Exception as e:
         log.error("Pipeline failed!")
         raise e
-
-
-
-# python scripts/run.py --config scripts/millitome_config.yaml
