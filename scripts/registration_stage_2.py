@@ -115,6 +115,6 @@ if __name__ == '__main__':
 
 
 # python -m scripts.registration_stage_2 \
-#      --stage1_projection_path raw-data/millitome/pancreas-female-vu/v1.0/projections.pickle \
-#      --output_path output-data/millitome/pancreas-female-vu/v1.0 \
-#      --config input-data/millitome/pancreas-female-vu/v1.0/config.yaml
+#      --stage1_projection_path raw-data/millitome/ovary-female-left-upenn/v1.0/projections.pickle.gz \
+#      --output_path output-data/millitome/ovary-female-left-upenn/v1.0 \
+#      --config input-data/millitome/ovary-female-left-upenn/v1.0/config.yaml

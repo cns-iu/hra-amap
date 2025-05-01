@@ -61,5 +61,5 @@ if __name__ == '__main__':
 
 
 # python -m scripts.registration_stage_1 \
-#     --config input-data/millitome/pancreas-female-vu/v1.0/config.yaml \
-#     --output_path raw-data/millitome/pancreas-female-vu/v1.0
+#     --config input-data/millitome/ovary-female-left-upenn/v1.0/config.yaml \
+#     --output_path raw-data/millitome/ovary-female-left-upenn/v1.0
