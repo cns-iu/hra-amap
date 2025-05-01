@@ -3,8 +3,11 @@ from pathlib import Path
 
 import logging
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
+)
 log = logging.getLogger(__name__)
+
 
 def run_command(cmd, cur_millitome):
     log.info(f"[{cur_millitome}] Running: {' '.join(str(x) for x in cmd)}")
@@ -15,6 +18,7 @@ def run_command(cmd, cur_millitome):
             f"STDOUT:\n{result.stdout}\nSTDERR:\n{result.stderr}"
         )
     log.info(result.stdout)
+
 
 def run_pipeline():
     base_input = Path("input-data/millitome")
@@ -36,27 +40,39 @@ def run_pipeline():
                     stage1_projection_path = raw_data_path / "projections.pickle.gz"
 
                     if not config_file.exists():
-                        log.warning(f"[{cur_millitome}] Skipping: config.yaml not found")
+                        log.warning(
+                            f"[{cur_millitome}] Skipping: config.yaml not found"
+                        )
                         continue
 
                     log.info(f"\n--- Running pipeline for: {cur_millitome} ---")
 
                     stage1_cmd = [
-                        "python", "-m", "scripts.registration_stage_1",
-                        "--config", str(config_file),
-                        "--output_path", str(raw_data_path)
+                        "python",
+                        "-m",
+                        "scripts.registration_stage_1",
+                        "--config",
+                        str(config_file),
+                        "--output_path",
+                        str(raw_data_path),
                     ]
                     run_command(stage1_cmd, cur_millitome)
 
                     stage2_cmd = [
-                        "python", "-m", "scripts.registration_stage_2",
-                        "--stage1_projection_path", str(stage1_projection_path),
-                        "--output_path", str(output_path),
-                        "--config", str(config_file)
+                        "python",
+                        "-m",
+                        "scripts.registration_stage_2",
+                        "--stage1_projection_path",
+                        str(stage1_projection_path),
+                        "--output_path",
+                        str(output_path),
+                        "--config",
+                        str(config_file),
                     ]
                     run_command(stage2_cmd, cur_millitome)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     try:
         run_pipeline()
     except Exception as e:
