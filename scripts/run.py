@@ -62,7 +62,3 @@ if __name__ == '__main__':
     except Exception as e:
         log.error("Pipeline failed!")
         raise e
-
-
-
-# python scripts/run.py
