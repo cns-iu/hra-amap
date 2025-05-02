@@ -17,10 +17,10 @@
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 4/1/2025, Antara Bhavsar, MC-IU",
-          "description": "2.2297427301968957 x 2.6031208249746864 x 2.1855152704057526 millimeter, 2.1855152704057526 millimeter",
+          "description": "6.790641537701481 x 9.691947970990114 x 5.742140195818549 millimeter, 5.742140195818549 millimeter",
           "link": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0",
           "section_count": 0,
-          "section_size": 2.1855152704057526,
+          "section_size": 5.742140195818549,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#7-8-9-10-11-12",
@@ -31,9 +31,9 @@
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
             "creation_date": "2025-05-02",
-            "x_dimension": 2.2297427301968957,
-            "y_dimension": 2.6031208249746864,
-            "z_dimension": 2.1855152704057526,
+            "x_dimension": 6.790641537701481,
+            "y_dimension": 9.691947970990114,
+            "z_dimension": 5.742140195818549,
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -49,13 +49,16 @@
               "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": -0.3699724965947962,
-              "y_translation": 38.15167109477285,
-              "z_translation": 9.548670855317457,
+              "x_translation": 4.875809593314642,
+              "y_translation": 36.394018179015866,
+              "z_translation": 3.535014034052611,
               "translation_units": "millimeter",
               "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary"
             },
-            "ccf_annotations": []
+            "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18489",
+              "http://purl.org/sig/ont/fma/fma18497"
+            ]
           }
         },
         {
@@ -63,10 +66,10 @@
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 4/1/2025, Antara Bhavsar, MC-IU",
-          "description": "16.33931095003556 x 19.978102384910024 x 6.2887687828439285 millimeter, 6.2887687828439285 millimeter",
+          "description": "11.669198029709788 x 32.001825192866946 x 19.05289367986393 millimeter, 19.05289367986393 millimeter",
           "link": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0",
           "section_count": 0,
-          "section_size": 6.2887687828439285,
+          "section_size": 19.05289367986393,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#4-5-6",
@@ -77,9 +80,9 @@
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
             "creation_date": "2025-05-02",
-            "x_dimension": 16.33931095003556,
-            "y_dimension": 19.978102384910024,
-            "z_dimension": 6.2887687828439285,
+            "x_dimension": 11.669198029709788,
+            "y_dimension": 32.001825192866946,
+            "z_dimension": 19.05289367986393,
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -95,13 +98,15 @@
               "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 6.594639924240648,
-              "y_translation": 29.81075942762458,
-              "z_translation": 9.461583232675325,
+              "x_translation": 5.553869799815096,
+              "y_translation": 28.286281178526878,
+              "z_translation": 10.901686676118057,
               "translation_units": "millimeter",
               "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary"
             },
             "ccf_annotations": [
+              "http://purl.org/sig/ont/fma/fma18489",
+              "http://purl.org/sig/ont/fma/fma18497",
               "http://purl.org/sig/ont/fma/fma18491"
             ]
           }
@@ -111,10 +116,10 @@
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 4/1/2025, Antara Bhavsar, MC-IU",
-          "description": "6.326382778516715 x 20.804854603126838 x 12.496265747954913 millimeter, 12.496265747954913 millimeter",
+          "description": "30.27567708558842 x 19.589203921465188 x 3.4642108770508715 millimeter, 3.4642108770508715 millimeter",
           "link": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0",
           "section_count": 0,
-          "section_size": 12.496265747954913,
+          "section_size": 3.4642108770508715,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#1-2-3",
@@ -125,9 +130,9 @@
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
             "creation_date": "2025-05-02",
-            "x_dimension": 6.326382778516715,
-            "y_dimension": 20.804854603126838,
-            "z_dimension": 12.496265747954913,
+            "x_dimension": 30.27567708558842,
+            "y_dimension": 19.589203921465188,
+            "z_dimension": 3.4642108770508715,
             "dimension_units": "millimeter",
             "placement": {
               "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -143,14 +148,15 @@
               "z_rotation": 0,
               "rotation_order": "XYZ",
               "rotation_units": "degree",
-              "x_translation": 14.826557696137096,
-              "y_translation": 15.931673895964574,
-              "z_translation": 16.26161897401894,
+              "x_translation": 19.847111059568597,
+              "y_translation": 11.505073586157346,
+              "z_translation": 18.723791058987178,
               "translation_units": "millimeter",
               "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary"
             },
             "ccf_annotations": [
-              "http://purl.org/sig/ont/fma/fma18491"
+              "http://purl.org/sig/ont/fma/fma18491",
+              "http://purl.org/sig/ont/fma/fma18493"
             ]
           }
         }
