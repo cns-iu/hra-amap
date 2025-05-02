@@ -4,9 +4,9 @@
   provider_name: MC-IU
   provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
   defaults:
-    id: https://lod.humanatlas.io/millitome/ovary-female-right-upenn
+    id: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0
     thumbnail: assets/icons/ico-unknown.svg
-    link: https://lod.humanatlas.io/millitome/ovary-female-right-upenn
+    link: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0
   donors:
   - sex: Female
     samples:

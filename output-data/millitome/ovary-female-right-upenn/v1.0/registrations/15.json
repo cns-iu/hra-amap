@@ -14,7 +14,7 @@
 		"rotation_order": "XYZ",
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
-		"@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#15_placement",
+		"@id": "https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#15_placement",
 		"placement_date": "2025-05-02",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
@@ -22,14 +22,14 @@
 		"x_rotation": 0.0,
 		"y_rotation": 0.0,
 		"z_rotation": 0.0,
-		"x_translation": 3.0807518713123483,
-		"y_translation": 15.135049411745795,
-		"z_translation": 2.3356978493589384
+		"x_translation": 3.080751870679049,
+		"y_translation": 15.135049411417516,
+		"z_translation": 2.3356978500808783
 	},
-	"@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#15",
+	"@id": "https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.0#15",
 	"label": "15",
 	"creation_date": "2025-05-02",
-	"x_dimension": 4.0909721676002935,
-	"y_dimension": 5.251564761502209,
-	"z_dimension": 3.7578488679612456
+	"x_dimension": 4.090972168025175,
+	"y_dimension": 5.25156476240396,
+	"z_dimension": 3.7578488675743955
 }
