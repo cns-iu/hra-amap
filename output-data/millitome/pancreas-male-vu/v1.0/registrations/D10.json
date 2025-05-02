@@ -14,7 +14,7 @@
 		"rotation_order": "XYZ",
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
-		"@id": "https://lod.humanatlas.io/millitome/pancreas-male-vu#D10_placement",
+		"@id": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#D10_placement",
 		"placement_date": "2025-05-02",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
@@ -22,14 +22,14 @@
 		"x_rotation": 0.0,
 		"y_rotation": 0.0,
 		"z_rotation": 0.0,
-		"x_translation": 54.19080572359603,
-		"y_translation": 44.530603114476875,
-		"z_translation": 61.056057124908385
+		"x_translation": 57.3047148644218,
+		"y_translation": 57.25855475584524,
+		"z_translation": 56.25013453727418
 	},
-	"@id": "https://lod.humanatlas.io/millitome/pancreas-male-vu#D10",
+	"@id": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#D10",
 	"label": "D10",
 	"creation_date": "2025-05-02",
-	"x_dimension": 6.440570277790602,
-	"y_dimension": 15.965881787848746,
-	"z_dimension": 15.342175220679932
+	"x_dimension": 8.301908345675082,
+	"y_dimension": 15.646763642278238,
+	"z_dimension": 16.70518000419824
 }

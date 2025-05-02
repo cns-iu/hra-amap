@@ -14,7 +14,7 @@
 		"rotation_order": "XYZ",
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
-		"@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A15_placement",
+		"@id": "https://purl.humanatlas.io/millitome/pancreas-female-vu/v1.0#A15_placement",
 		"placement_date": "2025-05-02",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
@@ -22,14 +22,14 @@
 		"x_rotation": 0.0,
 		"y_rotation": 0.0,
 		"z_rotation": 0.0,
-		"x_translation": 89.0183458046595,
-		"y_translation": 28.383434444763044,
-		"z_translation": 55.95640433142302
+		"x_translation": 95.7610909794703,
+		"y_translation": 34.726864169163655,
+		"z_translation": 62.374872109176124
 	},
-	"@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A15",
+	"@id": "https://purl.humanatlas.io/millitome/pancreas-female-vu/v1.0#A15",
 	"label": "A15",
 	"creation_date": "2025-05-02",
-	"x_dimension": 11.506021794886689,
-	"y_dimension": 19.562266762354064,
-	"z_dimension": 22.721449926999412
+	"x_dimension": 8.31534041816115,
+	"y_dimension": 22.150970803901714,
+	"z_dimension": 19.21111578247367
 }
