@@ -8,16 +8,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 2.1162923945542977,
-    "y_dimension": 1.2911464299775188,
-    "z_dimension": 2.981143923277696,
+    "creation_date": "2025-05-02",
+    "x_dimension": 2.906587198873642,
+    "y_dimension": 1.5344396627991543,
+    "z_dimension": 2.345313668251303,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#1_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -27,13 +27,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -149.18127169080378,
-      "y_translation": 121.29102819788743,
-      "z_translation": -98.567474520041,
+      "x_translation": 8.392417986455687,
+      "y_translation": 0.7982710612162124,
+      "z_translation": 6.796969475476554,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -44,16 +46,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 3.6774897321585898,
-    "y_dimension": 4.840481067611785,
-    "z_dimension": 4.4885483397345,
+    "creation_date": "2025-05-02",
+    "x_dimension": 5.210522529227365,
+    "y_dimension": 4.481120786829308,
+    "z_dimension": 4.160592287324523,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#13_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -63,13 +65,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -147.44337324226117,
-      "y_translation": 114.39406512001587,
-      "z_translation": -95.47184373871653,
+      "x_translation": 4.75941192958896,
+      "y_translation": 7.877701473615103,
+      "z_translation": 4.108932583995087,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -80,16 +84,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.241444797083549,
-    "y_dimension": 5.209771635854066,
-    "z_dimension": 4.559326219328113,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.810410480492161,
+    "y_dimension": 5.1195530346613,
+    "z_dimension": 4.053416822223189,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#14_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -99,13 +103,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -146.57684256216126,
-      "y_translation": 110.77277353341664,
-      "z_translation": -94.64747281977877,
+      "x_translation": 3.7219127352251107,
+      "y_translation": 11.4821148654767,
+      "z_translation": 3.1306319552439033,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -116,16 +122,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.467576012432195,
-    "y_dimension": 5.13257372997189,
-    "z_dimension": 4.405170653004026,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.0909721676002935,
+    "y_dimension": 5.251564761502209,
+    "z_dimension": 3.7578488679612456,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#15_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -135,13 +141,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -145.56621607308477,
-      "y_translation": 107.05981129611742,
-      "z_translation": -93.76524002861996,
+      "x_translation": 3.0807518713123483,
+      "y_translation": 15.135049411745795,
+      "z_translation": 2.3356978493589384,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -152,16 +160,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.269697439432118,
-    "y_dimension": 5.572901784733602,
-    "z_dimension": 5.328871527477852,
+    "creation_date": "2025-05-02",
+    "x_dimension": 5.123056676987564,
+    "y_dimension": 5.492001143901547,
+    "z_dimension": 5.794904471245664,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#16_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -171,13 +179,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -146.9362829441699,
-      "y_translation": 113.80465729811749,
-      "z_translation": -98.47090261208066,
+      "x_translation": 8.305748868452035,
+      "y_translation": 8.900151249690621,
+      "z_translation": 5.010763007367882,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -188,16 +198,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.735621546386071,
-    "y_dimension": 5.677210746097172,
-    "z_dimension": 5.7640988013891725,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.898307630197038,
+    "y_dimension": 5.863399359293045,
+    "z_dimension": 5.777290782379457,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#17_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -207,13 +217,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -146.02886693720478,
-      "y_translation": 110.32385492994848,
-      "z_translation": -97.66083766804596,
+      "x_translation": 7.157940523585947,
+      "y_translation": 12.396468939668573,
+      "z_translation": 4.041768047395575,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -224,16 +236,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.925656284072155,
-    "y_dimension": 5.34063704048865,
-    "z_dimension": 5.81501542009949,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.41567097298079,
+    "y_dimension": 5.670130413846216,
+    "z_dimension": 5.49113968055142,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#18_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -243,13 +255,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -144.90601979376106,
-      "y_translation": 106.78372517986378,
-      "z_translation": -96.73963008697403,
+      "x_translation": 6.269495574620421,
+      "y_translation": 15.956952766127976,
+      "z_translation": 3.2088277439829316,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -260,16 +274,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 2.6721559961903063,
-    "y_dimension": 2.600259778131775,
-    "z_dimension": 3.808830121670187,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.383213287750057,
+    "y_dimension": 2.6228878062946186,
+    "z_dimension": 3.2754185058278193,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#2_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -279,13 +293,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -148.5879227238534,
-      "y_translation": 119.9119050212622,
-      "z_translation": -97.30192387034549,
+      "x_translation": 7.354435161852544,
+      "y_translation": 2.361005292020192,
+      "z_translation": 6.033425441041681,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -296,16 +312,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.296609232495974,
-    "y_dimension": 5.4511136656970605,
-    "z_dimension": 3.8401054496932927,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.818730472885391,
+    "y_dimension": 4.871529521741087,
+    "z_dimension": 4.57894943697211,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#22_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -315,13 +331,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -150.5145045017176,
-      "y_translation": 112.60782584918073,
-      "z_translation": -99.2230020492798,
+      "x_translation": 7.492692975449619,
+      "y_translation": 9.288125147938382,
+      "z_translation": 7.86451813191983,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -332,16 +350,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 6.154086004116044,
-    "y_dimension": 5.883405074524561,
-    "z_dimension": 6.34260453424651,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.779304623891645,
+    "y_dimension": 5.858630554651204,
+    "z_dimension": 6.675530763921217,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#21_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -351,13 +369,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -149.4151822320674,
-      "y_translation": 106.15829847114672,
-      "z_translation": -94.61325477677804,
+      "x_translation": 2.103773453174945,
+      "y_translation": 15.33914404844161,
+      "z_translation": 5.31737222683299,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -368,16 +388,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.952825171699704,
-    "y_dimension": 5.2308124856811355,
-    "z_dimension": 4.196084415899525,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.536862561899932,
+    "y_dimension": 5.128964091981617,
+    "z_dimension": 4.7995807391557,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#23_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -387,13 +407,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -149.88982305954877,
-      "y_translation": 109.00504640871583,
-      "z_translation": -98.4626127954068,
+      "x_translation": 6.4302115242282145,
+      "y_translation": 12.996072629631303,
+      "z_translation": 6.997973154059544,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -404,16 +426,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 5.763750915106836,
-    "y_dimension": 6.408548018872528,
-    "z_dimension": 6.419006487029144,
+    "creation_date": "2025-05-02",
+    "x_dimension": 5.546911011951622,
+    "y_dimension": 5.82434686293544,
+    "z_dimension": 7.0190967583038315,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#20_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -423,13 +445,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -150.4439643640833,
-      "y_translation": 109.50587029552567,
-      "z_translation": -95.40970208973715,
+      "x_translation": 2.7375219367722083,
+      "y_translation": 11.823934810722317,
+      "z_translation": 5.9807134179819155,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -440,16 +464,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 5.340530417781708,
-    "y_dimension": 4.56850858730129,
-    "z_dimension": 4.343124634971107,
+    "creation_date": "2025-05-02",
+    "x_dimension": 3.9516974086588745,
+    "y_dimension": 4.593111101104413,
+    "z_dimension": 4.74078266425404,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#24_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -459,13 +483,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -148.84071163151168,
-      "y_translation": 105.46955883585963,
-      "z_translation": -97.49662618321656,
+      "x_translation": 5.588040058533632,
+      "y_translation": 16.730026525871736,
+      "z_translation": 6.1607171631512525,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -476,16 +502,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 5.054393161367853,
-    "y_dimension": 6.205255980671842,
-    "z_dimension": 6.170256782015104,
+    "creation_date": "2025-05-02",
+    "x_dimension": 6.037085788243523,
+    "y_dimension": 5.3254702388977195,
+    "z_dimension": 6.868232981417144,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#19_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -495,13 +521,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -151.07100230050472,
-      "y_translation": 112.95903935751123,
-      "z_translation": -96.1093534175751,
+      "x_translation": 3.7636848787071795,
+      "y_translation": 8.372616993641453,
+      "z_translation": 6.768180905030695,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -512,16 +540,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.362886119664844,
-    "y_dimension": 4.3433090675323305,
-    "z_dimension": 3.8410748426405683,
+    "creation_date": "2025-05-02",
+    "x_dimension": 3.4607389217254787,
+    "y_dimension": 4.7004787104239085,
+    "z_dimension": 3.3675695259701084,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#25_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -531,13 +559,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -144.49827464497477,
-      "y_translation": 103.84408802518014,
-      "z_translation": -93.03009942172338,
+      "x_translation": 2.750440053625562,
+      "y_translation": 18.37318419943104,
+      "z_translation": 1.7727534426497,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -548,16 +578,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 3.6053473029074024,
-    "y_dimension": 3.36355875952285,
-    "z_dimension": 2.990706321800485,
+    "creation_date": "2025-05-02",
+    "x_dimension": 2.775091712025474,
+    "y_dimension": 3.4755784108659316,
+    "z_dimension": 2.795304086313129,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#26_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -567,13 +597,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -143.7086776380963,
-      "y_translation": 101.23757384322057,
-      "z_translation": -92.57802066481358,
+      "x_translation": 2.624650721829172,
+      "y_translation": 20.977837985222937,
+      "z_translation": 1.364933146557116,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -584,16 +616,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 2.510788982707124,
-    "y_dimension": 2.2691198475918717,
-    "z_dimension": 2.159011090095891,
+    "creation_date": "2025-05-02",
+    "x_dimension": 1.9320899305642347,
+    "y_dimension": 2.1473761548151256,
+    "z_dimension": 2.004001170460602,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#27_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -603,13 +635,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -143.18044759105334,
-      "y_translation": 99.29776737214047,
-      "z_translation": -92.47710289041585,
+      "x_translation": 2.659073369367521,
+      "y_translation": 22.858700737829043,
+      "z_translation": 1.0275179957962393,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -620,16 +654,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.654568019029082,
-    "y_dimension": 4.738943563842829,
-    "z_dimension": 5.39590944551599,
+    "creation_date": "2025-05-02",
+    "x_dimension": 3.8905874355038286,
+    "y_dimension": 4.829587005737157,
+    "z_dimension": 4.9775177094571745,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#28_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -639,13 +673,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -143.77666788470898,
-      "y_translation": 103.61799156415034,
-      "z_translation": -95.81260736660042,
+      "x_translation": 5.638801694139023,
+      "y_translation": 19.14776517962113,
+      "z_translation": 2.5484299822895737,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -656,16 +692,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 3.799210124093344,
-    "y_dimension": 3.845416169671323,
-    "z_dimension": 4.447330724728249,
+    "creation_date": "2025-05-02",
+    "x_dimension": 3.403644111189555,
+    "y_dimension": 3.3643926721698,
+    "z_dimension": 4.199935780889897,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#29_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -675,13 +711,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -142.961866933631,
-      "y_translation": 101.03816721222414,
-      "z_translation": -95.05158769987185,
+      "x_translation": 5.154947729627151,
+      "y_translation": 21.665832267906513,
+      "z_translation": 2.023178723149381,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -692,16 +730,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 3.1522673279011926,
-    "y_dimension": 3.8117780977154347,
-    "z_dimension": 4.22652626745923,
+    "creation_date": "2025-05-02",
+    "x_dimension": 5.086289178101097,
+    "y_dimension": 3.594808545227965,
+    "z_dimension": 3.855001884276066,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#3_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -711,13 +749,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -148.06710516404436,
-      "y_translation": 117.57382839671787,
-      "z_translation": -96.31798464172222,
+      "x_translation": 6.1140278112796835,
+      "y_translation": 4.765461390828049,
+      "z_translation": 5.1613220883839075,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -728,16 +768,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 2.8068759001205756,
-    "y_dimension": 2.5757443216293807,
-    "z_dimension": 3.1750978376956507,
+    "creation_date": "2025-05-02",
+    "x_dimension": 2.780759802558139,
+    "y_dimension": 1.7566320963650766,
+    "z_dimension": 3.0755301079969932,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#30_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -747,13 +787,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -142.51704230757466,
-      "y_translation": 99.16897443382247,
-      "z_translation": -94.44930768989867,
+      "x_translation": 4.523548428185788,
+      "y_translation": 23.283886871065057,
+      "z_translation": 1.5034537190156405,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -764,16 +806,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 6.096055083784247,
-    "y_dimension": 5.083919907002632,
-    "z_dimension": 5.694203751192006,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.160980822118105,
+    "y_dimension": 5.303927389966656,
+    "z_dimension": 6.039075070366446,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#31_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -783,13 +825,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -148.15759142932802,
-      "y_translation": 103.19824209652059,
-      "z_translation": -93.84632835428552,
+      "x_translation": 1.8412092569032312,
+      "y_translation": 18.442334263082067,
+      "z_translation": 4.681127610320409,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -800,16 +844,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 5.464289517900234,
-    "y_dimension": 3.9500224295650477,
-    "z_dimension": 4.6034348367549605,
+    "creation_date": "2025-05-02",
+    "x_dimension": 3.4501779367760443,
+    "y_dimension": 4.091636989165496,
+    "z_dimension": 5.131612891769992,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#32_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -819,13 +863,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -146.88371553003765,
-      "y_translation": 100.77944276595152,
-      "z_translation": -93.24836958791691,
+      "x_translation": 1.8709569748390775,
+      "y_translation": 20.924179643429046,
+      "z_translation": 3.9345716793055576,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -836,16 +882,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.050265339161141,
-    "y_dimension": 2.492285548637896,
-    "z_dimension": 3.2547245317363913,
+    "creation_date": "2025-05-02",
+    "x_dimension": 2.4635342060570498,
+    "y_dimension": 2.5043596208184775,
+    "z_dimension": 3.6028047881954266,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#33_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -855,13 +901,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -145.56654558424768,
-      "y_translation": 99.05137905423788,
-      "z_translation": -92.89646615701929,
+      "x_translation": 2.126849542729112,
+      "y_translation": 22.734484581201656,
+      "z_translation": 3.000290942011985,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -872,16 +920,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 5.186095524376045,
-    "y_dimension": 3.684183098125154,
-    "z_dimension": 4.115669138233857,
+    "creation_date": "2025-05-02",
+    "x_dimension": 3.3655040936486498,
+    "y_dimension": 3.5972951257160766,
+    "z_dimension": 4.4528279584820085,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#34_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -891,13 +939,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -147.5065047857552,
-      "y_translation": 102.42747068459394,
-      "z_translation": -96.46164159894485,
+      "x_translation": 5.0001054634067135,
+      "y_translation": 19.9409359228458,
+      "z_translation": 5.311742744204199,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -908,16 +958,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.467147185756359,
-    "y_dimension": 2.6720154005676067,
-    "z_dimension": 3.432105912861305,
+    "creation_date": "2025-05-02",
+    "x_dimension": 2.8377053296435446,
+    "y_dimension": 2.362038900889596,
+    "z_dimension": 3.9324534106010627,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#35_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -927,13 +977,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -146.12834666121915,
-      "y_translation": 100.03933923302249,
-      "z_translation": -95.53756893555045,
+      "x_translation": 4.546414458867769,
+      "y_translation": 22.250753274566264,
+      "z_translation": 4.31816380567505,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -944,16 +996,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 3.598561157279412,
-    "y_dimension": 4.756152503578054,
-    "z_dimension": 3.4442067891664596,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.589147514807531,
+    "y_dimension": 4.173809618793059,
+    "z_dimension": 3.981127213517413,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#12_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -963,13 +1015,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -150.84472482700107,
-      "y_translation": 115.89655264888042,
-      "z_translation": -99.76738524696704,
+      "x_translation": 8.579711052570195,
+      "y_translation": 6.080905230205547,
+      "z_translation": 8.574431804314255,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -980,16 +1034,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 2.8884572216408833,
-    "y_dimension": 3.6025212944355287,
-    "z_dimension": 2.8456648217016767,
+    "creation_date": "2025-05-02",
+    "x_dimension": 3.7448628091868996,
+    "y_dimension": 3.265414964509113,
+    "z_dimension": 3.1798547144033518,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#11_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -999,13 +1053,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -150.90111687676122,
-      "y_translation": 118.61094065943568,
-      "z_translation": -100.19141836120727,
+      "x_translation": 9.42914124742629,
+      "y_translation": 3.487882079344435,
+      "z_translation": 9.017824076054803,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1016,16 +1072,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 1.9899123979495448,
-    "y_dimension": 2.26424305009848,
-    "z_dimension": 2.0261693241721837,
+    "creation_date": "2025-05-02",
+    "x_dimension": 2.54870397156777,
+    "y_dimension": 2.3603984166029326,
+    "z_dimension": 2.2803284870313023,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#10_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1035,13 +1091,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -150.80884669795412,
-      "y_translation": 120.58800929022908,
-      "z_translation": -100.55709345706777,
+      "x_translation": 10.002745333720593,
+      "y_translation": 1.4803478223735165,
+      "z_translation": 9.09914330410077,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1052,16 +1110,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 3.1373071151231113,
-    "y_dimension": 1.5094938069572794,
-    "z_dimension": 2.4293649138774356,
+    "creation_date": "2025-05-02",
+    "x_dimension": 2.1793897318729827,
+    "y_dimension": 1.2612670368084973,
+    "z_dimension": 3.0174389805519146,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#36_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1071,13 +1129,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -144.9554665041733,
-      "y_translation": 98.51074509608489,
-      "z_translation": -94.77142244025761,
+      "x_translation": 4.113722788253046,
+      "y_translation": 23.576878439784856,
+      "z_translation": 3.1202629542902565,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1088,16 +1148,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 2.7123883975149754,
-    "y_dimension": 1.9459090373081245,
-    "z_dimension": 2.840253706201168,
+    "creation_date": "2025-05-02",
+    "x_dimension": 2.8574297265838435,
+    "y_dimension": 2.508511540372703,
+    "z_dimension": 3.279663378818895,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#4_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1107,13 +1167,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -148.8615136027745,
-      "y_translation": 120.9916335767269,
-      "z_translation": -100.25047910220394,
+      "x_translation": 10.732145298569668,
+      "y_translation": 1.402963563072849,
+      "z_translation": 7.21934929832465,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1124,16 +1186,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 3.294299124760647,
-    "y_dimension": 3.5536932959904233,
-    "z_dimension": 4.029082968383335,
+    "creation_date": "2025-05-02",
+    "x_dimension": 3.913634734359253,
+    "y_dimension": 3.7127267052215474,
+    "z_dimension": 4.477897855768645,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#5_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1143,13 +1205,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -148.1655384827858,
-      "y_translation": 119.36017868979515,
-      "z_translation": -99.68918679120812,
+      "x_translation": 10.289486408652522,
+      "y_translation": 3.258494838570221,
+      "z_translation": 6.647905807478878,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1160,16 +1224,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 3.755894820607397,
-    "y_dimension": 4.822438736101498,
-    "z_dimension": 4.813611980026,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.809669421979468,
+    "y_dimension": 4.673370031423193,
+    "z_dimension": 5.346773936649854,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#6_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1179,13 +1243,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -147.60975290241504,
-      "y_translation": 116.916810111795,
-      "z_translation": -99.10246476537571,
+      "x_translation": 9.481655977526703,
+      "y_translation": 5.764135398949481,
+      "z_translation": 5.9494542131760735,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1196,16 +1262,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 2.558477498738998,
-    "y_dimension": 2.62510989238679,
-    "z_dimension": 3.5321100454331624,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.002607309797831,
+    "y_dimension": 2.406054264099185,
+    "z_dimension": 3.531169155052444,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#7_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1215,13 +1281,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -151.16106589534837,
-      "y_translation": 120.48631925791656,
-      "z_translation": -98.47402631096054,
+      "x_translation": 7.643018211478621,
+      "y_translation": 1.2481098866253155,
+      "z_translation": 8.545677296147524,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1232,16 +1300,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 3.627155356402678,
-    "y_dimension": 4.265338041288591,
-    "z_dimension": 4.920459207272576,
+    "creation_date": "2025-05-02",
+    "x_dimension": 5.419858979519618,
+    "y_dimension": 3.6136624662470376,
+    "z_dimension": 4.959426836017585,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#8_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1251,13 +1319,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -151.3687913210159,
-      "y_translation": 118.62579675414759,
-      "z_translation": -97.5110300337517,
+      "x_translation": 6.316222916255103,
+      "y_translation": 2.9462340750119296,
+      "z_translation": 8.189555398980117,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1268,16 +1338,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 4.396267031584689,
-    "y_dimension": 5.547376224575073,
-    "z_dimension": 5.690334312230094,
+    "creation_date": "2025-05-02",
+    "x_dimension": 6.068584973533076,
+    "y_dimension": 4.472712388088065,
+    "z_dimension": 6.163719822774478,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/ovary-female-right-upenn#9_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1287,12 +1357,14 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -151.38097651030247,
-      "y_translation": 116.05375272138829,
-      "z_translation": -96.75399377469493,
+      "x_translation": 4.999477065416522,
+      "y_translation": 5.32699641612476,
+      "z_translation": 7.555520217223607,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/ovary-female-right/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002118"
+    ]
   }
 ]

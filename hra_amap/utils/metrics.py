@@ -72,5 +72,5 @@ def get_translations(target_name: str):
             row[list(row.keys())[0]] == target_name
             and row[list(row.keys())[1]] == target_name
         ):
-            return list(row.values())[-3:]
+            return list(map(lambda x: -1 * float(x), list(row.values())[-3:]))
     return None
