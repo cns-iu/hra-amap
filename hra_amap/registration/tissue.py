@@ -13,7 +13,7 @@ from hra_amap.registration.dataclass import Transform
 from hra_amap.utils.io import read_yaml, write_json
 from hra_amap.utils.conversions import to_pointcloud, to_array, split_transform
 from hra_amap.utils.metrics import scaling, rotation
-from scripts.constants import ConfigKeys
+from hra_amap.utils.constants import ConfigKeys
 
 
 class DivisionFactor(Enum):

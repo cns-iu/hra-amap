@@ -9,9 +9,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 9.011881140487649,
-    "y_dimension": 20.347720911829057,
-    "z_dimension": 18.370989131843654,
+    "x_dimension": 5.283942085188661,
+    "y_dimension": 19.550700606585888,
+    "z_dimension": 28.216789689085623,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -27,17 +27,18 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 35.76367024337408,
-      "y_translation": 36.26093013011377,
-      "z_translation": 38.24293717217135,
+      "x_translation": 23.74996360924995,
+      "y_translation": 25.345638371106876,
+      "z_translation": 21.36878778738115,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -50,9 +51,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 9.12629544893903,
-    "y_dimension": 18.46786205435283,
-    "z_dimension": 18.431478931168048,
+    "x_dimension": 4.875754877188679,
+    "y_dimension": 17.64416407804751,
+    "z_dimension": 27.088219637233006,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -68,17 +69,18 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 38.79317570880475,
-      "y_translation": 36.05828850238311,
-      "z_translation": 39.26266964400211,
+      "x_translation": 21.591254210780654,
+      "y_translation": 23.47126885197651,
+      "z_translation": 19.525123448268467,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -91,9 +93,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 13.158882917812836,
-    "y_dimension": 15.959267515423727,
-    "z_dimension": 19.862236066686677,
+    "x_dimension": 7.987538234270811,
+    "y_dimension": 16.856958593515216,
+    "z_dimension": 26.623571023375938,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -109,19 +111,18 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 43.44664814123363,
-      "y_translation": 35.938146553622815,
-      "z_translation": 41.310105895752436,
+      "x_translation": 18.264132306309556,
+      "y_translation": 20.831116919808114,
+      "z_translation": 17.614781719867892,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma17561",
-      "",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma77049",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -134,9 +135,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 9.553874432610062,
-    "y_dimension": 21.603260585492915,
-    "z_dimension": 19.894549727502834,
+    "x_dimension": 6.620487274082161,
+    "y_dimension": 22.289081708117607,
+    "z_dimension": 29.051065810489114,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -152,17 +153,19 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 31.640697337481157,
-      "y_translation": 36.41123422276345,
-      "z_translation": 38.123454064197944,
+      "x_translation": 26.929208753083234,
+      "y_translation": 26.780986842854883,
+      "z_translation": 22.675626427248147,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.obolibrary.org/obo/UBERON_0013759",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -175,9 +178,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 7.469459563042929,
-    "y_dimension": 22.599099688920155,
-    "z_dimension": 20.78916592884433,
+    "x_dimension": 8.876699595358687,
+    "y_dimension": 24.157342294394173,
+    "z_dimension": 31.566113316385668,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -193,17 +196,19 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 26.731824088407357,
-      "y_translation": 36.19088905822846,
-      "z_translation": 38.5495361220793,
+      "x_translation": 30.65520779316187,
+      "y_translation": 27.362558423780868,
+      "z_translation": 25.272875121942203,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.obolibrary.org/obo/UBERON_0013759",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -216,9 +221,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 5.765747654272853,
-    "y_dimension": 23.02866503492168,
-    "z_dimension": 20.327106081309555,
+    "x_dimension": 10.039064682265929,
+    "y_dimension": 22.556474656969097,
+    "z_dimension": 31.149613566383646,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -234,9 +239,9 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 22.778660251427898,
-      "y_translation": 35.62573518147125,
-      "z_translation": 38.730046159609984,
+      "x_translation": 33.68200044833032,
+      "y_translation": 28.674334129601306,
+      "z_translation": 27.357674515397413,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
@@ -244,7 +249,10 @@
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.obolibrary.org/obo/UBERON_0013759",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -257,9 +265,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 12.149763457908017,
-    "y_dimension": 18.139170708567047,
-    "z_dimension": 19.32284638196198,
+    "x_dimension": 13.582064295180288,
+    "y_dimension": 19.13355817789648,
+    "z_dimension": 31.414239299263727,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -275,9 +283,9 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 11.417695861790662,
-      "y_translation": 33.72035564788853,
-      "z_translation": 42.11058285584448,
+      "x_translation": 41.436104436661786,
+      "y_translation": 28.099204662690234,
+      "z_translation": 30.940280762746223,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
@@ -287,7 +295,9 @@
       "",
       "http://purl.org/sig/ont/fma/fma224876",
       "http://purl.org/sig/ont/fma/fma77049",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -300,9 +310,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 8.430147746604936,
-    "y_dimension": 20.981552174578464,
-    "z_dimension": 20.142820718014686,
+    "x_dimension": 15.205729085244007,
+    "y_dimension": 20.434232497025153,
+    "z_dimension": 31.75650737175899,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -318,17 +328,21 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 15.75404187309384,
-      "y_translation": 34.52331910907696,
-      "z_translation": 40.51974077187907,
+      "x_translation": 40.13147931103267,
+      "y_translation": 29.46494963524695,
+      "z_translation": 30.68646494660534,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma17561",
+      "",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma77049",
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -341,9 +355,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 8.122122976721506,
-    "y_dimension": 22.49345534556503,
-    "z_dimension": 20.398716041103185,
+    "x_dimension": 12.901273985370151,
+    "y_dimension": 21.456116410529503,
+    "z_dimension": 32.130670879852985,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -359,9 +373,9 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 19.45275045171263,
-      "y_translation": 35.16948723653553,
-      "z_translation": 39.214287962880384,
+      "x_translation": 36.779473394758256,
+      "y_translation": 29.35782633392102,
+      "z_translation": 28.858494695367366,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
@@ -369,7 +383,10 @@
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.obolibrary.org/obo/UBERON_0013759",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -382,9 +399,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 7.8246248637753455,
-    "y_dimension": 12.474474957788889,
-    "z_dimension": 22.193308120017797,
+    "x_dimension": 5.805225521805929,
+    "y_dimension": 24.492549416621205,
+    "z_dimension": 27.20026902139404,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -400,17 +417,20 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 37.087676232284586,
-      "y_translation": 26.93789103646794,
-      "z_translation": 42.486259773447635,
+      "x_translation": 24.444958182235368,
+      "y_translation": 16.205333324504075,
+      "z_translation": 28.239279453088898,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.obolibrary.org/obo/UBERON_0013759",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -423,9 +443,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 10.082115406569475,
-    "y_dimension": 13.796360611824703,
-    "z_dimension": 21.261156925317202,
+    "x_dimension": 7.991578203841651,
+    "y_dimension": 23.657374423010346,
+    "z_dimension": 28.513619070814464,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -441,17 +461,19 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 41.014583426469216,
-      "y_translation": 28.810200458503886,
-      "z_translation": 42.311671165525986,
+      "x_translation": 21.193188682425056,
+      "y_translation": 14.882235727964924,
+      "z_translation": 24.520986533701485,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -464,9 +486,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 11.022846690013285,
-    "y_dimension": 12.942620119056423,
-    "z_dimension": 19.85685841878261,
+    "x_dimension": 8.241288113930432,
+    "y_dimension": 21.17759842619324,
+    "z_dimension": 25.910774790245707,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -482,19 +504,19 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 44.67318355754204,
-      "y_translation": 31.503682862563345,
-      "z_translation": 42.69288818895406,
+      "x_translation": 18.32878164006374,
+      "y_translation": 14.155392214502633,
+      "z_translation": 20.63001534213685,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma17561",
-      "",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma77049",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -507,9 +529,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 8.384624660441597,
-    "y_dimension": 13.174246353864438,
-    "z_dimension": 24.096501219121393,
+    "x_dimension": 10.664219383735299,
+    "y_dimension": 26.687711376749768,
+    "z_dimension": 29.453250203655415,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -525,9 +547,9 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 23.462198860870725,
-      "y_translation": 26.0481130097657,
-      "z_translation": 43.13163123996056,
+      "x_translation": 35.722704083437115,
+      "y_translation": 21.084266514765257,
+      "z_translation": 33.56620015056079,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
@@ -535,7 +557,10 @@
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.obolibrary.org/obo/UBERON_0013759",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -548,9 +573,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 7.165443895610676,
-    "y_dimension": 13.094811404375934,
-    "z_dimension": 23.826626119847763,
+    "x_dimension": 9.309736400423814,
+    "y_dimension": 27.431883577321326,
+    "z_dimension": 30.138499023588185,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -566,9 +591,9 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 27.86995724300415,
-      "y_translation": 25.989749038996862,
-      "z_translation": 43.16289918368169,
+      "x_translation": 31.700084474208065,
+      "y_translation": 19.28671838336286,
+      "z_translation": 32.02529498228552,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
@@ -576,7 +601,11 @@
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.obolibrary.org/obo/UBERON_0013759",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -589,9 +618,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.161321423989633,
-    "y_dimension": 12.939398133786694,
-    "z_dimension": 23.527041356595696,
+    "x_dimension": 6.866021451972459,
+    "y_dimension": 25.19420435815878,
+    "z_dimension": 28.207152181122158,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -607,17 +636,20 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 33.60547542097759,
-      "y_translation": 26.297433990238268,
-      "z_translation": 43.03510946580201,
+      "x_translation": 27.561555805368503,
+      "y_translation": 16.76526895088661,
+      "z_translation": 30.41174167820501,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.obolibrary.org/obo/UBERON_0013759",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -630,9 +662,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 12.477866041018526,
-    "y_dimension": 13.339047190786435,
-    "z_dimension": 20.732214654246462,
+    "x_dimension": 12.386207903877706,
+    "y_dimension": 23.328787214595206,
+    "z_dimension": 31.43653027726992,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -648,9 +680,9 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 11.892199221685447,
-      "y_translation": 29.85808634870133,
-      "z_translation": 42.81874511344999,
+      "x_translation": 42.47846147339744,
+      "y_translation": 25.19237707916241,
+      "z_translation": 31.958768557260278,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
@@ -660,7 +692,9 @@
       "",
       "http://purl.org/sig/ont/fma/fma224876",
       "http://purl.org/sig/ont/fma/fma77049",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -673,9 +707,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 10.35515422486223,
-    "y_dimension": 13.574483529249322,
-    "z_dimension": 22.125413559430427,
+    "x_dimension": 14.128570476208523,
+    "y_dimension": 25.23578484946065,
+    "z_dimension": 30.294033932767004,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -691,17 +725,21 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 16.415490046929467,
-      "y_translation": 27.490909663612776,
-      "z_translation": 42.888581858247456,
+      "x_translation": 41.51665000626956,
+      "y_translation": 24.284117475195558,
+      "z_translation": 33.882655499819684,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma17561",
+      "",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma77049",
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -714,9 +752,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 9.3631542231499,
-    "y_dimension": 13.066083009268967,
-    "z_dimension": 23.12749951019835,
+    "x_dimension": 12.492960302636385,
+    "y_dimension": 25.96052600540106,
+    "z_dimension": 29.010862657855462,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -732,9 +770,9 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 20.13209980779191,
-      "y_translation": 26.31034346702018,
-      "z_translation": 42.902291525627966,
+      "x_translation": 39.00922198205746,
+      "y_translation": 22.84081688484239,
+      "z_translation": 34.45884804814123,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
@@ -742,7 +780,9 @@
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma224878",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -755,9 +795,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 5.545053235716274,
-    "y_dimension": 10.708443202302298,
-    "z_dimension": 11.917447947854557,
+    "x_dimension": 5.327104965338725,
+    "y_dimension": 17.45093561166592,
+    "z_dimension": 12.57992300591329,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -773,16 +813,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 38.35961443057759,
-      "y_translation": 40.90827857757034,
-      "z_translation": 52.02475276767942,
+      "x_translation": 23.786783329642567,
+      "y_translation": 15.86140005566246,
+      "z_translation": 6.364780108846266,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0013760",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -795,9 +835,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.892705419657362,
-    "y_dimension": 8.508768160301022,
-    "z_dimension": 9.47147284973382,
+    "x_dimension": 4.243214200908126,
+    "y_dimension": 15.538403727864829,
+    "z_dimension": 10.029673987949767,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -813,16 +853,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 41.83704640673226,
-      "y_translation": 40.7536031412975,
-      "z_translation": 51.472422158285354,
+      "x_translation": 20.333748222558572,
+      "y_translation": 15.636677852554758,
+      "z_translation": 5.68888075669495,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -835,9 +874,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.66736917827898,
-    "y_dimension": 5.553251449821217,
-    "z_dimension": 5.525135386377348,
+    "x_dimension": 4.07304295089083,
+    "y_dimension": 11.783715547989994,
+    "z_dimension": 6.317975841813525,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -853,17 +892,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 45.55228785901809,
-      "y_translation": 40.386703820188984,
-      "z_translation": 51.323628597671,
+      "x_translation": 16.69426469016098,
+      "y_translation": 15.05223493716041,
+      "z_translation": 5.322160930821419,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -876,9 +913,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 7.602077894071621,
-    "y_dimension": 12.949172352304556,
-    "z_dimension": 14.13197284050577,
+    "x_dimension": 9.662428919916616,
+    "y_dimension": 19.082530508243455,
+    "z_dimension": 16.82456230483194,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -894,16 +931,18 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 23.429686430907676,
-      "y_translation": 40.94976561481315,
-      "z_translation": 53.79825669454641,
+      "x_translation": 33.717835193086756,
+      "y_translation": 17.35513442928913,
+      "z_translation": 9.43883325345219,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0013760",
+      "http://purl.obolibrary.org/obo/UBERON_0013759",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -916,9 +955,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.381286867545535,
-    "y_dimension": 13.201439401159574,
-    "z_dimension": 14.292259936266344,
+    "x_dimension": 8.733667003246119,
+    "y_dimension": 19.57251947591635,
+    "z_dimension": 16.77225990971443,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -934,16 +973,18 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 28.645583809598723,
-      "y_translation": 40.99240634073457,
-      "z_translation": 53.40823941468227,
+      "x_translation": 30.87717637670778,
+      "y_translation": 16.74474958047115,
+      "z_translation": 8.351768574821852,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0013760",
+      "http://purl.obolibrary.org/obo/UBERON_0013759",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -956,9 +997,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.587080850671015,
-    "y_dimension": 12.59625328686534,
-    "z_dimension": 13.661070998224305,
+    "x_dimension": 7.62904629748299,
+    "y_dimension": 18.734320022642684,
+    "z_dimension": 15.283985808095368,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -974,16 +1015,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 33.36050583875062,
-      "y_translation": 41.10655626722967,
-      "z_translation": 52.81899141666661,
+      "x_translation": 27.555588493903837,
+      "y_translation": 16.516807003195844,
+      "z_translation": 7.392922288650253,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0013760",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -996,9 +1037,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 5.69308114912407,
-    "y_dimension": 6.471517607621408,
-    "z_dimension": 6.365466764171115,
+    "x_dimension": 5.251988647281728,
+    "y_dimension": 10.80585936195761,
+    "z_dimension": 9.315419293561945,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1014,16 +1055,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 11.102061805404652,
-      "y_translation": 39.86130173932763,
-      "z_translation": 52.87467737184217,
+      "x_translation": 38.49397216753781,
+      "y_translation": 19.344206971384533,
+      "z_translation": 13.275092380665306,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -1036,9 +1076,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.736442460285715,
-    "y_dimension": 9.469036894717606,
-    "z_dimension": 10.857792844300441,
+    "x_dimension": 7.764015935348229,
+    "y_dimension": 15.925489385647493,
+    "z_dimension": 13.620044993262983,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1054,16 +1094,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 15.479948646868229,
-      "y_translation": 40.47182801701898,
-      "z_translation": 53.74418676468449,
+      "x_translation": 37.217144121561795,
+      "y_translation": 18.56344208547606,
+      "z_translation": 11.774420274909152,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -1076,9 +1116,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.961348108075748,
-    "y_dimension": 11.411677294076064,
-    "z_dimension": 13.073837060811112,
+    "x_dimension": 9.041705421924812,
+    "y_dimension": 17.945797900220633,
+    "z_dimension": 16.06322765257319,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1094,16 +1134,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 19.397368382623867,
-      "y_translation": 40.93883496586341,
-      "z_translation": 53.690938721677156,
+      "x_translation": 35.679695456788764,
+      "y_translation": 18.08893004689111,
+      "z_translation": 10.60505105413443,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0013760",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -1116,9 +1157,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 5.012404442901214,
-    "y_dimension": 11.130538188998308,
-    "z_dimension": 11.682134591825502,
+    "x_dimension": 5.243614275079953,
+    "y_dimension": 14.415696576665079,
+    "z_dimension": 18.112727718233536,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1134,16 +1175,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 38.130789580741606,
-      "y_translation": 34.4029290245426,
-      "z_translation": 53.8280221264339,
+      "x_translation": 24.115929466001933,
+      "y_translation": 5.631558100245191,
+      "z_translation": 11.213014000629247,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0013760",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -1156,9 +1197,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.0556782354865835,
-    "y_dimension": 9.876960577329921,
-    "z_dimension": 9.343575407234864,
+    "x_dimension": 5.54363443646387,
+    "y_dimension": 12.534979884747614,
+    "z_dimension": 15.934297095071798,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1174,16 +1215,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 41.74138645562307,
-      "y_translation": 34.74601359663347,
-      "z_translation": 53.379869571212666,
+      "x_translation": 20.20073877859972,
+      "y_translation": 5.52967695546915,
+      "z_translation": 10.67051794952903,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -1196,9 +1236,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.428039468563419,
-    "y_dimension": 6.500079100765138,
-    "z_dimension": 4.465618722043541,
+    "x_dimension": 3.8320222128268093,
+    "y_dimension": 8.58411009503662,
+    "z_dimension": 10.171309377440513,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1214,15 +1254,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 45.78131315076517,
-      "y_translation": 35.71977135354136,
-      "z_translation": 52.70619030776694,
+      "x_translation": 16.58192348171764,
+      "y_translation": 6.4137271296527985,
+      "z_translation": 9.522347866052606,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -1235,9 +1275,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 7.251585287207658,
-    "y_dimension": 11.895588439733512,
-    "z_dimension": 13.191530077255875,
+    "x_dimension": 8.49861565717488,
+    "y_dimension": 15.497537815533397,
+    "z_dimension": 18.85209998580574,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1253,16 +1293,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 23.652697596209084,
-      "y_translation": 34.47845969380577,
-      "z_translation": 55.60673605658876,
+      "x_translation": 34.84615203183254,
+      "y_translation": 8.232906867679226,
+      "z_translation": 12.52399853108676,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0013760",
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -1275,9 +1316,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 7.320851301919548,
-    "y_dimension": 12.036154241123139,
-    "z_dimension": 14.020865336429184,
+    "x_dimension": 9.126990098927813,
+    "y_dimension": 16.349360215872842,
+    "z_dimension": 19.769900338503803,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1293,16 +1334,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 28.085247992730356,
-      "y_translation": 34.26464607112009,
-      "z_translation": 55.2697052499883,
+      "x_translation": 31.6521276249314,
+      "y_translation": 7.11643292555781,
+      "z_translation": 11.948144024562463,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0013760",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -1315,9 +1356,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.2402370513419125,
-    "y_dimension": 11.85595955412153,
-    "z_dimension": 13.275832817084666,
+    "x_dimension": 7.50930806129551,
+    "y_dimension": 16.451870043075143,
+    "z_dimension": 19.501811188566894,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1333,16 +1374,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 33.590283397302834,
-      "y_translation": 34.27881107447755,
-      "z_translation": 54.85765063213362,
+      "x_translation": 27.838127347355513,
+      "y_translation": 6.488382693155564,
+      "z_translation": 11.437415435232994,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0013760",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -1355,9 +1396,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.890677105282862,
-    "y_dimension": 6.51896846157668,
-    "z_dimension": 4.718116822727159,
+    "x_dimension": 3.3928725299468554,
+    "y_dimension": 7.442381212330853,
+    "z_dimension": 9.578484515739893,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1373,15 +1414,14 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 11.13993277899459,
-      "y_translation": 35.72889957514196,
-      "z_translation": 54.34748252607415,
+      "x_translation": 39.395438108325216,
+      "y_translation": 14.165559507405726,
+      "z_translation": 14.782336353418621,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0000002"
     ]
   },
   {
@@ -1394,9 +1434,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.9329823480858215,
-    "y_dimension": 9.477770414318742,
-    "z_dimension": 8.796879568372384,
+    "x_dimension": 6.280960185230458,
+    "y_dimension": 10.808119235035358,
+    "z_dimension": 15.065839959121071,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1412,16 +1452,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 15.0244739341024,
-      "y_translation": 34.973526653342894,
-      "z_translation": 55.34294589770981,
+      "x_translation": 38.09251413599302,
+      "y_translation": 11.209612332494839,
+      "z_translation": 13.914532664752572,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -1434,9 +1473,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.130990205171202,
-    "y_dimension": 10.862353427249062,
-    "z_dimension": 11.165277602323748,
+    "x_dimension": 7.6248511745542755,
+    "y_dimension": 13.454087358607943,
+    "z_dimension": 17.48312053963183,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1452,16 +1491,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 18.8718498686306,
-      "y_translation": 34.54601312877719,
-      "z_translation": 55.6806970412261,
+      "x_translation": 36.61518514733708,
+      "y_translation": 9.70255131724927,
+      "z_translation": 13.367247675683313,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma17561",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878"
+      "http://purl.org/sig/ont/fma/fma17752",
+      "http://purl.obolibrary.org/obo/UBERON_0000002",
+      ""
     ]
   },
   {
@@ -1474,9 +1513,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.551783124364938,
-    "y_dimension": 11.603944239009845,
-    "z_dimension": 9.543935522807773,
+    "x_dimension": 8.30147261612188,
+    "y_dimension": 9.320136951384214,
+    "z_dimension": 11.077373842131616,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1492,17 +1531,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 33.09951555037834,
-      "y_translation": 28.804713555353732,
-      "z_translation": 26.93469027705653,
+      "x_translation": 20.760113647468465,
+      "y_translation": 31.992345860774506,
+      "z_translation": 33.26346163094907,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -1515,9 +1553,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 3.798778656773333,
-    "y_dimension": 9.428828800581782,
-    "z_dimension": 9.194669055571959,
+    "x_dimension": 7.644220853532972,
+    "y_dimension": 7.365211004956795,
+    "z_dimension": 9.360127933939587,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1533,17 +1571,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 35.50014253103226,
-      "y_translation": 28.94510298784686,
-      "z_translation": 27.68464689218424,
+      "x_translation": 18.54561397744059,
+      "y_translation": 29.676744545667184,
+      "z_translation": 32.44774050911115,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -1556,9 +1593,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.2866209660278045,
-    "y_dimension": 7.099367006421165,
-    "z_dimension": 8.836721285935427,
+    "x_dimension": 6.087842639343062,
+    "y_dimension": 5.5269098175754205,
+    "z_dimension": 7.987018275001391,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1574,9 +1611,9 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 37.87851008030447,
-      "y_translation": 28.765007899894293,
-      "z_translation": 28.99336441833915,
+      "x_translation": 16.87980855832432,
+      "y_translation": 27.189736370780253,
+      "z_translation": 31.636401849907124,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
@@ -1596,9 +1633,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.614771829011918,
-    "y_dimension": 12.73478350231641,
-    "z_dimension": 10.252514968020336,
+    "x_dimension": 6.585577237917084,
+    "y_dimension": 10.062073647940831,
+    "z_dimension": 11.688223788838187,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1614,17 +1651,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 24.278478532838438,
-      "y_translation": 27.096634288598022,
-      "z_translation": 26.2765920243807,
+      "x_translation": 35.227941795852075,
+      "y_translation": 38.16570042027017,
+      "z_translation": 39.85352958081881,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -1637,9 +1674,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 5.72995804326952,
-    "y_dimension": 13.885959484937857,
-    "z_dimension": 10.302227601352076,
+    "x_dimension": 8.833869663908061,
+    "y_dimension": 10.264512858996502,
+    "z_dimension": 12.996633399287948,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1655,17 +1692,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 26.557417063884273,
-      "y_translation": 27.904115408208487,
-      "z_translation": 25.93327175959649,
+      "x_translation": 30.49570877710618,
+      "y_translation": 37.34201323458907,
+      "z_translation": 37.45258220761377,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876"
     ]
   },
   {
@@ -1678,9 +1714,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 5.7872078871130865,
-    "y_dimension": 13.488791338490499,
-    "z_dimension": 10.298945118912926,
+    "x_dimension": 9.243110749646204,
+    "y_dimension": 11.721228621830837,
+    "z_dimension": 13.108286657137299,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1696,17 +1732,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 30.06290694911514,
-      "y_translation": 28.727538981058522,
-      "z_translation": 26.131562763641544,
+      "x_translation": 24.679641904504745,
+      "y_translation": 34.613848660883804,
+      "z_translation": 35.045916692774256,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -1719,9 +1754,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 3.5592530598104606,
-    "y_dimension": 6.556986054524011,
-    "z_dimension": 8.261347153741132,
+    "x_dimension": 3.9020452605592615,
+    "y_dimension": 4.656989865794131,
+    "z_dimension": 5.499079368653084,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1737,17 +1772,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 19.387173550565162,
-      "y_translation": 23.974818776729045,
-      "z_translation": 28.039429961003865,
+      "x_translation": 46.256958075639716,
+      "y_translation": 38.875045742430906,
+      "z_translation": 46.20830532475735,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -1760,9 +1795,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 3.7501968964829895,
-    "y_dimension": 8.335127717739809,
-    "z_dimension": 8.780104044081583,
+    "x_dimension": 4.197131254947445,
+    "y_dimension": 6.49850720368586,
+    "z_dimension": 7.189786565820672,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1778,17 +1813,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 20.305223368067292,
-      "y_translation": 24.883514654887016,
-      "z_translation": 27.39393419475547,
+      "x_translation": 43.94277551146364,
+      "y_translation": 39.126547694443275,
+      "z_translation": 44.65512161472788,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -1801,9 +1836,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 5.329627582143045,
-    "y_dimension": 11.737460406013797,
-    "z_dimension": 10.32092462748574,
+    "x_dimension": 7.4335133118915016,
+    "y_dimension": 9.113662890031183,
+    "z_dimension": 10.419413059740798,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1819,17 +1854,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 21.959458449938484,
-      "y_translation": 26.31956069108931,
-      "z_translation": 26.54097619084045,
+      "x_translation": 39.924779273915426,
+      "y_translation": 38.67241378376483,
+      "z_translation": 42.04559578853722,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -1842,9 +1877,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 3.983506794908859,
-    "y_dimension": 9.364416141283437,
-    "z_dimension": 11.585555214549064,
+    "x_dimension": 8.735139945928164,
+    "y_dimension": 7.6528927613410955,
+    "z_dimension": 11.08105926424792,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1860,17 +1895,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 34.672098516990296,
-      "y_translation": 21.77629718006754,
-      "z_translation": 30.781852954137097,
+      "x_translation": 22.28710084105043,
+      "y_translation": 26.69724271509679,
+      "z_translation": 39.25327071937096,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -1883,9 +1918,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.042453128386233,
-    "y_dimension": 8.32636159462459,
-    "z_dimension": 10.116223684989386,
+    "x_dimension": 8.572089575378998,
+    "y_dimension": 6.702248588571394,
+    "z_dimension": 9.826276414760803,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1901,17 +1936,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 36.81565445620815,
-      "y_translation": 23.374747614260393,
-      "z_translation": 30.455796077158872,
+      "x_translation": 18.649147044072453,
+      "y_translation": 25.53436287411642,
+      "z_translation": 36.81488310806903,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -1924,9 +1958,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 3.057567302905545,
-    "y_dimension": 5.809265516655532,
-    "z_dimension": 7.808549370615314,
+    "x_dimension": 6.058646645503055,
+    "y_dimension": 4.940648891890192,
+    "z_dimension": 7.265363518565396,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1942,9 +1976,9 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 38.551946385997155,
-      "y_translation": 25.55927247866318,
-      "z_translation": 30.298071116940996,
+      "x_translation": 16.668499060252703,
+      "y_translation": 24.779730603489764,
+      "z_translation": 33.84999681349414,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
@@ -1964,9 +1998,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 5.438792600102882,
-    "y_dimension": 8.61373279500059,
-    "z_dimension": 12.124800520195565,
+    "x_dimension": 7.25056556356915,
+    "y_dimension": 9.239589082969916,
+    "z_dimension": 9.30838550645391,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1982,17 +2016,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 25.858262345813483,
-      "y_translation": 19.468087052182245,
-      "z_translation": 30.666919861243006,
+      "x_translation": 37.393958324376904,
+      "y_translation": 31.89526697946336,
+      "z_translation": 46.97865481836119,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2005,9 +2039,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 5.8227616282465755,
-    "y_dimension": 8.467790703804935,
-    "z_dimension": 12.831663513275679,
+    "x_dimension": 8.57495430491391,
+    "y_dimension": 9.760186479541126,
+    "z_dimension": 9.463565434809723,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2023,17 +2057,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 28.53183547171563,
-      "y_translation": 19.4644290301691,
-      "z_translation": 30.91654677872996,
+      "x_translation": 32.045996043687694,
+      "y_translation": 30.136530047398285,
+      "z_translation": 45.785061661009024,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2046,9 +2080,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.782896441900278,
-    "y_dimension": 9.813513541468206,
-    "z_dimension": 12.58430270403981,
+    "x_dimension": 9.72463650134467,
+    "y_dimension": 8.916223703183034,
+    "z_dimension": 12.098391072675991,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2064,17 +2098,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 31.797833757999147,
-      "y_translation": 20.588416014764643,
-      "z_translation": 31.01974518914782,
+      "x_translation": 26.344641942315672,
+      "y_translation": 28.273082181164327,
+      "z_translation": 42.28783873014217,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2087,9 +2121,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 3.534667416918907,
-    "y_dimension": 5.145878456599168,
-    "z_dimension": 7.951884524978733,
+    "x_dimension": 2.8217037412819614,
+    "y_dimension": 5.046988279160475,
+    "z_dimension": 3.9374243449886714,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2105,17 +2139,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 19.909892035330326,
-      "y_translation": 21.300687736488,
-      "z_translation": 29.04839440607731,
+      "x_translation": 47.28605291932394,
+      "y_translation": 36.50093019682745,
+      "z_translation": 48.68346331792811,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2128,9 +2162,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.619148005430978,
-    "y_dimension": 7.191735728809233,
-    "z_dimension": 9.975708828335387,
+    "x_dimension": 6.387313130372011,
+    "y_dimension": 7.234326112230654,
+    "z_dimension": 6.9710105326851455,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2146,17 +2180,19 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 21.79434845010169,
-      "y_translation": 20.22308893263131,
-      "z_translation": 29.474843445167735,
+      "x_translation": 44.602197404242006,
+      "y_translation": 34.88606580783167,
+      "z_translation": 48.36902239651164,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma77049",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2169,9 +2205,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 4.2163794956830705,
-    "y_dimension": 7.968299225083506,
-    "z_dimension": 10.461709695411582,
+    "x_dimension": 5.095580614641603,
+    "y_dimension": 7.75527697821006,
+    "z_dimension": 7.689937577895906,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2187,17 +2223,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 24.027022893323362,
-      "y_translation": 19.65142606184019,
-      "z_translation": 30.119157339580806,
+      "x_translation": 42.10223993506229,
+      "y_translation": 33.32689390431006,
+      "z_translation": 48.07487731900531,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.org/sig/ont/fma/fma17752"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2210,9 +2246,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 15.246949511710225,
-    "y_dimension": 13.053671990789162,
-    "z_dimension": 12.980804083098151,
+    "x_dimension": 21.570253026291045,
+    "y_dimension": 11.363940981193362,
+    "z_dimension": 9.820167824475506,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2228,15 +2264,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 22.759544309097038,
-      "y_translation": 6.568315994962659,
-      "z_translation": 16.429440006823782,
+      "x_translation": 28.05522145993532,
+      "y_translation": 34.46864010413705,
+      "z_translation": 55.56406066554451,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2249,9 +2286,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 14.749805729157906,
-    "y_dimension": 17.65296912591739,
-    "z_dimension": 10.354667520207208,
+    "x_dimension": 22.012468773462842,
+    "y_dimension": 13.101952829027097,
+    "z_dimension": 17.09062122654262,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2267,16 +2304,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 22.00793995850947,
-      "y_translation": 16.8464280117517,
-      "z_translation": 8.900331690352974,
+      "x_translation": 27.877835843454214,
+      "y_translation": 41.477812142882975,
+      "z_translation": 50.53050969840725,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013760",
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2289,9 +2327,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 16.080386223061698,
-    "y_dimension": 16.531012266864973,
-    "z_dimension": 10.055164884729878,
+    "x_dimension": 14.824254383962991,
+    "y_dimension": 13.214323173058414,
+    "z_dimension": 13.435161607173368,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2307,16 +2345,19 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 34.69932866618273,
-      "y_translation": 17.40532410161854,
-      "z_translation": 8.674782310232526,
+      "x_translation": 12.178616746673711,
+      "y_translation": 39.502177058462294,
+      "z_translation": 47.958792660292225,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013760",
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma77049",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2329,9 +2370,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 13.697198006519143,
-    "y_dimension": 17.997595631953168,
-    "z_dimension": 13.932020328418156,
+    "x_dimension": 16.396914640869795,
+    "y_dimension": 8.281115236795918,
+    "z_dimension": 12.49383082570732,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2347,17 +2388,19 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 36.17596216722273,
-      "y_translation": 9.720655872263,
-      "z_translation": 15.934469263363914,
+      "x_translation": 12.875278707104842,
+      "y_translation": 32.77982213874914,
+      "z_translation": 50.260430109026196,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013759",
-      "http://purl.org/sig/ont/fma/fma17752",
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma77049",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2370,9 +2413,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 13.380589367211906,
-    "y_dimension": 13.634272854745541,
-    "z_dimension": 13.633461619438513,
+    "x_dimension": 24.37643675105347,
+    "y_dimension": 12.962150714807594,
+    "z_dimension": 11.08328799912392,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2388,17 +2431,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 24.046388809273097,
-      "y_translation": 10.416678604428274,
-      "z_translation": 20.272803412716854,
+      "x_translation": 32.18433277063015,
+      "y_translation": 33.81491918144166,
+      "z_translation": 51.996443293916215,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013759",
-      "http://purl.org/sig/ont/fma/fma17752",
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2411,9 +2454,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 12.925844579592088,
-    "y_dimension": 16.036718664707934,
-    "z_dimension": 11.27024914262456,
+    "x_dimension": 25.097659835254802,
+    "y_dimension": 13.524405353016618,
+    "z_dimension": 17.30826874489849,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2429,16 +2472,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 22.73630560498438,
-      "y_translation": 20.44494804770529,
-      "z_translation": 13.375924543484075,
+      "x_translation": 31.673548162139493,
+      "y_translation": 41.11226391333509,
+      "z_translation": 45.64871812377237,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013759",
-      "http://purl.org/sig/ont/fma/fma17752",
-      "http://purl.obolibrary.org/obo/UBERON_0000002"
+      "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2451,9 +2495,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 13.81515799149163,
-    "y_dimension": 13.856854506206288,
-    "z_dimension": 12.31306264191294,
+    "x_dimension": 18.326933667236275,
+    "y_dimension": 16.109671518835952,
+    "z_dimension": 12.615910486702491,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2469,16 +2513,19 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 33.553797470697255,
-      "y_translation": 21.444218813632705,
-      "z_translation": 14.017292328938218,
+      "x_translation": 14.329304045651835,
+      "y_translation": 37.19739089629319,
+      "z_translation": 42.50983038152044,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013759",
-      "http://purl.org/sig/ont/fma/fma17752",
-      "http://purl.obolibrary.org/obo/UBERON_0000002"
+      "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma77049",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2491,9 +2538,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 11.43084883214468,
-    "y_dimension": 18.094865454584994,
-    "z_dimension": 13.529335468555121,
+    "x_dimension": 19.7772807362653,
+    "y_dimension": 7.687023222597102,
+    "z_dimension": 15.045324272597831,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2509,20 +2556,19 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 34.99592508791941,
-      "y_translation": 13.77877131345701,
-      "z_translation": 20.089743020954625,
+      "x_translation": 15.130981829626858,
+      "y_translation": 30.341139798237307,
+      "z_translation": 46.369295351579076,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.obolibrary.org/obo/UBERON_0013759",
-      "http://purl.org/sig/ont/fma/fma17752",
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma77049",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2535,9 +2581,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 11.606291492332492,
-    "y_dimension": 10.833692067444003,
-    "z_dimension": 13.176921065753175,
+    "x_dimension": 23.926456442759022,
+    "y_dimension": 13.683222551746532,
+    "z_dimension": 11.214070897117123,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2553,18 +2599,19 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 25.208586153729314,
-      "y_translation": 15.52508574352655,
-      "z_translation": 25.09757388918577,
+      "x_translation": 35.64387451487775,
+      "y_translation": 33.44246297155177,
+      "z_translation": 48.8027157638329,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.obolibrary.org/obo/UBERON_0013759",
-      "http://purl.org/sig/ont/fma/fma17752",
-      "http://purl.obolibrary.org/obo/UBERON_0000002"
+      "http://purl.org/sig/ont/fma/fma17561",
+      "",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma77049",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2577,9 +2624,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 10.105911433086964,
-    "y_dimension": 13.746398139000172,
-    "z_dimension": 10.707550132242686,
+    "x_dimension": 23.883572351192594,
+    "y_dimension": 12.46232136586406,
+    "z_dimension": 16.599348788269573,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2595,18 +2642,18 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 24.08928775748518,
-      "y_translation": 23.766502219140808,
-      "z_translation": 19.46191761910327,
+      "x_translation": 34.73278724354112,
+      "y_translation": 39.57564512575991,
+      "z_translation": 42.36959976806251,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
+      "",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.obolibrary.org/obo/UBERON_0013759",
-      "http://purl.org/sig/ont/fma/fma17752",
-      "http://purl.obolibrary.org/obo/UBERON_0000002"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2619,9 +2666,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 10.67916919002596,
-    "y_dimension": 12.442712289216049,
-    "z_dimension": 11.87990586410377,
+    "x_dimension": 18.703657034201516,
+    "y_dimension": 15.629165619850783,
+    "z_dimension": 11.672223075605947,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2637,19 +2684,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 32.200831016719434,
-      "y_translation": 24.751725045442416,
-      "z_translation": 19.980556616049633,
+      "x_translation": 18.142841287333276,
+      "y_translation": 35.06765203818542,
+      "z_translation": 38.59061255016207,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.obolibrary.org/obo/UBERON_0013759",
-      "http://purl.org/sig/ont/fma/fma17752",
-      "http://purl.obolibrary.org/obo/UBERON_0000002"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2662,9 +2707,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 8.349009434500191,
-    "y_dimension": 14.590960333297295,
-    "z_dimension": 12.696732906563216,
+    "x_dimension": 19.74143726447575,
+    "y_dimension": 8.233945176024063,
+    "z_dimension": 15.70290426462706,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2680,19 +2725,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 33.72110618932764,
-      "y_translation": 18.285741790935806,
-      "z_translation": 25.4003006106328,
+      "x_translation": 18.74525880603374,
+      "y_translation": 28.662540366031198,
+      "z_translation": 42.986403271011504,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0009853",
+      "http://purl.org/sig/ont/fma/fma17561",
       "http://purl.org/sig/ont/fma/fma224876",
-      "http://purl.org/sig/ont/fma/fma224878",
-      "http://purl.obolibrary.org/obo/UBERON_0013759",
-      "http://purl.org/sig/ont/fma/fma17752",
-      "http://purl.obolibrary.org/obo/UBERON_0000002"
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2705,9 +2748,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 12.847504718203673,
-    "y_dimension": 9.491113030724335,
-    "z_dimension": 4.149355483305916,
+    "x_dimension": 10.697788968899932,
+    "y_dimension": 4.000324426429891,
+    "z_dimension": 8.538016433173617,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2723,16 +2766,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 36.24864390953396,
-      "y_translation": 10.88003794219772,
-      "z_translation": 7.7056315599494525,
+      "x_translation": 11.422520634689189,
+      "y_translation": 38.59624285995275,
+      "z_translation": 53.87902264862972,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013760",
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2745,9 +2788,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 10.253297313885186,
-    "y_dimension": 9.864595643067718,
-    "z_dimension": 4.4680182926669785,
+    "x_dimension": 8.194985185495229,
+    "y_dimension": 5.232071844968295,
+    "z_dimension": 7.506817555787262,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2763,16 +2806,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 34.09128037796343,
-      "y_translation": 12.119891674580147,
-      "z_translation": 6.453459132093865,
+      "x_translation": 12.796769527904592,
+      "y_translation": 40.03399382502294,
+      "z_translation": 53.979482484341304,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013760",
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2785,9 +2828,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.413566005631581,
-    "y_dimension": 9.848535757381448,
-    "z_dimension": 4.312071356792013,
+    "x_dimension": 4.982701663854523,
+    "y_dimension": 6.395262569251575,
+    "z_dimension": 6.824893837068524,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2803,15 +2846,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 30.739336472799323,
-      "y_translation": 12.442964888629161,
-      "z_translation": 5.796744592199351,
+      "x_translation": 15.154080331581369,
+      "y_translation": 41.45866869169387,
+      "z_translation": 54.58867033894066,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013760",
-      "http://purl.obolibrary.org/obo/UBERON_0000002"
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2824,9 +2868,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 9.542776003710951,
-    "y_dimension": 10.692739044284263,
-    "z_dimension": 4.946193585488492,
+    "x_dimension": 7.43183196686073,
+    "y_dimension": 7.6837993462035845,
+    "z_dimension": 6.0949927444715195,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2842,16 +2886,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 25.544718515275115,
-      "y_translation": 12.212835695696471,
-      "z_translation": 6.0640320444853915,
+      "x_translation": 20.007595879775415,
+      "y_translation": 41.82335923040771,
+      "z_translation": 55.342288254747125,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013760",
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2864,9 +2908,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 13.592749896257583,
-    "y_dimension": 10.40842576903465,
-    "z_dimension": 4.073180720226263,
+    "x_dimension": 12.023558442483157,
+    "y_dimension": 7.765883919409772,
+    "z_dimension": 5.6307137095985285,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2882,16 +2926,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 22.760733195044022,
-      "y_translation": 11.301012873628066,
-      "z_translation": 6.844769005475294,
+      "x_translation": 22.85386339694059,
+      "y_translation": 41.53885183703457,
+      "z_translation": 56.95899714669233,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013760",
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2904,9 +2948,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 13.433427433063557,
-    "y_dimension": 7.1229742789330475,
-    "z_dimension": 3.8088746138811027,
+    "x_dimension": 13.538675047483546,
+    "y_dimension": 5.450592053124204,
+    "z_dimension": 5.007163968473144,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2922,16 +2966,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 21.872021111580548,
-      "y_translation": 8.971854686125113,
-      "z_translation": 9.377988784967982,
+      "x_translation": 24.37421964300465,
+      "y_translation": 40.01282650667988,
+      "z_translation": 58.36474364535477,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0013760",
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2944,9 +2988,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 6.826566263287734,
-    "y_dimension": 7.259000373819727,
-    "z_dimension": 9.42680116081071,
+    "x_dimension": 5.192408666425612,
+    "y_dimension": 6.577671518920858,
+    "z_dimension": 4.948891714105342,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2962,15 +3006,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 32.81798309873288,
-      "y_translation": 3.8971889132936943,
-      "z_translation": 13.561852897123805,
+      "x_translation": 14.982263342044597,
+      "y_translation": 34.68321180023162,
+      "z_translation": 56.19414923819828,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -2983,9 +3027,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 10.846444275021714,
-    "y_dimension": 5.537286707971722,
-    "z_dimension": 7.395019093131797,
+    "x_dimension": 8.478683102199698,
+    "y_dimension": 5.51642054697743,
+    "z_dimension": 7.04993326362309,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3001,15 +3045,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 35.01682121312198,
-      "y_translation": 5.115387766454102,
-      "z_translation": 12.325985543877975,
+      "x_translation": 12.649727435220445,
+      "y_translation": 35.38016903366141,
+      "z_translation": 54.768821523432635,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -3022,9 +3066,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 13.49960032917866,
-    "y_dimension": 6.698254386721937,
-    "z_dimension": 5.280851112345747,
+    "x_dimension": 10.66221570068064,
+    "y_dimension": 4.411030301669506,
+    "z_dimension": 8.138506333959711,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3040,15 +3084,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 36.14405774948738,
-      "y_translation": 8.304716791989858,
-      "z_translation": 10.494641735786708,
+      "x_translation": 11.426102800010856,
+      "y_translation": 36.49432079704604,
+      "z_translation": 53.90018787144628,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224876",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -3061,9 +3106,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 11.740393688590304,
-    "y_dimension": 5.218622014182124,
-    "z_dimension": 5.987774119596486,
+    "x_dimension": 12.672189663384584,
+    "y_dimension": 3.9657292897408993,
+    "z_dimension": 5.092568937643399,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3079,15 +3124,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 21.655688145877104,
-      "y_translation": 5.79641328171592,
-      "z_translation": 11.61829970621383,
+      "x_translation": 24.63058199874816,
+      "y_translation": 37.32508559061201,
+      "z_translation": 58.80275157916985,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -3100,9 +3145,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 10.114496662737976,
-    "y_dimension": 7.341454231600885,
-    "z_dimension": 9.060446487776124,
+    "x_dimension": 11.49623293225728,
+    "y_dimension": 6.116559163591634,
+    "z_dimension": 5.145670206245873,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3118,15 +3163,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 23.36803177719902,
-      "y_translation": 4.094001051283216,
-      "z_translation": 13.188048350963571,
+      "x_translation": 23.30466536752531,
+      "y_translation": 35.32849195804348,
+      "z_translation": 58.72959364175351,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   },
   {
@@ -3139,9 +3184,9 @@
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
     "creation_date": "2025-05-02",
-    "x_dimension": 7.483185680206949,
-    "y_dimension": 8.343200242003475,
-    "z_dimension": 10.503348347424723,
+    "x_dimension": 8.287506525182106,
+    "y_dimension": 7.033429981680231,
+    "z_dimension": 4.977359342949975,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3157,15 +3202,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 27.258075856740984,
-      "y_translation": 3.7801449547768855,
-      "z_translation": 13.57364852906312,
+      "x_translation": 20.690910818161523,
+      "y_translation": 34.82706014819713,
+      "z_translation": 57.926490436031365,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0000002",
-      ""
+      "http://purl.org/sig/ont/fma/fma17561",
+      "http://purl.org/sig/ont/fma/fma224878"
     ]
   }
 ]
