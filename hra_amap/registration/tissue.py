@@ -197,7 +197,7 @@ class TissueBlock(trimesh.Trimesh):
             translation[2].item() * self.division_factor
         )
 
-        #update id
+        # update id
         self.metadata["@id"] = f"{self.donor['id']}#{self.label}"
         self.metadata["label"] = self.label
         self.metadata["placement"]["@id"] = f"{self.metadata['@id']}_placement"

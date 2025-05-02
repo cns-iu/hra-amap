@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class ConfigKeys(str, Enum):
     CREATION_DATE = "creation_date"
     DONOR_DATA_KEY = "donor"

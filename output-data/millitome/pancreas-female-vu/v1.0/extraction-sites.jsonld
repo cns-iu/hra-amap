@@ -8,16 +8,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.555829182366415,
-    "y_dimension": 17.67863395355418,
-    "z_dimension": 21.185248387117774,
+    "creation_date": "2025-05-02",
+    "x_dimension": 16.573139396341418,
+    "y_dimension": 17.823770746294766,
+    "z_dimension": 22.6656213298195,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#25_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -27,13 +27,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -91.49734842355554,
-      "y_translation": 490.40729823385686,
-      "z_translation": -176.0613057943955,
+      "x_translation": 159.15152091510666,
+      "y_translation": 43.868828822757415,
+      "z_translation": 17.09361367579182,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -44,16 +46,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 6.9781037851885666,
-    "y_dimension": 15.869533393681134,
-    "z_dimension": 13.126879655732338,
+    "creation_date": "2025-05-02",
+    "x_dimension": 16.297364760385904,
+    "y_dimension": 15.152581068829662,
+    "z_dimension": 23.078935212687224,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C24_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -63,13 +65,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -91.99862117570744,
-      "y_translation": 497.6843813600274,
-      "z_translation": -180.87377129937465,
+      "x_translation": 150.7814084105745,
+      "y_translation": 45.11817616360398,
+      "z_translation": 20.052449746564964,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -80,16 +84,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.421769451995326,
-    "y_dimension": 18.200651416788727,
-    "z_dimension": 15.416628087921879,
+    "creation_date": "2025-05-02",
+    "x_dimension": 14.213924640947727,
+    "y_dimension": 13.582259448697675,
+    "z_dimension": 15.257605903153545,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D24_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -99,13 +103,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -91.23449183000913,
-      "y_translation": 491.5600257709778,
-      "z_translation": -168.9583851293493,
+      "x_translation": 158.8863249115907,
+      "y_translation": 45.964615199286214,
+      "z_translation": 13.316040862252708,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -116,16 +122,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 7.578134391613367,
-    "y_dimension": 17.23090435184943,
-    "z_dimension": 15.23339745321528,
+    "creation_date": "2025-05-02",
+    "x_dimension": 17.018369484989194,
+    "y_dimension": 17.50375649470648,
+    "z_dimension": 26.47391364310486,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C23_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -135,13 +141,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -88.70554600487783,
-      "y_translation": 502.9094324381462,
-      "z_translation": -179.64255712683868,
+      "x_translation": 143.47566898401908,
+      "y_translation": 42.488786082907346,
+      "z_translation": 23.77516347108456,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -152,16 +160,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.490386787956579,
-    "y_dimension": 20.54522549768034,
-    "z_dimension": 17.752443425141372,
+    "creation_date": "2025-05-02",
+    "x_dimension": 15.440120637368492,
+    "y_dimension": 15.747566489757393,
+    "z_dimension": 17.766043746903716,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D23_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -171,13 +179,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -87.64187709421918,
-      "y_translation": 495.7154364238123,
-      "z_translation": -166.12552493041477,
+      "x_translation": 152.0303475883106,
+      "y_translation": 43.43530452628824,
+      "z_translation": 15.901342322268738,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -188,16 +198,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 7.833553958313589,
-    "y_dimension": 17.874657553009822,
-    "z_dimension": 17.362884429524605,
+    "creation_date": "2025-05-02",
+    "x_dimension": 17.165084382964157,
+    "y_dimension": 19.096035883925943,
+    "z_dimension": 28.73242959303461,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C22_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -207,13 +217,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -84.80980831934926,
-      "y_translation": 507.8856601775146,
-      "z_translation": -178.03811718932218,
+      "x_translation": 136.31412085969512,
+      "y_translation": 40.027799980391464,
+      "z_translation": 28.21696693788712,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -224,16 +236,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.1095278906278,
-    "y_dimension": 22.036988648169718,
-    "z_dimension": 19.39370151154096,
+    "creation_date": "2025-05-02",
+    "x_dimension": 15.985412337343629,
+    "y_dimension": 17.200546705416542,
+    "z_dimension": 19.537842071182933,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D22_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -243,13 +255,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -83.43220946415455,
-      "y_translation": 500.04115277140073,
-      "z_translation": -163.0669031528163,
+      "x_translation": 144.67263451435508,
+      "y_translation": 41.05218621895132,
+      "z_translation": 19.364507251631753,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -260,16 +274,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 7.863488474318836,
-    "y_dimension": 18.15011706393377,
-    "z_dimension": 18.829208614586978,
+    "creation_date": "2025-05-02",
+    "x_dimension": 16.690707895850032,
+    "y_dimension": 20.169036403641037,
+    "z_dimension": 29.957134070194638,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C21_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -279,13 +293,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -80.41727283038807,
-      "y_translation": 512.556945557476,
-      "z_translation": -175.8806372438569,
+      "x_translation": 129.4006750528141,
+      "y_translation": 38.032261539114124,
+      "z_translation": 33.02043761900492,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -296,16 +312,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.326866321162974,
-    "y_dimension": 23.092410888094328,
-    "z_dimension": 20.241603058611226,
+    "creation_date": "2025-05-02",
+    "x_dimension": 15.99681869326297,
+    "y_dimension": 18.165867358178932,
+    "z_dimension": 20.733349123737437,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D21_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -315,13 +331,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -78.76434587137291,
-      "y_translation": 504.3210620015841,
-      "z_translation": -159.97191197003514,
+      "x_translation": 137.0197667279341,
+      "y_translation": 39.11230637169738,
+      "z_translation": 23.523450579304072,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -332,16 +350,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 7.78703151787713,
-    "y_dimension": 17.873521151503535,
-    "z_dimension": 19.552203662737465,
+    "creation_date": "2025-05-02",
+    "x_dimension": 16.02235378507441,
+    "y_dimension": 21.167789486060794,
+    "z_dimension": 31.064894344491005,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C20_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -351,13 +369,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -75.63507447979009,
-      "y_translation": 516.6019359000677,
-      "z_translation": -173.32379075210085,
+      "x_translation": 122.58448529910119,
+      "y_translation": 36.799326433995915,
+      "z_translation": 38.201309404021224,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -368,16 +388,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.32852031075962,
-    "y_dimension": 23.16185326978465,
-    "z_dimension": 20.848048981615687,
+    "creation_date": "2025-05-02",
+    "x_dimension": 15.635256828362213,
+    "y_dimension": 19.02752437757527,
+    "z_dimension": 21.792152711827246,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D20_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -387,13 +407,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -73.6583001425512,
-      "y_translation": 508.1815198850794,
-      "z_translation": -156.7577939661946,
+      "x_translation": 129.25917570284273,
+      "y_translation": 37.94665188161272,
+      "z_translation": 28.027905078056914,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -404,16 +426,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 7.625603860061364,
-    "y_dimension": 17.29349548504855,
-    "z_dimension": 19.972691755895,
+    "creation_date": "2025-05-02",
+    "x_dimension": 15.239524201293875,
+    "y_dimension": 21.082525075029114,
+    "z_dimension": 31.481426347441776,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C19_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -423,13 +445,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -70.51851787191266,
-      "y_translation": 519.9318277141507,
-      "z_translation": -170.79955374972621,
+      "x_translation": 115.94570104125538,
+      "y_translation": 35.88728235830849,
+      "z_translation": 43.9451479936988,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -440,16 +464,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.16700564099471,
-    "y_dimension": 23.07303218439527,
-    "z_dimension": 21.069607248126676,
+    "creation_date": "2025-05-02",
+    "x_dimension": 14.941313193355231,
+    "y_dimension": 18.78190650700301,
+    "z_dimension": 22.144154092755414,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D19_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -459,13 +483,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -68.18736312641752,
-      "y_translation": 511.38640854788883,
-      "z_translation": -153.62369261854215,
+      "x_translation": 121.48765062896322,
+      "y_translation": 37.13248461768473,
+      "z_translation": 33.00887423332405,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -476,16 +502,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 7.64594960618404,
-    "y_dimension": 16.46415953007385,
-    "z_dimension": 20.071477336911727,
+    "creation_date": "2025-05-02",
+    "x_dimension": 14.027170793871862,
+    "y_dimension": 21.198087928684828,
+    "z_dimension": 30.86451052988233,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C18_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -495,13 +521,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -65.10054833659746,
-      "y_translation": 522.3950984636575,
-      "z_translation": -168.5130118408884,
+      "x_translation": 109.60106918314679,
+      "y_translation": 35.86429897885179,
+      "z_translation": 49.3700545127938,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -512,16 +541,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.670731029930103,
-    "y_dimension": 23.08250279038959,
-    "z_dimension": 20.357523391073997,
+    "creation_date": "2025-05-02",
+    "x_dimension": 14.080731855435847,
+    "y_dimension": 18.856243535768147,
+    "z_dimension": 22.190783734382617,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D18_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -531,13 +560,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -62.56977243558345,
-      "y_translation": 513.8436088047077,
-      "z_translation": -151.11628795585364,
+      "x_translation": 113.83277562537933,
+      "y_translation": 37.169653132067296,
+      "z_translation": 38.09534186254423,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -548,16 +579,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.452716040173474,
-    "y_dimension": 15.611012743101282,
-    "z_dimension": 19.229569040325632,
+    "creation_date": "2025-05-02",
+    "x_dimension": 12.72875804607626,
+    "y_dimension": 22.040527715787682,
+    "z_dimension": 29.97753059464911,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C17_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -567,13 +598,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -59.200755447314066,
-      "y_translation": 523.9763595884672,
-      "z_translation": -166.358155708395,
+      "x_translation": 103.39708945109035,
+      "y_translation": 36.42692261138269,
+      "z_translation": 54.454854278572576,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -584,16 +618,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.146750628604039,
-    "y_dimension": 22.507444208486937,
-    "z_dimension": 19.319107735648156,
+    "creation_date": "2025-05-02",
+    "x_dimension": 13.026827283668025,
+    "y_dimension": 19.64525175591603,
+    "z_dimension": 22.048606305438188,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D17_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -603,13 +637,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -56.84193421301861,
-      "y_translation": 515.7088886683048,
-      "z_translation": -149.1886791687086,
+      "x_translation": 106.30071044113156,
+      "y_translation": 37.78793822607768,
+      "z_translation": 43.048261681027064,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -620,16 +657,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.35423269101776,
-    "y_dimension": 14.852441346053125,
-    "z_dimension": 18.0187889263671,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.496027516563728,
+    "y_dimension": 22.47362542917042,
+    "z_dimension": 29.475271929213285,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C16_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -639,13 +676,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -53.24290469579013,
-      "y_translation": 524.6684312937152,
-      "z_translation": -164.7961346071552,
+      "x_translation": 97.2508176225354,
+      "y_translation": 37.53716215289044,
+      "z_translation": 59.48046753411326,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -656,16 +696,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.414082343790902,
-    "y_dimension": 21.758916784242466,
-    "z_dimension": 18.39768532527364,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.975246938663474,
+    "y_dimension": 19.937701020159405,
+    "z_dimension": 21.705435378120168,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D16_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -675,13 +715,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -51.19330945079463,
-      "y_translation": 516.7357236863666,
-      "z_translation": -147.82318378896014,
+      "x_translation": 98.98258563248599,
+      "y_translation": 39.01020069172381,
+      "z_translation": 47.69678742165667,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -692,16 +735,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.197313712317746,
-    "y_dimension": 15.429934205190676,
-    "z_dimension": 16.945223377520357,
+    "creation_date": "2025-05-02",
+    "x_dimension": 10.19394916996813,
+    "y_dimension": 22.487142993273647,
+    "z_dimension": 28.607774826650452,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C15_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -711,13 +754,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -47.19313325001627,
-      "y_translation": 524.3796848641464,
-      "z_translation": -164.21488050666662,
+      "x_translation": 91.19200061071525,
+      "y_translation": 39.056259846343785,
+      "z_translation": 63.91152068040385,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -728,16 +773,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.562950379269171,
-    "y_dimension": 22.303385974038026,
-    "z_dimension": 17.433509487821407,
+    "creation_date": "2025-05-02",
+    "x_dimension": 10.928365993235628,
+    "y_dimension": 19.718679936694183,
+    "z_dimension": 21.244830077661994,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D15_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -747,13 +792,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -45.39552017600426,
-      "y_translation": 516.500081062429,
-      "z_translation": -147.29168391987412,
+      "x_translation": 91.85751081156673,
+      "y_translation": 40.69598283072057,
+      "z_translation": 51.83385535675377,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -764,16 +811,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.769454280824625,
-    "y_dimension": 16.246960400775112,
-    "z_dimension": 16.688272180740704,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.64161689634352,
+    "y_dimension": 22.078731473017644,
+    "z_dimension": 27.274134055523618,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C14_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -783,13 +830,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -40.95518721753985,
-      "y_translation": 523.357980407436,
-      "z_translation": -164.0864049082768,
+      "x_translation": 84.7721071733975,
+      "y_translation": 40.86101655798674,
+      "z_translation": 67.51698893357639,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -800,16 +849,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.55358719455493,
-    "y_dimension": 23.098531741761796,
-    "z_dimension": 18.148048108132198,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.946966452152928,
+    "y_dimension": 19.054218972333892,
+    "z_dimension": 20.505931176553222,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D14_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -819,13 +868,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -39.47294025798877,
-      "y_translation": 515.8446544614923,
-      "z_translation": -147.93232781113818,
+      "x_translation": 84.92478195130221,
+      "y_translation": 42.68388621341382,
+      "z_translation": 55.397770555790956,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -836,16 +887,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.123269907370364,
-    "y_dimension": 16.767263711095826,
-    "z_dimension": 17.371980104514794,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.264691260952585,
+    "y_dimension": 21.790525837304063,
+    "z_dimension": 26.325573216471692,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C13_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -855,13 +906,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -34.46922897333376,
-      "y_translation": 521.674189862382,
-      "z_translation": -165.379672790539,
+      "x_translation": 78.27009338216811,
+      "y_translation": 43.02010537522224,
+      "z_translation": 70.550134913486,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -872,16 +925,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.508280236061317,
-    "y_dimension": 23.985972948705747,
-    "z_dimension": 18.852858347214173,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.50904229816521,
+    "y_dimension": 18.576706879022133,
+    "z_dimension": 19.50640284901563,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D13_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -891,13 +944,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -33.35677966919103,
-      "y_translation": 514.4446787958143,
-      "z_translation": -149.81752649738294,
+      "x_translation": 78.12951980211334,
+      "y_translation": 45.04866235151289,
+      "z_translation": 58.26970176027452,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -908,16 +963,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.221520010525975,
-    "y_dimension": 17.448850231307933,
-    "z_dimension": 18.207253153513737,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.37326006009312,
+    "y_dimension": 21.314830773661754,
+    "z_dimension": 25.999281088813163,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C12_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -927,13 +982,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -27.797236738739368,
-      "y_translation": 519.797692904115,
-      "z_translation": -167.77031375122417,
+      "x_translation": 72.11355390569386,
+      "y_translation": 44.992389323785716,
+      "z_translation": 72.68826797739969,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -944,16 +1001,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.557847455382905,
-    "y_dimension": 25.15478440709673,
-    "z_dimension": 20.136807845651084,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.364135648563533,
+    "y_dimension": 17.861939153990814,
+    "z_dimension": 18.963954418697444,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D12_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -963,13 +1020,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -26.96540042045592,
-      "y_translation": 512.7604173085398,
-      "z_translation": -152.55762641035952,
+      "x_translation": 71.54586672574717,
+      "y_translation": 47.307693383854435,
+      "z_translation": 60.021511506571976,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -980,16 +1039,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.240306425718007,
-    "y_dimension": 18.053032910368305,
-    "z_dimension": 18.677836046773756,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.67744419420144,
+    "y_dimension": 20.4817728456142,
+    "z_dimension": 25.358789232546087,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C11_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -999,13 +1058,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -20.80295517984468,
-      "y_translation": 517.8709223114373,
-      "z_translation": -170.96578374109194,
+      "x_translation": 66.14369271766981,
+      "y_translation": 46.4211734123127,
+      "z_translation": 73.66716241611236,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1016,16 +1077,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.69530878774097,
-    "y_dimension": 25.799692991657075,
-    "z_dimension": 21.747645129211012,
+    "creation_date": "2025-05-02",
+    "x_dimension": 8.898917435655296,
+    "y_dimension": 16.694128179681243,
+    "z_dimension": 18.603873578981272,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D11_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1035,13 +1096,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -20.279772075037638,
-      "y_translation": 511.1436154461295,
-      "z_translation": -156.1597048386515,
+      "x_translation": 65.10232010481897,
+      "y_translation": 49.075322672047314,
+      "z_translation": 60.76662075840478,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1052,16 +1115,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.219442797945748,
-    "y_dimension": 18.121015070267312,
-    "z_dimension": 18.94748239329602,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.847960667758338,
+    "y_dimension": 19.389822347756937,
+    "z_dimension": 25.268453553379448,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C10_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1071,13 +1134,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -13.394413497874874,
-      "y_translation": 515.9260477604743,
-      "z_translation": -174.95577184120458,
+      "x_translation": 60.19747422558369,
+      "y_translation": 47.258796510902954,
+      "z_translation": 73.71233025569568,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1088,16 +1153,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.633661635187703,
-    "y_dimension": 25.844815430862646,
-    "z_dimension": 23.04237618368693,
+    "creation_date": "2025-05-02",
+    "x_dimension": 8.62351683984075,
+    "y_dimension": 15.293913935190806,
+    "z_dimension": 18.65533052747928,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D10_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1107,13 +1172,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -13.420775676943146,
-      "y_translation": 509.6388894432968,
-      "z_translation": -160.8083336313889,
+      "x_translation": 58.50993072771396,
+      "y_translation": 50.19845075561538,
+      "z_translation": 60.74089228415577,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1124,16 +1191,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.122257974668287,
-    "y_dimension": 17.771632785723355,
-    "z_dimension": 18.979914479665403,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.875558308534982,
+    "y_dimension": 18.81157369018227,
+    "z_dimension": 25.953884361162036,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C9_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1143,13 +1210,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -5.609472315716436,
-      "y_translation": 514.2622474559088,
-      "z_translation": -179.5788877659819,
+      "x_translation": 54.28900767398653,
+      "y_translation": 47.46977762769983,
+      "z_translation": 73.01020397059362,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1160,16 +1230,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.661045699520157,
-    "y_dimension": 25.32353158162648,
-    "z_dimension": 24.20201682160178,
+    "creation_date": "2025-05-02",
+    "x_dimension": 8.418671759669955,
+    "y_dimension": 14.227343044096452,
+    "z_dimension": 19.27647015643147,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D9_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1179,13 +1249,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -6.488158263771082,
-      "y_translation": 508.49460623504416,
-      "z_translation": -166.1886836300416,
+      "x_translation": 51.8697384192257,
+      "y_translation": 50.73173620116256,
+      "z_translation": 60.10339147591468,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1196,16 +1269,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.627975958788728,
-    "y_dimension": 16.990059009148297,
-    "z_dimension": 18.964644022703315,
+    "creation_date": "2025-05-02",
+    "x_dimension": 10.466584479371127,
+    "y_dimension": 19.171468094229706,
+    "z_dimension": 26.41592924368602,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C8_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1215,13 +1288,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 2.22937705616702,
-      "y_translation": 513.0705369957625,
-      "z_translation": -184.74594501832968,
+      "x_translation": 48.023719255122266,
+      "y_translation": 46.52370520761065,
+      "z_translation": 71.48553071137178,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1232,16 +1309,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.624463135652414,
-    "y_dimension": 24.25090054787904,
-    "z_dimension": 25.242912560484054,
+    "creation_date": "2025-05-02",
+    "x_dimension": 8.062163863690298,
+    "y_dimension": 14.506664004061754,
+    "z_dimension": 19.739593837229023,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D8_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1251,13 +1328,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 0.10847627185235284,
-      "y_translation": 507.7949061183763,
-      "z_translation": -172.11595079655615,
+      "x_translation": 45.33612768401001,
+      "y_translation": 50.097524113557334,
+      "z_translation": 58.72248617912475,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1268,16 +1349,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 12.238797724042314,
-    "y_dimension": 15.969456282133532,
-    "z_dimension": 18.97790270595323,
+    "creation_date": "2025-05-02",
+    "x_dimension": 10.936095268742507,
+    "y_dimension": 19.643132747782456,
+    "z_dimension": 26.67556132144356,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C7_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1287,13 +1368,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 10.287698098334294,
-      "y_translation": 512.5602356322552,
-      "z_translation": -190.2835479601261,
+      "x_translation": 41.894452791050185,
+      "y_translation": 44.67992851167754,
+      "z_translation": 69.32043886824754,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1304,16 +1389,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.581417413663225,
-    "y_dimension": 23.626494655130724,
-    "z_dimension": 26.300170273157175,
+    "creation_date": "2025-05-02",
+    "x_dimension": 8.818431086393408,
+    "y_dimension": 15.126840976710131,
+    "z_dimension": 20.008402672316556,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D7_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1323,13 +1408,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 6.82100114100722,
-      "y_translation": 507.5535851745547,
-      "z_translation": -178.27246251273658,
+      "x_translation": 39.60515443574399,
+      "y_translation": 48.42046206163963,
+      "z_translation": 56.7272968272298,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1340,16 +1428,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 12.833160764305907,
-    "y_dimension": 16.28828643974556,
-    "z_dimension": 19.049412643671104,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.207701564308278,
+    "y_dimension": 20.21439739101094,
+    "z_dimension": 26.67974081932578,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C6_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1359,13 +1447,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 18.578524551043564,
-      "y_translation": 512.7482673551766,
-      "z_translation": -195.98193598856744,
+      "x_translation": 35.96666503076812,
+      "y_translation": 41.909730655070085,
+      "z_translation": 66.65889810977785,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1376,16 +1467,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 12.925034532724505,
-    "y_dimension": 23.6790467791983,
-    "z_dimension": 27.276904115597244,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.780116082949473,
+    "y_dimension": 15.874188040162995,
+    "z_dimension": 20.215757087146333,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D6_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1395,13 +1486,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 13.867255359183075,
-      "y_translation": 508.4250539180895,
-      "z_translation": -184.46268124870846,
+      "x_translation": 34.28724309844294,
+      "y_translation": 45.7657953958002,
+      "z_translation": 54.19613738158131,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1412,16 +1506,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 13.770590373617969,
-    "y_dimension": 16.686601254916056,
-    "z_dimension": 19.249765212510095,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.284543871357945,
+    "y_dimension": 20.804903544628715,
+    "z_dimension": 26.605807224998472,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C5_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1431,13 +1525,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 26.748797219432138,
-      "y_translation": 513.8793674549058,
-      "z_translation": -201.65347174474286,
+      "x_translation": 30.32852238627665,
+      "y_translation": 38.30653409785256,
+      "z_translation": 63.83965872693234,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1448,16 +1545,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 14.780171069571885,
-    "y_dimension": 23.55480421717443,
-    "z_dimension": 28.35334120988964,
+    "creation_date": "2025-05-02",
+    "x_dimension": 10.820051640638255,
+    "y_dimension": 16.735620699089182,
+    "z_dimension": 20.267585487870846,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D5_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1467,13 +1564,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 21.185881520058533,
-      "y_translation": 510.0918451651959,
-      "z_translation": -190.31115359656152,
+      "x_translation": 29.380222095831524,
+      "y_translation": 42.234948933903894,
+      "z_translation": 51.34458549120141,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1484,16 +1583,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 14.954572533155547,
-    "y_dimension": 16.210885330861345,
-    "z_dimension": 18.50064149632108,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.134372369093876,
+    "y_dimension": 20.95610697883954,
+    "z_dimension": 26.054133622060522,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C4_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1503,13 +1602,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 34.62513738792671,
-      "y_translation": 515.4785545807795,
-      "z_translation": -206.5514258800599,
+      "x_translation": 25.07547045806104,
+      "y_translation": 34.12480567887749,
+      "z_translation": 61.22615230223246,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1520,16 +1621,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 16.6824021951619,
-    "y_dimension": 22.42175183721318,
-    "z_dimension": 29.11966836943003,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.79349341407756,
+    "y_dimension": 17.585286211035335,
+    "z_dimension": 18.992004617677015,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D4_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1539,13 +1640,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 28.4353875002221,
-      "y_translation": 512.1606617504343,
-      "z_translation": -195.4119681725574,
+      "x_translation": 25.016437429667494,
+      "y_translation": 37.93331132166225,
+      "z_translation": 48.939540992993784,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1556,16 +1659,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 15.374330061411923,
-    "y_dimension": 15.074039979346976,
-    "z_dimension": 17.19486373053092,
+    "creation_date": "2025-05-02",
+    "x_dimension": 10.214821489541226,
+    "y_dimension": 20.253997516738508,
+    "z_dimension": 24.014932130700508,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C3_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1575,13 +1678,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 42.48171995820762,
-      "y_translation": 517.5839624570614,
-      "z_translation": -210.6916810837275,
+      "x_translation": 20.10835311060398,
+      "y_translation": 29.173332989017474,
+      "z_translation": 58.270313734444514,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1592,16 +1697,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 17.618324246278696,
-    "y_dimension": 20.207309236220716,
-    "z_dimension": 28.003003455441934,
+    "creation_date": "2025-05-02",
+    "x_dimension": 12.12223669661422,
+    "y_dimension": 17.483407507276393,
+    "z_dimension": 17.06647494372328,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D3_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1611,13 +1716,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 35.97429274175661,
-      "y_translation": 514.9134985185786,
-      "z_translation": -200.35291137346022,
+      "x_translation": 20.929583790345283,
+      "y_translation": 32.6056923125419,
+      "z_translation": 46.82369809178615,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1628,16 +1735,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 14.496793269160326,
-    "y_dimension": 12.106448494544786,
-    "z_dimension": 13.810675725704048,
+    "creation_date": "2025-05-02",
+    "x_dimension": 8.39761393219661,
+    "y_dimension": 18.39690932457605,
+    "z_dimension": 20.389170519527557,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C2_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1647,13 +1754,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 49.90085476716147,
-      "y_translation": 519.4801074230758,
-      "z_translation": -213.1686672504895,
+      "x_translation": 15.856508461631766,
+      "y_translation": 23.909954424396307,
+      "z_translation": 55.65250987956858,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1664,16 +1773,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 17.541849519970178,
-    "y_dimension": 16.01032407842151,
-    "z_dimension": 24.42671391602691,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.43257575234681,
+    "y_dimension": 16.68245347681402,
+    "z_dimension": 14.229619419886443,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D2_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1683,13 +1792,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 43.65967381471052,
-      "y_translation": 517.4735540124038,
-      "z_translation": -204.20267844588463,
+      "x_translation": 17.373989371706866,
+      "y_translation": 26.622757748743425,
+      "z_translation": 45.29824697787312,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1700,16 +1811,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.543422851344797,
-    "y_dimension": 8.394890723003146,
-    "z_dimension": 10.17650295356548,
+    "creation_date": "2025-05-02",
+    "x_dimension": 4.705988507683425,
+    "y_dimension": 13.041514464966209,
+    "z_dimension": 14.140174305745685,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#C1_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1719,13 +1830,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 55.92337401049712,
-      "y_translation": 521.5299995837303,
-      "z_translation": -214.79326563085291,
+      "x_translation": 12.886608364906026,
+      "y_translation": 18.5847154993328,
+      "z_translation": 52.38029938127553,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1736,16 +1849,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 14.689934180674157,
-    "y_dimension": 10.656542500925958,
-    "z_dimension": 17.02332696200998,
+    "creation_date": "2025-05-02",
+    "x_dimension": 7.78716580816452,
+    "y_dimension": 13.650870222179423,
+    "z_dimension": 10.135235577723334,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#D1_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1755,13 +1868,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 52.18349501149467,
-      "y_translation": 520.3475255313949,
-      "z_translation": -208.16946995902,
+      "x_translation": 14.463243413664749,
+      "y_translation": 19.493587882805002,
+      "z_translation": 44.68580308600416,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1772,16 +1887,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.419694147833557,
-    "y_dimension": 17.950407247632416,
-    "z_dimension": 13.408977477701644,
+    "creation_date": "2025-05-02",
+    "x_dimension": 16.313738341824035,
+    "y_dimension": 14.600850016315391,
+    "z_dimension": 16.68858854021106,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B24_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1791,13 +1906,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -87.4191131610682,
-      "y_translation": 494.5618881107521,
-      "z_translation": -180.59110271895366,
+      "x_translation": 150.7732216198554,
+      "y_translation": 35.77160175326666,
+      "z_translation": 26.03243518210641,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1808,16 +1925,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.44886367043729,
-    "y_dimension": 12.883249109375438,
-    "z_dimension": 14.768372831616583,
+    "creation_date": "2025-05-02",
+    "x_dimension": 16.625170294089887,
+    "y_dimension": 16.07209046916802,
+    "z_dimension": 19.13218456672297,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A24_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1827,13 +1944,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -87.40452839976633,
-      "y_translation": 487.8523557075339,
-      "z_translation": -168.70109172640596,
+      "x_translation": 157.32147538201107,
+      "y_translation": 36.766251292293106,
+      "z_translation": 20.22010695691931,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1844,16 +1963,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.809111586416451,
-    "y_dimension": 20.158622996706676,
-    "z_dimension": 15.412056099361248,
+    "creation_date": "2025-05-02",
+    "x_dimension": 16.851998790866517,
+    "y_dimension": 15.543609526598667,
+    "z_dimension": 18.434876247901535,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B23_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1863,13 +1982,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -84.11423084357236,
-      "y_translation": 499.06557433916294,
-      "z_translation": -179.40641666836027,
+      "x_translation": 143.35336319568353,
+      "y_translation": 31.40168071163804,
+      "z_translation": 30.16228193778025,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1880,16 +2001,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.90484744374226,
-    "y_dimension": 14.926505782883792,
-    "z_dimension": 16.9474330135882,
+    "creation_date": "2025-05-02",
+    "x_dimension": 18.276062955199567,
+    "y_dimension": 17.573422918212287,
+    "z_dimension": 21.30093435851513,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A23_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1899,13 +2020,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -84.05714556124202,
-      "y_translation": 491.4850785095677,
-      "z_translation": -165.83661496471439,
+      "x_translation": 150.12134756744697,
+      "y_translation": 32.73622874034299,
+      "z_translation": 23.031821758945885,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1916,16 +2039,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.297503640180393,
-    "y_dimension": 21.131382743615536,
-    "z_dimension": 17.30436517258599,
+    "creation_date": "2025-05-02",
+    "x_dimension": 16.64682908209536,
+    "y_dimension": 16.37698037366686,
+    "z_dimension": 19.918782774899405,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B22_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1935,13 +2058,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -80.52616012711239,
-      "y_translation": 503.69449821571675,
-      "z_translation": -177.85555867744765,
+      "x_translation": 135.98687272857867,
+      "y_translation": 27.373031094576117,
+      "z_translation": 34.7437555831703,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1952,16 +2077,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.271140241244701,
-    "y_dimension": 15.930031865361794,
-    "z_dimension": 18.518996142596112,
+    "creation_date": "2025-05-02",
+    "x_dimension": 19.156648748498096,
+    "y_dimension": 18.8808879498501,
+    "z_dimension": 23.015619145196816,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A22_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -1971,13 +2096,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -80.28090868844878,
-      "y_translation": 495.51687109282824,
-      "z_translation": -162.766360328933,
+      "x_translation": 142.3202507415886,
+      "y_translation": 29.000314794004666,
+      "z_translation": 26.549708161051498,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -1988,16 +2115,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.009285583877174,
-    "y_dimension": 21.544787740018776,
-    "z_dimension": 18.605209805890755,
+    "creation_date": "2025-05-02",
+    "x_dimension": 15.67688046402195,
+    "y_dimension": 15.421148232976412,
+    "z_dimension": 20.21228568229934,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B21_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2007,13 +2134,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -76.9665244954758,
-      "y_translation": 507.79671694714443,
-      "z_translation": -175.7686378395088,
+      "x_translation": 128.84148811367228,
+      "y_translation": 24.741338749754842,
+      "z_translation": 39.23957112837289,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2024,16 +2153,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.902461919828047,
-    "y_dimension": 16.567723783094458,
-    "z_dimension": 19.250101578198674,
+    "creation_date": "2025-05-02",
+    "x_dimension": 18.839999324995247,
+    "y_dimension": 18.356960124369937,
+    "z_dimension": 23.372799289025277,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A21_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2043,13 +2172,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -76.44180038027844,
-      "y_translation": 499.38131343276876,
-      "z_translation": -159.73162418546053,
+      "x_translation": 134.53951790613206,
+      "y_translation": 26.619297128478216,
+      "z_translation": 30.08598817199733,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2060,16 +2191,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.885907723659049,
-    "y_dimension": 21.024890172535613,
-    "z_dimension": 19.213007957849527,
+    "creation_date": "2025-05-02",
+    "x_dimension": 14.597073306293895,
+    "y_dimension": 14.746332504644243,
+    "z_dimension": 20.84026838035212,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B20_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2079,13 +2210,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -72.97769199157177,
-      "y_translation": 511.8155539893655,
-      "z_translation": -173.1541928996569,
+      "x_translation": 121.72282072815565,
+      "y_translation": 22.656206440285793,
+      "z_translation": 44.310259331348846,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2096,16 +2229,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.845088652426114,
-    "y_dimension": 16.082632012989873,
-    "z_dimension": 19.833369118624322,
+    "creation_date": "2025-05-02",
+    "x_dimension": 18.14033616466726,
+    "y_dimension": 17.956953275616748,
+    "z_dimension": 23.642517241927216,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A20_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2115,13 +2248,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -72.0629842670156,
-      "y_translation": 503.2437639651315,
-      "z_translation": -156.61243133166738,
+      "x_translation": 126.51373925985823,
+      "y_translation": 24.720096196320874,
+      "z_translation": 34.29869162333637,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2132,16 +2267,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.864100152393917,
-    "y_dimension": 20.66724279611787,
-    "z_dimension": 19.592963512612638,
+    "creation_date": "2025-05-02",
+    "x_dimension": 13.608699510443634,
+    "y_dimension": 14.697636624497745,
+    "z_dimension": 21.658073058040127,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B19_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2151,13 +2286,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -68.5952879159779,
-      "y_translation": 515.0712589625222,
-      "z_translation": -170.60968962808505,
+      "x_translation": 114.63719753343982,
+      "y_translation": 21.08407138057622,
+      "z_translation": 49.7530179629906,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2168,16 +2305,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.062780557109406,
-    "y_dimension": 15.737770362112213,
-    "z_dimension": 20.428325218787123,
+    "creation_date": "2025-05-02",
+    "x_dimension": 17.487372083326235,
+    "y_dimension": 18.18471088562068,
+    "z_dimension": 24.251713372299225,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A19_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2187,13 +2324,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -67.21016844229682,
-      "y_translation": 506.2941335175645,
-      "z_translation": -153.64115471831198,
+      "x_translation": 118.44494170152475,
+      "y_translation": 23.345883934339785,
+      "z_translation": 38.895260772670994,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2204,16 +2343,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.481139022275604,
-    "y_dimension": 20.171128588713614,
-    "z_dimension": 19.791501273516143,
+    "creation_date": "2025-05-02",
+    "x_dimension": 12.34688144198831,
+    "y_dimension": 14.547169663830905,
+    "z_dimension": 21.348806532147808,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B18_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2223,13 +2362,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -64.08196185967144,
-      "y_translation": 517.0512670270055,
-      "z_translation": -168.3730238091906,
+      "x_translation": 107.84355331129144,
+      "y_translation": 20.69172751620421,
+      "z_translation": 54.75535454577566,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2240,16 +2382,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.060781276559599,
-    "y_dimension": 15.661913497161839,
-    "z_dimension": 20.035696578080355,
+    "creation_date": "2025-05-02",
+    "x_dimension": 16.24886812810497,
+    "y_dimension": 18.51449808468675,
+    "z_dimension": 24.340962124362704,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A18_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2259,13 +2401,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -62.175325303602186,
-      "y_translation": 508.33989646833567,
-      "z_translation": -151.41646034087773,
+      "x_translation": 110.7627454166037,
+      "y_translation": 23.216184541482388,
+      "z_translation": 43.25427848988904,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2276,16 +2421,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 7.968951335015337,
-    "y_dimension": 18.999095297361322,
-    "z_dimension": 18.910315052421968,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.105699128176438,
+    "y_dimension": 14.84571194124401,
+    "z_dimension": 20.59847705577103,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B17_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2295,13 +2440,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -59.29919166956072,
-      "y_translation": 518.3300722698932,
-      "z_translation": -166.19852871444314,
+      "x_translation": 101.23956013357319,
+      "y_translation": 21.618494211022103,
+      "z_translation": 59.489972257621055,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2312,16 +2460,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.12627506472595,
-    "y_dimension": 14.682311545842985,
-    "z_dimension": 19.109174446529487,
+    "creation_date": "2025-05-02",
+    "x_dimension": 14.459391090145129,
+    "y_dimension": 18.8565660184703,
+    "z_dimension": 23.582210917677163,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A17_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2331,13 +2479,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -56.85217199495766,
-      "y_translation": 509.90105484776717,
-      "z_translation": -149.7881685509761,
+      "x_translation": 103.33263514438522,
+      "y_translation": 24.17611510975015,
+      "z_translation": 47.666919334083495,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2348,16 +2499,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 7.743025675660153,
-    "y_dimension": 18.119171058623262,
-    "z_dimension": 17.547444547075575,
+    "creation_date": "2025-05-02",
+    "x_dimension": 10.361942498137793,
+    "y_dimension": 14.636808706490312,
+    "z_dimension": 20.478342758216243,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B16_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2367,13 +2518,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -54.048508203468934,
-      "y_translation": 518.9091601664533,
-      "z_translation": -164.56046241750943,
+      "x_translation": 94.60632555022865,
+      "y_translation": 23.51823850912832,
+      "z_translation": 64.31173621285427,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2384,16 +2537,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.31182145017366,
-    "y_dimension": 13.502932501654463,
-    "z_dimension": 18.4297533795062,
+    "creation_date": "2025-05-02",
+    "x_dimension": 12.940006835858497,
+    "y_dimension": 18.867287598598793,
+    "z_dimension": 22.976747999985058,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A16_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2403,13 +2556,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -51.24443989760325,
-      "y_translation": 510.6300968651221,
-      "z_translation": -148.5222651150707,
+      "x_translation": 96.00374810545334,
+      "y_translation": 26.21180543535162,
+      "z_translation": 52.125080366591014,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001151"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2420,16 +2576,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.20743198392325,
-    "y_dimension": 19.307212908121542,
-    "z_dimension": 16.542445825020067,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.729627221413129,
+    "y_dimension": 15.247004704103617,
+    "z_dimension": 19.998277699947437,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B15_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2439,13 +2595,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -48.35344984722786,
-      "y_translation": 518.3151392417042,
-      "z_translation": -164.01349173041646,
+      "x_translation": 88.1301485524477,
+      "y_translation": 25.533274375195063,
+      "z_translation": 68.54864396069047,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2456,16 +2614,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.566276739182921,
-    "y_dimension": 14.496765361792452,
-    "z_dimension": 17.775189526416103,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.506021794886689,
+    "y_dimension": 19.562266762354064,
+    "z_dimension": 22.721449926999412,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A15_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2475,13 +2633,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -45.645701434163705,
-      "y_translation": 510.1331804350531,
-      "z_translation": -148.1347498356453,
+      "x_translation": 89.0183458046595,
+      "y_translation": 28.383434444763044,
+      "z_translation": 55.95640433142302,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2492,16 +2652,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 8.804809069988387,
-    "y_dimension": 20.17944522364168,
-    "z_dimension": 16.354663744869878,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.010038209463389,
+    "y_dimension": 15.635380290988543,
+    "z_dimension": 19.013301904171414,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B14_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2511,13 +2671,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -42.51332432221588,
-      "y_translation": 517.0800726539517,
-      "z_translation": -163.91960069034135,
+      "x_translation": 81.88830871021722,
+      "y_translation": 27.942618766507554,
+      "z_translation": 71.96292134767047,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2528,16 +2690,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.19218331787991,
-    "y_dimension": 15.120116897501479,
-    "z_dimension": 18.430145487602356,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.98599821869739,
+    "y_dimension": 19.930987966310266,
+    "z_dimension": 22.13241897414532,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A14_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2547,13 +2709,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -40.24228134792928,
-      "y_translation": 509.10465931280015,
-      "z_translation": -148.7050258146933,
+      "x_translation": 82.3465207661556,
+      "y_translation": 30.905560089486446,
+      "z_translation": 59.21705216316798,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2564,16 +2728,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 9.406186791757905,
-    "y_dimension": 20.897309623285174,
-    "z_dimension": 17.01323075192196,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.012718418317606,
+    "y_dimension": 15.33412724208344,
+    "z_dimension": 18.37073525588473,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B13_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2583,13 +2747,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -36.44741754402633,
-      "y_translation": 515.0363308154458,
-      "z_translation": -165.20029811424257,
+      "x_translation": 76.19279896502108,
+      "y_translation": 30.709660185817306,
+      "z_translation": 74.83610377200992,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2600,16 +2766,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.702728583850837,
-    "y_dimension": 15.934974274590674,
-    "z_dimension": 18.765558955895155,
+    "creation_date": "2025-05-02",
+    "x_dimension": 8.653060458453155,
+    "y_dimension": 19.804414180381425,
+    "z_dimension": 21.334869393917433,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A13_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2619,13 +2785,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -34.61614095445711,
-      "y_translation": 507.2670130697531,
-      "z_translation": -150.36652777200283,
+      "x_translation": 75.86687546942228,
+      "y_translation": 33.87236243218758,
+      "z_translation": 61.96959141458791,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2636,16 +2804,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.10092717082347,
-    "y_dimension": 22.09281048386691,
-    "z_dimension": 17.845979216599027,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.121665651114414,
+    "y_dimension": 15.069308536656612,
+    "z_dimension": 18.06211033628502,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B12_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2655,13 +2823,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -30.177890054319857,
-      "y_translation": 512.5305006139545,
-      "z_translation": -167.58967678276682,
+      "x_translation": 70.7500088122124,
+      "y_translation": 33.19360431387838,
+      "z_translation": 77.05395835292487,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2672,16 +2842,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.06452419276978,
-    "y_dimension": 17.093974555583593,
-    "z_dimension": 19.442442386591765,
+    "creation_date": "2025-05-02",
+    "x_dimension": 7.762674068003905,
+    "y_dimension": 19.821200646128577,
+    "z_dimension": 21.107644189244102,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A12_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2691,13 +2861,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -28.824400599111932,
-      "y_translation": 504.7435707290424,
-      "z_translation": -152.74574243230938,
+      "x_translation": 69.75641071768989,
+      "y_translation": 36.65099553938117,
+      "z_translation": 63.830380104214115,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2708,16 +2880,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 10.976968314465298,
-    "y_dimension": 23.037601802360808,
-    "z_dimension": 18.171398707654497,
+    "creation_date": "2025-05-02",
+    "x_dimension": 8.934895599191917,
+    "y_dimension": 15.103572284127399,
+    "z_dimension": 17.369624996320166,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B11_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2727,13 +2899,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -23.726090651769645,
-      "y_translation": 510.07042844540393,
-      "z_translation": -170.7125650715323,
+      "x_translation": 65.48601969755588,
+      "y_translation": 34.99970764595628,
+      "z_translation": 78.18830121408078,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2744,16 +2918,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.28608048235332,
-    "y_dimension": 17.653456597703343,
-    "z_dimension": 20.131987178852395,
+    "creation_date": "2025-05-02",
+    "x_dimension": 6.928106597012714,
+    "y_dimension": 19.984460662904823,
+    "z_dimension": 21.127363204378163,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A11_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2763,13 +2937,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -22.978926978623445,
-      "y_translation": 502.2465394896093,
-      "z_translation": -155.75905921304127,
+      "x_translation": 63.962870577140954,
+      "y_translation": 38.713343455641315,
+      "z_translation": 64.65882111298217,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2780,16 +2956,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.824921286777839,
-    "y_dimension": 23.297702622104456,
-    "z_dimension": 18.21450480944653,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.190411826819608,
+    "y_dimension": 14.606203654225547,
+    "z_dimension": 17.13148715811047,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B10_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2799,13 +2975,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -16.970556716637955,
-      "y_translation": 507.6763080648612,
-      "z_translation": -174.58928304927983,
+      "x_translation": 59.868699805114325,
+      "y_translation": 36.31496285200156,
+      "z_translation": 78.30737013318564,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2816,16 +2994,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 11.475136041890106,
-    "y_dimension": 17.70120224541416,
-    "z_dimension": 20.509795859327774,
+    "creation_date": "2025-05-02",
+    "x_dimension": 6.539517308100456,
+    "y_dimension": 19.621039062087842,
+    "z_dimension": 21.29531740055951,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A10_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2835,13 +3013,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -16.795664094194088,
-      "y_translation": 499.9938047335459,
-      "z_translation": -159.83403259648532,
+      "x_translation": 58.035211966518844,
+      "y_translation": 40.26005060494034,
+      "z_translation": 64.5748440148915,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2852,16 +3033,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 13.23409555907995,
-    "y_dimension": 23.28242843416639,
-    "z_dimension": 18.390084070328605,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.503118700039254,
+    "y_dimension": 13.768586278493755,
+    "z_dimension": 18.038774074650515,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B9_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2871,13 +3052,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -9.562276876809765,
-      "y_translation": 505.5390153594226,
-      "z_translation": -178.87514673306137,
+      "x_translation": 54.10278786973867,
+      "y_translation": 36.8679841562618,
+      "z_translation": 77.61167013506453,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2888,16 +3071,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 12.446313624187452,
-    "y_dimension": 17.553038882258896,
-    "z_dimension": 21.002867437926675,
+    "creation_date": "2025-05-02",
+    "x_dimension": 6.897911035073201,
+    "y_dimension": 18.861656942271043,
+    "z_dimension": 22.379129804363433,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A9_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2907,13 +3090,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -9.80776773532107,
-      "y_translation": 498.08902078421113,
-      "z_translation": -164.76218928801467,
+      "x_translation": 52.661777447188406,
+      "y_translation": 41.044607061908266,
+      "z_translation": 63.99625205943951,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2924,16 +3110,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 14.862222622268204,
-    "y_dimension": 22.90714774853364,
-    "z_dimension": 18.95193797424777,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.556103796444463,
+    "y_dimension": 14.880976943652701,
+    "z_dimension": 18.83632329935439,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B8_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2943,13 +3129,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -1.808168784011438,
-      "y_translation": 503.9148250110216,
-      "z_translation": -183.32664106915468,
+      "x_translation": 48.351684829104855,
+      "y_translation": 36.31178882368233,
+      "z_translation": 76.14965981306527,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2960,16 +3149,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 13.407579331458676,
-    "y_dimension": 17.118682778594074,
-    "z_dimension": 21.255330567791162,
+    "creation_date": "2025-05-02",
+    "x_dimension": 7.910917291274383,
+    "y_dimension": 19.744913437239997,
+    "z_dimension": 23.38617231813245,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A8_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -2979,13 +3168,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": -2.535490429416202,
-      "y_translation": 496.81708967375005,
-      "z_translation": -170.1669313232539,
+      "x_translation": 47.52909157651981,
+      "y_translation": 40.60297881442379,
+      "z_translation": 62.749749910494074,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -2996,16 +3189,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 16.578250405122777,
-    "y_dimension": 22.01555350410489,
-    "z_dimension": 19.583511205277794,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.377755403740833,
+    "y_dimension": 15.8947728412977,
+    "z_dimension": 19.462470326471582,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B7_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3015,13 +3208,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 6.166988950305634,
-      "y_translation": 503.10046356574753,
-      "z_translation": -187.89613931827094,
+      "x_translation": 42.679573281922885,
+      "y_translation": 34.896805690877606,
+      "z_translation": 74.03525108839027,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3032,16 +3229,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 14.284080421146365,
-    "y_dimension": 16.34637585085086,
-    "z_dimension": 21.37838193859759,
+    "creation_date": "2025-05-02",
+    "x_dimension": 9.168724086420847,
+    "y_dimension": 20.938645335653927,
+    "z_dimension": 24.195733535289822,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A7_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3051,13 +3248,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 5.019903958317428,
-      "y_translation": 496.43093620987844,
-      "z_translation": -175.7680386974331,
+      "x_translation": 42.5750576232629,
+      "y_translation": 39.36172161388368,
+      "z_translation": 60.94557196039174,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001150",
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3068,16 +3269,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 17.993789431188816,
-    "y_dimension": 21.6675100903046,
-    "z_dimension": 20.379338846732487,
+    "creation_date": "2025-05-02",
+    "x_dimension": 10.367884915325032,
+    "y_dimension": 16.97373384483103,
+    "z_dimension": 19.80555231157746,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B6_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3087,13 +3288,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 14.464328409049008,
-      "y_translation": 502.9264418588475,
-      "z_translation": -192.48211072127302,
+      "x_translation": 37.84717881382156,
+      "y_translation": 32.37017465086905,
+      "z_translation": 71.38115439092556,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3104,16 +3308,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 15.014024792454096,
-    "y_dimension": 17.197675090578677,
-    "z_dimension": 21.394064285522653,
+    "creation_date": "2025-05-02",
+    "x_dimension": 10.440786878252117,
+    "y_dimension": 22.186721253676655,
+    "z_dimension": 24.90113163936271,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A6_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3123,13 +3327,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 12.822760229318279,
-      "y_translation": 496.93722928215846,
-      "z_translation": -181.3315569957265,
+      "x_translation": 37.88362979528509,
+      "y_translation": 36.98106731561138,
+      "z_translation": 58.54172348541414,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3140,16 +3347,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 19.272535961337628,
-    "y_dimension": 22.286429530311512,
-    "z_dimension": 21.361236392639317,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.591592687260514,
+    "y_dimension": 18.2499793472381,
+    "z_dimension": 20.187335844920337,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B5_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3159,13 +3366,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 22.87114884694371,
-      "y_translation": 503.7027888319745,
-      "z_translation": -196.84864689374467,
+      "x_translation": 33.4541568885849,
+      "y_translation": 28.70371170209965,
+      "z_translation": 68.52921122429245,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3176,16 +3386,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 15.847372392185394,
-    "y_dimension": 18.205954597440233,
-    "z_dimension": 21.57091000033168,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.908334509035681,
+    "y_dimension": 23.755193417075326,
+    "z_dimension": 25.597399712826473,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A5_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3195,13 +3405,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 20.65228085875178,
-      "y_translation": 498.27013461662875,
-      "z_translation": -186.5156501317335,
+      "x_translation": 33.612527799472474,
+      "y_translation": 33.47441090141062,
+      "z_translation": 55.77918113762293,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3212,16 +3425,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 20.505864224883986,
-    "y_dimension": 22.52136295073909,
-    "z_dimension": 22.22189893344201,
+    "creation_date": "2025-05-02",
+    "x_dimension": 13.042957811189783,
+    "y_dimension": 18.53854477528305,
+    "z_dimension": 20.673732899562008,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B4_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3231,13 +3444,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 31.083477061415213,
-      "y_translation": 504.8768750497037,
-      "z_translation": -200.49391512163947,
+      "x_translation": 29.56588453678787,
+      "y_translation": 24.597866196717778,
+      "z_translation": 65.6938020134288,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517",
+      "http://purl.obolibrary.org/obo/UBERON_0010373"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3248,16 +3465,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 17.054590708336494,
-    "y_dimension": 19.494872485308345,
-    "z_dimension": 22.184642194852167,
+    "creation_date": "2025-05-02",
+    "x_dimension": 13.697806467418479,
+    "y_dimension": 24.5974894538043,
+    "z_dimension": 25.238279578311623,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A4_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3267,13 +3484,17 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 28.249293243634803,
-      "y_translation": 500.29950622473376,
-      "z_translation": -191.00192812103595,
+      "x_translation": 29.893308864902217,
+      "y_translation": 29.466413991280888,
+      "z_translation": 53.476723959303406,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.org/sig/ont/fma/fma14517",
+      "http://purl.obolibrary.org/obo/UBERON_0010373"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3284,16 +3505,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 20.707731356220837,
-    "y_dimension": 21.748964336075982,
-    "z_dimension": 22.59365113027867,
+    "creation_date": "2025-05-02",
+    "x_dimension": 13.854668630187042,
+    "y_dimension": 17.776397221474532,
+    "z_dimension": 19.989129129550516,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B3_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3303,13 +3524,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 39.39485719908795,
-      "y_translation": 507.05514236594485,
-      "z_translation": -203.69820489103662,
+      "x_translation": 25.813334814367323,
+      "y_translation": 20.252469605407317,
+      "z_translation": 62.4076212525916,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.obolibrary.org/obo/UBERON_0010373"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3320,16 +3544,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 17.755836184702098,
-    "y_dimension": 19.680665112906446,
-    "z_dimension": 21.680820771628582,
+    "creation_date": "2025-05-02",
+    "x_dimension": 14.789934709774258,
+    "y_dimension": 23.875946876513066,
+    "z_dimension": 23.75071666834172,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A3_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3339,13 +3563,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 35.905536772544906,
-      "y_translation": 503.5865506193501,
-      "z_translation": -195.42291900182317,
+      "x_translation": 26.28096785416093,
+      "y_translation": 24.87555007954745,
+      "z_translation": 51.285368802692524,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.obolibrary.org/obo/UBERON_0010373"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3356,16 +3583,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 19.026666097039914,
-    "y_dimension": 19.434237629514463,
-    "z_dimension": 21.02598397199873,
+    "creation_date": "2025-05-02",
+    "x_dimension": 13.673654388509059,
+    "y_dimension": 15.031113323466238,
+    "z_dimension": 18.260713845000637,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B2_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3375,13 +3602,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 47.51266198298498,
-      "y_translation": 510.0988899557078,
-      "z_translation": -206.1406963925484,
+      "x_translation": 21.946346201553208,
+      "y_translation": 16.348431897170585,
+      "z_translation": 58.88377779736614,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.obolibrary.org/obo/UBERON_0010373"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3392,16 +3622,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 17.64126677905241,
-    "y_dimension": 18.602860408392097,
-    "z_dimension": 20.384919175296556,
+    "creation_date": "2025-05-02",
+    "x_dimension": 14.65306518083634,
+    "y_dimension": 21.009330132145678,
+    "z_dimension": 20.564615961741474,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A2_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3411,13 +3641,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 43.60996518516941,
-      "y_translation": 508.03112401803264,
-      "z_translation": -199.5125545664219,
+      "x_translation": 22.566135209165907,
+      "y_translation": 20.376104190316656,
+      "z_translation": 49.47141061724658,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.obolibrary.org/obo/UBERON_0010373"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3428,16 +3661,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 12.498189941926558,
-    "y_dimension": 14.585858101220595,
-    "z_dimension": 16.43468366601014,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.202746469596917,
+    "y_dimension": 9.984306260747978,
+    "z_dimension": 13.788105706374704,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#B1_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3447,13 +3680,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 54.446957667999236,
-      "y_translation": 514.3948712961864,
-      "z_translation": -208.54189828289256,
+      "x_translation": 17.525339106637965,
+      "y_translation": 13.289377879962426,
+      "z_translation": 54.39944727422069,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.obolibrary.org/obo/UBERON_0010373"
+    ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -3464,16 +3700,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-01",
-    "x_dimension": 14.811910058304138,
-    "y_dimension": 15.204112364336053,
-    "z_dimension": 15.920837423739176,
+    "creation_date": "2025-05-02",
+    "x_dimension": 11.75719966829463,
+    "y_dimension": 14.024012065782355,
+    "z_dimension": 15.109738419450098,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://lod.humanatlas.io/millitome/pancreas-female-vu#A1_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-01",
+      "placement_date": "2025-05-02",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -3483,12 +3719,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 52.12250707267968,
-      "y_translation": 513.9336021295568,
-      "z_translation": -204.39149757872215,
+      "x_translation": 18.037815246609192,
+      "y_translation": 16.233726552856513,
+      "z_translation": 47.872536774466276,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary"
     },
-    "ccf_annotations": []
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001069",
+      "http://purl.obolibrary.org/obo/UBERON_0010373"
+    ]
   }
 ]
