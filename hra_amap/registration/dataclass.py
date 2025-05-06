@@ -17,6 +17,11 @@ from scipy.interpolate import NearestNDInterpolator
 
 @dataclass
 class Transform:
+    """
+    Handles transformation of 3D geometries using scale, rotation, translation,
+    and optionally deformation vector fields (DVF).
+    """
+
     scale: tuple = (1, 1, 1)
     rotate: Optional[np.ndarray | tuple] = (0, 0, 0)
     translate: tuple = (0, 0, 0)
@@ -48,12 +53,18 @@ class Transform:
             self.matrix[3, :] = [0, 0, 0, 1]
 
     def transform(self, geometry, invert=False):
+        """
+        Applies transformation matrix to geometry.
+        """
         if isinstance(geometry, o3d.geometry.PointCloud):
             return geometry.transform(self.matrix if not invert else self.inverse)
         else:
             return geometry.apply_transform(self.matrix if not invert else self.inverse)
 
     def invert(self, geometry):
+        """
+        Applies inverse transformation to geometry.
+        """
         if isinstance(self.deformation_vector_field, np.ndarray):
             raise ValueError("Inversion not supported on DVF transformations")
         self.inverse = np.linalg.inv(self.matrix)
@@ -68,6 +79,9 @@ class Transform:
         return geometry
 
     def center(self, geometry):
+        """
+        Centers geometry based on its mean position.
+        """
         self.centered = True
         if not hasattr(self, "mean"):
             self.mean = mean(geometry)
@@ -80,6 +94,9 @@ class Transform:
         return geometry
 
     def __call__(self, geometry, center=False):
+        """
+        Applies transformation (and optionally centering) to a geometry.
+        """
         if hasattr(self, "centered") or center == True:
             geometry = self.center(geometry)
         if isinstance(self.deformation_vector_field, np.ndarray):
@@ -99,6 +116,10 @@ class Transform:
 
 @dataclass
 class PipelineStep:
+    """
+    Container for a single step in a transformation pipeline.
+    """
+
     name: str
     description: Optional[str] = None
     input: o3d.geometry.PointCloud = None
@@ -109,6 +130,10 @@ class PipelineStep:
 
 @dataclass
 class Projection:
+    """
+    Stores metadata and methods to project a geometry from source to target.
+    """
+
     id: str
     description: str
     source: "Organ"
@@ -119,17 +144,20 @@ class Projection:
 
     @classmethod
     def load(cls, path: str):
-        # load compressed pickle using gzip
+        """
+        Load a projection object from a gzip-compressed pickle file.
+        """
         with gzip.open(path, "rb") as file:
             obj = pickle.load(file)
         return obj
 
     def export(self, path: str):
-        # create the parent directory with the id
+        """
+        Save the projection object to a gzip-compressed pickle file.
+        """
         parent_dir = Path(path)
         parent_dir.mkdir(parents=True, exist_ok=True)
 
-        # save as compressed pickle using gzip
         with gzip.open(parent_dir / "projections.pickle.gz", "wb") as file:
             pickle.dump(self, file)
 

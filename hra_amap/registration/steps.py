@@ -22,6 +22,16 @@ BCPD_DIR = Path(os.getenv("BCPD_DIR", BASE_DIR / "bcpd"))
     name="Normalize ICP", description="Scale organs to a common range about the centre"
 )
 def normalize_rigid(source, target):
+    """
+    Normalize the source and target point clouds by scaling them to unit size and centering.
+
+    Args:
+        source (o3d.geometry.PointCloud): Source point cloud.
+        target (o3d.geometry.PointCloud): Target point cloud.
+
+    Returns:
+        Tuple[Dict[str, o3d.geometry.PointCloud], Dict[str, Transform]]: Normalized outputs and applied transforms.
+    """
     # scale
     source_scale = scale(source, method="unit")
     target_scale = scale(target, method="unit")
@@ -57,6 +67,17 @@ def flip(source, target):
     description="Initial, fast registration before rigid registration",
 )
 def global_registration(source, target, params):
+    """
+    Perform global registration using RANSAC on FPFH features.
+
+    Args:
+        source (o3d.geometry.PointCloud): Source point cloud.
+        target (o3d.geometry.PointCloud): Target point cloud.
+        params (Dict): Dictionary of registration parameters.
+
+    Returns:
+        Tuple[None, Dict[str, Transform]]: No output geometry yet; only initial transform for refinement.
+    """
     distance_threshold = (
         params["voxel_size"] * params["global_distance_threshold_factor"]
     )
@@ -106,6 +127,19 @@ def global_registration(source, target, params):
     description="Registeration using only rigid transformations (scale, translation and rotation)",
 )
 def refine_registration(source, target, params, transform):
+    """
+    Perform rigid registration using ICP (point-to-plane) to refine alignment.
+
+    Args:
+        source (o3d.geometry.PointCloud): Source point cloud.
+        target (o3d.geometry.PointCloud): Target point cloud.
+        params (Dict): Dictionary of refinement parameters.
+        transform (Dict[str, Transform]): Initial transformation from global registration.
+
+    Returns:
+        Tuple[Dict[str, o3d.geometry.PointCloud], Dict[str, Transform]]: Refined source and applied transform.
+    """
+
     distance_threshold = (
         params["voxel_size"] * params["refine_distance_threshold_factor"]
     )
@@ -139,6 +173,16 @@ def refine_registration(source, target, params, transform):
     description="Normalize location and scale before nonrigid registration",
 )
 def normalize_nonrigid(source, target):
+    """
+    Normalize the scale and center of both source and target before nonrigid registration.
+
+    Args:
+        source (o3d.geometry.PointCloud): Source point cloud.
+        target (o3d.geometry.PointCloud): Target point cloud.
+
+    Returns:
+        Tuple[Dict[str, o3d.geometry.PointCloud], Dict[str, Transform]]: Normalized point clouds and transforms.
+    """
     # calculate scale
     source_scale = scale(source, method="stddev")
     target_scale = scale(target, method="stddev")
@@ -169,6 +213,17 @@ import os
     description="Registration using rigid and non-rigid (local deformations) with BCPD algorithm",
 )
 def nonrigid_registration(source, target, params):
+    """
+    Perform non-rigid registration using the BCPD algorithm, allowing local deformations.
+
+    Args:
+        source (o3d.geometry.PointCloud): Source point cloud.
+        target (o3d.geometry.PointCloud): Target point cloud.
+        params (Dict): Parameters for BCPD execution and configuration.
+
+    Returns:
+        Tuple[Dict[str, o3d.geometry.PointCloud], Dict[str, Transform]]: Transformed source, registered output, and transforms.
+    """
     # convert to array
     source_array = pointcloud_to_numpy(source)
     target_array = pointcloud_to_numpy(target)
@@ -259,6 +314,17 @@ def nonrigid_registration(source, target, params):
 
 @step(name="Denormalization BCPD", description="Denormalize the organ after projection")
 def denormalize_nonrigid(source, target, transforms):
+    """
+    Revert the normalization applied before nonrigid registration.
+
+    Args:
+        source (o3d.geometry.PointCloud): Source point cloud after registration.
+        target (o3d.geometry.PointCloud): Target point cloud after registration.
+        transforms (Dict[str, Transform]): Transform used during normalization.
+
+    Returns:
+        Tuple[Dict[str, o3d.geometry.PointCloud], Dict[str, Transform]]: Denormalized point clouds and transforms.
+    """
     # apply
     source, target = transforms["Target"].invert(source), transforms["Target"].invert(
         target
@@ -275,6 +341,17 @@ def denormalize_nonrigid(source, target, transforms):
 
 @step(name="Denormalization ICP", description="Denormalize the organ after projection")
 def denormalize_rigid(source, target, transforms):
+    """
+    Revert the normalization applied before rigid (ICP) registration.
+
+    Args:
+        source (o3d.geometry.PointCloud): Source point cloud after registration.
+        target (o3d.geometry.PointCloud): Target point cloud after registration.
+        transforms (Dict[str, Transform]): Transform used during normalization.
+
+    Returns:
+        Tuple[Dict[str, o3d.geometry.PointCloud], Dict[str, Transform]]: Denormalized point clouds and transforms.
+    """
     # apply
     source, target = transforms["Target"].invert(source), transforms["Target"].invert(
         target

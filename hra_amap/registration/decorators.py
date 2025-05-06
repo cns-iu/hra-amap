@@ -2,6 +2,10 @@ from hra_amap.registration.dataclass import PipelineStep
 
 
 def step(name, description):
+    """
+    Decorator to wrap a pipeline step function with logging of inputs,
+    outputs, and associated transformations in a PipelineStep dataclass.
+    """
     # initialize step
     step = PipelineStep(name, description)
 

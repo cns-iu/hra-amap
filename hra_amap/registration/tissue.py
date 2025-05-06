@@ -23,9 +23,24 @@ class DivisionFactor(Enum):
 
 
 class TissueBlock(trimesh.Trimesh):
+    """
+    Represents a 3D tissue block mesh with associated donor and metadata information.
+
+    Inherits from trimesh.Trimesh to utilize mesh functionalities.
+    """
+
     def __init__(
         self, vertices, faces, donor: dict = None, metadata: dict = None
     ) -> None:
+        """
+        Initialize a TissueBlock instance.
+
+        Args:
+            vertices (array-like): Vertices of the mesh.
+            faces (array-like): Faces of the mesh.
+            donor (dict, optional): Donor information.
+            metadata (dict, optional): Metadata associated with the tissue block.
+        """
         super(TissueBlock, self).__init__()
         self.vertices, self.faces = (vertices, faces)
         if donor:
@@ -35,10 +50,22 @@ class TissueBlock(trimesh.Trimesh):
 
     @property
     def pointcloud(self):
+        """
+        Convert the mesh to a point cloud representation.
+
+        Returns:
+            PointCloud: The point cloud representation of the mesh.
+        """
         return to_pointcloud(self)
 
     @property
     def array(self):
+        """
+        Convert the mesh to a NumPy array representation.
+
+        Returns:
+            np.ndarray: The array representation of the mesh.
+        """
         return to_array(self)
 
     @classmethod
@@ -47,6 +74,17 @@ class TissueBlock(trimesh.Trimesh):
 
     @classmethod
     def from_sample(cls, sample: dict, donor: dict, target_name: str):
+        """
+        Create a TissueBlock instance from sample data.
+
+        Args:
+            sample (dict): Sample data containing RUI location and dimensions.
+            donor (dict): Donor information.
+            target_name (str): Name of the target organ.
+
+        Returns:
+            TissueBlock: A new TissueBlock instance.
+        """
         dimension_units = sample["rui_location"]["dimension_units"]
         division_factor = getattr(DivisionFactor, dimension_units).value
 
@@ -86,6 +124,19 @@ class TissueBlock(trimesh.Trimesh):
     def from_millitome(
         cls, millitome, donor: dict, metadata: dict, translation_arr: list, label=None
     ):
+        """
+        Create a TissueBlock instance from a millitome mesh.
+
+        Args:
+            millitome: The millitome mesh.
+            donor (dict): Donor information.
+            metadata (dict): Metadata associated with the tissue block.
+            translation_arr (list): Translation array for positioning.
+            label (str, optional): Label for the tissue block.
+
+        Returns:
+            TissueBlock: A new TissueBlock instance.
+        """
         block = cls(millitome.vertices, millitome.faces, donor, metadata)
         # add attributes
         block.label = label
@@ -97,6 +148,15 @@ class TissueBlock(trimesh.Trimesh):
         return block
 
     def _get_block_transform(self):
+        """
+        Compute the transformation to shift the target organ to the world origin.
+
+        Args:
+            translation_arr (list): Translation array for positioning.
+
+        Returns:
+            Transform: The transformation object for the target organ.
+        """
         # scale
         scaling = (
             self.metadata["placement"]["x_scaling"],
@@ -133,6 +193,12 @@ class TissueBlock(trimesh.Trimesh):
         return target_transform
 
     def to_sample(self, export_path: str):
+        """
+        Export the tissue block metadata to a JSON file.
+
+        Args:
+            export_path (str): Path to export the JSON file.
+        """
         # split the transform matrix back to individual transforms
         scale, rotation, translation = split_transform(self.bounding_box.transform)
 
@@ -207,6 +273,12 @@ class TissueBlock(trimesh.Trimesh):
 
     @lru_cache
     def show_on_target(self):
+        """
+        Visualize the tissue block on the target organ.
+
+        Returns:
+            Scene: A trimesh scene displaying the tissue block and target organ.
+        """
         self.target = trimesh.load(
             Path(self.metadata[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET]), force="mesh"
         )

@@ -1,3 +1,7 @@
+"""
+Stage 1 of Millitome Registrations: Module to perform projection generation using organ registration pipeline.
+"""
+
 import argparse
 import yaml
 from pathlib import Path
@@ -8,8 +12,14 @@ from hra_amap.utils.constants import ConfigKeys
 
 
 class ProjectionPickle:
+    """
+    Handles loading configuration and generating organ projections.
+    """
 
     def load_registration_data(self):
+        """
+        Load configuration and update input file paths.
+        """
         self.config_dict = read_yaml(self.config)
         self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE] = (
             self.config.parent
@@ -21,12 +31,18 @@ class ProjectionPickle:
         )
 
     def __init__(self, config: Path):
+        """
+        Initialize with configuration path.
+        """
         self.config = config
         self.load_registration_data()
 
     def generate_projection(
         self, output_path: Path, pipeline_name: str, pipeline_discription: str
     ):
+        """
+        Generate projection data and export it to the given path.
+        """
         if not self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE].exists():
             raise FileNotFoundError(
                 f"Source path not found: {self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE]}"

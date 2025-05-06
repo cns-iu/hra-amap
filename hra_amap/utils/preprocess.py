@@ -1,3 +1,8 @@
+"""
+This module provides geometric utilities for computing point cloud statistics,
+scaling factors, and extracting geometric features such as FPFH (Fast Point Feature Histograms).
+"""
+
 import numpy as np
 import open3d as o3d
 
@@ -5,10 +10,31 @@ from hra_amap.utils.conversions import to_array, to_mesh, to_pointcloud
 
 
 def mean(geometry):
+    """
+    Computes the centroid (mean position) of the input geometry.
+
+    Parameters:
+    - geometry: A numpy array, Open3D point cloud, or trimesh mesh.
+
+    Returns:
+    - np.ndarray: A 3-element array representing the mean x, y, z coordinates.
+    """
     return to_array(geometry).mean(axis=0)
 
 
 def scale(geometry, method="unit"):
+    """
+    Computes a scaling factor for the geometry based on the selected method.
+
+    Parameters:
+    - geometry: A numpy array, Open3D point cloud, or trimesh mesh.
+    - method (str): Scaling method. Options are:
+        - "unit": scales based on the bounding box diagonal.
+        - "stddev": scales based on standard deviation from the centroid.
+
+    Returns:
+    - float: The computed scale factor.
+    """
     if method == "unit":
         scale = 1 / np.max(
             to_pointcloud(geometry).get_max_bound()
@@ -26,6 +52,18 @@ def scale(geometry, method="unit"):
 
 
 def compute_features(pointcloud, params):
+    """
+    Computes FPFH (Fast Point Feature Histograms) features for a given point cloud.
+
+    Parameters:
+    - pointcloud (o3d.geometry.PointCloud): The input point cloud.
+    - params (dict): Dictionary with keys:
+        - "voxel_size" (float): Used to determine search radii.
+        - "max_nn" (int): Maximum nearest neighbors to use for search.
+
+    Returns:
+    - o3d.pipelines.registration.Feature: Extracted FPFH features.
+    """
     # estimate normals
     radius_normal = params["voxel_size"] * 2
     pointcloud.estimate_normals(
