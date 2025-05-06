@@ -6,10 +6,21 @@ from hra_amap.utils.io import read_yaml, write_yaml, add_header
 
 class RUIProcessor:
     def __init__(self, blocks, registration_dir):
+        """
+        Initialize the RUIProcessor with tissue blocks and registration directory.
+
+        Args:
+            blocks (list): A list of tissue block objects.
+            registration_dir (str): Path to the registration directory.
+        """
         self.blocks = [blocks] if len(blocks) == 1 else blocks
         self.registration_dir = Path(registration_dir)
 
     def initialize_registration(self):
+        """
+        Initializes the RUI registration by creating necessary files and directories
+        using the location processor.
+        """
         subprocess.run(
             [
                 "npx",
@@ -46,6 +57,10 @@ class RUIProcessor:
         add_header(self.registration_dir.joinpath("registrations.yaml"))
 
     def generate_rui_locations(self):
+        """
+        Generate the RUI locations after initializing the registration. This involves saving
+        the tissue blocks as JSON files and normalizing the data.
+        """
         # save all the registration data
         assert (
             self.registration_dir

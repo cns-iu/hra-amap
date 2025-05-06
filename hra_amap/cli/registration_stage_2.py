@@ -1,3 +1,6 @@
+"""
+Stage 2 of Millitome Registrations: Generates tissue blocks from projections and outputs JSON-LD files.
+"""
 import argparse
 from copy import deepcopy
 from datetime import datetime
@@ -20,12 +23,18 @@ from hra_amap.utils.metrics import get_translations
 
 
 class TissueBlockGenerator:
+    """
+    Generates TissueBlock objects from Millitome mesh and configuration.
+    """
     def __init__(self, config: Path):
         self.config = config
         self.config_dict = {}
         self.tissue_blocks = []
 
     def update_id_label_date(self, label):
+        """
+        Update IDs, labels, and creation dates based on tissue block label.
+        """
         donor_id = self.config_dict[ConfigKeys.DONOR_DATA_KEY][ConfigKeys.ID]
         self.config_dict[ConfigKeys.RUI_LOCATION_KEY][
             ConfigKeys.AT_ID
@@ -46,6 +55,9 @@ class TissueBlockGenerator:
         ] = date_today
 
     def update_config_values(self):
+        """
+        Resolve relative paths and update config values.
+        """
         # Update input file path relative to config
         self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE] = (
             self.config.parent
@@ -55,13 +67,15 @@ class TissueBlockGenerator:
             self.config.parent
             / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET]
         )
-
         # update donar data link values
         self.config_dict[ConfigKeys.DONOR_DATA_KEY][ConfigKeys.LINK] = self.config_dict[
             ConfigKeys.DONOR_DATA_KEY
         ][ConfigKeys.ID]
 
     def generate_blocks(self):
+        """
+        Generate all tissue blocks from millitome data.
+        """
         self.config_dict = read_yaml(self.config)
         self.update_config_values()
         millitome = trimesh.load(
@@ -89,11 +103,17 @@ class TissueBlockGenerator:
 
 
 class ProjectionBlockGenerator:
+    """
+    Projects tissue blocks using the loaded projection model.
+    """
     def __init__(self, projection: Path, config: Path):
         self.projection = Projection.load(projection)
         self.tissue_blocks = TissueBlockGenerator(config).generate_blocks()
 
     def generate_projections(self):
+        """
+        Apply projection and AABB bounding box generation to each tissue block.
+        """
         projected_blocks = [
             self.projection.project(block) for block in self.tissue_blocks
         ]
@@ -109,6 +129,10 @@ class ProjectionBlockGenerator:
 
 
 def generate_output(projection: Path, output_dir: Path, config: Path):
+    """
+    Main workflow to generate projection output files.
+    """
+
     projected_blocks = ProjectionBlockGenerator(
         projection, config
     ).generate_projections()

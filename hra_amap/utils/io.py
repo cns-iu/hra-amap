@@ -1,3 +1,13 @@
+"""
+This module provides utility functions for loading mesh data and handling file I/O operations
+such as reading/writing JSON and YAML files, and adding headers to YAML files.
+
+Main functionalities include:
+- Loading mesh data from various formats (.glb, .stl, .obj, .fbx, .pcd, .ply, .nii, .vtk).
+- Reading and writing JSON and YAML configuration files.
+- Adding schema header comments to YAML files for compatibility with YAML language servers.
+"""
+
 import json
 import yaml
 import trimesh

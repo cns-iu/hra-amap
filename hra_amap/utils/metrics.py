@@ -1,3 +1,9 @@
+"""
+This module provides utilities to compute geometric similarity metrics between 3D meshes
+(such as Sinkhorn, Chamfer, and Hausdorff distances), as well as utilities for retrieving
+anatomical transformation data from a remote knowledge graph.
+"""
+
 import numpy as np
 import point_cloud_utils as pcu
 import requests
@@ -8,6 +14,16 @@ from hra_amap.utils.conversions import mesh_to_numpy
 
 
 def sinkhorn(target_mesh, registered_mesh):
+    """
+    Computes the Sinkhorn distance between two simplified mesh geometries.
+
+    Parameters:
+    - target_mesh (trimesh.Trimesh): Reference mesh to compare against.
+    - registered_mesh (trimesh.Trimesh): Mesh to evaluate the similarity with.
+
+    Returns:
+    - float: Sinkhorn distance between the two point sets.
+    """
     dec_ref, dec_reg = target_mesh.simplify_quadratic_decimation(
         20000
     ), registered_mesh.simplify_quadratic_decimation(20000)
@@ -31,6 +47,16 @@ def sinkhorn(target_mesh, registered_mesh):
 
 
 def chamfer(target_mesh, registered_mesh):
+    """
+    Computes the Chamfer distance between two meshes.
+
+    Parameters:
+    - target_mesh (trimesh.Trimesh): Reference mesh to compare against.
+    - registered_mesh (trimesh.Trimesh): Mesh to evaluate the similarity with.
+
+    Returns:
+    - float: Chamfer distance between the two point sets.
+    """
     a = mesh_to_numpy(target_mesh)
     b = mesh_to_numpy(registered_mesh)
     chamfer_dist = pcu.chamfer_distance(a, b)
@@ -38,6 +64,16 @@ def chamfer(target_mesh, registered_mesh):
 
 
 def hausdorff(target_mesh, registered_mesh):
+    """
+    Computes the Hausdorff distance between two meshes.
+
+    Parameters:
+    - target_mesh (trimesh.Trimesh): Reference mesh to compare against.
+    - registered_mesh (trimesh.Trimesh): Mesh to evaluate the similarity with.
+
+    Returns:
+    - float: Hausdorff distance between the two point sets.
+    """
     a = mesh_to_numpy(target_mesh)
     b = mesh_to_numpy(registered_mesh)
     hausdorff_dist = pcu.hausdorff_distance(a, b)
@@ -53,6 +89,15 @@ rotation = [0.0, 0.0, 0.0]
 
 
 def fetch_anatomical_structure():
+    """
+    Fetches anatomical structure transformation data via SPARQL query from the Human Reference Atlas API.
+
+    Returns:
+    - list[dict]: List of anatomical structure records with associated transform data.
+
+    Raises:
+    - Exception: If the request to the remote endpoint fails.
+    """
     url = "https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/mesh-collision//anatomical-structures"
     params = {"endpoint": "https://lod.humanatlas.io/sparql"}
     headers = {"accept": "text/csv"}
@@ -66,6 +111,15 @@ def fetch_anatomical_structure():
 
 
 def get_translations(target_name: str):
+    """
+    Retrieves translation vector for a given anatomical structure name by querying remote transformation data.
+
+    Parameters:
+    - target_name (str): Name of the anatomical structure.
+
+    Returns:
+    - list[float] | None: List of 3 float translation values (negated), or None if no match found.
+    """
     hra_transforms = fetch_anatomical_structure()
     for row in hra_transforms:
         if (

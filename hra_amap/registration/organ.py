@@ -10,8 +10,20 @@ from hra_amap.utils.conversions import to_array, to_pointcloud
 
 
 class Organ(trimesh.Trimesh):
+    """
+    A 3D organ model that inherits from trimesh and supports transformations,
+    point cloud access, and coordinate alignment with the Human Reference Atlas (HRA).
+    """
 
     def __init__(self, path: str, target_name: str, metadata: dict = None) -> None:
+        """
+        Initialize the Organ object.
+
+        Args:
+            path (str): Path to the 3D organ file.
+            target_name (str): Target organ name used for retrieving HRA transformation info.
+            metadata (dict, optional): Additional metadata.
+        """
         super(Organ, self).__init__()
         self.metadata = metadata
         self.path = Path(path)
@@ -24,10 +36,13 @@ class Organ(trimesh.Trimesh):
 
     @property
     def pointcloud(self):
+        """Convert the organ mesh to an Open3D point cloud."""
         return to_pointcloud(self)
 
     @property
     def array(self):
+        """Return the organ mesh as a NumPy array of vertices."""
+
         return to_array(self)
 
     def _get_transform(self):

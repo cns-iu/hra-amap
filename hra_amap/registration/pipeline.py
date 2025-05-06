@@ -12,7 +12,20 @@ from hra_amap.utils.metrics import sinkhorn, chamfer, hausdorff
 
 
 class Pipeline:
+    """
+    A registration pipeline for aligning source and target 3D organ meshes using
+    rigid and non-rigid transformations.
+    """
+
     def __init__(self, name: str, description: str, params: str) -> None:
+        """
+        Initialize the pipeline.
+
+        Args:
+            name (str): Pipeline name.
+            description (str): Description of the pipeline.
+            params (str): Path to the YAML configuration file with registration parameters.
+        """
         self.__id = uuid.uuid4()
         self.name = name
         self.description = description
@@ -27,6 +40,16 @@ class Pipeline:
         raise NotImplementedError
 
     def run(self, source: Organ, target: Organ):
+        """
+        Execute the full registration pipeline and return the resulting Projection.
+
+        Args:
+            source (Organ): The source organ to register.
+            target (Organ): The target organ to register to.
+
+        Returns:
+            Projection: Contains the aligned geometry and transformation history.
+        """
         # Step 1: Normalize (ICP)
         self.steps["normalize_rigid"] = normalize_rigid(
             source=deepcopy(source.pointcloud), target=deepcopy(target.pointcloud)
@@ -97,6 +120,15 @@ class Pipeline:
         return projections
 
     def compute_metrics(self, metric: str):
+        """
+        Compute a similarity metric between source and registered output.
+
+        Args:
+            metric (str): One of "sinkhorn", "chamfer", "hausdorff".
+
+        Returns:
+            float: The computed metric value.
+        """
         if metric not in ["sinkhorn, chamfer, hausdorff"]:
             raise ValueError(
                 f"{metric} not recognized, must be one of sinkhorn, chamfer or hausdorff"
