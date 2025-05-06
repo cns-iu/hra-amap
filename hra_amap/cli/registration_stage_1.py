@@ -20,6 +20,8 @@ class ProjectionPickle:
         """
         Load configuration and update input file paths.
         """
+
+    def load_registration_data(self):
         self.config_dict = read_yaml(self.config)
         self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE] = (
             self.config.parent

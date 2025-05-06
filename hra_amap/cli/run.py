@@ -2,7 +2,6 @@
 Pipeline runner for Millitome tissue registration (stage 1 and 2).
 This script traverses all millitome input folders and executes both registration stages.
 """
-
 import subprocess
 from pathlib import Path
 

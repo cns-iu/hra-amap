@@ -1,7 +1,6 @@
 """
 Stage 2 of Millitome Registrations: Generates tissue blocks from projections and outputs JSON-LD files.
 """
-
 import argparse
 from copy import deepcopy
 from datetime import datetime
@@ -27,7 +26,6 @@ class TissueBlockGenerator:
     """
     Generates TissueBlock objects from Millitome mesh and configuration.
     """
-
     def __init__(self, config: Path):
         self.config = config
         self.config_dict = {}
@@ -60,6 +58,7 @@ class TissueBlockGenerator:
         """
         Resolve relative paths and update config values.
         """
+        # Update input file path relative to config
         self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE] = (
             self.config.parent
             / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE]
@@ -68,7 +67,7 @@ class TissueBlockGenerator:
             self.config.parent
             / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET]
         )
-
+        # update donar data link values
         self.config_dict[ConfigKeys.DONOR_DATA_KEY][ConfigKeys.LINK] = self.config_dict[
             ConfigKeys.DONOR_DATA_KEY
         ][ConfigKeys.ID]
@@ -107,7 +106,6 @@ class ProjectionBlockGenerator:
     """
     Projects tissue blocks using the loaded projection model.
     """
-
     def __init__(self, projection: Path, config: Path):
         self.projection = Projection.load(projection)
         self.tissue_blocks = TissueBlockGenerator(config).generate_blocks()
@@ -134,6 +132,7 @@ def generate_output(projection: Path, output_dir: Path, config: Path):
     """
     Main workflow to generate projection output files.
     """
+
     projected_blocks = ProjectionBlockGenerator(
         projection, config
     ).generate_projections()
