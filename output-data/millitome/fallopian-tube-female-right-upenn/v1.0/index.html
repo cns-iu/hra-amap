@@ -26,7 +26,7 @@
       window.addEventListener('DOMContentLoaded', () => {
         const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
         const homeUrl = location.href;
-        const source = `${basePath}rui_locations.jsonld#247e8ad27983d15720d1c39b08b1fdde`;
+        const source = `${basePath}rui_locations.jsonld#1efee8a502c008c09b3e4e25ceb9d0ae`;
         const euiTemplate = document.getElementById('eui-template');
         const eui = euiTemplate.innerHTML.replace('SOURCE', source).replace('HOME_URL', homeUrl);
         document.body.innerHTML = eui;

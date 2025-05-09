@@ -8,16 +8,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-02",
-    "x_dimension": 6.790641537701481,
-    "y_dimension": 9.691947970990114,
-    "z_dimension": 5.742140195818549,
+    "creation_date": "2025-05-09",
+    "x_dimension": 11.373116003035866,
+    "y_dimension": 4.3693564110938095,
+    "z_dimension": 2.6872672340994272,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#7-8-9-10-11-12_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-02",
+      "placement_date": "2025-05-09",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -27,15 +27,15 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 4.875809593314642,
-      "y_translation": 36.394018179015866,
-      "z_translation": 3.535014034052611,
+      "x_translation": 27.625947806373162,
+      "y_translation": 4.244060296661367,
+      "z_translation": 17.75788414408395,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma18489",
-      "http://purl.org/sig/ont/fma/fma18497"
+      "http://purl.org/sig/ont/fma/fma18493",
+      "http://purl.org/sig/ont/fma/fma18491"
     ]
   },
   {
@@ -47,16 +47,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-02",
-    "x_dimension": 11.669198029709788,
-    "y_dimension": 32.001825192866946,
-    "z_dimension": 19.05289367986393,
+    "creation_date": "2025-05-09",
+    "x_dimension": 23.897141093884798,
+    "y_dimension": 38.32196071908987,
+    "z_dimension": 9.816442570291704,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#4-5-6_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-02",
+      "placement_date": "2025-05-09",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -66,15 +66,13 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 5.553869799815096,
-      "y_translation": 28.286281178526878,
-      "z_translation": 10.901686676118057,
+      "x_translation": 11.512347929467925,
+      "y_translation": 23.901983844679336,
+      "z_translation": 15.311924422348033,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary"
     },
     "ccf_annotations": [
-      "http://purl.org/sig/ont/fma/fma18489",
-      "http://purl.org/sig/ont/fma/fma18497",
       "http://purl.org/sig/ont/fma/fma18491"
     ]
   },
@@ -87,16 +85,16 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0008-6509-7698",
-    "creation_date": "2025-05-02",
-    "x_dimension": 30.27567708558842,
-    "y_dimension": 19.589203921465188,
-    "z_dimension": 3.4642108770508715,
+    "creation_date": "2025-05-09",
+    "x_dimension": 7.827192981849265,
+    "y_dimension": 13.429174500810229,
+    "z_dimension": 12.80788717324772,
     "dimension_units": "millimeter",
     "placement": {
       "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
       "@id": "https://purl.humanatlas.io/millitome/fallopian-tube-female-right-upenn/v1.0#1-2-3_placement",
       "@type": "SpatialPlacement",
-      "placement_date": "2025-05-02",
+      "placement_date": "2025-05-09",
       "x_scaling": 1,
       "y_scaling": 1,
       "z_scaling": 1,
@@ -106,15 +104,16 @@
       "z_rotation": 0,
       "rotation_order": "XYZ",
       "rotation_units": "degree",
-      "x_translation": 19.847111059568597,
-      "y_translation": 11.505073586157346,
-      "z_translation": 18.723791058987178,
+      "x_translation": 3.6555811658134303,
+      "y_translation": 38.22387259520658,
+      "z_translation": 6.880121860951338,
       "translation_units": "millimeter",
       "target": "https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary"
     },
     "ccf_annotations": [
       "http://purl.org/sig/ont/fma/fma18491",
-      "http://purl.org/sig/ont/fma/fma18493"
+      "http://purl.org/sig/ont/fma/fma18497",
+      "http://purl.org/sig/ont/fma/fma18489"
     ]
   }
 ]
