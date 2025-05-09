@@ -85,35 +85,38 @@ class TissueBlockGenerator:
         translation_list = get_translations(
             target_name=self.config_dict[ConfigKeys.TARGET_NAME]
         )
-        
+
         fused_labels = set()
         fused_block_config = self.config_dict.get("fused-blocks", {})
 
         if fused_block_config:
             for fused_label, fused_block_ids in fused_block_config.items():
                 fused_labels.update(str(id) for id in fused_block_ids)
-                
+
                 self.update_id_label_date(fused_label)
                 try:
                     merged_mesh = trimesh.util.concatenate(
-                        [millitome.geometry[str(block_id)] for block_id in fused_block_ids]
+                        [
+                            millitome.geometry[str(block_id)]
+                            for block_id in fused_block_ids
+                        ]
                     )
                 except KeyError as e:
                     raise ValueError(
-                        f"Block ID '{e.args[0]}' listed in fused-blocks '{fused_label}' does not exist in the millitome geometry."
+                        f"Block ID '{e.args[0]}' in fused-blocks '{fused_label}' does not exist"
                     )
                 fused_tissue_block = TissueBlock.from_millitome(
                     merged_mesh,
-                    donor= self.config_dict[ConfigKeys.DONOR_DATA_KEY],
-                    metadata= self.config_dict[ConfigKeys.RUI_LOCATION_KEY],
+                    donor=self.config_dict[ConfigKeys.DONOR_DATA_KEY],
+                    metadata=self.config_dict[ConfigKeys.RUI_LOCATION_KEY],
                     translation_arr=translation_list,
-                    label=fused_label,  
+                    label=fused_label,
                 )
                 self.tissue_blocks.append(fused_tissue_block)
 
         for label, block in millitome.geometry.items():
             if label in fused_labels:
-                continue 
+                continue
             self.update_id_label_date(label)
             tissue_block = TissueBlock.from_millitome(
                 block,
@@ -123,7 +126,6 @@ class TissueBlockGenerator:
                 label=label,
             )
             self.tissue_blocks.append(tissue_block)
-        
 
         for tissue_block in self.tissue_blocks:
             tissue_block.visual.vertex_colors = trimesh.visual.random_color()

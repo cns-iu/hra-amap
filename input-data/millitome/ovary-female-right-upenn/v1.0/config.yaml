@@ -47,7 +47,3 @@ rigid_registration:
   max_nn: 100
   refine_distance_threshold_factor: 0.1
   voxel_size: 0.025
-
-fused-blocks:
-  "6-16-17": ["6","16","17"]
-  "27-30-33-36": ["27","30","33","36"]
