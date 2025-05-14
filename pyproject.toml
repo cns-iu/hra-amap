@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling", "hatch-requirements-txt"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hra-amap"
+dynamic = ["version", "dependencies"]
+description = 'A command-line interface to perform registrations stage 1, stage 2 and run all'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["glb", "image registrations"]
+authors = [
+  { name = "Antara Bhavsar", email = "antbhavs@iu.edu" },
+  { name = "Bruce W. Herr II", email = "bherr@iu.edu" },
+]
+maintainers = [
+  { name = "Bruce W. Herr II", email = "bherr@iu.edu" },
+]
+
+[project.urls]
+Homepage = "https://github.com/cns-iu/hra-amap"
+Documentation = "https://github.com/cns-iu/hra-amap"
+Repository = "https://github.com/cns-iu/hra-amap.git"
+Issues = "https://github.com/cns-iu/hra-amap/issues"
+Changelog = "https://github.com/cns-iu/hra-amap/blob/main/CHANGELOG.md"
+
+
+[tool.hatch.version]
+path = "hra_amap/__about__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["hra_amap"]
+
+[tool.hatch.metadata.hooks.requirements_txt]
+files = ["requirements.txt"]
+
+[project.scripts]
+hra-amap-stage-1 = "hra_amap.cli.registration_stage_1:main"
+hra-amap-stage-2 = "hra_amap.cli.registration_stage_2:main"
+hra-amap-run = "hra_amap.cli.run:main"

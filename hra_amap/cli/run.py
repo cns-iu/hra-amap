@@ -2,6 +2,7 @@
 Pipeline runner for Millitome tissue registration (stage 1 and 2).
 This script traverses all millitome input folders and executes both registration stages.
 """
+
 import subprocess
 from pathlib import Path
 
@@ -83,9 +84,13 @@ def run_pipeline():
                     run_command(stage2_cmd, cur_millitome)
 
 
-if __name__ == "__main__":
+def main():
     try:
         run_pipeline()
     except Exception as e:
         log.error("Pipeline failed!")
         raise e
+
+
+if __name__ == "__main__":
+    main()

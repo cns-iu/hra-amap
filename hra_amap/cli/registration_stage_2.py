@@ -1,6 +1,7 @@
 """
 Stage 2 of Millitome Registrations: Generates tissue blocks from projections and outputs JSON-LD files.
 """
+
 import argparse
 from copy import deepcopy
 from datetime import datetime
@@ -26,6 +27,7 @@ class TissueBlockGenerator:
     """
     Generates TissueBlock objects from Millitome mesh and configuration.
     """
+
     def __init__(self, config: Path):
         self.config = config
         self.config_dict = {}
@@ -136,6 +138,7 @@ class ProjectionBlockGenerator:
     """
     Projects tissue blocks using the loaded projection model.
     """
+
     def __init__(self, projection: Path, config: Path):
         self.projection = Projection.load(projection)
         self.tissue_blocks = TissueBlockGenerator(config).generate_blocks()
@@ -188,7 +191,7 @@ def generate_output(projection: Path, output_dir: Path, config: Path):
         json.dump(extraction_sites, f, indent=2)
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Millitome Registrations stage 2")
     parser.add_argument(
         "--stage1_projection_path",
@@ -213,3 +216,7 @@ if __name__ == "__main__":
     except Exception as e:
         print(e)
         raise e
+
+
+if __name__ == "__main__":
+    main()

@@ -1,6 +1,7 @@
 import subprocess
 import numpy as np
 import open3d as o3d
+import tempfile
 
 from hra_amap.registration.decorators import step
 from hra_amap.registration.dataclass import Transform
@@ -14,8 +15,33 @@ from hra_amap.utils.preprocess import scale, compute_features
 import os
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
-BCPD_DIR = Path(os.getenv("BCPD_DIR", BASE_DIR / "bcpd"))
+
+def get_bcpd_executable_path():
+    """
+    Returns the absolute path to the BCPD executable.
+    Raises an exception if not found with a link to install instructions.
+    """
+    BASE_DIR = Path.cwd()
+    BCPD_DIR = Path(os.getenv("BCPD_DIR", ""))
+    bcpd_executable = [
+        BCPD_DIR / "bcpd",
+        BASE_DIR / "bcpd" / "bcpd",
+        BASE_DIR.parent / "bcpd" / "bcpd",
+    ]
+    for path in bcpd_executable:
+        if path.is_file():
+            return path.parent.resolve(), path.resolve()
+
+    raise FileNotFoundError(
+        "BCPD executable not found in expected locations:\n"
+        f"  1. {bcpd_executable[0]}\n"
+        f"  2. {bcpd_executable[1]}\n"
+        f"  3. {bcpd_executable[2]}\n\n"
+        "BCPD Install instructions:  https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md"
+    )
+
+
+BCPD_DIR, BCPD_EXECUTABLE = get_bcpd_executable_path()
 
 
 @step(
@@ -228,88 +254,101 @@ def nonrigid_registration(source, target, params):
     source_array = pointcloud_to_numpy(source)
     target_array = pointcloud_to_numpy(target)
 
-    # # save the source and target point clouds as .txt
-    np.savetxt(f"{BCPD_DIR}/source.txt", source_array, delimiter=",")
-    np.savetxt(f"{BCPD_DIR}/target.txt", target_array, delimiter=",")
+    source_temp_file = None
+    target_temp_file = None
+    try:
+        source_temp_file = tempfile.NamedTemporaryFile(delete=False)
+        target_temp_file = tempfile.NamedTemporaryFile(delete=False)
 
-    # build registration args
-    reigstration_args = [
-        "./bcpd",
-        "-x",
-        f"{BCPD_DIR}/target.txt",
-        "-y",
-        f"{BCPD_DIR}/source.txt",
-        "-J",
-        "300",
-        "-K",
-        "70",
-        "-p",
-        "-u",
-        "n",
-        "-c",
-        str(params["distance_threshold"]),
-        "-r",
-        str(params["seed"]),
-        "-n",
-        str(params["max_iterations"]),
-        "-l",
-        str(params["lambda"]),
-        "-b",
-        str(params["beta"]),
-        "-s",
-        "yxuveTY",
-    ]
+        source_file_path = source_temp_file.name
+        target_file_path = target_temp_file.name
 
-    # for rotation
-    if "gamma" in params:
-        reigstration_args.extend(["-g", str(params["gamma"])])
+        np.savetxt(source_file_path, source_array, delimiter=",")
+        np.savetxt(target_file_path, target_array, delimiter=",")
 
-    # for downsampling acceleration
-    # TODO: auto-detect when downsampling acceleration is needed instead of having it specified
-    if "downsampling" in params:
-        reigstration_args.extend(["-D", str(params["downsampling"])])
+        # build registration args
+        reigstration_args = [
+            BCPD_EXECUTABLE,
+            "-x",
+            target_file_path,
+            "-y",
+            source_file_path,
+            "-J",
+            "300",
+            "-K",
+            "70",
+            "-p",
+            "-u",
+            "n",
+            "-c",
+            str(params["distance_threshold"]),
+            "-r",
+            str(params["seed"]),
+            "-n",
+            str(params["max_iterations"]),
+            "-l",
+            str(params["lambda"]),
+            "-b",
+            str(params["beta"]),
+            "-s",
+            "yxuveTY",
+        ]
 
-    # register using BCPD
-    result = subprocess.run(reigstration_args, cwd=str(BCPD_DIR), capture_output=True)
+        # for rotation
+        if "gamma" in params:
+            reigstration_args.extend(["-g", str(params["gamma"])])
 
-    # read transformations
-    if "downsampling" in params:
-        downsampled_source = np.genfromtxt(BCPD_DIR / "output_normY.txt")
-        dvf = np.genfromtxt(BCPD_DIR / "output_u.txt") - downsampled_source
-    else:
-        dvf = np.genfromtxt(BCPD_DIR / "output_u.txt") - source_array
-    translation = txt_to_numpy(BCPD_DIR / "output_t.txt")
-    scale = txt_to_numpy(BCPD_DIR / "output_s.txt").item()
-    rotation = txt_to_numpy(BCPD_DIR / "output_r.txt")
+        # for downsampling acceleration
+        # TODO: auto-detect when downsampling acceleration is needed instead of having it specified
+        if "downsampling" in params:
+            reigstration_args.extend(["-D", str(params["downsampling"])])
 
-    # create transform
-    transform = Transform(
-        scale=scale,
-        rotate=rotation,
-        translate=translation,
-        deformation_vector_field=dvf,
-    )
+        # register using BCPD
+        result = subprocess.run(reigstration_args, cwd=str(BCPD_DIR), capture_output=True)
 
-    # apply transform and store outputs
-    if "downsampling" in params:
-        # this automatically calculates and stores an interpolated DVF to use with ANY geometry
-        downsampled_source = transform(downsampled_source)
-        # transform the original source using the interpolated DVF calculated
-        source = transform(source)
-        registered = numpy_to_pointcloud(
-            txt_to_numpy(BCPD_DIR / "output_y.interpolated.txt")
+        # read transformations
+        if "downsampling" in params:
+            downsampled_source = np.genfromtxt(BCPD_DIR / "output_normY.txt")
+            dvf = np.genfromtxt(BCPD_DIR / "output_u.txt") - downsampled_source
+        else:
+            dvf = np.genfromtxt(BCPD_DIR / "output_u.txt") - source_array
+        translation = txt_to_numpy(BCPD_DIR / "output_t.txt")
+        scale = txt_to_numpy(BCPD_DIR / "output_s.txt").item()
+        rotation = txt_to_numpy(BCPD_DIR / "output_r.txt")
+
+        # create transform
+        transform = Transform(
+            scale=scale,
+            rotate=rotation,
+            translate=translation,
+            deformation_vector_field=dvf,
         )
-    else:
-        source = transform(source)
-        registered = numpy_to_pointcloud(txt_to_numpy(BCPD_DIR / "output_y.txt"))
 
-    # store outputs
-    outputs = {"Source": source, "Target": None, "Registered": registered}
+        # apply transform and store outputs
+        if "downsampling" in params:
+            # this automatically calculates and stores an interpolated DVF to use with ANY geometry
+            downsampled_source = transform(downsampled_source)
+            # transform the original source using the interpolated DVF calculated
+            source = transform(source)
+            registered = numpy_to_pointcloud(
+                txt_to_numpy(BCPD_DIR / "output_y.interpolated.txt")
+            )
+        else:
+            source = transform(source)
+            registered = numpy_to_pointcloud(txt_to_numpy(BCPD_DIR / "output_y.txt"))
 
-    # store transforms
-    transforms = {"Source": transform, "Target": None}
+        # store outputs
+        outputs = {"Source": source, "Target": None, "Registered": registered}
 
-    return (outputs, transforms)
+        # store transforms
+        transforms = {"Source": transform, "Target": None}
+
+        return (outputs, transforms)
+    finally:
+        if source_temp_file:
+            os.remove(source_temp_file.name)
+        if target_temp_file:
+            os.remove(target_temp_file.name)
 
 
 @step(name="Denormalization BCPD", description="Denormalize the organ after projection")
