@@ -188,7 +188,7 @@ def generate_output(projection: Path, output_dir: Path, config: Path):
         json.dump(extraction_sites, f, indent=2)
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Millitome Registrations stage 2")
     parser.add_argument(
         "--stage1_projection_path",
@@ -213,3 +213,6 @@ if __name__ == "__main__":
     except Exception as e:
         print(e)
         raise e
+
+if __name__ == "__main__":
+    main()

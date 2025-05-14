@@ -71,7 +71,7 @@ class ProjectionPickle:
         projections.export(path=str(output_path))
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Millitome Registrations stage 1")
     parser.add_argument(
         "--config",
@@ -108,3 +108,6 @@ if __name__ == "__main__":
         )
     except Exception as e:
         raise
+
+if __name__ == "__main__":
+    main()

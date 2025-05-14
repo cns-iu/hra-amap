@@ -14,7 +14,7 @@ from hra_amap.utils.preprocess import scale, compute_features
 import os
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = Path.cwd()
 BCPD_DIR = Path(os.getenv("BCPD_DIR", BASE_DIR / "bcpd"))
 
 

@@ -67,7 +67,7 @@ This command executes the **first stage** of the millitome registration process.
 ### Usage
 
 ```bash
-python -m scripts.registration_stage_1 \
+python -m hra_amap.cli.registration_stage_1 \
     --config <path_to_config.yaml> \
     --output_path <path_to_output_directory>
 ```
@@ -79,7 +79,7 @@ This command executes the **second stage** of the millitome registration process
 ### Usage
 
 ```bash
-python -m scripts.registration_stage_2 \
+python -m hra_amap.cli.registration_stage_2 \
     --stage1_projection_path <path_to_projections.pickle.gz> \
     --output_path <path_to_output_directory> \
     --config <path_to_config.yaml>
@@ -93,5 +93,5 @@ It automatically discovers all valid organ configurations in the `input-data/mil
 ### Usage
 
 ```bash
-python scripts/run.py
+python hra_amap.cli.run
 ```

@@ -83,9 +83,12 @@ def run_pipeline():
                     run_command(stage2_cmd, cur_millitome)
 
 
-if __name__ == "__main__":
+def main():
     try:
         run_pipeline()
     except Exception as e:
         log.error("Pipeline failed!")
         raise e
+
+if __name__ == "__main__":
+    main()
