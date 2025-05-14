@@ -21,9 +21,9 @@ def get_bcpd_executable_path():
     Raises an exception if not found with a link to install instructions.
     """
     BASE_DIR = Path.cwd()
-    BCPD_DIR = Path(os.getenv("BCPD_DIR", BASE_DIR / "bcpd"))
+    BCPD_DIR = Path(os.getenv("BCPD_DIR", ""))
     bcpd_executable = [
-        BASE_DIR / "bcpd",
+        BCPD_DIR / "bcpd",
         BASE_DIR / "bcpd" / "bcpd",
         BASE_DIR.parent / "bcpd" / "bcpd",
     ]
