@@ -72,6 +72,14 @@ python -m hra_amap.cli.registration_stage_1 \
     --output_path <path_to_output_directory>
 ```
 
+or if installed via pip:
+
+```bash
+hra-amap-stage-1 \
+    --config <path_to_config.yaml> \
+    --output_path <path_to_output_directory>
+```
+
 ##  Millitome Registration: Stage 2
 
 This command executes the **second stage** of the millitome registration process. It takes the output from Stage 1 (a projection file), a configuration file, and produces the final registered organ models.
@@ -79,7 +87,16 @@ This command executes the **second stage** of the millitome registration process
 ### Usage
 
 ```bash
-python -m hra_amap.cli.registration_stage_2 \
+python -m hra_amap.cli.registration_stage_2 \ 
+    --stage1_projection_path <path_to_projections.pickle.gz> \
+    --output_path <path_to_output_directory> \
+    --config <path_to_config.yaml>
+```
+
+or if installed via pip:
+
+```bash
+hra-amap-stage-2 \
     --stage1_projection_path <path_to_projections.pickle.gz> \
     --output_path <path_to_output_directory> \
     --config <path_to_config.yaml>
@@ -94,4 +111,10 @@ It automatically discovers all valid organ configurations in the `input-data/mil
 
 ```bash
 python hra_amap.cli.run
+```
+
+or if installed via pip:
+
+```bash
+hra-amap-run
 ```

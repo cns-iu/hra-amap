@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class ConfigKeys(str, Enum):
     """
     Enumeration of configuration keys used in tissue block registration system.
@@ -7,6 +8,7 @@ class ConfigKeys(str, Enum):
     Each enum member corresponds to a specific configuration key used for storing
     and accessing data related to tissue blocks, their placement, and registration.
     """
+
     CREATION_DATE = "creation_date"
     DONOR_DATA_KEY = "donor"
     ID = "id"
