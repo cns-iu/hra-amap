@@ -1,120 +1,84 @@
-# HRA-AMap - Bidirectional Projections Between Human Atlas Systems for Data and Code Interoperability
+# HRA-AMAP
+HRA-AMAP (Human Reference Atlas – Automated Mapping and Projection) enables automated projection of tissue blocks from a source organ to a new reference organ—typically aligned with the Human Reference Atlas (HRA)—as part of the HuBMAP initiative.
+## 🚀 User Setup Instructions
 
-Code for AMap project. 
-
-This repository aims to enable projection of tissue blocks registrered to a source organ to a new reference organ (usually the Human Reference Atlas, part of HuBMAP). 
-
-### Setup instructions:
-
-1. Clone the repository with ```git clone https://github.com/cns-iu/hra-amap.git```
-
-2. Inside the cloned ```hra-amap``` repostisory, clone ``bcpd`` repository (```https://github.com/ohirose/bcpd```) with ```git clone https://github.com/ohirose/bcpd.git```. This implements the Bayesian Coherent Point Drift algorithm based on the following paper [A Bayesian Formulation of Coherent Point Drift](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8985307). The repository is ~1GB in file size hence it is not shipped with our repository and requires additional setup: 
-
-    * For Windows
-
-       1. No setup required.  
-
-    * For MacOS and Linux
-
-        1. Install the OpenMP and the LAPACK libraries if not installed. For MacOS, make sure XCode is installed. OpenMP can then be installed with the ```homebrew``` package manager (```https://brew.sh```) followed by ```brew install libomp```
-
-        2. Type ```make OPT=-DUSE_OPENMP ENV=<your-environment>```. Substitute ```<uyour-environment>``` with ```LINUX``` for Linux, ```HOMEBREW_INTEL``` for Intel Macs and ```HOMEBREW``` for Macs with Apple Silicon. In case of a ```clang``` error during installation for MacOS, ensure to check if the ```makefile``` within the ```bcpd``` repository is pointing to the correct path for ```libomp.dylib```. In newer Macs, the correct path should be ```/opt/homebrew/Cellar/libomp/19.1.7/lib/libomp.dylib```. Note that current libomp version is 19.1.7, but the library version might different depending on the time of installation. 
-
-3. We recommend creating a virtual environment using [```miniconda```] (https://docs.anaconda.com/miniconda/install/) or [```anaconda``` ](https://docs.anaconda.com/anaconda/install/). The recommended Python version is 3.12.x. Create and activate environment using the following commands on a shell:
-
+1. Clone and install the repository directly from GitHub:
+```bash
+pip install git+https://github.com/cns-iu/hra-amap.git@main
 ```
-# create
-conda create -n amap python=3.12
+2. Make sure you have a working C++ build environment (e.g., g++, make) available on your system.
+3. Install BCPD (an essential component of this project)
 
-# activate
-conda activate amap
+   Please follow the [BCPD Installation Instructions](https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md) if it is not already set up on your machine.
+4. You are now ready to run the millitome registration commands (stage-1, stage-2, or run). See Usage Instructions for details below.
+
+## 🧑‍💻 Developer Setup Instructions
+To contribute or develop this project locally, follow the steps below:
+1. Clone the repository:
+```bash
+git clone https://github.com/cns-iu/hra-amap.git
+cd hra-amap
 ```
-
-4. After activating the environment, install the following libraries:
-
+2. Install BCPD by following [BCPD Installation Instructions](https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md).
+3. Install [Node.js] (https://nodejs.org/en/download/) and run the command (required create RUI JSONs for Millitomes):
+```bash
+npx github:hubmapconsortium/hra-rui-locations-processor help
 ```
-pip install trimesh
-pip install pyyaml
-pip install open3d
-pip install pyvista
-pip install point-cloud-utils
-pip install rtree
-pip install seaborn
-pip install scikit-learn
-```
-
-5. To run a quick registration using the provided pipeline, please see ```notebooks/Usage.ipynb```. Make sure to set appropriate parts in the code on your local system. 
-
-6. Additionally, to create RUI JSONs for Millitomes (as shown in `Millitome.ipynb`), one needs to install [Node.js] (https://nodejs.org/en/download/) and run ```npx github:hubmapconsortium/hra-rui-locations-processor help```
-
-## List of Millitome Based Registrations
-
-| Millitomes                                      | Data Provider                                       | Institution | Link To Resources                                                                 |
-|-------------------------------------------------|----------------------------------------------------|-------------|----------------------------------------------------------------------------------|
-| hubmap-kidney_millitome-spraggins-2024           | Jamie Allen                                        | VU          | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-kidney_millitome-spraggins-2024) |
-| hubmap-pancreas_millitome-saunders-2024          | Angela Kruse and Diane Saunders                    | VU          | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-pancreas_millitome-saunders-2024) |
-| hubmap-pancreas_millitome-thompson-2024          | Jing Chen, James Carson, Martha Campbell Thompson  | UF          | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-pancreas_millitome-thompson-2024) |
-| hubmap-ovary_millitome-fisher-2024               | Stephen Fisher, Erik Nogden                        | UPenn       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-ovary_millitome-fisher-2024) |
-| hubmap-uterus_millitome-fisher-2024              | Stephen Fisher, Erik Nogden                        | UPenn       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-uterus_millitome-fisher-2024) |
-| hubmap-fallopian_tube_millitome-fisher-2024      | Stephen Fisher, Erik Nogden                        | UPenn       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-fallopian_tube_millitome-fisher-2024) |
-| allen-brain_millitome-linnarsson-2023            | Jeremy Miller, Ashwin Bhandiwad, Lydia Ng          | Allen       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/allen-brain_millitome-linnarsson-2022) |
-
-## 🛠️ Build with Hatch
-To build and install the project locally using [Hatch](https://hatch.pypa.io/):
-
-Make sure you have a working C++ build environment (e.g., `g++`, `make`) available on your system.
-
-1. Install Hatch (if not already installed)
+4. Install [Hatch](https://hatch.pypa.io/) (used to build and install hra-amap package locally):
 ```bash
 pip install hatch
 ```
-2. Build the package (compiles the BCPD binary and packages everything)
+3. Install dependencies for development:
+```bash
+pip install -e .
+```
+5. Build the package (compiles the BCPD binary and packages everything)
 ```bash
 hatch build
 ```
-3. Install the built wheel (adjust version if needed)
+6. Install the built wheel (adjust version if needed)
 ```bash
 pip install dist/hra_amap-0.5.0-py3-none-any.whl
 ```
-4. (Optional) Uninstall to reset or clean up
+7. (Optional) Uninstall to reset or clean up
 ```bash
 pip uninstall hra-amap
 ```
-## Millitome Registration: Stage 1
+8. You are now ready to run the millitome registration commands (stage-1, stage-2, or run). See Usage Instructions for details below.
 
-This command executes the **first stage** of the millitome registration process. It takes a configuration file containing RUI location and donor data, then generates the projected 3D model data needed for Stage 2 of the registration pipeline.
+## 🧬 Adding a New Millitome Dataset
 
-### Usage
+To register a new millitome organ, organize the necessary configuration and input files as described below.
 
+### 📁 Directory Structure
+Each millitome dataset should be placed in its own subdirectory under:
 ```bash
-python -m hra_amap.cli.registration_stage_1 \
-    --config <path_to_config.yaml> \
-    --output_path <path_to_output_directory>
+input-data/millitome/<organ-name>-<sex>-<source>/<version>/
 ```
 
-or if installed via pip:
+### 📦 Required Files
 
+Place the following files inside the <version> directory:
+| Filename              | Description                                                      |
+|-----------------------|------------------------------------------------------------------|
+| `config.yaml`         | Configuration file with metadata and registration parameters.    |
+| `source.glb`          | The `.glb` version of the source mesh for visualization in RUI.  |
+| `target.glb`          | The `.glb` version of the target mesh for visualization in RUI.  |
+
+## ⚙️ Millitome Registration Usage Instructions
+
+🔹 Stage 1: Generates the projected 3D model data
+
+It takes a configuration file with RUI locations and donor metadata, and generates projection data that serves as input for Stage 2.
 ```bash
 hra-amap-stage-1 \
     --config <path_to_config.yaml> \
     --output_path <path_to_output_directory>
 ```
 
-##  Millitome Registration: Stage 2
+🔹 Stage 2: Produces the final registered organ model
 
-This command executes the **second stage** of the millitome registration process. It takes the output from Stage 1 (a projection file), a configuration file, and produces the final registered organ models.
-
-### Usage
-
-```bash
-python -m hra_amap.cli.registration_stage_2 \ 
-    --stage1_projection_path <path_to_projections.pickle.gz> \
-    --output_path <path_to_output_directory> \
-    --config <path_to_config.yaml>
-```
-
-or if installed via pip:
-
+It takes the output from Stage 1 (a projection file), a configuration file, and produces the final registered organ models.
 ```bash
 hra-amap-stage-2 \
     --stage1_projection_path <path_to_projections.pickle.gz> \
@@ -122,19 +86,8 @@ hra-amap-stage-2 \
     --config <path_to_config.yaml>
 ```
 
-## Build All Millitomes
-
-This command runs both **Stage 1** and **Stage 2** of the registration pipeline across all available millitome datasets by convention.  
-It automatically discovers all valid organ configurations in the `input-data/millitome/` directory and processes each accordingly.
-
-### Usage
-
-```bash
-python hra_amap.cli.run
-```
-
-or if installed via pip:
-
+🔹 Run All: Register All Available Millitome Organs
+This command automates both Stage 1 and Stage 2 for all available millitome configurations found in the input-data/millitome/ directory.
 ```bash
 hra-amap-run
 ```
