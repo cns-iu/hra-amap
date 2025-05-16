@@ -59,7 +59,26 @@ pip install scikit-learn
 | hubmap-fallopian_tube_millitome-fisher-2024      | Stephen Fisher, Erik Nogden                        | UPenn       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/hubmap-fallopian_tube_millitome-fisher-2024) |
 | allen-brain_millitome-linnarsson-2023            | Jeremy Miller, Ashwin Bhandiwad, Lydia Ng          | Allen       | [Link](https://github.com/hubmapconsortium/hra-registrations/tree/main/staging/allen-brain_millitome-linnarsson-2022) |
 
+## 🛠️ Build with Hatch
+To build and install the project locally using [Hatch](https://hatch.pypa.io/):
+Make sure you have a working C++ build environment (e.g., `g++`, `make`) available on your system.
 
+1. Install Hatch (if not already installed)
+```bash
+pip install hatch
+```
+2. Build the package (compiles the BCPD binary and packages everything)
+```bash
+hatch build
+```
+3. Install the built wheel (adjust version if needed)
+```bash
+pip install dist/hra_amap-0.5.0-py3-none-any.whl
+```
+4. (Optional) Uninstall to reset or clean up
+```bash
+pip uninstall hra-amap
+```
 ## Millitome Registration: Stage 1
 
 This command executes the **first stage** of the millitome registration process. It takes a configuration file containing RUI location and donor data, then generates the projected 3D model data needed for Stage 2 of the registration pipeline.
