@@ -61,6 +61,7 @@ pip install scikit-learn
 
 ## 🛠️ Build with Hatch
 To build and install the project locally using [Hatch](https://hatch.pypa.io/):
+
 Make sure you have a working C++ build environment (e.g., `g++`, `make`) available on your system.
 
 1. Install Hatch (if not already installed)
