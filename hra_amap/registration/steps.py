@@ -12,34 +12,7 @@ from hra_amap.utils.conversions import (
     pointcloud_to_mesh,
 )
 from hra_amap.utils.preprocess import scale, compute_features
-import os
-from pathlib import Path
-
-
-def get_bcpd_executable_path():
-    """
-    Returns the absolute path to the BCPD executable.
-    Raises an exception if not found with a link to install instructions.
-    """
-    BASE_DIR = Path.cwd()
-    BCPD_DIR = Path(os.getenv("BCPD_DIR", ""))
-    bcpd_executable = [
-        BCPD_DIR / "bcpd",
-        BASE_DIR / "bcpd" / "bcpd",
-        BASE_DIR.parent / "bcpd" / "bcpd",
-    ]
-    for path in bcpd_executable:
-        if path.is_file():
-            return path.parent.resolve(), path.resolve()
-
-    raise FileNotFoundError(
-        "BCPD executable not found in expected locations:\n"
-        f"  1. {bcpd_executable[0]}\n"
-        f"  2. {bcpd_executable[1]}\n"
-        f"  3. {bcpd_executable[2]}\n\n"
-        "BCPD Install instructions:  https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md"
-    )
-
+from hra_amap.utils.paths import get_bcpd_executable_path
 
 BCPD_DIR, BCPD_EXECUTABLE = get_bcpd_executable_path()
 
@@ -78,14 +51,6 @@ def normalize_rigid(source, target):
     transforms = {"Source": source_transform, "Target": target_transform}
 
     return (outputs, transforms)
-
-
-@step(
-    name="Flip",
-    description="Flip organ about the Y-axis to account for Left and Reft organ differences",
-)
-def flip(source, target):
-    raise NotImplementedError
 
 
 @step(
@@ -304,7 +269,9 @@ def nonrigid_registration(source, target, params):
             reigstration_args.extend(["-D", str(params["downsampling"])])
 
         # register using BCPD
-        result = subprocess.run(reigstration_args, cwd=str(BCPD_DIR), capture_output=True)
+        result = subprocess.run(
+            reigstration_args, cwd=str(BCPD_DIR), capture_output=True
+        )
 
         # read transformations
         if "downsampling" in params:

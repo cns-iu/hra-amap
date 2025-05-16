@@ -69,10 +69,6 @@ class TissueBlock(trimesh.Trimesh):
         return to_array(self)
 
     @classmethod
-    def from_donor(cls, donor: dict):
-        raise NotImplementedError
-
-    @classmethod
     def from_sample(cls, sample: dict, donor: dict, target_name: str):
         """
         Create a TissueBlock instance from sample data.

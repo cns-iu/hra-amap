@@ -33,12 +33,6 @@ class Pipeline:
         with open(params) as f:
             self.params = yaml.safe_load(f)
 
-    def _hyperparamter_search():
-        raise NotImplementedError
-
-    def _autotune():
-        raise NotImplementedError
-
     def run(self, source: Organ, target: Organ):
         """
         Execute the full registration pipeline and return the resulting Projection.
