@@ -4,7 +4,7 @@
 	"creator": "Antara Bhavsar",
 	"creator_first_name": "Antara",
 	"creator_last_name": "Bhavsar",
-	"creator_orcid": "https://orcid.org/0009-0008-6509-7698",
+	"creator_orcid": "https://orcid.org/0009-0006-6491-6503",
 	"dimension_units": "millimeter",
 	"placement": {
 		"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/fallopian-tube-female-left-upenn/v1.0#13-14-15_placement",
-		"placement_date": "2025-05-09",
+		"placement_date": "2025-05-27",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
 		"z_scaling": 1.0,
 		"x_rotation": 0.0,
 		"y_rotation": 0.0,
 		"z_rotation": 0.0,
-		"x_translation": 16.421842540201762,
-		"y_translation": 8.63847062952125,
-		"z_translation": 13.88455051032789
+		"x_translation": 16.334278184733538,
+		"y_translation": 8.600324634564508,
+		"z_translation": 13.94617385819637
 	},
 	"@id": "https://purl.humanatlas.io/millitome/fallopian-tube-female-left-upenn/v1.0#13-14-15",
 	"label": "13-14-15",
-	"creation_date": "2025-05-09",
-	"x_dimension": 30.660657012034903,
-	"y_dimension": 13.525134850107145,
-	"z_dimension": 5.929698588372396
+	"creation_date": "2025-05-27",
+	"x_dimension": 30.877419348927077,
+	"y_dimension": 13.65761694814003,
+	"z_dimension": 5.921608086215009
 }

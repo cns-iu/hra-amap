@@ -4,7 +4,7 @@
 	"creator": "Antara Bhavsar",
 	"creator_first_name": "Antara",
 	"creator_last_name": "Bhavsar",
-	"creator_orcid": "https://orcid.org/0009-0008-6509-7698",
+	"creator_orcid": "https://orcid.org/0009-0006-6491-6503",
 	"dimension_units": "millimeter",
 	"placement": {
 		"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#C10_placement",
-		"placement_date": "2025-05-09",
+		"placement_date": "2025-05-27",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
 		"z_scaling": 1.0,
 		"x_rotation": 0.0,
 		"y_rotation": 0.0,
 		"z_rotation": 0.0,
-		"x_translation": 71.99750204693791,
-		"y_translation": 64.62260840131681,
-		"z_translation": 28.85499084576945
+		"x_translation": 73.14250649143088,
+		"y_translation": 51.54960763906935,
+		"z_translation": 33.67990977572217
 	},
 	"@id": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#C10",
 	"label": "C10",
-	"creation_date": "2025-05-09",
-	"x_dimension": 7.717510897274238,
-	"y_dimension": 15.040663371897523,
-	"z_dimension": 23.61912489104645
+	"creation_date": "2025-05-27",
+	"x_dimension": 4.950764591625773,
+	"y_dimension": 17.64718699469292,
+	"z_dimension": 29.763454319493636
 }
