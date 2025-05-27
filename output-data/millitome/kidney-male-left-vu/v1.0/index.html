@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HRA Exploration User Interface with custom data</title>
+    <base href="https://cdn.humanatlas.io/ui/ccf-eui/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="wc.js" async></script>
+  </head>
+
+  <body>
+    <template id="eui-template">
+      <ccf-eui
+        home-url="HOME_URL"
+        data-sources='["SOURCE"]'
+        logo-tooltip=""
+        theme="hubmap"
+        login-disabled="true"
+      ></ccf-eui>
+    </template>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
+        const homeUrl = location.href;
+        const source = `${basePath}rui_locations.jsonld#5bb4b2e7fb9c1491f151c69a08b6170c`;
+        const euiTemplate = document.getElementById('eui-template');
+        const eui = euiTemplate.innerHTML.replace('SOURCE', source).replace('HOME_URL', homeUrl);
+        document.body.innerHTML = eui;
+      });
+    </script>
+  </body>
+</html>
