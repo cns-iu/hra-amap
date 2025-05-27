@@ -4,7 +4,7 @@
 	"creator": "Antara Bhavsar",
 	"creator_first_name": "Antara",
 	"creator_last_name": "Bhavsar",
-	"creator_orcid": "https://orcid.org/0009-0008-6509-7698",
+	"creator_orcid": "https://orcid.org/0009-0006-6491-6503",
 	"dimension_units": "millimeter",
 	"placement": {
 		"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#38_placement",
-		"placement_date": "2025-05-09",
+		"placement_date": "2025-05-27",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
 		"z_scaling": 1.0,
 		"x_rotation": 0.0,
 		"y_rotation": 0.0,
 		"z_rotation": 0.0,
-		"x_translation": 9.550170786199644,
-		"y_translation": 20.69171140655354,
-		"z_translation": 1.310195161771586
+		"x_translation": 6.963366049035191,
+		"y_translation": 21.508451042460837,
+		"z_translation": 1.5140405116206428
 	},
 	"@id": "https://purl.humanatlas.io/millitome/ovary-female-left-upenn/v1.0#38",
 	"label": "38",
-	"creation_date": "2025-05-09",
-	"x_dimension": 2.8403832254311063,
-	"y_dimension": 3.6032730134136215,
-	"z_dimension": 2.6439359343015876
+	"creation_date": "2025-05-27",
+	"x_dimension": 3.1450093042623832,
+	"y_dimension": 2.8835733839975006,
+	"z_dimension": 2.652236422868201
 }

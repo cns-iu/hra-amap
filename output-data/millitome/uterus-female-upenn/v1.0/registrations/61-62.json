@@ -4,7 +4,7 @@
 	"creator": "Antara Bhavsar",
 	"creator_first_name": "Antara",
 	"creator_last_name": "Bhavsar",
-	"creator_orcid": "https://orcid.org/0009-0008-6509-7698",
+	"creator_orcid": "https://orcid.org/0009-0006-6491-6503",
 	"dimension_units": "millimeter",
 	"placement": {
 		"@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#61-62_placement",
-		"placement_date": "2025-05-09",
+		"placement_date": "2025-05-27",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
 		"z_scaling": 1.0,
 		"x_rotation": 0.0,
 		"y_rotation": 0.0,
 		"z_rotation": 0.0,
-		"x_translation": 7.5397212144991865,
-		"y_translation": 39.06107512023481,
-		"z_translation": 48.672426728405185
+		"x_translation": 17.71128423242547,
+		"y_translation": 8.697628415895867,
+		"z_translation": 9.00027420793407
 	},
 	"@id": "https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#61-62",
 	"label": "61-62",
-	"creation_date": "2025-05-09",
-	"x_dimension": 3.852036622009166,
-	"y_dimension": 5.807457729516935,
-	"z_dimension": 5.627585533506258
+	"creation_date": "2025-05-27",
+	"x_dimension": 3.634934780044556,
+	"y_dimension": 9.205596525089215,
+	"z_dimension": 10.930655823104749
 }
