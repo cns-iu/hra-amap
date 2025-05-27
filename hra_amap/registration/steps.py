@@ -219,19 +219,6 @@ def nonrigid_registration(source, target, params):
     # convert to array
     source_array = pointcloud_to_numpy(source)
     target_array = pointcloud_to_numpy(target)
-    
-    # source_temp_file = None
-    # target_temp_file = None
-    # try:
-    # source_temp_file = tempfile.NamedTemporaryFile(delete=False)
-    # target_temp_file = tempfile.NamedTemporaryFile(delete=False)
-    # source_file_path = source_temp_file.name
-    # target_file_path = target_temp_file.name
-
-    # np.savetxt(source_file_path, source_array, delimiter=",")
-    # np.savetxt(target_file_path, target_array, delimiter=",")
-
-    # Mismatch observed in projection results when saving in temp file. Restoreing older changes
     np.savetxt(f"{BCPD_DIR}/source.txt", source_array, delimiter=",")
     np.savetxt(f"{BCPD_DIR}/target.txt", target_array, delimiter=",")
 
@@ -315,12 +302,6 @@ def nonrigid_registration(source, target, params):
     transforms = {"Source": transform, "Target": None}
 
     return (outputs, transforms)
-        
-    # finally:
-    #     if source_temp_file:
-    #         os.remove(source_temp_file.name)
-    #     if target_temp_file:
-    #         os.remove(target_temp_file.name)
 
 
 @step(name="Denormalization BCPD", description="Denormalize the organ after projection")
