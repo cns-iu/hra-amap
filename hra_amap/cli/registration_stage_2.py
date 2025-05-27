@@ -116,8 +116,6 @@ class TissueBlockGenerator:
                 self.tissue_blocks.append(fused_tissue_block)
 
         for label, block in millitome.geometry.items():
-            if label in fused_labels:
-                continue
             self.update_id_label_date(label)
             tissue_block = TissueBlock.from_millitome(
                 block,
