@@ -18,6 +18,7 @@ from hra_amap.utils.paths import get_bcpd_executable_path
 
 BCPD_DIR, BCPD_EXECUTABLE = get_bcpd_executable_path()
 
+
 @step(
     name="Normalize ICP", description="Scale organs to a common range about the centre"
 )
@@ -260,9 +261,7 @@ def nonrigid_registration(source, target, params):
         reigstration_args.extend(["-D", str(params["downsampling"])])
 
     # register using BCPD
-    result = subprocess.run(
-        reigstration_args, cwd=str(BCPD_DIR), capture_output=True
-    )
+    result = subprocess.run(reigstration_args, cwd=str(BCPD_DIR), capture_output=True)
 
     # read transformations
     if "downsampling" in params:
