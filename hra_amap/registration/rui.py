@@ -7,6 +7,7 @@ from hra_amap.utils.constants import ConfigKeys
 import json
 from typing import List
 
+
 class RUIProcessor:
     def __init__(self, blocks, registration_dir):
         """
@@ -48,11 +49,13 @@ class RUIProcessor:
 
         donors = []
         for block in self.blocks:
-            donors.append({
-                "sex": block.donor["sex"],
-                "label": block.label,
-                "samples": [{"rui_location": f"{block.label}.json"}]
-            })
+            donors.append(
+                {
+                    "sex": block.donor["sex"],
+                    "label": block.label,
+                    "samples": [{"rui_location": f"{block.label}.json"}],
+                }
+            )
 
         registrations[0]["donors"] = donors
 
@@ -62,7 +65,7 @@ class RUIProcessor:
         # write header
         add_header(self.registration_dir.joinpath("registrations.yaml"))
 
-    def generate_rui_locations(self, config : Path):
+    def generate_rui_locations(self, config: Path):
         """
         Generate the RUI locations after initializing the registration. This involves saving
         the tissue blocks as JSON files and normalizing the data.
@@ -87,9 +90,7 @@ class RUIProcessor:
             ]
         )
 
-        self.update_index_html(
-            self.registration_dir / "index.html", config
-        )
+        self.update_index_html(self.registration_dir / "index.html", config)
 
     def update_index_html(self, index_path: Path, config_path: Path):
         config = read_yaml(config_path)
@@ -124,6 +125,4 @@ class RUIProcessor:
             f.write(str(soup))
 
     def get_default_selected_organs(self) -> List[str]:
-        return [
-            "http://purl.obolibrary.org/obo/UBERON_0002097"  # Skin
-        ]
+        return ["http://purl.obolibrary.org/obo/UBERON_0002097"]  # Skin
