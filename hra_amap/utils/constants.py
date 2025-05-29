@@ -24,3 +24,6 @@ class ConfigKeys(str, Enum):
     PLACEMENT_DATE = "placement_date"
     RIGID_REGISTRATION = "rigid_registration"
     NONRIGID_REGISTRATION = "nonrigid_registration"
+    SEX = "sex"
+    SELECTED_ORGAN = "selected-organ"
+    

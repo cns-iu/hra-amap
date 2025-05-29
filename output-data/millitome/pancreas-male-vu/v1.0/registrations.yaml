@@ -9,101 +9,390 @@
     link: https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0
   donors:
   - sex: Male
+    label: '25'
     samples:
     - rui_location: 25.json
+  - sex: Male
+    label: C24
+    samples:
     - rui_location: C24.json
+  - sex: Male
+    label: D24
+    samples:
     - rui_location: D24.json
+  - sex: Male
+    label: C23
+    samples:
     - rui_location: C23.json
+  - sex: Male
+    label: D23
+    samples:
     - rui_location: D23.json
+  - sex: Male
+    label: C22
+    samples:
     - rui_location: C22.json
+  - sex: Male
+    label: D22
+    samples:
     - rui_location: D22.json
+  - sex: Male
+    label: C21
+    samples:
     - rui_location: C21.json
+  - sex: Male
+    label: D21
+    samples:
     - rui_location: D21.json
+  - sex: Male
+    label: C20
+    samples:
     - rui_location: C20.json
+  - sex: Male
+    label: D20
+    samples:
     - rui_location: D20.json
+  - sex: Male
+    label: C19
+    samples:
     - rui_location: C19.json
+  - sex: Male
+    label: D19
+    samples:
     - rui_location: D19.json
+  - sex: Male
+    label: C18
+    samples:
     - rui_location: C18.json
+  - sex: Male
+    label: D18
+    samples:
     - rui_location: D18.json
+  - sex: Male
+    label: C17
+    samples:
     - rui_location: C17.json
+  - sex: Male
+    label: D17
+    samples:
     - rui_location: D17.json
+  - sex: Male
+    label: C16
+    samples:
     - rui_location: C16.json
+  - sex: Male
+    label: D16
+    samples:
     - rui_location: D16.json
+  - sex: Male
+    label: C15
+    samples:
     - rui_location: C15.json
+  - sex: Male
+    label: D15
+    samples:
     - rui_location: D15.json
+  - sex: Male
+    label: C14
+    samples:
     - rui_location: C14.json
+  - sex: Male
+    label: D14
+    samples:
     - rui_location: D14.json
+  - sex: Male
+    label: C13
+    samples:
     - rui_location: C13.json
+  - sex: Male
+    label: D13
+    samples:
     - rui_location: D13.json
+  - sex: Male
+    label: C12
+    samples:
     - rui_location: C12.json
+  - sex: Male
+    label: D12
+    samples:
     - rui_location: D12.json
+  - sex: Male
+    label: C11
+    samples:
     - rui_location: C11.json
+  - sex: Male
+    label: D11
+    samples:
     - rui_location: D11.json
+  - sex: Male
+    label: C10
+    samples:
     - rui_location: C10.json
+  - sex: Male
+    label: D10
+    samples:
     - rui_location: D10.json
+  - sex: Male
+    label: C9
+    samples:
     - rui_location: C9.json
+  - sex: Male
+    label: D9
+    samples:
     - rui_location: D9.json
+  - sex: Male
+    label: C8
+    samples:
     - rui_location: C8.json
+  - sex: Male
+    label: D8
+    samples:
     - rui_location: D8.json
+  - sex: Male
+    label: C7
+    samples:
     - rui_location: C7.json
+  - sex: Male
+    label: D7
+    samples:
     - rui_location: D7.json
+  - sex: Male
+    label: C6
+    samples:
     - rui_location: C6.json
+  - sex: Male
+    label: D6
+    samples:
     - rui_location: D6.json
+  - sex: Male
+    label: C5
+    samples:
     - rui_location: C5.json
+  - sex: Male
+    label: D5
+    samples:
     - rui_location: D5.json
+  - sex: Male
+    label: C4
+    samples:
     - rui_location: C4.json
+  - sex: Male
+    label: D4
+    samples:
     - rui_location: D4.json
+  - sex: Male
+    label: C3
+    samples:
     - rui_location: C3.json
+  - sex: Male
+    label: D3
+    samples:
     - rui_location: D3.json
+  - sex: Male
+    label: C2
+    samples:
     - rui_location: C2.json
+  - sex: Male
+    label: D2
+    samples:
     - rui_location: D2.json
+  - sex: Male
+    label: C1
+    samples:
     - rui_location: C1.json
+  - sex: Male
+    label: D1
+    samples:
     - rui_location: D1.json
+  - sex: Male
+    label: B24
+    samples:
     - rui_location: B24.json
+  - sex: Male
+    label: A24
+    samples:
     - rui_location: A24.json
+  - sex: Male
+    label: B23
+    samples:
     - rui_location: B23.json
+  - sex: Male
+    label: A23
+    samples:
     - rui_location: A23.json
+  - sex: Male
+    label: B22
+    samples:
     - rui_location: B22.json
+  - sex: Male
+    label: A22
+    samples:
     - rui_location: A22.json
+  - sex: Male
+    label: B21
+    samples:
     - rui_location: B21.json
+  - sex: Male
+    label: A21
+    samples:
     - rui_location: A21.json
+  - sex: Male
+    label: B20
+    samples:
     - rui_location: B20.json
+  - sex: Male
+    label: A20
+    samples:
     - rui_location: A20.json
+  - sex: Male
+    label: B19
+    samples:
     - rui_location: B19.json
+  - sex: Male
+    label: A19
+    samples:
     - rui_location: A19.json
+  - sex: Male
+    label: B18
+    samples:
     - rui_location: B18.json
+  - sex: Male
+    label: A18
+    samples:
     - rui_location: A18.json
+  - sex: Male
+    label: B17
+    samples:
     - rui_location: B17.json
+  - sex: Male
+    label: A17
+    samples:
     - rui_location: A17.json
+  - sex: Male
+    label: B16
+    samples:
     - rui_location: B16.json
+  - sex: Male
+    label: A16
+    samples:
     - rui_location: A16.json
+  - sex: Male
+    label: B15
+    samples:
     - rui_location: B15.json
+  - sex: Male
+    label: A15
+    samples:
     - rui_location: A15.json
+  - sex: Male
+    label: B14
+    samples:
     - rui_location: B14.json
+  - sex: Male
+    label: A14
+    samples:
     - rui_location: A14.json
+  - sex: Male
+    label: B13
+    samples:
     - rui_location: B13.json
+  - sex: Male
+    label: A13
+    samples:
     - rui_location: A13.json
+  - sex: Male
+    label: B12
+    samples:
     - rui_location: B12.json
+  - sex: Male
+    label: A12
+    samples:
     - rui_location: A12.json
+  - sex: Male
+    label: B11
+    samples:
     - rui_location: B11.json
+  - sex: Male
+    label: A11
+    samples:
     - rui_location: A11.json
+  - sex: Male
+    label: B10
+    samples:
     - rui_location: B10.json
+  - sex: Male
+    label: A10
+    samples:
     - rui_location: A10.json
+  - sex: Male
+    label: B9
+    samples:
     - rui_location: B9.json
+  - sex: Male
+    label: A9
+    samples:
     - rui_location: A9.json
+  - sex: Male
+    label: B8
+    samples:
     - rui_location: B8.json
+  - sex: Male
+    label: A8
+    samples:
     - rui_location: A8.json
+  - sex: Male
+    label: B7
+    samples:
     - rui_location: B7.json
+  - sex: Male
+    label: A7
+    samples:
     - rui_location: A7.json
+  - sex: Male
+    label: B6
+    samples:
     - rui_location: B6.json
+  - sex: Male
+    label: A6
+    samples:
     - rui_location: A6.json
+  - sex: Male
+    label: B5
+    samples:
     - rui_location: B5.json
+  - sex: Male
+    label: A5
+    samples:
     - rui_location: A5.json
+  - sex: Male
+    label: B4
+    samples:
     - rui_location: B4.json
+  - sex: Male
+    label: A4
+    samples:
     - rui_location: A4.json
+  - sex: Male
+    label: B3
+    samples:
     - rui_location: B3.json
+  - sex: Male
+    label: A3
+    samples:
     - rui_location: A3.json
+  - sex: Male
+    label: B2
+    samples:
     - rui_location: B2.json
+  - sex: Male
+    label: A2
+    samples:
     - rui_location: A2.json
+  - sex: Male
+    label: B1
+    samples:
     - rui_location: B1.json
+  - sex: Male
+    label: A1
+    samples:
     - rui_location: A1.json
