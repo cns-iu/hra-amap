@@ -1,36 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>HRA Exploration User Interface with custom data</title>
-    <base href="https://cdn.humanatlas.io/ui/ccf-eui/" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
-    <link href="styles.css" rel="stylesheet" />
-    <script src="wc.js" async></script>
-  </head>
 
-  <body>
-    <template id="eui-template">
-      <ccf-eui
-        home-url="HOME_URL"
-        data-sources='["SOURCE"]'
-        logo-tooltip=""
-        theme="hubmap"
-        login-disabled="true"
-      ></ccf-eui>
-    </template>
-    <script>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>HRA Exploration User Interface with custom data</title>
+<base href="https://cdn.humanatlas.io/ui/ccf-eui/"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="/favicon.png" rel="icon" type="image/png"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<script async="" src="wc.js"></script>
+</head>
+<body>
+<template id="eui-template">
+<ccf-eui data-sources='["SOURCE"]' filter='{"sex": "Male"}' home-url="HOME_URL" login-disabled="true" logo-tooltip="" selected-organs='["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0004539"]' theme="hubmap"></ccf-eui>
+</template>
+<script>
       window.addEventListener('DOMContentLoaded', () => {
         const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
         const homeUrl = location.href;
-        const source = `${basePath}rui_locations.jsonld#4fae063ec57f74b2f77b74f5db039bd1`;
+        const source = `${basePath}rui_locations.jsonld#f650a41bd8a0a1d3c05fa8e193749c0a`;
         const euiTemplate = document.getElementById('eui-template');
         const eui = euiTemplate.innerHTML.replace('SOURCE', source).replace('HOME_URL', homeUrl);
         document.body.innerHTML = eui;
       });
     </script>
-  </body>
+</body>
 </html>

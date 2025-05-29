@@ -1,8 +1,11 @@
 import subprocess
 
+from bs4 import BeautifulSoup
 from pathlib import Path
 from hra_amap.utils.io import read_yaml, write_yaml, add_header
-
+from hra_amap.utils.constants import ConfigKeys
+import json
+from typing import List
 
 class RUIProcessor:
     def __init__(self, blocks, registration_dir):
@@ -42,13 +45,16 @@ class RUIProcessor:
         registrations[0]["consortium_name"] = self.blocks[0].donor["consortium_name"]
         registrations[0]["provider_name"] = self.blocks[0].donor["provider_name"]
         registrations[0]["provider_uuid"] = self.blocks[0].donor["provider_uuid"]
-        registrations[0]["donors"][0]["sex"] = self.blocks[0].donor["sex"]
 
-        # add names under samples to the registrations yaml
-        names = [block.label for block in self.blocks]
-        registrations[0]["donors"][0]["samples"] = [
-            {"rui_location": f"{name}.json"} for name in names
-        ]
+        donors = []
+        for block in self.blocks:
+            donors.append({
+                "sex": block.donor["sex"],
+                "label": block.label,
+                "samples": [{"rui_location": f"{block.label}.json"}]
+            })
+
+        registrations[0]["donors"] = donors
 
         # write yaml
         write_yaml(self.registration_dir.joinpath("registrations.yaml"), registrations)
@@ -56,7 +62,7 @@ class RUIProcessor:
         # write header
         add_header(self.registration_dir.joinpath("registrations.yaml"))
 
-    def generate_rui_locations(self):
+    def generate_rui_locations(self, config : Path):
         """
         Generate the RUI locations after initializing the registration. This involves saving
         the tissue blocks as JSON files and normalizing the data.
@@ -80,3 +86,44 @@ class RUIProcessor:
                 str(self.registration_dir),
             ]
         )
+
+        self.update_index_html(
+            self.registration_dir / "index.html", config
+        )
+
+    def update_index_html(self, index_path: Path, config_path: Path):
+        config = read_yaml(config_path)
+
+        donar_data = config.get(ConfigKeys.DONOR_DATA_KEY, {})
+        sex = donar_data.get(ConfigKeys.SEX)
+        selected_organ = donar_data.get(ConfigKeys.SELECTED_ORGAN)
+
+        selected_organs = self.get_default_selected_organs()
+        if selected_organ and selected_organ not in selected_organs:
+            selected_organs.append(selected_organ)
+
+        try:
+            with index_path.open("r", encoding="utf-8") as f:
+                soup = BeautifulSoup(f, "html.parser")
+        except FileNotFoundError:
+            raise FileNotFoundError(f"Index file not found at: {index_path}")
+
+        # Find <ccf-eui> inside <template id="eui-template">
+        template = soup.find("template", id="eui-template")
+        if not template:
+            raise ValueError("Could not find <template id='eui-template'> in HTML")
+
+        ccf_eui = template.find("ccf-eui")
+        if not ccf_eui:
+            raise ValueError("Could not find <ccf-eui> inside template")
+
+        ccf_eui["filter"] = json.dumps({ConfigKeys.SEX: sex})
+        ccf_eui["selected-organs"] = json.dumps(selected_organs)
+
+        with index_path.open("w", encoding="utf-8") as f:
+            f.write(str(soup))
+
+    def get_default_selected_organs(self) -> List[str]:
+        return [
+            "http://purl.obolibrary.org/obo/UBERON_0002097"  # Skin
+        ]

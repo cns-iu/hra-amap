@@ -169,7 +169,7 @@ def generate_output(projection: Path, output_dir: Path, config: Path):
     ).generate_projections()
     processor = RUIProcessor(blocks=projected_blocks, registration_dir=output_dir)
     processor.initialize_registration()
-    processor.generate_rui_locations()
+    processor.generate_rui_locations(config)
 
     with open(output_dir / "rui_locations.jsonld", "r") as f:
         jsonld = json.load(f)
