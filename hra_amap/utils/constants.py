@@ -26,4 +26,3 @@ class ConfigKeys(str, Enum):
     NONRIGID_REGISTRATION = "nonrigid_registration"
     SEX = "sex"
     SELECTED_ORGAN = "selected-organ"
-    
