@@ -171,6 +171,15 @@ def generate_output(projection: Path, output_dir: Path, config: Path):
     processor.initialize_registration()
     processor.generate_rui_locations(config)
 
+    scene = trimesh.Scene(projected_blocks)
+    if not scene.geometry:
+        raise ValueError("Scene is empty. No geometries to export.")
+
+    glb_data = scene.export(file_type='glb')
+
+    with open(Path(output_dir / f"{output_dir.parent.name}.glb"), 'wb') as f:
+        f.write(glb_data)
+
     with open(output_dir / "rui_locations.jsonld", "r") as f:
         jsonld = json.load(f)
 
