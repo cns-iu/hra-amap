@@ -224,7 +224,7 @@ def nonrigid_registration(source, target, params):
     np.savetxt(f"{BCPD_DIR}/target.txt", target_array, delimiter=",")
 
     # build registration args
-    reigstration_args = [
+    registration_args = [
         BCPD_EXECUTABLE,
         "-x",
         f"{BCPD_DIR}/target.txt",
@@ -253,15 +253,15 @@ def nonrigid_registration(source, target, params):
 
     # for rotation
     if "gamma" in params:
-        reigstration_args.extend(["-g", str(params["gamma"])])
+        registration_args.extend(["-g", str(params["gamma"])])
 
     # for downsampling acceleration
     # TODO: auto-detect when downsampling acceleration is needed instead of having it specified
     if "downsampling" in params:
-        reigstration_args.extend(["-D", str(params["downsampling"])])
+        registration_args.extend(["-D", str(params["downsampling"])])
 
     # register using BCPD
-    result = subprocess.run(reigstration_args, cwd=str(BCPD_DIR), capture_output=True)
+    result = subprocess.run(registration_args, cwd=str(BCPD_DIR), capture_output=True)
 
     # read transformations
     if "downsampling" in params:
