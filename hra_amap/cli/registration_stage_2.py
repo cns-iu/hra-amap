@@ -148,12 +148,15 @@ class ProjectionBlockGenerator:
         projected_blocks = [
             self.projection.project(block) for block in self.tissue_blocks
         ]
-        projected_blocks_aabb = [
-            block.bounding_box for block in deepcopy(projected_blocks)
-        ]
+
+        # add the original labels back to the projected blocks
+        projected_blocks = dict(zip([block.label for block in self.tissue_blocks], projected_blocks))
+
+        # create bounding boxes
+        projected_blocks_aabb = {id:  block.bounding_box for id, block in deepcopy(projected_blocks).items()}
 
         # Ensure colors match for bounding boxes
-        for index, aabb in enumerate(projected_blocks_aabb):
+        for index, aabb in projected_blocks_aabb.items():
             aabb.visual.vertex_colors = projected_blocks[index].visual.vertex_colors[0]
 
         return projected_blocks
@@ -167,7 +170,7 @@ def generate_output(projection: Path, output_dir: Path, config: Path):
     projected_blocks = ProjectionBlockGenerator(
         projection, config
     ).generate_projections()
-    processor = RUIProcessor(blocks=projected_blocks, registration_dir=output_dir)
+    processor = RUIProcessor(blocks=list(projected_blocks.values()), registration_dir=output_dir)
     processor.initialize_registration()
     processor.generate_rui_locations(config)
 
