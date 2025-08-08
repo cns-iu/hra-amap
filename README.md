@@ -10,7 +10,7 @@ HRA-AMAP (Human Reference Atlas – Automated Mapping and Projection) enables au
 pip install git+https://github.com/cns-iu/hra-amap.git@main
 ```
 2. Make sure you have a working C++ build environment (e.g., g++, make) available on your system.
-3. Install BCPD (an essential component of this project)
+3. Install [BCPD](https://github.com/ohirose/bcpd) (an essential component of this project)
 
    Please follow the [BCPD Installation Instructions](https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md) if it is not already set up on your machine.
 4. You are now ready to run the millitome registration commands (stage-1, stage-2, or run). See Usage Instructions for details below.
