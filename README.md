@@ -1,5 +1,8 @@
 # HRA-AMAP
 HRA-AMAP (Human Reference Atlas – Automated Mapping and Projection) enables automated projection of tissue blocks from a source organ to a new reference organ—typically aligned with the Human Reference Atlas (HRA)—as part of the HuBMAP initiative.
+
+**List of available millitomes:** https://cns-iu.github.io/hra-amap/millitomes.html 
+
 ## 🚀 User Setup Instructions
 
 1. Clone and install the repository directly from GitHub:
