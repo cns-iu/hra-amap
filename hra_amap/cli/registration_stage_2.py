@@ -65,10 +65,6 @@ class TissueBlockGenerator:
             self.config.parent
             / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE]
         )
-        self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET] = (
-            self.config.parent
-            / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET]
-        )
         # update donar data link values
         self.config_dict[ConfigKeys.DONOR_DATA_KEY][ConfigKeys.LINK] = self.config_dict[
             ConfigKeys.DONOR_DATA_KEY

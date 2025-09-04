@@ -1,6 +1,7 @@
 input_files:
   source: "Kidney_7-14-2.glb"
-  target: "3d-vh-f-kidney-r.glb"
+
+retain_component: ["VH_F_kidney_capsule_R"]
 
 target_name: "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary"
 
