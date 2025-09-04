@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-<meta charset="utf-8"/>
-<title>HRA Exploration User Interface with custom data</title>
-<base href="https://cdn.humanatlas.io/ui/ccf-eui/"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<link href="/favicon.png" rel="icon" type="image/png"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet"/>
-<link href="styles.css" rel="stylesheet"/>
-<script src="wc.js" type="module"></script>
-</head>
-<body>
-<template id="eui-template">
-<ccf-eui data-sources='["SOURCE"]' filter='{"sex": "Male"}' home-url="HOME_URL" login-disabled="true" logo-tooltip="" selected-organs='["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0004538"]' theme="hubmap"></ccf-eui>
-</template>
-<script>
-      window.addEventListener('DOMContentLoaded', () => {
-        const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
-        const homeUrl = location.href;
-        const source = `${basePath}rui_locations.jsonld#4f4728c5c781e20b68c46f50820b6477`;
-        const euiTemplate = document.getElementById('eui-template');
-        const eui = euiTemplate.innerHTML.replace('SOURCE', source).replace('HOME_URL', homeUrl);
-        document.body.innerHTML = eui;
-      });
+  <head>
+    <meta charset="utf-8" />
+    <title>HRA Exploration User Interface with custom data</title>
+    <base href="https://cdn.humanatlas.io/ui/ccf-eui/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="wc.js" type="module"></script>
+    <script>
+      const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
+      fetch(`${basePath}rui_locations.jsonld#7f774e9e37f2913406e92634487adc23`)
+        .then((r) => r.json())
+        .then((ruiLocations) => {
+          const eui = document.createElement('ccf-eui');
+          eui.homeUrl = location.href;
+          eui.dataSources = JSON.stringify([JSON.stringify(ruiLocations)]);
+          // eui.selectedOrgans = [ 'http://purl.obolibrary.org/obo/UBERON_0002097' ];
+          eui.filter = {"sex": "Male"};
+      eui.selectedOrgans = ["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0004538"];
+document.body.appendChild(eui);
+        });
     </script>
-</body>
+  </head>
+
+  <body></body>
 </html>

@@ -5,9 +5,12 @@ scaling factors, and extracting geometric features such as FPFH (Fast Point Feat
 
 import numpy as np
 import open3d as o3d
-
+import trimesh
+import requests
+from cgi import parse_header
+from pathlib import Path
+from io import BytesIO
 from hra_amap.utils.conversions import to_array, to_mesh, to_pointcloud
-
 
 def mean(geometry):
     """
@@ -82,3 +85,62 @@ def compute_features(pointcloud, params):
     )
 
     return fpfh_features
+
+def download_and_process_glb_file(glb_url: str, raw_data_dir: Path, retain: list = None, timeout: int = 30):
+    """
+    Download the GLB file from the given URL, optionally filter geometries based on retain component list, and save locally.
+    Returns the saved file path or None if failed.
+    """
+    try:
+        response = requests.get(glb_url, stream=True, timeout=timeout)
+        response.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Failed to download GLB file from {glb_url}: {e}")
+        return None
+
+    raw_data_dir.mkdir(parents=True, exist_ok=True)
+
+    content_disposition = response.headers.get("Content-Disposition")
+    if content_disposition:
+        _, params = parse_header(content_disposition)
+        file_name = params.get("filename", Path(glb_url).name)
+    else:
+        file_name = Path(glb_url).name
+
+    glb_path = raw_data_dir / file_name
+
+    try:
+        if retain:
+            glb_data = BytesIO(response.content)
+            try:
+                scene = trimesh.load(glb_data, file_type="glb")
+            except Exception as e:
+                print(f"Failed to load GLB: {e}")
+                return None
+
+            if isinstance(scene, trimesh.Scene):
+                filtered_scene = trimesh.Scene()
+                for node_name in retain:
+                    if node_name in scene.geometry:
+                        filtered_scene.add_geometry(scene.geometry[node_name], node_name=node_name)
+
+                if not filtered_scene.geometry:
+                    print(f"No geometries matched retain list {retain}. Saving original GLB.")
+                    Path(glb_path).write_bytes(response.content)
+                else:
+                    with open(glb_path, "wb") as f:
+                        filtered_scene.export(f, file_type="glb")
+            else:
+                print("The loaded GLB is not a scene. Saving original file.")
+                Path(glb_path).write_bytes(response.content)
+        else:
+            with open(glb_path, "wb") as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+
+        print(f"GLB file saved to {glb_path}")
+        return glb_path
+
+    except Exception as e:
+        print(f"Error processing GLB file: {e}")
+        return None

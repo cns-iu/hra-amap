@@ -4,12 +4,13 @@ Stage 1 of Millitome Registrations: Module to perform projection generation usin
 
 import argparse
 import yaml
+import requests
 from pathlib import Path
 from hra_amap.registration.organ import Organ
 from hra_amap.registration.pipeline import Pipeline
 from hra_amap.utils.io import read_yaml, write_yaml
 from hra_amap.utils.constants import ConfigKeys
-
+from hra_amap.utils.preprocess import download_and_process_glb_file
 
 class ProjectionPickle:
     """
@@ -27,10 +28,15 @@ class ProjectionPickle:
             self.config.parent
             / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE]
         )
-        self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET] = (
-            self.config.parent
-            / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET]
-        )
+
+        target = requests.get(self.config_dict[ConfigKeys.TARGET_NAME], headers={"Accept": "application/json"}).json()
+        glb_url = target['data'][0]['object_reference']['file_url']
+
+        raw_data_dir = Path("raw-data") / "millitome" / self.config.parent.parent.name / self.config.parent.name
+        retain = self.config_dict.get(ConfigKeys.RETAIN_COMPONENT)
+        glb_path = download_and_process_glb_file(glb_url, raw_data_dir, retain)
+        if glb_path:
+            self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET] = glb_path
 
     def __init__(self, config: Path):
         """
@@ -54,12 +60,15 @@ class ProjectionPickle:
                 f"Target path not found: {self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET]}"
             )
 
+        target_path = self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET]
+
         source = Organ(
             path=self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE],
             target_name=self.config_dict[ConfigKeys.TARGET_NAME],
         )
+
         target = Organ(
-            path=self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET],
+            path=target_path,
             target_name=self.config_dict[ConfigKeys.TARGET_NAME],
         )
 
@@ -69,7 +78,6 @@ class ProjectionPickle:
 
         projections = pipeline.run(source=source, target=target)
         projections.export(path=str(output_path))
-
 
 def main():
     parser = argparse.ArgumentParser(description="Millitome Registrations stage 1")

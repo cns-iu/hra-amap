@@ -1,6 +1,7 @@
 input_files:
   source: "Kidney_7-14-2.glb"
-  target: "3d-vh-m-kidney-r.glb"
+
+retain_component: ["VH_M_kidney_capsule_R"]
 
 target_name: "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary"
 
