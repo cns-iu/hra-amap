@@ -4,6 +4,8 @@ Stage 1 of Millitome Registrations: Module to perform projection generation usin
 
 import argparse
 import yaml
+import trimesh
+import numpy as np
 import requests
 from pathlib import Path
 from hra_amap.registration.organ import Organ
@@ -46,7 +48,7 @@ class ProjectionPickle:
         self.load_registration_data()
 
     def generate_projection(
-        self, output_path: Path, pipeline_name: str, pipeline_discription: str
+        self, output_path: Path, point_cloud_output : str, pipeline_name: str, pipeline_discription: str
     ):
         """
         Generate projection data and export it to the given path.
@@ -79,6 +81,12 @@ class ProjectionPickle:
         projections = pipeline.run(source=source, target=target)
         projections.export(path=str(output_path))
 
+        projected_pc = trimesh.PointCloud(projections.registration.vertices, colors=np.tile(np.array([255, 0, 0, 1]), (len(projections.registration.vertices), 1)))
+        hra_pc = trimesh.PointCloud(target.vertices, colors=np.tile(np.array([0, 0, 255, 1]), (len(target.vertices), 1)))
+        after_scene = trimesh.Scene([projected_pc, hra_pc])
+        output_file = point_cloud_output / "point_cloud_transformation_fit.glb"
+        after_scene.export(str(output_file))
+
 def main():
     parser = argparse.ArgumentParser(description="Millitome Registrations stage 1")
     parser.add_argument(
@@ -92,6 +100,12 @@ def main():
         type=Path,
         required=True,
         help="path to store projections pickle file",
+    )
+    parser.add_argument(
+        "--point_cloud_output_path",
+        type=Path,
+        required=True,
+        help="path to store the point cloud transformation glb",
     )
     parser.add_argument(
         "--pipeline_name",
@@ -112,7 +126,7 @@ def main():
 
     try:
         ProjectionPickle(args.config).generate_projection(
-            args.output_path, args.pipeline_name, args.pipeline_discription
+            args.output_path, args.point_cloud_output_path, args.pipeline_name, args.pipeline_discription
         )
     except Exception as e:
         raise

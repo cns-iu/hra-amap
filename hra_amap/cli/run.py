@@ -67,6 +67,8 @@ def run_pipeline():
                         str(config_file),
                         "--output_path",
                         str(raw_data_path),
+                        "--point_cloud_output_path",
+                        str(output_path)
                     ]
                     run_command(stage1_cmd, cur_millitome)
 
