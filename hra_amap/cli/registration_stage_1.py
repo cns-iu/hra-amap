@@ -105,7 +105,7 @@ def main():
         "--point_cloud_output_path",
         type=Path,
         required=True,
-        help="path to store projections pickle file",
+        help="path to store the point cloud transformation glb",
     )
     parser.add_argument(
         "--pipeline_name",

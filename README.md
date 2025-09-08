@@ -68,7 +68,6 @@ Place the following files inside the <version> directory:
 |-----------------------|------------------------------------------------------------------|
 | `config.yaml`         | Configuration file with metadata and registration parameters.    |
 | `source.glb`          | The `.glb` version of the source mesh for visualization in RUI.  |
-| `target.glb`          | The `.glb` version of the target mesh for visualization in RUI.  |
 
 ## ⚙️ Millitome Registration Usage Instructions
 
@@ -78,7 +77,8 @@ It takes a configuration file with RUI locations and donor metadata, and generat
 ```bash
 hra-amap-stage-1 \
     --config <path_to_config.yaml> \
-    --output_path <path_to_output_directory>
+    --output_path <path_to_output_directory> \
+    --point_cloud_output_path <path_to_point_cloud_tranformation_glb>
 ```
 
 🔹 Stage 2: Produces the final registered organ model
