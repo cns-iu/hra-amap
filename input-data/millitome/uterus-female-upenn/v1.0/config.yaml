@@ -30,13 +30,13 @@ rui_location:
 
 nonrigid_registration:
   autotune: 'False'
-  gamma: 10
-  beta: 2
+  gamma: 2
+  beta: 1
   decimation: 'False'
   distance_threshold: 1e-8
-  lambda: 10
+  lambda: 8
   downsampling: 'Y, 26443, 0.05'
-  max_iterations: 1000
+  max_iterations: 1300
   seed: 26
 
 rigid_registration:
