@@ -36,7 +36,7 @@ nonrigid_registration:
   distance_threshold: 1e-8
   lambda: 8
   downsampling: 'Y, 26443, 0.05'
-  max_iterations: 1300
+  max_iterations: 1000
   seed: 26
 
 rigid_registration:
