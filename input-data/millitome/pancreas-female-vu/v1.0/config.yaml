@@ -30,8 +30,8 @@ rui_location:
 
 nonrigid_registration:
   autotune: 'False'
-  gamma: 10
-  beta: 2
+  gamma: 6
+  beta: 1
   decimation: 'False'
   distance_threshold: 1e-8
   lambda: 10
