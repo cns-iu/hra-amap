@@ -82,8 +82,8 @@ def split_blocks(input_path: Path, output_path: Path = None):
 
 def main():
     parser = argparse.ArgumentParser(description="Split fused tissue blocks in a GLB file.")
-    parser.add_argument("--input_glb_path", type=Path, required=True, help="Path to input GLB file")
-    parser.add_argument("--output_glb_path", type=Path, required=True, help="Path to save split GLB file")
+    parser.add_argument("input_glb_path", type=Path, help="Path to input GLB file")
+    parser.add_argument("output_glb_path", type=Path, help="Path to save split GLB file")
 
     args = parser.parse_args()
 
