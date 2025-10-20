@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/kidney-female-left-vu/v1.0#C-1-I_placement",
-		"placement_date": "2025-09-04",
+		"placement_date": "2025-10-20",
 		"x_scaling": 1.0,
-		"y_scaling": 1.0,
+		"y_scaling": 1.0000000000000002,
 		"z_scaling": 1.0,
-		"x_rotation": 0.0,
-		"y_rotation": 0.0,
-		"z_rotation": 0.0,
-		"x_translation": 6.983507225944051,
-		"y_translation": 112.58710776382974,
-		"z_translation": 30.514894420931714
+		"x_rotation": 24.522952903572847,
+		"y_rotation": -33.314755065786734,
+		"z_rotation": -146.48618671236514,
+		"x_translation": 5.80899107337136,
+		"y_translation": 112.71367742231736,
+		"z_translation": 30.53598682269866
 	},
 	"@id": "https://purl.humanatlas.io/millitome/kidney-female-left-vu/v1.0#C-1-I",
 	"label": "C-1-I",
-	"creation_date": "2025-09-04",
-	"x_dimension": 12.462652531214347,
-	"y_dimension": 18.424748600941566,
-	"z_dimension": 22.88718190797469
+	"creation_date": "2025-10-20",
+	"x_dimension": 8.084561042353569,
+	"y_dimension": 11.276683141923455,
+	"z_dimension": 24.514870038828096
 }

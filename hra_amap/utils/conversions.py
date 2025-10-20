@@ -26,14 +26,13 @@ def split_transform(matrix):
     translation = matrix[:3, 3]
 
     # retrieve the rotation matrix
-    rotation_matrix = matrix[:3, :3]
+    rotation_matrix = matrix[:3, :3].T
 
     # retrieve the scale from the rotation matrix
     scale = np.linalg.norm(rotation_matrix, axis=0)
 
     # retrive the rotation from the rotation matrix
-    rotation = normalize(rotation_matrix, axis=0, norm="l2")
-    rotation = R.from_matrix(rotation).as_euler("xyz", degrees=True)
+    rotation = -1 * R.from_matrix(rotation_matrix).as_euler("xyz", degrees=True)
 
     return (scale, rotation, translation)
 

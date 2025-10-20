@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#A-10-II_placement",
-		"placement_date": "2025-09-04",
+		"placement_date": "2025-10-20",
 		"x_scaling": 1.0,
-		"y_scaling": 1.0,
+		"y_scaling": 0.9999999999999999,
 		"z_scaling": 1.0,
-		"x_rotation": 0.0,
-		"y_rotation": 0.0,
-		"z_rotation": 0.0,
-		"x_translation": 9.342624821010622,
-		"y_translation": 29.737074667856078,
-		"z_translation": 34.558340253274864
+		"x_rotation": -122.41086757491132,
+		"y_rotation": -11.1195226584259,
+		"z_rotation": 124.65312020210771,
+		"x_translation": 8.456691253032739,
+		"y_translation": 29.627553345799747,
+		"z_translation": 33.002027326017014
 	},
 	"@id": "https://purl.humanatlas.io/millitome/kidney-male-right-vu/v1.0#A-10-II",
 	"label": "A-10-II",
-	"creation_date": "2025-09-04",
-	"x_dimension": 11.857060055205357,
-	"y_dimension": 11.900658522561002,
-	"z_dimension": 9.532536435060912
+	"creation_date": "2025-10-20",
+	"x_dimension": 2.9865711651997224,
+	"y_dimension": 11.561278743214404,
+	"z_dimension": 13.64095135073349
 }

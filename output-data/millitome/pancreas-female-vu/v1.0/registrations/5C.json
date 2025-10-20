@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/pancreas-female-vu/v1.0#5C_placement",
-		"placement_date": "2025-10-03",
+		"placement_date": "2025-10-20",
 		"x_scaling": 1.0,
-		"y_scaling": 1.0,
+		"y_scaling": 0.9999999999999999,
 		"z_scaling": 1.0,
-		"x_rotation": 0.0,
-		"y_rotation": 0.0,
-		"z_rotation": 0.0,
-		"x_translation": 33.24729559816026,
-		"y_translation": 33.009702231996755,
-		"z_translation": 44.46964299449381
+		"x_rotation": -122.50543718944319,
+		"y_rotation": 79.28791372925865,
+		"z_rotation": 52.773801468021105,
+		"x_translation": 33.17669989004621,
+		"y_translation": 32.83463790671306,
+		"z_translation": 43.54407904320081
 	},
 	"@id": "https://purl.humanatlas.io/millitome/pancreas-female-vu/v1.0#5C",
 	"label": "5C",
-	"creation_date": "2025-10-03",
-	"x_dimension": 30.419820318724064,
-	"y_dimension": 9.787768194046809,
-	"z_dimension": 17.854376221900086
+	"creation_date": "2025-10-20",
+	"x_dimension": 8.431074801595836,
+	"y_dimension": 16.365866960570205,
+	"z_dimension": 28.643750379280412
 }

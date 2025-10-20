@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/pancreas-male-uf/v1.0#20B_placement",
-		"placement_date": "2025-10-01",
+		"placement_date": "2025-10-20",
 		"x_scaling": 1.0,
-		"y_scaling": 1.0,
+		"y_scaling": 0.9999999999999999,
 		"z_scaling": 1.0,
-		"x_rotation": 0.0,
-		"y_rotation": 0.0,
-		"z_rotation": 0.0,
-		"x_translation": 40.79367073819034,
-		"y_translation": 33.37607845107371,
-		"z_translation": 69.15323176334287
+		"x_rotation": 104.7633393905946,
+		"y_rotation": -23.92734316945899,
+		"z_rotation": -15.143350412206212,
+		"x_translation": 40.94930598911214,
+		"y_translation": 32.44623801549562,
+		"z_translation": 69.64582367734593
 	},
 	"@id": "https://purl.humanatlas.io/millitome/pancreas-male-uf/v1.0#20B",
 	"label": "20B",
-	"creation_date": "2025-10-01",
-	"x_dimension": 9.115615457122917,
-	"y_dimension": 21.48391480420253,
-	"z_dimension": 13.452923186839154
+	"creation_date": "2025-10-20",
+	"x_dimension": 4.051551206663584,
+	"y_dimension": 11.630799671302878,
+	"z_dimension": 21.554928999899087
 }

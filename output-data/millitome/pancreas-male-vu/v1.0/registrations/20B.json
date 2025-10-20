@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#20B_placement",
-		"placement_date": "2025-09-29",
-		"x_scaling": 1.0,
+		"placement_date": "2025-10-20",
+		"x_scaling": 0.9999999999999998,
 		"y_scaling": 1.0,
 		"z_scaling": 1.0,
-		"x_rotation": 0.0,
-		"y_rotation": 0.0,
-		"z_rotation": 0.0,
-		"x_translation": 37.726691375215914,
-		"y_translation": 36.79730323164013,
-		"z_translation": 66.17056238312816
+		"x_rotation": -123.80924579632884,
+		"y_rotation": -55.21597195372807,
+		"z_rotation": -119.43196414541988,
+		"x_translation": 38.17678193960086,
+		"y_translation": 39.12716112055601,
+		"z_translation": 67.73884867140477
 	},
 	"@id": "https://purl.humanatlas.io/millitome/pancreas-male-vu/v1.0#20B",
 	"label": "20B",
-	"creation_date": "2025-09-29",
-	"x_dimension": 18.915916331874534,
-	"y_dimension": 13.064486296253175,
-	"z_dimension": 8.935209917759757
+	"creation_date": "2025-10-20",
+	"x_dimension": 5.796796533889641,
+	"y_dimension": 11.818251238205436,
+	"z_dimension": 20.40849624928684
 }
