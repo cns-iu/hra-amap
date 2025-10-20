@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#86_placement",
-		"placement_date": "2025-10-17",
-		"x_scaling": 1.0,
+		"placement_date": "2025-10-20",
+		"x_scaling": 0.9999999999999999,
 		"y_scaling": 1.0,
 		"z_scaling": 1.0,
-		"x_rotation": 0.0,
-		"y_rotation": 0.0,
-		"z_rotation": 0.0,
-		"x_translation": 25.873414250617344,
-		"y_translation": 16.475405211815293,
-		"z_translation": 22.108714763218543
+		"x_rotation": 66.64941211047305,
+		"y_rotation": 8.282862477514206,
+		"z_rotation": -0.8845216654909196,
+		"x_translation": 25.90624318908167,
+		"y_translation": 16.475043498667457,
+		"z_translation": 22.879981472973984
 	},
 	"@id": "https://purl.humanatlas.io/millitome/uterus-female-upenn/v1.0#86",
 	"label": "86",
-	"creation_date": "2025-10-17",
-	"x_dimension": 3.869610983206026,
-	"y_dimension": 12.79492543829868,
-	"z_dimension": 9.603706690375184
+	"creation_date": "2025-10-20",
+	"x_dimension": 2.569265227576011,
+	"y_dimension": 8.055142501127994,
+	"z_dimension": 10.806383370628536
 }

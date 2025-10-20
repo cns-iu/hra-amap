@@ -195,8 +195,8 @@ class TissueBlock(trimesh.Trimesh):
         Args:
             export_path (str): Path to export the JSON file.
         """
-        # split the transform matrix back to individual transforms
-        scale, rotation, translation = split_transform(self.bounding_box.transform)
+        obb = self.bounding_box_oriented
+        scale, rotation, translation = split_transform(obb.transform)
 
         # if metadata does not exist, insert default values
         # (this is for tissue blocks created using from_geometry method)
@@ -229,13 +229,13 @@ class TissueBlock(trimesh.Trimesh):
 
         # dimensions
         self.metadata["x_dimension"] = (
-            self.bounding_box.extents[0].item() * self.division_factor
+            obb.primitive.extents[0].item() * self.division_factor
         )
         self.metadata["y_dimension"] = (
-            self.bounding_box.extents[1].item() * self.division_factor
+            obb.primitive.extents[1].item() * self.division_factor
         )
         self.metadata["z_dimension"] = (
-            self.bounding_box.extents[2].item() * self.division_factor
+            obb.primitive.extents[2].item() * self.division_factor
         )
 
         # update scaling

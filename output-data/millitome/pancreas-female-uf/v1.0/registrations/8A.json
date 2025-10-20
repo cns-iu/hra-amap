@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#8A_placement",
-		"placement_date": "2025-10-03",
+		"placement_date": "2025-10-20",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
-		"z_scaling": 1.0,
-		"x_rotation": 0.0,
-		"y_rotation": 0.0,
-		"z_rotation": 0.0,
-		"x_translation": 37.01472966512731,
-		"y_translation": 32.48046470496263,
-		"z_translation": 67.591165928646
+		"z_scaling": 0.9999999999999999,
+		"x_rotation": 59.81203261769139,
+		"y_rotation": -4.066338263455763,
+		"z_rotation": -11.72776974225314,
+		"x_translation": 36.94748452568229,
+		"y_translation": 34.155769092218335,
+		"z_translation": 69.32445449148864
 	},
 	"@id": "https://purl.humanatlas.io/millitome/pancreas-female-uf/v1.0#8A",
 	"label": "8A",
-	"creation_date": "2025-10-03",
-	"x_dimension": 6.924735834567167,
-	"y_dimension": 21.24850459238464,
-	"z_dimension": 16.455350554955007
+	"creation_date": "2025-10-20",
+	"x_dimension": 5.557352349009115,
+	"y_dimension": 9.429061036553568,
+	"z_dimension": 23.622684514907093
 }

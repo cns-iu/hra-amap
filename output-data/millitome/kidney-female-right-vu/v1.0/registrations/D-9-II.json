@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/kidney-female-right-vu/v1.0#D-9-II_placement",
-		"placement_date": "2025-09-04",
+		"placement_date": "2025-10-20",
 		"x_scaling": 1.0,
-		"y_scaling": 1.0,
+		"y_scaling": 0.9999999999999999,
 		"z_scaling": 1.0,
-		"x_rotation": 0.0,
-		"y_rotation": 0.0,
-		"z_rotation": 0.0,
-		"x_translation": 35.499208636601864,
-		"y_translation": 33.83950482546301,
-		"z_translation": 25.799716693305392
+		"x_rotation": 150.88244352407102,
+		"y_rotation": 38.19557749530314,
+		"z_rotation": -78.52974184039306,
+		"x_translation": 35.382846796534224,
+		"y_translation": 34.13193510859746,
+		"z_translation": 26.238829553427735
 	},
 	"@id": "https://purl.humanatlas.io/millitome/kidney-female-right-vu/v1.0#D-9-II",
 	"label": "D-9-II",
-	"creation_date": "2025-09-04",
-	"x_dimension": 22.563047484253154,
-	"y_dimension": 15.845894205706006,
-	"z_dimension": 22.954751433411733
+	"creation_date": "2025-10-20",
+	"x_dimension": 7.787735284102305,
+	"y_dimension": 10.405415796274777,
+	"z_dimension": 24.548779178050868
 }

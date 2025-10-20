@@ -139,7 +139,7 @@ class ProjectionBlockGenerator:
 
     def generate_projections(self):
         """
-        Apply projection and AABB bounding box generation to each tissue block.
+        Apply projection and OBB bounding box generation to each tissue block.
         """
         projected_blocks = [
             self.projection.project(block) for block in self.tissue_blocks
@@ -149,11 +149,11 @@ class ProjectionBlockGenerator:
         projected_blocks = dict(zip([block.label for block in self.tissue_blocks], projected_blocks))
 
         # create bounding boxes
-        projected_blocks_aabb = {id:  block.bounding_box for id, block in deepcopy(projected_blocks).items()}
+        projected_blocks_obb = {id: block.bounding_box_oriented for id, block in deepcopy(projected_blocks).items()}
 
         # Ensure colors match for bounding boxes
-        for index, aabb in projected_blocks_aabb.items():
-            aabb.visual.vertex_colors = projected_blocks[index].visual.vertex_colors[0]
+        for index, obb in projected_blocks_obb.items():
+            obb.visual.vertex_colors = projected_blocks[index].visual.vertex_colors[0]
 
         return projected_blocks
 
