@@ -233,7 +233,7 @@ def nonrigid_registration(source, target, params):
         "-J",
         "300",
         "-K",
-        "70",
+        "100",
         "-p",
         "-u",
         "n",
