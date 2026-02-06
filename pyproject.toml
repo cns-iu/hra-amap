@@ -39,3 +39,4 @@ files = ["requirements.txt"]
 hra-amap-stage-1 = "hra_amap.cli.registration_stage_1:main"
 hra-amap-stage-2 = "hra_amap.cli.registration_stage_2:main"
 hra-amap-run = "hra_amap.cli.run:main"
+non-hra-mapping = "hra_amap.cli.non_hra_mapping:main"

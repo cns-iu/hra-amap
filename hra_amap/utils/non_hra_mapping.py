@@ -8,6 +8,8 @@ from tqdm.auto import tqdm
 from pathlib import Path
 import json
 from datetime import date
+from hra_amap.utils.constants import ConfigKeys
+
 
 def build_mesh_from_sample(sample, scaling_factor):
     """
@@ -23,7 +25,7 @@ def build_mesh_from_sample(sample, scaling_factor):
     Returns:
         trimesh.Trimesh: A transformed 3D box mesh representing the sample geometry.
     """
-    rui = sample['rui_location']
+    rui = sample[ConfigKeys.RUI_LOCATION_KEY]
     mustard = np.array([225, 173, 1, 255], dtype=np.uint8)
 
     units = rui.get('dimension_units', 'millimeter')
@@ -37,12 +39,12 @@ def build_mesh_from_sample(sample, scaling_factor):
 
     mesh = trimesh.creation.box(extents=size)
     mesh.metadata['sample'] = sample
-    mesh.metadata['id'] = sample.get('@id')
+    mesh.metadata['id'] = sample.get(ConfigKeys.AT_ID)
     mesh.metadata['donor'] = sample.get('donor')
     mesh.metadata['label'] = sample.get('label')
     mesh.metadata['sample_type'] = sample.get('sample_type')
 
-    placement = rui.get('placement', {})
+    placement = rui.get(ConfigKeys.PLACEMENT, {})
     if placement:
         rx = np.deg2rad(placement.get('x_rotation', 0))
         ry = np.deg2rad(placement.get('y_rotation', 0))
@@ -86,10 +88,10 @@ def filter_samples(data, filter):
     for donor in tqdm(data):
         filtered_samples = []
         for sample in donor['samples']:
-            if 'rui_location' in sample and 'placement' in sample['rui_location'] and 'target' in sample['rui_location']['placement']:
-                target = sample['rui_location']['placement']['target'].split('#')[-1]
+            if ConfigKeys.RUI_LOCATION_KEY in sample and ConfigKeys.PLACEMENT in sample[ConfigKeys.RUI_LOCATION_KEY] and ConfigKeys.TARGET in sample[ConfigKeys.RUI_LOCATION_KEY][ConfigKeys.PLACEMENT]:
+                target = sample[ConfigKeys.RUI_LOCATION_KEY][ConfigKeys.PLACEMENT][ConfigKeys.TARGET].split('#')[-1]
                 # filter
-                filter_str = 'VH'+''.join([filter['sex'], filter['name']])
+                filter_str = 'VH'+''.join([filter[ConfigKeys.SEX], filter['name']])
                 if filter['version'] == 'All':
                     if filter_str in target:
                         filtered_samples.append(sample)
@@ -100,11 +102,9 @@ def filter_samples(data, filter):
                     filter_str = filter_str + filter['version']
                     if filter_str == target:
                         filtered_samples.append(sample)
-        print(len(filtered_samples))
         if filtered_samples:
             donor['samples'] = filtered_samples
             filtered.append(donor)
-    print(len(filtered))
 
     return filtered
 
@@ -133,21 +133,21 @@ def build_blocks_and_donor_points(donors, scaling_factor):
             # Attach donor-level metadata
             mesh.metadata.update({
                 'label': donor.get('label'),
-                '@id': donor.get('@id'),
+                '@id': donor.get(ConfigKeys.AT_ID),
                 '@type': donor.get('@type'),
                 'consortium_name': donor.get('consortium_name'),
-                'sex': donor.get('sex'),
+                'sex': donor.get(ConfigKeys.SEX),
                 'provider_name': donor.get('provider_name'),
                 'provider_uuid': donor.get('provider_uuid'),
-                'link': donor.get('link'),
+                'link': donor.get(ConfigKeys.LINK),
                 'description': donor.get('description'),
             })
 
             blocks.append(mesh)
 
             # Compute donor placement point
-            placement = sample['rui_location'].get('placement', {})
-            units = sample['rui_location'].get('dimension_units', 'millimeter')
+            placement = sample[ConfigKeys.RUI_LOCATION_KEY].get(ConfigKeys.PLACEMENT, {})
+            units = sample[ConfigKeys.RUI_LOCATION_KEY].get('dimension_units', 'millimeter')
             factor = 1e3 if units == 'millimeter' else 1e2 if units == 'centimeter' else 1.0
 
             donor_points.append([
@@ -158,13 +158,13 @@ def build_blocks_and_donor_points(donors, scaling_factor):
 
     return blocks, np.array(donor_points)
 
-def generate_extraction_sites_jsonld_from_blocks(blocks, context, CREATOR_INFO, output_path):
+def generate_extraction_sites_jsonld_from_blocks(blocks, context, config_dict, output_path):
     today = date.today().isoformat()
     entities = []
 
     for i, block in enumerate(blocks):
         sample = block.metadata.get("sample", {})
-        rui = sample.get("rui_location", {})
+        rui = sample.get(ConfigKeys.RUI_LOCATION_KEY, {})
 
         block_id = block.metadata.get("id", f"block_{i}")
         label = block_id.split("#")[-1]
@@ -176,7 +176,10 @@ def generate_extraction_sites_jsonld_from_blocks(blocks, context, CREATOR_INFO, 
             "@type": rui.get("@type"),
             "label": label,
 
-            **CREATOR_INFO,
+            "creator": config_dict[ConfigKeys.RUI_LOCATION_KEY].get("creator"),
+            "creator_first_name": config_dict[ConfigKeys.RUI_LOCATION_KEY].get("creator_first_name"),
+            "creator_last_name": config_dict[ConfigKeys.RUI_LOCATION_KEY].get("creator_last_name"),
+            "creator_orcid": config_dict[ConfigKeys.RUI_LOCATION_KEY].get("creator_orcid"),
             "creation_date": today,
 
             "x_dimension": rui.get("x_dimension"),
@@ -184,27 +187,19 @@ def generate_extraction_sites_jsonld_from_blocks(blocks, context, CREATOR_INFO, 
             "z_dimension": rui.get("z_dimension"),
             "dimension_units": rui.get("dimension_units", "millimeter"),
 
-            "placement": rui.get("placement", {}),
+            "placement": rui.get(ConfigKeys.PLACEMENT, {}),
 
             "ccf_annotations": rui.get("ccf_annotations", [])
         }
 
         entities.append(entity)
-    print(len(entities))
     with open(output_path, "w") as f:
         json.dump(entities, f, indent=2)
 
     print(f"\n JSON-LD written to: {output_path}")
 
-def generate_dataset_graph_jsonld_from_blocks(
-    blocks,
-    context,
-    source_graph,
-    CREATOR_INFO,
-    output_path
-):
+def generate_dataset_graph_jsonld_from_blocks(blocks, context, config_dict, source_graph, output_path):
 
-    CCF_CONTEXT = context
     today = date.today().isoformat()
 
     donor_lookup = {}
@@ -226,26 +221,29 @@ def generate_dataset_graph_jsonld_from_blocks(
         millitome_donor = {
             "@id": block.metadata.get('donor'),
             "@type": block.metadata.get('@type'),
-            "label": str(donor_obj.get("label", "")),
+            "label": str(donor_obj.get(ConfigKeys.LABEL, "")),
             "description": donor_obj.get("description", ""),
-            "link": block.metadata.get('link'),
+            "link": block.metadata.get(ConfigKeys.LINK),
             "consortium_name": donor_obj.get("consortium_name"),
             "provider_name": donor_obj.get("provider_name"),
             "provider_uuid": donor_obj.get("provider_uuid"),
-            "sex": donor_obj.get("sex"),
+            "sex": donor_obj.get(ConfigKeys.SEX),
             "samples": []
         }
 
         sample_id = sample.get("@id")
-        rui = sample.get("rui_location", {})
+        rui = sample.get(ConfigKeys.RUI_LOCATION_KEY, {})
 
         spatial_entity = {
-            "@context": CCF_CONTEXT,
-            "@id": block.metadata.get('@id'),
+            "@context": context,
+            "@id": block.metadata.get(ConfigKeys.AT_ID),
             "@type": "SpatialEntity",
             "label": sample_id.split('#')[-1],
 
-            **CREATOR_INFO,
+            "creator": config_dict[ConfigKeys.RUI_LOCATION_KEY].get("creator"),
+            "creator_first_name": config_dict[ConfigKeys.RUI_LOCATION_KEY].get("creator_first_name"),
+            "creator_last_name": config_dict[ConfigKeys.RUI_LOCATION_KEY].get("creator_last_name"),
+            "creator_orcid": config_dict[ConfigKeys.RUI_LOCATION_KEY].get("creator_orcid"),
             "creation_date": today,
 
             "x_dimension": rui.get("x_dimension"),
@@ -253,21 +251,21 @@ def generate_dataset_graph_jsonld_from_blocks(
             "z_dimension": rui.get("z_dimension"),
             "dimension_units": rui.get("dimension_units", "millimeter"),
 
-            "placement": rui.get("placement", {}),
+            "placement": rui.get(ConfigKeys.PLACEMENT, {}),
 
             "ccf_annotations": rui.get("ccf_annotations", [])
         }
 
         sample_entry = {
-            "@id": sample.get('@id'),
+            "@id": sample.get(ConfigKeys.AT_ID),
             "@type": sample.get('@type'),
             "sample_type": sample.get("sample_type", "Tissue Block"),
-            "label": sample.get("label", ""),
+            "label": sample.get(ConfigKeys.LABEL, ""),
             "description": sample.get('description'),
-            "link": sample.get('link'),
+            "link": sample.get(ConfigKeys.LINK),
             "section_count": sample.get('section_count', 0), 
             "section_size": sample.get("section_size", 0),
-            "rui_location": spatial_entity
+            ConfigKeys.RUI_LOCATION_KEY: spatial_entity
         }
 
         millitome_donor["samples"].append(sample_entry)
@@ -275,7 +273,7 @@ def generate_dataset_graph_jsonld_from_blocks(
         millitome_graph.append(millitome_donor)
 
     dataset_graph = {
-        "@context": CCF_CONTEXT,
+        "@context": context,
         "@graph": millitome_graph
     }
 
