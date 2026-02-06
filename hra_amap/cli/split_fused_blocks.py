@@ -9,36 +9,40 @@ from tqdm import tqdm
 from trimesh.smoothing import filter_taubin
 from trimesh.voxel import VoxelGrid
 
-def make_cutting_mesh(mesh,
-                      target_voxels=200,
-                      fill_hole_radius=10,
-                      erosion_iterations=5,
-                      smoothing_iterations=100):
-  # voxelization of combined mesh
-  pitch = mesh.extents.max() / target_voxels
-  vg = mesh.voxelized(pitch).fill()
-  M = vg.matrix.astype(bool)
 
-  # seal openings
-  selem = ndi.generate_binary_structure(3, 1)
-  selem = ndi.iterate_structure(selem, fill_hole_radius)
-  M_closed = ndi.binary_closing(M, structure=selem)
+def make_cutting_mesh(
+    mesh,
+    target_voxels=200,
+    fill_hole_radius=10,
+    erosion_iterations=5,
+    smoothing_iterations=100,
+):
+    # voxelization of combined mesh
+    pitch = mesh.extents.max() / target_voxels
+    vg = mesh.voxelized(pitch).fill()
+    M = vg.matrix.astype(bool)
 
-  # fill internals
-  M_solid = ndi.binary_fill_holes(M_closed)
+    # seal openings
+    selem = ndi.generate_binary_structure(3, 1)
+    selem = ndi.iterate_structure(selem, fill_hole_radius)
+    M_closed = ndi.binary_closing(M, structure=selem)
 
-  # erode
-  M_inner = ndi.binary_erosion(M_solid, iterations=erosion_iterations)
+    # fill internals
+    M_solid = ndi.binary_fill_holes(M_closed)
 
-  # convert back to mesh
-  inner_vg = VoxelGrid(M_inner, transform=vg.transform)
-  inner_mesh = inner_vg.marching_cubes.copy()
-  inner_mesh.apply_transform(inner_vg.transform)
+    # erode
+    M_inner = ndi.binary_erosion(M_solid, iterations=erosion_iterations)
 
-  # smoothen the voxelized mesh
-  filter_taubin(inner_mesh, lamb=0.5, nu=-0.53, iterations=smoothing_iterations)
+    # convert back to mesh
+    inner_vg = VoxelGrid(M_inner, transform=vg.transform)
+    inner_mesh = inner_vg.marching_cubes.copy()
+    inner_mesh.apply_transform(inner_vg.transform)
 
-  return inner_mesh
+    # smoothen the voxelized mesh
+    filter_taubin(inner_mesh, lamb=0.5, nu=-0.53, iterations=smoothing_iterations)
+
+    return inner_mesh
+
 
 def split_blocks(input_path: Path, output_path: Path = None):
     mesh = trimesh.load(input_path)
@@ -48,7 +52,9 @@ def split_blocks(input_path: Path, output_path: Path = None):
     combined_mesh = trimesh.util.concatenate(blocks)
 
     # create cutting mesh from combined mesh
-    cutting_mesh = make_cutting_mesh(combined_mesh, target_voxels=200, erosion_iterations=2)
+    cutting_mesh = make_cutting_mesh(
+        combined_mesh, target_voxels=200, erosion_iterations=2
+    )
 
     updated_blocks = {}
 
@@ -56,7 +62,7 @@ def split_blocks(input_path: Path, output_path: Path = None):
     for id, block in tqdm(mesh.geometry.items(), desc="Splitting fused blocks"):
         # convert blocks to convex hulls
         block = block.convex_hull
-        id_parts = id.split('-')
+        id_parts = id.split("-")
 
         if len(id_parts) > 1:
             # slice
@@ -81,9 +87,13 @@ def split_blocks(input_path: Path, output_path: Path = None):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Split fused tissue blocks in a GLB file.")
+    parser = argparse.ArgumentParser(
+        description="Split fused tissue blocks in a GLB file."
+    )
     parser.add_argument("input_glb_path", type=Path, help="Path to input GLB file")
-    parser.add_argument("output_glb_path", type=Path, help="Path to save split GLB file")
+    parser.add_argument(
+        "output_glb_path", type=Path, help="Path to save split GLB file"
+    )
 
     args = parser.parse_args()
 
@@ -92,6 +102,7 @@ def main():
     except Exception as e:
         print(f"Error: {e}")
         raise e
+
 
 if __name__ == "__main__":
     main()

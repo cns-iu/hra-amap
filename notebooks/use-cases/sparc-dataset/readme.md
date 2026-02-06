@@ -24,7 +24,8 @@ This scaffold serves as the external reference model and is mapped to **both HRA
   ```
     input-data/external_atlas/<atlas_name>_<sex>/
   ├── <atlas_mesh>.glb
-  └── config.yaml```
+  └── config.yaml
+  ```
 
 ---
 

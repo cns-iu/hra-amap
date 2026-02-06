@@ -167,6 +167,7 @@ What this stage does
 
 - Exports visualization and semantic metadata
 
+#### CLI Usage
 ```bash
 non-hra-mapping \
   --stage1_projection_path <path_to_projections.pickle.gz> \

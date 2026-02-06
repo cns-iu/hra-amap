@@ -31,6 +31,6 @@ class ConfigKeys(str, Enum):
     MODEL_SCALE = "model_scale"
     ORGAN = "organ"
     FLIP = "flip"
-    ROTATION_Y= "rotation_y_deg"
+    ROTATION_Y = "rotation_y_deg"
     AT_GRAPH = "@graph"
     AT_CONTEXT = "@context"

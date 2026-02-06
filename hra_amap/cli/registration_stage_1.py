@@ -14,6 +14,7 @@ from hra_amap.utils.io import read_yaml, write_yaml
 from hra_amap.utils.constants import ConfigKeys
 from hra_amap.utils.preprocess import download_and_process_glb_file
 
+
 class ProjectionPickle:
     """
     Handles loading configuration and generating organ projections.
@@ -29,11 +30,19 @@ class ProjectionPickle:
             / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE]
         )
 
-        target = requests.get(self.config_dict[ConfigKeys.TARGET_NAME], headers={"Accept": "application/json"}).json()
-        glb_url = target['data'][0]['object_reference']['file_url']
+        target = requests.get(
+            self.config_dict[ConfigKeys.TARGET_NAME],
+            headers={"Accept": "application/json"},
+        ).json()
+        glb_url = target["data"][0]["object_reference"]["file_url"]
 
-        raw_data_dir = Path("raw-data") / "millitome" / self.config.parent.parent.name / self.config.parent.name
-        if(self.backward_projection):
+        raw_data_dir = (
+            Path("raw-data")
+            / "millitome"
+            / self.config.parent.parent.name
+            / self.config.parent.name
+        )
+        if self.backward_projection:
             raw_data_dir = Path("raw-data") / "external-atlas" / self.config.parent.name
         retain = self.config_dict.get(ConfigKeys.RETAIN_COMPONENT)
         glb_path = download_and_process_glb_file(glb_url, raw_data_dir, retain)
@@ -49,7 +58,11 @@ class ProjectionPickle:
         self.load_registration_data()
 
     def generate_projection(
-        self, output_path: Path, point_cloud_output : Path, pipeline_name: str, pipeline_discription: str
+        self,
+        output_path: Path,
+        point_cloud_output: Path,
+        pipeline_name: str,
+        pipeline_discription: str,
     ):
         """
         Generate projection data and export it to the given path.
@@ -83,11 +96,20 @@ class ProjectionPickle:
         projections = pipeline.run(source=source, target=target)
         projections.export(path=str(output_path))
 
-        projected_pc = trimesh.PointCloud(projections.registration.vertices, colors=np.tile(np.array([255, 0, 0, 1]), (len(projections.registration.vertices), 1)))
-        hra_pc = trimesh.PointCloud(target.vertices, colors=np.tile(np.array([0, 0, 255, 1]), (len(target.vertices), 1)))
+        projected_pc = trimesh.PointCloud(
+            projections.registration.vertices,
+            colors=np.tile(
+                np.array([255, 0, 0, 1]), (len(projections.registration.vertices), 1)
+            ),
+        )
+        hra_pc = trimesh.PointCloud(
+            target.vertices,
+            colors=np.tile(np.array([0, 0, 255, 1]), (len(target.vertices), 1)),
+        )
         after_scene = trimesh.Scene([projected_pc, hra_pc])
         output_file = point_cloud_output / "point_cloud_transformation_fit.glb"
         after_scene.export(str(output_file))
+
 
 def main():
     parser = argparse.ArgumentParser(description="Millitome Registrations stage 1")
@@ -133,7 +155,10 @@ def main():
 
     try:
         ProjectionPickle(args.config, args.backward_projection).generate_projection(
-            args.output_path, args.point_cloud_output_path, args.pipeline_name, args.pipeline_discription
+            args.output_path,
+            args.point_cloud_output_path,
+            args.pipeline_name,
+            args.pipeline_discription,
         )
     except Exception as e:
         raise

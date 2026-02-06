@@ -146,10 +146,15 @@ class ProjectionBlockGenerator:
         ]
 
         # add the original labels back to the projected blocks
-        projected_blocks = dict(zip([block.label for block in self.tissue_blocks], projected_blocks))
+        projected_blocks = dict(
+            zip([block.label for block in self.tissue_blocks], projected_blocks)
+        )
 
         # create bounding boxes
-        projected_blocks_obb = {id: block.bounding_box_oriented for id, block in deepcopy(projected_blocks).items()}
+        projected_blocks_obb = {
+            id: block.bounding_box_oriented
+            for id, block in deepcopy(projected_blocks).items()
+        }
 
         # Ensure colors match for bounding boxes
         for index, obb in projected_blocks_obb.items():
@@ -166,7 +171,9 @@ def generate_output(projection: Path, output_dir: Path, config: Path):
     projected_blocks = ProjectionBlockGenerator(
         projection, config
     ).generate_projections()
-    processor = RUIProcessor(blocks=list(projected_blocks.values()), registration_dir=output_dir)
+    processor = RUIProcessor(
+        blocks=list(projected_blocks.values()), registration_dir=output_dir
+    )
     processor.initialize_registration()
     processor.generate_rui_locations(config)
 
@@ -174,9 +181,9 @@ def generate_output(projection: Path, output_dir: Path, config: Path):
     if not scene.geometry:
         raise ValueError("Scene is empty. No geometries to export.")
 
-    glb_data = scene.export(file_type='glb')
+    glb_data = scene.export(file_type="glb")
 
-    with open(Path(output_dir / f"{output_dir.parent.name}.glb"), 'wb') as f:
+    with open(Path(output_dir / f"{output_dir.parent.name}.glb"), "wb") as f:
         f.write(glb_data)
 
     with open(output_dir / "rui_locations.jsonld", "r") as f:
