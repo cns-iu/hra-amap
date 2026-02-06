@@ -119,7 +119,9 @@ class RUIProcessor:
         )
 
         if count == 0:
-            raise ValueError("Injection failed: could not find 'document.body.appendChild(eui);' in index.html")
+            raise ValueError(
+                "Injection failed: could not find 'document.body.appendChild(eui);' in index.html"
+            )
 
         index_path.write_text(updated_html, encoding="utf-8")
 

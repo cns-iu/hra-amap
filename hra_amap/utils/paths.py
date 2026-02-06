@@ -13,6 +13,8 @@ def get_bcpd_executable_path():
         BCPD_DIR / "bcpd",
         BASE_DIR / "bcpd" / "bcpd",
         BASE_DIR.parent / "bcpd" / "bcpd",
+        BASE_DIR.parent.parent / "bcpd" / "bcpd",
+        BASE_DIR.parent.parent.parent / "bcpd" / "bcpd",
     ]
     for path in bcpd_executable:
         if path.is_file():
@@ -23,5 +25,7 @@ def get_bcpd_executable_path():
         f"  1. {bcpd_executable[0]}\n"
         f"  2. {bcpd_executable[1]}\n"
         f"  3. {bcpd_executable[2]}\n\n"
+        f"  4. {bcpd_executable[3]}\n\n"
+        f"  5. {bcpd_executable[4]}\n\n"
         "BCPD Install instructions:  https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md"
     )

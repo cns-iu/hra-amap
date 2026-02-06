@@ -96,3 +96,82 @@ This command automates both Stage 1 and Stage 2 for all available millitome conf
 ```bash
 hra-amap-run
 ```
+
+
+## 🔄 Backward Projection & Non-HRA Mapping (Extension)
+
+In addition to standard millitome registration workflows, **HRA-AMAP supports backward projection and Non-HRA mapping**, enabling tissue blocks to be projected **from HRA reference organs into external (non-HRA) atlas models**.
+
+This extension is designed for scenarios where:
+- Donor tissue blocks must be visualized and exported in a non-HRA organ space
+- External anatomical atlases need to be integrated into the HRA ecosystem
+
+---
+
+### 🧭 Pipeline Overview
+
+The backward mapping workflow consists of **two stages**:
+```
+External Atlas (non-HRA)
+        ↑ (Backward Projection)
+Stage 1: Projection Generation
+        ↓
+Projection Pickle (.pickle.gz)
+        ↓
+Stage 2: Non-HRA Mapping
+        ↓
+GLB + JSON-LD Outputs
+```
+
+---
+
+### 🧪 Stage 1: Projection Generation (Backward Projection)
+
+Stage 1 generates organ registration projections using the HRA registration pipeline.  
+When the `--backward_projection` flag is enabled, the projection direction is **reversed (HRA → non-HRA)**.
+
+#### What this stage does
+- Loads source and target organ models
+- Swaps source/target when backward projection is enabled
+- Runs the organ registration pipeline
+- Exports:
+  - A projection pickle file (`.pickle.gz`)
+  - A point-cloud GLB for visual verification of alignment
+
+#### CLI Usage
+
+```bash
+hra-amap-stage-1 \
+  --config <path_to_config.yaml> \
+  --output_path <path_to_output_projection.pickle>  \
+  --point_cloud_output_path <path_to_point_cloud_tranformation_glb> \
+  --backward_projection
+```
+
+### 🎯 Stage 2: Non-HRA Mapping
+Stage 2 consumes the projection output from Stage 1 and maps donor tissue blocks into a non-HRA organ model space.
+
+What this stage does
+
+- Waits for the HRA database to be ready
+
+- Fetches donor samples using an ontology term
+
+- Filters samples by:
+    - Organ
+    - Donor sex
+
+- Loads projected tissue blocks
+
+- Aligns blocks into the non-HRA organ mesh
+
+- Exports visualization and semantic metadata
+
+#### CLI Usage
+```bash
+non-hra-mapping \
+  --stage1_projection_path <path_to_projections.pickle.gz> \
+  --config <path_to_config.yaml> \
+  --output_path <path_to_output_directory> \
+  --ontology-term http://purl.obolibrary.org/obo/UBERON_<ID>
+```
