@@ -31,9 +31,7 @@ from pathlib import Path
 import requests
 import json
 
-
 reddishpink = np.array([222, 49, 99, 100], dtype=np.uint8)
-
 
 class NonHRAMapping:
     """
@@ -180,10 +178,11 @@ class NonHRAMapping:
 
         flip = np.diag([flip_vec[0], flip_vec[1], flip_vec[2], 1.0])
 
-        angle_rad = np.deg2rad(
-            self.config_dict[ConfigKeys.NON_HRA_MAPPING][ConfigKeys.ROTATION_Y]
-        )
-        rot = trimesh.transformations.euler_matrix(0, angle_rad, 0, axes="sxyz")
+        x, y, z  = self.config_dict[ConfigKeys.NON_HRA_MAPPING][ConfigKeys.ROTATION]
+        angle_rad_x = np.deg2rad(x)
+        angle_rad_y = np.deg2rad(y)
+        angle_rad_z = np.deg2rad(z)
+        rot = trimesh.transformations.euler_matrix(angle_rad_x, angle_rad_y, angle_rad_z, axes="sxyz")
 
         source_model.apply_transform(flip)
         source_model.apply_transform(rot)
@@ -231,9 +230,8 @@ class NonHRAMapping:
 
         for i, block in enumerate(self.blocks):
             label = block.metadata.get(ConfigKeys.ID, f"block_{i}")
-            short_label = label.split("#")[-1]
 
-            scene.add_geometry(block, node_name=short_label, geom_name=short_label)
+            scene.add_geometry(block, node_name=label, geom_name=label)
         scene.export(self.output_dir / "non_hra_mapping.glb")
 
     def export_json(self):

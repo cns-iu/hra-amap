@@ -1,16 +1,16 @@
 input_files:
   source: "heartHuman_zinc_graphics.glb"
 
-retain_component: ["VH_M_interventricular_septum","VH_M_left_cardiac_atrium","VH_M_left_ventricle","VH_M_right_cardiac_atrium","VH_M_right_ventricle","VH_M_aortic_valve"]
+retain_component: ["VH_F_interventricular_septum","VH_F_left_cardiac_atrium","VH_F_left_ventricle","VH_F_right_cardiac_atrium","VH_F_right_ventricle","VH_F_aortic_valve"]
 
-target_name: "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+target_name: "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
 
 donor:
-  sex: Male
+  sex: Female
   provider_name: MC-IU
   provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
   consortium_name: HRA
-  id: "https://purl.humanatlas.io/millitome/heart-male-sparc/v1.0"
+  id: "https://purl.humanatlas.io/millitome/heart-female-sparc/v1.0"
   selected-organ: "http://purl.obolibrary.org/obo/UBERON_0000948"
 
 rui_location:
@@ -24,7 +24,7 @@ rui_location:
   placement:
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld"
     "@type": "SpatialPlacement"
-    target: "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+    target: "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
     scaling_units: "ratio"
     rotation_order: "XYZ"
     rotation_units: "degree"
@@ -52,6 +52,6 @@ rigid_registration:
 
 non_hra_mapping:
   model_scale: 0.87
-  flip: [1, 1, -1]
-  rotation_y_deg: -306
+  flip: [1, 1, 1]
+  rotation_deg: [0, 230, 0]
   organ: "Heart"
