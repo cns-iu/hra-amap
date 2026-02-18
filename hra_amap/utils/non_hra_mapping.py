@@ -190,7 +190,7 @@ def generate_extraction_sites_jsonld_from_blocks(
         rui = sample.get(ConfigKeys.RUI_LOCATION_KEY, {})
 
         block_id = block.metadata.get("id", f"block_{i}")
-        label = block_id.split("#")[-1]
+        label = block_id
 
         entity = {
             "@context": context,
@@ -258,14 +258,13 @@ def generate_dataset_graph_jsonld_from_blocks(
             "samples": [],
         }
 
-        sample_id = sample.get("@id")
         rui = sample.get(ConfigKeys.RUI_LOCATION_KEY, {})
 
         spatial_entity = {
             "@context": context,
             "@id": block.metadata.get(ConfigKeys.AT_ID),
             "@type": "SpatialEntity",
-            "label": sample_id.split("#")[-1],
+            "label": sample.get("@id"),
             "creator": config_dict[ConfigKeys.RUI_LOCATION_KEY].get("creator"),
             "creator_first_name": config_dict[ConfigKeys.RUI_LOCATION_KEY].get(
                 "creator_first_name"
