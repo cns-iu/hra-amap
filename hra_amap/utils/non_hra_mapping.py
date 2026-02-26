@@ -11,7 +11,7 @@ from datetime import date
 from hra_amap.utils.constants import ConfigKeys
 
 
-def build_mesh_from_sample(sample, scaling_factor):
+def build_mesh_from_sample(sample, scaling_factor, axes):
     """
     Builds a 3D box mesh from a sample's RUI location metadata, applying unit conversion,
     scaling, rotation, and translation to place the mesh correctly in 3D space.
@@ -49,7 +49,7 @@ def build_mesh_from_sample(sample, scaling_factor):
         rx = np.deg2rad(placement.get("x_rotation", 0))
         ry = np.deg2rad(placement.get("y_rotation", 0))
         rz = np.deg2rad(placement.get("z_rotation", 0))
-        rot = trimesh.transformations.euler_matrix(rx, ry, rz, axes="sxyz")
+        rot = trimesh.transformations.euler_matrix(rx, ry, rz, axes=axes)
         mesh.apply_transform(rot)
 
         tx = placement.get("x_translation", 0) / factor * scaling_factor
@@ -74,51 +74,7 @@ def scale_millitome_block(blocks, scale):
         offset = b.centroid - center
         b.apply_translation(offset * (scale - 1))
 
-
-def filter_samples(data, filter):
-    """
-    Filters donor samples based on RUI placement target using sex, organ name, and version criteria.
-
-    Args:
-        data (list): List of donor records containing sample metadata.
-        filter (dict): Filter configuration containing sex, organ name, and version.
-
-    Returns:
-        list: List of donors with samples matching the specified filter criteria.
-    """
-    filtered = []
-    for donor in tqdm(data):
-        filtered_samples = []
-        for sample in donor["samples"]:
-            if (
-                ConfigKeys.RUI_LOCATION_KEY in sample
-                and ConfigKeys.PLACEMENT in sample[ConfigKeys.RUI_LOCATION_KEY]
-                and ConfigKeys.TARGET
-                in sample[ConfigKeys.RUI_LOCATION_KEY][ConfigKeys.PLACEMENT]
-            ):
-                target = sample[ConfigKeys.RUI_LOCATION_KEY][ConfigKeys.PLACEMENT][
-                    ConfigKeys.TARGET
-                ].split("#")[-1]
-                # filter
-                filter_str = "VH" + "".join([filter[ConfigKeys.SEX], filter["name"]])
-                if filter["version"] == "All":
-                    if filter_str in target:
-                        filtered_samples.append(sample)
-                if filter["version"] == "Latest":
-                    if filter_str == target:
-                        filtered_samples.append(sample)
-                else:
-                    filter_str = filter_str + filter["version"]
-                    if filter_str == target:
-                        filtered_samples.append(sample)
-        if filtered_samples:
-            donor["samples"] = filtered_samples
-            filtered.append(donor)
-
-    return filtered
-
-
-def build_blocks_and_donor_points(donors, scaling_factor):
+def build_blocks_and_donor_points(donors, scaling_factor, axes = "sxyz"):
     """
     Builds 3D block meshes from donor samples and computes corresponding
     donor placement points in scaled coordinates.
@@ -138,7 +94,7 @@ def build_blocks_and_donor_points(donors, scaling_factor):
     for donor in donors:
         for sample in donor["samples"]:
             # Build block mesh from sample
-            mesh = build_mesh_from_sample(sample, scaling_factor)
+            mesh = build_mesh_from_sample(sample, scaling_factor, axes)
 
             # Attach donor-level metadata
             mesh.metadata.update(
