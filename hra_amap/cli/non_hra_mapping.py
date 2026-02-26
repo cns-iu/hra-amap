@@ -12,7 +12,6 @@ from hra_amap.utils.constants import ConfigKeys
 from hra_amap.utils.non_hra_mapping import (
     build_mesh_from_sample,
     scale_millitome_block,
-    filter_samples,
     build_blocks_and_donor_points,
     generate_extraction_sites_jsonld_from_blocks,
     generate_dataset_graph_jsonld_from_blocks,
@@ -44,11 +43,13 @@ class NonHRAMapping:
         config_path: Path,
         output_dir: Path,
         ontology_term: str,
+        hubmap_derived_model: bool,
     ):
         self.stage1_projection = stage1_projection
         self.config_path = config_path
         self.output_dir = output_dir
         self.ontology_term = ontology_term
+        self.hubmap_derived_model = hubmap_derived_model
 
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -103,26 +104,16 @@ class NonHRAMapping:
         try:
             # Query donor graph using ontology term
             url = "https://apps.humanatlas.io/api/v1/ds-graph"
-            params = {"ontology-terms": self.ontology_term}
+            donar_sex = self.config_dict[ConfigKeys.DONOR_DATA_KEY][ConfigKeys.SEX]
+            params = {
+                "ontology-terms": self.ontology_term,
+                "sex": donar_sex
+            }
 
             response = requests.get(url, params=params)
             self.data = response.json()
 
-            graph_size = len(self.data.get(ConfigKeys.AT_GRAPH, []))
-
-            # Extract donor sex from config and normalize to API format
-            donar_sex = self.config_dict[ConfigKeys.DONOR_DATA_KEY][ConfigKeys.SEX]
-            sex = "F" if donar_sex == "Female" else "M"
-            organ = {
-                "name": self.config_dict[ConfigKeys.NON_HRA_MAPPING][ConfigKeys.ORGAN],
-                "sex": sex,
-                "version": "All",
-            }
-
-            # Filter donor samples using organ metadata
-            filter_result = filter_samples(
-                deepcopy(self.data[ConfigKeys.AT_GRAPH]), organ
-            )
+            filter_result = self.data.get(ConfigKeys.AT_GRAPH, [])
             return filter_result
 
         except hra_api_client.ApiException as e:
@@ -170,13 +161,16 @@ class NonHRAMapping:
         # Normalize and orient source model
         source_model.apply_translation(-source_model.centroid)
 
-        flip_vec = self.config_dict[ConfigKeys.NON_HRA_MAPPING].get(
-            ConfigKeys.FLIP, [1, -1, -1]
-        )
-        if len(flip_vec) != 3:
-            raise ValueError("non_hra_mapping.flip must be length 3")
+        if not self.hubmap_derived_model:
+            flip_vec = self.config_dict[ConfigKeys.NON_HRA_MAPPING].get(
+                ConfigKeys.FLIP, [1, -1, -1]
+            )
+            if len(flip_vec) != 3:
+                raise ValueError("non_hra_mapping.flip must be length 3")
 
-        flip = np.diag([flip_vec[0], flip_vec[1], flip_vec[2], 1.0])
+            flip = np.diag([flip_vec[0], flip_vec[1], flip_vec[2], 1.0])
+            source_model.apply_transform(flip)
+            source_model.invert()
 
         x, y, z  = self.config_dict[ConfigKeys.NON_HRA_MAPPING][ConfigKeys.ROTATION]
         angle_rad_x = np.deg2rad(x)
@@ -184,33 +178,45 @@ class NonHRAMapping:
         angle_rad_z = np.deg2rad(z)
         rot = trimesh.transformations.euler_matrix(angle_rad_x, angle_rad_y, angle_rad_z, axes="sxyz")
 
-        source_model.apply_transform(flip)
         source_model.apply_transform(rot)
-        source_model.invert()
         source_model.fix_normals()
 
         # Compute source bounds and scaling
         source_min, source_max = source_model.bounds
         source_range = source_max - source_min
-        scaling_factor = np.mean(source_range) / 0.1
+        if self.hubmap_derived_model:
+            scaling_factor = np.mean(source_range) / 0.3
+            self.blocks, donor_points = build_blocks_and_donor_points(
+                result,
+                scaling_factor,
+                "rxyz"
+            )
+            donor_global_center = donor_points.mean(axis=0)
 
-        # Build blocks and donor points
-        self.blocks, donor_points = build_blocks_and_donor_points(
-            result, scaling_factor
-        )
+            source_center = source_model.centroid
 
-        # Compute donor bounds
-        donor_min = donor_points.min(axis=0)
-        donor_max = donor_points.max(axis=0)
-        donor_range = np.where(donor_max - donor_min == 0, 1.0, donor_max - donor_min)
-
-        # Compute per-axis scaling
-        scale_per_axis = source_range / donor_range
-
-        # Map blocks into source model space
-        for block, donor_center in zip(self.blocks, donor_points):
-            mapped = source_min + (donor_center - donor_min) * scale_per_axis
-            block.apply_translation(mapped - block.centroid)
+            for block, donor_center in zip(self.blocks, donor_points):
+                # offset relative to donor dataset center
+                relative_offset = donor_center - donor_global_center
+                # final position in organ space
+                mapped_position = source_center + relative_offset
+                block.apply_translation(mapped_position - block.centroid)
+        else:
+            scaling_factor = np.mean(source_range) / 0.1
+            # Build blocks and donor points
+            self.blocks, donor_points = build_blocks_and_donor_points(
+                result, scaling_factor
+            )
+            # Compute donor bounds
+            donor_min = donor_points.min(axis=0)
+            donor_max = donor_points.max(axis=0)
+            donor_range = np.where(donor_max - donor_min == 0, 1.0, donor_max - donor_min)
+            # Compute per-axis scaling
+            scale_per_axis = source_range / donor_range
+            # Map blocks into source model space
+            for block, donor_center in zip(self.blocks, donor_points):
+                mapped = source_min + (donor_center - donor_min) * scale_per_axis
+                block.apply_translation(mapped - block.centroid)
 
         # Uniformly scale all blocks
         scale_millitome_block(
@@ -275,6 +281,8 @@ def main():
     parser.add_argument("--config", type=Path, required=True)
     parser.add_argument("--output_path", type=Path, required=True)
     parser.add_argument("--ontology-term", type=str, required=True)
+    parser.add_argument("--hubmap_derived_model", action="store_true",
+        help="Treat model as HuBMAP-derived when flag is provided. Eg. GCA Models for intestines")
 
     args = parser.parse_args()
 
@@ -283,10 +291,10 @@ def main():
         config_path=args.config,
         output_dir=args.output_path,
         ontology_term=args.ontology_term,
+        hubmap_derived_model = args.hubmap_derived_model
     )
 
     mapping.run()
-
 
 if __name__ == "__main__":
     main()
