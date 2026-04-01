@@ -14,11 +14,52 @@ from hra_amap.utils.io import read_yaml, write_yaml
 from hra_amap.utils.constants import ConfigKeys
 from hra_amap.utils.preprocess import download_and_process_glb_file
 
-
 class ProjectionPickle:
     """
     Handles loading configuration and generating organ projections.
+    Supports optional siibra-driven source mesh generation when configured.
     """
+
+    def generate_source_from_siibra_if_configured(self):
+        """
+        If `siibra` section exists in config, fetch the configured template mesh
+        and export it to input_files.source.
+        """
+        siibra_cfg = self.config_dict.get("siibra")
+        if not siibra_cfg:
+            return
+
+        atlas_name = siibra_cfg.get("atlases")
+        template_space = siibra_cfg.get("template_space")
+        if not atlas_name or not template_space:
+            raise ValueError(
+                "Config key 'siibra' must include both 'atlases' and 'template_space'."
+            )
+
+        try:
+            import siibra
+        except ImportError as exc:
+            raise ImportError(
+                "siibra is required when config contains a 'siibra' section. "
+                "Install it in your environment and retry."
+            ) from exc
+
+        template = siibra.atlases.get(atlas_name).get_template(space=template_space)
+        if not template.provides_mesh:
+            raise ValueError(
+                f"Template '{template_space}' in atlas '{atlas_name}' does not provide a mesh."
+            )
+
+        template_mesh = template.fetch(format="mesh")
+        mesh = trimesh.Trimesh(
+            vertices=np.array(template_mesh["verts"]),
+            faces=np.array(template_mesh["faces"]),
+            process=False,
+        )
+
+        source_path = Path(self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE])
+        source_path.parent.mkdir(parents=True, exist_ok=True)
+        mesh.export(source_path)
 
     def load_registration_data(self):
         """
@@ -29,6 +70,8 @@ class ProjectionPickle:
             self.config.parent
             / self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE]
         )
+
+        self.generate_source_from_siibra_if_configured()
 
         target = requests.get(
             self.config_dict[ConfigKeys.TARGET_NAME],
