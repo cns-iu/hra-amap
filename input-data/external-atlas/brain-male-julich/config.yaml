@@ -1,0 +1,58 @@
+input_files:
+  source: "julich-brain.glb"
+
+target_name: "https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary"
+
+donor:
+  sex: Male
+  provider_name: MC-IU
+  provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
+  consortium_name: HRA
+  id: "https://purl.humanatlas.io/millitome/brain-male-julich/v1.0"
+  selected-organ: "http://purl.obolibrary.org/obo/UBERON_0000955"
+
+siibra:
+  atlases: "human"
+  template_space: "MNI_COLIN_27" 
+
+rui_location:
+  "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld"
+  "@type": "SpatialEntity"
+  creator: "Antara Bhavsar"
+  creator_first_name: "Antara"
+  creator_last_name: "Bhavsar"
+  creator_orcid: "https://orcid.org/0009-0006-6491-6503"
+  dimension_units: "millimeter"
+  placement:
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld"
+    "@type": "SpatialPlacement"
+    target: "https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary"
+    scaling_units: "ratio"
+    rotation_order: "XYZ"
+    rotation_units: "degree"
+    translation_units: "millimeter"
+
+nonrigid_registration:
+  autotune: 'False'
+  gamma: 20
+  beta: 1
+  decimation: 'False'
+  distance_threshold: 1e-8
+  lambda: 10
+  downsampling: 'Y, 26443, 0.05'
+  max_iterations: 1300
+  seed: 26
+
+rigid_registration:
+  global_distance_threshold_factor: 0.23
+  global_edge_length_threshold_factor: 0.95
+  global_max_correspondence: 0.999
+  global_max_iterations: 100000
+  max_nn: 100
+  refine_distance_threshold_factor: 0.1
+  voxel_size: 0.025
+
+non_hra_mapping:
+  model_scale: 0.82
+  flip: [1, -1, 1]
+  rotation_deg: [-90, 0, 10]
