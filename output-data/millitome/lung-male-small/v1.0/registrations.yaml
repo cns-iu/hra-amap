@@ -1,0 +1,1398 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HRA
+  provider_name: MC-IU
+  provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
+  defaults:
+    id: https://purl.humanatlas.io/millitome/lung-male-small/v1.0
+    thumbnail: assets/icons/ico-unknown.svg
+    link: https://purl.humanatlas.io/millitome/lung-male-small/v1.0
+  donors:
+  - sex: Male
+    label: VHM_LLL.6993
+    samples:
+    - rui_location: VHM_LLL.6993.json
+  - sex: Male
+    label: VHM_LLL.6994
+    samples:
+    - rui_location: VHM_LLL.6994.json
+  - sex: Male
+    label: VHM_LLL.6995
+    samples:
+    - rui_location: VHM_LLL.6995.json
+  - sex: Male
+    label: VHM_LLL.6996
+    samples:
+    - rui_location: VHM_LLL.6996.json
+  - sex: Male
+    label: VHM_LLL.7049
+    samples:
+    - rui_location: VHM_LLL.7049.json
+  - sex: Male
+    label: VHM_LLL.7050
+    samples:
+    - rui_location: VHM_LLL.7050.json
+  - sex: Male
+    label: VHM_LLL.7051
+    samples:
+    - rui_location: VHM_LLL.7051.json
+  - sex: Male
+    label: VHM_LLL.7104
+    samples:
+    - rui_location: VHM_LLL.7104.json
+  - sex: Male
+    label: VHM_LLL.7105
+    samples:
+    - rui_location: VHM_LLL.7105.json
+  - sex: Male
+    label: VHM_LLL.7106
+    samples:
+    - rui_location: VHM_LLL.7106.json
+  - sex: Male
+    label: VHM_LLL.6999
+    samples:
+    - rui_location: VHM_LLL.6999.json
+  - sex: Male
+    label: VHM_LLL.7000
+    samples:
+    - rui_location: VHM_LLL.7000.json
+  - sex: Male
+    label: VHM_LLL.7054
+    samples:
+    - rui_location: VHM_LLL.7054.json
+  - sex: Male
+    label: VHM_LLL.7055
+    samples:
+    - rui_location: VHM_LLL.7055.json
+  - sex: Male
+    label: VHM_LLL.7056
+    samples:
+    - rui_location: VHM_LLL.7056.json
+  - sex: Male
+    label: VHM_LLL.7110
+    samples:
+    - rui_location: VHM_LLL.7110.json
+  - sex: Male
+    label: VHM_LLL.7111
+    samples:
+    - rui_location: VHM_LLL.7111.json
+  - sex: Male
+    label: VHM_LLL.6950
+    samples:
+    - rui_location: VHM_LLL.6950.json
+  - sex: Male
+    label: VHM_LLL.6951
+    samples:
+    - rui_location: VHM_LLL.6951.json
+  - sex: Male
+    label: VHM_LLL.7004
+    samples:
+    - rui_location: VHM_LLL.7004.json
+  - sex: Male
+    label: VHM_LLL.7005
+    samples:
+    - rui_location: VHM_LLL.7005.json
+  - sex: Male
+    label: VHM_LLL.7060
+    samples:
+    - rui_location: VHM_LLL.7060.json
+  - sex: Male
+    label: VHM_LLL.6954
+    samples:
+    - rui_location: VHM_LLL.6954.json
+  - sex: Male
+    label: VHM_LLL.6955
+    samples:
+    - rui_location: VHM_LLL.6955.json
+  - sex: Male
+    label: VHM_LLL.6956
+    samples:
+    - rui_location: VHM_LLL.6956.json
+  - sex: Male
+    label: VHM_LLL.7009
+    samples:
+    - rui_location: VHM_LLL.7009.json
+  - sex: Male
+    label: VHM_LLL.7010
+    samples:
+    - rui_location: VHM_LLL.7010.json
+  - sex: Male
+    label: VHM_LLL.7064
+    samples:
+    - rui_location: VHM_LLL.7064.json
+  - sex: Male
+    label: VHM_LLL.7065
+    samples:
+    - rui_location: VHM_LLL.7065.json
+  - sex: Male
+    label: VHM_LLL.6958
+    samples:
+    - rui_location: VHM_LLL.6958.json
+  - sex: Male
+    label: VHM_LLL.6959
+    samples:
+    - rui_location: VHM_LLL.6959.json
+  - sex: Male
+    label: VHM_LLL.6960
+    samples:
+    - rui_location: VHM_LLL.6960.json
+  - sex: Male
+    label: VHM_LLL.6961
+    samples:
+    - rui_location: VHM_LLL.6961.json
+  - sex: Male
+    label: VHM_LLL.7013
+    samples:
+    - rui_location: VHM_LLL.7013.json
+  - sex: Male
+    label: VHM_LLL.7014
+    samples:
+    - rui_location: VHM_LLL.7014.json
+  - sex: Male
+    label: VHM_LLL.7015
+    samples:
+    - rui_location: VHM_LLL.7015.json
+  - sex: Male
+    label: VHM_LLL.7068
+    samples:
+    - rui_location: VHM_LLL.7068.json
+  - sex: Male
+    label: VHM_LLL.7069
+    samples:
+    - rui_location: VHM_LLL.7069.json
+  - sex: Male
+    label: VHM_LLL.7070
+    samples:
+    - rui_location: VHM_LLL.7070.json
+  - sex: Male
+    label: VHM_LLL.6963
+    samples:
+    - rui_location: VHM_LLL.6963.json
+  - sex: Male
+    label: VHM_LLL.6964
+    samples:
+    - rui_location: VHM_LLL.6964.json
+  - sex: Male
+    label: VHM_LLL.6965
+    samples:
+    - rui_location: VHM_LLL.6965.json
+  - sex: Male
+    label: VHM_LLL.6966
+    samples:
+    - rui_location: VHM_LLL.6966.json
+  - sex: Male
+    label: VHM_LLL.7018
+    samples:
+    - rui_location: VHM_LLL.7018.json
+  - sex: Male
+    label: VHM_LLL.7019
+    samples:
+    - rui_location: VHM_LLL.7019.json
+  - sex: Male
+    label: VHM_LLL.7020
+    samples:
+    - rui_location: VHM_LLL.7020.json
+  - sex: Male
+    label: VHM_LLL.7073
+    samples:
+    - rui_location: VHM_LLL.7073.json
+  - sex: Male
+    label: VHM_LLL.7074
+    samples:
+    - rui_location: VHM_LLL.7074.json
+  - sex: Male
+    label: VHM_LLL.7075
+    samples:
+    - rui_location: VHM_LLL.7075.json
+  - sex: Male
+    label: VHM_LLL.6968
+    samples:
+    - rui_location: VHM_LLL.6968.json
+  - sex: Male
+    label: VHM_LLL.6969
+    samples:
+    - rui_location: VHM_LLL.6969.json
+  - sex: Male
+    label: VHM_LLL.6970
+    samples:
+    - rui_location: VHM_LLL.6970.json
+  - sex: Male
+    label: VHM_LLL.6971
+    samples:
+    - rui_location: VHM_LLL.6971.json
+  - sex: Male
+    label: VHM_LLL.7022
+    samples:
+    - rui_location: VHM_LLL.7022.json
+  - sex: Male
+    label: VHM_LLL.7023
+    samples:
+    - rui_location: VHM_LLL.7023.json
+  - sex: Male
+    label: VHM_LLL.7024
+    samples:
+    - rui_location: VHM_LLL.7024.json
+  - sex: Male
+    label: VHM_LLL.7025
+    samples:
+    - rui_location: VHM_LLL.7025.json
+  - sex: Male
+    label: VHM_LLL.7077
+    samples:
+    - rui_location: VHM_LLL.7077.json
+  - sex: Male
+    label: VHM_LLL.7078
+    samples:
+    - rui_location: VHM_LLL.7078.json
+  - sex: Male
+    label: VHM_LLL.7079
+    samples:
+    - rui_location: VHM_LLL.7079.json
+  - sex: Male
+    label: VHM_LLL.7080
+    samples:
+    - rui_location: VHM_LLL.7080.json
+  - sex: Male
+    label: VHM_LLL.6972
+    samples:
+    - rui_location: VHM_LLL.6972.json
+  - sex: Male
+    label: VHM_LLL.6973
+    samples:
+    - rui_location: VHM_LLL.6973.json
+  - sex: Male
+    label: VHM_LLL.6974
+    samples:
+    - rui_location: VHM_LLL.6974.json
+  - sex: Male
+    label: VHM_LLL.6975
+    samples:
+    - rui_location: VHM_LLL.6975.json
+  - sex: Male
+    label: VHM_LLL.6976
+    samples:
+    - rui_location: VHM_LLL.6976.json
+  - sex: Male
+    label: VHM_LLL.7027
+    samples:
+    - rui_location: VHM_LLL.7027.json
+  - sex: Male
+    label: VHM_LLL.7028
+    samples:
+    - rui_location: VHM_LLL.7028.json
+  - sex: Male
+    label: VHM_LLL.7029
+    samples:
+    - rui_location: VHM_LLL.7029.json
+  - sex: Male
+    label: VHM_LLL.7030
+    samples:
+    - rui_location: VHM_LLL.7030.json
+  - sex: Male
+    label: VHM_LLL.7082
+    samples:
+    - rui_location: VHM_LLL.7082.json
+  - sex: Male
+    label: VHM_LLL.7083
+    samples:
+    - rui_location: VHM_LLL.7083.json
+  - sex: Male
+    label: VHM_LLL.7084
+    samples:
+    - rui_location: VHM_LLL.7084.json
+  - sex: Male
+    label: VHM_LLL.7085
+    samples:
+    - rui_location: VHM_LLL.7085.json
+  - sex: Male
+    label: VHM_LLL.6977
+    samples:
+    - rui_location: VHM_LLL.6977.json
+  - sex: Male
+    label: VHM_LLL.6978
+    samples:
+    - rui_location: VHM_LLL.6978.json
+  - sex: Male
+    label: VHM_LLL.6979
+    samples:
+    - rui_location: VHM_LLL.6979.json
+  - sex: Male
+    label: VHM_LLL.6980
+    samples:
+    - rui_location: VHM_LLL.6980.json
+  - sex: Male
+    label: VHM_LLL.6981
+    samples:
+    - rui_location: VHM_LLL.6981.json
+  - sex: Male
+    label: VHM_LLL.7032
+    samples:
+    - rui_location: VHM_LLL.7032.json
+  - sex: Male
+    label: VHM_LLL.7033
+    samples:
+    - rui_location: VHM_LLL.7033.json
+  - sex: Male
+    label: VHM_LLL.7034
+    samples:
+    - rui_location: VHM_LLL.7034.json
+  - sex: Male
+    label: VHM_LLL.7035
+    samples:
+    - rui_location: VHM_LLL.7035.json
+  - sex: Male
+    label: VHM_LLL.7036
+    samples:
+    - rui_location: VHM_LLL.7036.json
+  - sex: Male
+    label: VHM_LLL.7087
+    samples:
+    - rui_location: VHM_LLL.7087.json
+  - sex: Male
+    label: VHM_LLL.7088
+    samples:
+    - rui_location: VHM_LLL.7088.json
+  - sex: Male
+    label: VHM_LLL.7089
+    samples:
+    - rui_location: VHM_LLL.7089.json
+  - sex: Male
+    label: VHM_LLL.7090
+    samples:
+    - rui_location: VHM_LLL.7090.json
+  - sex: Male
+    label: VHM_LLL.6982
+    samples:
+    - rui_location: VHM_LLL.6982.json
+  - sex: Male
+    label: VHM_LLL.6983
+    samples:
+    - rui_location: VHM_LLL.6983.json
+  - sex: Male
+    label: VHM_LLL.6984
+    samples:
+    - rui_location: VHM_LLL.6984.json
+  - sex: Male
+    label: VHM_LLL.6985
+    samples:
+    - rui_location: VHM_LLL.6985.json
+  - sex: Male
+    label: VHM_LLL.6986
+    samples:
+    - rui_location: VHM_LLL.6986.json
+  - sex: Male
+    label: VHM_LLL.7037
+    samples:
+    - rui_location: VHM_LLL.7037.json
+  - sex: Male
+    label: VHM_LLL.7038
+    samples:
+    - rui_location: VHM_LLL.7038.json
+  - sex: Male
+    label: VHM_LLL.7039
+    samples:
+    - rui_location: VHM_LLL.7039.json
+  - sex: Male
+    label: VHM_LLL.7040
+    samples:
+    - rui_location: VHM_LLL.7040.json
+  - sex: Male
+    label: VHM_LLL.7041
+    samples:
+    - rui_location: VHM_LLL.7041.json
+  - sex: Male
+    label: VHM_LLL.7092
+    samples:
+    - rui_location: VHM_LLL.7092.json
+  - sex: Male
+    label: VHM_LLL.7093
+    samples:
+    - rui_location: VHM_LLL.7093.json
+  - sex: Male
+    label: VHM_LLL.7094
+    samples:
+    - rui_location: VHM_LLL.7094.json
+  - sex: Male
+    label: VHM_LLL.7095
+    samples:
+    - rui_location: VHM_LLL.7095.json
+  - sex: Male
+    label: VHM_LLL.6987
+    samples:
+    - rui_location: VHM_LLL.6987.json
+  - sex: Male
+    label: VHM_LLL.6988
+    samples:
+    - rui_location: VHM_LLL.6988.json
+  - sex: Male
+    label: VHM_LLL.6989
+    samples:
+    - rui_location: VHM_LLL.6989.json
+  - sex: Male
+    label: VHM_LLL.6990
+    samples:
+    - rui_location: VHM_LLL.6990.json
+  - sex: Male
+    label: VHM_LLL.6991
+    samples:
+    - rui_location: VHM_LLL.6991.json
+  - sex: Male
+    label: VHM_LLL.7042
+    samples:
+    - rui_location: VHM_LLL.7042.json
+  - sex: Male
+    label: VHM_LLL.7043
+    samples:
+    - rui_location: VHM_LLL.7043.json
+  - sex: Male
+    label: VHM_LLL.7044
+    samples:
+    - rui_location: VHM_LLL.7044.json
+  - sex: Male
+    label: VHM_LLL.7045
+    samples:
+    - rui_location: VHM_LLL.7045.json
+  - sex: Male
+    label: VHM_LLL.7046
+    samples:
+    - rui_location: VHM_LLL.7046.json
+  - sex: Male
+    label: VHM_LLL.7097
+    samples:
+    - rui_location: VHM_LLL.7097.json
+  - sex: Male
+    label: VHM_LLL.7098
+    samples:
+    - rui_location: VHM_LLL.7098.json
+  - sex: Male
+    label: VHM_LLL.7099
+    samples:
+    - rui_location: VHM_LLL.7099.json
+  - sex: Male
+    label: VHM_LLL.7100
+    samples:
+    - rui_location: VHM_LLL.7100.json
+  - sex: Male
+    label: VHM_LLL.7101
+    samples:
+    - rui_location: VHM_LLL.7101.json
+  - sex: Male
+    label: VHM_LUL.161
+    samples:
+    - rui_location: VHM_LUL.161.json
+  - sex: Male
+    label: VHM_LUL.162
+    samples:
+    - rui_location: VHM_LUL.162.json
+  - sex: Male
+    label: VHM_LUL.163
+    samples:
+    - rui_location: VHM_LUL.163.json
+  - sex: Male
+    label: VHM_LUL.164
+    samples:
+    - rui_location: VHM_LUL.164.json
+  - sex: Male
+    label: VHM_LUL.221
+    samples:
+    - rui_location: VHM_LUL.221.json
+  - sex: Male
+    label: VHM_LUL.222
+    samples:
+    - rui_location: VHM_LUL.222.json
+  - sex: Male
+    label: VHM_LUL.223
+    samples:
+    - rui_location: VHM_LUL.223.json
+  - sex: Male
+    label: VHM_LUL.224
+    samples:
+    - rui_location: VHM_LUL.224.json
+  - sex: Male
+    label: VHM_LUL.165
+    samples:
+    - rui_location: VHM_LUL.165.json
+  - sex: Male
+    label: VHM_LUL.166
+    samples:
+    - rui_location: VHM_LUL.166.json
+  - sex: Male
+    label: VHM_LUL.167
+    samples:
+    - rui_location: VHM_LUL.167.json
+  - sex: Male
+    label: VHM_LUL.168
+    samples:
+    - rui_location: VHM_LUL.168.json
+  - sex: Male
+    label: VHM_LUL.225
+    samples:
+    - rui_location: VHM_LUL.225.json
+  - sex: Male
+    label: VHM_LUL.226
+    samples:
+    - rui_location: VHM_LUL.226.json
+  - sex: Male
+    label: VHM_LUL.227
+    samples:
+    - rui_location: VHM_LUL.227.json
+  - sex: Male
+    label: VHM_LUL.228
+    samples:
+    - rui_location: VHM_LUL.228.json
+  - sex: Male
+    label: VHM_LUL.169
+    samples:
+    - rui_location: VHM_LUL.169.json
+  - sex: Male
+    label: VHM_LUL.170
+    samples:
+    - rui_location: VHM_LUL.170.json
+  - sex: Male
+    label: VHM_LUL.171
+    samples:
+    - rui_location: VHM_LUL.171.json
+  - sex: Male
+    label: VHM_LUL.172
+    samples:
+    - rui_location: VHM_LUL.172.json
+  - sex: Male
+    label: VHM_LUL.229
+    samples:
+    - rui_location: VHM_LUL.229.json
+  - sex: Male
+    label: VHM_LUL.230
+    samples:
+    - rui_location: VHM_LUL.230.json
+  - sex: Male
+    label: VHM_LUL.231
+    samples:
+    - rui_location: VHM_LUL.231.json
+  - sex: Male
+    label: VHM_LUL.232
+    samples:
+    - rui_location: VHM_LUL.232.json
+  - sex: Male
+    label: VHM_LUL.174
+    samples:
+    - rui_location: VHM_LUL.174.json
+  - sex: Male
+    label: VHM_LUL.175
+    samples:
+    - rui_location: VHM_LUL.175.json
+  - sex: Male
+    label: VHM_LUL.176
+    samples:
+    - rui_location: VHM_LUL.176.json
+  - sex: Male
+    label: VHM_LUL.234
+    samples:
+    - rui_location: VHM_LUL.234.json
+  - sex: Male
+    label: VHM_LUL.235
+    samples:
+    - rui_location: VHM_LUL.235.json
+  - sex: Male
+    label: VHM_LUL.236
+    samples:
+    - rui_location: VHM_LUL.236.json
+  - sex: Male
+    label: VHM_LUL.178
+    samples:
+    - rui_location: VHM_LUL.178.json
+  - sex: Male
+    label: VHM_LUL.179
+    samples:
+    - rui_location: VHM_LUL.179.json
+  - sex: Male
+    label: VHM_LUL.180
+    samples:
+    - rui_location: VHM_LUL.180.json
+  - sex: Male
+    label: VHM_LUL.239
+    samples:
+    - rui_location: VHM_LUL.239.json
+  - sex: Male
+    label: VHM_LUL.240
+    samples:
+    - rui_location: VHM_LUL.240.json
+  - sex: Male
+    label: VHM_LUL.182
+    samples:
+    - rui_location: VHM_LUL.182.json
+  - sex: Male
+    label: VHM_LUL.183
+    samples:
+    - rui_location: VHM_LUL.183.json
+  - sex: Male
+    label: VHM_LUL.184
+    samples:
+    - rui_location: VHM_LUL.184.json
+  - sex: Male
+    label: VHM_LUL.243
+    samples:
+    - rui_location: VHM_LUL.243.json
+  - sex: Male
+    label: VHM_LUL.244
+    samples:
+    - rui_location: VHM_LUL.244.json
+  - sex: Male
+    label: VHM_LUL.125
+    samples:
+    - rui_location: VHM_LUL.125.json
+  - sex: Male
+    label: VHM_LUL.126
+    samples:
+    - rui_location: VHM_LUL.126.json
+  - sex: Male
+    label: VHM_LUL.127
+    samples:
+    - rui_location: VHM_LUL.127.json
+  - sex: Male
+    label: VHM_LUL.128
+    samples:
+    - rui_location: VHM_LUL.128.json
+  - sex: Male
+    label: VHM_LUL.185
+    samples:
+    - rui_location: VHM_LUL.185.json
+  - sex: Male
+    label: VHM_LUL.186
+    samples:
+    - rui_location: VHM_LUL.186.json
+  - sex: Male
+    label: VHM_LUL.187
+    samples:
+    - rui_location: VHM_LUL.187.json
+  - sex: Male
+    label: VHM_LUL.188
+    samples:
+    - rui_location: VHM_LUL.188.json
+  - sex: Male
+    label: VHM_LUL.129
+    samples:
+    - rui_location: VHM_LUL.129.json
+  - sex: Male
+    label: VHM_LUL.130
+    samples:
+    - rui_location: VHM_LUL.130.json
+  - sex: Male
+    label: VHM_LUL.131
+    samples:
+    - rui_location: VHM_LUL.131.json
+  - sex: Male
+    label: VHM_LUL.132
+    samples:
+    - rui_location: VHM_LUL.132.json
+  - sex: Male
+    label: VHM_LUL.189
+    samples:
+    - rui_location: VHM_LUL.189.json
+  - sex: Male
+    label: VHM_LUL.190
+    samples:
+    - rui_location: VHM_LUL.190.json
+  - sex: Male
+    label: VHM_LUL.191
+    samples:
+    - rui_location: VHM_LUL.191.json
+  - sex: Male
+    label: VHM_LUL.192
+    samples:
+    - rui_location: VHM_LUL.192.json
+  - sex: Male
+    label: VHM_LUL.133
+    samples:
+    - rui_location: VHM_LUL.133.json
+  - sex: Male
+    label: VHM_LUL.134
+    samples:
+    - rui_location: VHM_LUL.134.json
+  - sex: Male
+    label: VHM_LUL.135
+    samples:
+    - rui_location: VHM_LUL.135.json
+  - sex: Male
+    label: VHM_LUL.136
+    samples:
+    - rui_location: VHM_LUL.136.json
+  - sex: Male
+    label: VHM_LUL.193
+    samples:
+    - rui_location: VHM_LUL.193.json
+  - sex: Male
+    label: VHM_LUL.194
+    samples:
+    - rui_location: VHM_LUL.194.json
+  - sex: Male
+    label: VHM_LUL.195
+    samples:
+    - rui_location: VHM_LUL.195.json
+  - sex: Male
+    label: VHM_LUL.196
+    samples:
+    - rui_location: VHM_LUL.196.json
+  - sex: Male
+    label: VHM_LUL.137
+    samples:
+    - rui_location: VHM_LUL.137.json
+  - sex: Male
+    label: VHM_LUL.138
+    samples:
+    - rui_location: VHM_LUL.138.json
+  - sex: Male
+    label: VHM_LUL.139
+    samples:
+    - rui_location: VHM_LUL.139.json
+  - sex: Male
+    label: VHM_LUL.140
+    samples:
+    - rui_location: VHM_LUL.140.json
+  - sex: Male
+    label: VHM_LUL.197
+    samples:
+    - rui_location: VHM_LUL.197.json
+  - sex: Male
+    label: VHM_LUL.198
+    samples:
+    - rui_location: VHM_LUL.198.json
+  - sex: Male
+    label: VHM_LUL.199
+    samples:
+    - rui_location: VHM_LUL.199.json
+  - sex: Male
+    label: VHM_LUL.200
+    samples:
+    - rui_location: VHM_LUL.200.json
+  - sex: Male
+    label: VHM_LUL.141
+    samples:
+    - rui_location: VHM_LUL.141.json
+  - sex: Male
+    label: VHM_LUL.142
+    samples:
+    - rui_location: VHM_LUL.142.json
+  - sex: Male
+    label: VHM_LUL.143
+    samples:
+    - rui_location: VHM_LUL.143.json
+  - sex: Male
+    label: VHM_LUL.144
+    samples:
+    - rui_location: VHM_LUL.144.json
+  - sex: Male
+    label: VHM_LUL.201
+    samples:
+    - rui_location: VHM_LUL.201.json
+  - sex: Male
+    label: VHM_LUL.202
+    samples:
+    - rui_location: VHM_LUL.202.json
+  - sex: Male
+    label: VHM_LUL.203
+    samples:
+    - rui_location: VHM_LUL.203.json
+  - sex: Male
+    label: VHM_LUL.204
+    samples:
+    - rui_location: VHM_LUL.204.json
+  - sex: Male
+    label: VHM_LUL.145
+    samples:
+    - rui_location: VHM_LUL.145.json
+  - sex: Male
+    label: VHM_LUL.146
+    samples:
+    - rui_location: VHM_LUL.146.json
+  - sex: Male
+    label: VHM_LUL.147
+    samples:
+    - rui_location: VHM_LUL.147.json
+  - sex: Male
+    label: VHM_LUL.148
+    samples:
+    - rui_location: VHM_LUL.148.json
+  - sex: Male
+    label: VHM_LUL.205
+    samples:
+    - rui_location: VHM_LUL.205.json
+  - sex: Male
+    label: VHM_LUL.206
+    samples:
+    - rui_location: VHM_LUL.206.json
+  - sex: Male
+    label: VHM_LUL.207
+    samples:
+    - rui_location: VHM_LUL.207.json
+  - sex: Male
+    label: VHM_LUL.208
+    samples:
+    - rui_location: VHM_LUL.208.json
+  - sex: Male
+    label: VHM_LUL.149
+    samples:
+    - rui_location: VHM_LUL.149.json
+  - sex: Male
+    label: VHM_LUL.150
+    samples:
+    - rui_location: VHM_LUL.150.json
+  - sex: Male
+    label: VHM_LUL.151
+    samples:
+    - rui_location: VHM_LUL.151.json
+  - sex: Male
+    label: VHM_LUL.152
+    samples:
+    - rui_location: VHM_LUL.152.json
+  - sex: Male
+    label: VHM_LUL.209
+    samples:
+    - rui_location: VHM_LUL.209.json
+  - sex: Male
+    label: VHM_LUL.210
+    samples:
+    - rui_location: VHM_LUL.210.json
+  - sex: Male
+    label: VHM_LUL.211
+    samples:
+    - rui_location: VHM_LUL.211.json
+  - sex: Male
+    label: VHM_LUL.212
+    samples:
+    - rui_location: VHM_LUL.212.json
+  - sex: Male
+    label: VHM_LUL.153
+    samples:
+    - rui_location: VHM_LUL.153.json
+  - sex: Male
+    label: VHM_LUL.154
+    samples:
+    - rui_location: VHM_LUL.154.json
+  - sex: Male
+    label: VHM_LUL.155
+    samples:
+    - rui_location: VHM_LUL.155.json
+  - sex: Male
+    label: VHM_LUL.156
+    samples:
+    - rui_location: VHM_LUL.156.json
+  - sex: Male
+    label: VHM_LUL.213
+    samples:
+    - rui_location: VHM_LUL.213.json
+  - sex: Male
+    label: VHM_LUL.214
+    samples:
+    - rui_location: VHM_LUL.214.json
+  - sex: Male
+    label: VHM_LUL.215
+    samples:
+    - rui_location: VHM_LUL.215.json
+  - sex: Male
+    label: VHM_LUL.216
+    samples:
+    - rui_location: VHM_LUL.216.json
+  - sex: Male
+    label: VHM_LUL.157
+    samples:
+    - rui_location: VHM_LUL.157.json
+  - sex: Male
+    label: VHM_LUL.158
+    samples:
+    - rui_location: VHM_LUL.158.json
+  - sex: Male
+    label: VHM_LUL.159
+    samples:
+    - rui_location: VHM_LUL.159.json
+  - sex: Male
+    label: VHM_LUL.160
+    samples:
+    - rui_location: VHM_LUL.160.json
+  - sex: Male
+    label: VHM_LUL.217
+    samples:
+    - rui_location: VHM_LUL.217.json
+  - sex: Male
+    label: VHM_LUL.218
+    samples:
+    - rui_location: VHM_LUL.218.json
+  - sex: Male
+    label: VHM_LUL.219
+    samples:
+    - rui_location: VHM_LUL.219.json
+  - sex: Male
+    label: VHM_LUL.220
+    samples:
+    - rui_location: VHM_LUL.220.json
+  - sex: Male
+    label: VHM_RLL.549
+    samples:
+    - rui_location: VHM_RLL.549.json
+  - sex: Male
+    label: VHM_RLL.550
+    samples:
+    - rui_location: VHM_RLL.550.json
+  - sex: Male
+    label: VHM_RLL.551
+    samples:
+    - rui_location: VHM_RLL.551.json
+  - sex: Male
+    label: VHM_RLL.582
+    samples:
+    - rui_location: VHM_RLL.582.json
+  - sex: Male
+    label: VHM_RLL.583
+    samples:
+    - rui_location: VHM_RLL.583.json
+  - sex: Male
+    label: VHM_RLL.584
+    samples:
+    - rui_location: VHM_RLL.584.json
+  - sex: Male
+    label: VHM_RLL.615
+    samples:
+    - rui_location: VHM_RLL.615.json
+  - sex: Male
+    label: VHM_RLL.616
+    samples:
+    - rui_location: VHM_RLL.616.json
+  - sex: Male
+    label: VHM_RLL.617
+    samples:
+    - rui_location: VHM_RLL.617.json
+  - sex: Male
+    label: VHM_RLL.552
+    samples:
+    - rui_location: VHM_RLL.552.json
+  - sex: Male
+    label: VHM_RLL.553
+    samples:
+    - rui_location: VHM_RLL.553.json
+  - sex: Male
+    label: VHM_RLL.554
+    samples:
+    - rui_location: VHM_RLL.554.json
+  - sex: Male
+    label: VHM_RLL.585
+    samples:
+    - rui_location: VHM_RLL.585.json
+  - sex: Male
+    label: VHM_RLL.586
+    samples:
+    - rui_location: VHM_RLL.586.json
+  - sex: Male
+    label: VHM_RLL.587
+    samples:
+    - rui_location: VHM_RLL.587.json
+  - sex: Male
+    label: VHM_RLL.619
+    samples:
+    - rui_location: VHM_RLL.619.json
+  - sex: Male
+    label: VHM_RLL.620
+    samples:
+    - rui_location: VHM_RLL.620.json
+  - sex: Male
+    label: VHM_RLL.556
+    samples:
+    - rui_location: VHM_RLL.556.json
+  - sex: Male
+    label: VHM_RLL.557
+    samples:
+    - rui_location: VHM_RLL.557.json
+  - sex: Male
+    label: VHM_RLL.590
+    samples:
+    - rui_location: VHM_RLL.590.json
+  - sex: Male
+    label: VHM_RLL.526
+    samples:
+    - rui_location: VHM_RLL.526.json
+  - sex: Male
+    label: VHM_RLL.527
+    samples:
+    - rui_location: VHM_RLL.527.json
+  - sex: Male
+    label: VHM_RLL.559
+    samples:
+    - rui_location: VHM_RLL.559.json
+  - sex: Male
+    label: VHM_RLL.560
+    samples:
+    - rui_location: VHM_RLL.560.json
+  - sex: Male
+    label: VHM_RLL.592
+    samples:
+    - rui_location: VHM_RLL.592.json
+  - sex: Male
+    label: VHM_RLL.593
+    samples:
+    - rui_location: VHM_RLL.593.json
+  - sex: Male
+    label: VHM_RLL.529
+    samples:
+    - rui_location: VHM_RLL.529.json
+  - sex: Male
+    label: VHM_RLL.530
+    samples:
+    - rui_location: VHM_RLL.530.json
+  - sex: Male
+    label: VHM_RLL.562
+    samples:
+    - rui_location: VHM_RLL.562.json
+  - sex: Male
+    label: VHM_RLL.563
+    samples:
+    - rui_location: VHM_RLL.563.json
+  - sex: Male
+    label: VHM_RLL.595
+    samples:
+    - rui_location: VHM_RLL.595.json
+  - sex: Male
+    label: VHM_RLL.531
+    samples:
+    - rui_location: VHM_RLL.531.json
+  - sex: Male
+    label: VHM_RLL.532
+    samples:
+    - rui_location: VHM_RLL.532.json
+  - sex: Male
+    label: VHM_RLL.533
+    samples:
+    - rui_location: VHM_RLL.533.json
+  - sex: Male
+    label: VHM_RLL.565
+    samples:
+    - rui_location: VHM_RLL.565.json
+  - sex: Male
+    label: VHM_RLL.566
+    samples:
+    - rui_location: VHM_RLL.566.json
+  - sex: Male
+    label: VHM_RLL.598
+    samples:
+    - rui_location: VHM_RLL.598.json
+  - sex: Male
+    label: VHM_RLL.534
+    samples:
+    - rui_location: VHM_RLL.534.json
+  - sex: Male
+    label: VHM_RLL.535
+    samples:
+    - rui_location: VHM_RLL.535.json
+  - sex: Male
+    label: VHM_RLL.536
+    samples:
+    - rui_location: VHM_RLL.536.json
+  - sex: Male
+    label: VHM_RLL.567
+    samples:
+    - rui_location: VHM_RLL.567.json
+  - sex: Male
+    label: VHM_RLL.568
+    samples:
+    - rui_location: VHM_RLL.568.json
+  - sex: Male
+    label: VHM_RLL.569
+    samples:
+    - rui_location: VHM_RLL.569.json
+  - sex: Male
+    label: VHM_RLL.601
+    samples:
+    - rui_location: VHM_RLL.601.json
+  - sex: Male
+    label: VHM_RLL.537
+    samples:
+    - rui_location: VHM_RLL.537.json
+  - sex: Male
+    label: VHM_RLL.538
+    samples:
+    - rui_location: VHM_RLL.538.json
+  - sex: Male
+    label: VHM_RLL.539
+    samples:
+    - rui_location: VHM_RLL.539.json
+  - sex: Male
+    label: VHM_RLL.570
+    samples:
+    - rui_location: VHM_RLL.570.json
+  - sex: Male
+    label: VHM_RLL.571
+    samples:
+    - rui_location: VHM_RLL.571.json
+  - sex: Male
+    label: VHM_RLL.572
+    samples:
+    - rui_location: VHM_RLL.572.json
+  - sex: Male
+    label: VHM_RLL.603
+    samples:
+    - rui_location: VHM_RLL.603.json
+  - sex: Male
+    label: VHM_RLL.604
+    samples:
+    - rui_location: VHM_RLL.604.json
+  - sex: Male
+    label: VHM_RLL.540
+    samples:
+    - rui_location: VHM_RLL.540.json
+  - sex: Male
+    label: VHM_RLL.541
+    samples:
+    - rui_location: VHM_RLL.541.json
+  - sex: Male
+    label: VHM_RLL.542
+    samples:
+    - rui_location: VHM_RLL.542.json
+  - sex: Male
+    label: VHM_RLL.573
+    samples:
+    - rui_location: VHM_RLL.573.json
+  - sex: Male
+    label: VHM_RLL.574
+    samples:
+    - rui_location: VHM_RLL.574.json
+  - sex: Male
+    label: VHM_RLL.575
+    samples:
+    - rui_location: VHM_RLL.575.json
+  - sex: Male
+    label: VHM_RLL.606
+    samples:
+    - rui_location: VHM_RLL.606.json
+  - sex: Male
+    label: VHM_RLL.607
+    samples:
+    - rui_location: VHM_RLL.607.json
+  - sex: Male
+    label: VHM_RLL.608
+    samples:
+    - rui_location: VHM_RLL.608.json
+  - sex: Male
+    label: VHM_RLL.543
+    samples:
+    - rui_location: VHM_RLL.543.json
+  - sex: Male
+    label: VHM_RLL.544
+    samples:
+    - rui_location: VHM_RLL.544.json
+  - sex: Male
+    label: VHM_RLL.545
+    samples:
+    - rui_location: VHM_RLL.545.json
+  - sex: Male
+    label: VHM_RLL.576
+    samples:
+    - rui_location: VHM_RLL.576.json
+  - sex: Male
+    label: VHM_RLL.577
+    samples:
+    - rui_location: VHM_RLL.577.json
+  - sex: Male
+    label: VHM_RLL.578
+    samples:
+    - rui_location: VHM_RLL.578.json
+  - sex: Male
+    label: VHM_RLL.609
+    samples:
+    - rui_location: VHM_RLL.609.json
+  - sex: Male
+    label: VHM_RLL.610
+    samples:
+    - rui_location: VHM_RLL.610.json
+  - sex: Male
+    label: VHM_RLL.611
+    samples:
+    - rui_location: VHM_RLL.611.json
+  - sex: Male
+    label: VHM_RLL.546
+    samples:
+    - rui_location: VHM_RLL.546.json
+  - sex: Male
+    label: VHM_RLL.547
+    samples:
+    - rui_location: VHM_RLL.547.json
+  - sex: Male
+    label: VHM_RLL.548
+    samples:
+    - rui_location: VHM_RLL.548.json
+  - sex: Male
+    label: VHM_RLL.579
+    samples:
+    - rui_location: VHM_RLL.579.json
+  - sex: Male
+    label: VHM_RLL.580
+    samples:
+    - rui_location: VHM_RLL.580.json
+  - sex: Male
+    label: VHM_RLL.581
+    samples:
+    - rui_location: VHM_RLL.581.json
+  - sex: Male
+    label: VHM_RLL.612
+    samples:
+    - rui_location: VHM_RLL.612.json
+  - sex: Male
+    label: VHM_RLL.613
+    samples:
+    - rui_location: VHM_RLL.613.json
+  - sex: Male
+    label: VHM_RLL.614
+    samples:
+    - rui_location: VHM_RLL.614.json
+  - sex: Male
+    label: VHM_RML.016
+    samples:
+    - rui_location: VHM_RML.016.json
+  - sex: Male
+    label: VHM_RML.017
+    samples:
+    - rui_location: VHM_RML.017.json
+  - sex: Male
+    label: VHM_RML.018
+    samples:
+    - rui_location: VHM_RML.018.json
+  - sex: Male
+    label: VHM_RML.019
+    samples:
+    - rui_location: VHM_RML.019.json
+  - sex: Male
+    label: VHM_RML.020
+    samples:
+    - rui_location: VHM_RML.020.json
+  - sex: Male
+    label: VHM_RML.021
+    samples:
+    - rui_location: VHM_RML.021.json
+  - sex: Male
+    label: VHM_RML.022
+    samples:
+    - rui_location: VHM_RML.022.json
+  - sex: Male
+    label: VHM_RML.023
+    samples:
+    - rui_location: VHM_RML.023.json
+  - sex: Male
+    label: VHM_RML.024
+    samples:
+    - rui_location: VHM_RML.024.json
+  - sex: Male
+    label: VHM_RML.025
+    samples:
+    - rui_location: VHM_RML.025.json
+  - sex: Male
+    label: VHM_RML.026
+    samples:
+    - rui_location: VHM_RML.026.json
+  - sex: Male
+    label: VHM_RML.027
+    samples:
+    - rui_location: VHM_RML.027.json
+  - sex: Male
+    label: VHM_RUL.036
+    samples:
+    - rui_location: VHM_RUL.036.json
+  - sex: Male
+    label: VHM_RUL.037
+    samples:
+    - rui_location: VHM_RUL.037.json
+  - sex: Male
+    label: VHM_RUL.038
+    samples:
+    - rui_location: VHM_RUL.038.json
+  - sex: Male
+    label: VHM_RUL.039
+    samples:
+    - rui_location: VHM_RUL.039.json
+  - sex: Male
+    label: VHM_RUL.052
+    samples:
+    - rui_location: VHM_RUL.052.json
+  - sex: Male
+    label: VHM_RUL.053
+    samples:
+    - rui_location: VHM_RUL.053.json
+  - sex: Male
+    label: VHM_RUL.054
+    samples:
+    - rui_location: VHM_RUL.054.json
+  - sex: Male
+    label: VHM_RUL.055
+    samples:
+    - rui_location: VHM_RUL.055.json
+  - sex: Male
+    label: VHM_RUL.040
+    samples:
+    - rui_location: VHM_RUL.040.json
+  - sex: Male
+    label: VHM_RUL.041
+    samples:
+    - rui_location: VHM_RUL.041.json
+  - sex: Male
+    label: VHM_RUL.042
+    samples:
+    - rui_location: VHM_RUL.042.json
+  - sex: Male
+    label: VHM_RUL.043
+    samples:
+    - rui_location: VHM_RUL.043.json
+  - sex: Male
+    label: VHM_RUL.056
+    samples:
+    - rui_location: VHM_RUL.056.json
+  - sex: Male
+    label: VHM_RUL.057
+    samples:
+    - rui_location: VHM_RUL.057.json
+  - sex: Male
+    label: VHM_RUL.058
+    samples:
+    - rui_location: VHM_RUL.058.json
+  - sex: Male
+    label: VHM_RUL.059
+    samples:
+    - rui_location: VHM_RUL.059.json
+  - sex: Male
+    label: VHM_RUL.044
+    samples:
+    - rui_location: VHM_RUL.044.json
+  - sex: Male
+    label: VHM_RUL.045
+    samples:
+    - rui_location: VHM_RUL.045.json
+  - sex: Male
+    label: VHM_RUL.046
+    samples:
+    - rui_location: VHM_RUL.046.json
+  - sex: Male
+    label: VHM_RUL.060
+    samples:
+    - rui_location: VHM_RUL.060.json
+  - sex: Male
+    label: VHM_RUL.061
+    samples:
+    - rui_location: VHM_RUL.061.json
+  - sex: Male
+    label: VHM_RUL.062
+    samples:
+    - rui_location: VHM_RUL.062.json
+  - sex: Male
+    label: VHM_RUL.048
+    samples:
+    - rui_location: VHM_RUL.048.json
+  - sex: Male
+    label: VHM_RUL.049
+    samples:
+    - rui_location: VHM_RUL.049.json
+  - sex: Male
+    label: VHM_RUL.050
+    samples:
+    - rui_location: VHM_RUL.050.json
+  - sex: Male
+    label: VHM_RUL.065
+    samples:
+    - rui_location: VHM_RUL.065.json
+  - sex: Male
+    label: VHM_RUL.066
+    samples:
+    - rui_location: VHM_RUL.066.json

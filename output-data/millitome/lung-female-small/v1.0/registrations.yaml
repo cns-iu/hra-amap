@@ -1,0 +1,1210 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HRA
+  provider_name: MC-IU
+  provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
+  defaults:
+    id: https://purl.humanatlas.io/millitome/lung-female-small/v1.0
+    thumbnail: assets/icons/ico-unknown.svg
+    link: https://purl.humanatlas.io/millitome/lung-female-small/v1.0
+  donors:
+  - sex: Female
+    label: VHF_LLL.1164
+    samples:
+    - rui_location: VHF_LLL.1164.json
+  - sex: Female
+    label: VHF_LLL.1165
+    samples:
+    - rui_location: VHF_LLL.1165.json
+  - sex: Female
+    label: VHF_LLL.1204
+    samples:
+    - rui_location: VHF_LLL.1204.json
+  - sex: Female
+    label: VHF_LLL.1205
+    samples:
+    - rui_location: VHF_LLL.1205.json
+  - sex: Female
+    label: VHF_LLL.1206
+    samples:
+    - rui_location: VHF_LLL.1206.json
+  - sex: Female
+    label: VHF_LLL.1245
+    samples:
+    - rui_location: VHF_LLL.1245.json
+  - sex: Female
+    label: VHF_LLL.1246
+    samples:
+    - rui_location: VHF_LLL.1246.json
+  - sex: Female
+    label: VHF_LLL.1130
+    samples:
+    - rui_location: VHF_LLL.1130.json
+  - sex: Female
+    label: VHF_LLL.1169
+    samples:
+    - rui_location: VHF_LLL.1169.json
+  - sex: Female
+    label: VHF_LLL.1170
+    samples:
+    - rui_location: VHF_LLL.1170.json
+  - sex: Female
+    label: VHF_LLL.1133
+    samples:
+    - rui_location: VHF_LLL.1133.json
+  - sex: Female
+    label: VHF_LLL.1134
+    samples:
+    - rui_location: VHF_LLL.1134.json
+  - sex: Female
+    label: VHF_LLL.1172
+    samples:
+    - rui_location: VHF_LLL.1172.json
+  - sex: Female
+    label: VHF_LLL.1173
+    samples:
+    - rui_location: VHF_LLL.1173.json
+  - sex: Female
+    label: VHF_LLL.1174
+    samples:
+    - rui_location: VHF_LLL.1174.json
+  - sex: Female
+    label: VHF_LLL.1136
+    samples:
+    - rui_location: VHF_LLL.1136.json
+  - sex: Female
+    label: VHF_LLL.1137
+    samples:
+    - rui_location: VHF_LLL.1137.json
+  - sex: Female
+    label: VHF_LLL.1138
+    samples:
+    - rui_location: VHF_LLL.1138.json
+  - sex: Female
+    label: VHF_LLL.1176
+    samples:
+    - rui_location: VHF_LLL.1176.json
+  - sex: Female
+    label: VHF_LLL.1177
+    samples:
+    - rui_location: VHF_LLL.1177.json
+  - sex: Female
+    label: VHF_LLL.1178
+    samples:
+    - rui_location: VHF_LLL.1178.json
+  - sex: Female
+    label: VHF_LLL.1217
+    samples:
+    - rui_location: VHF_LLL.1217.json
+  - sex: Female
+    label: VHF_LLL.1218
+    samples:
+    - rui_location: VHF_LLL.1218.json
+  - sex: Female
+    label: VHF_LLL.1139
+    samples:
+    - rui_location: VHF_LLL.1139.json
+  - sex: Female
+    label: VHF_LLL.1140
+    samples:
+    - rui_location: VHF_LLL.1140.json
+  - sex: Female
+    label: VHF_LLL.1141
+    samples:
+    - rui_location: VHF_LLL.1141.json
+  - sex: Female
+    label: VHF_LLL.1142
+    samples:
+    - rui_location: VHF_LLL.1142.json
+  - sex: Female
+    label: VHF_LLL.1179
+    samples:
+    - rui_location: VHF_LLL.1179.json
+  - sex: Female
+    label: VHF_LLL.1180
+    samples:
+    - rui_location: VHF_LLL.1180.json
+  - sex: Female
+    label: VHF_LLL.1181
+    samples:
+    - rui_location: VHF_LLL.1181.json
+  - sex: Female
+    label: VHF_LLL.1182
+    samples:
+    - rui_location: VHF_LLL.1182.json
+  - sex: Female
+    label: VHF_LLL.1221
+    samples:
+    - rui_location: VHF_LLL.1221.json
+  - sex: Female
+    label: VHF_LLL.1222
+    samples:
+    - rui_location: VHF_LLL.1222.json
+  - sex: Female
+    label: VHF_LLL.1143
+    samples:
+    - rui_location: VHF_LLL.1143.json
+  - sex: Female
+    label: VHF_LLL.1144
+    samples:
+    - rui_location: VHF_LLL.1144.json
+  - sex: Female
+    label: VHF_LLL.1145
+    samples:
+    - rui_location: VHF_LLL.1145.json
+  - sex: Female
+    label: VHF_LLL.1146
+    samples:
+    - rui_location: VHF_LLL.1146.json
+  - sex: Female
+    label: VHF_LLL.1183
+    samples:
+    - rui_location: VHF_LLL.1183.json
+  - sex: Female
+    label: VHF_LLL.1184
+    samples:
+    - rui_location: VHF_LLL.1184.json
+  - sex: Female
+    label: VHF_LLL.1185
+    samples:
+    - rui_location: VHF_LLL.1185.json
+  - sex: Female
+    label: VHF_LLL.1186
+    samples:
+    - rui_location: VHF_LLL.1186.json
+  - sex: Female
+    label: VHF_LLL.1225
+    samples:
+    - rui_location: VHF_LLL.1225.json
+  - sex: Female
+    label: VHF_LLL.1226
+    samples:
+    - rui_location: VHF_LLL.1226.json
+  - sex: Female
+    label: VHF_LLL.1147
+    samples:
+    - rui_location: VHF_LLL.1147.json
+  - sex: Female
+    label: VHF_LLL.1148
+    samples:
+    - rui_location: VHF_LLL.1148.json
+  - sex: Female
+    label: VHF_LLL.1149
+    samples:
+    - rui_location: VHF_LLL.1149.json
+  - sex: Female
+    label: VHF_LLL.1150
+    samples:
+    - rui_location: VHF_LLL.1150.json
+  - sex: Female
+    label: VHF_LLL.1187
+    samples:
+    - rui_location: VHF_LLL.1187.json
+  - sex: Female
+    label: VHF_LLL.1188
+    samples:
+    - rui_location: VHF_LLL.1188.json
+  - sex: Female
+    label: VHF_LLL.1189
+    samples:
+    - rui_location: VHF_LLL.1189.json
+  - sex: Female
+    label: VHF_LLL.1190
+    samples:
+    - rui_location: VHF_LLL.1190.json
+  - sex: Female
+    label: VHF_LLL.1228
+    samples:
+    - rui_location: VHF_LLL.1228.json
+  - sex: Female
+    label: VHF_LLL.1229
+    samples:
+    - rui_location: VHF_LLL.1229.json
+  - sex: Female
+    label: VHF_LLL.1230
+    samples:
+    - rui_location: VHF_LLL.1230.json
+  - sex: Female
+    label: VHF_LLL.1151
+    samples:
+    - rui_location: VHF_LLL.1151.json
+  - sex: Female
+    label: VHF_LLL.1152
+    samples:
+    - rui_location: VHF_LLL.1152.json
+  - sex: Female
+    label: VHF_LLL.1153
+    samples:
+    - rui_location: VHF_LLL.1153.json
+  - sex: Female
+    label: VHF_LLL.1154
+    samples:
+    - rui_location: VHF_LLL.1154.json
+  - sex: Female
+    label: VHF_LLL.1191
+    samples:
+    - rui_location: VHF_LLL.1191.json
+  - sex: Female
+    label: VHF_LLL.1192
+    samples:
+    - rui_location: VHF_LLL.1192.json
+  - sex: Female
+    label: VHF_LLL.1193
+    samples:
+    - rui_location: VHF_LLL.1193.json
+  - sex: Female
+    label: VHF_LLL.1194
+    samples:
+    - rui_location: VHF_LLL.1194.json
+  - sex: Female
+    label: VHF_LLL.1232
+    samples:
+    - rui_location: VHF_LLL.1232.json
+  - sex: Female
+    label: VHF_LLL.1155
+    samples:
+    - rui_location: VHF_LLL.1155.json
+  - sex: Female
+    label: VHF_LLL.1156
+    samples:
+    - rui_location: VHF_LLL.1156.json
+  - sex: Female
+    label: VHF_LLL.1157
+    samples:
+    - rui_location: VHF_LLL.1157.json
+  - sex: Female
+    label: VHF_LLL.1158
+    samples:
+    - rui_location: VHF_LLL.1158.json
+  - sex: Female
+    label: VHF_LLL.1196
+    samples:
+    - rui_location: VHF_LLL.1196.json
+  - sex: Female
+    label: VHF_LLL.1197
+    samples:
+    - rui_location: VHF_LLL.1197.json
+  - sex: Female
+    label: VHF_LLL.1198
+    samples:
+    - rui_location: VHF_LLL.1198.json
+  - sex: Female
+    label: VHF_LLL.1236
+    samples:
+    - rui_location: VHF_LLL.1236.json
+  - sex: Female
+    label: VHF_LLL.1160
+    samples:
+    - rui_location: VHF_LLL.1160.json
+  - sex: Female
+    label: VHF_LLL.1161
+    samples:
+    - rui_location: VHF_LLL.1161.json
+  - sex: Female
+    label: VHF_LLL.1162
+    samples:
+    - rui_location: VHF_LLL.1162.json
+  - sex: Female
+    label: VHF_LLL.1200
+    samples:
+    - rui_location: VHF_LLL.1200.json
+  - sex: Female
+    label: VHF_LLL.1201
+    samples:
+    - rui_location: VHF_LLL.1201.json
+  - sex: Female
+    label: VHF_LLL.1202
+    samples:
+    - rui_location: VHF_LLL.1202.json
+  - sex: Female
+    label: VHF_LLL.1240
+    samples:
+    - rui_location: VHF_LLL.1240.json
+  - sex: Female
+    label: VHF_LLL.1241
+    samples:
+    - rui_location: VHF_LLL.1241.json
+  - sex: Female
+    label: VHF_LLL.1242
+    samples:
+    - rui_location: VHF_LLL.1242.json
+  - sex: Female
+    label: LUL.13074
+    samples:
+    - rui_location: LUL.13074.json
+  - sex: Female
+    label: LUL.13075
+    samples:
+    - rui_location: LUL.13075.json
+  - sex: Female
+    label: LUL.13076
+    samples:
+    - rui_location: LUL.13076.json
+  - sex: Female
+    label: LUL.13077
+    samples:
+    - rui_location: LUL.13077.json
+  - sex: Female
+    label: LUL.13130
+    samples:
+    - rui_location: LUL.13130.json
+  - sex: Female
+    label: LUL.13131
+    samples:
+    - rui_location: LUL.13131.json
+  - sex: Female
+    label: LUL.13132
+    samples:
+    - rui_location: LUL.13132.json
+  - sex: Female
+    label: LUL.13133
+    samples:
+    - rui_location: LUL.13133.json
+  - sex: Female
+    label: LUL.13078
+    samples:
+    - rui_location: LUL.13078.json
+  - sex: Female
+    label: LUL.13079
+    samples:
+    - rui_location: LUL.13079.json
+  - sex: Female
+    label: LUL.13080
+    samples:
+    - rui_location: LUL.13080.json
+  - sex: Female
+    label: LUL.13081
+    samples:
+    - rui_location: LUL.13081.json
+  - sex: Female
+    label: LUL.13134
+    samples:
+    - rui_location: LUL.13134.json
+  - sex: Female
+    label: LUL.13135
+    samples:
+    - rui_location: LUL.13135.json
+  - sex: Female
+    label: LUL.13136
+    samples:
+    - rui_location: LUL.13136.json
+  - sex: Female
+    label: LUL.13137
+    samples:
+    - rui_location: LUL.13137.json
+  - sex: Female
+    label: LUL.13082
+    samples:
+    - rui_location: LUL.13082.json
+  - sex: Female
+    label: LUL.13083
+    samples:
+    - rui_location: LUL.13083.json
+  - sex: Female
+    label: LUL.13084
+    samples:
+    - rui_location: LUL.13084.json
+  - sex: Female
+    label: LUL.13085
+    samples:
+    - rui_location: LUL.13085.json
+  - sex: Female
+    label: LUL.13138
+    samples:
+    - rui_location: LUL.13138.json
+  - sex: Female
+    label: LUL.13139
+    samples:
+    - rui_location: LUL.13139.json
+  - sex: Female
+    label: LUL.13140
+    samples:
+    - rui_location: LUL.13140.json
+  - sex: Female
+    label: LUL.13141
+    samples:
+    - rui_location: LUL.13141.json
+  - sex: Female
+    label: LUL.13086
+    samples:
+    - rui_location: LUL.13086.json
+  - sex: Female
+    label: LUL.13087
+    samples:
+    - rui_location: LUL.13087.json
+  - sex: Female
+    label: LUL.13088
+    samples:
+    - rui_location: LUL.13088.json
+  - sex: Female
+    label: LUL.13089
+    samples:
+    - rui_location: LUL.13089.json
+  - sex: Female
+    label: LUL.13142
+    samples:
+    - rui_location: LUL.13142.json
+  - sex: Female
+    label: LUL.13143
+    samples:
+    - rui_location: LUL.13143.json
+  - sex: Female
+    label: LUL.13144
+    samples:
+    - rui_location: LUL.13144.json
+  - sex: Female
+    label: LUL.13091
+    samples:
+    - rui_location: LUL.13091.json
+  - sex: Female
+    label: LUL.13092
+    samples:
+    - rui_location: LUL.13092.json
+  - sex: Female
+    label: LUL.13093
+    samples:
+    - rui_location: LUL.13093.json
+  - sex: Female
+    label: LUL.13147
+    samples:
+    - rui_location: LUL.13147.json
+  - sex: Female
+    label: LUL.13148
+    samples:
+    - rui_location: LUL.13148.json
+  - sex: Female
+    label: LUL.13038
+    samples:
+    - rui_location: LUL.13038.json
+  - sex: Female
+    label: LUL.13039
+    samples:
+    - rui_location: LUL.13039.json
+  - sex: Female
+    label: LUL.13040
+    samples:
+    - rui_location: LUL.13040.json
+  - sex: Female
+    label: LUL.13041
+    samples:
+    - rui_location: LUL.13041.json
+  - sex: Female
+    label: LUL.13095
+    samples:
+    - rui_location: LUL.13095.json
+  - sex: Female
+    label: LUL.13096
+    samples:
+    - rui_location: LUL.13096.json
+  - sex: Female
+    label: LUL.13097
+    samples:
+    - rui_location: LUL.13097.json
+  - sex: Female
+    label: LUL.13042
+    samples:
+    - rui_location: LUL.13042.json
+  - sex: Female
+    label: LUL.13043
+    samples:
+    - rui_location: LUL.13043.json
+  - sex: Female
+    label: LUL.13044
+    samples:
+    - rui_location: LUL.13044.json
+  - sex: Female
+    label: LUL.13045
+    samples:
+    - rui_location: LUL.13045.json
+  - sex: Female
+    label: LUL.13098
+    samples:
+    - rui_location: LUL.13098.json
+  - sex: Female
+    label: LUL.13099
+    samples:
+    - rui_location: LUL.13099.json
+  - sex: Female
+    label: LUL.13100
+    samples:
+    - rui_location: LUL.13100.json
+  - sex: Female
+    label: LUL.13101
+    samples:
+    - rui_location: LUL.13101.json
+  - sex: Female
+    label: LUL.13046
+    samples:
+    - rui_location: LUL.13046.json
+  - sex: Female
+    label: LUL.13047
+    samples:
+    - rui_location: LUL.13047.json
+  - sex: Female
+    label: LUL.13048
+    samples:
+    - rui_location: LUL.13048.json
+  - sex: Female
+    label: LUL.13049
+    samples:
+    - rui_location: LUL.13049.json
+  - sex: Female
+    label: LUL.13102
+    samples:
+    - rui_location: LUL.13102.json
+  - sex: Female
+    label: LUL.13103
+    samples:
+    - rui_location: LUL.13103.json
+  - sex: Female
+    label: LUL.13104
+    samples:
+    - rui_location: LUL.13104.json
+  - sex: Female
+    label: LUL.13105
+    samples:
+    - rui_location: LUL.13105.json
+  - sex: Female
+    label: LUL.13050
+    samples:
+    - rui_location: LUL.13050.json
+  - sex: Female
+    label: LUL.13051
+    samples:
+    - rui_location: LUL.13051.json
+  - sex: Female
+    label: LUL.13052
+    samples:
+    - rui_location: LUL.13052.json
+  - sex: Female
+    label: LUL.13053
+    samples:
+    - rui_location: LUL.13053.json
+  - sex: Female
+    label: LUL.13106
+    samples:
+    - rui_location: LUL.13106.json
+  - sex: Female
+    label: LUL.13107
+    samples:
+    - rui_location: LUL.13107.json
+  - sex: Female
+    label: LUL.13108
+    samples:
+    - rui_location: LUL.13108.json
+  - sex: Female
+    label: LUL.13109
+    samples:
+    - rui_location: LUL.13109.json
+  - sex: Female
+    label: LUL.13054
+    samples:
+    - rui_location: LUL.13054.json
+  - sex: Female
+    label: LUL.13055
+    samples:
+    - rui_location: LUL.13055.json
+  - sex: Female
+    label: LUL.13056
+    samples:
+    - rui_location: LUL.13056.json
+  - sex: Female
+    label: LUL.13057
+    samples:
+    - rui_location: LUL.13057.json
+  - sex: Female
+    label: LUL.13110
+    samples:
+    - rui_location: LUL.13110.json
+  - sex: Female
+    label: LUL.13111
+    samples:
+    - rui_location: LUL.13111.json
+  - sex: Female
+    label: LUL.13112
+    samples:
+    - rui_location: LUL.13112.json
+  - sex: Female
+    label: LUL.13113
+    samples:
+    - rui_location: LUL.13113.json
+  - sex: Female
+    label: LUL.13058
+    samples:
+    - rui_location: LUL.13058.json
+  - sex: Female
+    label: LUL.13059
+    samples:
+    - rui_location: LUL.13059.json
+  - sex: Female
+    label: LUL.13060
+    samples:
+    - rui_location: LUL.13060.json
+  - sex: Female
+    label: LUL.13061
+    samples:
+    - rui_location: LUL.13061.json
+  - sex: Female
+    label: LUL.13114
+    samples:
+    - rui_location: LUL.13114.json
+  - sex: Female
+    label: LUL.13115
+    samples:
+    - rui_location: LUL.13115.json
+  - sex: Female
+    label: LUL.13116
+    samples:
+    - rui_location: LUL.13116.json
+  - sex: Female
+    label: LUL.13117
+    samples:
+    - rui_location: LUL.13117.json
+  - sex: Female
+    label: LUL.13062
+    samples:
+    - rui_location: LUL.13062.json
+  - sex: Female
+    label: LUL.13063
+    samples:
+    - rui_location: LUL.13063.json
+  - sex: Female
+    label: LUL.13064
+    samples:
+    - rui_location: LUL.13064.json
+  - sex: Female
+    label: LUL.13065
+    samples:
+    - rui_location: LUL.13065.json
+  - sex: Female
+    label: LUL.13118
+    samples:
+    - rui_location: LUL.13118.json
+  - sex: Female
+    label: LUL.13119
+    samples:
+    - rui_location: LUL.13119.json
+  - sex: Female
+    label: LUL.13120
+    samples:
+    - rui_location: LUL.13120.json
+  - sex: Female
+    label: LUL.13121
+    samples:
+    - rui_location: LUL.13121.json
+  - sex: Female
+    label: LUL.13066
+    samples:
+    - rui_location: LUL.13066.json
+  - sex: Female
+    label: LUL.13067
+    samples:
+    - rui_location: LUL.13067.json
+  - sex: Female
+    label: LUL.13068
+    samples:
+    - rui_location: LUL.13068.json
+  - sex: Female
+    label: LUL.13069
+    samples:
+    - rui_location: LUL.13069.json
+  - sex: Female
+    label: LUL.13122
+    samples:
+    - rui_location: LUL.13122.json
+  - sex: Female
+    label: LUL.13123
+    samples:
+    - rui_location: LUL.13123.json
+  - sex: Female
+    label: LUL.13124
+    samples:
+    - rui_location: LUL.13124.json
+  - sex: Female
+    label: LUL.13125
+    samples:
+    - rui_location: LUL.13125.json
+  - sex: Female
+    label: LUL.13070
+    samples:
+    - rui_location: LUL.13070.json
+  - sex: Female
+    label: LUL.13071
+    samples:
+    - rui_location: LUL.13071.json
+  - sex: Female
+    label: LUL.13072
+    samples:
+    - rui_location: LUL.13072.json
+  - sex: Female
+    label: LUL.13073
+    samples:
+    - rui_location: LUL.13073.json
+  - sex: Female
+    label: LUL.13126
+    samples:
+    - rui_location: LUL.13126.json
+  - sex: Female
+    label: LUL.13127
+    samples:
+    - rui_location: LUL.13127.json
+  - sex: Female
+    label: LUL.13128
+    samples:
+    - rui_location: LUL.13128.json
+  - sex: Female
+    label: LUL.13129
+    samples:
+    - rui_location: LUL.13129.json
+  - sex: Female
+    label: VHF_RLL.38583
+    samples:
+    - rui_location: VHF_RLL.38583.json
+  - sex: Female
+    label: VHF_RLL.38584
+    samples:
+    - rui_location: VHF_RLL.38584.json
+  - sex: Female
+    label: VHF_RLL.38585
+    samples:
+    - rui_location: VHF_RLL.38585.json
+  - sex: Female
+    label: VHF_RLL.38616
+    samples:
+    - rui_location: VHF_RLL.38616.json
+  - sex: Female
+    label: VHF_RLL.38617
+    samples:
+    - rui_location: VHF_RLL.38617.json
+  - sex: Female
+    label: VHF_RLL.38618
+    samples:
+    - rui_location: VHF_RLL.38618.json
+  - sex: Female
+    label: VHF_RLL.38586
+    samples:
+    - rui_location: VHF_RLL.38586.json
+  - sex: Female
+    label: VHF_RLL.38587
+    samples:
+    - rui_location: VHF_RLL.38587.json
+  - sex: Female
+    label: VHF_RLL.38588
+    samples:
+    - rui_location: VHF_RLL.38588.json
+  - sex: Female
+    label: VHF_RLL.38619
+    samples:
+    - rui_location: VHF_RLL.38619.json
+  - sex: Female
+    label: VHF_RLL.38620
+    samples:
+    - rui_location: VHF_RLL.38620.json
+  - sex: Female
+    label: VHF_RLL.38621
+    samples:
+    - rui_location: VHF_RLL.38621.json
+  - sex: Female
+    label: VHF_RLL.38557
+    samples:
+    - rui_location: VHF_RLL.38557.json
+  - sex: Female
+    label: VHF_RLL.38558
+    samples:
+    - rui_location: VHF_RLL.38558.json
+  - sex: Female
+    label: VHF_RLL.38591
+    samples:
+    - rui_location: VHF_RLL.38591.json
+  - sex: Female
+    label: VHF_RLL.38560
+    samples:
+    - rui_location: VHF_RLL.38560.json
+  - sex: Female
+    label: VHF_RLL.38561
+    samples:
+    - rui_location: VHF_RLL.38561.json
+  - sex: Female
+    label: VHF_RLL.38593
+    samples:
+    - rui_location: VHF_RLL.38593.json
+  - sex: Female
+    label: VHF_RLL.38594
+    samples:
+    - rui_location: VHF_RLL.38594.json
+  - sex: Female
+    label: VHF_RLL.38563
+    samples:
+    - rui_location: VHF_RLL.38563.json
+  - sex: Female
+    label: VHF_RLL.38564
+    samples:
+    - rui_location: VHF_RLL.38564.json
+  - sex: Female
+    label: VHF_RLL.38596
+    samples:
+    - rui_location: VHF_RLL.38596.json
+  - sex: Female
+    label: VHF_RLL.38597
+    samples:
+    - rui_location: VHF_RLL.38597.json
+  - sex: Female
+    label: VHF_RLL.38566
+    samples:
+    - rui_location: VHF_RLL.38566.json
+  - sex: Female
+    label: VHF_RLL.38567
+    samples:
+    - rui_location: VHF_RLL.38567.json
+  - sex: Female
+    label: VHF_RLL.38599
+    samples:
+    - rui_location: VHF_RLL.38599.json
+  - sex: Female
+    label: VHF_RLL.38600
+    samples:
+    - rui_location: VHF_RLL.38600.json
+  - sex: Female
+    label: VHF_RLL.38569
+    samples:
+    - rui_location: VHF_RLL.38569.json
+  - sex: Female
+    label: VHF_RLL.38570
+    samples:
+    - rui_location: VHF_RLL.38570.json
+  - sex: Female
+    label: VHF_RLL.38602
+    samples:
+    - rui_location: VHF_RLL.38602.json
+  - sex: Female
+    label: VHF_RLL.38603
+    samples:
+    - rui_location: VHF_RLL.38603.json
+  - sex: Female
+    label: VHF_RLL.38572
+    samples:
+    - rui_location: VHF_RLL.38572.json
+  - sex: Female
+    label: VHF_RLL.38573
+    samples:
+    - rui_location: VHF_RLL.38573.json
+  - sex: Female
+    label: VHF_RLL.38605
+    samples:
+    - rui_location: VHF_RLL.38605.json
+  - sex: Female
+    label: VHF_RLL.38606
+    samples:
+    - rui_location: VHF_RLL.38606.json
+  - sex: Female
+    label: VHF_RLL.38575
+    samples:
+    - rui_location: VHF_RLL.38575.json
+  - sex: Female
+    label: VHF_RLL.38576
+    samples:
+    - rui_location: VHF_RLL.38576.json
+  - sex: Female
+    label: VHF_RLL.38608
+    samples:
+    - rui_location: VHF_RLL.38608.json
+  - sex: Female
+    label: VHF_RLL.38609
+    samples:
+    - rui_location: VHF_RLL.38609.json
+  - sex: Female
+    label: VHF_RLL.38577
+    samples:
+    - rui_location: VHF_RLL.38577.json
+  - sex: Female
+    label: VHF_RLL.38578
+    samples:
+    - rui_location: VHF_RLL.38578.json
+  - sex: Female
+    label: VHF_RLL.38579
+    samples:
+    - rui_location: VHF_RLL.38579.json
+  - sex: Female
+    label: VHF_RLL.38610
+    samples:
+    - rui_location: VHF_RLL.38610.json
+  - sex: Female
+    label: VHF_RLL.38611
+    samples:
+    - rui_location: VHF_RLL.38611.json
+  - sex: Female
+    label: VHF_RLL.38612
+    samples:
+    - rui_location: VHF_RLL.38612.json
+  - sex: Female
+    label: VHF_RLL.38580
+    samples:
+    - rui_location: VHF_RLL.38580.json
+  - sex: Female
+    label: VHF_RLL.38581
+    samples:
+    - rui_location: VHF_RLL.38581.json
+  - sex: Female
+    label: VHF_RLL.38582
+    samples:
+    - rui_location: VHF_RLL.38582.json
+  - sex: Female
+    label: VHF_RLL.38613
+    samples:
+    - rui_location: VHF_RLL.38613.json
+  - sex: Female
+    label: VHF_RLL.38614
+    samples:
+    - rui_location: VHF_RLL.38614.json
+  - sex: Female
+    label: VHF_RLL.38615
+    samples:
+    - rui_location: VHF_RLL.38615.json
+  - sex: Female
+    label: VHF_RML.146
+    samples:
+    - rui_location: VHF_RML.146.json
+  - sex: Female
+    label: VHF_RML.147
+    samples:
+    - rui_location: VHF_RML.147.json
+  - sex: Female
+    label: VHF_RML.148
+    samples:
+    - rui_location: VHF_RML.148.json
+  - sex: Female
+    label: VHF_RML.149
+    samples:
+    - rui_location: VHF_RML.149.json
+  - sex: Female
+    label: VHF_RML.150
+    samples:
+    - rui_location: VHF_RML.150.json
+  - sex: Female
+    label: VHF_RML.151
+    samples:
+    - rui_location: VHF_RML.151.json
+  - sex: Female
+    label: VHF_RML.152
+    samples:
+    - rui_location: VHF_RML.152.json
+  - sex: Female
+    label: VHF_RML.153
+    samples:
+    - rui_location: VHF_RML.153.json
+  - sex: Female
+    label: VHF_RML.154
+    samples:
+    - rui_location: VHF_RML.154.json
+  - sex: Female
+    label: VHF_RML.155
+    samples:
+    - rui_location: VHF_RML.155.json
+  - sex: Female
+    label: VHF_RML.156
+    samples:
+    - rui_location: VHF_RML.156.json
+  - sex: Female
+    label: VHF_RML.157
+    samples:
+    - rui_location: VHF_RML.157.json
+  - sex: Female
+    label: VHF_RUL.764
+    samples:
+    - rui_location: VHF_RUL.764.json
+  - sex: Female
+    label: VHF_RUL.765
+    samples:
+    - rui_location: VHF_RUL.765.json
+  - sex: Female
+    label: VHF_RUL.766
+    samples:
+    - rui_location: VHF_RUL.766.json
+  - sex: Female
+    label: VHF_RUL.767
+    samples:
+    - rui_location: VHF_RUL.767.json
+  - sex: Female
+    label: VHF_RUL.793
+    samples:
+    - rui_location: VHF_RUL.793.json
+  - sex: Female
+    label: VHF_RUL.794
+    samples:
+    - rui_location: VHF_RUL.794.json
+  - sex: Female
+    label: VHF_RUL.795
+    samples:
+    - rui_location: VHF_RUL.795.json
+  - sex: Female
+    label: VHF_RUL.796
+    samples:
+    - rui_location: VHF_RUL.796.json
+  - sex: Female
+    label: VHF_RUL.797
+    samples:
+    - rui_location: VHF_RUL.797.json
+  - sex: Female
+    label: VHF_RUL.768
+    samples:
+    - rui_location: VHF_RUL.768.json
+  - sex: Female
+    label: VHF_RUL.769
+    samples:
+    - rui_location: VHF_RUL.769.json
+  - sex: Female
+    label: VHF_RUL.770
+    samples:
+    - rui_location: VHF_RUL.770.json
+  - sex: Female
+    label: VHF_RUL.771
+    samples:
+    - rui_location: VHF_RUL.771.json
+  - sex: Female
+    label: VHF_RUL.772
+    samples:
+    - rui_location: VHF_RUL.772.json
+  - sex: Female
+    label: VHF_RUL.798
+    samples:
+    - rui_location: VHF_RUL.798.json
+  - sex: Female
+    label: VHF_RUL.799
+    samples:
+    - rui_location: VHF_RUL.799.json
+  - sex: Female
+    label: VHF_RUL.800
+    samples:
+    - rui_location: VHF_RUL.800.json
+  - sex: Female
+    label: VHF_RUL.801
+    samples:
+    - rui_location: VHF_RUL.801.json
+  - sex: Female
+    label: VHF_RUL.802
+    samples:
+    - rui_location: VHF_RUL.802.json
+  - sex: Female
+    label: VHF_RUL.773
+    samples:
+    - rui_location: VHF_RUL.773.json
+  - sex: Female
+    label: VHF_RUL.774
+    samples:
+    - rui_location: VHF_RUL.774.json
+  - sex: Female
+    label: VHF_RUL.775
+    samples:
+    - rui_location: VHF_RUL.775.json
+  - sex: Female
+    label: VHF_RUL.776
+    samples:
+    - rui_location: VHF_RUL.776.json
+  - sex: Female
+    label: VHF_RUL.777
+    samples:
+    - rui_location: VHF_RUL.777.json
+  - sex: Female
+    label: VHF_RUL.803
+    samples:
+    - rui_location: VHF_RUL.803.json
+  - sex: Female
+    label: VHF_RUL.804
+    samples:
+    - rui_location: VHF_RUL.804.json
+  - sex: Female
+    label: VHF_RUL.805
+    samples:
+    - rui_location: VHF_RUL.805.json
+  - sex: Female
+    label: VHF_RUL.806
+    samples:
+    - rui_location: VHF_RUL.806.json
+  - sex: Female
+    label: VHF_RUL.807
+    samples:
+    - rui_location: VHF_RUL.807.json
+  - sex: Female
+    label: VHF_RUL.778
+    samples:
+    - rui_location: VHF_RUL.778.json
+  - sex: Female
+    label: VHF_RUL.779
+    samples:
+    - rui_location: VHF_RUL.779.json
+  - sex: Female
+    label: VHF_RUL.780
+    samples:
+    - rui_location: VHF_RUL.780.json
+  - sex: Female
+    label: VHF_RUL.781
+    samples:
+    - rui_location: VHF_RUL.781.json
+  - sex: Female
+    label: VHF_RUL.808
+    samples:
+    - rui_location: VHF_RUL.808.json
+  - sex: Female
+    label: VHF_RUL.809
+    samples:
+    - rui_location: VHF_RUL.809.json
+  - sex: Female
+    label: VHF_RUL.810
+    samples:
+    - rui_location: VHF_RUL.810.json
+  - sex: Female
+    label: VHF_RUL.811
+    samples:
+    - rui_location: VHF_RUL.811.json
+  - sex: Female
+    label: VHF_RUL.783
+    samples:
+    - rui_location: VHF_RUL.783.json
+  - sex: Female
+    label: VHF_RUL.784
+    samples:
+    - rui_location: VHF_RUL.784.json
+  - sex: Female
+    label: VHF_RUL.785
+    samples:
+    - rui_location: VHF_RUL.785.json
+  - sex: Female
+    label: VHF_RUL.786
+    samples:
+    - rui_location: VHF_RUL.786.json
+  - sex: Female
+    label: VHF_RUL.814
+    samples:
+    - rui_location: VHF_RUL.814.json
+  - sex: Female
+    label: VHF_RUL.815
+    samples:
+    - rui_location: VHF_RUL.815.json
+  - sex: Female
+    label: VHF_RUL.816
+    samples:
+    - rui_location: VHF_RUL.816.json
+  - sex: Female
+    label: VHF_RUL.789
+    samples:
+    - rui_location: VHF_RUL.789.json
+  - sex: Female
+    label: VHF_RUL.790
+    samples:
+    - rui_location: VHF_RUL.790.json
+  - sex: Female
+    label: VHF_RUL.791
+    samples:
+    - rui_location: VHF_RUL.791.json
+  - sex: Female
+    label: VHF_RUL.819
+    samples:
+    - rui_location: VHF_RUL.819.json
+  - sex: Female
+    label: VHF_RUL.820
+    samples:
+    - rui_location: VHF_RUL.820.json
+  - sex: Female
+    label: VHF_RUL.821
+    samples:
+    - rui_location: VHF_RUL.821.json

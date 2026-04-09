@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HRA Exploration User Interface with custom data</title>
+    <base href="https://cdn.humanatlas.io/ui/ccf-eui/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="wc.js" type="module"></script>
+    <script>
+      const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
+      fetch(`${basePath}rui_locations.jsonld#2294d4e6def3eacf686988458fe450c0`)
+        .then((r) => r.json())
+        .then((ruiLocations) => {
+          const eui = document.createElement('ccf-eui');
+          eui.homeUrl = location.href;
+          eui.dataSources = JSON.stringify([JSON.stringify(ruiLocations)]);
+          // eui.selectedOrgans = [ 'http://purl.obolibrary.org/obo/UBERON_0002097' ];
+          eui.filter = {"sex": "Male"};
+      eui.selectedOrgans = ["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0002048"];
+document.body.appendChild(eui);
+        });
+    </script>
+  </head>
+
+  <body></body>
+</html>
