@@ -151,10 +151,18 @@ class ProjectionBlockGenerator:
         )
 
         # create bounding boxes
-        projected_blocks_obb = {
-            id: block.bounding_box_oriented
-            for id, block in deepcopy(projected_blocks).items()
-        }
+        projected_blocks_obb = {}
+
+        for id, block in deepcopy(projected_blocks).items():
+            try:
+                if block is None or len(block.vertices) == 0:
+                    continue
+
+                obb = block.bounding_box_oriented
+                projected_blocks_obb[id] = obb
+            except Exception as e:
+                print(f"[WARN] OBB failed for '{id}', fallback due to exception: {e}")
+                continue
 
         # Ensure colors match for bounding boxes
         for index, obb in projected_blocks_obb.items():

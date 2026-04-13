@@ -195,8 +195,15 @@ class TissueBlock(trimesh.Trimesh):
         Args:
             export_path (str): Path to export the JSON file.
         """
-        obb = self.bounding_box_oriented
-        scale, rotation, translation = split_transform(obb.transform)
+        # Prefer OBB but gracefully fallback when mesh is degenerate
+        # (e.g. zero-area triangles can make trimesh convex-hull OBB fail).
+        try:
+            box = self.bounding_box_oriented
+        except Exception as e:
+            print(f"[WARN] OBB failed for '{self.label}', fallback due to exception: {e}")
+            box = self.bounding_box
+
+        scale, rotation, translation = split_transform(box.transform)
 
         # if metadata does not exist, insert default values
         # (this is for tissue blocks created using from_geometry method)
@@ -229,13 +236,13 @@ class TissueBlock(trimesh.Trimesh):
 
         # dimensions
         self.metadata["x_dimension"] = (
-            obb.primitive.extents[0].item() * self.division_factor
+            box.primitive.extents[0].item() * self.division_factor
         )
         self.metadata["y_dimension"] = (
-            obb.primitive.extents[1].item() * self.division_factor
+            box.primitive.extents[1].item() * self.division_factor
         )
         self.metadata["z_dimension"] = (
-            obb.primitive.extents[2].item() * self.division_factor
+            box.primitive.extents[2].item() * self.division_factor
         )
 
         # update scaling
