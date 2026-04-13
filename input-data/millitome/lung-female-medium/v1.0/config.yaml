@@ -11,7 +11,7 @@ donor:
   provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
   consortium_name: HRA
   id: "https://purl.humanatlas.io/millitome/lung-female-medium/v1.0"
-  selected-organ: "http://purl.obolibrary.org/obo/UBERON_0002048"
+  selected-organ: "http://purl.obolibrary.org/obo/UBERON_0001004"
 
 rui_location:
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld"
