@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/lung-male-small/v1.0#LLL-10C3_placement",
-		"placement_date": "2026-04-15",
-		"x_scaling": 1.0,
+		"placement_date": "2026-04-28",
+		"x_scaling": 0.9999999999999998,
 		"y_scaling": 1.0,
 		"z_scaling": 1.0,
-		"x_rotation": 68.36445485158237,
-		"y_rotation": 30.125091743264345,
-		"z_rotation": 41.91912434660954,
-		"x_translation": 177.34839174193397,
-		"y_translation": 128.93886798701703,
-		"z_translation": 64.06907197356223
+		"x_rotation": 78.53870418064687,
+		"y_rotation": 26.1309323433394,
+		"z_rotation": 36.566858729241986,
+		"x_translation": 207.76997556924482,
+		"y_translation": 107.26837160786854,
+		"z_translation": 88.05655641075501
 	},
 	"@id": "https://purl.humanatlas.io/millitome/lung-male-small/v1.0#LLL-10C3",
 	"label": "LLL-10C3",
-	"creation_date": "2026-04-15",
-	"x_dimension": 16.3520998567559,
-	"y_dimension": 25.907657631048504,
-	"z_dimension": 29.815765415858998
+	"creation_date": "2026-04-28",
+	"x_dimension": 10.651852778238686,
+	"y_dimension": 10.98302725772412,
+	"z_dimension": 14.03318780350907
 }

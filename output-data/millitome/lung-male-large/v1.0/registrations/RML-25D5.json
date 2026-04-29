@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/lung-male-large/v1.0#RML-25D5_placement",
-		"placement_date": "2026-04-15",
+		"placement_date": "2026-04-29",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
-		"z_scaling": 1.0,
-		"x_rotation": -120.87110457976742,
-		"y_rotation": 46.62064814117974,
-		"z_rotation": 54.12387554048516,
-		"x_translation": 21.53846422783414,
-		"y_translation": 111.96817200792685,
-		"z_translation": 73.56864857352123
+		"z_scaling": 1.0000000000000002,
+		"x_rotation": -147.18552223990812,
+		"y_rotation": 54.613258715205795,
+		"z_rotation": 93.11271129763404,
+		"x_translation": 33.92167666201808,
+		"y_translation": 103.10059488998752,
+		"z_translation": 85.96768461334064
 	},
 	"@id": "https://purl.humanatlas.io/millitome/lung-male-large/v1.0#RML-25D5",
 	"label": "RML-25D5",
-	"creation_date": "2026-04-15",
-	"x_dimension": 4.871910150768668,
-	"y_dimension": 6.612264154118155,
-	"z_dimension": 10.762302310206923
+	"creation_date": "2026-04-29",
+	"x_dimension": 0.4939840423399122,
+	"y_dimension": 1.067508980399548,
+	"z_dimension": 1.4138088741683617
 }
