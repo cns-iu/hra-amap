@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/lung-female-large/v1.0#RLL-11B6_placement",
-		"placement_date": "2026-04-15",
+		"placement_date": "2026-04-28",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
-		"z_scaling": 1.0,
-		"x_rotation": 94.51178660109764,
-		"y_rotation": -5.5352407580543765,
-		"z_rotation": 110.48719492586243,
-		"x_translation": 15.180984028873079,
-		"y_translation": 101.30990812516923,
-		"z_translation": 83.1857506824508
+		"z_scaling": 0.9999999999999999,
+		"x_rotation": -94.63539266185059,
+		"y_rotation": 15.459745617646394,
+		"z_rotation": -174.2098462977278,
+		"x_translation": 39.344064430190556,
+		"y_translation": 103.29332126504733,
+		"z_translation": 26.207380448360443
 	},
 	"@id": "https://purl.humanatlas.io/millitome/lung-female-large/v1.0#RLL-11B6",
 	"label": "RLL-11B6",
-	"creation_date": "2026-04-15",
-	"x_dimension": 11.895113085548248,
-	"y_dimension": 18.055443256206303,
-	"z_dimension": 19.070694849218388
+	"creation_date": "2026-04-28",
+	"x_dimension": 11.971409396338023,
+	"y_dimension": 16.10431599948314,
+	"z_dimension": 16.511154968780488
 }

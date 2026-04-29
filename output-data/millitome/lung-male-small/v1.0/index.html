@@ -12,7 +12,7 @@
     <script src="wc.js" type="module"></script>
     <script>
       const basePath = location.href.replace(/\/[^\/]+\.html/, '/');
-      fetch(`${basePath}rui_locations.jsonld#b5ea271904b6643f82913577b0a30e3c`)
+      fetch(`${basePath}rui_locations.jsonld#d6f4e2d8eb21ec1081907583d797fa7b`)
         .then((r) => r.json())
         .then((ruiLocations) => {
           const eui = document.createElement('ccf-eui');
@@ -20,7 +20,7 @@
           eui.dataSources = JSON.stringify([JSON.stringify(ruiLocations)]);
           // eui.selectedOrgans = [ 'http://purl.obolibrary.org/obo/UBERON_0002097' ];
           eui.filter = {"sex": "Male"};
-          eui.selectedOrgans = ["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0001004"];
+      eui.selectedOrgans = ["http://purl.obolibrary.org/obo/UBERON_0002097", "http://purl.obolibrary.org/obo/UBERON_0001004"];
 document.body.appendChild(eui);
         });
     </script>

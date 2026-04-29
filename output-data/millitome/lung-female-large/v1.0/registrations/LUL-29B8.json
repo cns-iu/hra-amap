@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/lung-female-large/v1.0#LUL-29B8_placement",
-		"placement_date": "2026-04-15",
+		"placement_date": "2026-04-28",
 		"x_scaling": 1.0,
-		"y_scaling": 1.0,
+		"y_scaling": 0.9999999999999999,
 		"z_scaling": 1.0,
-		"x_rotation": 158.73514267995188,
-		"y_rotation": 32.6783789785679,
-		"z_rotation": -8.746009927262243,
-		"x_translation": 232.7923195531927,
-		"y_translation": 106.75047446292693,
-		"z_translation": 112.32768764789654
+		"x_rotation": 159.66447379885508,
+		"y_rotation": 36.106411796446764,
+		"z_rotation": -174.66660852768297,
+		"x_translation": 233.57968968609143,
+		"y_translation": 105.96432883576605,
+		"z_translation": 111.77950956191977
 	},
 	"@id": "https://purl.humanatlas.io/millitome/lung-female-large/v1.0#LUL-29B8",
 	"label": "LUL-29B8",
-	"creation_date": "2026-04-15",
-	"x_dimension": 7.010318128886917,
-	"y_dimension": 9.628678155387334,
-	"z_dimension": 14.211859299842557
+	"creation_date": "2026-04-28",
+	"x_dimension": 5.930607586879355,
+	"y_dimension": 10.101845592916867,
+	"z_dimension": 12.0463270966223
 }

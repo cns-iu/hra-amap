@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/lung-male-small/v1.0#LUL-2A4_placement",
-		"placement_date": "2026-04-15",
+		"placement_date": "2026-04-28",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
-		"z_scaling": 0.9999999999999999,
-		"x_rotation": -59.02967786339246,
-		"y_rotation": 35.64907196663894,
-		"z_rotation": 111.00734970843949,
-		"x_translation": 187.46781451375324,
-		"y_translation": 215.6460502860805,
-		"z_translation": 54.667590655090194
+		"z_scaling": 1.0,
+		"x_rotation": -48.936282282907314,
+		"y_rotation": 40.44663732862536,
+		"z_rotation": 113.32091795688271,
+		"x_translation": 211.12468060255182,
+		"y_translation": 189.9549489370754,
+		"z_translation": 48.85564029193024
 	},
 	"@id": "https://purl.humanatlas.io/millitome/lung-male-small/v1.0#LUL-2A4",
 	"label": "LUL-2A4",
-	"creation_date": "2026-04-15",
-	"x_dimension": 11.600258525676484,
-	"y_dimension": 23.119318671247473,
-	"z_dimension": 32.50416684295254
+	"creation_date": "2026-04-28",
+	"x_dimension": 14.574848440280563,
+	"y_dimension": 23.38364229987512,
+	"z_dimension": 39.54734722346559
 }

@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/lung-male-large/v1.0#LUL-31C12_placement",
-		"placement_date": "2026-04-15",
+		"placement_date": "2026-04-29",
 		"x_scaling": 1.0,
 		"y_scaling": 1.0,
-		"z_scaling": 0.9999999999999999,
-		"x_rotation": -26.872195581774488,
-		"y_rotation": 38.598196562288194,
-		"z_rotation": 80.56982080851517,
-		"x_translation": 241.57101606283294,
-		"y_translation": 68.86536473882323,
-		"z_translation": 124.4415885067578
+		"z_scaling": 1.0,
+		"x_rotation": 118.68396642333921,
+		"y_rotation": -37.640938389786356,
+		"z_rotation": -115.03782847528203,
+		"x_translation": 240.02644948724668,
+		"y_translation": 74.29101026816599,
+		"z_translation": 123.37465608047515
 	},
 	"@id": "https://purl.humanatlas.io/millitome/lung-male-large/v1.0#LUL-31C12",
 	"label": "LUL-31C12",
-	"creation_date": "2026-04-15",
-	"x_dimension": 8.868333378633752,
-	"y_dimension": 9.029968291829087,
-	"z_dimension": 11.806079069699049
+	"creation_date": "2026-04-29",
+	"x_dimension": 6.967143311738519,
+	"y_dimension": 8.806648583296036,
+	"z_dimension": 14.005921965472151
 }

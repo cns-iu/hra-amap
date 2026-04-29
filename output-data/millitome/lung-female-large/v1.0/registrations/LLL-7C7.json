@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/lung-female-large/v1.0#LLL-7C7_placement",
-		"placement_date": "2026-04-15",
+		"placement_date": "2026-04-28",
 		"x_scaling": 1.0,
-		"y_scaling": 0.9999999999999999,
+		"y_scaling": 1.0,
 		"z_scaling": 0.9999999999999999,
-		"x_rotation": -164.93470684652812,
-		"y_rotation": 33.14706641676781,
-		"z_rotation": -31.55289512266058,
-		"x_translation": 159.64759688140273,
-		"y_translation": 94.02212420997529,
-		"z_translation": 14.841263716878862
+		"x_rotation": 17.35274081830037,
+		"y_rotation": -29.266263361311108,
+		"z_rotation": -146.26732789085492,
+		"x_translation": 159.7797552508149,
+		"y_translation": 94.5358266694738,
+		"z_translation": 15.3400167421129
 	},
 	"@id": "https://purl.humanatlas.io/millitome/lung-female-large/v1.0#LLL-7C7",
 	"label": "LLL-7C7",
-	"creation_date": "2026-04-15",
-	"x_dimension": 5.923101909278,
-	"y_dimension": 14.214620096930762,
-	"z_dimension": 22.564800911382648
+	"creation_date": "2026-04-28",
+	"x_dimension": 5.602538779127225,
+	"y_dimension": 13.751106531001414,
+	"z_dimension": 21.800192639523473
 }

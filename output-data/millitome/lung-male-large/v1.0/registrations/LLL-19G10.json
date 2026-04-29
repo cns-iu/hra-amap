@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/lung-male-large/v1.0#LLL-19G10_placement",
-		"placement_date": "2026-04-15",
+		"placement_date": "2026-04-29",
 		"x_scaling": 0.9999999999999999,
 		"y_scaling": 1.0,
 		"z_scaling": 0.9999999999999999,
-		"x_rotation": -101.40615402838152,
-		"y_rotation": -52.656593869575225,
-		"z_rotation": -154.42728235680354,
-		"x_translation": 177.0447784320169,
-		"y_translation": 77.73289658289684,
-		"z_translation": 93.9444025084766
+		"x_rotation": 80.55076835719248,
+		"y_rotation": 20.129976599151302,
+		"z_rotation": -154.3535823990616,
+		"x_translation": 182.40676819493973,
+		"y_translation": 89.1940295874101,
+		"z_translation": 89.50216016269975
 	},
 	"@id": "https://purl.humanatlas.io/millitome/lung-male-large/v1.0#LLL-19G10",
 	"label": "LLL-19G10",
-	"creation_date": "2026-04-15",
-	"x_dimension": 2.6083496588394373,
-	"y_dimension": 3.3536627543128974,
-	"z_dimension": 5.267866522512793
+	"creation_date": "2026-04-29",
+	"x_dimension": 4.905254583707691,
+	"y_dimension": 10.501225600288457,
+	"z_dimension": 11.662650794828766
 }

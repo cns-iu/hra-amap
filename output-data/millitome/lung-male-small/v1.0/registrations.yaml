@@ -9,34 +9,6 @@
     link: https://purl.humanatlas.io/millitome/lung-male-small/v1.0
   donors:
   - sex: Male
-    label: LLL-9D6
-    samples:
-    - rui_location: LLL-9D6.json
-  - sex: Male
-    label: LLL-9D5
-    samples:
-    - rui_location: LLL-9D5.json
-  - sex: Male
-    label: LLL-9D4
-    samples:
-    - rui_location: LLL-9D4.json
-  - sex: Male
-    label: LLL-9D3
-    samples:
-    - rui_location: LLL-9D3.json
-  - sex: Male
-    label: LLL-9D2
-    samples:
-    - rui_location: LLL-9D2.json
-  - sex: Male
-    label: LLL-9D1
-    samples:
-    - rui_location: LLL-9D1.json
-  - sex: Male
-    label: LLL-9C6
-    samples:
-    - rui_location: LLL-9C6.json
-  - sex: Male
     label: LLL-9C5
     samples:
     - rui_location: LLL-9C5.json
@@ -53,18 +25,6 @@
     samples:
     - rui_location: LLL-9C2.json
   - sex: Male
-    label: LLL-9C1
-    samples:
-    - rui_location: LLL-9C1.json
-  - sex: Male
-    label: LLL-9B7
-    samples:
-    - rui_location: LLL-9B7.json
-  - sex: Male
-    label: LLL-9B6
-    samples:
-    - rui_location: LLL-9B6.json
-  - sex: Male
     label: LLL-9B5
     samples:
     - rui_location: LLL-9B5.json
@@ -80,18 +40,6 @@
     label: LLL-9B2
     samples:
     - rui_location: LLL-9B2.json
-  - sex: Male
-    label: LLL-9B1
-    samples:
-    - rui_location: LLL-9B1.json
-  - sex: Male
-    label: LLL-9A7
-    samples:
-    - rui_location: LLL-9A7.json
-  - sex: Male
-    label: LLL-9A6
-    samples:
-    - rui_location: LLL-9A6.json
   - sex: Male
     label: LLL-9A5
     samples:
@@ -113,30 +61,6 @@
     samples:
     - rui_location: LLL-9A1.json
   - sex: Male
-    label: LLL-8D5
-    samples:
-    - rui_location: LLL-8D5.json
-  - sex: Male
-    label: LLL-8D4
-    samples:
-    - rui_location: LLL-8D4.json
-  - sex: Male
-    label: LLL-8D3
-    samples:
-    - rui_location: LLL-8D3.json
-  - sex: Male
-    label: LLL-8D2
-    samples:
-    - rui_location: LLL-8D2.json
-  - sex: Male
-    label: LLL-8D1
-    samples:
-    - rui_location: LLL-8D1.json
-  - sex: Male
-    label: LLL-8C6
-    samples:
-    - rui_location: LLL-8C6.json
-  - sex: Male
     label: LLL-8C5
     samples:
     - rui_location: LLL-8C5.json
@@ -156,14 +80,6 @@
     label: LLL-8C1
     samples:
     - rui_location: LLL-8C1.json
-  - sex: Male
-    label: LLL-8B7
-    samples:
-    - rui_location: LLL-8B7.json
-  - sex: Male
-    label: LLL-8B6
-    samples:
-    - rui_location: LLL-8B6.json
   - sex: Male
     label: LLL-8B5
     samples:
@@ -185,14 +101,6 @@
     samples:
     - rui_location: LLL-8B1.json
   - sex: Male
-    label: LLL-8A7
-    samples:
-    - rui_location: LLL-8A7.json
-  - sex: Male
-    label: LLL-8A6
-    samples:
-    - rui_location: LLL-8A6.json
-  - sex: Male
     label: LLL-8A5
     samples:
     - rui_location: LLL-8A5.json
@@ -209,25 +117,9 @@
     samples:
     - rui_location: LLL-8A2.json
   - sex: Male
-    label: LLL-7D5
+    label: LLL-8A1
     samples:
-    - rui_location: LLL-7D5.json
-  - sex: Male
-    label: LLL-7D4
-    samples:
-    - rui_location: LLL-7D4.json
-  - sex: Male
-    label: LLL-7D3
-    samples:
-    - rui_location: LLL-7D3.json
-  - sex: Male
-    label: LLL-7D2
-    samples:
-    - rui_location: LLL-7D2.json
-  - sex: Male
-    label: LLL-7C6
-    samples:
-    - rui_location: LLL-7C6.json
+    - rui_location: LLL-8A1.json
   - sex: Male
     label: LLL-7C5
     samples:
@@ -249,10 +141,6 @@
     samples:
     - rui_location: LLL-7C1.json
   - sex: Male
-    label: LLL-7B6
-    samples:
-    - rui_location: LLL-7B6.json
-  - sex: Male
     label: LLL-7B5
     samples:
     - rui_location: LLL-7B5.json
@@ -273,14 +161,6 @@
     samples:
     - rui_location: LLL-7B1.json
   - sex: Male
-    label: LLL-7A7
-    samples:
-    - rui_location: LLL-7A7.json
-  - sex: Male
-    label: LLL-7A6
-    samples:
-    - rui_location: LLL-7A6.json
-  - sex: Male
     label: LLL-7A5
     samples:
     - rui_location: LLL-7A5.json
@@ -297,25 +177,9 @@
     samples:
     - rui_location: LLL-7A2.json
   - sex: Male
-    label: LLL-6D5
+    label: LLL-7A1
     samples:
-    - rui_location: LLL-6D5.json
-  - sex: Male
-    label: LLL-6D4
-    samples:
-    - rui_location: LLL-6D4.json
-  - sex: Male
-    label: LLL-6D3
-    samples:
-    - rui_location: LLL-6D3.json
-  - sex: Male
-    label: LLL-6D2
-    samples:
-    - rui_location: LLL-6D2.json
-  - sex: Male
-    label: LLL-6C5
-    samples:
-    - rui_location: LLL-6C5.json
+    - rui_location: LLL-7A1.json
   - sex: Male
     label: LLL-6C4
     samples:
@@ -329,9 +193,9 @@
     samples:
     - rui_location: LLL-6C2.json
   - sex: Male
-    label: LLL-6B6
+    label: LLL-6C1
     samples:
-    - rui_location: LLL-6B6.json
+    - rui_location: LLL-6C1.json
   - sex: Male
     label: LLL-6B5
     samples:
@@ -349,13 +213,9 @@
     samples:
     - rui_location: LLL-6B2.json
   - sex: Male
-    label: LLL-6A7
+    label: LLL-6B1
     samples:
-    - rui_location: LLL-6A7.json
-  - sex: Male
-    label: LLL-6A6
-    samples:
-    - rui_location: LLL-6A6.json
+    - rui_location: LLL-6B1.json
   - sex: Male
     label: LLL-6A5
     samples:
@@ -373,21 +233,9 @@
     samples:
     - rui_location: LLL-6A2.json
   - sex: Male
-    label: LLL-5D5
+    label: LLL-6A1
     samples:
-    - rui_location: LLL-5D5.json
-  - sex: Male
-    label: LLL-5D4
-    samples:
-    - rui_location: LLL-5D4.json
-  - sex: Male
-    label: LLL-5D3
-    samples:
-    - rui_location: LLL-5D3.json
-  - sex: Male
-    label: LLL-5C5
-    samples:
-    - rui_location: LLL-5C5.json
+    - rui_location: LLL-6A1.json
   - sex: Male
     label: LLL-5C4
     samples:
@@ -401,9 +249,9 @@
     samples:
     - rui_location: LLL-5C2.json
   - sex: Male
-    label: LLL-5B6
+    label: LLL-5C1
     samples:
-    - rui_location: LLL-5B6.json
+    - rui_location: LLL-5C1.json
   - sex: Male
     label: LLL-5B5
     samples:
@@ -421,13 +269,9 @@
     samples:
     - rui_location: LLL-5B2.json
   - sex: Male
-    label: LLL-5A7
+    label: LLL-5B1
     samples:
-    - rui_location: LLL-5A7.json
-  - sex: Male
-    label: LLL-5A6
-    samples:
-    - rui_location: LLL-5A6.json
+    - rui_location: LLL-5B1.json
   - sex: Male
     label: LLL-5A5
     samples:
@@ -441,17 +285,13 @@
     samples:
     - rui_location: LLL-5A3.json
   - sex: Male
-    label: LLL-4D5
+    label: LLL-5A2
     samples:
-    - rui_location: LLL-4D5.json
+    - rui_location: LLL-5A2.json
   - sex: Male
-    label: LLL-4D4
+    label: LLL-5A1
     samples:
-    - rui_location: LLL-4D4.json
-  - sex: Male
-    label: LLL-4C5
-    samples:
-    - rui_location: LLL-4C5.json
+    - rui_location: LLL-5A1.json
   - sex: Male
     label: LLL-4C4
     samples:
@@ -461,9 +301,13 @@
     samples:
     - rui_location: LLL-4C3.json
   - sex: Male
-    label: LLL-4B6
+    label: LLL-4C2
     samples:
-    - rui_location: LLL-4B6.json
+    - rui_location: LLL-4C2.json
+  - sex: Male
+    label: LLL-4C1
+    samples:
+    - rui_location: LLL-4C1.json
   - sex: Male
     label: LLL-4B5
     samples:
@@ -477,13 +321,13 @@
     samples:
     - rui_location: LLL-4B3.json
   - sex: Male
-    label: LLL-4A7
+    label: LLL-4B2
     samples:
-    - rui_location: LLL-4A7.json
+    - rui_location: LLL-4B2.json
   - sex: Male
-    label: LLL-4A6
+    label: LLL-4B1
     samples:
-    - rui_location: LLL-4A6.json
+    - rui_location: LLL-4B1.json
   - sex: Male
     label: LLL-4A5
     samples:
@@ -497,25 +341,29 @@
     samples:
     - rui_location: LLL-4A3.json
   - sex: Male
-    label: LLL-3D5
+    label: LLL-4A2
     samples:
-    - rui_location: LLL-3D5.json
+    - rui_location: LLL-4A2.json
   - sex: Male
-    label: LLL-3D4
+    label: LLL-4A1
     samples:
-    - rui_location: LLL-3D4.json
-  - sex: Male
-    label: LLL-3C5
-    samples:
-    - rui_location: LLL-3C5.json
+    - rui_location: LLL-4A1.json
   - sex: Male
     label: LLL-3C4
     samples:
     - rui_location: LLL-3C4.json
   - sex: Male
-    label: LLL-3B6
+    label: LLL-3C3
     samples:
-    - rui_location: LLL-3B6.json
+    - rui_location: LLL-3C3.json
+  - sex: Male
+    label: LLL-3C2
+    samples:
+    - rui_location: LLL-3C2.json
+  - sex: Male
+    label: LLL-3C1
+    samples:
+    - rui_location: LLL-3C1.json
   - sex: Male
     label: LLL-3B5
     samples:
@@ -529,13 +377,13 @@
     samples:
     - rui_location: LLL-3B3.json
   - sex: Male
-    label: LLL-3A7
+    label: LLL-3B2
     samples:
-    - rui_location: LLL-3A7.json
+    - rui_location: LLL-3B2.json
   - sex: Male
-    label: LLL-3A6
+    label: LLL-3B1
     samples:
-    - rui_location: LLL-3A6.json
+    - rui_location: LLL-3B1.json
   - sex: Male
     label: LLL-3A5
     samples:
@@ -545,9 +393,17 @@
     samples:
     - rui_location: LLL-3A4.json
   - sex: Male
-    label: LLL-2D5
+    label: LLL-3A3
     samples:
-    - rui_location: LLL-2D5.json
+    - rui_location: LLL-3A3.json
+  - sex: Male
+    label: LLL-3A2
+    samples:
+    - rui_location: LLL-3A2.json
+  - sex: Male
+    label: LLL-3A1
+    samples:
+    - rui_location: LLL-3A1.json
   - sex: Male
     label: LLL-2C5
     samples:
@@ -557,9 +413,13 @@
     samples:
     - rui_location: LLL-2C4.json
   - sex: Male
-    label: LLL-2B6
+    label: LLL-2C3
     samples:
-    - rui_location: LLL-2B6.json
+    - rui_location: LLL-2C3.json
+  - sex: Male
+    label: LLL-2C2
+    samples:
+    - rui_location: LLL-2C2.json
   - sex: Male
     label: LLL-2B5
     samples:
@@ -569,213 +429,77 @@
     samples:
     - rui_location: LLL-2B4.json
   - sex: Male
-    label: LLL-2A6
+    label: LLL-2B3
     samples:
-    - rui_location: LLL-2A6.json
+    - rui_location: LLL-2B3.json
+  - sex: Male
+    label: LLL-2B2
+    samples:
+    - rui_location: LLL-2B2.json
+  - sex: Male
+    label: LLL-2B1
+    samples:
+    - rui_location: LLL-2B1.json
   - sex: Male
     label: LLL-2A5
     samples:
     - rui_location: LLL-2A5.json
   - sex: Male
+    label: LLL-2A4
+    samples:
+    - rui_location: LLL-2A4.json
+  - sex: Male
+    label: LLL-2A3
+    samples:
+    - rui_location: LLL-2A3.json
+  - sex: Male
+    label: LLL-2A2
+    samples:
+    - rui_location: LLL-2A2.json
+  - sex: Male
     label: LLL-1C5
     samples:
     - rui_location: LLL-1C5.json
   - sex: Male
-    label: LLL-1B6
+    label: LLL-1C4
     samples:
-    - rui_location: LLL-1B6.json
+    - rui_location: LLL-1C4.json
+  - sex: Male
+    label: LLL-1C3
+    samples:
+    - rui_location: LLL-1C3.json
   - sex: Male
     label: LLL-1B5
     samples:
     - rui_location: LLL-1B5.json
   - sex: Male
-    label: LLL-1A6
+    label: LLL-1B4
     samples:
-    - rui_location: LLL-1A6.json
+    - rui_location: LLL-1B4.json
+  - sex: Male
+    label: LLL-1B3
+    samples:
+    - rui_location: LLL-1B3.json
+  - sex: Male
+    label: LLL-1B2
+    samples:
+    - rui_location: LLL-1B2.json
   - sex: Male
     label: LLL-1A5
     samples:
     - rui_location: LLL-1A5.json
   - sex: Male
-    label: LLL-14D7
+    label: LLL-1A4
     samples:
-    - rui_location: LLL-14D7.json
+    - rui_location: LLL-1A4.json
   - sex: Male
-    label: LLL-14D6
+    label: LLL-1A3
     samples:
-    - rui_location: LLL-14D6.json
+    - rui_location: LLL-1A3.json
   - sex: Male
-    label: LLL-14C7
+    label: LLL-1A2
     samples:
-    - rui_location: LLL-14C7.json
-  - sex: Male
-    label: LLL-14C6
-    samples:
-    - rui_location: LLL-14C6.json
-  - sex: Male
-    label: LLL-14C5
-    samples:
-    - rui_location: LLL-14C5.json
-  - sex: Male
-    label: LLL-14B6
-    samples:
-    - rui_location: LLL-14B6.json
-  - sex: Male
-    label: LLL-14B5
-    samples:
-    - rui_location: LLL-14B5.json
-  - sex: Male
-    label: LLL-14B4
-    samples:
-    - rui_location: LLL-14B4.json
-  - sex: Male
-    label: LLL-13D7
-    samples:
-    - rui_location: LLL-13D7.json
-  - sex: Male
-    label: LLL-13D6
-    samples:
-    - rui_location: LLL-13D6.json
-  - sex: Male
-    label: LLL-13D5
-    samples:
-    - rui_location: LLL-13D5.json
-  - sex: Male
-    label: LLL-13C7
-    samples:
-    - rui_location: LLL-13C7.json
-  - sex: Male
-    label: LLL-13C6
-    samples:
-    - rui_location: LLL-13C6.json
-  - sex: Male
-    label: LLL-13C5
-    samples:
-    - rui_location: LLL-13C5.json
-  - sex: Male
-    label: LLL-13C4
-    samples:
-    - rui_location: LLL-13C4.json
-  - sex: Male
-    label: LLL-13B7
-    samples:
-    - rui_location: LLL-13B7.json
-  - sex: Male
-    label: LLL-13B6
-    samples:
-    - rui_location: LLL-13B6.json
-  - sex: Male
-    label: LLL-13B5
-    samples:
-    - rui_location: LLL-13B5.json
-  - sex: Male
-    label: LLL-13B4
-    samples:
-    - rui_location: LLL-13B4.json
-  - sex: Male
-    label: LLL-13A5
-    samples:
-    - rui_location: LLL-13A5.json
-  - sex: Male
-    label: LLL-13A4
-    samples:
-    - rui_location: LLL-13A4.json
-  - sex: Male
-    label: LLL-12D7
-    samples:
-    - rui_location: LLL-12D7.json
-  - sex: Male
-    label: LLL-12D6
-    samples:
-    - rui_location: LLL-12D6.json
-  - sex: Male
-    label: LLL-12D5
-    samples:
-    - rui_location: LLL-12D5.json
-  - sex: Male
-    label: LLL-12C7
-    samples:
-    - rui_location: LLL-12C7.json
-  - sex: Male
-    label: LLL-12C6
-    samples:
-    - rui_location: LLL-12C6.json
-  - sex: Male
-    label: LLL-12C5
-    samples:
-    - rui_location: LLL-12C5.json
-  - sex: Male
-    label: LLL-12C4
-    samples:
-    - rui_location: LLL-12C4.json
-  - sex: Male
-    label: LLL-12C3
-    samples:
-    - rui_location: LLL-12C3.json
-  - sex: Male
-    label: LLL-12B7
-    samples:
-    - rui_location: LLL-12B7.json
-  - sex: Male
-    label: LLL-12B6
-    samples:
-    - rui_location: LLL-12B6.json
-  - sex: Male
-    label: LLL-12B5
-    samples:
-    - rui_location: LLL-12B5.json
-  - sex: Male
-    label: LLL-12B4
-    samples:
-    - rui_location: LLL-12B4.json
-  - sex: Male
-    label: LLL-12B3
-    samples:
-    - rui_location: LLL-12B3.json
-  - sex: Male
-    label: LLL-12A6
-    samples:
-    - rui_location: LLL-12A6.json
-  - sex: Male
-    label: LLL-12A5
-    samples:
-    - rui_location: LLL-12A5.json
-  - sex: Male
-    label: LLL-12A4
-    samples:
-    - rui_location: LLL-12A4.json
-  - sex: Male
-    label: LLL-12A3
-    samples:
-    - rui_location: LLL-12A3.json
-  - sex: Male
-    label: LLL-12A2
-    samples:
-    - rui_location: LLL-12A2.json
-  - sex: Male
-    label: LLL-11D6
-    samples:
-    - rui_location: LLL-11D6.json
-  - sex: Male
-    label: LLL-11D5
-    samples:
-    - rui_location: LLL-11D5.json
-  - sex: Male
-    label: LLL-11D2
-    samples:
-    - rui_location: LLL-11D2.json
-  - sex: Male
-    label: LLL-11D1
-    samples:
-    - rui_location: LLL-11D1.json
-  - sex: Male
-    label: LLL-11C7
-    samples:
-    - rui_location: LLL-11C7.json
-  - sex: Male
-    label: LLL-11C6
-    samples:
-    - rui_location: LLL-11C6.json
+    - rui_location: LLL-1A2.json
   - sex: Male
     label: LLL-11C5
     samples:
@@ -789,22 +513,6 @@
     samples:
     - rui_location: LLL-11C3.json
   - sex: Male
-    label: LLL-11C2
-    samples:
-    - rui_location: LLL-11C2.json
-  - sex: Male
-    label: LLL-11C1
-    samples:
-    - rui_location: LLL-11C1.json
-  - sex: Male
-    label: LLL-11B7
-    samples:
-    - rui_location: LLL-11B7.json
-  - sex: Male
-    label: LLL-11B6
-    samples:
-    - rui_location: LLL-11B6.json
-  - sex: Male
     label: LLL-11B5
     samples:
     - rui_location: LLL-11B5.json
@@ -816,18 +524,6 @@
     label: LLL-11B3
     samples:
     - rui_location: LLL-11B3.json
-  - sex: Male
-    label: LLL-11B2
-    samples:
-    - rui_location: LLL-11B2.json
-  - sex: Male
-    label: LLL-11B1
-    samples:
-    - rui_location: LLL-11B1.json
-  - sex: Male
-    label: LLL-11A6
-    samples:
-    - rui_location: LLL-11A6.json
   - sex: Male
     label: LLL-11A5
     samples:
@@ -841,42 +537,6 @@
     samples:
     - rui_location: LLL-11A3.json
   - sex: Male
-    label: LLL-11A2
-    samples:
-    - rui_location: LLL-11A2.json
-  - sex: Male
-    label: LLL-11A1
-    samples:
-    - rui_location: LLL-11A1.json
-  - sex: Male
-    label: LLL-10D6
-    samples:
-    - rui_location: LLL-10D6.json
-  - sex: Male
-    label: LLL-10D5
-    samples:
-    - rui_location: LLL-10D5.json
-  - sex: Male
-    label: LLL-10D4
-    samples:
-    - rui_location: LLL-10D4.json
-  - sex: Male
-    label: LLL-10D3
-    samples:
-    - rui_location: LLL-10D3.json
-  - sex: Male
-    label: LLL-10D2
-    samples:
-    - rui_location: LLL-10D2.json
-  - sex: Male
-    label: LLL-10D1
-    samples:
-    - rui_location: LLL-10D1.json
-  - sex: Male
-    label: LLL-10C6
-    samples:
-    - rui_location: LLL-10C6.json
-  - sex: Male
     label: LLL-10C5
     samples:
     - rui_location: LLL-10C5.json
@@ -888,22 +548,6 @@
     label: LLL-10C3
     samples:
     - rui_location: LLL-10C3.json
-  - sex: Male
-    label: LLL-10C2
-    samples:
-    - rui_location: LLL-10C2.json
-  - sex: Male
-    label: LLL-10C1
-    samples:
-    - rui_location: LLL-10C1.json
-  - sex: Male
-    label: LLL-10B7
-    samples:
-    - rui_location: LLL-10B7.json
-  - sex: Male
-    label: LLL-10B6
-    samples:
-    - rui_location: LLL-10B6.json
   - sex: Male
     label: LLL-10B5
     samples:
@@ -921,18 +565,6 @@
     samples:
     - rui_location: LLL-10B2.json
   - sex: Male
-    label: LLL-10B1
-    samples:
-    - rui_location: LLL-10B1.json
-  - sex: Male
-    label: LLL-10A7
-    samples:
-    - rui_location: LLL-10A7.json
-  - sex: Male
-    label: LLL-10A6
-    samples:
-    - rui_location: LLL-10A6.json
-  - sex: Male
     label: LLL-10A5
     samples:
     - rui_location: LLL-10A5.json
@@ -948,30 +580,6 @@
     label: LLL-10A2
     samples:
     - rui_location: LLL-10A2.json
-  - sex: Male
-    label: LLL-10A1
-    samples:
-    - rui_location: LLL-10A1.json
-  - sex: Male
-    label: LUL-9C5
-    samples:
-    - rui_location: LUL-9C5.json
-  - sex: Male
-    label: LUL-9C4
-    samples:
-    - rui_location: LUL-9C4.json
-  - sex: Male
-    label: LUL-9C3
-    samples:
-    - rui_location: LUL-9C3.json
-  - sex: Male
-    label: LUL-9B6
-    samples:
-    - rui_location: LUL-9B6.json
-  - sex: Male
-    label: LUL-9B5
-    samples:
-    - rui_location: LUL-9B5.json
   - sex: Male
     label: LUL-9B4
     samples:
@@ -989,14 +597,6 @@
     samples:
     - rui_location: LUL-9B1.json
   - sex: Male
-    label: LUL-9A6
-    samples:
-    - rui_location: LUL-9A6.json
-  - sex: Male
-    label: LUL-9A5
-    samples:
-    - rui_location: LUL-9A5.json
-  - sex: Male
     label: LUL-9A4
     samples:
     - rui_location: LUL-9A4.json
@@ -1012,26 +612,6 @@
     label: LUL-9A1
     samples:
     - rui_location: LUL-9A1.json
-  - sex: Male
-    label: LUL-8C6
-    samples:
-    - rui_location: LUL-8C6.json
-  - sex: Male
-    label: LUL-8C5
-    samples:
-    - rui_location: LUL-8C5.json
-  - sex: Male
-    label: LUL-8C4
-    samples:
-    - rui_location: LUL-8C4.json
-  - sex: Male
-    label: LUL-8B6
-    samples:
-    - rui_location: LUL-8B6.json
-  - sex: Male
-    label: LUL-8B5
-    samples:
-    - rui_location: LUL-8B5.json
   - sex: Male
     label: LUL-8B4
     samples:
@@ -1049,14 +629,6 @@
     samples:
     - rui_location: LUL-8B1.json
   - sex: Male
-    label: LUL-8A6
-    samples:
-    - rui_location: LUL-8A6.json
-  - sex: Male
-    label: LUL-8A5
-    samples:
-    - rui_location: LUL-8A5.json
-  - sex: Male
     label: LUL-8A4
     samples:
     - rui_location: LUL-8A4.json
@@ -1072,30 +644,6 @@
     label: LUL-8A1
     samples:
     - rui_location: LUL-8A1.json
-  - sex: Male
-    label: LUL-7C6
-    samples:
-    - rui_location: LUL-7C6.json
-  - sex: Male
-    label: LUL-7C5
-    samples:
-    - rui_location: LUL-7C5.json
-  - sex: Male
-    label: LUL-7C4
-    samples:
-    - rui_location: LUL-7C4.json
-  - sex: Male
-    label: LUL-7C3
-    samples:
-    - rui_location: LUL-7C3.json
-  - sex: Male
-    label: LUL-7B6
-    samples:
-    - rui_location: LUL-7B6.json
-  - sex: Male
-    label: LUL-7B5
-    samples:
-    - rui_location: LUL-7B5.json
   - sex: Male
     label: LUL-7B4
     samples:
@@ -1113,14 +661,6 @@
     samples:
     - rui_location: LUL-7B1.json
   - sex: Male
-    label: LUL-7A6
-    samples:
-    - rui_location: LUL-7A6.json
-  - sex: Male
-    label: LUL-7A5
-    samples:
-    - rui_location: LUL-7A5.json
-  - sex: Male
     label: LUL-7A4
     samples:
     - rui_location: LUL-7A4.json
@@ -1133,29 +673,9 @@
     samples:
     - rui_location: LUL-7A2.json
   - sex: Male
-    label: LUL-6C6
+    label: LUL-7A1
     samples:
-    - rui_location: LUL-6C6.json
-  - sex: Male
-    label: LUL-6C5
-    samples:
-    - rui_location: LUL-6C5.json
-  - sex: Male
-    label: LUL-6C4
-    samples:
-    - rui_location: LUL-6C4.json
-  - sex: Male
-    label: LUL-6C3
-    samples:
-    - rui_location: LUL-6C3.json
-  - sex: Male
-    label: LUL-6B6
-    samples:
-    - rui_location: LUL-6B6.json
-  - sex: Male
-    label: LUL-6B5
-    samples:
-    - rui_location: LUL-6B5.json
+    - rui_location: LUL-7A1.json
   - sex: Male
     label: LUL-6B4
     samples:
@@ -1169,13 +689,9 @@
     samples:
     - rui_location: LUL-6B2.json
   - sex: Male
-    label: LUL-6A6
+    label: LUL-6B1
     samples:
-    - rui_location: LUL-6A6.json
-  - sex: Male
-    label: LUL-6A5
-    samples:
-    - rui_location: LUL-6A5.json
+    - rui_location: LUL-6B1.json
   - sex: Male
     label: LUL-6A4
     samples:
@@ -1189,29 +705,9 @@
     samples:
     - rui_location: LUL-6A2.json
   - sex: Male
-    label: LUL-5C6
+    label: LUL-6A1
     samples:
-    - rui_location: LUL-5C6.json
-  - sex: Male
-    label: LUL-5C5
-    samples:
-    - rui_location: LUL-5C5.json
-  - sex: Male
-    label: LUL-5C4
-    samples:
-    - rui_location: LUL-5C4.json
-  - sex: Male
-    label: LUL-5C3
-    samples:
-    - rui_location: LUL-5C3.json
-  - sex: Male
-    label: LUL-5B6
-    samples:
-    - rui_location: LUL-5B6.json
-  - sex: Male
-    label: LUL-5B5
-    samples:
-    - rui_location: LUL-5B5.json
+    - rui_location: LUL-6A1.json
   - sex: Male
     label: LUL-5B4
     samples:
@@ -1225,13 +721,9 @@
     samples:
     - rui_location: LUL-5B2.json
   - sex: Male
-    label: LUL-5A6
+    label: LUL-5B1
     samples:
-    - rui_location: LUL-5A6.json
-  - sex: Male
-    label: LUL-5A5
-    samples:
-    - rui_location: LUL-5A5.json
+    - rui_location: LUL-5B1.json
   - sex: Male
     label: LUL-5A4
     samples:
@@ -1245,33 +737,9 @@
     samples:
     - rui_location: LUL-5A2.json
   - sex: Male
-    label: LUL-4C6
+    label: LUL-5A1
     samples:
-    - rui_location: LUL-4C6.json
-  - sex: Male
-    label: LUL-4C5
-    samples:
-    - rui_location: LUL-4C5.json
-  - sex: Male
-    label: LUL-4C4
-    samples:
-    - rui_location: LUL-4C4.json
-  - sex: Male
-    label: LUL-4C3
-    samples:
-    - rui_location: LUL-4C3.json
-  - sex: Male
-    label: LUL-4C2
-    samples:
-    - rui_location: LUL-4C2.json
-  - sex: Male
-    label: LUL-4B6
-    samples:
-    - rui_location: LUL-4B6.json
-  - sex: Male
-    label: LUL-4B5
-    samples:
-    - rui_location: LUL-4B5.json
+    - rui_location: LUL-5A1.json
   - sex: Male
     label: LUL-4B4
     samples:
@@ -1285,13 +753,9 @@
     samples:
     - rui_location: LUL-4B2.json
   - sex: Male
-    label: LUL-4A6
+    label: LUL-4B1
     samples:
-    - rui_location: LUL-4A6.json
-  - sex: Male
-    label: LUL-4A5
-    samples:
-    - rui_location: LUL-4A5.json
+    - rui_location: LUL-4B1.json
   - sex: Male
     label: LUL-4A4
     samples:
@@ -1305,33 +769,9 @@
     samples:
     - rui_location: LUL-4A2.json
   - sex: Male
-    label: LUL-3C6
+    label: LUL-4A1
     samples:
-    - rui_location: LUL-3C6.json
-  - sex: Male
-    label: LUL-3C5
-    samples:
-    - rui_location: LUL-3C5.json
-  - sex: Male
-    label: LUL-3C4
-    samples:
-    - rui_location: LUL-3C4.json
-  - sex: Male
-    label: LUL-3C3
-    samples:
-    - rui_location: LUL-3C3.json
-  - sex: Male
-    label: LUL-3C2
-    samples:
-    - rui_location: LUL-3C2.json
-  - sex: Male
-    label: LUL-3B6
-    samples:
-    - rui_location: LUL-3B6.json
-  - sex: Male
-    label: LUL-3B5
-    samples:
-    - rui_location: LUL-3B5.json
+    - rui_location: LUL-4A1.json
   - sex: Male
     label: LUL-3B4
     samples:
@@ -1349,10 +789,6 @@
     samples:
     - rui_location: LUL-3B1.json
   - sex: Male
-    label: LUL-3A5
-    samples:
-    - rui_location: LUL-3A5.json
-  - sex: Male
     label: LUL-3A4
     samples:
     - rui_location: LUL-3A4.json
@@ -1368,26 +804,6 @@
     label: LUL-3A1
     samples:
     - rui_location: LUL-3A1.json
-  - sex: Male
-    label: LUL-2C5
-    samples:
-    - rui_location: LUL-2C5.json
-  - sex: Male
-    label: LUL-2C4
-    samples:
-    - rui_location: LUL-2C4.json
-  - sex: Male
-    label: LUL-2C3
-    samples:
-    - rui_location: LUL-2C3.json
-  - sex: Male
-    label: LUL-2C2
-    samples:
-    - rui_location: LUL-2C2.json
-  - sex: Male
-    label: LUL-2B5
-    samples:
-    - rui_location: LUL-2B5.json
   - sex: Male
     label: LUL-2B4
     samples:
@@ -1405,10 +821,6 @@
     samples:
     - rui_location: LUL-2B1.json
   - sex: Male
-    label: LUL-2A5
-    samples:
-    - rui_location: LUL-2A5.json
-  - sex: Male
     label: LUL-2A4
     samples:
     - rui_location: LUL-2A4.json
@@ -1425,50 +837,6 @@
     samples:
     - rui_location: LUL-2A1.json
   - sex: Male
-    label: LUL-21B6
-    samples:
-    - rui_location: LUL-21B6.json
-  - sex: Male
-    label: LUL-21B5
-    samples:
-    - rui_location: LUL-21B5.json
-  - sex: Male
-    label: LUL-21B4
-    samples:
-    - rui_location: LUL-21B4.json
-  - sex: Male
-    label: LUL-21B3
-    samples:
-    - rui_location: LUL-21B3.json
-  - sex: Male
-    label: LUL-20B6
-    samples:
-    - rui_location: LUL-20B6.json
-  - sex: Male
-    label: LUL-20B5
-    samples:
-    - rui_location: LUL-20B5.json
-  - sex: Male
-    label: LUL-20B4
-    samples:
-    - rui_location: LUL-20B4.json
-  - sex: Male
-    label: LUL-20B3
-    samples:
-    - rui_location: LUL-20B3.json
-  - sex: Male
-    label: LUL-1C4
-    samples:
-    - rui_location: LUL-1C4.json
-  - sex: Male
-    label: LUL-1C3
-    samples:
-    - rui_location: LUL-1C3.json
-  - sex: Male
-    label: LUL-1B5
-    samples:
-    - rui_location: LUL-1B5.json
-  - sex: Male
     label: LUL-1B4
     samples:
     - rui_location: LUL-1B4.json
@@ -1481,9 +849,9 @@
     samples:
     - rui_location: LUL-1B2.json
   - sex: Male
-    label: LUL-1A5
+    label: LUL-1B1
     samples:
-    - rui_location: LUL-1A5.json
+    - rui_location: LUL-1B1.json
   - sex: Male
     label: LUL-1A4
     samples:
@@ -1497,193 +865,9 @@
     samples:
     - rui_location: LUL-1A2.json
   - sex: Male
-    label: LUL-19B6
+    label: LUL-1A1
     samples:
-    - rui_location: LUL-19B6.json
-  - sex: Male
-    label: LUL-19B5
-    samples:
-    - rui_location: LUL-19B5.json
-  - sex: Male
-    label: LUL-19B4
-    samples:
-    - rui_location: LUL-19B4.json
-  - sex: Male
-    label: LUL-19B3
-    samples:
-    - rui_location: LUL-19B3.json
-  - sex: Male
-    label: LUL-19A5
-    samples:
-    - rui_location: LUL-19A5.json
-  - sex: Male
-    label: LUL-19A4
-    samples:
-    - rui_location: LUL-19A4.json
-  - sex: Male
-    label: LUL-19A3
-    samples:
-    - rui_location: LUL-19A3.json
-  - sex: Male
-    label: LUL-18C4
-    samples:
-    - rui_location: LUL-18C4.json
-  - sex: Male
-    label: LUL-18B6
-    samples:
-    - rui_location: LUL-18B6.json
-  - sex: Male
-    label: LUL-18B5
-    samples:
-    - rui_location: LUL-18B5.json
-  - sex: Male
-    label: LUL-18B4
-    samples:
-    - rui_location: LUL-18B4.json
-  - sex: Male
-    label: LUL-18B3
-    samples:
-    - rui_location: LUL-18B3.json
-  - sex: Male
-    label: LUL-18B2
-    samples:
-    - rui_location: LUL-18B2.json
-  - sex: Male
-    label: LUL-18A5
-    samples:
-    - rui_location: LUL-18A5.json
-  - sex: Male
-    label: LUL-18A4
-    samples:
-    - rui_location: LUL-18A4.json
-  - sex: Male
-    label: LUL-18A3
-    samples:
-    - rui_location: LUL-18A3.json
-  - sex: Male
-    label: LUL-17C5
-    samples:
-    - rui_location: LUL-17C5.json
-  - sex: Male
-    label: LUL-17C4
-    samples:
-    - rui_location: LUL-17C4.json
-  - sex: Male
-    label: LUL-17B6
-    samples:
-    - rui_location: LUL-17B6.json
-  - sex: Male
-    label: LUL-17B5
-    samples:
-    - rui_location: LUL-17B5.json
-  - sex: Male
-    label: LUL-17B4
-    samples:
-    - rui_location: LUL-17B4.json
-  - sex: Male
-    label: LUL-17B3
-    samples:
-    - rui_location: LUL-17B3.json
-  - sex: Male
-    label: LUL-17B2
-    samples:
-    - rui_location: LUL-17B2.json
-  - sex: Male
-    label: LUL-17B1
-    samples:
-    - rui_location: LUL-17B1.json
-  - sex: Male
-    label: LUL-17A5
-    samples:
-    - rui_location: LUL-17A5.json
-  - sex: Male
-    label: LUL-17A4
-    samples:
-    - rui_location: LUL-17A4.json
-  - sex: Male
-    label: LUL-17A3
-    samples:
-    - rui_location: LUL-17A3.json
-  - sex: Male
-    label: LUL-17A2
-    samples:
-    - rui_location: LUL-17A2.json
-  - sex: Male
-    label: LUL-16C5
-    samples:
-    - rui_location: LUL-16C5.json
-  - sex: Male
-    label: LUL-16C4
-    samples:
-    - rui_location: LUL-16C4.json
-  - sex: Male
-    label: LUL-16C1
-    samples:
-    - rui_location: LUL-16C1.json
-  - sex: Male
-    label: LUL-16B6
-    samples:
-    - rui_location: LUL-16B6.json
-  - sex: Male
-    label: LUL-16B5
-    samples:
-    - rui_location: LUL-16B5.json
-  - sex: Male
-    label: LUL-16B4
-    samples:
-    - rui_location: LUL-16B4.json
-  - sex: Male
-    label: LUL-16B3
-    samples:
-    - rui_location: LUL-16B3.json
-  - sex: Male
-    label: LUL-16B2
-    samples:
-    - rui_location: LUL-16B2.json
-  - sex: Male
-    label: LUL-16B1
-    samples:
-    - rui_location: LUL-16B1.json
-  - sex: Male
-    label: LUL-16A6
-    samples:
-    - rui_location: LUL-16A6.json
-  - sex: Male
-    label: LUL-16A5
-    samples:
-    - rui_location: LUL-16A5.json
-  - sex: Male
-    label: LUL-16A4
-    samples:
-    - rui_location: LUL-16A4.json
-  - sex: Male
-    label: LUL-16A3
-    samples:
-    - rui_location: LUL-16A3.json
-  - sex: Male
-    label: LUL-16A2
-    samples:
-    - rui_location: LUL-16A2.json
-  - sex: Male
-    label: LUL-15C5
-    samples:
-    - rui_location: LUL-15C5.json
-  - sex: Male
-    label: LUL-15C4
-    samples:
-    - rui_location: LUL-15C4.json
-  - sex: Male
-    label: LUL-15C1
-    samples:
-    - rui_location: LUL-15C1.json
-  - sex: Male
-    label: LUL-15B6
-    samples:
-    - rui_location: LUL-15B6.json
-  - sex: Male
-    label: LUL-15B5
-    samples:
-    - rui_location: LUL-15B5.json
+    - rui_location: LUL-1A1.json
   - sex: Male
     label: LUL-15B4
     samples:
@@ -1697,18 +881,6 @@
     samples:
     - rui_location: LUL-15B2.json
   - sex: Male
-    label: LUL-15B1
-    samples:
-    - rui_location: LUL-15B1.json
-  - sex: Male
-    label: LUL-15A6
-    samples:
-    - rui_location: LUL-15A6.json
-  - sex: Male
-    label: LUL-15A5
-    samples:
-    - rui_location: LUL-15A5.json
-  - sex: Male
     label: LUL-15A4
     samples:
     - rui_location: LUL-15A4.json
@@ -1721,25 +893,9 @@
     samples:
     - rui_location: LUL-15A2.json
   - sex: Male
-    label: LUL-14C5
+    label: LUL-15A1
     samples:
-    - rui_location: LUL-14C5.json
-  - sex: Male
-    label: LUL-14C4
-    samples:
-    - rui_location: LUL-14C4.json
-  - sex: Male
-    label: LUL-14C1
-    samples:
-    - rui_location: LUL-14C1.json
-  - sex: Male
-    label: LUL-14B6
-    samples:
-    - rui_location: LUL-14B6.json
-  - sex: Male
-    label: LUL-14B5
-    samples:
-    - rui_location: LUL-14B5.json
+    - rui_location: LUL-15A1.json
   - sex: Male
     label: LUL-14B4
     samples:
@@ -1757,14 +913,6 @@
     samples:
     - rui_location: LUL-14B1.json
   - sex: Male
-    label: LUL-14A6
-    samples:
-    - rui_location: LUL-14A6.json
-  - sex: Male
-    label: LUL-14A5
-    samples:
-    - rui_location: LUL-14A5.json
-  - sex: Male
     label: LUL-14A4
     samples:
     - rui_location: LUL-14A4.json
@@ -1777,25 +925,9 @@
     samples:
     - rui_location: LUL-14A2.json
   - sex: Male
-    label: LUL-13C5
+    label: LUL-14A1
     samples:
-    - rui_location: LUL-13C5.json
-  - sex: Male
-    label: LUL-13C4
-    samples:
-    - rui_location: LUL-13C4.json
-  - sex: Male
-    label: LUL-13C1
-    samples:
-    - rui_location: LUL-13C1.json
-  - sex: Male
-    label: LUL-13B6
-    samples:
-    - rui_location: LUL-13B6.json
-  - sex: Male
-    label: LUL-13B5
-    samples:
-    - rui_location: LUL-13B5.json
+    - rui_location: LUL-14A1.json
   - sex: Male
     label: LUL-13B4
     samples:
@@ -1813,14 +945,6 @@
     samples:
     - rui_location: LUL-13B1.json
   - sex: Male
-    label: LUL-13A6
-    samples:
-    - rui_location: LUL-13A6.json
-  - sex: Male
-    label: LUL-13A5
-    samples:
-    - rui_location: LUL-13A5.json
-  - sex: Male
     label: LUL-13A4
     samples:
     - rui_location: LUL-13A4.json
@@ -1836,22 +960,6 @@
     label: LUL-13A1
     samples:
     - rui_location: LUL-13A1.json
-  - sex: Male
-    label: LUL-12C5
-    samples:
-    - rui_location: LUL-12C5.json
-  - sex: Male
-    label: LUL-12C4
-    samples:
-    - rui_location: LUL-12C4.json
-  - sex: Male
-    label: LUL-12B6
-    samples:
-    - rui_location: LUL-12B6.json
-  - sex: Male
-    label: LUL-12B5
-    samples:
-    - rui_location: LUL-12B5.json
   - sex: Male
     label: LUL-12B4
     samples:
@@ -1869,14 +977,6 @@
     samples:
     - rui_location: LUL-12B1.json
   - sex: Male
-    label: LUL-12A6
-    samples:
-    - rui_location: LUL-12A6.json
-  - sex: Male
-    label: LUL-12A5
-    samples:
-    - rui_location: LUL-12A5.json
-  - sex: Male
     label: LUL-12A4
     samples:
     - rui_location: LUL-12A4.json
@@ -1892,26 +992,6 @@
     label: LUL-12A1
     samples:
     - rui_location: LUL-12A1.json
-  - sex: Male
-    label: LUL-11C5
-    samples:
-    - rui_location: LUL-11C5.json
-  - sex: Male
-    label: LUL-11C4
-    samples:
-    - rui_location: LUL-11C4.json
-  - sex: Male
-    label: LUL-11C3
-    samples:
-    - rui_location: LUL-11C3.json
-  - sex: Male
-    label: LUL-11B6
-    samples:
-    - rui_location: LUL-11B6.json
-  - sex: Male
-    label: LUL-11B5
-    samples:
-    - rui_location: LUL-11B5.json
   - sex: Male
     label: LUL-11B4
     samples:
@@ -1929,14 +1009,6 @@
     samples:
     - rui_location: LUL-11B1.json
   - sex: Male
-    label: LUL-11A6
-    samples:
-    - rui_location: LUL-11A6.json
-  - sex: Male
-    label: LUL-11A5
-    samples:
-    - rui_location: LUL-11A5.json
-  - sex: Male
     label: LUL-11A4
     samples:
     - rui_location: LUL-11A4.json
@@ -1952,26 +1024,6 @@
     label: LUL-11A1
     samples:
     - rui_location: LUL-11A1.json
-  - sex: Male
-    label: LUL-10C5
-    samples:
-    - rui_location: LUL-10C5.json
-  - sex: Male
-    label: LUL-10C4
-    samples:
-    - rui_location: LUL-10C4.json
-  - sex: Male
-    label: LUL-10C3
-    samples:
-    - rui_location: LUL-10C3.json
-  - sex: Male
-    label: LUL-10B6
-    samples:
-    - rui_location: LUL-10B6.json
-  - sex: Male
-    label: LUL-10B5
-    samples:
-    - rui_location: LUL-10B5.json
   - sex: Male
     label: LUL-10B4
     samples:
@@ -1989,14 +1041,6 @@
     samples:
     - rui_location: LUL-10B1.json
   - sex: Male
-    label: LUL-10A6
-    samples:
-    - rui_location: LUL-10A6.json
-  - sex: Male
-    label: LUL-10A5
-    samples:
-    - rui_location: LUL-10A5.json
-  - sex: Male
     label: LUL-10A4
     samples:
     - rui_location: LUL-10A4.json
@@ -2013,18 +1057,6 @@
     samples:
     - rui_location: LUL-10A1.json
   - sex: Male
-    label: RLL-9D4
-    samples:
-    - rui_location: RLL-9D4.json
-  - sex: Male
-    label: RLL-9D3
-    samples:
-    - rui_location: RLL-9D3.json
-  - sex: Male
-    label: RLL-9C4
-    samples:
-    - rui_location: RLL-9C4.json
-  - sex: Male
     label: RLL-9C3
     samples:
     - rui_location: RLL-9C3.json
@@ -2036,14 +1068,6 @@
     label: RLL-9C1
     samples:
     - rui_location: RLL-9C1.json
-  - sex: Male
-    label: RLL-9B5
-    samples:
-    - rui_location: RLL-9B5.json
-  - sex: Male
-    label: RLL-9B4
-    samples:
-    - rui_location: RLL-9B4.json
   - sex: Male
     label: RLL-9B3
     samples:
@@ -2057,14 +1081,6 @@
     samples:
     - rui_location: RLL-9B1.json
   - sex: Male
-    label: RLL-9A5
-    samples:
-    - rui_location: RLL-9A5.json
-  - sex: Male
-    label: RLL-9A4
-    samples:
-    - rui_location: RLL-9A4.json
-  - sex: Male
     label: RLL-9A3
     samples:
     - rui_location: RLL-9A3.json
@@ -2077,18 +1093,6 @@
     samples:
     - rui_location: RLL-9A1.json
   - sex: Male
-    label: RLL-8D4
-    samples:
-    - rui_location: RLL-8D4.json
-  - sex: Male
-    label: RLL-8D3
-    samples:
-    - rui_location: RLL-8D3.json
-  - sex: Male
-    label: RLL-8C4
-    samples:
-    - rui_location: RLL-8C4.json
-  - sex: Male
     label: RLL-8C3
     samples:
     - rui_location: RLL-8C3.json
@@ -2097,9 +1101,9 @@
     samples:
     - rui_location: RLL-8C2.json
   - sex: Male
-    label: RLL-8B4
+    label: RLL-8C1
     samples:
-    - rui_location: RLL-8B4.json
+    - rui_location: RLL-8C1.json
   - sex: Male
     label: RLL-8B3
     samples:
@@ -2109,13 +1113,9 @@
     samples:
     - rui_location: RLL-8B2.json
   - sex: Male
-    label: RLL-8A5
+    label: RLL-8B1
     samples:
-    - rui_location: RLL-8A5.json
-  - sex: Male
-    label: RLL-8A4
-    samples:
-    - rui_location: RLL-8A4.json
+    - rui_location: RLL-8B1.json
   - sex: Male
     label: RLL-8A3
     samples:
@@ -2125,17 +1125,9 @@
     samples:
     - rui_location: RLL-8A2.json
   - sex: Male
-    label: RLL-7D4
+    label: RLL-8A1
     samples:
-    - rui_location: RLL-7D4.json
-  - sex: Male
-    label: RLL-7D3
-    samples:
-    - rui_location: RLL-7D3.json
-  - sex: Male
-    label: RLL-7C4
-    samples:
-    - rui_location: RLL-7C4.json
+    - rui_location: RLL-8A1.json
   - sex: Male
     label: RLL-7C3
     samples:
@@ -2145,9 +1137,9 @@
     samples:
     - rui_location: RLL-7C2.json
   - sex: Male
-    label: RLL-7B4
+    label: RLL-7C1
     samples:
-    - rui_location: RLL-7B4.json
+    - rui_location: RLL-7C1.json
   - sex: Male
     label: RLL-7B3
     samples:
@@ -2157,13 +1149,9 @@
     samples:
     - rui_location: RLL-7B2.json
   - sex: Male
-    label: RLL-7A5
+    label: RLL-7B1
     samples:
-    - rui_location: RLL-7A5.json
-  - sex: Male
-    label: RLL-7A4
-    samples:
-    - rui_location: RLL-7A4.json
+    - rui_location: RLL-7B1.json
   - sex: Male
     label: RLL-7A3
     samples:
@@ -2173,25 +1161,17 @@
     samples:
     - rui_location: RLL-7A2.json
   - sex: Male
-    label: RLL-6D3
+    label: RLL-7A1
     samples:
-    - rui_location: RLL-6D3.json
+    - rui_location: RLL-7A1.json
   - sex: Male
-    label: RLL-6C4
+    label: RLL-6C2
     samples:
-    - rui_location: RLL-6C4.json
+    - rui_location: RLL-6C2.json
   - sex: Male
-    label: RLL-6C3
+    label: RLL-6C1
     samples:
-    - rui_location: RLL-6C3.json
-  - sex: Male
-    label: RLL-6B5
-    samples:
-    - rui_location: RLL-6B5.json
-  - sex: Male
-    label: RLL-6B4
-    samples:
-    - rui_location: RLL-6B4.json
+    - rui_location: RLL-6C1.json
   - sex: Male
     label: RLL-6B3
     samples:
@@ -2201,13 +1181,9 @@
     samples:
     - rui_location: RLL-6B2.json
   - sex: Male
-    label: RLL-6A5
+    label: RLL-6B1
     samples:
-    - rui_location: RLL-6A5.json
-  - sex: Male
-    label: RLL-6A4
-    samples:
-    - rui_location: RLL-6A4.json
+    - rui_location: RLL-6B1.json
   - sex: Male
     label: RLL-6A3
     samples:
@@ -2217,29 +1193,17 @@
     samples:
     - rui_location: RLL-6A2.json
   - sex: Male
-    label: RLL-5D4
+    label: RLL-6A1
     samples:
-    - rui_location: RLL-5D4.json
+    - rui_location: RLL-6A1.json
   - sex: Male
-    label: RLL-5D3
+    label: RLL-5C2
     samples:
-    - rui_location: RLL-5D3.json
+    - rui_location: RLL-5C2.json
   - sex: Male
-    label: RLL-5C4
+    label: RLL-5C1
     samples:
-    - rui_location: RLL-5C4.json
-  - sex: Male
-    label: RLL-5C3
-    samples:
-    - rui_location: RLL-5C3.json
-  - sex: Male
-    label: RLL-5B5
-    samples:
-    - rui_location: RLL-5B5.json
-  - sex: Male
-    label: RLL-5B4
-    samples:
-    - rui_location: RLL-5B4.json
+    - rui_location: RLL-5C1.json
   - sex: Male
     label: RLL-5B3
     samples:
@@ -2249,13 +1213,9 @@
     samples:
     - rui_location: RLL-5B2.json
   - sex: Male
-    label: RLL-5A5
+    label: RLL-5B1
     samples:
-    - rui_location: RLL-5A5.json
-  - sex: Male
-    label: RLL-5A4
-    samples:
-    - rui_location: RLL-5A4.json
+    - rui_location: RLL-5B1.json
   - sex: Male
     label: RLL-5A3
     samples:
@@ -2265,461 +1225,117 @@
     samples:
     - rui_location: RLL-5A2.json
   - sex: Male
-    label: RLL-4D4
+    label: RLL-5A1
     samples:
-    - rui_location: RLL-4D4.json
+    - rui_location: RLL-5A1.json
   - sex: Male
-    label: RLL-4D3
+    label: RLL-4C2
     samples:
-    - rui_location: RLL-4D3.json
+    - rui_location: RLL-4C2.json
   - sex: Male
-    label: RLL-4C4
+    label: RLL-4C1
     samples:
-    - rui_location: RLL-4C4.json
-  - sex: Male
-    label: RLL-4C3
-    samples:
-    - rui_location: RLL-4C3.json
-  - sex: Male
-    label: RLL-4B5
-    samples:
-    - rui_location: RLL-4B5.json
-  - sex: Male
-    label: RLL-4B4
-    samples:
-    - rui_location: RLL-4B4.json
+    - rui_location: RLL-4C1.json
   - sex: Male
     label: RLL-4B3
     samples:
     - rui_location: RLL-4B3.json
   - sex: Male
-    label: RLL-4A5
+    label: RLL-4B2
     samples:
-    - rui_location: RLL-4A5.json
+    - rui_location: RLL-4B2.json
   - sex: Male
-    label: RLL-4A4
+    label: RLL-4B1
     samples:
-    - rui_location: RLL-4A4.json
+    - rui_location: RLL-4B1.json
   - sex: Male
     label: RLL-4A3
     samples:
     - rui_location: RLL-4A3.json
   - sex: Male
-    label: RLL-3D4
+    label: RLL-4A2
     samples:
-    - rui_location: RLL-3D4.json
+    - rui_location: RLL-4A2.json
   - sex: Male
-    label: RLL-3C4
+    label: RLL-4A1
     samples:
-    - rui_location: RLL-3C4.json
+    - rui_location: RLL-4A1.json
   - sex: Male
-    label: RLL-3C3
+    label: RLL-3C2
     samples:
-    - rui_location: RLL-3C3.json
+    - rui_location: RLL-3C2.json
   - sex: Male
-    label: RLL-3B5
+    label: RLL-3B2
     samples:
-    - rui_location: RLL-3B5.json
+    - rui_location: RLL-3B2.json
   - sex: Male
-    label: RLL-3B4
+    label: RLL-3B1
     samples:
-    - rui_location: RLL-3B4.json
-  - sex: Male
-    label: RLL-3B3
-    samples:
-    - rui_location: RLL-3B3.json
-  - sex: Male
-    label: RLL-3A4
-    samples:
-    - rui_location: RLL-3A4.json
+    - rui_location: RLL-3B1.json
   - sex: Male
     label: RLL-3A3
     samples:
     - rui_location: RLL-3A3.json
   - sex: Male
-    label: RLL-2C4
+    label: RLL-3A2
     samples:
-    - rui_location: RLL-2C4.json
+    - rui_location: RLL-3A2.json
   - sex: Male
-    label: RLL-2C3
+    label: RLL-3A1
     samples:
-    - rui_location: RLL-2C3.json
+    - rui_location: RLL-3A1.json
   - sex: Male
-    label: RLL-2B5
+    label: RLL-2C2
     samples:
-    - rui_location: RLL-2B5.json
-  - sex: Male
-    label: RLL-2B4
-    samples:
-    - rui_location: RLL-2B4.json
+    - rui_location: RLL-2C2.json
   - sex: Male
     label: RLL-2B3
     samples:
     - rui_location: RLL-2B3.json
   - sex: Male
-    label: RLL-1C5
+    label: RLL-2B2
     samples:
-    - rui_location: RLL-1C5.json
+    - rui_location: RLL-2B2.json
   - sex: Male
-    label: RLL-1C4
+    label: RLL-2B1
     samples:
-    - rui_location: RLL-1C4.json
+    - rui_location: RLL-2B1.json
   - sex: Male
-    label: RLL-1B5
+    label: RLL-2A3
     samples:
-    - rui_location: RLL-1B5.json
+    - rui_location: RLL-2A3.json
   - sex: Male
-    label: RLL-1B4
+    label: RLL-2A2
     samples:
-    - rui_location: RLL-1B4.json
+    - rui_location: RLL-2A2.json
   - sex: Male
-    label: RLL-16C5
+    label: RLL-2A1
     samples:
-    - rui_location: RLL-16C5.json
+    - rui_location: RLL-2A1.json
   - sex: Male
-    label: RLL-16C4
+    label: RLL-1C2
     samples:
-    - rui_location: RLL-16C4.json
+    - rui_location: RLL-1C2.json
   - sex: Male
-    label: RLL-16C3
+    label: RLL-1B3
     samples:
-    - rui_location: RLL-16C3.json
+    - rui_location: RLL-1B3.json
   - sex: Male
-    label: RLL-16B5
+    label: RLL-1B2
     samples:
-    - rui_location: RLL-16B5.json
+    - rui_location: RLL-1B2.json
   - sex: Male
-    label: RLL-16B4
+    label: RLL-1A3
     samples:
-    - rui_location: RLL-16B4.json
+    - rui_location: RLL-1A3.json
   - sex: Male
-    label: RLL-16B3
+    label: RLL-1A2
     samples:
-    - rui_location: RLL-16B3.json
+    - rui_location: RLL-1A2.json
   - sex: Male
-    label: RLL-16B2
+    label: RLL-1A1
     samples:
-    - rui_location: RLL-16B2.json
-  - sex: Male
-    label: RLL-16A5
-    samples:
-    - rui_location: RLL-16A5.json
-  - sex: Male
-    label: RLL-16A4
-    samples:
-    - rui_location: RLL-16A4.json
-  - sex: Male
-    label: RLL-16A3
-    samples:
-    - rui_location: RLL-16A3.json
-  - sex: Male
-    label: RLL-15D5
-    samples:
-    - rui_location: RLL-15D5.json
-  - sex: Male
-    label: RLL-15D4
-    samples:
-    - rui_location: RLL-15D4.json
-  - sex: Male
-    label: RLL-15D3
-    samples:
-    - rui_location: RLL-15D3.json
-  - sex: Male
-    label: RLL-15C5
-    samples:
-    - rui_location: RLL-15C5.json
-  - sex: Male
-    label: RLL-15C4
-    samples:
-    - rui_location: RLL-15C4.json
-  - sex: Male
-    label: RLL-15C3
-    samples:
-    - rui_location: RLL-15C3.json
-  - sex: Male
-    label: RLL-15C2
-    samples:
-    - rui_location: RLL-15C2.json
-  - sex: Male
-    label: RLL-15B5
-    samples:
-    - rui_location: RLL-15B5.json
-  - sex: Male
-    label: RLL-15B4
-    samples:
-    - rui_location: RLL-15B4.json
-  - sex: Male
-    label: RLL-15B3
-    samples:
-    - rui_location: RLL-15B3.json
-  - sex: Male
-    label: RLL-15B2
-    samples:
-    - rui_location: RLL-15B2.json
-  - sex: Male
-    label: RLL-15B1
-    samples:
-    - rui_location: RLL-15B1.json
-  - sex: Male
-    label: RLL-15A5
-    samples:
-    - rui_location: RLL-15A5.json
-  - sex: Male
-    label: RLL-15A4
-    samples:
-    - rui_location: RLL-15A4.json
-  - sex: Male
-    label: RLL-15A3
-    samples:
-    - rui_location: RLL-15A3.json
-  - sex: Male
-    label: RLL-15A2
-    samples:
-    - rui_location: RLL-15A2.json
-  - sex: Male
-    label: RLL-14D5
-    samples:
-    - rui_location: RLL-14D5.json
-  - sex: Male
-    label: RLL-14D4
-    samples:
-    - rui_location: RLL-14D4.json
-  - sex: Male
-    label: RLL-14D3
-    samples:
-    - rui_location: RLL-14D3.json
-  - sex: Male
-    label: RLL-14D2
-    samples:
-    - rui_location: RLL-14D2.json
-  - sex: Male
-    label: RLL-14C5
-    samples:
-    - rui_location: RLL-14C5.json
-  - sex: Male
-    label: RLL-14C4
-    samples:
-    - rui_location: RLL-14C4.json
-  - sex: Male
-    label: RLL-14C3
-    samples:
-    - rui_location: RLL-14C3.json
-  - sex: Male
-    label: RLL-14C2
-    samples:
-    - rui_location: RLL-14C2.json
-  - sex: Male
-    label: RLL-14C1
-    samples:
-    - rui_location: RLL-14C1.json
-  - sex: Male
-    label: RLL-14B5
-    samples:
-    - rui_location: RLL-14B5.json
-  - sex: Male
-    label: RLL-14B4
-    samples:
-    - rui_location: RLL-14B4.json
-  - sex: Male
-    label: RLL-14B3
-    samples:
-    - rui_location: RLL-14B3.json
-  - sex: Male
-    label: RLL-14B2
-    samples:
-    - rui_location: RLL-14B2.json
-  - sex: Male
-    label: RLL-14B1
-    samples:
-    - rui_location: RLL-14B1.json
-  - sex: Male
-    label: RLL-14A5
-    samples:
-    - rui_location: RLL-14A5.json
-  - sex: Male
-    label: RLL-14A4
-    samples:
-    - rui_location: RLL-14A4.json
-  - sex: Male
-    label: RLL-14A3
-    samples:
-    - rui_location: RLL-14A3.json
-  - sex: Male
-    label: RLL-14A2
-    samples:
-    - rui_location: RLL-14A2.json
-  - sex: Male
-    label: RLL-14A1
-    samples:
-    - rui_location: RLL-14A1.json
-  - sex: Male
-    label: RLL-13D4
-    samples:
-    - rui_location: RLL-13D4.json
-  - sex: Male
-    label: RLL-13D3
-    samples:
-    - rui_location: RLL-13D3.json
-  - sex: Male
-    label: RLL-13D2
-    samples:
-    - rui_location: RLL-13D2.json
-  - sex: Male
-    label: RLL-13D1
-    samples:
-    - rui_location: RLL-13D1.json
-  - sex: Male
-    label: RLL-13C5
-    samples:
-    - rui_location: RLL-13C5.json
-  - sex: Male
-    label: RLL-13C4
-    samples:
-    - rui_location: RLL-13C4.json
-  - sex: Male
-    label: RLL-13C3
-    samples:
-    - rui_location: RLL-13C3.json
-  - sex: Male
-    label: RLL-13C2
-    samples:
-    - rui_location: RLL-13C2.json
-  - sex: Male
-    label: RLL-13C1
-    samples:
-    - rui_location: RLL-13C1.json
-  - sex: Male
-    label: RLL-13B5
-    samples:
-    - rui_location: RLL-13B5.json
-  - sex: Male
-    label: RLL-13B4
-    samples:
-    - rui_location: RLL-13B4.json
-  - sex: Male
-    label: RLL-13B3
-    samples:
-    - rui_location: RLL-13B3.json
-  - sex: Male
-    label: RLL-13B2
-    samples:
-    - rui_location: RLL-13B2.json
-  - sex: Male
-    label: RLL-13B1
-    samples:
-    - rui_location: RLL-13B1.json
-  - sex: Male
-    label: RLL-13A5
-    samples:
-    - rui_location: RLL-13A5.json
-  - sex: Male
-    label: RLL-13A4
-    samples:
-    - rui_location: RLL-13A4.json
-  - sex: Male
-    label: RLL-13A3
-    samples:
-    - rui_location: RLL-13A3.json
-  - sex: Male
-    label: RLL-13A2
-    samples:
-    - rui_location: RLL-13A2.json
-  - sex: Male
-    label: RLL-13A1
-    samples:
-    - rui_location: RLL-13A1.json
-  - sex: Male
-    label: RLL-12D4
-    samples:
-    - rui_location: RLL-12D4.json
-  - sex: Male
-    label: RLL-12D3
-    samples:
-    - rui_location: RLL-12D3.json
-  - sex: Male
-    label: RLL-12D2
-    samples:
-    - rui_location: RLL-12D2.json
-  - sex: Male
-    label: RLL-12D1
-    samples:
-    - rui_location: RLL-12D1.json
-  - sex: Male
-    label: RLL-12C4
-    samples:
-    - rui_location: RLL-12C4.json
-  - sex: Male
-    label: RLL-12C3
-    samples:
-    - rui_location: RLL-12C3.json
-  - sex: Male
-    label: RLL-12C2
-    samples:
-    - rui_location: RLL-12C2.json
-  - sex: Male
-    label: RLL-12C1
-    samples:
-    - rui_location: RLL-12C1.json
-  - sex: Male
-    label: RLL-12B5
-    samples:
-    - rui_location: RLL-12B5.json
-  - sex: Male
-    label: RLL-12B4
-    samples:
-    - rui_location: RLL-12B4.json
-  - sex: Male
-    label: RLL-12B3
-    samples:
-    - rui_location: RLL-12B3.json
-  - sex: Male
-    label: RLL-12B2
-    samples:
-    - rui_location: RLL-12B2.json
-  - sex: Male
-    label: RLL-12B1
-    samples:
-    - rui_location: RLL-12B1.json
-  - sex: Male
-    label: RLL-12A5
-    samples:
-    - rui_location: RLL-12A5.json
-  - sex: Male
-    label: RLL-12A4
-    samples:
-    - rui_location: RLL-12A4.json
-  - sex: Male
-    label: RLL-12A3
-    samples:
-    - rui_location: RLL-12A3.json
-  - sex: Male
-    label: RLL-12A2
-    samples:
-    - rui_location: RLL-12A2.json
-  - sex: Male
-    label: RLL-12A1
-    samples:
-    - rui_location: RLL-12A1.json
-  - sex: Male
-    label: RLL-11D4
-    samples:
-    - rui_location: RLL-11D4.json
-  - sex: Male
-    label: RLL-11D3
-    samples:
-    - rui_location: RLL-11D3.json
-  - sex: Male
-    label: RLL-11D2
-    samples:
-    - rui_location: RLL-11D2.json
-  - sex: Male
-    label: RLL-11D1
-    samples:
-    - rui_location: RLL-11D1.json
-  - sex: Male
-    label: RLL-11C4
-    samples:
-    - rui_location: RLL-11C4.json
+    - rui_location: RLL-1A1.json
   - sex: Male
     label: RLL-11C3
     samples:
@@ -2728,18 +1344,6 @@
     label: RLL-11C2
     samples:
     - rui_location: RLL-11C2.json
-  - sex: Male
-    label: RLL-11C1
-    samples:
-    - rui_location: RLL-11C1.json
-  - sex: Male
-    label: RLL-11B5
-    samples:
-    - rui_location: RLL-11B5.json
-  - sex: Male
-    label: RLL-11B4
-    samples:
-    - rui_location: RLL-11B4.json
   - sex: Male
     label: RLL-11B3
     samples:
@@ -2753,14 +1357,6 @@
     samples:
     - rui_location: RLL-11B1.json
   - sex: Male
-    label: RLL-11A5
-    samples:
-    - rui_location: RLL-11A5.json
-  - sex: Male
-    label: RLL-11A4
-    samples:
-    - rui_location: RLL-11A4.json
-  - sex: Male
     label: RLL-11A3
     samples:
     - rui_location: RLL-11A3.json
@@ -2772,22 +1368,6 @@
     label: RLL-11A1
     samples:
     - rui_location: RLL-11A1.json
-  - sex: Male
-    label: RLL-10D4
-    samples:
-    - rui_location: RLL-10D4.json
-  - sex: Male
-    label: RLL-10D3
-    samples:
-    - rui_location: RLL-10D3.json
-  - sex: Male
-    label: RLL-10D2
-    samples:
-    - rui_location: RLL-10D2.json
-  - sex: Male
-    label: RLL-10C4
-    samples:
-    - rui_location: RLL-10C4.json
   - sex: Male
     label: RLL-10C3
     samples:
@@ -2801,14 +1381,6 @@
     samples:
     - rui_location: RLL-10C1.json
   - sex: Male
-    label: RLL-10B5
-    samples:
-    - rui_location: RLL-10B5.json
-  - sex: Male
-    label: RLL-10B4
-    samples:
-    - rui_location: RLL-10B4.json
-  - sex: Male
     label: RLL-10B3
     samples:
     - rui_location: RLL-10B3.json
@@ -2820,14 +1392,6 @@
     label: RLL-10B1
     samples:
     - rui_location: RLL-10B1.json
-  - sex: Male
-    label: RLL-10A5
-    samples:
-    - rui_location: RLL-10A5.json
-  - sex: Male
-    label: RLL-10A4
-    samples:
-    - rui_location: RLL-10A4.json
   - sex: Male
     label: RLL-10A3
     samples:
@@ -2841,330 +1405,6 @@
     samples:
     - rui_location: RLL-10A1.json
   - sex: Male
-    label: RML-9B7
-    samples:
-    - rui_location: RML-9B7.json
-  - sex: Male
-    label: RML-9B6
-    samples:
-    - rui_location: RML-9B6.json
-  - sex: Male
-    label: RML-9B5
-    samples:
-    - rui_location: RML-9B5.json
-  - sex: Male
-    label: RML-9B4
-    samples:
-    - rui_location: RML-9B4.json
-  - sex: Male
-    label: RML-9B3
-    samples:
-    - rui_location: RML-9B3.json
-  - sex: Male
-    label: RML-9B2
-    samples:
-    - rui_location: RML-9B2.json
-  - sex: Male
-    label: RML-9B1
-    samples:
-    - rui_location: RML-9B1.json
-  - sex: Male
-    label: RML-9A7
-    samples:
-    - rui_location: RML-9A7.json
-  - sex: Male
-    label: RML-9A6
-    samples:
-    - rui_location: RML-9A6.json
-  - sex: Male
-    label: RML-9A5
-    samples:
-    - rui_location: RML-9A5.json
-  - sex: Male
-    label: RML-9A4
-    samples:
-    - rui_location: RML-9A4.json
-  - sex: Male
-    label: RML-9A3
-    samples:
-    - rui_location: RML-9A3.json
-  - sex: Male
-    label: RML-9A2
-    samples:
-    - rui_location: RML-9A2.json
-  - sex: Male
-    label: RML-9A1
-    samples:
-    - rui_location: RML-9A1.json
-  - sex: Male
-    label: RML-8B7
-    samples:
-    - rui_location: RML-8B7.json
-  - sex: Male
-    label: RML-8B6
-    samples:
-    - rui_location: RML-8B6.json
-  - sex: Male
-    label: RML-8B5
-    samples:
-    - rui_location: RML-8B5.json
-  - sex: Male
-    label: RML-8B4
-    samples:
-    - rui_location: RML-8B4.json
-  - sex: Male
-    label: RML-8B3
-    samples:
-    - rui_location: RML-8B3.json
-  - sex: Male
-    label: RML-8B2
-    samples:
-    - rui_location: RML-8B2.json
-  - sex: Male
-    label: RML-8B1
-    samples:
-    - rui_location: RML-8B1.json
-  - sex: Male
-    label: RML-8A7
-    samples:
-    - rui_location: RML-8A7.json
-  - sex: Male
-    label: RML-8A6
-    samples:
-    - rui_location: RML-8A6.json
-  - sex: Male
-    label: RML-8A5
-    samples:
-    - rui_location: RML-8A5.json
-  - sex: Male
-    label: RML-8A4
-    samples:
-    - rui_location: RML-8A4.json
-  - sex: Male
-    label: RML-8A3
-    samples:
-    - rui_location: RML-8A3.json
-  - sex: Male
-    label: RML-8A2
-    samples:
-    - rui_location: RML-8A2.json
-  - sex: Male
-    label: RML-8A1
-    samples:
-    - rui_location: RML-8A1.json
-  - sex: Male
-    label: RML-7B7
-    samples:
-    - rui_location: RML-7B7.json
-  - sex: Male
-    label: RML-7B6
-    samples:
-    - rui_location: RML-7B6.json
-  - sex: Male
-    label: RML-7B5
-    samples:
-    - rui_location: RML-7B5.json
-  - sex: Male
-    label: RML-7B4
-    samples:
-    - rui_location: RML-7B4.json
-  - sex: Male
-    label: RML-7B3
-    samples:
-    - rui_location: RML-7B3.json
-  - sex: Male
-    label: RML-7B2
-    samples:
-    - rui_location: RML-7B2.json
-  - sex: Male
-    label: RML-7B1
-    samples:
-    - rui_location: RML-7B1.json
-  - sex: Male
-    label: RML-7A7
-    samples:
-    - rui_location: RML-7A7.json
-  - sex: Male
-    label: RML-7A6
-    samples:
-    - rui_location: RML-7A6.json
-  - sex: Male
-    label: RML-7A5
-    samples:
-    - rui_location: RML-7A5.json
-  - sex: Male
-    label: RML-7A4
-    samples:
-    - rui_location: RML-7A4.json
-  - sex: Male
-    label: RML-7A3
-    samples:
-    - rui_location: RML-7A3.json
-  - sex: Male
-    label: RML-7A2
-    samples:
-    - rui_location: RML-7A2.json
-  - sex: Male
-    label: RML-7A1
-    samples:
-    - rui_location: RML-7A1.json
-  - sex: Male
-    label: RML-6B7
-    samples:
-    - rui_location: RML-6B7.json
-  - sex: Male
-    label: RML-6B6
-    samples:
-    - rui_location: RML-6B6.json
-  - sex: Male
-    label: RML-6B5
-    samples:
-    - rui_location: RML-6B5.json
-  - sex: Male
-    label: RML-6B4
-    samples:
-    - rui_location: RML-6B4.json
-  - sex: Male
-    label: RML-6B3
-    samples:
-    - rui_location: RML-6B3.json
-  - sex: Male
-    label: RML-6B2
-    samples:
-    - rui_location: RML-6B2.json
-  - sex: Male
-    label: RML-6B1
-    samples:
-    - rui_location: RML-6B1.json
-  - sex: Male
-    label: RML-6A7
-    samples:
-    - rui_location: RML-6A7.json
-  - sex: Male
-    label: RML-6A6
-    samples:
-    - rui_location: RML-6A6.json
-  - sex: Male
-    label: RML-6A5
-    samples:
-    - rui_location: RML-6A5.json
-  - sex: Male
-    label: RML-6A4
-    samples:
-    - rui_location: RML-6A4.json
-  - sex: Male
-    label: RML-6A3
-    samples:
-    - rui_location: RML-6A3.json
-  - sex: Male
-    label: RML-6A2
-    samples:
-    - rui_location: RML-6A2.json
-  - sex: Male
-    label: RML-6A1
-    samples:
-    - rui_location: RML-6A1.json
-  - sex: Male
-    label: RML-5B7
-    samples:
-    - rui_location: RML-5B7.json
-  - sex: Male
-    label: RML-5B6
-    samples:
-    - rui_location: RML-5B6.json
-  - sex: Male
-    label: RML-5B5
-    samples:
-    - rui_location: RML-5B5.json
-  - sex: Male
-    label: RML-5B4
-    samples:
-    - rui_location: RML-5B4.json
-  - sex: Male
-    label: RML-5B3
-    samples:
-    - rui_location: RML-5B3.json
-  - sex: Male
-    label: RML-5B2
-    samples:
-    - rui_location: RML-5B2.json
-  - sex: Male
-    label: RML-5B1
-    samples:
-    - rui_location: RML-5B1.json
-  - sex: Male
-    label: RML-5A7
-    samples:
-    - rui_location: RML-5A7.json
-  - sex: Male
-    label: RML-5A6
-    samples:
-    - rui_location: RML-5A6.json
-  - sex: Male
-    label: RML-5A5
-    samples:
-    - rui_location: RML-5A5.json
-  - sex: Male
-    label: RML-5A4
-    samples:
-    - rui_location: RML-5A4.json
-  - sex: Male
-    label: RML-5A3
-    samples:
-    - rui_location: RML-5A3.json
-  - sex: Male
-    label: RML-5A2
-    samples:
-    - rui_location: RML-5A2.json
-  - sex: Male
-    label: RML-5A1
-    samples:
-    - rui_location: RML-5A1.json
-  - sex: Male
-    label: RML-4B7
-    samples:
-    - rui_location: RML-4B7.json
-  - sex: Male
-    label: RML-4B6
-    samples:
-    - rui_location: RML-4B6.json
-  - sex: Male
-    label: RML-4B5
-    samples:
-    - rui_location: RML-4B5.json
-  - sex: Male
-    label: RML-4B4
-    samples:
-    - rui_location: RML-4B4.json
-  - sex: Male
-    label: RML-4B3
-    samples:
-    - rui_location: RML-4B3.json
-  - sex: Male
-    label: RML-4B2
-    samples:
-    - rui_location: RML-4B2.json
-  - sex: Male
-    label: RML-4B1
-    samples:
-    - rui_location: RML-4B1.json
-  - sex: Male
-    label: RML-4A7
-    samples:
-    - rui_location: RML-4A7.json
-  - sex: Male
-    label: RML-4A6
-    samples:
-    - rui_location: RML-4A6.json
-  - sex: Male
-    label: RML-4A5
-    samples:
-    - rui_location: RML-4A5.json
-  - sex: Male
-    label: RML-4A4
-    samples:
-    - rui_location: RML-4A4.json
-  - sex: Male
     label: RML-4A3
     samples:
     - rui_location: RML-4A3.json
@@ -3176,46 +1416,6 @@
     label: RML-4A1
     samples:
     - rui_location: RML-4A1.json
-  - sex: Male
-    label: RML-3B7
-    samples:
-    - rui_location: RML-3B7.json
-  - sex: Male
-    label: RML-3B6
-    samples:
-    - rui_location: RML-3B6.json
-  - sex: Male
-    label: RML-3B5
-    samples:
-    - rui_location: RML-3B5.json
-  - sex: Male
-    label: RML-3B4
-    samples:
-    - rui_location: RML-3B4.json
-  - sex: Male
-    label: RML-3B3
-    samples:
-    - rui_location: RML-3B3.json
-  - sex: Male
-    label: RML-3B2
-    samples:
-    - rui_location: RML-3B2.json
-  - sex: Male
-    label: RML-3A7
-    samples:
-    - rui_location: RML-3A7.json
-  - sex: Male
-    label: RML-3A6
-    samples:
-    - rui_location: RML-3A6.json
-  - sex: Male
-    label: RML-3A5
-    samples:
-    - rui_location: RML-3A5.json
-  - sex: Male
-    label: RML-3A4
-    samples:
-    - rui_location: RML-3A4.json
   - sex: Male
     label: RML-3A3
     samples:
@@ -3229,46 +1429,6 @@
     samples:
     - rui_location: RML-3A1.json
   - sex: Male
-    label: RML-2B7
-    samples:
-    - rui_location: RML-2B7.json
-  - sex: Male
-    label: RML-2B6
-    samples:
-    - rui_location: RML-2B6.json
-  - sex: Male
-    label: RML-2B5
-    samples:
-    - rui_location: RML-2B5.json
-  - sex: Male
-    label: RML-2B4
-    samples:
-    - rui_location: RML-2B4.json
-  - sex: Male
-    label: RML-2B3
-    samples:
-    - rui_location: RML-2B3.json
-  - sex: Male
-    label: RML-2B2
-    samples:
-    - rui_location: RML-2B2.json
-  - sex: Male
-    label: RML-2A7
-    samples:
-    - rui_location: RML-2A7.json
-  - sex: Male
-    label: RML-2A6
-    samples:
-    - rui_location: RML-2A6.json
-  - sex: Male
-    label: RML-2A5
-    samples:
-    - rui_location: RML-2A5.json
-  - sex: Male
-    label: RML-2A4
-    samples:
-    - rui_location: RML-2A4.json
-  - sex: Male
     label: RML-2A3
     samples:
     - rui_location: RML-2A3.json
@@ -3281,46 +1441,6 @@
     samples:
     - rui_location: RML-2A1.json
   - sex: Male
-    label: RML-1B7
-    samples:
-    - rui_location: RML-1B7.json
-  - sex: Male
-    label: RML-1B6
-    samples:
-    - rui_location: RML-1B6.json
-  - sex: Male
-    label: RML-1B5
-    samples:
-    - rui_location: RML-1B5.json
-  - sex: Male
-    label: RML-1B4
-    samples:
-    - rui_location: RML-1B4.json
-  - sex: Male
-    label: RML-1B3
-    samples:
-    - rui_location: RML-1B3.json
-  - sex: Male
-    label: RML-1B2
-    samples:
-    - rui_location: RML-1B2.json
-  - sex: Male
-    label: RML-1A7
-    samples:
-    - rui_location: RML-1A7.json
-  - sex: Male
-    label: RML-1A6
-    samples:
-    - rui_location: RML-1A6.json
-  - sex: Male
-    label: RML-1A5
-    samples:
-    - rui_location: RML-1A5.json
-  - sex: Male
-    label: RML-1A4
-    samples:
-    - rui_location: RML-1A4.json
-  - sex: Male
     label: RML-1A3
     samples:
     - rui_location: RML-1A3.json
@@ -3332,818 +1452,6 @@
     label: RML-1A1
     samples:
     - rui_location: RML-1A1.json
-  - sex: Male
-    label: RML-14B4
-    samples:
-    - rui_location: RML-14B4.json
-  - sex: Male
-    label: RML-14B3
-    samples:
-    - rui_location: RML-14B3.json
-  - sex: Male
-    label: RML-14A4
-    samples:
-    - rui_location: RML-14A4.json
-  - sex: Male
-    label: RML-14A3
-    samples:
-    - rui_location: RML-14A3.json
-  - sex: Male
-    label: RML-13B5
-    samples:
-    - rui_location: RML-13B5.json
-  - sex: Male
-    label: RML-13B4
-    samples:
-    - rui_location: RML-13B4.json
-  - sex: Male
-    label: RML-13B3
-    samples:
-    - rui_location: RML-13B3.json
-  - sex: Male
-    label: RML-13B2
-    samples:
-    - rui_location: RML-13B2.json
-  - sex: Male
-    label: RML-13A5
-    samples:
-    - rui_location: RML-13A5.json
-  - sex: Male
-    label: RML-13A4
-    samples:
-    - rui_location: RML-13A4.json
-  - sex: Male
-    label: RML-13A3
-    samples:
-    - rui_location: RML-13A3.json
-  - sex: Male
-    label: RML-13A2
-    samples:
-    - rui_location: RML-13A2.json
-  - sex: Male
-    label: RML-12B5
-    samples:
-    - rui_location: RML-12B5.json
-  - sex: Male
-    label: RML-12B4
-    samples:
-    - rui_location: RML-12B4.json
-  - sex: Male
-    label: RML-12B3
-    samples:
-    - rui_location: RML-12B3.json
-  - sex: Male
-    label: RML-12B2
-    samples:
-    - rui_location: RML-12B2.json
-  - sex: Male
-    label: RML-12B1
-    samples:
-    - rui_location: RML-12B1.json
-  - sex: Male
-    label: RML-12A5
-    samples:
-    - rui_location: RML-12A5.json
-  - sex: Male
-    label: RML-12A4
-    samples:
-    - rui_location: RML-12A4.json
-  - sex: Male
-    label: RML-12A3
-    samples:
-    - rui_location: RML-12A3.json
-  - sex: Male
-    label: RML-12A2
-    samples:
-    - rui_location: RML-12A2.json
-  - sex: Male
-    label: RML-11B6
-    samples:
-    - rui_location: RML-11B6.json
-  - sex: Male
-    label: RML-11B5
-    samples:
-    - rui_location: RML-11B5.json
-  - sex: Male
-    label: RML-11B4
-    samples:
-    - rui_location: RML-11B4.json
-  - sex: Male
-    label: RML-11B3
-    samples:
-    - rui_location: RML-11B3.json
-  - sex: Male
-    label: RML-11B2
-    samples:
-    - rui_location: RML-11B2.json
-  - sex: Male
-    label: RML-11B1
-    samples:
-    - rui_location: RML-11B1.json
-  - sex: Male
-    label: RML-11A6
-    samples:
-    - rui_location: RML-11A6.json
-  - sex: Male
-    label: RML-11A5
-    samples:
-    - rui_location: RML-11A5.json
-  - sex: Male
-    label: RML-11A4
-    samples:
-    - rui_location: RML-11A4.json
-  - sex: Male
-    label: RML-11A3
-    samples:
-    - rui_location: RML-11A3.json
-  - sex: Male
-    label: RML-11A2
-    samples:
-    - rui_location: RML-11A2.json
-  - sex: Male
-    label: RML-11A1
-    samples:
-    - rui_location: RML-11A1.json
-  - sex: Male
-    label: RML-10B6
-    samples:
-    - rui_location: RML-10B6.json
-  - sex: Male
-    label: RML-10B5
-    samples:
-    - rui_location: RML-10B5.json
-  - sex: Male
-    label: RML-10B4
-    samples:
-    - rui_location: RML-10B4.json
-  - sex: Male
-    label: RML-10B3
-    samples:
-    - rui_location: RML-10B3.json
-  - sex: Male
-    label: RML-10B2
-    samples:
-    - rui_location: RML-10B2.json
-  - sex: Male
-    label: RML-10B1
-    samples:
-    - rui_location: RML-10B1.json
-  - sex: Male
-    label: RML-10A6
-    samples:
-    - rui_location: RML-10A6.json
-  - sex: Male
-    label: RML-10A5
-    samples:
-    - rui_location: RML-10A5.json
-  - sex: Male
-    label: RML-10A4
-    samples:
-    - rui_location: RML-10A4.json
-  - sex: Male
-    label: RML-10A3
-    samples:
-    - rui_location: RML-10A3.json
-  - sex: Male
-    label: RML-10A2
-    samples:
-    - rui_location: RML-10A2.json
-  - sex: Male
-    label: RML-10A1
-    samples:
-    - rui_location: RML-10A1.json
-  - sex: Male
-    label: RUL-9D6
-    samples:
-    - rui_location: RUL-9D6.json
-  - sex: Male
-    label: RUL-9D5
-    samples:
-    - rui_location: RUL-9D5.json
-  - sex: Male
-    label: RUL-9D4
-    samples:
-    - rui_location: RUL-9D4.json
-  - sex: Male
-    label: RUL-9D3
-    samples:
-    - rui_location: RUL-9D3.json
-  - sex: Male
-    label: RUL-9D2
-    samples:
-    - rui_location: RUL-9D2.json
-  - sex: Male
-    label: RUL-9C6
-    samples:
-    - rui_location: RUL-9C6.json
-  - sex: Male
-    label: RUL-9C5
-    samples:
-    - rui_location: RUL-9C5.json
-  - sex: Male
-    label: RUL-9C4
-    samples:
-    - rui_location: RUL-9C4.json
-  - sex: Male
-    label: RUL-9C3
-    samples:
-    - rui_location: RUL-9C3.json
-  - sex: Male
-    label: RUL-9C2
-    samples:
-    - rui_location: RUL-9C2.json
-  - sex: Male
-    label: RUL-9B6
-    samples:
-    - rui_location: RUL-9B6.json
-  - sex: Male
-    label: RUL-9B5
-    samples:
-    - rui_location: RUL-9B5.json
-  - sex: Male
-    label: RUL-9B4
-    samples:
-    - rui_location: RUL-9B4.json
-  - sex: Male
-    label: RUL-9B3
-    samples:
-    - rui_location: RUL-9B3.json
-  - sex: Male
-    label: RUL-9B2
-    samples:
-    - rui_location: RUL-9B2.json
-  - sex: Male
-    label: RUL-9B1
-    samples:
-    - rui_location: RUL-9B1.json
-  - sex: Male
-    label: RUL-9A6
-    samples:
-    - rui_location: RUL-9A6.json
-  - sex: Male
-    label: RUL-9A5
-    samples:
-    - rui_location: RUL-9A5.json
-  - sex: Male
-    label: RUL-9A4
-    samples:
-    - rui_location: RUL-9A4.json
-  - sex: Male
-    label: RUL-9A3
-    samples:
-    - rui_location: RUL-9A3.json
-  - sex: Male
-    label: RUL-9A2
-    samples:
-    - rui_location: RUL-9A2.json
-  - sex: Male
-    label: RUL-9A1
-    samples:
-    - rui_location: RUL-9A1.json
-  - sex: Male
-    label: RUL-8D7
-    samples:
-    - rui_location: RUL-8D7.json
-  - sex: Male
-    label: RUL-8D6
-    samples:
-    - rui_location: RUL-8D6.json
-  - sex: Male
-    label: RUL-8D5
-    samples:
-    - rui_location: RUL-8D5.json
-  - sex: Male
-    label: RUL-8D4
-    samples:
-    - rui_location: RUL-8D4.json
-  - sex: Male
-    label: RUL-8D3
-    samples:
-    - rui_location: RUL-8D3.json
-  - sex: Male
-    label: RUL-8D2
-    samples:
-    - rui_location: RUL-8D2.json
-  - sex: Male
-    label: RUL-8C7
-    samples:
-    - rui_location: RUL-8C7.json
-  - sex: Male
-    label: RUL-8C6
-    samples:
-    - rui_location: RUL-8C6.json
-  - sex: Male
-    label: RUL-8C5
-    samples:
-    - rui_location: RUL-8C5.json
-  - sex: Male
-    label: RUL-8C4
-    samples:
-    - rui_location: RUL-8C4.json
-  - sex: Male
-    label: RUL-8C3
-    samples:
-    - rui_location: RUL-8C3.json
-  - sex: Male
-    label: RUL-8C2
-    samples:
-    - rui_location: RUL-8C2.json
-  - sex: Male
-    label: RUL-8C1
-    samples:
-    - rui_location: RUL-8C1.json
-  - sex: Male
-    label: RUL-8B7
-    samples:
-    - rui_location: RUL-8B7.json
-  - sex: Male
-    label: RUL-8B6
-    samples:
-    - rui_location: RUL-8B6.json
-  - sex: Male
-    label: RUL-8B5
-    samples:
-    - rui_location: RUL-8B5.json
-  - sex: Male
-    label: RUL-8B4
-    samples:
-    - rui_location: RUL-8B4.json
-  - sex: Male
-    label: RUL-8B3
-    samples:
-    - rui_location: RUL-8B3.json
-  - sex: Male
-    label: RUL-8B2
-    samples:
-    - rui_location: RUL-8B2.json
-  - sex: Male
-    label: RUL-8B1
-    samples:
-    - rui_location: RUL-8B1.json
-  - sex: Male
-    label: RUL-8A6
-    samples:
-    - rui_location: RUL-8A6.json
-  - sex: Male
-    label: RUL-8A5
-    samples:
-    - rui_location: RUL-8A5.json
-  - sex: Male
-    label: RUL-8A4
-    samples:
-    - rui_location: RUL-8A4.json
-  - sex: Male
-    label: RUL-8A3
-    samples:
-    - rui_location: RUL-8A3.json
-  - sex: Male
-    label: RUL-8A2
-    samples:
-    - rui_location: RUL-8A2.json
-  - sex: Male
-    label: RUL-8A1
-    samples:
-    - rui_location: RUL-8A1.json
-  - sex: Male
-    label: RUL-7D8
-    samples:
-    - rui_location: RUL-7D8.json
-  - sex: Male
-    label: RUL-7D7
-    samples:
-    - rui_location: RUL-7D7.json
-  - sex: Male
-    label: RUL-7D6
-    samples:
-    - rui_location: RUL-7D6.json
-  - sex: Male
-    label: RUL-7D5
-    samples:
-    - rui_location: RUL-7D5.json
-  - sex: Male
-    label: RUL-7D4
-    samples:
-    - rui_location: RUL-7D4.json
-  - sex: Male
-    label: RUL-7D3
-    samples:
-    - rui_location: RUL-7D3.json
-  - sex: Male
-    label: RUL-7D2
-    samples:
-    - rui_location: RUL-7D2.json
-  - sex: Male
-    label: RUL-7C8
-    samples:
-    - rui_location: RUL-7C8.json
-  - sex: Male
-    label: RUL-7C7
-    samples:
-    - rui_location: RUL-7C7.json
-  - sex: Male
-    label: RUL-7C6
-    samples:
-    - rui_location: RUL-7C6.json
-  - sex: Male
-    label: RUL-7C5
-    samples:
-    - rui_location: RUL-7C5.json
-  - sex: Male
-    label: RUL-7C4
-    samples:
-    - rui_location: RUL-7C4.json
-  - sex: Male
-    label: RUL-7C3
-    samples:
-    - rui_location: RUL-7C3.json
-  - sex: Male
-    label: RUL-7C2
-    samples:
-    - rui_location: RUL-7C2.json
-  - sex: Male
-    label: RUL-7C1
-    samples:
-    - rui_location: RUL-7C1.json
-  - sex: Male
-    label: RUL-7B8
-    samples:
-    - rui_location: RUL-7B8.json
-  - sex: Male
-    label: RUL-7B7
-    samples:
-    - rui_location: RUL-7B7.json
-  - sex: Male
-    label: RUL-7B6
-    samples:
-    - rui_location: RUL-7B6.json
-  - sex: Male
-    label: RUL-7B5
-    samples:
-    - rui_location: RUL-7B5.json
-  - sex: Male
-    label: RUL-7B4
-    samples:
-    - rui_location: RUL-7B4.json
-  - sex: Male
-    label: RUL-7B3
-    samples:
-    - rui_location: RUL-7B3.json
-  - sex: Male
-    label: RUL-7B2
-    samples:
-    - rui_location: RUL-7B2.json
-  - sex: Male
-    label: RUL-7B1
-    samples:
-    - rui_location: RUL-7B1.json
-  - sex: Male
-    label: RUL-7A8
-    samples:
-    - rui_location: RUL-7A8.json
-  - sex: Male
-    label: RUL-7A7
-    samples:
-    - rui_location: RUL-7A7.json
-  - sex: Male
-    label: RUL-7A6
-    samples:
-    - rui_location: RUL-7A6.json
-  - sex: Male
-    label: RUL-7A5
-    samples:
-    - rui_location: RUL-7A5.json
-  - sex: Male
-    label: RUL-7A4
-    samples:
-    - rui_location: RUL-7A4.json
-  - sex: Male
-    label: RUL-7A3
-    samples:
-    - rui_location: RUL-7A3.json
-  - sex: Male
-    label: RUL-7A2
-    samples:
-    - rui_location: RUL-7A2.json
-  - sex: Male
-    label: RUL-7A1
-    samples:
-    - rui_location: RUL-7A1.json
-  - sex: Male
-    label: RUL-6D8
-    samples:
-    - rui_location: RUL-6D8.json
-  - sex: Male
-    label: RUL-6D7
-    samples:
-    - rui_location: RUL-6D7.json
-  - sex: Male
-    label: RUL-6D6
-    samples:
-    - rui_location: RUL-6D6.json
-  - sex: Male
-    label: RUL-6D5
-    samples:
-    - rui_location: RUL-6D5.json
-  - sex: Male
-    label: RUL-6D4
-    samples:
-    - rui_location: RUL-6D4.json
-  - sex: Male
-    label: RUL-6D3
-    samples:
-    - rui_location: RUL-6D3.json
-  - sex: Male
-    label: RUL-6D2
-    samples:
-    - rui_location: RUL-6D2.json
-  - sex: Male
-    label: RUL-6C8
-    samples:
-    - rui_location: RUL-6C8.json
-  - sex: Male
-    label: RUL-6C7
-    samples:
-    - rui_location: RUL-6C7.json
-  - sex: Male
-    label: RUL-6C6
-    samples:
-    - rui_location: RUL-6C6.json
-  - sex: Male
-    label: RUL-6C5
-    samples:
-    - rui_location: RUL-6C5.json
-  - sex: Male
-    label: RUL-6C4
-    samples:
-    - rui_location: RUL-6C4.json
-  - sex: Male
-    label: RUL-6C3
-    samples:
-    - rui_location: RUL-6C3.json
-  - sex: Male
-    label: RUL-6C2
-    samples:
-    - rui_location: RUL-6C2.json
-  - sex: Male
-    label: RUL-6C1
-    samples:
-    - rui_location: RUL-6C1.json
-  - sex: Male
-    label: RUL-6B8
-    samples:
-    - rui_location: RUL-6B8.json
-  - sex: Male
-    label: RUL-6B7
-    samples:
-    - rui_location: RUL-6B7.json
-  - sex: Male
-    label: RUL-6B6
-    samples:
-    - rui_location: RUL-6B6.json
-  - sex: Male
-    label: RUL-6B5
-    samples:
-    - rui_location: RUL-6B5.json
-  - sex: Male
-    label: RUL-6B4
-    samples:
-    - rui_location: RUL-6B4.json
-  - sex: Male
-    label: RUL-6B3
-    samples:
-    - rui_location: RUL-6B3.json
-  - sex: Male
-    label: RUL-6B2
-    samples:
-    - rui_location: RUL-6B2.json
-  - sex: Male
-    label: RUL-6B1
-    samples:
-    - rui_location: RUL-6B1.json
-  - sex: Male
-    label: RUL-6A8
-    samples:
-    - rui_location: RUL-6A8.json
-  - sex: Male
-    label: RUL-6A7
-    samples:
-    - rui_location: RUL-6A7.json
-  - sex: Male
-    label: RUL-6A6
-    samples:
-    - rui_location: RUL-6A6.json
-  - sex: Male
-    label: RUL-6A5
-    samples:
-    - rui_location: RUL-6A5.json
-  - sex: Male
-    label: RUL-6A4
-    samples:
-    - rui_location: RUL-6A4.json
-  - sex: Male
-    label: RUL-6A3
-    samples:
-    - rui_location: RUL-6A3.json
-  - sex: Male
-    label: RUL-6A2
-    samples:
-    - rui_location: RUL-6A2.json
-  - sex: Male
-    label: RUL-6A1
-    samples:
-    - rui_location: RUL-6A1.json
-  - sex: Male
-    label: RUL-5D7
-    samples:
-    - rui_location: RUL-5D7.json
-  - sex: Male
-    label: RUL-5D6
-    samples:
-    - rui_location: RUL-5D6.json
-  - sex: Male
-    label: RUL-5D5
-    samples:
-    - rui_location: RUL-5D5.json
-  - sex: Male
-    label: RUL-5D4
-    samples:
-    - rui_location: RUL-5D4.json
-  - sex: Male
-    label: RUL-5D3
-    samples:
-    - rui_location: RUL-5D3.json
-  - sex: Male
-    label: RUL-5D2
-    samples:
-    - rui_location: RUL-5D2.json
-  - sex: Male
-    label: RUL-5C8
-    samples:
-    - rui_location: RUL-5C8.json
-  - sex: Male
-    label: RUL-5C7
-    samples:
-    - rui_location: RUL-5C7.json
-  - sex: Male
-    label: RUL-5C6
-    samples:
-    - rui_location: RUL-5C6.json
-  - sex: Male
-    label: RUL-5C5
-    samples:
-    - rui_location: RUL-5C5.json
-  - sex: Male
-    label: RUL-5C4
-    samples:
-    - rui_location: RUL-5C4.json
-  - sex: Male
-    label: RUL-5C3
-    samples:
-    - rui_location: RUL-5C3.json
-  - sex: Male
-    label: RUL-5C2
-    samples:
-    - rui_location: RUL-5C2.json
-  - sex: Male
-    label: RUL-5C1
-    samples:
-    - rui_location: RUL-5C1.json
-  - sex: Male
-    label: RUL-5B8
-    samples:
-    - rui_location: RUL-5B8.json
-  - sex: Male
-    label: RUL-5B7
-    samples:
-    - rui_location: RUL-5B7.json
-  - sex: Male
-    label: RUL-5B6
-    samples:
-    - rui_location: RUL-5B6.json
-  - sex: Male
-    label: RUL-5B5
-    samples:
-    - rui_location: RUL-5B5.json
-  - sex: Male
-    label: RUL-5B4
-    samples:
-    - rui_location: RUL-5B4.json
-  - sex: Male
-    label: RUL-5B3
-    samples:
-    - rui_location: RUL-5B3.json
-  - sex: Male
-    label: RUL-5B2
-    samples:
-    - rui_location: RUL-5B2.json
-  - sex: Male
-    label: RUL-5B1
-    samples:
-    - rui_location: RUL-5B1.json
-  - sex: Male
-    label: RUL-5A8
-    samples:
-    - rui_location: RUL-5A8.json
-  - sex: Male
-    label: RUL-5A7
-    samples:
-    - rui_location: RUL-5A7.json
-  - sex: Male
-    label: RUL-5A6
-    samples:
-    - rui_location: RUL-5A6.json
-  - sex: Male
-    label: RUL-5A5
-    samples:
-    - rui_location: RUL-5A5.json
-  - sex: Male
-    label: RUL-5A4
-    samples:
-    - rui_location: RUL-5A4.json
-  - sex: Male
-    label: RUL-5A3
-    samples:
-    - rui_location: RUL-5A3.json
-  - sex: Male
-    label: RUL-5A2
-    samples:
-    - rui_location: RUL-5A2.json
-  - sex: Male
-    label: RUL-5A1
-    samples:
-    - rui_location: RUL-5A1.json
-  - sex: Male
-    label: RUL-4D7
-    samples:
-    - rui_location: RUL-4D7.json
-  - sex: Male
-    label: RUL-4D6
-    samples:
-    - rui_location: RUL-4D6.json
-  - sex: Male
-    label: RUL-4D5
-    samples:
-    - rui_location: RUL-4D5.json
-  - sex: Male
-    label: RUL-4D4
-    samples:
-    - rui_location: RUL-4D4.json
-  - sex: Male
-    label: RUL-4D3
-    samples:
-    - rui_location: RUL-4D3.json
-  - sex: Male
-    label: RUL-4D2
-    samples:
-    - rui_location: RUL-4D2.json
-  - sex: Male
-    label: RUL-4C8
-    samples:
-    - rui_location: RUL-4C8.json
-  - sex: Male
-    label: RUL-4C7
-    samples:
-    - rui_location: RUL-4C7.json
-  - sex: Male
-    label: RUL-4C6
-    samples:
-    - rui_location: RUL-4C6.json
-  - sex: Male
-    label: RUL-4C5
-    samples:
-    - rui_location: RUL-4C5.json
-  - sex: Male
-    label: RUL-4C4
-    samples:
-    - rui_location: RUL-4C4.json
-  - sex: Male
-    label: RUL-4C3
-    samples:
-    - rui_location: RUL-4C3.json
-  - sex: Male
-    label: RUL-4C2
-    samples:
-    - rui_location: RUL-4C2.json
-  - sex: Male
-    label: RUL-4C1
-    samples:
-    - rui_location: RUL-4C1.json
-  - sex: Male
-    label: RUL-4B8
-    samples:
-    - rui_location: RUL-4B8.json
-  - sex: Male
-    label: RUL-4B7
-    samples:
-    - rui_location: RUL-4B7.json
-  - sex: Male
-    label: RUL-4B6
-    samples:
-    - rui_location: RUL-4B6.json
-  - sex: Male
-    label: RUL-4B5
-    samples:
-    - rui_location: RUL-4B5.json
   - sex: Male
     label: RUL-4B4
     samples:
@@ -4161,22 +1469,6 @@
     samples:
     - rui_location: RUL-4B1.json
   - sex: Male
-    label: RUL-4A8
-    samples:
-    - rui_location: RUL-4A8.json
-  - sex: Male
-    label: RUL-4A7
-    samples:
-    - rui_location: RUL-4A7.json
-  - sex: Male
-    label: RUL-4A6
-    samples:
-    - rui_location: RUL-4A6.json
-  - sex: Male
-    label: RUL-4A5
-    samples:
-    - rui_location: RUL-4A5.json
-  - sex: Male
     label: RUL-4A4
     samples:
     - rui_location: RUL-4A4.json
@@ -4192,74 +1484,6 @@
     label: RUL-4A1
     samples:
     - rui_location: RUL-4A1.json
-  - sex: Male
-    label: RUL-3D7
-    samples:
-    - rui_location: RUL-3D7.json
-  - sex: Male
-    label: RUL-3D6
-    samples:
-    - rui_location: RUL-3D6.json
-  - sex: Male
-    label: RUL-3D5
-    samples:
-    - rui_location: RUL-3D5.json
-  - sex: Male
-    label: RUL-3D4
-    samples:
-    - rui_location: RUL-3D4.json
-  - sex: Male
-    label: RUL-3D3
-    samples:
-    - rui_location: RUL-3D3.json
-  - sex: Male
-    label: RUL-3D2
-    samples:
-    - rui_location: RUL-3D2.json
-  - sex: Male
-    label: RUL-3C7
-    samples:
-    - rui_location: RUL-3C7.json
-  - sex: Male
-    label: RUL-3C6
-    samples:
-    - rui_location: RUL-3C6.json
-  - sex: Male
-    label: RUL-3C5
-    samples:
-    - rui_location: RUL-3C5.json
-  - sex: Male
-    label: RUL-3C4
-    samples:
-    - rui_location: RUL-3C4.json
-  - sex: Male
-    label: RUL-3C3
-    samples:
-    - rui_location: RUL-3C3.json
-  - sex: Male
-    label: RUL-3C2
-    samples:
-    - rui_location: RUL-3C2.json
-  - sex: Male
-    label: RUL-3C1
-    samples:
-    - rui_location: RUL-3C1.json
-  - sex: Male
-    label: RUL-3B8
-    samples:
-    - rui_location: RUL-3B8.json
-  - sex: Male
-    label: RUL-3B7
-    samples:
-    - rui_location: RUL-3B7.json
-  - sex: Male
-    label: RUL-3B6
-    samples:
-    - rui_location: RUL-3B6.json
-  - sex: Male
-    label: RUL-3B5
-    samples:
-    - rui_location: RUL-3B5.json
   - sex: Male
     label: RUL-3B4
     samples:
@@ -4277,22 +1501,6 @@
     samples:
     - rui_location: RUL-3B1.json
   - sex: Male
-    label: RUL-3A8
-    samples:
-    - rui_location: RUL-3A8.json
-  - sex: Male
-    label: RUL-3A7
-    samples:
-    - rui_location: RUL-3A7.json
-  - sex: Male
-    label: RUL-3A6
-    samples:
-    - rui_location: RUL-3A6.json
-  - sex: Male
-    label: RUL-3A5
-    samples:
-    - rui_location: RUL-3A5.json
-  - sex: Male
     label: RUL-3A4
     samples:
     - rui_location: RUL-3A4.json
@@ -4305,61 +1513,9 @@
     samples:
     - rui_location: RUL-3A2.json
   - sex: Male
-    label: RUL-2D6
+    label: RUL-3A1
     samples:
-    - rui_location: RUL-2D6.json
-  - sex: Male
-    label: RUL-2D5
-    samples:
-    - rui_location: RUL-2D5.json
-  - sex: Male
-    label: RUL-2D4
-    samples:
-    - rui_location: RUL-2D4.json
-  - sex: Male
-    label: RUL-2D3
-    samples:
-    - rui_location: RUL-2D3.json
-  - sex: Male
-    label: RUL-2C7
-    samples:
-    - rui_location: RUL-2C7.json
-  - sex: Male
-    label: RUL-2C6
-    samples:
-    - rui_location: RUL-2C6.json
-  - sex: Male
-    label: RUL-2C5
-    samples:
-    - rui_location: RUL-2C5.json
-  - sex: Male
-    label: RUL-2C4
-    samples:
-    - rui_location: RUL-2C4.json
-  - sex: Male
-    label: RUL-2C3
-    samples:
-    - rui_location: RUL-2C3.json
-  - sex: Male
-    label: RUL-2C2
-    samples:
-    - rui_location: RUL-2C2.json
-  - sex: Male
-    label: RUL-2C1
-    samples:
-    - rui_location: RUL-2C1.json
-  - sex: Male
-    label: RUL-2B7
-    samples:
-    - rui_location: RUL-2B7.json
-  - sex: Male
-    label: RUL-2B6
-    samples:
-    - rui_location: RUL-2B6.json
-  - sex: Male
-    label: RUL-2B5
-    samples:
-    - rui_location: RUL-2B5.json
+    - rui_location: RUL-3A1.json
   - sex: Male
     label: RUL-2B4
     samples:
@@ -4377,18 +1533,6 @@
     samples:
     - rui_location: RUL-2B1.json
   - sex: Male
-    label: RUL-2A7
-    samples:
-    - rui_location: RUL-2A7.json
-  - sex: Male
-    label: RUL-2A6
-    samples:
-    - rui_location: RUL-2A6.json
-  - sex: Male
-    label: RUL-2A5
-    samples:
-    - rui_location: RUL-2A5.json
-  - sex: Male
     label: RUL-2A4
     samples:
     - rui_location: RUL-2A4.json
@@ -4401,45 +1545,9 @@
     samples:
     - rui_location: RUL-2A2.json
   - sex: Male
-    label: RUL-1D5
+    label: RUL-2A1
     samples:
-    - rui_location: RUL-1D5.json
-  - sex: Male
-    label: RUL-1D4
-    samples:
-    - rui_location: RUL-1D4.json
-  - sex: Male
-    label: RUL-1D3
-    samples:
-    - rui_location: RUL-1D3.json
-  - sex: Male
-    label: RUL-1C6
-    samples:
-    - rui_location: RUL-1C6.json
-  - sex: Male
-    label: RUL-1C5
-    samples:
-    - rui_location: RUL-1C5.json
-  - sex: Male
-    label: RUL-1C4
-    samples:
-    - rui_location: RUL-1C4.json
-  - sex: Male
-    label: RUL-1C3
-    samples:
-    - rui_location: RUL-1C3.json
-  - sex: Male
-    label: RUL-1C2
-    samples:
-    - rui_location: RUL-1C2.json
-  - sex: Male
-    label: RUL-1B6
-    samples:
-    - rui_location: RUL-1B6.json
-  - sex: Male
-    label: RUL-1B5
-    samples:
-    - rui_location: RUL-1B5.json
+    - rui_location: RUL-2A1.json
   - sex: Male
     label: RUL-1B4
     samples:
@@ -4453,13 +1561,9 @@
     samples:
     - rui_location: RUL-1B2.json
   - sex: Male
-    label: RUL-1A6
+    label: RUL-1B1
     samples:
-    - rui_location: RUL-1A6.json
-  - sex: Male
-    label: RUL-1A5
-    samples:
-    - rui_location: RUL-1A5.json
+    - rui_location: RUL-1B1.json
   - sex: Male
     label: RUL-1A4
     samples:
@@ -4469,422 +1573,10 @@
     samples:
     - rui_location: RUL-1A3.json
   - sex: Male
-    label: RUL-16C5
+    label: RUL-1A2
     samples:
-    - rui_location: RUL-16C5.json
+    - rui_location: RUL-1A2.json
   - sex: Male
-    label: RUL-16C4
+    label: RUL-1A1
     samples:
-    - rui_location: RUL-16C4.json
-  - sex: Male
-    label: RUL-16C3
-    samples:
-    - rui_location: RUL-16C3.json
-  - sex: Male
-    label: RUL-16B5
-    samples:
-    - rui_location: RUL-16B5.json
-  - sex: Male
-    label: RUL-16B4
-    samples:
-    - rui_location: RUL-16B4.json
-  - sex: Male
-    label: RUL-16B3
-    samples:
-    - rui_location: RUL-16B3.json
-  - sex: Male
-    label: RUL-15D5
-    samples:
-    - rui_location: RUL-15D5.json
-  - sex: Male
-    label: RUL-15D4
-    samples:
-    - rui_location: RUL-15D4.json
-  - sex: Male
-    label: RUL-15C6
-    samples:
-    - rui_location: RUL-15C6.json
-  - sex: Male
-    label: RUL-15C5
-    samples:
-    - rui_location: RUL-15C5.json
-  - sex: Male
-    label: RUL-15C4
-    samples:
-    - rui_location: RUL-15C4.json
-  - sex: Male
-    label: RUL-15C3
-    samples:
-    - rui_location: RUL-15C3.json
-  - sex: Male
-    label: RUL-15B5
-    samples:
-    - rui_location: RUL-15B5.json
-  - sex: Male
-    label: RUL-15B4
-    samples:
-    - rui_location: RUL-15B4.json
-  - sex: Male
-    label: RUL-15B3
-    samples:
-    - rui_location: RUL-15B3.json
-  - sex: Male
-    label: RUL-15B2
-    samples:
-    - rui_location: RUL-15B2.json
-  - sex: Male
-    label: RUL-14D6
-    samples:
-    - rui_location: RUL-14D6.json
-  - sex: Male
-    label: RUL-14D5
-    samples:
-    - rui_location: RUL-14D5.json
-  - sex: Male
-    label: RUL-14D4
-    samples:
-    - rui_location: RUL-14D4.json
-  - sex: Male
-    label: RUL-14C6
-    samples:
-    - rui_location: RUL-14C6.json
-  - sex: Male
-    label: RUL-14C5
-    samples:
-    - rui_location: RUL-14C5.json
-  - sex: Male
-    label: RUL-14C4
-    samples:
-    - rui_location: RUL-14C4.json
-  - sex: Male
-    label: RUL-14C3
-    samples:
-    - rui_location: RUL-14C3.json
-  - sex: Male
-    label: RUL-14B5
-    samples:
-    - rui_location: RUL-14B5.json
-  - sex: Male
-    label: RUL-14B4
-    samples:
-    - rui_location: RUL-14B4.json
-  - sex: Male
-    label: RUL-14B3
-    samples:
-    - rui_location: RUL-14B3.json
-  - sex: Male
-    label: RUL-14B2
-    samples:
-    - rui_location: RUL-14B2.json
-  - sex: Male
-    label: RUL-14A4
-    samples:
-    - rui_location: RUL-14A4.json
-  - sex: Male
-    label: RUL-14A3
-    samples:
-    - rui_location: RUL-14A3.json
-  - sex: Male
-    label: RUL-14A2
-    samples:
-    - rui_location: RUL-14A2.json
-  - sex: Male
-    label: RUL-13D6
-    samples:
-    - rui_location: RUL-13D6.json
-  - sex: Male
-    label: RUL-13D5
-    samples:
-    - rui_location: RUL-13D5.json
-  - sex: Male
-    label: RUL-13D4
-    samples:
-    - rui_location: RUL-13D4.json
-  - sex: Male
-    label: RUL-13C6
-    samples:
-    - rui_location: RUL-13C6.json
-  - sex: Male
-    label: RUL-13C5
-    samples:
-    - rui_location: RUL-13C5.json
-  - sex: Male
-    label: RUL-13C4
-    samples:
-    - rui_location: RUL-13C4.json
-  - sex: Male
-    label: RUL-13C3
-    samples:
-    - rui_location: RUL-13C3.json
-  - sex: Male
-    label: RUL-13B6
-    samples:
-    - rui_location: RUL-13B6.json
-  - sex: Male
-    label: RUL-13B5
-    samples:
-    - rui_location: RUL-13B5.json
-  - sex: Male
-    label: RUL-13B4
-    samples:
-    - rui_location: RUL-13B4.json
-  - sex: Male
-    label: RUL-13B3
-    samples:
-    - rui_location: RUL-13B3.json
-  - sex: Male
-    label: RUL-13B2
-    samples:
-    - rui_location: RUL-13B2.json
-  - sex: Male
-    label: RUL-13B1
-    samples:
-    - rui_location: RUL-13B1.json
-  - sex: Male
-    label: RUL-13A4
-    samples:
-    - rui_location: RUL-13A4.json
-  - sex: Male
-    label: RUL-13A3
-    samples:
-    - rui_location: RUL-13A3.json
-  - sex: Male
-    label: RUL-13A2
-    samples:
-    - rui_location: RUL-13A2.json
-  - sex: Male
-    label: RUL-13A1
-    samples:
-    - rui_location: RUL-13A1.json
-  - sex: Male
-    label: RUL-12D6
-    samples:
-    - rui_location: RUL-12D6.json
-  - sex: Male
-    label: RUL-12D5
-    samples:
-    - rui_location: RUL-12D5.json
-  - sex: Male
-    label: RUL-12D4
-    samples:
-    - rui_location: RUL-12D4.json
-  - sex: Male
-    label: RUL-12D3
-    samples:
-    - rui_location: RUL-12D3.json
-  - sex: Male
-    label: RUL-12C6
-    samples:
-    - rui_location: RUL-12C6.json
-  - sex: Male
-    label: RUL-12C5
-    samples:
-    - rui_location: RUL-12C5.json
-  - sex: Male
-    label: RUL-12C4
-    samples:
-    - rui_location: RUL-12C4.json
-  - sex: Male
-    label: RUL-12C3
-    samples:
-    - rui_location: RUL-12C3.json
-  - sex: Male
-    label: RUL-12C2
-    samples:
-    - rui_location: RUL-12C2.json
-  - sex: Male
-    label: RUL-12B6
-    samples:
-    - rui_location: RUL-12B6.json
-  - sex: Male
-    label: RUL-12B5
-    samples:
-    - rui_location: RUL-12B5.json
-  - sex: Male
-    label: RUL-12B4
-    samples:
-    - rui_location: RUL-12B4.json
-  - sex: Male
-    label: RUL-12B3
-    samples:
-    - rui_location: RUL-12B3.json
-  - sex: Male
-    label: RUL-12B2
-    samples:
-    - rui_location: RUL-12B2.json
-  - sex: Male
-    label: RUL-12B1
-    samples:
-    - rui_location: RUL-12B1.json
-  - sex: Male
-    label: RUL-12A5
-    samples:
-    - rui_location: RUL-12A5.json
-  - sex: Male
-    label: RUL-12A4
-    samples:
-    - rui_location: RUL-12A4.json
-  - sex: Male
-    label: RUL-12A3
-    samples:
-    - rui_location: RUL-12A3.json
-  - sex: Male
-    label: RUL-12A2
-    samples:
-    - rui_location: RUL-12A2.json
-  - sex: Male
-    label: RUL-12A1
-    samples:
-    - rui_location: RUL-12A1.json
-  - sex: Male
-    label: RUL-11D5
-    samples:
-    - rui_location: RUL-11D5.json
-  - sex: Male
-    label: RUL-11D4
-    samples:
-    - rui_location: RUL-11D4.json
-  - sex: Male
-    label: RUL-11D3
-    samples:
-    - rui_location: RUL-11D3.json
-  - sex: Male
-    label: RUL-11C6
-    samples:
-    - rui_location: RUL-11C6.json
-  - sex: Male
-    label: RUL-11C5
-    samples:
-    - rui_location: RUL-11C5.json
-  - sex: Male
-    label: RUL-11C4
-    samples:
-    - rui_location: RUL-11C4.json
-  - sex: Male
-    label: RUL-11C3
-    samples:
-    - rui_location: RUL-11C3.json
-  - sex: Male
-    label: RUL-11C2
-    samples:
-    - rui_location: RUL-11C2.json
-  - sex: Male
-    label: RUL-11B6
-    samples:
-    - rui_location: RUL-11B6.json
-  - sex: Male
-    label: RUL-11B5
-    samples:
-    - rui_location: RUL-11B5.json
-  - sex: Male
-    label: RUL-11B4
-    samples:
-    - rui_location: RUL-11B4.json
-  - sex: Male
-    label: RUL-11B3
-    samples:
-    - rui_location: RUL-11B3.json
-  - sex: Male
-    label: RUL-11B2
-    samples:
-    - rui_location: RUL-11B2.json
-  - sex: Male
-    label: RUL-11B1
-    samples:
-    - rui_location: RUL-11B1.json
-  - sex: Male
-    label: RUL-11A5
-    samples:
-    - rui_location: RUL-11A5.json
-  - sex: Male
-    label: RUL-11A4
-    samples:
-    - rui_location: RUL-11A4.json
-  - sex: Male
-    label: RUL-11A3
-    samples:
-    - rui_location: RUL-11A3.json
-  - sex: Male
-    label: RUL-11A2
-    samples:
-    - rui_location: RUL-11A2.json
-  - sex: Male
-    label: RUL-11A1
-    samples:
-    - rui_location: RUL-11A1.json
-  - sex: Male
-    label: RUL-10D5
-    samples:
-    - rui_location: RUL-10D5.json
-  - sex: Male
-    label: RUL-10D4
-    samples:
-    - rui_location: RUL-10D4.json
-  - sex: Male
-    label: RUL-10D3
-    samples:
-    - rui_location: RUL-10D3.json
-  - sex: Male
-    label: RUL-10C6
-    samples:
-    - rui_location: RUL-10C6.json
-  - sex: Male
-    label: RUL-10C5
-    samples:
-    - rui_location: RUL-10C5.json
-  - sex: Male
-    label: RUL-10C4
-    samples:
-    - rui_location: RUL-10C4.json
-  - sex: Male
-    label: RUL-10C3
-    samples:
-    - rui_location: RUL-10C3.json
-  - sex: Male
-    label: RUL-10C2
-    samples:
-    - rui_location: RUL-10C2.json
-  - sex: Male
-    label: RUL-10B6
-    samples:
-    - rui_location: RUL-10B6.json
-  - sex: Male
-    label: RUL-10B5
-    samples:
-    - rui_location: RUL-10B5.json
-  - sex: Male
-    label: RUL-10B4
-    samples:
-    - rui_location: RUL-10B4.json
-  - sex: Male
-    label: RUL-10B3
-    samples:
-    - rui_location: RUL-10B3.json
-  - sex: Male
-    label: RUL-10B2
-    samples:
-    - rui_location: RUL-10B2.json
-  - sex: Male
-    label: RUL-10B1
-    samples:
-    - rui_location: RUL-10B1.json
-  - sex: Male
-    label: RUL-10A5
-    samples:
-    - rui_location: RUL-10A5.json
-  - sex: Male
-    label: RUL-10A4
-    samples:
-    - rui_location: RUL-10A4.json
-  - sex: Male
-    label: RUL-10A3
-    samples:
-    - rui_location: RUL-10A3.json
-  - sex: Male
-    label: RUL-10A2
-    samples:
-    - rui_location: RUL-10A2.json
-  - sex: Male
-    label: RUL-10A1
-    samples:
-    - rui_location: RUL-10A1.json
+    - rui_location: RUL-1A1.json

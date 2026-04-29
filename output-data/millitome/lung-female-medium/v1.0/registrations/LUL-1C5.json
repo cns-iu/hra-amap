@@ -15,21 +15,21 @@
 		"rotation_units": "degree",
 		"translation_units": "millimeter",
 		"@id": "https://purl.humanatlas.io/millitome/lung-female-medium/v1.0#LUL-1C5_placement",
-		"placement_date": "2026-04-15",
+		"placement_date": "2026-04-28",
 		"x_scaling": 1.0,
-		"y_scaling": 0.9999999999999999,
+		"y_scaling": 1.0000000000000002,
 		"z_scaling": 0.9999999999999999,
-		"x_rotation": 138.5739216691479,
-		"y_rotation": 40.08059170751729,
-		"z_rotation": -123.3583856705559,
-		"x_translation": 163.1500317016408,
-		"y_translation": 187.52609778482403,
-		"z_translation": 22.095598636541542
+		"x_rotation": -21.85719923630964,
+		"y_rotation": -37.872632771025316,
+		"z_rotation": -43.128493379870456,
+		"x_translation": 163.32052482388332,
+		"y_translation": 187.9017301164772,
+		"z_translation": 22.656020672018446
 	},
 	"@id": "https://purl.humanatlas.io/millitome/lung-female-medium/v1.0#LUL-1C5",
 	"label": "LUL-1C5",
-	"creation_date": "2026-04-15",
-	"x_dimension": 1.7393517570514094,
-	"y_dimension": 5.979753371694652,
-	"z_dimension": 6.0630148669778015
+	"creation_date": "2026-04-28",
+	"x_dimension": 1.634590021563076,
+	"y_dimension": 4.433927108914354,
+	"z_dimension": 5.689085885440055
 }
