@@ -13,6 +13,7 @@ from hra_amap.registration.pipeline import Pipeline
 from hra_amap.utils.io import read_yaml, write_yaml
 from hra_amap.utils.constants import ConfigKeys
 from hra_amap.utils.preprocess import download_and_process_glb_file
+from hra_amap.utils.non_hra_mapping import get_rotation_matrix
 
 class ProjectionPickle:
     """
@@ -56,6 +57,13 @@ class ProjectionPickle:
             faces=np.array(template_mesh["faces"]),
             process=False,
         )
+
+        config_nhm = self.config_dict.get(ConfigKeys.NonHRAMapping, {})
+
+        if ConfigKeys.ROTATION in config_nhm:
+            rx, ry, rz = config_nhm[ConfigKeys.ROTATION]
+            mesh.apply_transform(get_rotation_matrix("x", rx))
+            mesh.apply_transform(get_rotation_matrix("y", ry))
 
         source_path = Path(self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.SOURCE])
         source_path.parent.mkdir(parents=True, exist_ok=True)

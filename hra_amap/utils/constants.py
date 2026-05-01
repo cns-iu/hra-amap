@@ -34,3 +34,5 @@ class ConfigKeys(str, Enum):
     ROTATION = "rotation_deg"
     AT_GRAPH = "@graph"
     AT_CONTEXT = "@context"
+    NonHRAMapping = "non_hra_mapping"
+    

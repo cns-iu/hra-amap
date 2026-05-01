@@ -1,7 +1,7 @@
 input_files:
   source: "heartHuman_zinc_graphics.glb"
 
-retain_component: ["VH_M_interventricular_septum","VH_M_left_cardiac_atrium","VH_M_left_ventricle","VH_M_right_cardiac_atrium","VH_M_right_ventricle","VH_M_aortic_valve"]
+retain_component: ["VH_M_left_cardiac_atrium","VH_M_right_cardiac_atrium","VH_M_heart_right_ventricle","VH_M_interventricular_septum","VH_M_heart_left_ventricle"]
 
 target_name: "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
 
@@ -50,8 +50,3 @@ rigid_registration:
   refine_distance_threshold_factor: 0.1
   voxel_size: 0.025
 
-non_hra_mapping:
-  model_scale: 0.87
-  flip: [1, 1, -1]
-  rotation_deg: [0, -306, 0]
-  organ: "Heart"

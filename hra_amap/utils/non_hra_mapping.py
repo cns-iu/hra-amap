@@ -10,56 +10,77 @@ import json
 from datetime import date
 from hra_amap.utils.constants import ConfigKeys
 
-
-def build_mesh_from_sample(sample, scaling_factor, axes):
+def build_block_metadata(sample, donor):
     """
-    Builds a 3D box mesh from a sample's RUI location metadata, applying unit conversion,
-    scaling, rotation, and translation to place the mesh correctly in 3D space.
-
-    Args:
-        sample (dict): Sample record containing RUI location, spatial dimensions,
-                       placement information, and associated metadata.
-        scaling_factor (float): Scaling factor applied to convert spatial units into
-                                the target coordinate system.
-
-    Returns:
-        trimesh.Trimesh: A transformed 3D box mesh representing the sample geometry.
+    Builds metadata from a sample's RUI location
     """
-    rui = sample[ConfigKeys.RUI_LOCATION_KEY]
-    mustard = np.array([225, 173, 1, 255], dtype=np.uint8)
+
+    rui = sample.get(ConfigKeys.RUI_LOCATION_KEY, {})
+    placement = rui.get(ConfigKeys.PLACEMENT, {})
 
     units = rui.get("dimension_units", "millimeter")
-    factor = 1e3 if units == "millimeter" else 1e2 if units == "centimeter" else 1.0
 
-    size = (
-        rui["x_dimension"] / factor * scaling_factor,
-        rui["y_dimension"] / factor * scaling_factor,
-        rui["z_dimension"] / factor * scaling_factor,
+    dimensions = (
+        rui.get("x_dimension"),
+        rui.get("y_dimension"),
+        rui.get("z_dimension"),
     )
 
-    mesh = trimesh.creation.box(extents=size)
-    mesh.metadata["sample"] = sample
-    mesh.metadata["id"] = sample.get(ConfigKeys.AT_ID)
-    mesh.metadata["donor"] = sample.get("donor")
-    mesh.metadata["label"] = sample.get("label")
-    mesh.metadata["sample_type"] = sample.get("sample_type")
+    placement_min = {
+        "@id": placement.get("@id"),
+        "@type": placement.get("@type", "SpatialPlacement"),
+        "target": placement.get("target"),
 
-    placement = rui.get(ConfigKeys.PLACEMENT, {})
-    if placement:
-        rx = np.deg2rad(placement.get("x_rotation", 0))
-        ry = np.deg2rad(placement.get("y_rotation", 0))
-        rz = np.deg2rad(placement.get("z_rotation", 0))
-        rot = trimesh.transformations.euler_matrix(rx, ry, rz, axes=axes)
-        mesh.apply_transform(rot)
+        "x_rotation": placement.get("x_rotation", 0),
+        "y_rotation": placement.get("y_rotation", 0),
+        "z_rotation": placement.get("z_rotation", 0),
 
-        tx = placement.get("x_translation", 0) / factor * scaling_factor
-        ty = placement.get("y_translation", 0) / factor * scaling_factor
-        tz = placement.get("z_translation", 0) / factor * scaling_factor
-        mesh.apply_translation([tx, ty, tz])
+        "x_translation": placement.get("x_translation", 0),
+        "y_translation": placement.get("y_translation", 0),
+        "z_translation": placement.get("z_translation", 0),
+    }
 
-    mesh.visual.vertex_colors = np.tile(mustard, (mesh.vertices.shape[0], 1))
-    return mesh
+    rui_min = {
+        "@id": rui.get("@id"),
+        "@type": rui.get("@type", "SpatialEntity"),
+        "dimension_units": units,
 
+        "x_dimension": dimensions[0],
+        "y_dimension": dimensions[1],
+        "z_dimension": dimensions[2],
+
+        "ccf_annotations": rui.get("ccf_annotations", []),
+
+        ConfigKeys.PLACEMENT: placement_min,
+    }
+
+    sample_min = {
+        "@id": sample.get("@id"),
+        "@type": sample.get("@type", "Sample"),
+        "sample_type": sample.get("sample_type"),
+        "label": sample.get("label"),
+        "description": sample.get("description"),
+        "link": sample.get("link"),
+
+        ConfigKeys.RUI_LOCATION_KEY: rui_min,
+    }
+
+    metadata = {
+        "sample": sample_min,
+        "id": sample.get(ConfigKeys.AT_ID),
+        "donor": sample.get("donor"),
+        "label": donor.get("label"),
+        "@id": donor.get(ConfigKeys.AT_ID),
+        "@type": donor.get("@type"),
+        "consortium_name": donor.get("consortium_name"),
+        "sex": donor.get(ConfigKeys.SEX),
+        "provider_name": donor.get("provider_name"),
+        "provider_uuid": donor.get("provider_uuid"),
+        "link": donor.get(ConfigKeys.LINK),
+        "description": donor.get("description"),
+    }
+
+    return metadata
 
 def scale_millitome_block(blocks, scale):
     """
@@ -73,67 +94,6 @@ def scale_millitome_block(blocks, scale):
 
         offset = b.centroid - center
         b.apply_translation(offset * (scale - 1))
-
-def build_blocks_and_donor_points(donors, scaling_factor, axes = "sxyz"):
-    """
-    Builds 3D block meshes from donor samples and computes corresponding
-    donor placement points in scaled coordinates.
-
-    Args:
-        donors (list): List of donor records containing samples and metadata.
-        scaling_factor (float): Scaling factor applied to spatial dimensions.
-
-    Returns:
-        tuple:
-            - blocks (list[trimesh.Trimesh]): Generated block meshes with metadata attached.
-            - donor_points (np.ndarray): Array of donor placement points (N x 3).
-    """
-    blocks = []
-    donor_points = []
-
-    for donor in donors:
-        for sample in donor["samples"]:
-            # Build block mesh from sample
-            mesh = build_mesh_from_sample(sample, scaling_factor, axes)
-
-            # Attach donor-level metadata
-            mesh.metadata.update(
-                {
-                    "label": donor.get("label"),
-                    "@id": donor.get(ConfigKeys.AT_ID),
-                    "@type": donor.get("@type"),
-                    "consortium_name": donor.get("consortium_name"),
-                    "sex": donor.get(ConfigKeys.SEX),
-                    "provider_name": donor.get("provider_name"),
-                    "provider_uuid": donor.get("provider_uuid"),
-                    "link": donor.get(ConfigKeys.LINK),
-                    "description": donor.get("description"),
-                }
-            )
-
-            blocks.append(mesh)
-
-            # Compute donor placement point
-            placement = sample[ConfigKeys.RUI_LOCATION_KEY].get(
-                ConfigKeys.PLACEMENT, {}
-            )
-            units = sample[ConfigKeys.RUI_LOCATION_KEY].get(
-                "dimension_units", "millimeter"
-            )
-            factor = (
-                1e3 if units == "millimeter" else 1e2 if units == "centimeter" else 1.0
-            )
-
-            donor_points.append(
-                [
-                    placement.get("x_translation", 0) / factor * scaling_factor,
-                    placement.get("y_translation", 0) / factor * scaling_factor,
-                    placement.get("z_translation", 0) / factor * scaling_factor,
-                ]
-            )
-
-    return blocks, np.array(donor_points)
-
 
 def generate_extraction_sites_jsonld_from_blocks(
     blocks, context, config_dict, output_path
@@ -177,7 +137,6 @@ def generate_extraction_sites_jsonld_from_blocks(
         json.dump(entities, f, indent=2)
 
     print(f"\n JSON-LD written to: {output_path}")
-
 
 def generate_dataset_graph_jsonld_from_blocks(
     blocks, context, config_dict, source_graph, output_path
@@ -260,3 +219,15 @@ def generate_dataset_graph_jsonld_from_blocks(
 
     with open(output_path, "w") as f:
         json.dump(dataset_graph, f, indent=2)
+
+def get_rotation_matrix(axis: str, angle_deg: float):
+    angle_rad = np.radians(angle_deg)
+
+    if axis == "x":
+        return trimesh.transformations.rotation_matrix(angle_rad, [1, 0, 0])
+    elif axis == "y":
+        return trimesh.transformations.rotation_matrix(angle_rad, [0, 1, 0])
+    elif axis == "z":
+        return trimesh.transformations.rotation_matrix(angle_rad, [0, 0, 1])
+    else:
+        raise ValueError("Axis must be 'x', 'y', or 'z'")
