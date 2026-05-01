@@ -53,6 +53,4 @@ rigid_registration:
   voxel_size: 0.025
 
 non_hra_mapping:
-  model_scale: 0.85
-  flip: [1, -1, 1]
-  rotation_deg: [-120, 0, 10]
+  rotation_deg: [-90, -180, 0]

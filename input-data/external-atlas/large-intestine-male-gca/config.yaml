@@ -48,6 +48,11 @@ rigid_registration:
   refine_distance_threshold_factor: 0.1
   voxel_size: 0.025
 
-non_hra_mapping:
-  model_scale: 1
-  rotation_deg: [-100, 0, -10]
+remove-block: [
+  "https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fasc_colon",
+  "https://doi.org/10.1126/science.abl4896#TSP26_Large_Intestine%2Fasc_colon",
+  "https://doi.org/10.1126/science.abl4896#TSP27_asc_colon",
+  "https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fsigmoid_colon",
+  "https://doi.org/10.1126/science.abl4896#TSP26_Large_Intestine%2Fsigmoid_colon",
+  "https://doi.org/10.1126/science.abl4896#TSP27_sigmoid_colon"
+]

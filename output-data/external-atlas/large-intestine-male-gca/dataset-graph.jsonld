@@ -2,390 +2,6 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://doi.org/10.1126/science.abl4896#TSP2",
-      "@type": "Donor",
-      "label": "TSP2",
-      "description": "Entered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-      "link": "https://doi.org/10.1126/science.abl4896",
-      "consortium_name": "HCA",
-      "provider_name": "Tabula Sapiens",
-      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fasc_colon",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
-          "link": "https://doi.org/10.1126/science.abl4896",
-          "section_count": 0,
-          "section_size": 0,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://doi.org/10.1126/science.abl4896#TSP2",
-            "@type": "SpatialEntity",
-            "label": "https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fasc_colon",
-            "creator": "Antara Bhavsar",
-            "creator_first_name": "Antara",
-            "creator_last_name": "Bhavsar",
-            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
-            "x_dimension": 304.8,
-            "y_dimension": 40,
-            "z_dimension": 50,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@id": "http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478_placement",
-              "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
-              "x_rotation": 24,
-              "x_scaling": 1,
-              "x_translation": 35.809,
-              "y_rotation": 83,
-              "y_scaling": 1,
-              "y_translation": 316.233,
-              "z_rotation": 49,
-              "z_scaling": 1,
-              "z_translation": 54.732,
-              "creation_date": "2023-08-28"
-            },
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001156",
-              "http://purl.obolibrary.org/obo/UBERON_0001157",
-              "http://purl.obolibrary.org/obo/UBERON_0022277"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "@id": "https://doi.org/10.1126/science.abl4896#TSP2",
-      "@type": "Donor",
-      "label": "TSP2",
-      "description": "Entered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-      "link": "https://doi.org/10.1126/science.abl4896",
-      "consortium_name": "HCA",
-      "provider_name": "Tabula Sapiens",
-      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fsigmoid_colon",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
-          "link": "https://doi.org/10.1126/science.abl4896",
-          "section_count": 0,
-          "section_size": 0,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://doi.org/10.1126/science.abl4896#TSP2",
-            "@type": "SpatialEntity",
-            "label": "https://doi.org/10.1126/science.abl4896#TSP2_Large_Intestine%2Fsigmoid_colon",
-            "creator": "Antara Bhavsar",
-            "creator_first_name": "Antara",
-            "creator_last_name": "Bhavsar",
-            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
-            "x_dimension": 304.8,
-            "y_dimension": 40,
-            "z_dimension": 50,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@id": "http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab_placement",
-              "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
-              "x_rotation": 11,
-              "x_scaling": 1,
-              "x_translation": 119.763,
-              "y_rotation": 31,
-              "y_scaling": 1,
-              "y_translation": 85.628,
-              "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 98.584,
-              "creation_date": "2023-08-28"
-            },
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001052",
-              "http://purl.obolibrary.org/obo/UBERON_0001153",
-              "http://purl.obolibrary.org/obo/UBERON_0001154",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0001159"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "@id": "https://doi.org/10.1126/science.abl4896#TSP26",
-      "@type": "Donor",
-      "label": "TSP26",
-      "description": "Entered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-      "link": "https://doi.org/10.1126/science.abl4896",
-      "consortium_name": "HCA",
-      "provider_name": "Tabula Sapiens",
-      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://doi.org/10.1126/science.abl4896#TSP26_Large_Intestine%2Fasc_colon",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
-          "link": "https://doi.org/10.1126/science.abl4896",
-          "section_count": 0,
-          "section_size": 0,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://doi.org/10.1126/science.abl4896#TSP26",
-            "@type": "SpatialEntity",
-            "label": "https://doi.org/10.1126/science.abl4896#TSP26_Large_Intestine%2Fasc_colon",
-            "creator": "Antara Bhavsar",
-            "creator_first_name": "Antara",
-            "creator_last_name": "Bhavsar",
-            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
-            "x_dimension": 304.8,
-            "y_dimension": 40,
-            "z_dimension": 50,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@id": "http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478_placement",
-              "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
-              "x_rotation": 24,
-              "x_scaling": 1,
-              "x_translation": 35.809,
-              "y_rotation": 83,
-              "y_scaling": 1,
-              "y_translation": 316.233,
-              "z_rotation": 49,
-              "z_scaling": 1,
-              "z_translation": 54.732,
-              "creation_date": "2023-08-28"
-            },
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001156",
-              "http://purl.obolibrary.org/obo/UBERON_0001157",
-              "http://purl.obolibrary.org/obo/UBERON_0022277"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "@id": "https://doi.org/10.1126/science.abl4896#TSP26",
-      "@type": "Donor",
-      "label": "TSP26",
-      "description": "Entered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-      "link": "https://doi.org/10.1126/science.abl4896",
-      "consortium_name": "HCA",
-      "provider_name": "Tabula Sapiens",
-      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://doi.org/10.1126/science.abl4896#TSP26_Large_Intestine%2Fsigmoid_colon",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
-          "link": "https://doi.org/10.1126/science.abl4896",
-          "section_count": 0,
-          "section_size": 0,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://doi.org/10.1126/science.abl4896#TSP26",
-            "@type": "SpatialEntity",
-            "label": "https://doi.org/10.1126/science.abl4896#TSP26_Large_Intestine%2Fsigmoid_colon",
-            "creator": "Antara Bhavsar",
-            "creator_first_name": "Antara",
-            "creator_last_name": "Bhavsar",
-            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
-            "x_dimension": 304.8,
-            "y_dimension": 40,
-            "z_dimension": 50,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@id": "http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab_placement",
-              "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
-              "x_rotation": 11,
-              "x_scaling": 1,
-              "x_translation": 119.763,
-              "y_rotation": 31,
-              "y_scaling": 1,
-              "y_translation": 85.628,
-              "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 98.584,
-              "creation_date": "2023-08-28"
-            },
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001052",
-              "http://purl.obolibrary.org/obo/UBERON_0001153",
-              "http://purl.obolibrary.org/obo/UBERON_0001154",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0001159"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "@id": "https://doi.org/10.1126/science.abl4896#TSP27",
-      "@type": "Donor",
-      "label": "TSP27",
-      "description": "Entered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-      "link": "https://doi.org/10.1126/science.abl4896",
-      "consortium_name": "HCA",
-      "provider_name": "Tabula Sapiens",
-      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_asc_colon",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
-          "link": "https://doi.org/10.1126/science.abl4896",
-          "section_count": 0,
-          "section_size": 0,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://doi.org/10.1126/science.abl4896#TSP27",
-            "@type": "SpatialEntity",
-            "label": "https://doi.org/10.1126/science.abl4896#TSP27_asc_colon",
-            "creator": "Antara Bhavsar",
-            "creator_first_name": "Antara",
-            "creator_last_name": "Bhavsar",
-            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
-            "x_dimension": 304.8,
-            "y_dimension": 40,
-            "z_dimension": 50,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@id": "http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478_placement",
-              "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/d76af3c2-3456-48ab-a806-a113c1a1a478",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
-              "x_rotation": 24,
-              "x_scaling": 1,
-              "x_translation": 35.809,
-              "y_rotation": 83,
-              "y_scaling": 1,
-              "y_translation": 316.233,
-              "z_rotation": 49,
-              "z_scaling": 1,
-              "z_translation": 54.732,
-              "creation_date": "2023-08-28"
-            },
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001156",
-              "http://purl.obolibrary.org/obo/UBERON_0001157",
-              "http://purl.obolibrary.org/obo/UBERON_0022277"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "@id": "https://doi.org/10.1126/science.abl4896#TSP27",
-      "@type": "Donor",
-      "label": "TSP27",
-      "description": "Entered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-      "link": "https://doi.org/10.1126/science.abl4896",
-      "consortium_name": "HCA",
-      "provider_name": "Tabula Sapiens",
-      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://doi.org/10.1126/science.abl4896#TSP27_sigmoid_colon",
-          "@type": "Sample",
-          "sample_type": "Tissue Block",
-          "label": "Registered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
-          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
-          "link": "https://doi.org/10.1126/science.abl4896",
-          "section_count": 0,
-          "section_size": 0,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://doi.org/10.1126/science.abl4896#TSP27",
-            "@type": "SpatialEntity",
-            "label": "https://doi.org/10.1126/science.abl4896#TSP27_sigmoid_colon",
-            "creator": "Antara Bhavsar",
-            "creator_first_name": "Antara",
-            "creator_last_name": "Bhavsar",
-            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
-            "x_dimension": 304.8,
-            "y_dimension": 40,
-            "z_dimension": 50,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@id": "http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab_placement",
-              "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/79aded5b-cbd0-494d-9534-7ec8292fa0ab",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
-              "x_rotation": 11,
-              "x_scaling": 1,
-              "x_translation": 119.763,
-              "y_rotation": 31,
-              "y_scaling": 1,
-              "y_translation": 85.628,
-              "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 98.584,
-              "creation_date": "2023-08-28"
-            },
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001052",
-              "http://purl.obolibrary.org/obo/UBERON_0001153",
-              "http://purl.obolibrary.org/obo/UBERON_0001154",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0001159"
-            ]
-          }
-        }
-      ]
-    },
-    {
       "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
       "@type": "Donor",
       "label": "Female, Age 54",
@@ -403,8 +19,8 @@
           "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/251e2e18951b2be556fcb756f1806f03",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
@@ -414,7 +30,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -422,22 +38,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/48f6aab3-8d58-4675-806c-3fd7d5b7336f_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/48f6aab3-8d58-4675-806c-3fd7d5b7336f",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -18,
-              "x_scaling": 1,
-              "x_translation": 6.59,
               "y_rotation": 90,
-              "y_scaling": 1,
-              "y_translation": 170.113,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 100.398,
-              "creation_date": "2022-06-08"
+              "x_translation": -94.59065867588887,
+              "y_translation": -27.863017046213336,
+              "z_translation": 145.94274189662477
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001153",
@@ -466,8 +73,8 @@
           "label": "Registered 9/13/2022, Daniel Cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/2a70c0c2648986e08b8c5b81e6561f68",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
@@ -477,7 +84,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -485,22 +92,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/32214c14-bf21-4bf6-aea9-58ab721128ab_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/32214c14-bf21-4bf6-aea9-58ab721128ab",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 0,
-              "x_scaling": 1,
-              "x_translation": 230.572,
               "y_rotation": 90,
-              "y_scaling": 1,
-              "y_translation": 164.066,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 103.282,
-              "creation_date": "2022-09-13"
+              "x_translation": 86.19190170181803,
+              "y_translation": -41.56776751111145,
+              "z_translation": 94.51682664870573
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001158",
@@ -529,7 +127,7 @@
           "description": "20 x 50 x 5 millimeter, 5 millimeter, 0 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/2ea69d0db6a46a1fca6a6a7049856edb",
           "section_count": 0,
-          "section_size": 5,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
@@ -539,7 +137,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -547,22 +145,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/cd304e60-3de4-4dd9-b289-ce1a0efae4d7_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/cd304e60-3de4-4dd9-b289-ce1a0efae4d7",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 90,
-              "x_scaling": 1,
-              "x_translation": 115.299,
               "y_rotation": 0,
-              "y_scaling": 1,
-              "y_translation": 104.423,
               "z_rotation": 78,
-              "z_scaling": 1,
-              "z_translation": 95.471,
-              "creation_date": "2022-06-08"
+              "x_translation": 2.4062626091605197,
+              "y_translation": 66.55104654659522,
+              "z_translation": 45.821063431818665
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001052",
@@ -592,8 +181,8 @@
           "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/7de2b4da1bcc1df5eb305cedb30a20c6",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
@@ -603,7 +192,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -611,27 +200,18 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/db4f3eca-e9f8-4f9c-88a1-795a20dd0f84_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/db4f3eca-e9f8-4f9c-88a1-795a20dd0f84",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 90,
-              "x_scaling": 1,
-              "x_translation": 124.831,
               "y_rotation": -3,
-              "y_scaling": 1,
-              "y_translation": 225.996,
               "z_rotation": 88,
-              "z_scaling": 1,
-              "z_translation": 156.403,
-              "creation_date": "2022-06-08"
+              "x_translation": -16.463317082677698,
+              "y_translation": -65.70664637175878,
+              "z_translation": 197.4472451419008
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
               "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0022276",
-              "http://purl.obolibrary.org/obo/UBERON_0001157"
+              "http://purl.obolibrary.org/obo/UBERON_0022276"
             ]
           }
         }
@@ -655,8 +235,8 @@
           "label": "Registered 10/19/2021, amir Bahmani, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/00bf92f03e3eadf91552850d32eff9e4",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
@@ -666,7 +246,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -674,22 +254,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/53a6bbda-8263-419d-96e8-ba4561899d87_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/53a6bbda-8263-419d-96e8-ba4561899d87",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -18,
-              "x_scaling": 1,
-              "x_translation": 7.011,
               "y_rotation": 90,
-              "y_scaling": 1,
-              "y_translation": 153.255,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 106.806,
-              "creation_date": "2021-10-19"
+              "x_translation": -94.41501039798547,
+              "y_translation": -31.31742220844706,
+              "z_translation": 133.40144502661468
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001153",
@@ -718,8 +289,8 @@
           "label": "Registered 10/19/2021, amir Bahmani, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/3838f4672dd3d3d1ee6cb0809cf1ea03",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
@@ -729,7 +300,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -737,29 +308,20 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/f9e28182-3ed3-4a3f-bd45-66ebce1efafb_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/f9e28182-3ed3-4a3f-bd45-66ebce1efafb",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 0,
-              "x_scaling": 1,
-              "x_translation": 245.289,
               "y_rotation": 90,
-              "y_scaling": 1,
-              "y_translation": 147.807,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 109.874,
-              "creation_date": "2021-10-19"
+              "x_translation": 83.76787645948683,
+              "y_translation": -46.529860991856935,
+              "z_translation": 82.58363041927484
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
               "http://purl.obolibrary.org/obo/UBERON_0001158",
               "http://purl.obolibrary.org/obo/UBERON_0001159",
-              "http://purl.obolibrary.org/obo/UBERON_0022276",
-              "http://purl.obolibrary.org/obo/UBERON_0001156",
-              "http://purl.obolibrary.org/obo/UBERON_0001157"
+              "http://purl.obolibrary.org/obo/UBERON_0022276"
             ]
           }
         }
@@ -785,12 +347,12 @@
           ],
           "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
           "description": [
-            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-            "20 x 50 x 1 millimeter, 1 millimeter"
+            "20 x 50 x 1 millimeter, 1 millimeter",
+            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
           ],
           "link": "https://portal.hubmapconsortium.org/browse/sample/3d742332ef8ca26f34f7ee5b9da3381c",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
@@ -800,7 +362,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -808,22 +370,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/6cc00882-7403-4eca-8f50-03eebfc8c873_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/6cc00882-7403-4eca-8f50-03eebfc8c873",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 0,
-              "x_scaling": 1,
-              "x_translation": 230.572,
               "y_rotation": 90,
-              "y_scaling": 1,
-              "y_translation": 164.066,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 103.282,
-              "creation_date": "2022-02-16"
+              "x_translation": 86.19190170181803,
+              "y_translation": -41.56776751111145,
+              "z_translation": 94.51682664870573
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001156",
@@ -852,8 +405,8 @@
           "label": "Registered 10/19/2021, amir Bahmani, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/7113f174c5b0da705b126129dff02f80",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
@@ -863,7 +416,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -871,22 +424,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/fe276ee5-752a-456e-bb25-4e5da071c6ed_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/fe276ee5-752a-456e-bb25-4e5da071c6ed",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 90,
-              "x_scaling": 1,
-              "x_translation": 132.799,
               "y_rotation": -3,
-              "y_scaling": 1,
-              "y_translation": 203.6,
               "z_rotation": 88,
-              "z_scaling": 1,
-              "z_translation": 166.386,
-              "creation_date": "2021-10-19"
+              "x_translation": -15.499819303521393,
+              "y_translation": -65.48719919133283,
+              "z_translation": 151.52481092215893
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001156",
@@ -923,7 +467,7 @@
           ],
           "link": "https://portal.hubmapconsortium.org/browse/sample/8124e9475115786c1fae3683a6714c32",
           "section_count": 0,
-          "section_size": 5,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
@@ -933,7 +477,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -941,22 +485,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/54299692-7ff8-468b-9c0a-c04a32f6fbe1_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/54299692-7ff8-468b-9c0a-c04a32f6fbe1",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 90,
-              "x_scaling": 1,
-              "x_translation": 115.299,
               "y_rotation": 0,
-              "y_scaling": 1,
-              "y_translation": 104.423,
               "z_rotation": 78,
-              "z_scaling": 1,
-              "z_translation": 95.471,
-              "creation_date": "2022-02-16"
+              "x_translation": 2.4062626091605197,
+              "y_translation": 66.55104654659522,
+              "z_translation": 45.821063431818665
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001052",
@@ -988,8 +523,8 @@
           "label": "Registered 10/19/2021, amir Bahmani, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1.7 millimeter, 3 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/8cdf44a106338aada6da04c71eeb767e",
-          "section_count": 3,
-          "section_size": 1.7,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
@@ -999,7 +534,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1007,22 +542,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/93286ce3-669a-4f3f-a85a-7eaaedc15c59_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/93286ce3-669a-4f3f-a85a-7eaaedc15c59",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 90,
-              "x_scaling": 1,
-              "x_translation": 122.658,
               "y_rotation": 0,
-              "y_scaling": 1,
-              "y_translation": 94.075,
               "z_rotation": 78,
-              "z_scaling": 1,
-              "z_translation": 101.565,
-              "creation_date": "2021-10-19"
+              "x_translation": 2.512827956378447,
+              "y_translation": 69.205811971405,
+              "z_translation": 24.56287991945876
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001052",
@@ -1051,8 +577,8 @@
           "@id": "https://entity.api.hubmapconsortium.org/entities/96d320ccb24a968bc32571895cf1b05e",
           "@type": "Sample",
           "sample_type": [
-            "Tissue Block",
-            "Tissue Section"
+            "Tissue Section",
+            "Tissue Block"
           ],
           "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
           "description": [
@@ -1061,7 +587,7 @@
           ],
           "link": "https://portal.hubmapconsortium.org/browse/sample/96d320ccb24a968bc32571895cf1b05e",
           "section_count": 0,
-          "section_size": 5,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
@@ -1071,7 +597,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1079,28 +605,19 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/4104aaa3-c9e7-44a2-acf6-58fbf19e4308_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/4104aaa3-c9e7-44a2-acf6-58fbf19e4308",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 90,
-              "x_scaling": 1,
-              "x_translation": 115.299,
               "y_rotation": 0,
-              "y_scaling": 1,
-              "y_translation": 104.423,
               "z_rotation": 78,
-              "z_scaling": 1,
-              "z_translation": 95.471,
-              "creation_date": "2022-02-16"
+              "x_translation": 2.4062626091605197,
+              "y_translation": 66.55104654659522,
+              "z_translation": 45.821063431818665
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001159",
               "http://purl.obolibrary.org/obo/UBERON_0001052",
               "http://purl.obolibrary.org/obo/UBERON_0001154",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0001159"
+              "http://purl.obolibrary.org/obo/UBERON_0001158"
             ]
           }
         }
@@ -1126,12 +643,12 @@
           ],
           "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
           "description": [
-            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-            "20 x 50 x 1 millimeter, 1 millimeter"
+            "20 x 50 x 1 millimeter, 1 millimeter",
+            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
           ],
           "link": "https://portal.hubmapconsortium.org/browse/sample/d0cb764459fd1d1c6f04fdce2e982831",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
@@ -1141,7 +658,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1149,22 +666,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/296f4f10-2d50-4b28-932a-69a6658171c1_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/296f4f10-2d50-4b28-932a-69a6658171c1",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 90,
-              "x_scaling": 1,
-              "x_translation": 124.831,
               "y_rotation": -3,
-              "y_scaling": 1,
-              "y_translation": 225.996,
               "z_rotation": 88,
-              "z_scaling": 1,
-              "z_translation": 156.403,
-              "creation_date": "2022-02-16"
+              "x_translation": -16.463317082677698,
+              "y_translation": -65.70664637175878,
+              "z_translation": 197.4472451419008
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001157",
@@ -1196,12 +704,12 @@
           ],
           "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
           "description": [
-            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-            "20 x 50 x 1 millimeter, 1 millimeter"
+            "20 x 50 x 1 millimeter, 1 millimeter",
+            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
           ],
           "link": "https://portal.hubmapconsortium.org/browse/sample/e4ee92c09a755f8889cb8c37a669e160",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
@@ -1211,7 +719,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1219,22 +727,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/2d293c0a-b148-4243-a5d9-32dbc7d1460f_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/2d293c0a-b148-4243-a5d9-32dbc7d1460f",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -18,
-              "x_scaling": 1,
-              "x_translation": 6.59,
               "y_rotation": 90,
-              "y_scaling": 1,
-              "y_translation": 170.113,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 100.398,
-              "creation_date": "2022-02-16"
+              "x_translation": -94.59065867588887,
+              "y_translation": -27.863017046213336,
+              "z_translation": 145.94274189662477
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001153",
@@ -1263,8 +762,8 @@
           "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/2ef7c7f89e172641c5f7c643d8a9c13d",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
@@ -1274,7 +773,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1282,22 +781,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/aab5a316-7fbc-4a57-8b3a-3fc1958c5292_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/aab5a316-7fbc-4a57-8b3a-3fc1958c5292",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 0,
-              "x_scaling": 1,
-              "x_translation": 245.289,
               "y_rotation": 90,
-              "y_scaling": 1,
-              "y_translation": 147.807,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 109.874,
-              "creation_date": "2021-10-19"
+              "x_translation": 83.76787645948683,
+              "y_translation": -46.529860991856935,
+              "z_translation": 82.58363041927484
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001158",
@@ -1327,12 +817,12 @@
           ],
           "label": "Registered 2/16/2022, daniel cotter, TMC-Stanford",
           "description": [
-            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-            "20 x 50 x 1 millimeter, 1 millimeter"
+            "20 x 50 x 1 millimeter, 1 millimeter",
+            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
           ],
           "link": "https://portal.hubmapconsortium.org/browse/sample/539f15ce78fc8696e99c9d575be864be",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
@@ -1342,7 +832,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1350,22 +840,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/3425fa0c-c5cb-4493-b6ba-41520334b13e_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/3425fa0c-c5cb-4493-b6ba-41520334b13e",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -18,
-              "x_scaling": 1,
-              "x_translation": 6.59,
               "y_rotation": 90,
-              "y_scaling": 1,
-              "y_translation": 170.113,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 100.398,
-              "creation_date": "2022-02-16"
+              "x_translation": -94.59065867588887,
+              "y_translation": -27.863017046213336,
+              "z_translation": 145.94274189662477
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001156"
@@ -1392,8 +873,8 @@
           "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/6563fb50b78d550893e1eb7a38a4ea04",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
@@ -1403,7 +884,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1411,22 +892,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/c7ed4142-ddad-4cf5-b83b-dd431927bad5_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/c7ed4142-ddad-4cf5-b83b-dd431927bad5",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -18,
-              "x_scaling": 1,
-              "x_translation": 7.011,
               "y_rotation": 90,
-              "y_scaling": 1,
-              "y_translation": 153.255,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 106.806,
-              "creation_date": "2021-10-19"
+              "x_translation": -94.41501039798547,
+              "y_translation": -31.31742220844706,
+              "z_translation": 133.40144502661468
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001153",
@@ -1455,8 +927,8 @@
           "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 5 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/804aa1a7fcdf319c206808c106f67008",
-          "section_count": 1,
-          "section_size": 5,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
@@ -1466,7 +938,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1474,22 +946,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/8b652088-8c73-466d-b59c-3fbb8c01e399_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/8b652088-8c73-466d-b59c-3fbb8c01e399",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 90,
-              "x_scaling": 1,
-              "x_translation": 122.658,
               "y_rotation": 0,
-              "y_scaling": 1,
-              "y_translation": 94.075,
               "z_rotation": 78,
-              "z_scaling": 1,
-              "z_translation": 101.565,
-              "creation_date": "2021-10-19"
+              "x_translation": 2.512827956378447,
+              "y_translation": 69.205811971405,
+              "z_translation": 24.56287991945876
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001052",
@@ -1521,12 +984,12 @@
           ],
           "label": "Registered 2/16/2022, daniel cotter, TMC-Stanford",
           "description": [
-            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-            "20 x 50 x 1 millimeter, 1 millimeter"
+            "20 x 50 x 1 millimeter, 1 millimeter",
+            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
           ],
           "link": "https://portal.hubmapconsortium.org/browse/sample/932a048745b3d30bacd0cfc9ba692136",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
@@ -1536,7 +999,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1544,22 +1007,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/6ade433a-7d52-4e1e-ab9d-9bf8c118114c_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/6ade433a-7d52-4e1e-ab9d-9bf8c118114c",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 0,
-              "x_scaling": 1,
-              "x_translation": 230.572,
               "y_rotation": 90,
-              "y_scaling": 1,
-              "y_translation": 164.066,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 103.282,
-              "creation_date": "2022-02-16"
+              "x_translation": 86.19190170181803,
+              "y_translation": -41.56776751111145,
+              "z_translation": 94.51682664870573
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001158"
@@ -1588,12 +1042,12 @@
           ],
           "label": "Registered 2/16/2022, daniel cotter, TMC-Stanford",
           "description": [
-            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-            "20 x 50 x 1 millimeter, 1 millimeter"
+            "20 x 50 x 1 millimeter, 1 millimeter",
+            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
           ],
           "link": "https://portal.hubmapconsortium.org/browse/sample/c46f3ffa2ad148019ee983453d06b745",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
@@ -1603,7 +1057,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1611,22 +1065,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/43e195fb-0f50-4b67-bff1-b74f68290fc6_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/43e195fb-0f50-4b67-bff1-b74f68290fc6",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 90,
-              "x_scaling": 1,
-              "x_translation": 124.831,
               "y_rotation": -3,
-              "y_scaling": 1,
-              "y_translation": 225.996,
               "z_rotation": 88,
-              "z_scaling": 1,
-              "z_translation": 156.403,
-              "creation_date": "2022-02-16"
+              "x_translation": -16.463317082677698,
+              "y_translation": -65.70664637175878,
+              "z_translation": 197.4472451419008
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001157"
@@ -1653,8 +1098,8 @@
           "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/f53621bf6e120c11dd9a1e11d586d656",
-          "section_count": 1,
-          "section_size": 1,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
@@ -1664,7 +1109,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
@@ -1672,27 +1117,18 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/2f0bc1c1-551b-46d8-bd70-c77ac180ab7c_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/2f0bc1c1-551b-46d8-bd70-c77ac180ab7c",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 90,
-              "x_scaling": 1,
-              "x_translation": 132.799,
               "y_rotation": -3,
-              "y_scaling": 1,
-              "y_translation": 203.6,
               "z_rotation": 88,
-              "z_scaling": 1,
-              "z_translation": 166.386,
-              "creation_date": "2021-10-19"
+              "x_translation": -15.499819303521393,
+              "y_translation": -65.48719919133283,
+              "z_translation": 151.52481092215893
             },
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001157",
               "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0022276"
+              "http://purl.obolibrary.org/obo/UBERON_0022276",
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
             ]
           }
         }
@@ -1727,7 +1163,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-26",
+            "creation_date": "2026-04-22",
             "x_dimension": 10,
             "y_dimension": 10,
             "z_dimension": 4,
@@ -1735,22 +1171,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -32,
-              "x_scaling": 1,
-              "x_translation": 121.557,
               "y_rotation": 9,
-              "y_scaling": 1,
-              "y_translation": 201.87,
               "z_rotation": -1,
-              "z_scaling": 1,
-              "z_translation": 180.201,
-              "creation_date": "2021-09-17"
+              "x_translation": -23.014483712487316,
+              "y_translation": -77.0882335639416,
+              "z_translation": 166.74584120569676
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001157"

@@ -12,7 +12,7 @@ from functools import lru_cache
 from hra_amap.registration.dataclass import Transform
 from hra_amap.utils.io import read_yaml, write_json
 from hra_amap.utils.conversions import to_pointcloud, to_array, split_transform
-from hra_amap.utils.metrics import scaling, rotation
+from hra_amap.utils.metrics import scaling, rotation, get_translations
 from hra_amap.utils.constants import ConfigKeys
 
 
@@ -69,7 +69,7 @@ class TissueBlock(trimesh.Trimesh):
         return to_array(self)
 
     @classmethod
-    def from_sample(cls, sample: dict, donor: dict, target_name: str):
+    def from_sample(cls, sample: dict, donor: dict, target_name: str, translation_list: list):
         """
         Create a TissueBlock instance from sample data.
 
@@ -103,9 +103,10 @@ class TissueBlock(trimesh.Trimesh):
         block.division_factor = division_factor
         block.label = sample.get("label", None)
         block.target_name = target_name
+        transform = Transform(scale=scaling, rotate=rotation, translate=translation_list)
 
         # get transforms
-        block.target_transform = block._get_target_transform()
+        block.target_transform = transform
         block.transform = block._get_block_transform()
 
         # move the origin of the block from the box centre to its back-bottom-left (0, 0, 0)

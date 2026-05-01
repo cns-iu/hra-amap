@@ -30,7 +30,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 1,
             "y_dimension": 7,
             "z_dimension": 1,
@@ -38,29 +38,20 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/4375e231-49fd-47cd-8129-5e13e9650a15_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/4375e231-49fd-47cd-8129-5e13e9650a15",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -3,
-              "x_scaling": 1,
-              "x_translation": 46.048,
               "y_rotation": -85,
-              "y_scaling": 1,
-              "y_translation": 89.795,
               "z_rotation": 56,
-              "z_scaling": 1,
-              "z_translation": 8.77,
-              "creation_date": "2024-08-13"
+              "x_translation": 123.64445743583569,
+              "y_translation": 180.43344798634666,
+              "z_translation": 280.904839911283
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
               "http://purl.obolibrary.org/obo/UBERON_0002015",
               "http://purl.obolibrary.org/obo/UBERON_0002189",
-              "http://purl.obolibrary.org/obo/UBERON_0004200",
-              "http://purl.obolibrary.org/obo/UBERON_0001225",
-              "http://purl.obolibrary.org/obo/UBERON_0001284"
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
             ]
           }
         }
@@ -95,7 +86,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 1,
             "y_dimension": 7,
             "z_dimension": 1,
@@ -103,29 +94,20 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/4375e231-49fd-47cd-8129-5e13e9650a15_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/4375e231-49fd-47cd-8129-5e13e9650a15",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -3,
-              "x_scaling": 1,
-              "x_translation": 46.048,
               "y_rotation": -85,
-              "y_scaling": 1,
-              "y_translation": 89.795,
               "z_rotation": 56,
-              "z_scaling": 1,
-              "z_translation": 8.77,
-              "creation_date": "2024-08-13"
+              "x_translation": 123.64445743583569,
+              "y_translation": 180.43344798634666,
+              "z_translation": 280.904839911283
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
               "http://purl.obolibrary.org/obo/UBERON_0002015",
               "http://purl.obolibrary.org/obo/UBERON_0002189",
-              "http://purl.obolibrary.org/obo/UBERON_0004200",
-              "http://purl.obolibrary.org/obo/UBERON_0001225",
-              "http://purl.obolibrary.org/obo/UBERON_0001284"
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
             ]
           }
         }
@@ -160,7 +142,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 1,
             "y_dimension": 7,
             "z_dimension": 1,
@@ -168,29 +150,20 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/4375e231-49fd-47cd-8129-5e13e9650a15_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/4375e231-49fd-47cd-8129-5e13e9650a15",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -3,
-              "x_scaling": 1,
-              "x_translation": 46.048,
               "y_rotation": -85,
-              "y_scaling": 1,
-              "y_translation": 89.795,
               "z_rotation": 56,
-              "z_scaling": 1,
-              "z_translation": 8.77,
-              "creation_date": "2024-08-13"
+              "x_translation": 123.64445743583569,
+              "y_translation": 180.43344798634666,
+              "z_translation": 280.904839911283
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
               "http://purl.obolibrary.org/obo/UBERON_0002015",
               "http://purl.obolibrary.org/obo/UBERON_0002189",
-              "http://purl.obolibrary.org/obo/UBERON_0004200",
-              "http://purl.obolibrary.org/obo/UBERON_0001225",
-              "http://purl.obolibrary.org/obo/UBERON_0001284"
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
             ]
           }
         }
@@ -225,7 +198,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 1,
             "y_dimension": 7,
             "z_dimension": 1,
@@ -233,22 +206,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/25cce27a-cdcd-4a2c-b38a-f3c30e6c59de_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/25cce27a-cdcd-4a2c-b38a-f3c30e6c59de",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -3,
-              "x_scaling": 1,
-              "x_translation": 12.931,
               "y_rotation": 21,
-              "y_scaling": 1,
-              "y_translation": 61.637,
               "z_rotation": 64,
-              "z_scaling": 1,
-              "z_translation": 37.77,
-              "creation_date": "2024-08-13"
+              "x_translation": 130.00736451789356,
+              "y_translation": 144.42897266412822,
+              "z_translation": 225.22292146498617
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -290,7 +254,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 1,
             "y_dimension": 7,
             "z_dimension": 1,
@@ -298,22 +262,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/25cce27a-cdcd-4a2c-b38a-f3c30e6c59de_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/25cce27a-cdcd-4a2c-b38a-f3c30e6c59de",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -3,
-              "x_scaling": 1,
-              "x_translation": 12.931,
               "y_rotation": 21,
-              "y_scaling": 1,
-              "y_translation": 61.637,
               "z_rotation": 64,
-              "z_scaling": 1,
-              "z_translation": 37.77,
-              "creation_date": "2024-08-13"
+              "x_translation": 130.00736451789356,
+              "y_translation": 144.42897266412822,
+              "z_translation": 225.22292146498617
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -355,7 +310,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 1,
             "y_dimension": 7,
             "z_dimension": 1,
@@ -363,22 +318,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/25cce27a-cdcd-4a2c-b38a-f3c30e6c59de_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/25cce27a-cdcd-4a2c-b38a-f3c30e6c59de",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -3,
-              "x_scaling": 1,
-              "x_translation": 12.931,
               "y_rotation": 21,
-              "y_scaling": 1,
-              "y_translation": 61.637,
               "z_rotation": 64,
-              "z_scaling": 1,
-              "z_translation": 37.77,
-              "creation_date": "2024-08-13"
+              "x_translation": 130.00736451789356,
+              "y_translation": 144.42897266412822,
+              "z_translation": 225.22292146498617
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -420,7 +366,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 1,
             "y_dimension": 7,
             "z_dimension": 1,
@@ -428,22 +374,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/25cce27a-cdcd-4a2c-b38a-f3c30e6c59de_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/25cce27a-cdcd-4a2c-b38a-f3c30e6c59de",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -3,
-              "x_scaling": 1,
-              "x_translation": 12.931,
               "y_rotation": 21,
-              "y_scaling": 1,
-              "y_translation": 61.637,
               "z_rotation": 64,
-              "z_scaling": 1,
-              "z_translation": 37.77,
-              "creation_date": "2024-08-13"
+              "x_translation": 130.00736451789356,
+              "y_translation": 144.42897266412822,
+              "z_translation": 225.22292146498617
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -485,7 +422,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 1,
             "y_dimension": 7,
             "z_dimension": 1,
@@ -493,22 +430,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/25cce27a-cdcd-4a2c-b38a-f3c30e6c59de_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/25cce27a-cdcd-4a2c-b38a-f3c30e6c59de",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -3,
-              "x_scaling": 1,
-              "x_translation": 12.931,
               "y_rotation": 21,
-              "y_scaling": 1,
-              "y_translation": 61.637,
               "z_rotation": 64,
-              "z_scaling": 1,
-              "z_translation": 37.77,
-              "creation_date": "2024-08-13"
+              "x_translation": 130.00736451789356,
+              "y_translation": 144.42897266412822,
+              "z_translation": 225.22292146498617
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -550,7 +478,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 1,
             "y_dimension": 7,
             "z_dimension": 1,
@@ -558,29 +486,20 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/4375e231-49fd-47cd-8129-5e13e9650a15_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/4375e231-49fd-47cd-8129-5e13e9650a15",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -3,
-              "x_scaling": 1,
-              "x_translation": 46.048,
               "y_rotation": -85,
-              "y_scaling": 1,
-              "y_translation": 89.795,
               "z_rotation": 56,
-              "z_scaling": 1,
-              "z_translation": 8.77,
-              "creation_date": "2024-08-13"
+              "x_translation": 123.64445743583569,
+              "y_translation": 180.43344798634666,
+              "z_translation": 280.904839911283
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
               "http://purl.obolibrary.org/obo/UBERON_0002015",
               "http://purl.obolibrary.org/obo/UBERON_0002189",
-              "http://purl.obolibrary.org/obo/UBERON_0004200",
-              "http://purl.obolibrary.org/obo/UBERON_0001225",
-              "http://purl.obolibrary.org/obo/UBERON_0001284"
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
             ]
           }
         }
@@ -615,7 +534,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 1,
             "y_dimension": 7,
             "z_dimension": 1,
@@ -623,29 +542,20 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/4375e231-49fd-47cd-8129-5e13e9650a15_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/4375e231-49fd-47cd-8129-5e13e9650a15",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -3,
-              "x_scaling": 1,
-              "x_translation": 46.048,
               "y_rotation": -85,
-              "y_scaling": 1,
-              "y_translation": 89.795,
               "z_rotation": 56,
-              "z_scaling": 1,
-              "z_translation": 8.77,
-              "creation_date": "2024-08-13"
+              "x_translation": 123.64445743583569,
+              "y_translation": 180.43344798634666,
+              "z_translation": 280.904839911283
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
               "http://purl.obolibrary.org/obo/UBERON_0002015",
               "http://purl.obolibrary.org/obo/UBERON_0002189",
-              "http://purl.obolibrary.org/obo/UBERON_0004200",
-              "http://purl.obolibrary.org/obo/UBERON_0001225",
-              "http://purl.obolibrary.org/obo/UBERON_0001284"
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
             ]
           }
         }
@@ -669,8 +579,8 @@
           "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
           "description": "3 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/015f9976f3fed4c35dbbaad622a413d9",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/01d8b1a59c0326441167d8375c4437ec",
@@ -680,7 +590,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 3,
             "y_dimension": 5,
             "z_dimension": 2,
@@ -688,22 +598,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/85ad9566-c363-4b61-a522-6576b253d9af_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/85ad9566-c363-4b61-a522-6576b253d9af",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -99,
-              "x_scaling": 1,
-              "x_translation": 17.052,
               "y_rotation": 22,
-              "y_scaling": 1,
-              "y_translation": 54.112,
               "z_rotation": -102,
-              "z_scaling": 1,
-              "z_translation": 41.27,
-              "creation_date": "2022-06-10"
+              "x_translation": 134.98371632680798,
+              "y_translation": 143.74185273710236,
+              "z_translation": 216.47440882900005
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -731,8 +632,8 @@
           "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
           "description": "3 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/4eb373e9332ec51776a2ca2f79001022",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/01d8b1a59c0326441167d8375c4437ec",
@@ -742,7 +643,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 3,
             "y_dimension": 5,
             "z_dimension": 2,
@@ -750,22 +651,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/2a9e525a-4ad9-4085-bca9-31a2d0512008_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/2a9e525a-4ad9-4085-bca9-31a2d0512008",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 84,
-              "x_scaling": 1,
-              "x_translation": 58.937,
               "y_rotation": 72,
-              "y_scaling": 1,
-              "y_translation": 48.623,
               "z_rotation": -28,
-              "z_scaling": 1,
-              "z_translation": 34.77,
-              "creation_date": "2022-06-10"
+              "x_translation": 156.13431575988284,
+              "y_translation": 194.76454571331996,
+              "z_translation": 234.3767002328055
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -794,8 +686,8 @@
           "label": "Registered 5/29/2024, Amanda Knoten, TMC-UCSD",
           "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/8d7ce3aab7013e416263d23b0c048900",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/01d8b1a59c0326441167d8375c4437ec",
@@ -805,7 +697,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 2,
             "y_dimension": 2,
             "z_dimension": 2,
@@ -813,22 +705,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/21f2dbfa-f964-4526-bb4b-6b13302b4963_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/21f2dbfa-f964-4526-bb4b-6b13302b4963",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 0,
-              "x_scaling": 1,
-              "x_translation": 48.53,
               "y_rotation": 0,
-              "y_scaling": 1,
-              "y_translation": 41.208,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 44.27,
-              "creation_date": "2024-03-29"
+              "x_translation": 153.22687195236387,
+              "y_translation": 176.54401018949096,
+              "z_translation": 219.77492843136292
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -860,10 +743,10 @@
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 6/14/2022, Jamie Allen, TMC-Vanderbilt",
-          "description": "25 x 17 x 5 millimeter, 5 millimeter, 1 Sections",
+          "description": "25 x 17 x 5 millimeter, 1.3 millimeter, 4 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/30910e837384294c01ed873f138c1cac",
-          "section_count": 1,
-          "section_size": 5,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/06ce4ac9632a3f861913b51a9b1ad06d",
@@ -873,7 +756,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 25,
             "y_dimension": 17,
             "z_dimension": 5,
@@ -881,22 +764,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/9623319d-6ae6-4f5a-a89a-163395215137_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/9623319d-6ae6-4f5a-a89a-163395215137",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -45,
-              "x_scaling": 1,
-              "x_translation": 61.554,
               "y_rotation": -27,
-              "y_scaling": 1,
-              "y_translation": 81.476,
               "z_rotation": 65,
-              "z_scaling": 1,
-              "z_translation": 31.77,
-              "creation_date": "2022-06-14"
+              "x_translation": 153.77404447660092,
+              "y_translation": 190.77301053983706,
+              "z_translation": 261.88644801750775
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -929,8 +803,8 @@
           "label": "Registered 6/14/2022, Jamie Allen, TMC-Vanderbilt",
           "description": "19 x 20 x 11 millimeter, 1.4 millimeter, 8 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/a84a10c41fa408714f1510569a138b08",
-          "section_count": 8,
-          "section_size": 1.4,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/06ce4ac9632a3f861913b51a9b1ad06d",
@@ -940,7 +814,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 19,
             "y_dimension": 20,
             "z_dimension": 11,
@@ -948,24 +822,17 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/18a43fde-687e-4074-afe7-5af1accd9909_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/18a43fde-687e-4074-afe7-5af1accd9909",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -45,
-              "x_scaling": 1,
-              "x_translation": 50.554,
               "y_rotation": -27,
-              "y_scaling": 1,
-              "y_translation": 65.476,
               "z_rotation": 65,
-              "z_scaling": 1,
-              "z_translation": 44.77,
-              "creation_date": "2022-06-14"
+              "x_translation": 155.74899467837986,
+              "y_translation": 174.47943638490713,
+              "z_translation": 244.4515978163731
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0000362",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
               "http://purl.obolibrary.org/obo/UBERON_0001227",
               "http://purl.obolibrary.org/obo/UBERON_0001228",
               "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -973,9 +840,7 @@
               "http://purl.obolibrary.org/obo/UBERON_0002189",
               "http://purl.obolibrary.org/obo/UBERON_0004200",
               "http://purl.obolibrary.org/obo/UBERON_0006517",
-              "http://purl.obolibrary.org/obo/UBERON_0008716",
-              "http://purl.obolibrary.org/obo/UBERON_0000362",
-              "http://purl.obolibrary.org/obo/UBERON_0001225"
+              "http://purl.obolibrary.org/obo/UBERON_0008716"
             ]
           }
         }
@@ -999,8 +864,8 @@
           "label": "Registered 6/14/2022, Jamie Allen, TMC-Vanderbilt",
           "description": "25 x 17 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/a96d7a2687372052a139c4f3cf6b6864",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/06ce4ac9632a3f861913b51a9b1ad06d",
@@ -1010,7 +875,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 25,
             "y_dimension": 17,
             "z_dimension": 2,
@@ -1018,31 +883,22 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/5f2d29d1-9989-435c-9311-59799db1e8d7_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/5f2d29d1-9989-435c-9311-59799db1e8d7",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -45,
-              "x_scaling": 1,
-              "x_translation": 63.446,
               "y_rotation": -27,
-              "y_scaling": 1,
-              "y_translation": 79.213,
               "z_rotation": 65,
-              "z_scaling": 1,
-              "z_translation": 29.858,
-              "creation_date": "2022-06-14"
+              "x_translation": 153.88196447477944,
+              "y_translation": 196.1471933282825,
+              "z_translation": 264.1020198458786
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0000362",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
               "http://purl.obolibrary.org/obo/UBERON_0001284",
               "http://purl.obolibrary.org/obo/UBERON_0002015",
               "http://purl.obolibrary.org/obo/UBERON_0002189",
               "http://purl.obolibrary.org/obo/UBERON_0004200",
-              "http://purl.obolibrary.org/obo/UBERON_0008716",
-              "http://purl.obolibrary.org/obo/UBERON_0000362",
-              "http://purl.obolibrary.org/obo/UBERON_0001225"
+              "http://purl.obolibrary.org/obo/UBERON_0008716"
             ]
           }
         }
@@ -1066,8 +922,8 @@
           "label": "Registered 6/14/2022, Jamie Allen, TMC-Vanderbilt",
           "description": "23 x 18 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/f44e0ee8c75dfe89f8ec0f02c1780c21",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/06ce4ac9632a3f861913b51a9b1ad06d",
@@ -1077,7 +933,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 23,
             "y_dimension": 18,
             "z_dimension": 2,
@@ -1085,22 +941,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/67aecf90-24ce-4dfa-91db-8d7a081aa684_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/67aecf90-24ce-4dfa-91db-8d7a081aa684",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -45,
-              "x_scaling": 1,
-              "x_translation": 37.482,
               "y_rotation": -27,
-              "y_scaling": 1,
-              "y_translation": 76.816,
               "z_rotation": 65,
-              "z_scaling": 1,
-              "z_translation": 13.195,
-              "creation_date": "2022-06-14"
+              "x_translation": 120.59513134137842,
+              "y_translation": 174.18839864643925,
+              "z_translation": 261.87292043677905
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1136,8 +983,8 @@
           "label": "Registered 6/14/2022, Jamie Allen, TMC-Vanderbilt",
           "description": "26 x 12 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/fc0711fa8f09cc48d596020fe816338a",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/06ce4ac9632a3f861913b51a9b1ad06d",
@@ -1147,7 +994,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 26,
             "y_dimension": 12,
             "z_dimension": 2,
@@ -1155,22 +1002,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/37000e7b-f8a6-42c5-b086-1778ce47e2c7_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/37000e7b-f8a6-42c5-b086-1778ce47e2c7",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -45,
-              "x_scaling": 1,
-              "x_translation": 52.185,
               "y_rotation": -27,
-              "y_scaling": 1,
-              "y_translation": 81.405,
               "z_rotation": 65,
-              "z_scaling": 1,
-              "z_translation": 18.854,
-              "creation_date": "2022-06-14"
+              "x_translation": 134.2777888206799,
+              "y_translation": 188.6080842813599,
+              "z_translation": 269.407666585369
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1183,6 +1021,344 @@
               "http://purl.obolibrary.org/obo/UBERON_0004200",
               "http://purl.obolibrary.org/obo/UBERON_0006517",
               "http://purl.obolibrary.org/obo/UBERON_0008716"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/1b85f5bde815c383795cf892b229ec61",
+      "@type": "Donor",
+      "label": "Female, Age 76",
+      "description": "Entered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/1b85f5bde815c383795cf892b229ec61",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/faad448b281849d9be1719b4dfeb9fd0",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+          "description": "20 x 26 x 13 millimeter, 3.3 millimeter, 4 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/faad448b281849d9be1719b4dfeb9fd0",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/1b85f5bde815c383795cf892b229ec61",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/faad448b281849d9be1719b4dfeb9fd0",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 20,
+            "y_dimension": 26,
+            "z_dimension": 13,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/c6db7d71-2329-4ea5-b2da-c2a39e9bfb11_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -11,
+              "y_rotation": -127,
+              "z_rotation": 28,
+              "x_translation": 144.25157040063132,
+              "y_translation": 158.9034137202406,
+              "z_translation": 173.76823475285238
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200",
+              "http://purl.obolibrary.org/obo/UBERON_0001228"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/1dcde05aea3509b2cf89a41ceb3d700f",
+      "@type": "Donor",
+      "label": "Female, Age 54",
+      "description": "Entered 5/8/2025, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/1dcde05aea3509b2cf89a41ceb3d700f",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/09af77a53cd7d037b40e36abf378b0d7",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/15/2025, Jamie Allen, TMC-Vanderbilt",
+          "description": "10 x 10 x 25 millimeter, 5 millimeter, 5 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/09af77a53cd7d037b40e36abf378b0d7",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/1dcde05aea3509b2cf89a41ceb3d700f",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/09af77a53cd7d037b40e36abf378b0d7",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 25,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/6e477354-ae60-4791-8f0f-d95c36be7ceb_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": 45,
+              "y_rotation": 1,
+              "z_rotation": -47,
+              "x_translation": 144.1243196076526,
+              "y_translation": 175.2398611154997,
+              "z_translation": 272.5574023439358
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0000362",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200",
+              "http://purl.obolibrary.org/obo/UBERON_0008716"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/1dcde05aea3509b2cf89a41ceb3d700f",
+      "@type": "Donor",
+      "label": "Female, Age 54",
+      "description": "Entered 5/8/2025, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/1dcde05aea3509b2cf89a41ceb3d700f",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/27485b21a2285dbcae38f2d56d429dec",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/19/2022, Jamie Allen, TMC-Vanderbilt",
+          "description": "10 x 18 x 20 millimeter, 6.7 millimeter, 3 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/27485b21a2285dbcae38f2d56d429dec",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/1dcde05aea3509b2cf89a41ceb3d700f",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/27485b21a2285dbcae38f2d56d429dec",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 10,
+            "y_dimension": 18,
+            "z_dimension": 20,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/aae4b64f-ffda-4c18-9db1-e5aa350b0d3b_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMRightKidney",
+              "x_rotation": -33,
+              "y_rotation": -25,
+              "z_rotation": -22,
+              "x_translation": 128.88147683741286,
+              "y_translation": 160.490577420242,
+              "z_translation": 276.75449614164864
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0000362",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/1ed352588aed81c522ffe88e05d150d3",
+      "@type": "Donor",
+      "label": "Female, Age 67",
+      "description": "Entered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/1ed352588aed81c522ffe88e05d150d3",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/ca4ff441b15eec7512b133f50ce8c077",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+          "description": "22 x 16 x 4 millimeter, 1 millimeter, 4 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/ca4ff441b15eec7512b133f50ce8c077",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/1ed352588aed81c522ffe88e05d150d3",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/ca4ff441b15eec7512b133f50ce8c077",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 22,
+            "y_dimension": 16,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/d5f93c13-7982-4f92-ac67-78dcfc7c6d25_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -29,
+              "y_rotation": -30,
+              "z_rotation": 0,
+              "x_translation": 167.6878540083899,
+              "y_translation": 153.46078963309114,
+              "z_translation": 172.7069340706086
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/272fa064d5e8c89d3e7a5846a9b670dc",
+      "@type": "Donor",
+      "label": "Female, Age 51",
+      "description": "Entered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/272fa064d5e8c89d3e7a5846a9b670dc",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/cd3593c7956a699cc5ddf47c01d3b749",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+          "description": "22 x 11 x 15 millimeter, 3 millimeter, 5 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/cd3593c7956a699cc5ddf47c01d3b749",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/272fa064d5e8c89d3e7a5846a9b670dc",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/cd3593c7956a699cc5ddf47c01d3b749",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 22,
+            "y_dimension": 11,
+            "z_dimension": 15,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/36f9fd9d-7ef5-433e-8576-852ca219d96a_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": 26,
+              "y_rotation": 47,
+              "z_rotation": 23,
+              "x_translation": 128.4777621028411,
+              "y_translation": 178.16764831641865,
+              "z_translation": 263.02335752124014
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001228",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/2f3ac658dc81a1e5ad7d855f3c212a07",
+      "@type": "Donor",
+      "label": "Female, Age 68",
+      "description": "Entered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/2f3ac658dc81a1e5ad7d855f3c212a07",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/8fbe80b2e817d6a318e2e447df617151",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+          "description": "25 x 6 x 21 millimeter, 7 millimeter, 3 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/8fbe80b2e817d6a318e2e447df617151",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/2f3ac658dc81a1e5ad7d855f3c212a07",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/8fbe80b2e817d6a318e2e447df617151",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 25,
+            "y_dimension": 6,
+            "z_dimension": 21,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/520d410c-e75e-4623-a721-3819ca3976c0_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -91,
+              "y_rotation": -6,
+              "z_rotation": -123,
+              "x_translation": 171.37515148077296,
+              "y_translation": 169.29534431560052,
+              "z_translation": 175.49633255524162
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001228",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
             ]
           }
         }
@@ -1204,10 +1380,10 @@
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 6/15/2022, Jamie Allen, TMC-Vanderbilt",
-          "description": "18 x 15 x 8 millimeter, 8 millimeter, 1 Sections",
+          "description": "18 x 15 x 8 millimeter, 1.6 millimeter, 5 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/0e016408ec117c9992dabaffe2fc3c92",
-          "section_count": 1,
-          "section_size": 8,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/2fbcffe20abbb7b7d8efe3437e9d2811",
@@ -1217,7 +1393,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 18,
             "y_dimension": 15,
             "z_dimension": 8,
@@ -1225,22 +1401,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/789bba89-175f-4076-8f9d-a19f7483cb08_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/789bba89-175f-4076-8f9d-a19f7483cb08",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -43,
-              "x_scaling": 1,
-              "x_translation": 59.847,
               "y_rotation": -28,
-              "y_scaling": 1,
-              "y_translation": 83.23,
               "z_rotation": -28,
-              "z_scaling": 1,
-              "z_translation": 31.585,
-              "creation_date": "2022-06-15"
+              "x_translation": 152.9862665499619,
+              "y_translation": 186.18287136589552,
+              "z_translation": 269.7693086059757
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1272,8 +1439,8 @@
           "label": "Registered 6/15/2022, Jamie Allen, TMC-Vanderbilt",
           "description": "15 x 12 x 9 millimeter, 0.9 millimeter, 10 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/bbddf229fe06be8c7fd22c46af7e835b",
-          "section_count": 10,
-          "section_size": 0.9,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/2fbcffe20abbb7b7d8efe3437e9d2811",
@@ -1283,7 +1450,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 15,
             "y_dimension": 12,
             "z_dimension": 9,
@@ -1291,22 +1458,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/ba54628b-f2ab-4ce0-a767-32123813092f_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/ba54628b-f2ab-4ce0-a767-32123813092f",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -43,
-              "x_scaling": 1,
-              "x_translation": 46.798,
               "y_rotation": -28,
-              "y_scaling": 1,
-              "y_translation": 85.543,
               "z_rotation": -28,
-              "z_scaling": 1,
-              "z_translation": 20.64,
-              "creation_date": "2022-06-15"
+              "x_translation": 138.77794763295518,
+              "y_translation": 179.3180180641385,
+              "z_translation": 277.12646010140156
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1338,8 +1496,8 @@
           "label": "Registered 4/20/2023, Amanda Knoten, Washington University Kidney TMC",
           "description": "16 x 4 x 2 millimeter, 0.5 millimeter, 4 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/82d5a5042dce8c510fb53b8cc3a38e74",
-          "section_count": 4,
-          "section_size": 0.5,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/3005e4fc651b3e0fca340dddd07dc647",
@@ -1349,7 +1507,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 16,
             "y_dimension": 4,
             "z_dimension": 2,
@@ -1357,22 +1515,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/1715e3d6-1556-4c8e-b93b-0953e73c7abe_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/1715e3d6-1556-4c8e-b93b-0953e73c7abe",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -28,
-              "x_scaling": 1,
-              "x_translation": 40.346,
               "y_rotation": -18,
-              "y_scaling": 1,
-              "y_translation": 62.129,
               "z_rotation": 12,
-              "z_scaling": 1,
-              "z_translation": 49.77,
-              "creation_date": "2023-04-20"
+              "x_translation": 156.60282839455283,
+              "y_translation": 161.43224979540835,
+              "z_translation": 236.33569804574537
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1383,6 +1532,116 @@
               "http://purl.obolibrary.org/obo/UBERON_0002189",
               "http://purl.obolibrary.org/obo/UBERON_0004200",
               "http://purl.obolibrary.org/obo/UBERON_0008716"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/3c3c49c7d38960fc1f8275dcf4e412f9",
+      "@type": "Donor",
+      "label": "Female, Age 58",
+      "description": "Entered 5/8/2025, Elizabeth Neumann, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/3c3c49c7d38960fc1f8275dcf4e412f9",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/fb5b682042638af98e5a36fe38ee41f4",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 1/15/2025, Elizabeth Neumann, TMC-Vanderbilt",
+          "description": "29 x 15 x 4 millimeter, 1 millimeter, 4 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/fb5b682042638af98e5a36fe38ee41f4",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/3c3c49c7d38960fc1f8275dcf4e412f9",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/fb5b682042638af98e5a36fe38ee41f4",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 29,
+            "y_dimension": 15,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/91a3354c-75b6-436b-96c2-154c499424a5_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -23,
+              "y_rotation": 0,
+              "z_rotation": 57,
+              "x_translation": 155.2090561947361,
+              "y_translation": 176.25448774538202,
+              "z_translation": 188.00735226881628
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/59db6e609132322b585db60db973da7a",
+      "@type": "Donor",
+      "label": "Female, Age 60",
+      "description": "Entered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/59db6e609132322b585db60db973da7a",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/f1ab48ee91e18d504c30c723daf3503b",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+          "description": "19 x 13 x 6 millimeter, 2 millimeter, 3 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/f1ab48ee91e18d504c30c723daf3503b",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/59db6e609132322b585db60db973da7a",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/f1ab48ee91e18d504c30c723daf3503b",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 19,
+            "y_dimension": 13,
+            "z_dimension": 6,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/2594d6ea-d82b-42a5-9fc1-e98d9b25446b_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 71,
+              "z_rotation": 85,
+              "x_translation": 153.70785314508507,
+              "y_translation": 149.12539512077814,
+              "z_translation": 164.32714458212786
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
             ]
           }
         }
@@ -1406,8 +1665,8 @@
           "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
           "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/aadeb3ec91f8886051108dbb45ddec76",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/5c4208e2f2715c56ee8dc82b5f1b90c0",
@@ -1417,7 +1676,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 2,
             "y_dimension": 3,
             "z_dimension": 2,
@@ -1425,22 +1684,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/64c5c92d-dc07-40c4-a702-cbef17753fa6",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidney",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 0,
-              "x_scaling": 1,
-              "x_translation": 5.966,
               "y_rotation": 0,
-              "y_scaling": 1,
-              "y_translation": 20.114,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 36.989,
-              "creation_date": "2021-10-03"
+              "x_translation": 138.98927065604528,
+              "y_translation": 141.89901337949146,
+              "z_translation": 169.3144532685959
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1453,6 +1703,173 @@
               "http://purl.obolibrary.org/obo/UBERON_0002189",
               "http://purl.obolibrary.org/obo/UBERON_0004200",
               "http://purl.obolibrary.org/obo/UBERON_0006517",
+              "http://purl.obolibrary.org/obo/UBERON_0008716"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/8da70f4230fc86a3a2c4d78fb97b6937",
+      "@type": "Donor",
+      "label": "Female, Age 26",
+      "description": "Entered 4/14/2025, Amanda Knoten, Washington University Kidney TMC",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/8da70f4230fc86a3a2c4d78fb97b6937",
+      "consortium_name": "HuBMAP",
+      "provider_name": "Washington University Kidney TMC",
+      "provider_uuid": "86b18408-547c-11ed-ab8d-fb258a2766ef",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/dbefbb94a61280560ecbb5dfb2112feb",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/1/2025, Amanda Knoten, Washington University Kidney TMC",
+          "description": "2 x 10 x 2 millimeter, 0.2 millimeter, 9 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/dbefbb94a61280560ecbb5dfb2112feb",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/8da70f4230fc86a3a2c4d78fb97b6937",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/dbefbb94a61280560ecbb5dfb2112feb",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 2,
+            "y_dimension": 10,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/657ecee4-68a1-4bcc-9635-d06590c107c4_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -40,
+              "y_rotation": -28,
+              "z_rotation": -97,
+              "x_translation": 161.36704547954332,
+              "y_translation": 190.00819924918494,
+              "z_translation": 196.76828775129073
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/9425aac9f557431786cfffbd6af985a4",
+      "@type": "Donor",
+      "label": "Female, Age 66",
+      "description": "Entered 5/8/2025, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/9425aac9f557431786cfffbd6af985a4",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/3fcc51e98a9f2d3bd00f3d32a03cfbc1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 4/14/2025, Jamie Allen, TMC-Vanderbilt",
+          "description": "18 x 16 x 5 millimeter, 1 millimeter, 5 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/3fcc51e98a9f2d3bd00f3d32a03cfbc1",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/9425aac9f557431786cfffbd6af985a4",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/3fcc51e98a9f2d3bd00f3d32a03cfbc1",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 18,
+            "y_dimension": 16,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/5301af9f-65d5-4915-9ea5-66b8ae46436b_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -19,
+              "y_rotation": 47,
+              "z_rotation": -89,
+              "x_translation": 167.3263722836816,
+              "y_translation": 177.43215735782266,
+              "z_translation": 177.14186255849333
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001228",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200",
+              "http://purl.obolibrary.org/obo/UBERON_0008716"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/a288207cce58e2790fc35d8ab7d8a0e5",
+      "@type": "Donor",
+      "label": "Female, Age 77",
+      "description": "Entered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/a288207cce58e2790fc35d8ab7d8a0e5",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/564501841e817a6171d0d7eec9e5d5f5",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+          "description": "22 x 17 x 12 millimeter, 4 millimeter, 3 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/564501841e817a6171d0d7eec9e5d5f5",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/a288207cce58e2790fc35d8ab7d8a0e5",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/564501841e817a6171d0d7eec9e5d5f5",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 22,
+            "y_dimension": 17,
+            "z_dimension": 12,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/abc7b036-4e8c-4ca8-a1f8-95bcfa387a21_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -142,
+              "y_rotation": -69,
+              "z_rotation": -28,
+              "x_translation": 155.77971925288278,
+              "y_translation": 191.195468081937,
+              "z_translation": 263.54394633122945
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200",
               "http://purl.obolibrary.org/obo/UBERON_0008716"
             ]
           }
@@ -1477,8 +1894,8 @@
           "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
           "description": "3 x 13 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/a5a5a3bff1df2a6c378d85316161bd5b",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/b8f375d33daa5228782abd838d851b8d",
@@ -1488,7 +1905,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 3,
             "y_dimension": 13,
             "z_dimension": 2,
@@ -1496,22 +1913,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/6f74a57b-41ce-4581-a206-2e84b58c1c98",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidney",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 34,
-              "x_scaling": 1,
-              "x_translation": 28.368,
               "y_rotation": 13,
-              "y_scaling": 1,
-              "y_translation": 20.425,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 42.489,
-              "creation_date": "2021-10-03"
+              "x_translation": 155.31242304931905,
+              "y_translation": 178.56293480162995,
+              "z_translation": 181.22674289380242
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1547,8 +1955,8 @@
           "label": "Registered 6/8/2022, Amanda Knoten, TMC-UCSD",
           "description": "3 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/d1b746040b9016e82acb4a5afe20062d",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/b8f375d33daa5228782abd838d851b8d",
@@ -1558,7 +1966,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 3,
             "y_dimension": 3,
             "z_dimension": 2,
@@ -1566,22 +1974,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/4ae53bc8-b6da-4ba9-9030-a93ae44389b9_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/4ae53bc8-b6da-4ba9-9030-a93ae44389b9",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 0,
-              "x_scaling": 1,
-              "x_translation": 45.854,
               "y_rotation": 0,
-              "y_scaling": 1,
-              "y_translation": 41.846,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 42.77,
-              "creation_date": "2022-06-08"
+              "x_translation": 151.6564119927994,
+              "y_translation": 176.76133768817314,
+              "z_translation": 219.49760157069204
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1612,8 +2011,8 @@
           "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
           "description": "5 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/a7c3ea8269b3a97ac9f39cb4a970666c",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/d5d47e3cd48e28a932ea33d58f6feb00",
@@ -1623,7 +2022,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 5,
             "y_dimension": 5,
             "z_dimension": 2,
@@ -1631,22 +2030,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/1d965182-bf13-4738-af05-72b817121959",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidney",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 88,
-              "x_scaling": 1,
-              "x_translation": 55.894,
               "y_rotation": -103,
-              "y_scaling": 1,
-              "y_translation": 74.27,
               "z_rotation": 20,
-              "z_scaling": 1,
-              "z_translation": 31.489,
-              "creation_date": "2021-10-03"
+              "x_translation": 155.59194567887383,
+              "y_translation": 186.7521421186231,
+              "z_translation": 258.2110191372689
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1681,8 +2071,8 @@
           "label": "Registered 6/10/2022, Amanda Knoten, TMC-UCSD",
           "description": "2 x 3 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/0be6dee31365fd1e590a45263df043c6",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/dfd0352b60504b321899f738c860e3fc",
@@ -1692,7 +2082,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 2,
             "y_dimension": 3,
             "z_dimension": 2,
@@ -1700,35 +2090,26 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/4e2e6f98-ec16-4627-a06a-d3cdc282ee1c_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/4e2e6f98-ec16-4627-a06a-d3cdc282ee1c",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -18,
-              "x_scaling": 1,
-              "x_translation": 49.294,
               "y_rotation": 20,
-              "y_scaling": 1,
-              "y_translation": 40.346,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 45.27,
-              "creation_date": "2022-06-10"
+              "x_translation": 153.77730884423232,
+              "y_translation": 177.84168778536116,
+              "z_translation": 218.6021014690123
             },
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0002015",
-              "http://purl.obolibrary.org/obo/UBERON_0002189",
-              "http://purl.obolibrary.org/obo/UBERON_0004200",
-              "http://purl.obolibrary.org/obo/UBERON_0006517",
-              "http://purl.obolibrary.org/obo/UBERON_0008716",
               "http://purl.obolibrary.org/obo/UBERON_0000362",
               "http://purl.obolibrary.org/obo/UBERON_0001224",
               "http://purl.obolibrary.org/obo/UBERON_0001225",
               "http://purl.obolibrary.org/obo/UBERON_0001227",
               "http://purl.obolibrary.org/obo/UBERON_0001228",
-              "http://purl.obolibrary.org/obo/UBERON_0001284"
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200",
+              "http://purl.obolibrary.org/obo/UBERON_0006517",
+              "http://purl.obolibrary.org/obo/UBERON_0008716"
             ]
           }
         }
@@ -1752,8 +2133,8 @@
           "label": "Registered 7/25/2022, Jamie Allen, TMC-Vanderbilt",
           "description": "29 x 15 x 14 millimeter, 4.7 millimeter, 3 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/2d3a82aa3180b216081bbb0ae7bbe521",
-          "section_count": 3,
-          "section_size": 4.7,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/dfe60e10cebff56bebed07ef38a7e6f1",
@@ -1763,7 +2144,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 29,
             "y_dimension": 15,
             "z_dimension": 14,
@@ -1771,22 +2152,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/ba018414-bb8f-4ddb-9586-9d955939f17e_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/ba018414-bb8f-4ddb-9586-9d955939f17e",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -45,
-              "x_scaling": 1,
-              "x_translation": 49.549,
               "y_rotation": -27,
-              "y_scaling": 1,
-              "y_translation": 86.908,
               "z_rotation": 50,
-              "z_scaling": 1,
-              "z_translation": 24.736,
-              "creation_date": "2022-07-25"
+              "x_translation": 134.22600973243848,
+              "y_translation": 184.99509649656417,
+              "z_translation": 270.95793124990143
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1797,6 +2169,119 @@
               "http://purl.obolibrary.org/obo/UBERON_0002189",
               "http://purl.obolibrary.org/obo/UBERON_0004200",
               "http://purl.obolibrary.org/obo/UBERON_0008716"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/dfe60e10cebff56bebed07ef38a7e6f1",
+      "@type": "Donor",
+      "label": "Female, Age 64",
+      "description": "Entered 5/7/2025, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/dfe60e10cebff56bebed07ef38a7e6f1",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/eb2a4ecf50547ce9da8c39ea31e0e6a6",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+          "description": "22 x 10 x 10 millimeter, 3.3 millimeter, 3 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/eb2a4ecf50547ce9da8c39ea31e0e6a6",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/dfe60e10cebff56bebed07ef38a7e6f1",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/eb2a4ecf50547ce9da8c39ea31e0e6a6",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 22,
+            "y_dimension": 10,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/e3c21227-c1a7-4197-acaa-5dd6d22a832b_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
+              "x_rotation": -45,
+              "y_rotation": -27,
+              "z_rotation": 50,
+              "x_translation": 151.2895357415335,
+              "y_translation": 188.45979192499618,
+              "z_translation": 267.813970968813
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0000362",
+              "http://purl.obolibrary.org/obo/UBERON_0001225",
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200",
+              "http://purl.obolibrary.org/obo/UBERON_0008716"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/e274c604eb0a2af342c5be912c106921",
+      "@type": "Donor",
+      "label": "Female, Age 82",
+      "description": "Entered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/e274c604eb0a2af342c5be912c106921",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Vanderbilt",
+      "provider_uuid": "73bb26e4-ed43-11e8-8f19-0a7c1eab007a",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/f41ceddc9c221437eaa4b0ed00f43fe9",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/19/2026, Jamie Allen, TMC-Vanderbilt",
+          "description": "19 x 15 x 5 millimeter, 1.7 millimeter, 3 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/f41ceddc9c221437eaa4b0ed00f43fe9",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/e274c604eb0a2af342c5be912c106921",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/f41ceddc9c221437eaa4b0ed00f43fe9",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 19,
+            "y_dimension": 15,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/5ff7ce04-9fcd-4baf-bd79-cb572f83b20a_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -1,
+              "y_rotation": 59,
+              "z_rotation": 42,
+              "x_translation": 140.77379556793971,
+              "y_translation": 155.35775080882433,
+              "z_translation": 173.1085460469309
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001284",
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189",
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
             ]
           }
         }
@@ -1820,8 +2305,8 @@
           "label": "Registered 10/3/2021, Diane Salamon, TMC-UCSD",
           "description": "5 x 12 x 2 millimeter, 0.7 millimeter, 3 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/b2362226c142a855ddaa0fba0db29b95",
-          "section_count": 3,
-          "section_size": 0.7,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/f8d963cab6bd10e2a4b8184ea8197fc1",
@@ -1831,7 +2316,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 5,
             "y_dimension": 12,
             "z_dimension": 2,
@@ -1839,24 +2324,17 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/f66f91f9-c6c5-414d-b784-2faec33e0505",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidney",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -46,
-              "x_scaling": 1,
-              "x_translation": 53.213,
               "y_rotation": -32,
-              "y_scaling": 1,
-              "y_translation": 74.416,
               "z_rotation": -91,
-              "z_scaling": 1,
-              "z_translation": 20.489,
-              "creation_date": "2021-10-03"
+              "x_translation": 138.76194536638639,
+              "y_translation": 186.91586096978227,
+              "z_translation": 267.88343361389
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0006517",
+              "http://purl.obolibrary.org/obo/UBERON_0008716",
               "http://purl.obolibrary.org/obo/UBERON_0000362",
               "http://purl.obolibrary.org/obo/UBERON_0001225",
               "http://purl.obolibrary.org/obo/UBERON_0001227",
@@ -1864,9 +2342,7 @@
               "http://purl.obolibrary.org/obo/UBERON_0001284",
               "http://purl.obolibrary.org/obo/UBERON_0002015",
               "http://purl.obolibrary.org/obo/UBERON_0002189",
-              "http://purl.obolibrary.org/obo/UBERON_0004200",
-              "http://purl.obolibrary.org/obo/UBERON_0006517",
-              "http://purl.obolibrary.org/obo/UBERON_0008716"
+              "http://purl.obolibrary.org/obo/UBERON_0004200"
             ]
           }
         }
@@ -1890,8 +2366,8 @@
           "label": "Registered 3/4/2022, Diane Salamon, TMC-UCSD",
           "description": "4 x 7 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/cdd62f7264902447922147c3098ecd6a",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/f8d963cab6bd10e2a4b8184ea8197fc1",
@@ -1901,7 +2377,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 4,
             "y_dimension": 7,
             "z_dimension": 2,
@@ -1909,22 +2385,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/e4853294-071d-4bef-bff3-2fd52a5c6af0_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/e4853294-071d-4bef-bff3-2fd52a5c6af0",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": -42,
-              "x_scaling": 1,
-              "x_translation": 69.099,
               "y_rotation": -71,
-              "y_scaling": 1,
-              "y_translation": 78.393,
               "z_rotation": -30,
-              "z_scaling": 1,
-              "z_translation": 31.77,
-              "creation_date": "2022-03-04"
+              "x_translation": 161.04451984469895,
+              "y_translation": 199.3792410253903,
+              "z_translation": 259.60714967993573
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -1953,8 +2420,8 @@
           "label": "Registered 5/29/2024, Amanda Knoten, TMC-UCSD",
           "description": "2 x 2 x 2 millimeter, 2 millimeter, 1 Sections",
           "link": "https://portal.hubmapconsortium.org/browse/sample/d9e64e77d26d9fb8133d7754d1c3f6d0",
-          "section_count": 1,
-          "section_size": 2,
+          "section_count": 0,
+          "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
             "@id": "https://entity.api.hubmapconsortium.org/entities/ff043e8a4b6d7b21620ad9f0978238d0",
@@ -1964,7 +2431,7 @@
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-02-16",
+            "creation_date": "2026-04-22",
             "x_dimension": 2,
             "y_dimension": 2,
             "z_dimension": 2,
@@ -1972,22 +2439,13 @@
             "placement": {
               "@id": "http://purl.org/ccf/1.5/6130c1eb-9a5a-44b2-8a3e-ebae47cc419d_placement",
               "@type": "SpatialPlacement",
-              "source": "http://purl.org/ccf/1.5/6130c1eb-9a5a-44b2-8a3e-ebae47cc419d",
               "target": "http://purl.org/ccf/latest/ccf.owl#VHFRightKidneyV1.1",
-              "rotation_order": "XYZ",
-              "rotation_units": "degree",
-              "scaling_units": "ratio",
-              "translation_units": "millimeter",
               "x_rotation": 0,
-              "x_scaling": 1,
-              "x_translation": 48.929,
               "y_rotation": 0,
-              "y_scaling": 1,
-              "y_translation": 44.685,
               "z_rotation": 0,
-              "z_scaling": 1,
-              "z_translation": 43.77,
-              "creation_date": "2024-03-29"
+              "x_translation": 152.1267230657645,
+              "y_translation": 176.3346692684282,
+              "z_translation": 223.77808612405428
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1998,6 +2456,218 @@
               "http://purl.obolibrary.org/obo/UBERON_0002189",
               "http://purl.obolibrary.org/obo/UBERON_0004200",
               "http://purl.obolibrary.org/obo/UBERON_0008716"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/896bbd7c8e6cd1cfeeda4f8f844dde5f",
+      "@type": "Donor",
+      "label": "Female, Age 53",
+      "description": "Entered 3/28/2025, Sergii Domanskyi, TMC - UConn Health",
+      "link": "https://data.sennetconsortium.org/source?uuid=896bbd7c8e6cd1cfeeda4f8f844dde5f",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - UConn Health",
+      "provider_uuid": "d3281bed-ed89-11ec-b03c-67218ab1b594",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/fb68489d0abc13faa51b0927f38b6ee5",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 3/4/2025, Sergii Domanskyi, TMC - UConn Health",
+          "description": "7 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=fb68489d0abc13faa51b0927f38b6ee5",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/896bbd7c8e6cd1cfeeda4f8f844dde5f",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/fb68489d0abc13faa51b0927f38b6ee5",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 7,
+            "y_dimension": 5,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/64d7bf1b-a51a-4d67-bc18-dee5be689e5a_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -34,
+              "y_rotation": -24,
+              "z_rotation": 12,
+              "x_translation": 129.9742606899407,
+              "y_translation": 183.37548424204616,
+              "z_translation": 285.7887860477559
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/8c063defe9f5d5b9fff1e5f6f0afaf0d",
+      "@type": "Donor",
+      "label": "Female, Age 60",
+      "description": "Entered 9/17/2025, Sergii Domanskyi, TMC - UConn Health",
+      "link": "https://data.sennetconsortium.org/source?uuid=8c063defe9f5d5b9fff1e5f6f0afaf0d",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - UConn Health",
+      "provider_uuid": "d3281bed-ed89-11ec-b03c-67218ab1b594",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/f687c384134a84604edb5eaaf9c08c67",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/17/2025, Sergii Domanskyi, TMC - UConn Health",
+          "description": "7 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=f687c384134a84604edb5eaaf9c08c67",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/8c063defe9f5d5b9fff1e5f6f0afaf0d",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/f687c384134a84604edb5eaaf9c08c67",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 7,
+            "y_dimension": 5,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/89f465fc-35a8-440a-9783-65a2fda6984e_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -34,
+              "y_rotation": -24,
+              "z_rotation": 12,
+              "x_translation": 127.7476760469827,
+              "y_translation": 183.51900178671332,
+              "z_translation": 284.81287465725717
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/cf02c6de9d8c5ad04b298a2b928b7c9c",
+      "@type": "Donor",
+      "label": "Female, Age 61",
+      "description": "Entered 9/17/2025, Sergii Domanskyi, TMC - UConn Health",
+      "link": "https://data.sennetconsortium.org/source?uuid=cf02c6de9d8c5ad04b298a2b928b7c9c",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - UConn Health",
+      "provider_uuid": "d3281bed-ed89-11ec-b03c-67218ab1b594",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/2ec268211063a24f661ff2b8b2570a31",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 9/17/2025, Sergii Domanskyi, TMC - UConn Health",
+          "description": "7 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=2ec268211063a24f661ff2b8b2570a31",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/cf02c6de9d8c5ad04b298a2b928b7c9c",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/2ec268211063a24f661ff2b8b2570a31",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 7,
+            "y_dimension": 5,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/f8ce90a2-4ddf-436a-b481-7eb0c4f744bf_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -54,
+              "y_rotation": -27,
+              "z_rotation": 19,
+              "x_translation": 109.39065134555864,
+              "y_translation": 169.58023287610754,
+              "z_translation": 258.702128217005
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/e0a32c4543f541bb7d4ffa59bfaad308",
+      "@type": "Donor",
+      "label": "Female, Age 42",
+      "description": "Entered 6/2/2025, Sergii Domanskyi, TMC - UConn Health",
+      "link": "https://data.sennetconsortium.org/source?uuid=e0a32c4543f541bb7d4ffa59bfaad308",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - UConn Health",
+      "provider_uuid": "d3281bed-ed89-11ec-b03c-67218ab1b594",
+      "sex": "Female",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/561083068a4e53823c23abd76ad010f2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 6/2/2025, Sergii Domanskyi, TMC - UConn Health",
+          "description": "7 x 5 x 2 millimeter, 2 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=561083068a4e53823c23abd76ad010f2",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/e0a32c4543f541bb7d4ffa59bfaad308",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/561083068a4e53823c23abd76ad010f2",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-04-22",
+            "x_dimension": 7,
+            "y_dimension": 5,
+            "z_dimension": 2,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/094c1ba3-f5ff-446e-8e9f-56db95e51774_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+              "x_rotation": -34,
+              "y_rotation": -23,
+              "z_rotation": 4,
+              "x_translation": 129.2416117291591,
+              "y_translation": 184.54938803005592,
+              "z_translation": 285.51698665725286
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0002015",
+              "http://purl.obolibrary.org/obo/UBERON_0002189"
             ]
           }
         }
