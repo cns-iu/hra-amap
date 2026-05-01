@@ -1,0 +1,166 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/hubmapconsortium/hra-rui-locations-processor/main/registrations.schema.json
+
+- consortium_name: HRA
+  provider_name: MC-IU
+  provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
+  defaults:
+    id: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.1
+    thumbnail: assets/icons/ico-unknown.svg
+    link: https://purl.humanatlas.io/millitome/ovary-female-right-upenn/v1.1
+  donors:
+  - sex: Female
+    label: '14_17_23_20'
+    samples:
+    - rui_location: 14_17_23_20.json
+  - sex: Female
+    label: '2_5_8_11'
+    samples:
+    - rui_location: 2_5_8_11.json
+  - sex: Female
+    label: '26_29_32_35'
+    samples:
+    - rui_location: 26_29_32_35.json
+  - sex: Female
+    label: '1'
+    samples:
+    - rui_location: 1.json
+  - sex: Female
+    label: '13'
+    samples:
+    - rui_location: 13.json
+  - sex: Female
+    label: '14'
+    samples:
+    - rui_location: 14.json
+  - sex: Female
+    label: '15'
+    samples:
+    - rui_location: 15.json
+  - sex: Female
+    label: '16'
+    samples:
+    - rui_location: 16.json
+  - sex: Female
+    label: '17'
+    samples:
+    - rui_location: 17.json
+  - sex: Female
+    label: '18'
+    samples:
+    - rui_location: 18.json
+  - sex: Female
+    label: '2'
+    samples:
+    - rui_location: 2.json
+  - sex: Female
+    label: '22'
+    samples:
+    - rui_location: 22.json
+  - sex: Female
+    label: '21'
+    samples:
+    - rui_location: 21.json
+  - sex: Female
+    label: '23'
+    samples:
+    - rui_location: 23.json
+  - sex: Female
+    label: '20'
+    samples:
+    - rui_location: 20.json
+  - sex: Female
+    label: '24'
+    samples:
+    - rui_location: 24.json
+  - sex: Female
+    label: '19'
+    samples:
+    - rui_location: 19.json
+  - sex: Female
+    label: '25'
+    samples:
+    - rui_location: 25.json
+  - sex: Female
+    label: '26'
+    samples:
+    - rui_location: 26.json
+  - sex: Female
+    label: '27'
+    samples:
+    - rui_location: 27.json
+  - sex: Female
+    label: '28'
+    samples:
+    - rui_location: 28.json
+  - sex: Female
+    label: '29'
+    samples:
+    - rui_location: 29.json
+  - sex: Female
+    label: '3'
+    samples:
+    - rui_location: 3.json
+  - sex: Female
+    label: '30'
+    samples:
+    - rui_location: 30.json
+  - sex: Female
+    label: '31'
+    samples:
+    - rui_location: 31.json
+  - sex: Female
+    label: '32'
+    samples:
+    - rui_location: 32.json
+  - sex: Female
+    label: '33'
+    samples:
+    - rui_location: 33.json
+  - sex: Female
+    label: '34'
+    samples:
+    - rui_location: 34.json
+  - sex: Female
+    label: '35'
+    samples:
+    - rui_location: 35.json
+  - sex: Female
+    label: '12'
+    samples:
+    - rui_location: 12.json
+  - sex: Female
+    label: '11'
+    samples:
+    - rui_location: 11.json
+  - sex: Female
+    label: '10'
+    samples:
+    - rui_location: 10.json
+  - sex: Female
+    label: '36'
+    samples:
+    - rui_location: 36.json
+  - sex: Female
+    label: '4'
+    samples:
+    - rui_location: 4.json
+  - sex: Female
+    label: '5'
+    samples:
+    - rui_location: 5.json
+  - sex: Female
+    label: '6'
+    samples:
+    - rui_location: 6.json
+  - sex: Female
+    label: '7'
+    samples:
+    - rui_location: 7.json
+  - sex: Female
+    label: '8'
+    samples:
+    - rui_location: 8.json
+  - sex: Female
+    label: '9'
+    samples:
+    - rui_location: 9.json
