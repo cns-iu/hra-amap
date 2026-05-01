@@ -41,12 +41,10 @@ class NonHRAMapping:
         stage1_projection: Path,
         config_path: Path,
         output_dir: Path,
-        hubmap_derived_model: bool,
     ):
         self.stage1_projection = stage1_projection
         self.config_path = config_path
         self.output_dir = output_dir
-        self.hubmap_derived_model = hubmap_derived_model
 
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -234,8 +232,6 @@ def main():
     parser.add_argument("--stage1_projection_path", type=Path, required=True)
     parser.add_argument("--config", type=Path, required=True)
     parser.add_argument("--output_path", type=Path, required=True)
-    parser.add_argument("--hubmap_derived_model", action="store_true",
-        help="Treat model as HuBMAP-derived when flag is provided. Eg. GCA Models for intestines")
 
     args = parser.parse_args()
 
@@ -243,7 +239,6 @@ def main():
         stage1_projection=args.stage1_projection_path,
         config_path=args.config,
         output_dir=args.output_path,
-        hubmap_derived_model = args.hubmap_derived_model
     )
 
     mapping.run()
