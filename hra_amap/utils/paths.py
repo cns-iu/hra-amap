@@ -1,31 +1,23 @@
 import os
 from pathlib import Path
 
+def get_root_path() -> Path:
+    "Returns the absolute path to the repo root"
+    # this is a relatively simple logic to get to the path of the root of the repo
+    # the breaking case i'd imagine is when the repository is cloned within nested hra-amap/* dirs (highly unlikely)
+    BASE_DIR = [parent for parent in Path.cwd().parents if not str(parent).split('hra-amap')[-1]].pop()
+    return BASE_DIR
 
-def get_bcpd_executable_path():
+def get_bcpd_executable_path() -> tuple[Path, Path]:
     """
     Returns the absolute path to the BCPD executable.
     Raises an exception if not found with a link to install instructions.
     """
-    BASE_DIR = Path.cwd()
-    BCPD_DIR = Path(os.getenv("BCPD_DIR", ""))
-    bcpd_executable = [
-        BCPD_DIR / "bcpd",
-        BASE_DIR / "bcpd" / "bcpd",
-        BASE_DIR.parent / "bcpd" / "bcpd",
-        BASE_DIR.parent.parent / "bcpd" / "bcpd",
-        BASE_DIR.parent.parent.parent / "bcpd" / "bcpd",
-    ]
-    for path in bcpd_executable:
-        if path.is_file():
-            return path.parent.resolve(), path.resolve()
-
-    raise FileNotFoundError(
-        "BCPD executable not found in expected locations:\n"
-        f"  1. {bcpd_executable[0]}\n"
-        f"  2. {bcpd_executable[1]}\n"
-        f"  3. {bcpd_executable[2]}\n\n"
-        f"  4. {bcpd_executable[3]}\n\n"
-        f"  5. {bcpd_executable[4]}\n\n"
-        "BCPD Install instructions:  https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md"
-    )
+    # builds the bcpd directory and executable paths much more cleanly from the repo root (see get_root_path)
+    # assumes that the bcpd repo will be cloned at the same level as that of the root (this is made explicit in the instructions, see BCPD_INSTALLATION.md and README.md)
+    BASE_DIR = get_root_path()
+    if not BASE_DIR:
+        raise FileNotFoundError("BCPD directory not found. BCPD Install instructions:  https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md")
+    BCPD_DIR = BASE_DIR.joinpath('bcpd')
+    bcpd_executable = BCPD_DIR.joinpath('bcpd')
+    return (BCPD_DIR, bcpd_executable)
