@@ -106,9 +106,8 @@ class Transform:
                     geometry, self.deformation_vector_field
                 )
             geometry = (
-                (self.scale * self.rotate)
-                @ ((geometry + self.interpolated_dvf(geometry)) + self.translate).T
-            ).T
+                (geometry + self.interpolated_dvf(geometry)) @ np.asarray(self.rotate).T
+            ) * self.scale + self.translate
             return to_pointcloud(geometry)
         else:
             return self.transform(geometry)

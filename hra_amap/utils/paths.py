@@ -5,10 +5,11 @@ def get_root_path() -> Path:
     "Returns the absolute path to the repo root"
     # this is a relatively simple logic to get to the path of the root of the repo
     # the breaking case i'd imagine is when the repository is cloned within nested hra-amap/* dirs (highly unlikely)
-    BASE_DIR = [parent for parent in Path.cwd().parents if not str(parent).split('hra-amap')[-1]].pop()
+    CURR_DIR = Path.cwd()
+    BASE_DIR = [directory for directory in [CURR_DIR] + list(CURR_DIR.parents) if not str(directory).split('hra-amap')[-1]].pop()
     return BASE_DIR
 
-def get_bcpd_executable_path() -> tuple[Path, Path]:
+def get_bcpd_path() -> Path:
     """
     Returns the absolute path to the BCPD executable.
     Raises an exception if not found with a link to install instructions.
@@ -19,5 +20,4 @@ def get_bcpd_executable_path() -> tuple[Path, Path]:
     if not BASE_DIR:
         raise FileNotFoundError("BCPD directory not found. BCPD Install instructions:  https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md")
     BCPD_DIR = BASE_DIR.joinpath('bcpd')
-    bcpd_executable = BCPD_DIR.joinpath('bcpd')
-    return (BCPD_DIR, bcpd_executable)
+    return BCPD_DIR

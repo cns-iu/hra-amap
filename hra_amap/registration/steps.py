@@ -1,22 +1,17 @@
 import subprocess
 import numpy as np
 import open3d as o3d
-import tempfile
-from pathlib import Path
-import os
 
 from hra_amap.registration.decorators import step
 from hra_amap.registration.dataclass import Transform
 from hra_amap.utils.conversions import (
     pointcloud_to_numpy,
     numpy_to_pointcloud,
-    txt_to_numpy,
-    pointcloud_to_mesh,
-)
+    txt_to_numpy)
 from hra_amap.utils.preprocess import scale, compute_features
-from hra_amap.utils.paths import get_bcpd_executable_path
+from hra_amap.utils.paths import get_bcpd_path
 
-BCPD_DIR, BCPD_EXECUTABLE = get_bcpd_executable_path()
+BCPD_DIR = get_bcpd_path()
 
 
 @step(
@@ -198,8 +193,6 @@ def normalize_nonrigid(source, target):
     return (outputs, transforms)
 
 
-import os
-
 
 @step(
     name="Non-rigid Registration",
@@ -220,16 +213,16 @@ def nonrigid_registration(source, target, params):
     # convert to array
     source_array = pointcloud_to_numpy(source)
     target_array = pointcloud_to_numpy(target)
-    np.savetxt(f"{BCPD_DIR}/source.txt", source_array, delimiter=",")
-    np.savetxt(f"{BCPD_DIR}/target.txt", target_array, delimiter=",")
+    np.savetxt(BCPD_DIR.joinpath("source.txt"), source_array, delimiter=",")
+    np.savetxt(BCPD_DIR.joinpath("target.txt"), target_array, delimiter=",")
 
     # build registration args
     registration_args = [
-        BCPD_EXECUTABLE,
+        './bcpd',
         "-x",
-        f"{BCPD_DIR}/target.txt",
+        "target.txt",
         "-y",
-        f"{BCPD_DIR}/source.txt",
+        "source.txt",
         "-J",
         "300",
         "-K",
@@ -248,7 +241,8 @@ def nonrigid_registration(source, target, params):
         "-b",
         str(params["beta"]),
         "-s",
-        "yxuveTY",
+        "yveTY",
+        "-h"
     ]
 
     # for rotation
@@ -261,17 +255,16 @@ def nonrigid_registration(source, target, params):
         registration_args.extend(["-D", str(params["downsampling"])])
 
     # register using BCPD
-    result = subprocess.run(registration_args, cwd=str(BCPD_DIR), capture_output=True)
+    result = subprocess.run(registration_args, cwd=str(BCPD_DIR))
+    if result.returncode != 0:
+        print(f"Error Code: {result.returncode}")
+        print(f"Error Message: {result.stderr}")
 
     # read transformations
-    if "downsampling" in params:
-        downsampled_source = np.genfromtxt(BCPD_DIR / "output_normY.txt")
-        dvf = np.genfromtxt(BCPD_DIR / "output_u.txt") - downsampled_source
-    else:
-        dvf = np.genfromtxt(BCPD_DIR / "output_u.txt") - source_array
     translation = txt_to_numpy(BCPD_DIR / "output_t.txt")
     scale = txt_to_numpy(BCPD_DIR / "output_s.txt").item()
-    rotation = txt_to_numpy(BCPD_DIR / "output_r.txt")
+    rotation = txt_to_numpy(BCPD_DIR / "output_R.txt")
+    dvf = txt_to_numpy(BCPD_DIR / "output_v.txt")
 
     # create transform
     transform = Transform(
@@ -282,17 +275,8 @@ def nonrigid_registration(source, target, params):
     )
 
     # apply transform and store outputs
-    if "downsampling" in params:
-        # this automatically calculates and stores an interpolated DVF to use with ANY geometry
-        downsampled_source = transform(downsampled_source)
-        # transform the original source using the interpolated DVF calculated
-        source = transform(source)
-        registered = numpy_to_pointcloud(
-            txt_to_numpy(BCPD_DIR / "output_y.interpolated.txt")
-        )
-    else:
-        source = transform(source)
-        registered = numpy_to_pointcloud(txt_to_numpy(BCPD_DIR / "output_y.txt"))
+    source = transform(source)
+    registered = numpy_to_pointcloud(txt_to_numpy(BCPD_DIR / "output_y.txt"))
 
     # store outputs
     outputs = {"Source": source, "Target": None, "Registered": registered}
