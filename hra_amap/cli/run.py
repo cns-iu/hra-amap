@@ -14,21 +14,26 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 
-def run_command(cmd, cur_millitome):
+def run_command(cmd, cur_millitome, stream=False):
     """
     Execute a shell command
     """
     log.info(f"[{cur_millitome}] Running: {' '.join(str(x) for x in cmd)}")
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = subprocess.run(cmd) if stream else subprocess.run(
+        cmd, capture_output=True, text=True
+    )
     if result.returncode != 0:
+        stdout = "" if stream else result.stdout
+        stderr = "" if stream else result.stderr
         raise RuntimeError(
             f"[{cur_millitome}] Command failed!\n"
-            f"STDOUT:\n{result.stdout}\nSTDERR:\n{result.stderr}"
+            f"STDOUT:\n{stdout}\nSTDERR:\n{stderr}"
         )
-    log.info(result.stdout)
+    if not stream:
+        log.info(result.stdout)
 
 
-def run_pipeline():
+def run_pipeline(args):
     """
     Main pipeline function to iterate over millitome folders
     and execute stage 1 and 2 registrations.
@@ -70,7 +75,27 @@ def run_pipeline():
                         "--point_cloud_output_path",
                         str(output_path),
                     ]
-                    run_command(stage1_cmd, cur_millitome)
+                    if args.volumetric:
+                        stage1_cmd.append("--volumetric")
+                    if not args.progress:
+                        stage1_cmd.append("--quiet")
+                    if args.visual_hull_target_grid is not None:
+                        stage1_cmd.extend(
+                            [
+                                "--visual_hull_target_grid",
+                                str(args.visual_hull_target_grid),
+                            ]
+                        )
+                    if args.visual_hull_image_size is not None:
+                        stage1_cmd.extend(
+                            [
+                                "--visual_hull_image_size",
+                                str(args.visual_hull_image_size),
+                            ]
+                        )
+                    if args.visual_hull_force_rebuild:
+                        stage1_cmd.append("--visual_hull_force_rebuild")
+                    run_command(stage1_cmd, cur_millitome, stream=args.progress)
 
                     stage2_cmd = [
                         "python",
@@ -83,12 +108,32 @@ def run_pipeline():
                         "--config",
                         str(config_file),
                     ]
-                    run_command(stage2_cmd, cur_millitome)
+                    run_command(stage2_cmd, cur_millitome, stream=args.progress)
 
 
 def main():
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Run all Millitome registrations")
+    parser.add_argument(
+        "--volumetric",
+        action="store_true",
+        help="Use original surface vertices plus Open3D visual-hull volume controls.",
+    )
+    parser.add_argument(
+        "--quiet",
+        action="store_false",
+        dest="progress",
+        default=True,
+        help="Disable registration progress bars.",
+    )
+    parser.add_argument("--visual_hull_target_grid", type=int, default=None)
+    parser.add_argument("--visual_hull_image_size", type=int, default=None)
+    parser.add_argument("--visual_hull_force_rebuild", action="store_true")
+    args = parser.parse_args()
+
     try:
-        run_pipeline()
+        run_pipeline(args)
     except Exception as e:
         log.error("Pipeline failed!")
         raise e

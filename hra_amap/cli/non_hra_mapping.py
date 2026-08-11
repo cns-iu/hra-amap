@@ -1,10 +1,5 @@
-import sys
-from hra_amap.registration.organ import Organ
 from hra_amap.registration.tissue import TissueBlock
-from hra_amap.registration.pipeline import Pipeline
 from hra_amap.registration.dataclass import Projection
-from hra_amap.utils.conversions import to_pointcloud
-from hra_amap.utils.metrics import get_translations
 
 import hra_api_client
 from hra_api_client.api import v1_api
@@ -12,24 +7,16 @@ from hra_amap.utils.io import read_yaml
 from hra_amap.utils.constants import ConfigKeys
 from hra_amap.utils.non_hra_mapping import (
     build_block_metadata,
-    scale_millitome_block,
     generate_extraction_sites_jsonld_from_blocks,
     generate_dataset_graph_jsonld_from_blocks,
 )
-from hra_amap.cli.registration_stage_2 import (
-    ProjectionBlockGenerator,
-)
-
-import time
 import trimesh
 import numpy as np
-from copy import deepcopy
-from tqdm.auto import tqdm
 from pathlib import Path
 import requests
-import json
 
 reddishpink = np.array([222, 49, 99, 100], dtype=np.uint8)
+
 
 class NonHRAMapping:
     """
@@ -102,27 +89,6 @@ class NonHRAMapping:
         except hra_api_client.ApiException as e:
             print("Exception when calling DefaultApi->aggregate_results: %s\n" % e)
 
-    def load_projection_block(self):
-        """
-        Load projected tissue blocks generated from Stage-1 registration
-        and compute oriented bounding boxes for visualization.
-        """
-        # Generate projected blocks from Stage-1 projection
-        self.projected_blocks = ProjectionBlockGenerator(
-            self.stage1_projection, self.config_path
-        ).generate_projections()
-
-        # Extract oriented bounding boxes for each block
-        self.projected_blocks_obb = {
-            id: block.bounding_box_oriented
-            for id, block in deepcopy(self.projected_blocks).items()
-        }
-
-        for index, obb in self.projected_blocks_obb.items():
-            obb.visual.vertex_colors = self.projected_blocks[
-                index
-            ].visual.vertex_colors[0]
-   
     def build_model(self, result):
         """
         Build the final 3D scene by mapping donor blocks into the
@@ -131,20 +97,23 @@ class NonHRAMapping:
 
         self.blocks = []
         target_name = self.config_dict[ConfigKeys.TARGET_NAME]
-        translation_list = get_translations(
-            target_name=self.config_dict[ConfigKeys.TARGET_NAME]
-        )
         remove_block = self.config_dict.get("remove-block", [])
+        allowed_targets = set(self.config_dict.get("allowed_targets", [target_name]))
+        skipped_by_target = {}
 
         for donor in result:
             for sample in donor['samples']:
 
                 placement = sample.get("rui_location", {}).get("placement", {})
+                sample_target = placement.get("target")
 
-                if "Patch" in placement.get("target", ""):
+                if "Patch" in (sample_target or ""):
+                    continue
+                if sample_target not in allowed_targets:
+                    skipped_by_target[sample_target] = skipped_by_target.get(sample_target, 0) + 1
                     continue
 
-                block = TissueBlock.from_sample(sample, donor, target_name, translation_list)
+                block = TissueBlock.from_sample(sample, donor, target_name)
                 value = sample.get("@id", None)
                 if not value in remove_block :
                     result = value.split("#")[-1] if value and "#" in value else None
@@ -152,11 +121,14 @@ class NonHRAMapping:
                     block.metadata = build_block_metadata(sample, donor)
                     self.blocks.append(block)
 
+        print("Allowed placement targets:", allowed_targets)
+        print("Skipped samples by placement target:", skipped_by_target)
+
         projection = Projection.load(self.stage1_projection)
 
         projected_blocks = []
         for block in self.blocks:
-            projected = projection.project(deepcopy(block))
+            projected = projection.project(block)
 
             projected.metadata = block.metadata.copy()
             projected.id = block.id
@@ -164,34 +136,23 @@ class NonHRAMapping:
 
             projected_blocks.append(projected)
 
-        bounding_blocks = []
-
         for block in projected_blocks:
-            bbox = block.bounding_box_oriented
-
-            bbox.metadata = block.metadata.copy()
-            bbox.id = block.id
-            bbox.label = block.label
-
-            sample = bbox.metadata.get("sample", {})
+            sample = block.metadata.get("sample", {})
             rui = sample.get(ConfigKeys.RUI_LOCATION_KEY, {})
             placement = rui.get(ConfigKeys.PLACEMENT, {})
 
-            placement["x_translation"] = float(bbox.centroid[0])
-            placement["y_translation"] = float(bbox.centroid[1])
-            placement["z_translation"] = float(bbox.centroid[2])
-
-            bbox.metadata["centroid"] = bbox.centroid.tolist()
-
-            bounding_blocks.append(bbox)
+            placement["x_translation"] = float(block.centroid[0])
+            placement["y_translation"] = float(block.centroid[1])
+            placement["z_translation"] = float(block.centroid[2])
+            block.metadata["centroid"] = block.centroid.tolist()
 
         self.source_model.visual = trimesh.visual.ColorVisuals(
             mesh=self.source_model,
             vertex_colors=np.tile(reddishpink, (self.source_model.vertices.shape[0], 1))
         )
 
-        self.blocks = bounding_blocks
-        scene = trimesh.scene.Scene([bounding_blocks, self.source_model])
+        self.blocks = projected_blocks
+        scene = trimesh.scene.Scene([self.source_model, *projected_blocks])
         scene.export(self.output_dir / "non_hra_mapping.glb")
 
     def export_json(self):

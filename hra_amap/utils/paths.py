@@ -11,10 +11,10 @@ def get_root_path() -> Path:
 
 def get_bcpd_path() -> Path:
     """
-    Returns the absolute path to the BCPD executable.
+    Returns the absolute path to the BCPD directory.
     Raises an exception if not found with a link to install instructions.
     """
-    # builds the bcpd directory and executable paths much more cleanly from the repo root (see get_root_path)
+    # builds the bcpd directory path much more cleanly from the repo root (see get_root_path)
     # assumes that the bcpd repo will be cloned at the same level as that of the root (this is made explicit in the instructions, see BCPD_INSTALLATION.md and README.md)
     BASE_DIR = get_root_path()
     if not BASE_DIR:

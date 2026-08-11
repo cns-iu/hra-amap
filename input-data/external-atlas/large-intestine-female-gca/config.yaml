@@ -3,6 +3,11 @@ input_files:
 
 target_name: "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary"
 
+allowed_targets:
+  - "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary"
+  - "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine"
+  - "http://purl.org/ccf/latest/ccf.owl#VHFColon"
+
 donor:
   sex: Female
   provider_name: MC-IU
@@ -30,14 +35,13 @@ rui_location:
 
 nonrigid_registration:
   autotune: 'False'
-  gamma: 20
+  gamma: 0.1
   beta: 1
   decimation: 'False'
-  distance_threshold: 1e-8
-  lambda: 8
-  downsampling: 'Y, 26443, 0.05'
+  distance_threshold: 1.0e-06
+  lambda: 10
   max_iterations: 1000
-  seed: 26
+  seed: 1
 
 rigid_registration:
   global_distance_threshold_factor: 0.23

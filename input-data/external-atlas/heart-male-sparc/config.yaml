@@ -5,6 +5,10 @@ retain_component: ["VH_M_left_cardiac_atrium","VH_M_right_cardiac_atrium","VH_M_
 
 target_name: "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
 
+allowed_targets:
+  - "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
+  - "http://purl.org/ccf/latest/ccf.owl#VHMHeart"
+
 donor:
   sex: Male
   provider_name: MC-IU
@@ -32,14 +36,13 @@ rui_location:
 
 nonrigid_registration:
   autotune: 'False'
-  gamma: 20
-  beta: 1
+  beta: 2
   decimation: 'False'
-  distance_threshold: 1e-8
-  lambda: 10
-  downsampling: 'Y, 26443, 0.05'
-  max_iterations: 1300
-  seed: 26
+  distance_threshold: 1.0e-06
+  lambda: 200
+  gamma: 0.1
+  max_iterations: 1000
+  seed: 1
 
 rigid_registration:
   global_distance_threshold_factor: 0.23
@@ -49,4 +52,3 @@ rigid_registration:
   max_nn: 100
   refine_distance_threshold_factor: 0.1
   voxel_size: 0.025
-

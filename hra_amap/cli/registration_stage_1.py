@@ -3,14 +3,13 @@ Stage 1 of Millitome Registrations: Module to perform projection generation usin
 """
 
 import argparse
-import yaml
 import trimesh
 import numpy as np
 import requests
 from pathlib import Path
 from hra_amap.registration.organ import Organ
 from hra_amap.registration.pipeline import Pipeline
-from hra_amap.utils.io import read_yaml, write_yaml
+from hra_amap.utils.io import read_yaml
 from hra_amap.utils.constants import ConfigKeys
 from hra_amap.utils.preprocess import download_and_process_glb_file
 from hra_amap.utils.non_hra_mapping import get_rotation_matrix
@@ -98,14 +97,24 @@ class ProjectionPickle:
         retain = self.config_dict.get(ConfigKeys.RETAIN_COMPONENT)
         glb_path = download_and_process_glb_file(glb_url, raw_data_dir, retain)
         if glb_path:
-            self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET] = glb_path
+            self.config_dict[ConfigKeys.INPUT_FILES][ConfigKeys.TARGET.value] = glb_path
 
-    def __init__(self, config: Path, backward_projection: bool):
+    def __init__(
+        self,
+        config: Path,
+        backward_projection: bool,
+        volumetric: bool = False,
+        progress: bool = True,
+        visual_hull_params: dict = None,
+    ):
         """
         Initialize with configuration path.
         """
         self.config = config
         self.backward_projection = backward_projection
+        self.volumetric = volumetric
+        self.progress = progress
+        self.visual_hull_params = visual_hull_params or {}
         self.load_registration_data()
 
     def generate_projection(
@@ -130,18 +139,31 @@ class ProjectionPickle:
         if self.backward_projection:
             source_path, target_path = target_path, source_path
 
+        self.config_dict["volumetric"] = self.volumetric
+        self.config_dict["progress"] = self.progress
+        self.config_dict["visual_hull"] = {
+            **self.config_dict.get("visual_hull", {}),
+            **self.visual_hull_params,
+        }
+
         source = Organ(
             path=source_path,
             target_name=self.config_dict[ConfigKeys.TARGET_NAME],
+            volumetric=self.volumetric,
+            visual_hull_params=self.config_dict["visual_hull"],
+            progress=self.progress,
         )
 
         target = Organ(
             path=target_path,
             target_name=self.config_dict[ConfigKeys.TARGET_NAME],
+            volumetric=self.volumetric,
+            visual_hull_params=self.config_dict["visual_hull"],
+            progress=self.progress,
         )
 
         pipeline = Pipeline(
-            name=pipeline_name, description=pipeline_discription, params=self.config
+            name=pipeline_name, description=pipeline_discription, params=self.config_dict
         )
 
         projections = pipeline.run(source=source, target=target)
@@ -154,8 +176,11 @@ class ProjectionPickle:
             ),
         )
         hra_pc = trimesh.PointCloud(
-            target.vertices,
-            colors=np.tile(np.array([0, 0, 255, 1]), (len(target.vertices), 1)),
+            target.registration_vertices,
+            colors=np.tile(
+                np.array([0, 0, 255, 1]),
+                (len(target.registration_vertices), 1),
+            ),
         )
         after_scene = trimesh.Scene([projected_pc, hra_pc])
         output_file = point_cloud_output / "point_cloud_transformation_fit.glb"
@@ -201,11 +226,56 @@ def main():
         action="store_true",
         help="Backward projection from HRA to non-HRA",
     )
+    parser.add_argument(
+        "--volumetric",
+        action="store_true",
+        help="Use original surface vertices plus Open3D visual-hull volume controls.",
+    )
+    parser.add_argument(
+        "--quiet",
+        action="store_false",
+        dest="progress",
+        default=True,
+        help="Disable registration progress bars.",
+    )
+    parser.add_argument(
+        "--visual_hull_target_grid",
+        type=int,
+        default=None,
+        help="Voxel grid resolution for volumetric visual-hull controls.",
+    )
+    parser.add_argument(
+        "--visual_hull_image_size",
+        type=int,
+        default=None,
+        help="Open3D render size for visual-hull carving.",
+    )
+    parser.add_argument(
+        "--visual_hull_force_rebuild",
+        action="store_true",
+        help="Ignore cached visual-hull volume points.",
+    )
 
     args = parser.parse_args()
 
     try:
-        ProjectionPickle(args.config, args.backward_projection).generate_projection(
+        visual_hull_params = {
+            key: value
+            for key, value in {
+                "target_grid": args.visual_hull_target_grid,
+                "image_size": args.visual_hull_image_size,
+            }.items()
+            if value is not None
+        }
+        if args.visual_hull_force_rebuild:
+            visual_hull_params["force_rebuild"] = True
+        ProjectionPickle(
+            args.config,
+            args.backward_projection,
+            volumetric=args.volumetric,
+            progress=args.progress,
+            visual_hull_params=visual_hull_params,
+        ).generate_projection(
             args.output_path,
             args.point_cloud_output_path,
             args.pipeline_name,

@@ -3,6 +3,10 @@ input_files:
 
 target_name: "https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary"
 
+allowed_targets:
+  - "https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary"
+  - "http://purl.org/ccf/latest/ccf.owl#VHMAllenBrain"
+
 donor:
   sex: Male
   provider_name: MC-IU
@@ -34,13 +38,13 @@ rui_location:
 
 nonrigid_registration:
   autotune: 'False'
-  gamma: 20
+  gamma: 0.1
   beta: 1
   decimation: 'False'
-  distance_threshold: 1e-8
+  distance_threshold: 1.0e-06
   lambda: 10
-  downsampling: 'Y, 26443, 0.05'
-  max_iterations: 1300
+  downsampling: 'X,20000,0.05,Y,20000,0.05'
+  max_iterations: 100
   seed: 26
 
 rigid_registration:

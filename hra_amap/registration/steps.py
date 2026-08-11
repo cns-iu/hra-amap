@@ -1,4 +1,3 @@
-import subprocess
 import numpy as np
 import open3d as o3d
 
@@ -10,8 +9,16 @@ from hra_amap.utils.conversions import (
     txt_to_numpy)
 from hra_amap.utils.preprocess import scale, compute_features
 from hra_amap.utils.paths import get_bcpd_path
+from hra_amap.utils.progress import run_bcpd
 
 BCPD_DIR = get_bcpd_path()
+
+DEFAULT_BCPD_PARAMS = {
+    "J": 300,
+    "K": 150,
+    "normalization": "n",
+    "save": "yveTY",
+}
 
 
 @step(
@@ -215,6 +222,7 @@ def nonrigid_registration(source, target, params):
     target_array = pointcloud_to_numpy(target)
     np.savetxt(BCPD_DIR.joinpath("source.txt"), source_array, delimiter=",")
     np.savetxt(BCPD_DIR.joinpath("target.txt"), target_array, delimiter=",")
+    params = {**DEFAULT_BCPD_PARAMS, **params}
 
     # build registration args
     registration_args = [
@@ -224,12 +232,12 @@ def nonrigid_registration(source, target, params):
         "-y",
         "source.txt",
         "-J",
-        "300",
+        str(params["J"]),
         "-K",
-        "100",
+        str(params["K"]),
         "-p",
         "-u",
-        "n",
+        str(params["normalization"]),
         "-c",
         str(params["distance_threshold"]),
         "-r",
@@ -241,7 +249,7 @@ def nonrigid_registration(source, target, params):
         "-b",
         str(params["beta"]),
         "-s",
-        "yveTY",
+        str(params["save"]),
         "-h"
     ]
 
@@ -251,11 +259,16 @@ def nonrigid_registration(source, target, params):
 
     # for downsampling acceleration
     # TODO: auto-detect when downsampling acceleration is needed instead of having it specified
-    if "downsampling" in params:
+    if params.get("downsampling"):
         registration_args.extend(["-D", str(params["downsampling"])])
 
     # register using BCPD
-    result = subprocess.run(registration_args, cwd=str(BCPD_DIR))
+    result = run_bcpd(
+        registration_args,
+        cwd=BCPD_DIR,
+        max_iterations=int(params["max_iterations"]),
+        progress=bool(params.get("progress", False)),
+    )
     if result.returncode != 0:
         print(f"Error Code: {result.returncode}")
         print(f"Error Message: {result.stderr}")
@@ -272,6 +285,7 @@ def nonrigid_registration(source, target, params):
         rotate=rotation,
         translate=translation,
         deformation_vector_field=dvf,
+        deformation_source=source_array,
     )
 
     # apply transform and store outputs

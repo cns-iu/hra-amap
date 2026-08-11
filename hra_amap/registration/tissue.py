@@ -69,7 +69,7 @@ class TissueBlock(trimesh.Trimesh):
         return to_array(self)
 
     @classmethod
-    def from_sample(cls, sample: dict, donor: dict, target_name: str, translation_list: list):
+    def from_sample(cls, sample: dict, donor: dict, target_name: str):
         """
         Create a TissueBlock instance from sample data.
 
@@ -103,10 +103,9 @@ class TissueBlock(trimesh.Trimesh):
         block.division_factor = division_factor
         block.label = sample.get("label", None)
         block.target_name = target_name
-        transform = Transform(scale=scaling, rotate=rotation, translate=translation_list)
 
         # get transforms
-        block.target_transform = transform
+        block.target_transform = block._get_target_transform()
         block.transform = block._get_block_transform()
 
         # move the origin of the block from the box centre to its back-bottom-left (0, 0, 0)
@@ -180,13 +179,14 @@ class TissueBlock(trimesh.Trimesh):
         )
         return block_transform
 
-    def _get_target_transform(self, translation_arr: list):
+    def _get_target_transform(self):
         """Get the necessary transform shift the target HRA organ (it's back-bottom-left) to the world origin (0, 0, 0)"""
         # https://raw.githubusercontent.com/hubmapconsortium/hubmap-ontology/master/source_data/generated-reference-spatial-entities.jsonld
         if not hasattr(self, "target_name"):
             self.target_name = self.metadata["placement"]["target"].split("#")[-1]
 
-        target_transform = Transform(scaling, rotation, translation_arr)
+        translations = get_translations(self.target_name)
+        target_transform = Transform(scaling, rotation, translations)
         return target_transform
 
     def to_sample(self, export_path: str):

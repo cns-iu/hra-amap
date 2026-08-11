@@ -2,7 +2,7 @@ import yaml
 import uuid
 
 from copy import deepcopy
-from scipy.spatial import distance
+from tqdm.auto import tqdm
 
 from hra_amap.registration.organ import Organ
 from hra_amap.registration.dataclass import Projection
@@ -30,8 +30,24 @@ class Pipeline:
         self.name = name
         self.description = description
         self.steps = {}
-        with open(params) as f:
-            self.params = yaml.safe_load(f)
+        if isinstance(params, dict):
+            self.params = params
+        else:
+            with open(params) as f:
+                self.params = yaml.safe_load(f)
+
+    def _prepare_organs(self, source, target):
+        progress = bool(self.params.get("progress", False))
+        volumetric = bool(self.params.get("volumetric", False))
+        visual_hull = self.params.get("visual_hull", {})
+
+        for organ in (source, target):
+            organ.volumetric = volumetric
+            organ.progress = progress
+            organ.visual_hull_params = {
+                **organ.visual_hull_params,
+                **visual_hull,
+            }
 
     def run(self, source: Organ, target: Organ):
         """
@@ -44,52 +60,89 @@ class Pipeline:
         Returns:
             Projection: Contains the aligned geometry and transformation history.
         """
+        self._prepare_organs(source, target)
+
+        progress = bool(self.params.get("progress", False))
+        steps = tqdm(total=7, desc="Registration", unit="step") if progress else None
+
         # Step 1: Normalize (ICP)
+        if progress:
+            steps.set_description("Normalize rigid")
         self.steps["normalize_rigid"] = normalize_rigid(
             source=deepcopy(source.pointcloud), target=deepcopy(target.pointcloud)
         )
+        if progress:
+            steps.update()
 
         # Step 2: Global (Fast) Registration
+        if progress:
+            steps.set_description("Global registration")
         self.steps["global_registration"] = global_registration(
             source=deepcopy(self.steps["normalize_rigid"].output["Source"]),
             target=deepcopy(self.steps["normalize_rigid"].output["Target"]),
             params=self.params["rigid_registration"],
         )
+        if progress:
+            steps.update()
 
         # Step 3: Rigid Registration
+        if progress:
+            steps.set_description("Refine rigid")
         self.steps["refine_registration"] = refine_registration(
             source=deepcopy(self.steps["normalize_rigid"].output["Source"]),
             target=deepcopy(self.steps["normalize_rigid"].output["Target"]),
             transform=self.steps["global_registration"].transform,
             params=self.params["rigid_registration"],
         )
+        if progress:
+            steps.update()
 
         # Step 4: Normalize (BCPD)
+        if progress:
+            steps.set_description("Normalize nonrigid")
         self.steps["normalize_nonrigid"] = normalize_nonrigid(
             source=deepcopy(self.steps["refine_registration"].output["Source"]),
             target=deepcopy(self.steps["normalize_rigid"].output["Target"]),
         )
+        if progress:
+            steps.update()
 
         # Step 5: Non-rigid Registration (BCPD)
+        if progress:
+            steps.set_description("BCPD nonrigid")
         self.steps["nonrigid_registration"] = nonrigid_registration(
             source=deepcopy(self.steps["normalize_nonrigid"].output["Source"]),
             target=deepcopy(self.steps["normalize_nonrigid"].output["Target"]),
-            params=self.params["nonrigid_registration"],
+            params={
+                **self.params["nonrigid_registration"],
+                "progress": progress,
+            },
         )
+        if progress:
+            steps.update()
 
         # Step 6: Denormalization (BCPD)
+        if progress:
+            steps.set_description("Denormalize nonrigid")
         self.steps["denormalize_nonrigid"] = denormalize_nonrigid(
             source=deepcopy(self.steps["nonrigid_registration"].output["Source"]),
             target=deepcopy(self.steps["nonrigid_registration"].output["Source"]),
             transforms=self.steps["normalize_nonrigid"].transform,
         )
+        if progress:
+            steps.update()
 
         # Step 7: Denormalization (ICP)
+        if progress:
+            steps.set_description("Denormalize rigid")
         self.steps["denormalize_rigid"] = denormalize_rigid(
             source=deepcopy(self.steps["denormalize_nonrigid"].output["Source"]),
             target=deepcopy(self.steps["denormalize_nonrigid"].output["Source"]),
             transforms=self.steps["normalize_rigid"].transform,
         )
+        if progress:
+            steps.update()
+            steps.close()
 
         # consolidate projections
         projections = Projection(
@@ -108,6 +161,17 @@ class Pipeline:
                 for name, step in self.steps.items()
                 if step.transform
             ],
+            metadata={
+                "volumetric": bool(self.params.get("volumetric", False)),
+                "source_surface_count": int(source.surface_count),
+                "target_surface_count": int(target.surface_count),
+                "source_visual_hull": source.visual_hull_stats
+                if source.volumetric
+                else None,
+                "target_visual_hull": target.visual_hull_stats
+                if target.volumetric
+                else None,
+            },
         )
 
         # return projections

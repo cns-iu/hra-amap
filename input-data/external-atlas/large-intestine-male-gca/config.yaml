@@ -3,8 +3,12 @@ input_files:
 
 target_name: "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
 
+allowed_targets:
+  - "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
+  - "http://purl.org/ccf/latest/ccf.owl#VHMColon"
+
 donor:
-  sex: Female
+  sex: Male
   provider_name: MC-IU
   provider_uuid: 87751d4c-a850-4e2c-84dc-da6a797d76de
   consortium_name: HRA
@@ -30,14 +34,13 @@ rui_location:
 
 nonrigid_registration:
   autotune: 'False'
-  gamma: 20
-  beta: 1
+  gamma: 0.1
+  beta: 0.2
   decimation: 'False'
-  distance_threshold: 1e-8
+  distance_threshold: 1.0e-06
   lambda: 10
-  downsampling: 'Y, 26443, 0.05'
   max_iterations: 1000
-  seed: 26
+  seed: 1
 
 rigid_registration:
   global_distance_threshold_factor: 0.23
