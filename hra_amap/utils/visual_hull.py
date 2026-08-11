@@ -1,3 +1,8 @@
+"""
+The visual hull calculation here follows AND borrows most of the code from the Open3D voxel carving tutorial (see here:
+https://www.open3d.org/docs/release/tutorial/geometry/voxelization.html#Voxel-carving)
+"""
+
 import hashlib
 import json
 from pathlib import Path
