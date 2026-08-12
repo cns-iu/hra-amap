@@ -6,6 +6,7 @@ import gzip
 
 from typing import Optional
 from dataclasses import dataclass
+from trimesh.registration import procrustes
 from hra_amap.utils.preprocess import mean
 from hra_amap.utils.conversions import to_array, to_pointcloud, to_mesh
 
@@ -202,39 +203,27 @@ class Projection:
         samples_per_axis = (
             self.params.get("projection", {}).get("dense_samples_per_axis", 5)
         )
-        if isinstance(samples_per_axis, int):
-            samples_per_axis = (samples_per_axis,) * 3
-
-        vertices = np.asarray(geometry.vertices, dtype=np.float64)
-        center = vertices.mean(axis=0)
-        centered = vertices - center
-        _, _, axes = np.linalg.svd(centered, full_matrices=False)
-        axes = axes.T
-        local = centered @ axes
-        grids = [
-            np.linspace(local[:, axis].min(), local[:, axis].max(), samples_per_axis[axis])
-            for axis in range(3)
-        ]
-        sample_local = np.asarray(np.meshgrid(*grids, indexing="ij")).reshape(3, -1).T
-        return sample_local @ axes.T + center
+        box = geometry.bounding_box_oriented
+        extents = np.asarray(box.primitive.extents, dtype=np.float64)
+        samples = trimesh.util.grid_linspace(
+            np.vstack([-extents / 2, extents / 2]),
+            samples_per_axis,
+        )
+        return trimesh.transform_points(samples, box.primitive.transform)
 
     @staticmethod
     def _fit_similarity(source, target):
-        source = np.asarray(source, dtype=np.float64)
-        target = np.asarray(target, dtype=np.float64)
-        source_center = source.mean(axis=0)
-        target_center = target.mean(axis=0)
-        source_centered = source - source_center
-        target_centered = target - target_center
-        covariance = source_centered.T @ target_centered / len(source)
-        u, singular_values, vt = np.linalg.svd(covariance)
-        correction = np.eye(3)
-        if np.linalg.det(vt.T @ u.T) < 0:
-            correction[-1, -1] = -1
-        rotation = vt.T @ correction @ u.T
-        variance = np.mean(np.sum(source_centered**2, axis=1))
-        scale = np.trace(np.diag(singular_values) @ correction) / max(variance, 1e-12)
-        translation = target_center - scale * (source_center @ rotation)
+        matrix = procrustes(
+            source,
+            target,
+            reflection=False,
+            scale=True,
+            return_cost=False,
+        )
+        linear = matrix[:3, :3]
+        scale = np.linalg.norm(linear, axis=0).mean()
+        rotation = linear.T / scale
+        translation = matrix[:3, 3]
         return scale, rotation, translation
 
     @staticmethod
