@@ -5,6 +5,11 @@ retain_component: ["VH_F_interventricular_septum","VH_F_left_cardiac_atrium","VH
 
 target_name: "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
 
+visual_hull:
+  target_grid: 120
+  image_size: 420
+  force_rebuild: false
+
 allowed_targets:
   - "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
   - "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"

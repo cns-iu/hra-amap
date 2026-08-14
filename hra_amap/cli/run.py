@@ -79,22 +79,6 @@ def run_pipeline(args):
                         stage1_cmd.append("--volumetric")
                     if not args.progress:
                         stage1_cmd.append("--quiet")
-                    if args.visual_hull_target_grid is not None:
-                        stage1_cmd.extend(
-                            [
-                                "--visual_hull_target_grid",
-                                str(args.visual_hull_target_grid),
-                            ]
-                        )
-                    if args.visual_hull_image_size is not None:
-                        stage1_cmd.extend(
-                            [
-                                "--visual_hull_image_size",
-                                str(args.visual_hull_image_size),
-                            ]
-                        )
-                    if args.visual_hull_force_rebuild:
-                        stage1_cmd.append("--visual_hull_force_rebuild")
                     run_command(stage1_cmd, cur_millitome, stream=args.progress)
 
                     stage2_cmd = [
@@ -127,9 +111,6 @@ def main():
         default=True,
         help="Disable registration progress bars.",
     )
-    parser.add_argument("--visual_hull_target_grid", type=int, default=None)
-    parser.add_argument("--visual_hull_image_size", type=int, default=None)
-    parser.add_argument("--visual_hull_force_rebuild", action="store_true")
     args = parser.parse_args()
 
     try:

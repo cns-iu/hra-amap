@@ -69,6 +69,19 @@ Place the following files inside the <version> directory:
 | `config.yaml`         | Configuration file with metadata and registration parameters.    |
 | `source.glb`          | The `.glb` version of the source mesh for visualization in RUI.  |
 
+`config.yaml` should include the visual-hull parameters used when volumetric
+registration is enabled:
+
+```yaml
+visual_hull:
+  target_grid: 120
+  image_size: 420
+  force_rebuild: false
+```
+
+These values are ignored for the default surface-registration workflow and are
+used only when stage 1 is run with `--volumetric`.
+
 ## ⚙️ Millitome Registration Usage Instructions
 
 🔹 Stage 1: Generates the projected 3D model data

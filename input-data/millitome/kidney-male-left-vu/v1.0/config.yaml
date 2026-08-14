@@ -5,6 +5,11 @@ retain_component: ["VH_M_kidney_capsule_L"]
 
 target_name: "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary"
 
+visual_hull:
+  target_grid: 120
+  image_size: 420
+  force_rebuild: false
+
 donor:
   sex: Male
   provider_name: MC-IU

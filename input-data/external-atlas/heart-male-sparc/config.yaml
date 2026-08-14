@@ -5,6 +5,11 @@ retain_component: ["VH_M_left_cardiac_atrium","VH_M_right_cardiac_atrium","VH_M_
 
 target_name: "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
 
+visual_hull:
+  target_grid: 120
+  image_size: 420
+  force_rebuild: false
+
 allowed_targets:
   - "https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary"
   - "http://purl.org/ccf/latest/ccf.owl#VHMHeart"

@@ -3,6 +3,11 @@ input_files:
 
 target_name: "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
 
+visual_hull:
+  target_grid: 120
+  image_size: 420
+  force_rebuild: false
+
 allowed_targets:
   - "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary"
   - "http://purl.org/ccf/latest/ccf.owl#VHMColon"

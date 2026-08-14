@@ -105,7 +105,6 @@ class ProjectionPickle:
         backward_projection: bool,
         volumetric: bool = False,
         progress: bool = True,
-        visual_hull_params: dict = None,
     ):
         """
         Initialize with configuration path.
@@ -114,7 +113,6 @@ class ProjectionPickle:
         self.backward_projection = backward_projection
         self.volumetric = volumetric
         self.progress = progress
-        self.visual_hull_params = visual_hull_params or {}
         self.load_registration_data()
 
     def generate_projection(
@@ -141,10 +139,7 @@ class ProjectionPickle:
 
         self.config_dict["volumetric"] = self.volumetric
         self.config_dict["progress"] = self.progress
-        self.config_dict["visual_hull"] = {
-            **self.config_dict.get("visual_hull", {}),
-            **self.visual_hull_params,
-        }
+        self.config_dict["visual_hull"] = self.config_dict.get("visual_hull", {})
 
         source = Organ(
             path=source_path,
@@ -238,43 +233,14 @@ def main():
         default=True,
         help="Disable registration progress bars.",
     )
-    parser.add_argument(
-        "--visual_hull_target_grid",
-        type=int,
-        default=None,
-        help="Voxel grid resolution for volumetric visual-hull controls.",
-    )
-    parser.add_argument(
-        "--visual_hull_image_size",
-        type=int,
-        default=None,
-        help="Open3D render size for visual-hull carving.",
-    )
-    parser.add_argument(
-        "--visual_hull_force_rebuild",
-        action="store_true",
-        help="Ignore cached visual-hull volume points.",
-    )
-
     args = parser.parse_args()
 
     try:
-        visual_hull_params = {
-            key: value
-            for key, value in {
-                "target_grid": args.visual_hull_target_grid,
-                "image_size": args.visual_hull_image_size,
-            }.items()
-            if value is not None
-        }
-        if args.visual_hull_force_rebuild:
-            visual_hull_params["force_rebuild"] = True
         ProjectionPickle(
             args.config,
             args.backward_projection,
             volumetric=args.volumetric,
             progress=args.progress,
-            visual_hull_params=visual_hull_params,
         ).generate_projection(
             args.output_path,
             args.point_cloud_output_path,
