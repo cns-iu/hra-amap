@@ -135,7 +135,16 @@ class ProjectionBlockGenerator:
         Apply the loaded projection to each tissue block.
         """
         return {
-            block.label: self.projection.project(block)
+            block.label: self.projection.project(block, apply_target_transform=True)
+            for block in self.tissue_blocks
+        }
+
+    def generate_raw_mesh_projections(self):
+        """
+        Apply the loaded projection directly to tissue-block mesh vertices.
+        """
+        return {
+            block.label: self.projection.project_raw_mesh(block)
             for block in self.tissue_blocks
         }
 
@@ -145,16 +154,16 @@ def generate_output(projection: Path, output_dir: Path, config: Path):
     Main workflow to generate projection output files.
     """
 
-    projected_blocks = ProjectionBlockGenerator(
-        projection, config
-    ).generate_projections()
+    projection_generator = ProjectionBlockGenerator(projection, config)
+    projected_blocks = projection_generator.generate_projections()
     processor = RUIProcessor(
         blocks=list(projected_blocks.values()), registration_dir=output_dir
     )
     processor.initialize_registration()
     processor.generate_rui_locations(config)
 
-    scene = trimesh.Scene(projected_blocks)
+    raw_mesh_projected_blocks = projection_generator.generate_raw_mesh_projections()
+    scene = trimesh.Scene(raw_mesh_projected_blocks)
     if not scene.geometry:
         raise ValueError("Scene is empty. No geometries to export.")
 

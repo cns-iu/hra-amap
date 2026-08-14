@@ -173,6 +173,7 @@ class Projection:
             vertices=np.array(geometry.vertices, copy=True),
             faces=np.array(geometry.faces, copy=True),
         )
+        out.visual = deepcopy(geometry.visual)
         for attr in (
             "target_transform",
             "transform",
@@ -230,7 +231,7 @@ class Projection:
     def _apply_similarity(points, scale, rotation, translation):
         return scale * (np.asarray(points, dtype=np.float64) @ rotation) + translation
 
-    def _project_tissue_block(self, geometry):
+    def _project_tissue_block(self, geometry, apply_target_transform=False):
         sample_points = self._dense_sample(geometry)
         projected_samples = self._project_points(sample_points)
         scale, rotation, translation = self._fit_similarity(
@@ -240,15 +241,42 @@ class Projection:
         projected.vertices = self._apply_similarity(
             geometry.vertices, scale, rotation, translation
         )
+        if (
+            apply_target_transform
+            and hasattr(geometry, "target_transform")
+            and geometry.target_transform
+        ):
+            projected = geometry.target_transform(projected)
         return projected
 
     def _is_tissue_block(self, geometry):
         return hasattr(geometry, "target_transform") and hasattr(geometry, "division_factor")
 
-    def project(self, geometry):
+    def project(self, geometry, apply_target_transform=False):
         if self._is_tissue_block(geometry):
-            return self._project_tissue_block(geometry)
+            return self._project_tissue_block(
+                geometry,
+                apply_target_transform=apply_target_transform,
+            )
 
+        return self._project_direct(geometry)
+
+    def project_raw_mesh(self, geometry):
+        """
+        Project mesh vertices directly through the stored transforms.
+
+        This preserves the legacy millitome GLB behavior, where the exported
+        scene shows the raw transformed tissue-block meshes rather than the
+        fitted block projection used for JSON-LD placement values.
+        """
+        geometry = (
+            self._copy_geometry(geometry)
+            if isinstance(geometry, trimesh.base.Trimesh)
+            else deepcopy(geometry)
+        )
+        return self._project_direct(geometry)
+
+    def _project_direct(self, geometry):
         # get pointcloud
         # TO DO: make concatenated transforms work on Tissue / Organ objects as well
         # currently, they work on pointclouds and arrays only

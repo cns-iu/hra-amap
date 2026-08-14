@@ -179,13 +179,17 @@ class TissueBlock(trimesh.Trimesh):
         )
         return block_transform
 
-    def _get_target_transform(self):
+    def _get_target_transform(self, translation_arr: list | None = None):
         """Get the necessary transform shift the target HRA organ (it's back-bottom-left) to the world origin (0, 0, 0)"""
         # https://raw.githubusercontent.com/hubmapconsortium/hubmap-ontology/master/source_data/generated-reference-spatial-entities.jsonld
         if not hasattr(self, "target_name"):
             self.target_name = self.metadata["placement"]["target"].split("#")[-1]
 
-        translations = get_translations(self.target_name)
+        translations = (
+            translation_arr
+            if translation_arr is not None
+            else get_translations(self.target_name)
+        )
         target_transform = Transform(scaling, rotation, translations)
         return target_transform
 
