@@ -3,10 +3,7 @@ input_files:
 
 target_name: "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary"
 
-visual_hull:
-  target_grid: 120
-  image_size: 420
-  force_rebuild: false
+volumetric: true
 
 allowed_targets:
   - "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary"
@@ -39,6 +36,10 @@ rui_location:
     translation_units: "millimeter"
 
 nonrigid_registration:
+  J: 300
+  K: 150
+  normalization: n
+  save: yveTY
   autotune: 'False'
   gamma: 0.1
   beta: 1

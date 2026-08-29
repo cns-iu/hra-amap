@@ -14,6 +14,7 @@ from hra_amap.utils.constants import ConfigKeys
 from hra_amap.utils.preprocess import download_and_process_glb_file
 from hra_amap.utils.non_hra_mapping import get_rotation_matrix
 
+
 class ProjectionPickle:
     """
     Handles loading configuration and generating organ projections.
@@ -103,7 +104,6 @@ class ProjectionPickle:
         self,
         config: Path,
         backward_projection: bool,
-        volumetric: bool = False,
         progress: bool = True,
     ):
         """
@@ -111,9 +111,9 @@ class ProjectionPickle:
         """
         self.config = config
         self.backward_projection = backward_projection
-        self.volumetric = volumetric
         self.progress = progress
         self.load_registration_data()
+        self.volumetric = bool(self.config_dict.get(ConfigKeys.VOLUMETRIC.value, False))
 
     def generate_projection(
         self,
@@ -137,15 +137,13 @@ class ProjectionPickle:
         if self.backward_projection:
             source_path, target_path = target_path, source_path
 
-        self.config_dict["volumetric"] = self.volumetric
+        self.config_dict[ConfigKeys.VOLUMETRIC.value] = self.volumetric
         self.config_dict["progress"] = self.progress
-        self.config_dict["visual_hull"] = self.config_dict.get("visual_hull", {})
 
         source = Organ(
             path=source_path,
             target_name=self.config_dict[ConfigKeys.TARGET_NAME],
             volumetric=self.volumetric,
-            visual_hull_params=self.config_dict["visual_hull"],
             progress=self.progress,
         )
 
@@ -153,7 +151,6 @@ class ProjectionPickle:
             path=target_path,
             target_name=self.config_dict[ConfigKeys.TARGET_NAME],
             volumetric=self.volumetric,
-            visual_hull_params=self.config_dict["visual_hull"],
             progress=self.progress,
         )
 
@@ -222,11 +219,6 @@ def main():
         help="Backward projection from HRA to non-HRA",
     )
     parser.add_argument(
-        "--volumetric",
-        action="store_true",
-        help="Use original surface vertices plus Open3D visual-hull volume controls.",
-    )
-    parser.add_argument(
         "--quiet",
         action="store_false",
         dest="progress",
@@ -239,7 +231,6 @@ def main():
         ProjectionPickle(
             args.config,
             args.backward_projection,
-            volumetric=args.volumetric,
             progress=args.progress,
         ).generate_projection(
             args.output_path,

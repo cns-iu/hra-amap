@@ -5,10 +5,7 @@ retain_component: ["VH_F_kidney_capsule_L"]
 
 target_name: "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary"
 
-visual_hull:
-  target_grid: 120
-  image_size: 420
-  force_rebuild: false
+volumetric: false
 
 donor:
   sex: Female
@@ -36,6 +33,10 @@ rui_location:
     translation_units: "millimeter"
 
 nonrigid_registration:
+  J: 300
+  K: 150
+  normalization: n
+  save: yveTY
   autotune: 'False'
   gamma: 10
   beta: 2

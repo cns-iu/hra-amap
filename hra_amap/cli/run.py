@@ -75,8 +75,6 @@ def run_pipeline(args):
                         "--point_cloud_output_path",
                         str(output_path),
                     ]
-                    if args.volumetric:
-                        stage1_cmd.append("--volumetric")
                     if not args.progress:
                         stage1_cmd.append("--quiet")
                     run_command(stage1_cmd, cur_millitome, stream=args.progress)
@@ -99,11 +97,6 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="Run all Millitome registrations")
-    parser.add_argument(
-        "--volumetric",
-        action="store_true",
-        help="Use original surface vertices plus Open3D visual-hull volume controls.",
-    )
     parser.add_argument(
         "--quiet",
         action="store_false",

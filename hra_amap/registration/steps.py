@@ -13,13 +13,6 @@ from hra_amap.utils.progress import run_bcpd
 
 BCPD_DIR = get_bcpd_path()
 
-DEFAULT_BCPD_PARAMS = {
-    "J": 300,
-    "K": 150,
-    "normalization": "n",
-    "save": "yveTY",
-}
-
 
 @step(
     name="Normalize ICP", description="Scale organs to a common range about the centre"
@@ -222,7 +215,6 @@ def nonrigid_registration(source, target, params):
     target_array = pointcloud_to_numpy(target)
     np.savetxt(BCPD_DIR.joinpath("source.txt"), source_array, delimiter=",")
     np.savetxt(BCPD_DIR.joinpath("target.txt"), target_array, delimiter=",")
-    params = {**DEFAULT_BCPD_PARAMS, **params}
 
     # build registration args
     registration_args = [

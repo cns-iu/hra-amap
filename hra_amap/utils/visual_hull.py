@@ -13,49 +13,51 @@ import open3d as o3d
 from hra_amap.utils.progress import tqdm_or_iter
 
 
-DEFAULT_VISUAL_HULL_PARAMS = {
-    "target_grid": 120,
-    "image_size": 420,
-    "force_rebuild": False,
-}
-
-
-def visual_hull_volume_points(vertices, faces, name, params=None, progress=False):
-    params = {**DEFAULT_VISUAL_HULL_PARAMS, **(params or {})}
-    cache_dir = _cache_dir(params)
+def visual_hull_volume_points(
+    vertices,
+    faces,
+    name,
+    target_grid=120,
+    image_size=420,
+    force_rebuild=False,
+    cache_dir=None,
+    progress=False,
+):
+    cache_dir = _cache_dir(cache_dir)
     cache_dir.mkdir(parents=True, exist_ok=True)
-    stem = _cache_stem(vertices, faces, params)
+    stem = _cache_stem(vertices, faces, target_grid, image_size)
     volume_path = cache_dir / f"{stem}_volume.npy"
     stats_path = cache_dir / f"{stem}_stats.json"
 
-    if volume_path.exists() and stats_path.exists() and not params["force_rebuild"]:
+    if volume_path.exists() and stats_path.exists() and not force_rebuild:
         stats = json.loads(stats_path.read_text())
         stats["cached"] = True
         if progress:
             print(f"Loading cached visual hull: {name}")
         return np.load(volume_path), stats
 
-    volume_points, stats = _calculate_visual_hull(vertices, faces, name, params, progress)
+    volume_points, stats = _calculate_visual_hull(
+        vertices,
+        faces,
+        name,
+        target_grid,
+        image_size,
+        progress,
+    )
     np.save(volume_path, volume_points)
     stats_path.write_text(json.dumps(stats, indent=2))
     return volume_points, stats
 
 
-def _cache_dir(params):
-    return Path(
-        params.get("cache_dir") or Path.cwd().resolve().parent / "cache" / "visual-hulls"
-    )
+def _cache_dir(cache_dir):
+    return Path(cache_dir or Path.cwd().resolve().parent / "cache" / "visual-hulls")
 
 
-def _cache_stem(vertices, faces, params):
-    cached_params = {
-        key: value
-        for key, value in params.items()
-        if key not in {"cache_dir", "force_rebuild"}
-    }
+def _cache_stem(vertices, faces, target_grid, image_size):
     payload = {
         "geometry_sha1": _geometry_hash(vertices, faces),
-        "params": cached_params,
+        "target_grid": target_grid,
+        "image_size": image_size,
     }
     digest = hashlib.sha1(json.dumps(payload, sort_keys=True).encode()).hexdigest()
     return f"organ__{digest[:16]}"
@@ -68,10 +70,10 @@ def _geometry_hash(vertices, faces):
     return digest.hexdigest()
 
 
-def _calculate_visual_hull(vertices, faces, name, params, progress):
+def _calculate_visual_hull(vertices, faces, name, target_grid, image_size, progress):
     cubic_size = 2.0
-    voxel_resolution = int(params["target_grid"])
-    image_size = int(params["image_size"])
+    voxel_resolution = int(target_grid)
+    image_size = int(image_size)
     voxel_size = cubic_size / voxel_resolution
 
     mesh, center, scale = _preprocess_o3d_model(_to_o3d_mesh(vertices, faces))

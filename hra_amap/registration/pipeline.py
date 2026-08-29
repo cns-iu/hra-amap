@@ -39,15 +39,10 @@ class Pipeline:
     def _prepare_organs(self, source, target):
         progress = bool(self.params.get("progress", False))
         volumetric = bool(self.params.get("volumetric", False))
-        visual_hull = self.params.get("visual_hull", {})
 
         for organ in (source, target):
             organ.volumetric = volumetric
             organ.progress = progress
-            organ.visual_hull_params = {
-                **organ.visual_hull_params,
-                **visual_hull,
-            }
 
     def run(self, source: Organ, target: Organ):
         """

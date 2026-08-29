@@ -4,7 +4,7 @@ from pathlib import Path
 
 from hra_amap.utils.io import load
 from hra_amap.utils.conversions import to_array, to_pointcloud
-from hra_amap.utils.visual_hull import DEFAULT_VISUAL_HULL_PARAMS, visual_hull_volume_points
+from hra_amap.utils.visual_hull import visual_hull_volume_points
 
 
 class Organ(trimesh.Trimesh):
@@ -19,7 +19,6 @@ class Organ(trimesh.Trimesh):
         target_name: str = None,
         metadata: dict = None,
         volumetric: bool = False,
-        visual_hull_params: dict = None,
         progress: bool = False,
     ) -> None:
         """
@@ -37,10 +36,6 @@ class Organ(trimesh.Trimesh):
         self.name = self.path.stem
         self.file_type = self.path.suffix if self.path.suffix else ".glb"
         self.volumetric = volumetric
-        self.visual_hull_params = {
-            **DEFAULT_VISUAL_HULL_PARAMS,
-            **(visual_hull_params or {}),
-        }
         self.progress = progress
         self._visual_hull_volume_points = None
         self._visual_hull_stats = None
@@ -81,8 +76,7 @@ class Organ(trimesh.Trimesh):
                 self.vertices,
                 self.faces,
                 self.name,
-                self.visual_hull_params,
-                self.progress,
+                progress=self.progress,
             )
         return self._visual_hull_volume_points
 

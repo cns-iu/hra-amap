@@ -32,7 +32,7 @@ class ConfigKeys(str, Enum):
     ORGAN = "organ"
     FLIP = "flip"
     ROTATION = "rotation_deg"
+    VOLUMETRIC = "volumetric"
     AT_GRAPH = "@graph"
     AT_CONTEXT = "@context"
     NonHRAMapping = "non_hra_mapping"
-    
