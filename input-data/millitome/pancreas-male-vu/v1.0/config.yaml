@@ -3,6 +3,8 @@ input_files:
 
 target_name: "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary"
 
+volumetric: false
+
 donor:
   sex: Male
   provider_name: MC-IU
@@ -29,6 +31,10 @@ rui_location:
     translation_units: "millimeter"
 
 nonrigid_registration:
+  J: 300
+  K: 150
+  normalization: n
+  save: yveTY
   autotune: 'False'
   gamma: 6
   beta: 1

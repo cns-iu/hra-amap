@@ -1,12 +1,10 @@
-import yaml
 import trimesh
 import numpy as np
 from pathlib import Path
 
-from hra_amap.registration.dataclass import Transform
 from hra_amap.utils.io import load
-from hra_amap.utils.metrics import get_translations, scaling, rotation
 from hra_amap.utils.conversions import to_array, to_pointcloud
+from hra_amap.utils.visual_hull import visual_hull_volume_points
 
 
 class Organ(trimesh.Trimesh):
@@ -15,7 +13,14 @@ class Organ(trimesh.Trimesh):
     point cloud access, and coordinate alignment with the Human Reference Atlas (HRA).
     """
 
-    def __init__(self, path: str, target_name: str, metadata: dict = None) -> None:
+    def __init__(
+        self,
+        path: str,
+        target_name: str = None,
+        metadata: dict = None,
+        volumetric: bool = False,
+        progress: bool = False,
+    ) -> None:
         """
         Initialize the Organ object.
 
@@ -25,29 +30,58 @@ class Organ(trimesh.Trimesh):
             metadata (dict, optional): Additional metadata.
         """
         super(Organ, self).__init__()
-        self.metadata = metadata
+        self.metadata = metadata or {}
         self.path = Path(path)
         self.target_name = target_name
         self.name = self.path.stem
         self.file_type = self.path.suffix if self.path.suffix else ".glb"
+        self.volumetric = volumetric
+        self.progress = progress
+        self._visual_hull_volume_points = None
+        self._visual_hull_stats = None
+        self.surface_count = 0
 
         self.faces, self.vertices = load(self.path, self.file_type)
-        self.target_transform = None
+        self.surface_count = len(self.vertices)
+        # self.target_transform = None
 
     @property
     def pointcloud(self):
         """Convert the organ mesh to an Open3D point cloud."""
-        return to_pointcloud(self)
+        return to_pointcloud(self.registration_vertices)
 
     @property
     def array(self):
         """Return the organ mesh as a NumPy array of vertices."""
+        return to_array(self.registration_vertices)
 
-        return to_array(self)
+    @property
+    def registration_vertices(self):
+        if not self.volumetric:
+            return np.asarray(self.vertices, dtype=np.float64)
+        return np.vstack(
+            [
+                np.asarray(self.vertices, dtype=np.float64),
+                self.visual_hull_volume_points,
+            ]
+        )
 
-    def _get_transform(self):
-        """Get the necessary transform shift the target HRA organ (it's back-bottom-left) to the world origin (0, 0, 0)"""
-        translation_list = get_translations(self.target_name)
+    @property
+    def visual_hull_volume_points(self):
+        if self._visual_hull_volume_points is None:
+            (
+                self._visual_hull_volume_points,
+                self._visual_hull_stats,
+            ) = visual_hull_volume_points(
+                self.vertices,
+                self.faces,
+                self.name,
+                progress=self.progress,
+            )
+        return self._visual_hull_volume_points
 
-        target_transform = Transform(scaling, rotation, np.array(translation_list))
-        return target_transform
+    @property
+    def visual_hull_stats(self):
+        if self._visual_hull_stats is None:
+            _ = self.visual_hull_volume_points
+        return self._visual_hull_stats

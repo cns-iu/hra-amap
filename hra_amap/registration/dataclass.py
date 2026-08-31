@@ -4,8 +4,9 @@ import numpy as np
 import open3d as o3d
 import gzip
 
-from typing import Any, Optional
+from typing import Optional
 from dataclasses import dataclass
+from trimesh.registration import procrustes
 from hra_amap.utils.preprocess import mean
 from hra_amap.utils.conversions import to_array, to_pointcloud, to_mesh
 
@@ -26,6 +27,7 @@ class Transform:
     rotate: Optional[np.ndarray | tuple] = (0, 0, 0)
     translate: tuple = (0, 0, 0)
     deformation_vector_field: Optional[np.ndarray] = None
+    deformation_source: Optional[np.ndarray] = None
     matrix: np.ndarray = None
     rotate_axes: str = "xyz"
     apply: bool = True
@@ -102,13 +104,17 @@ class Transform:
         if isinstance(self.deformation_vector_field, np.ndarray):
             geometry = to_array(geometry)
             if not hasattr(self, "interpolated_dvf"):
+                source = (
+                    self.deformation_source
+                    if isinstance(self.deformation_source, np.ndarray)
+                    else geometry
+                )
                 self.interpolated_dvf = NearestNDInterpolator(
-                    geometry, self.deformation_vector_field
+                    source, self.deformation_vector_field
                 )
             geometry = (
-                (self.scale * self.rotate)
-                @ ((geometry + self.interpolated_dvf(geometry)) + self.translate).T
-            ).T
+                (geometry + self.interpolated_dvf(geometry)) @ np.asarray(self.rotate).T
+            ) * self.scale + self.translate
             return to_pointcloud(geometry)
         else:
             return self.transform(geometry)
@@ -141,6 +147,7 @@ class Projection:
     transformations: list[dict[Transform]]
     registration: trimesh.base.Trimesh
     params: dict
+    metadata: dict = None
 
     @classmethod
     def load(cls, path: str):
@@ -161,7 +168,115 @@ class Projection:
         with gzip.open(parent_dir / "projections.pickle.gz", "wb") as file:
             pickle.dump(self, file)
 
-    def project(self, geometry):
+    def _copy_geometry(self, geometry):
+        out = type(geometry)(
+            vertices=np.array(geometry.vertices, copy=True),
+            faces=np.array(geometry.faces, copy=True),
+        )
+        out.visual = deepcopy(geometry.visual)
+        for attr in (
+            "target_transform",
+            "transform",
+            "division_factor",
+            "label",
+            "donor",
+            "metadata",
+            "target_name",
+        ):
+            if hasattr(geometry, attr):
+                setattr(out, attr, getattr(geometry, attr))
+        return out
+
+    def _project_points(self, points):
+        pointcloud = to_pointcloud(np.asarray(points, dtype=np.float64))
+
+        for _, transform in self.transformations:
+            if transform.apply:
+                pointcloud = (
+                    transform(pointcloud)
+                    if not hasattr(transform, "inverse")
+                    else transform.invert(pointcloud)
+                )
+
+        return np.asarray(pointcloud.points, dtype=np.float64)
+
+    def _dense_sample(self, geometry):
+        samples_per_axis = (
+            self.params.get("projection", {}).get("dense_samples_per_axis", 5)
+        )
+        box = geometry.bounding_box_oriented
+        extents = np.asarray(box.primitive.extents, dtype=np.float64)
+        samples = trimesh.util.grid_linspace(
+            np.vstack([-extents / 2, extents / 2]),
+            samples_per_axis,
+        )
+        return trimesh.transform_points(samples, box.primitive.transform)
+
+    @staticmethod
+    def _fit_similarity(source, target):
+        matrix = procrustes(
+            source,
+            target,
+            reflection=False,
+            scale=True,
+            return_cost=False,
+        )
+        linear = matrix[:3, :3]
+        scale = np.linalg.norm(linear, axis=0).mean()
+        rotation = linear.T / scale
+        translation = matrix[:3, 3]
+        return scale, rotation, translation
+
+    @staticmethod
+    def _apply_similarity(points, scale, rotation, translation):
+        return scale * (np.asarray(points, dtype=np.float64) @ rotation) + translation
+
+    def _project_tissue_block(self, geometry, apply_target_transform=False):
+        sample_points = self._dense_sample(geometry)
+        projected_samples = self._project_points(sample_points)
+        scale, rotation, translation = self._fit_similarity(
+            sample_points, projected_samples
+        )
+        projected = self._copy_geometry(geometry)
+        projected.vertices = self._apply_similarity(
+            geometry.vertices, scale, rotation, translation
+        )
+        if (
+            apply_target_transform
+            and hasattr(geometry, "target_transform")
+            and geometry.target_transform
+        ):
+            projected = geometry.target_transform(projected)
+        return projected
+
+    def _is_tissue_block(self, geometry):
+        return hasattr(geometry, "target_transform") and hasattr(geometry, "division_factor")
+
+    def project(self, geometry, apply_target_transform=False):
+        if self._is_tissue_block(geometry):
+            return self._project_tissue_block(
+                geometry,
+                apply_target_transform=apply_target_transform,
+            )
+
+        return self._project_direct(geometry)
+
+    def project_raw_mesh(self, geometry):
+        """
+        Project mesh vertices directly through the stored transforms.
+
+        This preserves the legacy millitome GLB behavior, where the exported
+        scene shows the raw transformed tissue-block meshes rather than the
+        fitted block projection used for JSON-LD placement values.
+        """
+        geometry = (
+            self._copy_geometry(geometry)
+            if isinstance(geometry, trimesh.base.Trimesh)
+            else deepcopy(geometry)
+        )
+        return self._project_direct(geometry)
+
+    def _project_direct(self, geometry):
         # get pointcloud
         # TO DO: make concatenated transforms work on Tissue / Organ objects as well
         # currently, they work on pointclouds and arrays only

@@ -10,6 +10,7 @@ import requests
 import csv
 import io
 
+from functools import lru_cache
 from hra_amap.utils.conversions import mesh_to_numpy
 
 
@@ -109,7 +110,7 @@ def fetch_anatomical_structure():
     csv_data = list(csv.DictReader(io.StringIO(response.text)))
     return csv_data
 
-
+@lru_cache()
 def get_translations(target_name: str):
     """
     Retrieves translation vector for a given anatomical structure name by querying remote transformation data.
@@ -123,8 +124,8 @@ def get_translations(target_name: str):
     hra_transforms = fetch_anatomical_structure()
     for row in hra_transforms:
         if (
-            row[list(row.keys())[0]] == target_name
-            and row[list(row.keys())[1]] == target_name
+            row['reference_organ'] == target_name
+            and row['anatomical_structure_of'] == target_name
         ):
             return list(map(lambda x: -1 * float(x), list(row.values())[-3:]))
     return None

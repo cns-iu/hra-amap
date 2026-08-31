@@ -1,14 +1,14 @@
 [
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#163-2_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#163-2_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#163-2_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#163-2_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -20,9 +20,9 @@
       "x_rotation": -62,
       "y_rotation": 176,
       "z_rotation": -145,
-      "x_translation": 317.72896719769005,
-      "y_translation": 151.06066921435192,
-      "z_translation": 251.2607531067129
+      "x_translation": 264.8828434845691,
+      "y_translation": 147.01069161204907,
+      "z_translation": 155.59054503845465
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -34,14 +34,14 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#163-6_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#163-6_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#163-6_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#163-6_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -53,9 +53,9 @@
       "x_rotation": -16,
       "y_rotation": 38,
       "z_rotation": 70,
-      "x_translation": 271.7628275031492,
-      "y_translation": 154.7874180219453,
-      "z_translation": 152.29446759393937
+      "x_translation": 310.59656709759815,
+      "y_translation": 153.88289516314424,
+      "z_translation": 262.3171582568887
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -67,14 +67,14 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#164-10_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#164-10_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#164-10_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -86,29 +86,29 @@
       "x_rotation": -12,
       "y_rotation": 60,
       "z_rotation": -87,
-      "x_translation": 313.1983518216983,
-      "y_translation": 146.5547712195281,
-      "z_translation": 205.79223312878696
+      "x_translation": 291.20109576149315,
+      "y_translation": 134.19174430893838,
+      "z_translation": 193.13750795767803
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
-      "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200"
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
     ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#164-11_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#164-11_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#164-11_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -120,9 +120,9 @@
       "x_rotation": -62,
       "y_rotation": 176,
       "z_rotation": -145,
-      "x_translation": 317.72896719769005,
-      "y_translation": 151.06066921435192,
-      "z_translation": 251.2607531067129
+      "x_translation": 264.8828434845691,
+      "y_translation": 147.01069161204907,
+      "z_translation": 155.59054503845465
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -134,14 +134,14 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#164-12_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#164-12_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#164-12_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -153,29 +153,29 @@
       "x_rotation": -12,
       "y_rotation": 60,
       "z_rotation": -87,
-      "x_translation": 313.1983518216983,
-      "y_translation": 146.5547712195281,
-      "z_translation": 205.79223312878696
+      "x_translation": 291.20109576149315,
+      "y_translation": 134.19174430893838,
+      "z_translation": 193.13750795767803
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
-      "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200"
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
     ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#164-13_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#164-13_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#164-13_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#164-13_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -187,29 +187,29 @@
       "x_rotation": -12,
       "y_rotation": 60,
       "z_rotation": -87,
-      "x_translation": 313.1983518216983,
-      "y_translation": 146.5547712195281,
-      "z_translation": 205.79223312878696
+      "x_translation": 291.20109576149315,
+      "y_translation": 134.19174430893838,
+      "z_translation": 193.13750795767803
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
-      "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200"
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
     ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#164-15_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#164-15_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#164-15_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#164-15_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -221,29 +221,29 @@
       "x_rotation": -12,
       "y_rotation": 60,
       "z_rotation": -87,
-      "x_translation": 313.1983518216983,
-      "y_translation": 146.5547712195281,
-      "z_translation": 205.79223312878696
+      "x_translation": 291.20109576149315,
+      "y_translation": 134.19174430893838,
+      "z_translation": 193.13750795767803
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
-      "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200"
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
     ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#164-19_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#164-19_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#164-19_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#164-19_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -255,29 +255,29 @@
       "x_rotation": -12,
       "y_rotation": 60,
       "z_rotation": -87,
-      "x_translation": 313.1983518216983,
-      "y_translation": 146.5547712195281,
-      "z_translation": 205.79223312878696
+      "x_translation": 291.20109576149315,
+      "y_translation": 134.19174430893838,
+      "z_translation": 193.13750795767803
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
-      "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200"
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
     ]
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#164-21_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#164-21_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#164-21_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -289,12 +289,45 @@
       "x_rotation": -12,
       "y_rotation": 60,
       "z_rotation": -87,
-      "x_translation": 313.1983518216983,
-      "y_translation": 146.5547712195281,
-      "z_translation": 205.79223312878696
+      "x_translation": 291.20109576149315,
+      "y_translation": 134.19174430893838,
+      "z_translation": 193.13750795767803
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
+      "http://purl.obolibrary.org/obo/UBERON_0001225",
+      "http://purl.obolibrary.org/obo/UBERON_0001284",
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://atlas.kpmp.org/#165-11_Donor1_TissueBlock1",
+    "@type": "SpatialEntity",
+    "label": "https://atlas.kpmp.org/#165-11_Donor1_TissueBlock1",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 1,
+    "y_dimension": 7,
+    "z_dimension": 1,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/78fd1ec1-e461-4105-a595-099118d71179_placement",
+      "@type": "SpatialPlacement",
+      "target": "http://purl.org/ccf/latest/ccf.owl#VHFLeftKidneyV1.1",
+      "x_rotation": -62,
+      "y_rotation": 176,
+      "z_rotation": -145,
+      "x_translation": 264.8828434845691,
+      "y_translation": 147.01069161204907,
+      "z_translation": 155.59054503845465
+    },
+    "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -304,14 +337,14 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#165-13_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#165-13_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#165-13_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -323,9 +356,9 @@
       "x_rotation": -16,
       "y_rotation": 38,
       "z_rotation": 70,
-      "x_translation": 271.7628275031492,
-      "y_translation": 154.7874180219453,
-      "z_translation": 152.29446759393937
+      "x_translation": 310.59656709759815,
+      "y_translation": 153.88289516314424,
+      "z_translation": 262.3171582568887
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -337,14 +370,14 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://atlas.kpmp.org/#165-14_TissueBlock1",
+    "@id": "https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1",
     "@type": "SpatialEntity",
-    "label": "https://atlas.kpmp.org/#165-14_TissueBlock1",
+    "label": "https://atlas.kpmp.org/#165-14_Donor1_TissueBlock1",
     "creator": "Antara Bhavsar",
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 1,
     "y_dimension": 7,
     "z_dimension": 1,
@@ -356,9 +389,9 @@
       "x_rotation": -62,
       "y_rotation": 176,
       "z_rotation": -145,
-      "x_translation": 317.72896719769005,
-      "y_translation": 151.06066921435192,
-      "z_translation": 251.2607531067129
+      "x_translation": 264.8828434845691,
+      "y_translation": 147.01069161204907,
+      "z_translation": 155.59054503845465
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -377,7 +410,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 10,
     "y_dimension": 10,
     "z_dimension": 2,
@@ -389,9 +422,9 @@
       "x_rotation": 0,
       "y_rotation": 0,
       "z_rotation": 0,
-      "x_translation": 298.4206768654479,
-      "y_translation": 138.46806429988715,
-      "z_translation": 214.4335394900363
+      "x_translation": 299.3273551165931,
+      "y_translation": 146.46261594771332,
+      "z_translation": 189.16702142546336
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -409,7 +442,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 3,
     "y_dimension": 12,
     "z_dimension": 2,
@@ -421,11 +454,12 @@
       "x_rotation": -44,
       "y_rotation": 46,
       "z_rotation": 0,
-      "x_translation": 250.12200220512918,
-      "y_translation": 162.508732688533,
-      "z_translation": 166.88980867443925
+      "x_translation": 312.0383258102862,
+      "y_translation": 172.93142680806125,
+      "z_translation": 259.39374571731275
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0006517",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001227",
@@ -433,8 +467,7 @@
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
       "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200",
-      "http://purl.obolibrary.org/obo/UBERON_0006517"
+      "http://purl.obolibrary.org/obo/UBERON_0004200"
     ]
   },
   {
@@ -446,7 +479,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -458,9 +491,9 @@
       "x_rotation": 0,
       "y_rotation": 40,
       "z_rotation": 0,
-      "x_translation": 316.9674737386715,
-      "y_translation": 177.27007660783997,
-      "z_translation": 238.37642781263588
+      "x_translation": 258.940815591315,
+      "y_translation": 154.00033017520346,
+      "z_translation": 201.42288957089525
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -477,7 +510,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 15,
     "y_dimension": 9,
     "z_dimension": 9,
@@ -489,9 +522,9 @@
       "x_rotation": -34,
       "y_rotation": 39,
       "z_rotation": 104,
-      "x_translation": 251.99828244804834,
-      "y_translation": 157.62437218110608,
-      "z_translation": 170.59230757333273
+      "x_translation": 313.6519791715882,
+      "y_translation": 173.58945504128133,
+      "z_translation": 252.79640942290987
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -512,7 +545,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 17,
     "y_dimension": 11,
     "z_dimension": 11,
@@ -524,9 +557,9 @@
       "x_rotation": -34,
       "y_rotation": 39,
       "z_rotation": 104,
-      "x_translation": 269.38289493985775,
-      "y_translation": 142.29219992385575,
-      "z_translation": 155.96958876944825
+      "x_translation": 317.64864085848484,
+      "y_translation": 156.91230160046416,
+      "z_translation": 244.57908427659754
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -546,7 +579,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 13,
     "y_dimension": 12,
     "z_dimension": 11,
@@ -558,9 +591,9 @@
       "x_rotation": -34,
       "y_rotation": 39,
       "z_rotation": 104,
-      "x_translation": 257.7023225025454,
-      "y_translation": 151.24911964824892,
-      "z_translation": 161.47957133885782
+      "x_translation": 316.73684055897417,
+      "y_translation": 165.81996541578135,
+      "z_translation": 249.89771169976265
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -581,7 +614,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 2,
     "y_dimension": 13,
     "z_dimension": 2,
@@ -593,9 +626,9 @@
       "x_rotation": -34,
       "y_rotation": 40,
       "z_rotation": 31,
-      "x_translation": 301.61288109499793,
-      "y_translation": 167.71772659945623,
-      "z_translation": 277.4787370600941
+      "x_translation": 256.6474505266904,
+      "y_translation": 173.4286093884406,
+      "z_translation": 172.21760796317187
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -615,7 +648,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 21,
     "y_dimension": 19,
     "z_dimension": 10,
@@ -627,9 +660,9 @@
       "x_rotation": 86,
       "y_rotation": 13,
       "z_rotation": -50,
-      "x_translation": 318.1773871518274,
-      "y_translation": 161.43307204419617,
-      "z_translation": 258.8947672075485
+      "x_translation": 256.18270111838245,
+      "y_translation": 159.11710609585052,
+      "z_translation": 171.79740309434962
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -647,7 +680,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 26,
     "y_dimension": 20,
     "z_dimension": 17,
@@ -659,9 +692,9 @@
       "x_rotation": -13,
       "y_rotation": -81,
       "z_rotation": -93,
-      "x_translation": 299.97848977368164,
-      "y_translation": 172.47771318405086,
-      "z_translation": 264.65880311393965
+      "x_translation": 254.95420357131962,
+      "y_translation": 177.63118843767134,
+      "z_translation": 183.00863582951183
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -680,7 +713,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 21,
     "y_dimension": 14,
     "z_dimension": 10,
@@ -692,9 +725,9 @@
       "x_rotation": -6,
       "y_rotation": -11,
       "z_rotation": 106,
-      "x_translation": 314.94398564234484,
-      "y_translation": 163.0398592046014,
-      "z_translation": 264.5480966220622
+      "x_translation": 254.47572524480793,
+      "y_translation": 164.684240673352,
+      "z_translation": 170.38575351409088
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -712,7 +745,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 20,
     "y_dimension": 18,
     "z_dimension": 10,
@@ -724,18 +757,18 @@
       "x_rotation": -13,
       "y_rotation": -49,
       "z_rotation": -72,
-      "x_translation": 265.856735657594,
-      "y_translation": 169.2303822868267,
-      "z_translation": 158.86079764650611
+      "x_translation": 303.1825002069872,
+      "y_translation": 163.85599970319467,
+      "z_translation": 271.07124388574266
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0008716",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
       "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200"
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
+      "http://purl.obolibrary.org/obo/UBERON_0008716"
     ]
   },
   {
@@ -747,7 +780,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 16,
     "y_dimension": 14,
     "z_dimension": 10,
@@ -759,9 +792,9 @@
       "x_rotation": -13,
       "y_rotation": -49,
       "z_rotation": -72,
-      "x_translation": 255.57774802781762,
-      "y_translation": 173.68567420706017,
-      "z_translation": 163.35780709692833
+      "x_translation": 301.43855066742935,
+      "y_translation": 172.94174295116034,
+      "z_translation": 269.72629449709916
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -782,7 +815,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 2,
     "y_dimension": 2,
     "z_dimension": 2,
@@ -794,13 +827,13 @@
       "x_rotation": -30,
       "y_rotation": 35,
       "z_rotation": 19,
-      "x_translation": 281.8876611067584,
-      "y_translation": 168.10710692713565,
-      "z_translation": 227.18458592500224
+      "x_translation": 294.7694083341869,
+      "y_translation": 184.0930536604728,
+      "z_translation": 210.76796586524003
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0004200",
-      "http://purl.obolibrary.org/obo/UBERON_0000362"
+      "http://purl.obolibrary.org/obo/UBERON_0000362",
+      "http://purl.obolibrary.org/obo/UBERON_0004200"
     ]
   },
   {
@@ -812,7 +845,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 2,
     "y_dimension": 3,
     "z_dimension": 2,
@@ -824,9 +857,9 @@
       "x_rotation": -36,
       "y_rotation": 48,
       "z_rotation": 0,
-      "x_translation": 271.33717369981076,
-      "y_translation": 155.41913817960534,
-      "z_translation": 221.2153530065752
+      "x_translation": 301.1525640654854,
+      "y_translation": 174.67229736677297,
+      "z_translation": 209.21926874285376
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -842,7 +875,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 25,
     "y_dimension": 18,
     "z_dimension": 10,
@@ -854,15 +887,15 @@
       "x_rotation": -6,
       "y_rotation": 84,
       "z_rotation": 0,
-      "x_translation": 269.9067043561978,
-      "y_translation": 170.74259671845022,
-      "z_translation": 169.01694614873864
+      "x_translation": 299.10000504014596,
+      "y_translation": 163.84016393674452,
+      "z_translation": 267.63479215419693
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0001284",
-      "http://purl.obolibrary.org/obo/UBERON_0002015",
       "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200"
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
+      "http://purl.obolibrary.org/obo/UBERON_0001284",
+      "http://purl.obolibrary.org/obo/UBERON_0002015"
     ]
   },
   {
@@ -874,7 +907,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 18,
     "y_dimension": 14,
     "z_dimension": 7,
@@ -886,9 +919,9 @@
       "x_rotation": 3,
       "y_rotation": -2,
       "z_rotation": 0,
-      "x_translation": 304.437857556656,
-      "y_translation": 166.15178084893603,
-      "z_translation": 269.7604011978888
+      "x_translation": 261.3456419712742,
+      "y_translation": 173.14753094210832,
+      "z_translation": 175.36710461863495
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -905,7 +938,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 40,
     "y_dimension": 12,
     "z_dimension": 20,
@@ -917,9 +950,9 @@
       "x_rotation": -34,
       "y_rotation": 39,
       "z_rotation": 16,
-      "x_translation": 278.59096724325826,
-      "y_translation": 153.31773032858743,
-      "z_translation": 198.91596910162923
+      "x_translation": 302.77790306049036,
+      "y_translation": 167.0654044595186,
+      "z_translation": 221.29893055183388
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -941,7 +974,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 40,
     "y_dimension": 9,
     "z_dimension": 15,
@@ -953,19 +986,19 @@
       "x_rotation": -34,
       "y_rotation": 39,
       "z_rotation": 16,
-      "x_translation": 268.9357777796562,
-      "y_translation": 152.62957084850194,
-      "z_translation": 185.400150292948
+      "x_translation": 307.2742282989474,
+      "y_translation": 166.46388097929463,
+      "z_translation": 231.79389372154122
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0004200",
-      "http://purl.obolibrary.org/obo/UBERON_0008716",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001228",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
-      "http://purl.obolibrary.org/obo/UBERON_0002189"
+      "http://purl.obolibrary.org/obo/UBERON_0002189",
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
+      "http://purl.obolibrary.org/obo/UBERON_0008716"
     ]
   },
   {
@@ -977,7 +1010,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 21,
     "y_dimension": 3,
     "z_dimension": 2,
@@ -989,9 +1022,9 @@
       "x_rotation": -28,
       "y_rotation": 44,
       "z_rotation": 1,
-      "x_translation": 271.3964427086156,
-      "y_translation": 187.17843439648954,
-      "z_translation": 193.23993569056134
+      "x_translation": 276.3750195514107,
+      "y_translation": 180.13787219755145,
+      "z_translation": 255.67695198194875
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1012,7 +1045,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 12,
     "y_dimension": 14,
     "z_dimension": 5,
@@ -1024,17 +1057,17 @@
       "x_rotation": 15,
       "y_rotation": -75,
       "z_rotation": 17,
-      "x_translation": 266.43745828831607,
-      "y_translation": 143.6722099096437,
-      "z_translation": 155.00186297431654
+      "x_translation": 318.76239478332843,
+      "y_translation": 158.363632897725,
+      "z_translation": 248.84075644171355
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0001228",
-      "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
       "http://purl.obolibrary.org/obo/UBERON_0002189",
       "http://purl.obolibrary.org/obo/UBERON_0004200",
-      "http://purl.obolibrary.org/obo/UBERON_0008716"
+      "http://purl.obolibrary.org/obo/UBERON_0008716",
+      "http://purl.obolibrary.org/obo/UBERON_0001228",
+      "http://purl.obolibrary.org/obo/UBERON_0001284"
     ]
   },
   {
@@ -1046,7 +1079,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 4,
     "z_dimension": 2,
@@ -1058,15 +1091,15 @@
       "x_rotation": -26,
       "y_rotation": 31,
       "z_rotation": -31,
-      "x_translation": 300.52505070914253,
-      "y_translation": 180.36660836160894,
-      "z_translation": 273.55066736496246
+      "x_translation": 253.27500903446108,
+      "y_translation": 180.57572746463643,
+      "z_translation": 188.83683012404333
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0000362",
-      "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200"
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
+      "http://purl.obolibrary.org/obo/UBERON_0000362",
+      "http://purl.obolibrary.org/obo/UBERON_0001225"
     ]
   },
   {
@@ -1078,7 +1111,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 4,
     "y_dimension": 10,
     "z_dimension": 2,
@@ -1090,13 +1123,45 @@
       "x_rotation": -28,
       "y_rotation": 36,
       "z_rotation": 73,
-      "x_translation": 303.87135957394224,
-      "y_translation": 182.10267513999983,
-      "z_translation": 267.0837954716915
+      "x_translation": 259.56070424258826,
+      "y_translation": 175.48721494216488,
+      "z_translation": 193.73631279014845
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
+      "http://purl.obolibrary.org/obo/UBERON_0002189",
+      "http://purl.obolibrary.org/obo/UBERON_0004200"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.hubmapconsortium.org/entities/99d4c06ceb1048522d8e304b55377858",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.hubmapconsortium.org/entities/99d4c06ceb1048522d8e304b55377858",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 11,
+    "y_dimension": 15,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/b8219c7a-786b-4afd-94b1-b9c9c351e209_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": 1,
+      "y_rotation": -118,
+      "z_rotation": 6,
+      "x_translation": 303.7090194402566,
+      "y_translation": 174.40012797769316,
+      "z_translation": 263.905231791611
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0001284",
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
       "http://purl.obolibrary.org/obo/UBERON_0002189",
       "http://purl.obolibrary.org/obo/UBERON_0004200"
     ]
@@ -1110,7 +1175,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 3,
     "y_dimension": 4,
     "z_dimension": 2,
@@ -1122,11 +1187,12 @@
       "x_rotation": 97,
       "y_rotation": 37,
       "z_rotation": 97,
-      "x_translation": 278.6765306862006,
-      "y_translation": 139.54355817198933,
-      "z_translation": 184.77530387253415
+      "x_translation": 306.26215729294483,
+      "y_translation": 160.39327243012974,
+      "z_translation": 222.21806678973888
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001226",
       "http://purl.obolibrary.org/obo/UBERON_0001227",
@@ -1136,8 +1202,7 @@
       "http://purl.obolibrary.org/obo/UBERON_0002189",
       "http://purl.obolibrary.org/obo/UBERON_0004200",
       "http://purl.obolibrary.org/obo/UBERON_0006517",
-      "http://purl.obolibrary.org/obo/UBERON_0008716",
-      "http://purl.obolibrary.org/obo/UBERON_0000362"
+      "http://purl.obolibrary.org/obo/UBERON_0008716"
     ]
   },
   {
@@ -1149,7 +1214,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 18,
     "y_dimension": 14,
     "z_dimension": 4,
@@ -1161,19 +1226,19 @@
       "x_rotation": -36,
       "y_rotation": 40,
       "z_rotation": 24,
-      "x_translation": 308.2136609904439,
-      "y_translation": 163.61388125240146,
-      "z_translation": 254.7363487154822
+      "x_translation": 266.2216077228956,
+      "y_translation": 160.70965962631698,
+      "z_translation": 174.79058737117072
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
+      "http://purl.obolibrary.org/obo/UBERON_0008716",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001228",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
-      "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200",
-      "http://purl.obolibrary.org/obo/UBERON_0008716"
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
     ]
   },
   {
@@ -1185,7 +1250,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 16,
     "y_dimension": 15,
     "z_dimension": 5,
@@ -1197,9 +1262,9 @@
       "x_rotation": -36,
       "y_rotation": 40,
       "z_rotation": 24,
-      "x_translation": 293.8261294696773,
-      "y_translation": 175.2158601770902,
-      "z_translation": 270.1984763812903
+      "x_translation": 265.40282027895046,
+      "y_translation": 176.3371873861711,
+      "z_translation": 186.00372228872587
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1220,7 +1285,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 19,
     "y_dimension": 15,
     "z_dimension": 3,
@@ -1232,9 +1297,9 @@
       "x_rotation": 78,
       "y_rotation": -9,
       "z_rotation": -4,
-      "x_translation": 262.9038379132429,
-      "y_translation": 180.0515133724637,
-      "z_translation": 178.58965025301623
+      "x_translation": 291.5402982258007,
+      "y_translation": 175.37113437702203,
+      "z_translation": 260.0621789768995
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -1252,7 +1317,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 16,
     "y_dimension": 12,
     "z_dimension": 7,
@@ -1264,9 +1329,9 @@
       "x_rotation": -14,
       "y_rotation": 8,
       "z_rotation": 95,
-      "x_translation": 254.5548871263259,
-      "y_translation": 155.40877518471845,
-      "z_translation": 166.37443099209926
+      "x_translation": 316.3697408472417,
+      "y_translation": 170.94385909503893,
+      "z_translation": 254.80750490560283
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -1284,7 +1349,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 28,
     "y_dimension": 20,
     "z_dimension": 15,
@@ -1296,9 +1361,9 @@
       "x_rotation": -35,
       "y_rotation": 38,
       "z_rotation": -72,
-      "x_translation": 267.83264449034016,
-      "y_translation": 162.19775867597045,
-      "z_translation": 156.26154638758808
+      "x_translation": 305.34251212479995,
+      "y_translation": 155.42764938519215,
+      "z_translation": 264.3907839707454
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1319,7 +1384,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 29,
     "y_dimension": 16,
     "z_dimension": 14,
@@ -1331,9 +1396,9 @@
       "x_rotation": -35,
       "y_rotation": 38,
       "z_rotation": -72,
-      "x_translation": 283.18380267305514,
-      "y_translation": 176.79258928317216,
-      "z_translation": 193.75835614442934
+      "x_translation": 286.0540134914047,
+      "y_translation": 174.64908284271104,
+      "z_translation": 244.54109108468617
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1355,7 +1420,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 20,
     "y_dimension": 14,
     "z_dimension": 4,
@@ -1367,9 +1432,9 @@
       "x_rotation": -7,
       "y_rotation": 0,
       "z_rotation": 100,
-      "x_translation": 282.90793084619605,
-      "y_translation": 179.46696186713768,
-      "z_translation": 181.15565873518625
+      "x_translation": 283.11172223459295,
+      "y_translation": 165.1850641109697,
+      "z_translation": 262.09028112942445
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -1387,7 +1452,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 20,
     "y_dimension": 13,
     "z_dimension": 5,
@@ -1399,17 +1464,17 @@
       "x_rotation": 0,
       "y_rotation": -94,
       "z_rotation": 78,
-      "x_translation": 276.38089393610585,
-      "y_translation": 169.4772842885974,
-      "z_translation": 166.5275154723236
+      "x_translation": 296.9120780098779,
+      "y_translation": 161.99219440393102,
+      "z_translation": 261.5445715724603
     },
     "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0008716",
       "http://purl.obolibrary.org/obo/UBERON_0001228",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
       "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200"
+      "http://purl.obolibrary.org/obo/UBERON_0004200",
+      "http://purl.obolibrary.org/obo/UBERON_0008716"
     ]
   },
   {
@@ -1421,7 +1486,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 27,
     "y_dimension": 11,
     "z_dimension": 9,
@@ -1433,9 +1498,9 @@
       "x_rotation": 0,
       "y_rotation": 0,
       "z_rotation": 304.8,
-      "x_translation": 312.5822609486025,
-      "y_translation": 164.48389605526884,
-      "z_translation": 265.5920242872604
+      "x_translation": 258.16544166674515,
+      "y_translation": 166.98174621490102,
+      "z_translation": 168.55114431921643
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -1453,7 +1518,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 19,
     "y_dimension": 18,
     "z_dimension": 11,
@@ -1465,9 +1530,9 @@
       "x_rotation": -1,
       "y_rotation": -23,
       "z_rotation": -4,
-      "x_translation": 281.00797761872184,
-      "y_translation": 166.87601042747315,
-      "z_translation": 166.34205820126724
+      "x_translation": 295.6859933935684,
+      "y_translation": 157.24525243487278,
+      "z_translation": 261.1977520797891
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001284",
@@ -1485,7 +1550,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 20,
     "y_dimension": 16,
     "z_dimension": 9,
@@ -1497,19 +1562,19 @@
       "x_rotation": -33,
       "y_rotation": 40,
       "z_rotation": -82,
-      "x_translation": 263.96052032797064,
-      "y_translation": 152.15546155877598,
-      "z_translation": 166.35310030519688
+      "x_translation": 313.7913039986273,
+      "y_translation": 165.52600199563446,
+      "z_translation": 247.89650851707327
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0008716",
       "http://purl.obolibrary.org/obo/UBERON_0000362",
       "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001228",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
       "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200",
-      "http://purl.obolibrary.org/obo/UBERON_0008716"
+      "http://purl.obolibrary.org/obo/UBERON_0004200"
     ]
   },
   {
@@ -1521,7 +1586,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 20,
     "y_dimension": 19,
     "z_dimension": 15,
@@ -1533,9 +1598,9 @@
       "x_rotation": -33,
       "y_rotation": 40,
       "z_rotation": -82,
-      "x_translation": 273.5834991772142,
-      "y_translation": 147.97639649842412,
-      "z_translation": 188.59953121023355
+      "x_translation": 304.5686932094144,
+      "y_translation": 165.73240849178134,
+      "z_translation": 228.90158150972923
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1550,46 +1615,6 @@
   },
   {
     "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-    "@id": "https://entity.api.hubmapconsortium.org/entities/7007f3154a610f88a61c268890f14ee4",
-    "@type": "SpatialEntity",
-    "label": "https://entity.api.hubmapconsortium.org/entities/7007f3154a610f88a61c268890f14ee4",
-    "creator": "Antara Bhavsar",
-    "creator_first_name": "Antara",
-    "creator_last_name": "Bhavsar",
-    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
-    "x_dimension": 2,
-    "y_dimension": 3,
-    "z_dimension": 2,
-    "dimension_units": "millimeter",
-    "placement": {
-      "@id": "http://purl.org/ccf/1.5/72ea5aad-4be7-4478-afc0-7736bc0d90e3_placement",
-      "@type": "SpatialPlacement",
-      "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
-      "x_rotation": -49,
-      "y_rotation": 0,
-      "z_rotation": 0,
-      "x_translation": 272.5144283466678,
-      "y_translation": 156.86498786204473,
-      "z_translation": 190.15091692252946
-    },
-    "ccf_annotations": [
-      "http://purl.obolibrary.org/obo/UBERON_0001284",
-      "http://purl.obolibrary.org/obo/UBERON_0002015",
-      "http://purl.obolibrary.org/obo/UBERON_0002189",
-      "http://purl.obolibrary.org/obo/UBERON_0004200",
-      "http://purl.obolibrary.org/obo/UBERON_0006517",
-      "http://purl.obolibrary.org/obo/UBERON_0008716",
-      "http://purl.obolibrary.org/obo/UBERON_0000362",
-      "http://purl.obolibrary.org/obo/UBERON_0001224",
-      "http://purl.obolibrary.org/obo/UBERON_0001225",
-      "http://purl.obolibrary.org/obo/UBERON_0001226",
-      "http://purl.obolibrary.org/obo/UBERON_0001227",
-      "http://purl.obolibrary.org/obo/UBERON_0001228"
-    ]
-  },
-  {
-    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
     "@id": "https://entity.api.hubmapconsortium.org/entities/2f8bb4ef2d9b8d23eebc24d1d5db36cd",
     "@type": "SpatialEntity",
     "label": "https://entity.api.hubmapconsortium.org/entities/2f8bb4ef2d9b8d23eebc24d1d5db36cd",
@@ -1597,7 +1622,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 3,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -1609,9 +1634,9 @@
       "x_rotation": -25,
       "y_rotation": 23,
       "z_rotation": 22,
-      "x_translation": 281.80300672896095,
-      "y_translation": 164.115764026431,
-      "z_translation": 259.59777885137913
+      "x_translation": 280.762186095436,
+      "y_translation": 170.67489437149803,
+      "z_translation": 179.6221106092616
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1628,7 +1653,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 3,
     "y_dimension": 6,
     "z_dimension": 2,
@@ -1640,9 +1665,9 @@
       "x_rotation": -11,
       "y_rotation": 44,
       "z_rotation": -22,
-      "x_translation": 304.3554424724112,
-      "y_translation": 178.3472167320348,
-      "z_translation": 275.3651876007176
+      "x_translation": 250.29275829054242,
+      "y_translation": 180.23014972756965,
+      "z_translation": 188.20719011846518
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -1659,7 +1684,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 2,
     "y_dimension": 4,
     "z_dimension": 2,
@@ -1671,9 +1696,9 @@
       "x_rotation": 108,
       "y_rotation": 34,
       "z_rotation": 148,
-      "x_translation": 309.53798831708565,
-      "y_translation": 162.11059631561892,
-      "z_translation": 274.65784568395566
+      "x_translation": 257.4040974733513,
+      "y_translation": 170.04465325110058,
+      "z_translation": 170.66609101210892
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001225",
@@ -1690,7 +1715,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 2,
     "y_dimension": 4,
     "z_dimension": 2,
@@ -1702,9 +1727,9 @@
       "x_rotation": -49,
       "y_rotation": 0,
       "z_rotation": 62,
-      "x_translation": 304.33713592164116,
-      "y_translation": 175.07656201533163,
-      "z_translation": 251.22809607821628
+      "x_translation": 271.744791426113,
+      "y_translation": 168.1747213053416,
+      "z_translation": 193.22601425703547
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1727,7 +1752,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 20,
     "y_dimension": 8,
     "z_dimension": 3,
@@ -1739,9 +1764,9 @@
       "x_rotation": -33,
       "y_rotation": 40,
       "z_rotation": -72,
-      "x_translation": 250.34063525600558,
-      "y_translation": 167.02216720060107,
-      "z_translation": 178.6432935283285
+      "x_translation": 308.1969250863031,
+      "y_translation": 177.05677549249765,
+      "z_translation": 253.06685728155256
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -1762,7 +1787,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 25,
     "y_dimension": 11,
     "z_dimension": 4,
@@ -1774,18 +1799,18 @@
       "x_rotation": -33,
       "y_rotation": 40,
       "z_rotation": -72,
-      "x_translation": 260.0376602674187,
-      "y_translation": 155.5751304613719,
-      "z_translation": 168.7579652948188
+      "x_translation": 310.00191822545065,
+      "y_translation": 169.2311540487987,
+      "z_translation": 250.42523484823482
     },
     "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0000362",
+      "http://purl.obolibrary.org/obo/UBERON_0001225",
       "http://purl.obolibrary.org/obo/UBERON_0001284",
       "http://purl.obolibrary.org/obo/UBERON_0002015",
       "http://purl.obolibrary.org/obo/UBERON_0002189",
       "http://purl.obolibrary.org/obo/UBERON_0004200",
-      "http://purl.obolibrary.org/obo/UBERON_0008716",
-      "http://purl.obolibrary.org/obo/UBERON_0000362",
-      "http://purl.obolibrary.org/obo/UBERON_0001225"
+      "http://purl.obolibrary.org/obo/UBERON_0008716"
     ]
   },
   {
@@ -1797,7 +1822,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -1809,9 +1834,39 @@
       "x_rotation": -44,
       "y_rotation": 39,
       "z_rotation": 32,
-      "x_translation": 309.8273883906128,
-      "y_translation": 160.1893018010908,
-      "z_translation": 277.70075451718805
+      "x_translation": 252.54487642958466,
+      "y_translation": 170.91234933259145,
+      "z_translation": 158.26097012995422
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/b19e5a26b6883c895d26bf9942faac61",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/b19e5a26b6883c895d26bf9942faac61",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/28432298-f364-401e-b8c3-790484773c4d_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -44,
+      "y_rotation": 39,
+      "z_rotation": 32,
+      "x_translation": 252.54487642958466,
+      "y_translation": 170.91234933259145,
+      "z_translation": 158.26097012995422
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -1827,7 +1882,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -1839,9 +1894,69 @@
       "x_rotation": -44,
       "y_rotation": 39,
       "z_rotation": 32,
-      "x_translation": 311.53678283729295,
-      "y_translation": 160.80403412138548,
-      "z_translation": 277.66036342620976
+      "x_translation": 251.3092757238461,
+      "y_translation": 171.1272822961945,
+      "z_translation": 158.7700973317381
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/66779e32f159993cd3ef2c7586de4dd2",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/66779e32f159993cd3ef2c7586de4dd2",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/12a06e5c-99cc-47a5-b569-e1b567697071_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -44,
+      "y_rotation": 39,
+      "z_rotation": 32,
+      "x_translation": 251.3092757238461,
+      "y_translation": 171.1272822961945,
+      "z_translation": 158.7700973317381
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/46dbd33336bd6261be84b724c3e5f568",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/46dbd33336bd6261be84b724c3e5f568",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/8ca8f632-6859-4054-a7d6-17d7cc8a4aff_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -22,
+      "y_rotation": 39,
+      "z_rotation": 32,
+      "x_translation": 253.67259654768938,
+      "y_translation": 173.60209789202625,
+      "z_translation": 162.27184853879862
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -1857,7 +1972,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -1869,9 +1984,9 @@
       "x_rotation": -22,
       "y_rotation": 39,
       "z_rotation": 32,
-      "x_translation": 306.3260329633251,
-      "y_translation": 162.7190371721174,
-      "z_translation": 280.10043625005324
+      "x_translation": 253.67259654768938,
+      "y_translation": 173.60209789202625,
+      "z_translation": 162.27184853879862
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -1887,7 +2002,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -1899,9 +2014,39 @@
       "x_rotation": -25,
       "y_rotation": 41,
       "z_rotation": -4,
-      "x_translation": 316.59480620390303,
-      "y_translation": 159.98318141548793,
-      "z_translation": 271.3822728094365
+      "x_translation": 251.2437970112035,
+      "y_translation": 165.94677505497262,
+      "z_translation": 159.33828175625473
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/dcc03d7ef5a524ce7738be3099e1e0c1",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/dcc03d7ef5a524ce7738be3099e1e0c1",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/3f210a67-a16d-4d09-b250-8222b026a4d8_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -25,
+      "y_rotation": 41,
+      "z_rotation": -4,
+      "x_translation": 251.2437970112035,
+      "y_translation": 165.94677505497262,
+      "z_translation": 159.33828175625473
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -1917,7 +2062,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -1929,9 +2074,69 @@
       "x_rotation": -25,
       "y_rotation": 41,
       "z_rotation": -39,
-      "x_translation": 325.30080234188955,
-      "y_translation": 159.18839034351402,
-      "z_translation": 245.785539005908
+      "x_translation": 257.97232481729964,
+      "y_translation": 145.30919789929632,
+      "z_translation": 159.114911418616
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/df9169c7afa52edd3390e5709bcd6abb",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/df9169c7afa52edd3390e5709bcd6abb",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/44ece6dd-92ec-4489-841f-0a73636b91b5_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -25,
+      "y_rotation": 41,
+      "z_rotation": -39,
+      "x_translation": 257.97232481729964,
+      "y_translation": 145.30919789929632,
+      "z_translation": 159.114911418616
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/05124890b033aae2390aeee312ecb95d",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/05124890b033aae2390aeee312ecb95d",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/86438cfe-9f98-40d8-a5cf-b1fc890a0c72_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -25,
+      "y_rotation": 41,
+      "z_rotation": -4,
+      "x_translation": 251.2437970112035,
+      "y_translation": 165.94677505497262,
+      "z_translation": 159.33828175625473
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -1947,7 +2152,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -1959,9 +2164,9 @@
       "x_rotation": -25,
       "y_rotation": 41,
       "z_rotation": -4,
-      "x_translation": 316.59480620390303,
-      "y_translation": 159.98318141548793,
-      "z_translation": 271.3822728094365
+      "x_translation": 251.2437970112035,
+      "y_translation": 165.94677505497262,
+      "z_translation": 159.33828175625473
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -1977,7 +2182,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 3,
     "y_dimension": 3,
     "z_dimension": 2,
@@ -1989,9 +2194,69 @@
       "x_rotation": -25,
       "y_rotation": 41,
       "z_rotation": -4,
-      "x_translation": 316.3347404326714,
-      "y_translation": 159.5117169731322,
-      "z_translation": 271.68765932633704
+      "x_translation": 251.00929251228877,
+      "y_translation": 165.98511032996137,
+      "z_translation": 158.3151741839438
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/f4f2dbe41b3436e4df888953411d3776",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/f4f2dbe41b3436e4df888953411d3776",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 3,
+    "y_dimension": 3,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/fe9fc927-b313-4421-864f-093434a818ae_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -25,
+      "y_rotation": 41,
+      "z_rotation": -4,
+      "x_translation": 251.00929251228877,
+      "y_translation": 165.98511032996137,
+      "z_translation": 158.3151741839438
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/4e9015acc1039c2561b10582209065c5",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/4e9015acc1039c2561b10582209065c5",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/d176c4ab-ab28-457e-8395-1a854f9377d3_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -22,
+      "y_rotation": 39,
+      "z_rotation": 32,
+      "x_translation": 252.5507822358894,
+      "y_translation": 174.8762578194033,
+      "z_translation": 164.73736796500373
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2007,7 +2272,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2019,9 +2284,9 @@
       "x_rotation": -22,
       "y_rotation": 39,
       "z_rotation": 32,
-      "x_translation": 307.33067300768266,
-      "y_translation": 163.9593805732724,
-      "z_translation": 280.6537954449471
+      "x_translation": 252.5507822358894,
+      "y_translation": 174.8762578194033,
+      "z_translation": 164.73736796500373
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2037,7 +2302,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2049,9 +2314,39 @@
       "x_rotation": -25,
       "y_rotation": 41,
       "z_rotation": -39,
-      "x_translation": 325.30080234188955,
-      "y_translation": 159.18839034351402,
-      "z_translation": 245.785539005908
+      "x_translation": 257.97232481729964,
+      "y_translation": 145.30919789929632,
+      "z_translation": 159.114911418616
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/cbe606a77736e119af0e6423a5ea3ea0",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/cbe606a77736e119af0e6423a5ea3ea0",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/502147a0-cca6-4658-a165-811cb6013c71_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -25,
+      "y_rotation": 41,
+      "z_rotation": -39,
+      "x_translation": 257.97232481729964,
+      "y_translation": 145.30919789929632,
+      "z_translation": 159.114911418616
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2067,7 +2362,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2079,9 +2374,39 @@
       "x_rotation": -22,
       "y_rotation": 39,
       "z_rotation": 32,
-      "x_translation": 307.33067088332797,
-      "y_translation": 163.84977279036505,
-      "z_translation": 280.8601245526698
+      "x_translation": 252.30497046826304,
+      "y_translation": 174.98796046281714,
+      "z_translation": 163.67575243039278
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/5de184ced04aafb7d722d08d7e04ffae",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/5de184ced04aafb7d722d08d7e04ffae",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/a473a598-5756-4a2f-ab91-682774640cd0_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -22,
+      "y_rotation": 39,
+      "z_rotation": 32,
+      "x_translation": 252.30497046826304,
+      "y_translation": 174.98796046281714,
+      "z_translation": 163.67575243039278
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2097,7 +2422,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2109,9 +2434,39 @@
       "x_rotation": -22,
       "y_rotation": 39,
       "z_rotation": 32,
-      "x_translation": 308.15723641266607,
-      "y_translation": 163.49414783302498,
-      "z_translation": 280.50424996400375
+      "x_translation": 251.72385508683854,
+      "y_translation": 174.52606214472942,
+      "z_translation": 163.54488354707888
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/e3b1ef795494bac09ee86e716055b337",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/e3b1ef795494bac09ee86e716055b337",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/ba36c029-c68a-454d-b95a-9d20c6d8d650_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -22,
+      "y_rotation": 39,
+      "z_rotation": 32,
+      "x_translation": 251.72385508683854,
+      "y_translation": 174.52606214472942,
+      "z_translation": 163.54488354707888
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2127,7 +2482,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2139,9 +2494,69 @@
       "x_rotation": -25,
       "y_rotation": 41,
       "z_rotation": 32,
-      "x_translation": 311.83664843958877,
-      "y_translation": 163.711078118355,
-      "z_translation": 279.05151521238724
+      "x_translation": 250.27426369501308,
+      "y_translation": 173.13208459946037,
+      "z_translation": 164.165230607466
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/f6667c0147a814db2613672d66d17880",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/f6667c0147a814db2613672d66d17880",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/66d6bc1c-f87b-4156-a5ab-af13a7dcb2fd_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -25,
+      "y_rotation": 41,
+      "z_rotation": 32,
+      "x_translation": 250.27426369501308,
+      "y_translation": 173.13208459946037,
+      "z_translation": 164.165230607466
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/03cf872be9792de021404da62068df92",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/03cf872be9792de021404da62068df92",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/d3e8695c-13e0-46f0-bd84-f511c579ea0e_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -25,
+      "y_rotation": 41,
+      "z_rotation": 32,
+      "x_translation": 250.67451277047442,
+      "y_translation": 172.42863561449653,
+      "z_translation": 162.36386942960576
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2157,7 +2572,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2169,9 +2584,39 @@
       "x_rotation": -25,
       "y_rotation": 41,
       "z_rotation": 32,
-      "x_translation": 311.74709156618667,
-      "y_translation": 162.45506110296563,
-      "z_translation": 278.5430501430184
+      "x_translation": 250.67451277047442,
+      "y_translation": 172.42863561449653,
+      "z_translation": 162.36386942960576
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/589ceff9ea6154819a10d38fad001e6c",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/589ceff9ea6154819a10d38fad001e6c",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 7,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/9b91d5a0-21b5-4176-8637-a332c59db953_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -25,
+      "y_rotation": 41,
+      "z_rotation": -4,
+      "x_translation": 250.9552942165019,
+      "y_translation": 165.96648606332298,
+      "z_translation": 158.29415129346668
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2187,7 +2632,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 7,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2199,9 +2644,9 @@
       "x_rotation": -25,
       "y_rotation": 41,
       "z_rotation": -4,
-      "x_translation": 316.6929565818476,
-      "y_translation": 159.88472873551436,
-      "z_translation": 271.6209336791269
+      "x_translation": 250.9552942165019,
+      "y_translation": 165.96648606332298,
+      "z_translation": 158.29415129346668
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2217,7 +2662,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2229,9 +2674,39 @@
       "x_rotation": -22,
       "y_rotation": 39,
       "z_rotation": 32,
-      "x_translation": 306.3260329633251,
-      "y_translation": 162.7190371721174,
-      "z_translation": 280.10043625005324
+      "x_translation": 253.67259654768938,
+      "y_translation": 173.60209789202625,
+      "z_translation": 162.27184853879862
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/ed1aba484cbb2708fa287f304973dd7f",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/ed1aba484cbb2708fa287f304973dd7f",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/5d77d162-9018-4ffb-9d86-c9111d405410_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -22,
+      "y_rotation": 39,
+      "z_rotation": 32,
+      "x_translation": 253.67259654768938,
+      "y_translation": 173.60209789202625,
+      "z_translation": 162.27184853879862
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2247,7 +2722,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2259,9 +2734,69 @@
       "x_rotation": -22,
       "y_rotation": 39,
       "z_rotation": 32,
-      "x_translation": 308.88323261012806,
-      "y_translation": 163.93250011501704,
-      "z_translation": 280.3406681450916
+      "x_translation": 251.977359245728,
+      "y_translation": 174.44122192411987,
+      "z_translation": 164.615231793713
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/fddd5c5fb88ebc64cfd1e690e283ae2d",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/fddd5c5fb88ebc64cfd1e690e283ae2d",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/0da66085-1106-47b1-9482-694857deda76_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -22,
+      "y_rotation": 39,
+      "z_rotation": 32,
+      "x_translation": 251.977359245728,
+      "y_translation": 174.44122192411987,
+      "z_translation": 164.615231793713
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/b28ccb2cbc0d4e791b5a39cdd57eb8fc",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/b28ccb2cbc0d4e791b5a39cdd57eb8fc",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/1f8b5298-e67b-4a94-bb80-f810523d5a5c_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -22,
+      "y_rotation": 39,
+      "z_rotation": 32,
+      "x_translation": 252.4097199993717,
+      "y_translation": 173.81545804436297,
+      "z_translation": 162.8494373068159
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2277,7 +2812,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2289,9 +2824,9 @@
       "x_rotation": -22,
       "y_rotation": 39,
       "z_rotation": 32,
-      "x_translation": 308.10395618742115,
-      "y_translation": 162.37526571044236,
-      "z_translation": 279.88176621230633
+      "x_translation": 252.4097199993717,
+      "y_translation": 173.81545804436297,
+      "z_translation": 162.8494373068159
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2307,7 +2842,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2319,9 +2854,39 @@
       "x_rotation": -25,
       "y_rotation": 41,
       "z_rotation": -4,
-      "x_translation": 316.59480620390303,
-      "y_translation": 159.98318141548793,
-      "z_translation": 271.3822728094365
+      "x_translation": 251.2437970112035,
+      "y_translation": 165.94677505497262,
+      "z_translation": 159.33828175625473
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/988f711694f9456d12bfa84937202fd7",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/988f711694f9456d12bfa84937202fd7",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/5c0a02c3-9a5a-4280-89b9-2806896242c9_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -25,
+      "y_rotation": 41,
+      "z_rotation": -4,
+      "x_translation": 251.2437970112035,
+      "y_translation": 165.94677505497262,
+      "z_translation": 159.33828175625473
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2337,7 +2902,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 5,
     "y_dimension": 5,
     "z_dimension": 2,
@@ -2349,9 +2914,39 @@
       "x_rotation": -25,
       "y_rotation": 41,
       "z_rotation": -39,
-      "x_translation": 325.30080234188955,
-      "y_translation": 159.18839034351402,
-      "z_translation": 245.785539005908
+      "x_translation": 257.97232481729964,
+      "y_translation": 145.30919789929632,
+      "z_translation": 159.114911418616
+    },
+    "ccf_annotations": [
+      "http://purl.obolibrary.org/obo/UBERON_0002015",
+      "http://purl.obolibrary.org/obo/UBERON_0002189"
+    ]
+  },
+  {
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "https://entity.api.sennetconsortium.org/entities/93d90d7d202213189a1221d3809f5524",
+    "@type": "SpatialEntity",
+    "label": "https://entity.api.sennetconsortium.org/entities/93d90d7d202213189a1221d3809f5524",
+    "creator": "Antara Bhavsar",
+    "creator_first_name": "Antara",
+    "creator_last_name": "Bhavsar",
+    "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+    "creation_date": "2026-08-10",
+    "x_dimension": 5,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "dimension_units": "millimeter",
+    "placement": {
+      "@id": "http://purl.org/ccf/1.5/e22d2275-4186-4efd-a51f-05e2593bfb93_placement",
+      "@type": "SpatialPlacement",
+      "target": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+      "x_rotation": -25,
+      "y_rotation": 41,
+      "z_rotation": -39,
+      "x_translation": 257.97232481729964,
+      "y_translation": 145.30919789929632,
+      "z_translation": 159.114911418616
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0002015",
@@ -2367,7 +2962,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 20,
     "y_dimension": 10,
     "z_dimension": 4,
@@ -2379,9 +2974,9 @@
       "x_rotation": -50,
       "y_rotation": 6,
       "z_rotation": 82,
-      "x_translation": 288.625031988243,
-      "y_translation": 173.15168946480776,
-      "z_translation": 266.6789013251186
+      "x_translation": 269.50526173036684,
+      "y_translation": 177.02732157959474,
+      "z_translation": 177.43032562051187
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0000362",
@@ -2401,7 +2996,7 @@
     "creator_first_name": "Antara",
     "creator_last_name": "Bhavsar",
     "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-    "creation_date": "2026-04-22",
+    "creation_date": "2026-08-10",
     "x_dimension": 3,
     "y_dimension": 2,
     "z_dimension": 2,
@@ -2413,9 +3008,9 @@
       "x_rotation": 0,
       "y_rotation": 0,
       "z_rotation": 0,
-      "x_translation": 278.51317494223247,
-      "y_translation": 172.4103395377479,
-      "z_translation": 188.56982658743723
+      "x_translation": 296.64395232568864,
+      "y_translation": 165.94435611412953,
+      "z_translation": 247.79609408886046
     },
     "ccf_annotations": [
       "http://purl.obolibrary.org/obo/UBERON_0001228"

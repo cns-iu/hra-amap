@@ -3,19 +3,12 @@ Stage 2 of Millitome Registrations: Generates tissue blocks from projections and
 """
 
 import argparse
-from copy import deepcopy
 from datetime import datetime
 from hra_amap.utils.constants import ConfigKeys
 import json
-import yaml
 import trimesh  # type: ignore
-import requests
-import csv
-import io
-import numpy as np
 
 from pathlib import Path
-from tqdm.auto import tqdm
 from hra_amap.registration.tissue import TissueBlock
 from hra_amap.registration.dataclass import Projection
 from hra_amap.registration.rui import RUIProcessor
@@ -139,36 +132,21 @@ class ProjectionBlockGenerator:
 
     def generate_projections(self):
         """
-        Apply projection and OBB bounding box generation to each tissue block.
+        Apply the loaded projection to each tissue block.
         """
-        projected_blocks = [
-            self.projection.project(block) for block in self.tissue_blocks
-        ]
+        return {
+            block.label: self.projection.project(block, apply_target_transform=True)
+            for block in self.tissue_blocks
+        }
 
-        # add the original labels back to the projected blocks
-        projected_blocks = dict(
-            zip([block.label for block in self.tissue_blocks], projected_blocks)
-        )
-
-        # create bounding boxes
-        projected_blocks_obb = {}
-
-        for id, block in deepcopy(projected_blocks).items():
-            try:
-                if block is None or len(block.vertices) == 0:
-                    continue
-
-                obb = block.bounding_box_oriented
-                projected_blocks_obb[id] = obb
-            except Exception as e:
-                print(f"[WARN] OBB failed for '{id}', fallback due to exception: {e}")
-                continue
-
-        # Ensure colors match for bounding boxes
-        for index, obb in projected_blocks_obb.items():
-            obb.visual.vertex_colors = projected_blocks[index].visual.vertex_colors[0]
-
-        return projected_blocks
+    def generate_raw_mesh_projections(self):
+        """
+        Apply the loaded projection directly to tissue-block mesh vertices.
+        """
+        return {
+            block.label: self.projection.project_raw_mesh(block)
+            for block in self.tissue_blocks
+        }
 
 
 def generate_output(projection: Path, output_dir: Path, config: Path):
@@ -176,16 +154,16 @@ def generate_output(projection: Path, output_dir: Path, config: Path):
     Main workflow to generate projection output files.
     """
 
-    projected_blocks = ProjectionBlockGenerator(
-        projection, config
-    ).generate_projections()
+    projection_generator = ProjectionBlockGenerator(projection, config)
+    projected_blocks = projection_generator.generate_projections()
     processor = RUIProcessor(
         blocks=list(projected_blocks.values()), registration_dir=output_dir
     )
     processor.initialize_registration()
     processor.generate_rui_locations(config)
 
-    scene = trimesh.Scene(projected_blocks)
+    raw_mesh_projected_blocks = projection_generator.generate_raw_mesh_projections()
+    scene = trimesh.Scene(raw_mesh_projected_blocks)
     if not scene.geometry:
         raise ValueError("Scene is empty. No geometries to export.")
 

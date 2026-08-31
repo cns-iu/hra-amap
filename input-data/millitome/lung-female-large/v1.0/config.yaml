@@ -3,6 +3,8 @@ input_files:
 
 target_name: "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary"
 
+volumetric: false
+
 retain_component: ["VH_F_lingula_superior_bronchopulmonary_segment", "VH_F_left_anterior_bronchopulmonary_segment", "VH_F_left_apical_bronchopulmonary_segment", "VH_F_left_posterior_bronchopulmonary_segment", "VH_F_lingula_inferior_bronchopulmonary_segment", "VH_F_left_superior_bronchopulmonary_segment", "VH_F_left_posterior_basal_bronchopulmonary_segment", "VH_F_left_anterior_basal_bronchopulmonary_segment", "VH_F_left_lateral_basal_bronchopulmonary_segment", "VH_F_left_medial_basal_bronchopulmonary_segment", "VH_F_hilum_lower_L", "VH_F_hilum_L","VH_F_hilum_R","VH_F_right_medial_basal_bronchopulmonary_segment","VH_F_right_posterior_basal_bronchopulmonary_segment","VH_F_right_anterior_basal_bronchopulmonary_segment","VH_F_right_lateral_basal_bronchopulmonary_segment","VH_F_right_superior_bronchopulmonary_segment","VH_F_hilum_lower_R","VH_F_right_medial_bronchopulmonary_segment","VH_F_right_lateral_bronchopulmonary_segmennt","VH_F_hilum_middle_R","VH_F_right_anterior_bronchopulmonary_segm","VH_F_right_apical_bronchopulmonary_segment","VH_F_right_posterior_bronchopulmonary_segment"]
 
 donor:
@@ -31,6 +33,10 @@ rui_location:
     translation_units: "millimeter"
 
 nonrigid_registration:
+  J: 300
+  K: 150
+  normalization: n
+  save: yveTY
   autotune: 'False'
   gamma: 10
   beta: 2

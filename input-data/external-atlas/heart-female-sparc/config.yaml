@@ -5,6 +5,13 @@ retain_component: ["VH_F_interventricular_septum","VH_F_left_cardiac_atrium","VH
 
 target_name: "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
 
+volumetric: true
+
+allowed_targets:
+  - "https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary"
+  - "http://purl.org/ccf/latest/ccf.owl#VHFHeartV1.1"
+  - "http://purl.org/ccf/latest/ccf.owl#VHFHeart"
+
 donor:
   sex: Female
   provider_name: MC-IU
@@ -31,15 +38,18 @@ rui_location:
     translation_units: "millimeter"
 
 nonrigid_registration:
+  J: 300
+  K: 150
+  normalization: n
+  save: yveTY
   autotune: 'False'
-  gamma: 20
-  beta: 1
+  gamma: 0.1
+  beta: 2
   decimation: 'False'
-  distance_threshold: 1e-8
-  lambda: 10
-  downsampling: 'Y, 26443, 0.05'
-  max_iterations: 1300
-  seed: 26
+  distance_threshold: 1.0e-06
+  lambda: 200
+  max_iterations: 1000
+  seed: 1
 
 rigid_registration:
   global_distance_threshold_factor: 0.23
@@ -49,6 +59,4 @@ rigid_registration:
   max_nn: 100
   refine_distance_threshold_factor: 0.1
   voxel_size: 0.025
-
-
 

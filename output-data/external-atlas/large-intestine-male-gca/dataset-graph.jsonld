@@ -2,49 +2,639 @@
   "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
   "@graph": [
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1",
       "@type": "Donor",
-      "label": "Female, Age 54",
-      "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/142d18f0a749d3d02d8b1addbca15589",
-      "consortium_name": "HuBMAP",
-      "provider_name": "TMC-Stanford",
-      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "label": "Male, Age 29, BMI 36.4",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "Human Cell Atlas",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/251e2e18951b2be556fcb756f1806f03",
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
-          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/251e2e18951b2be556fcb756f1806f03",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
+            "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/251e2e18951b2be556fcb756f1806f03",
+            "label": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock1",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/da614245-6f9f-4448-91cf-783bc01cfa55_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": -25,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -84.07154526411776,
+              "y_translation": -76.13409730176771,
+              "z_translation": 213.1001717764652
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1",
+      "@type": "Donor",
+      "label": "Male, Age 29, BMI 36.4",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "Human Cell Atlas",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1",
+            "@type": "SpatialEntity",
+            "label": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock2",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/10fb244a-c8eb-4a47-9c13-d97a964ed20c_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 31.929834320958676,
+              "y_translation": -127.13342942102726,
+              "z_translation": 309.1032155696692
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1",
+      "@type": "Donor",
+      "label": "Male, Age 29, BMI 36.4",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "Human Cell Atlas",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1",
+            "@type": "SpatialEntity",
+            "label": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor1_TissueBlock3",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/bcb6402e-0da0-4dc1-bf6a-c251caa6e247_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 22,
+              "x_translation": 29.92831531065236,
+              "y_translation": -87.13323498042202,
+              "z_translation": 302.1007920292065
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.org/sig/ont/fma/fma14929",
+              "http://purl.org/sig/ont/fma/fma14930"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2",
+      "@type": "Donor",
+      "label": "Male, Age 45, BMI 52.2",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "Human Cell Atlas",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2",
+            "@type": "SpatialEntity",
+            "label": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock1",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/da614245-6f9f-4448-91cf-783bc01cfa55_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": -25,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -84.07154526411776,
+              "y_translation": -76.13409730176771,
+              "z_translation": 213.1001717764652
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2",
+      "@type": "Donor",
+      "label": "Male, Age 45, BMI 52.2",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "Human Cell Atlas",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2",
+            "@type": "SpatialEntity",
+            "label": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock2",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/10fb244a-c8eb-4a47-9c13-d97a964ed20c_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 31.929834320958676,
+              "y_translation": -127.13342942102726,
+              "z_translation": 309.1032155696692
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2",
+      "@type": "Donor",
+      "label": "Male, Age 45, BMI 52.2",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "Human Cell Atlas",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2",
+            "@type": "SpatialEntity",
+            "label": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor2_TissueBlock3",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/bcb6402e-0da0-4dc1-bf6a-c251caa6e247_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 22,
+              "x_translation": 29.92831531065236,
+              "y_translation": -87.13323498042202,
+              "z_translation": 302.1007920292065
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.org/sig/ont/fma/fma14929",
+              "http://purl.org/sig/ont/fma/fma14930"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3",
+      "@type": "Donor",
+      "label": "Male, Age 53, BMI 25",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "Human Cell Atlas",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3",
+            "@type": "SpatialEntity",
+            "label": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock1",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/da614245-6f9f-4448-91cf-783bc01cfa55_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": -25,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -84.07154526411776,
+              "y_translation": -76.13409730176771,
+              "z_translation": 213.1001717764652
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3",
+      "@type": "Donor",
+      "label": "Male, Age 53, BMI 25",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "Human Cell Atlas",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3",
+            "@type": "SpatialEntity",
+            "label": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock2",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/10fb244a-c8eb-4a47-9c13-d97a964ed20c_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 31.929834320958676,
+              "y_translation": -127.13342942102726,
+              "z_translation": 309.1032155696692
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3",
+      "@type": "Donor",
+      "label": "Male, Age 53, BMI 25",
+      "description": "Entered 2/4/2025, Joseph Burclaff, UNC",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+      "consortium_name": "Human Cell Atlas",
+      "provider_name": "UNC",
+      "provider_uuid": "B79E37AC-FA11-11EF-8176-20E2A8B75C6B",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock3",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 2/4/2025, Joseph Burclaff, UNC",
+          "description": "30 x 30 x 10 millimeter, 10 millimeter",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2352345X22000340?via%3Dihub",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3",
+            "@type": "SpatialEntity",
+            "label": "https://doi.org/10.1016/j.jcmgh.2022.02.007#Donor3_TissueBlock3",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 30,
+            "y_dimension": 30,
+            "z_dimension": 10,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/bcb6402e-0da0-4dc1-bf6a-c251caa6e247_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 22,
+              "x_translation": 29.92831531065236,
+              "y_translation": -87.13323498042202,
+              "z_translation": 302.1007920292065
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.org/sig/ont/fma/fma14929",
+              "http://purl.org/sig/ont/fma/fma14930"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP25",
+      "@type": "Donor",
+      "label": "TSP25",
+      "description": "Entered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP25_Large_Intestine%2Fasc_colon",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/28/2023, Heidi Schlehlein, Tabula Sapiens",
+          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://doi.org/10.1126/science.abl4896#TSP25",
+            "@type": "SpatialEntity",
+            "label": "https://doi.org/10.1126/science.abl4896#TSP25_Large_Intestine%2Fasc_colon",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 304.8,
+            "y_dimension": 40,
+            "z_dimension": 50,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/99ac7242-14d9-4efe-b6d9-b44cab80d84d_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 11,
+              "y_rotation": 70,
+              "z_rotation": 75,
+              "x_translation": -76.22914619336512,
+              "y_translation": -37.87523407613047,
+              "z_translation": 320.5750522099204
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0000569",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001154",
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0022277"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.1126/science.abl4896#TSP25",
+      "@type": "Donor",
+      "label": "TSP25",
+      "description": "Entered 7/27/2023, Heidi Schlehlein, Tabula Sapiens",
+      "link": "https://doi.org/10.1126/science.abl4896",
+      "consortium_name": "HCA",
+      "provider_name": "Tabula Sapiens",
+      "provider_uuid": "d65cd08e-7d9b-11ee-b962-0242ac120002",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://doi.org/10.1126/science.abl4896#TSP25_Large_Intestine%2Fsigmoid_colon",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/28/2023, Heidi Schlehlein, Tabula Sapiens",
+          "description": "304.8 x 40 x 50 millimeter, 50 millimeter",
+          "link": "https://doi.org/10.1126/science.abl4896",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://doi.org/10.1126/science.abl4896#TSP25",
+            "@type": "SpatialEntity",
+            "label": "https://doi.org/10.1126/science.abl4896#TSP25_Large_Intestine%2Fsigmoid_colon",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 304.8,
+            "y_dimension": 40,
+            "z_dimension": 50,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/72881a98-7301-412f-8223-dce4b9b5abcd_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 11,
+              "y_rotation": 57,
+              "z_rotation": 0,
+              "x_translation": 27.42463494515311,
+              "y_translation": -50.7790918199901,
+              "z_translation": 86.26414583932578
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001052",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001154",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001159"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/4102d375082e94a2d4d0df1f49dcc37c",
+      "@type": "Donor",
+      "label": "Male, Age 30",
+      "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/4102d375082e94a2d4d0df1f49dcc37c",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/2b8dcc2d1a81515562b8d3ed6e221586",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/2b8dcc2d1a81515562b8d3ed6e221586",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/4102d375082e94a2d4d0df1f49dcc37c",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/2b8dcc2d1a81515562b8d3ed6e221586",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/48f6aab3-8d58-4675-806c-3fd7d5b7336f_placement",
+              "@id": "http://purl.org/ccf/1.5/8e8d9121-3a47-4c89-9e63-aec6659075d2_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "x_rotation": -18,
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
               "y_rotation": 90,
               "z_rotation": 0,
-              "x_translation": -94.59065867588887,
-              "y_translation": -27.863017046213336,
-              "z_translation": 145.94274189662477
+              "x_translation": -102.34880271571006,
+              "y_translation": -48.653997340884054,
+              "z_translation": 205.79382309203095
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001153",
@@ -56,51 +646,52 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/4102d375082e94a2d4d0df1f49dcc37c",
       "@type": "Donor",
-      "label": "Female, Age 54",
+      "label": "Male, Age 30",
       "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/142d18f0a749d3d02d8b1addbca15589",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/4102d375082e94a2d4d0df1f49dcc37c",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/2a70c0c2648986e08b8c5b81e6561f68",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/34e59e465916de982dbd2444fad3277a",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 9/13/2022, Daniel Cotter, TMC-Stanford",
+          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/2a70c0c2648986e08b8c5b81e6561f68",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/34e59e465916de982dbd2444fad3277a",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/4102d375082e94a2d4d0df1f49dcc37c",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/2a70c0c2648986e08b8c5b81e6561f68",
+            "label": "https://entity.api.hubmapconsortium.org/entities/34e59e465916de982dbd2444fad3277a",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/32214c14-bf21-4bf6-aea9-58ab721128ab_placement",
+              "@id": "http://purl.org/ccf/1.5/9a6cb9d5-afdd-429d-98ba-f157a42c7937_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
               "x_rotation": 0,
               "y_rotation": 90,
               "z_rotation": 0,
-              "x_translation": 86.19190170181803,
-              "y_translation": -41.56776751111145,
-              "z_translation": 94.51682664870573
+              "x_translation": 120.93149277841202,
+              "y_translation": -13.567733377921265,
+              "z_translation": 218.87689262106628
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
               "http://purl.obolibrary.org/obo/UBERON_0001158",
               "http://purl.obolibrary.org/obo/UBERON_0022276"
             ]
@@ -109,54 +700,53 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/4102d375082e94a2d4d0df1f49dcc37c",
       "@type": "Donor",
-      "label": "Female, Age 54",
+      "label": "Male, Age 30",
       "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/142d18f0a749d3d02d8b1addbca15589",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/4102d375082e94a2d4d0df1f49dcc37c",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/2ea69d0db6a46a1fca6a6a7049856edb",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/4325cc3fefa49b6b6d099527bb01bdab",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 5 millimeter, 0 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/2ea69d0db6a46a1fca6a6a7049856edb",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/4325cc3fefa49b6b6d099527bb01bdab",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/4102d375082e94a2d4d0df1f49dcc37c",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/2ea69d0db6a46a1fca6a6a7049856edb",
+            "label": "https://entity.api.hubmapconsortium.org/entities/4325cc3fefa49b6b6d099527bb01bdab",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/cd304e60-3de4-4dd9-b289-ce1a0efae4d7_placement",
+              "@id": "http://purl.org/ccf/1.5/e7d386a6-d4fb-43b2-9737-fdc6f7508d79_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
               "x_rotation": 90,
               "y_rotation": 0,
-              "z_rotation": 78,
-              "x_translation": 2.4062626091605197,
-              "y_translation": 66.55104654659522,
-              "z_translation": 45.821063431818665
+              "z_rotation": 0,
+              "x_translation": -7.587611343775425,
+              "y_translation": -6.877345347716146,
+              "z_translation": 110.65428518752172
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001052",
-              "http://purl.obolibrary.org/obo/UBERON_0001154",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
               "http://purl.obolibrary.org/obo/UBERON_0001159"
             ]
           }
@@ -164,103 +754,157 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/4102d375082e94a2d4d0df1f49dcc37c",
       "@type": "Donor",
-      "label": "Female, Age 54",
+      "label": "Male, Age 30",
       "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/142d18f0a749d3d02d8b1addbca15589",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/4102d375082e94a2d4d0df1f49dcc37c",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/7de2b4da1bcc1df5eb305cedb30a20c6",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/6da8a421d9dc69e25764adb94c3ab39b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/7de2b4da1bcc1df5eb305cedb30a20c6",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/6da8a421d9dc69e25764adb94c3ab39b",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/142d18f0a749d3d02d8b1addbca15589",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/4102d375082e94a2d4d0df1f49dcc37c",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/7de2b4da1bcc1df5eb305cedb30a20c6",
+            "label": "https://entity.api.hubmapconsortium.org/entities/6da8a421d9dc69e25764adb94c3ab39b",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/db4f3eca-e9f8-4f9c-88a1-795a20dd0f84_placement",
+              "@id": "http://purl.org/ccf/1.5/c89a4a3c-52d7-4508-86fb-b7e5610cb1e0_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
               "x_rotation": 90,
-              "y_rotation": -3,
+              "y_rotation": 26,
               "z_rotation": 88,
-              "x_translation": -16.463317082677698,
-              "y_translation": -65.70664637175878,
-              "z_translation": 197.4472451419008
+              "x_translation": 12.15450343134896,
+              "y_translation": -101.6372450616522,
+              "z_translation": 315.7209722859604
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
               "http://purl.obolibrary.org/obo/UBERON_0001157",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0022276"
+              "http://purl.obolibrary.org/obo/UBERON_0022277"
             ]
           }
         }
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/54e9f1a94821a716e8e1546aee7b0f7a",
       "@type": "Donor",
-      "label": "Female, Age 67",
-      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/1628b6f7eb615862322d6274a6bc9fa0",
+      "label": "Male, Age 24",
+      "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/54e9f1a94821a716e8e1546aee7b0f7a",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/00bf92f03e3eadf91552850d32eff9e4",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/10159dd4cc20e6ec4a61e6f289bfa61f",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/19/2021, amir Bahmani, TMC-Stanford",
-          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/00bf92f03e3eadf91552850d32eff9e4",
+          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 5 millimeter, 0 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/10159dd4cc20e6ec4a61e6f289bfa61f",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/54e9f1a94821a716e8e1546aee7b0f7a",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/00bf92f03e3eadf91552850d32eff9e4",
+            "label": "https://entity.api.hubmapconsortium.org/entities/10159dd4cc20e6ec4a61e6f289bfa61f",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/53a6bbda-8263-419d-96e8-ba4561899d87_placement",
+              "@id": "http://purl.org/ccf/1.5/d3b5feb6-910f-4309-a6a8-42c0477227c9_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "x_rotation": -18,
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 90,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -7.587611343775425,
+              "y_translation": -6.877345347716146,
+              "z_translation": 110.65428518752172
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001052",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001159"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/54e9f1a94821a716e8e1546aee7b0f7a",
+      "@type": "Donor",
+      "label": "Male, Age 24",
+      "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/54e9f1a94821a716e8e1546aee7b0f7a",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/365739c4dd46f4b7b9b44ede902677fb",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/365739c4dd46f4b7b9b44ede902677fb",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/54e9f1a94821a716e8e1546aee7b0f7a",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/365739c4dd46f4b7b9b44ede902677fb",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/3b2cb9ee-2a6f-4fb3-bc1b-dbd192d3163c_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
               "y_rotation": 90,
               "z_rotation": 0,
-              "x_translation": -94.41501039798547,
-              "y_translation": -31.31742220844706,
-              "z_translation": 133.40144502661468
+              "x_translation": -102.34880271571006,
+              "y_translation": -48.653997340884054,
+              "z_translation": 205.79382309203095
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001153",
@@ -272,55 +916,53 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/54e9f1a94821a716e8e1546aee7b0f7a",
       "@type": "Donor",
-      "label": "Female, Age 67",
-      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/1628b6f7eb615862322d6274a6bc9fa0",
+      "label": "Male, Age 24",
+      "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/54e9f1a94821a716e8e1546aee7b0f7a",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/3838f4672dd3d3d1ee6cb0809cf1ea03",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/b80365d202504a722373d912eb35c695",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/19/2021, amir Bahmani, TMC-Stanford",
+          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/3838f4672dd3d3d1ee6cb0809cf1ea03",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/b80365d202504a722373d912eb35c695",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/54e9f1a94821a716e8e1546aee7b0f7a",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/3838f4672dd3d3d1ee6cb0809cf1ea03",
+            "label": "https://entity.api.hubmapconsortium.org/entities/b80365d202504a722373d912eb35c695",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/f9e28182-3ed3-4a3f-bd45-66ebce1efafb_placement",
+              "@id": "http://purl.org/ccf/1.5/76a8931b-1c06-4646-8a17-ac7828b6e879_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
               "x_rotation": 0,
               "y_rotation": 90,
               "z_rotation": 0,
-              "x_translation": 83.76787645948683,
-              "y_translation": -46.529860991856935,
-              "z_translation": 82.58363041927484
+              "x_translation": 120.93149277841202,
+              "y_translation": -13.567733377921265,
+              "z_translation": 218.87689262106628
             },
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001156",
               "http://purl.obolibrary.org/obo/UBERON_0001157",
               "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0001159",
               "http://purl.obolibrary.org/obo/UBERON_0022276"
             ]
           }
@@ -328,295 +970,108 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/54e9f1a94821a716e8e1546aee7b0f7a",
       "@type": "Donor",
-      "label": "Female, Age 67",
-      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/1628b6f7eb615862322d6274a6bc9fa0",
+      "label": "Male, Age 24",
+      "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/54e9f1a94821a716e8e1546aee7b0f7a",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/3d742332ef8ca26f34f7ee5b9da3381c",
-          "@type": "Sample",
-          "sample_type": [
-            "Tissue Block",
-            "Tissue Section"
-          ],
-          "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
-          "description": [
-            "20 x 50 x 1 millimeter, 1 millimeter",
-            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
-          ],
-          "link": "https://portal.hubmapconsortium.org/browse/sample/3d742332ef8ca26f34f7ee5b9da3381c",
-          "section_count": 0,
-          "section_size": 0,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
-            "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/3d742332ef8ca26f34f7ee5b9da3381c",
-            "creator": "Antara Bhavsar",
-            "creator_first_name": "Antara",
-            "creator_last_name": "Bhavsar",
-            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
-            "x_dimension": 20,
-            "y_dimension": 50,
-            "z_dimension": 5,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@id": "http://purl.org/ccf/1.5/6cc00882-7403-4eca-8f50-03eebfc8c873_placement",
-              "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "x_rotation": 0,
-              "y_rotation": 90,
-              "z_rotation": 0,
-              "x_translation": 86.19190170181803,
-              "y_translation": -41.56776751111145,
-              "z_translation": 94.51682664870573
-            },
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001156",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0022276"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
-      "@type": "Donor",
-      "label": "Female, Age 67",
-      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/1628b6f7eb615862322d6274a6bc9fa0",
-      "consortium_name": "HuBMAP",
-      "provider_name": "TMC-Stanford",
-      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/7113f174c5b0da705b126129dff02f80",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/fe1fc10cedb9ef2f97986da71c42a1b7",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/19/2021, amir Bahmani, TMC-Stanford",
+          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/7113f174c5b0da705b126129dff02f80",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/fe1fc10cedb9ef2f97986da71c42a1b7",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/54e9f1a94821a716e8e1546aee7b0f7a",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/7113f174c5b0da705b126129dff02f80",
+            "label": "https://entity.api.hubmapconsortium.org/entities/fe1fc10cedb9ef2f97986da71c42a1b7",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/fe276ee5-752a-456e-bb25-4e5da071c6ed_placement",
+              "@id": "http://purl.org/ccf/1.5/09681d25-f08d-40ff-81cb-a731610aa84d_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
               "x_rotation": 90,
-              "y_rotation": -3,
+              "y_rotation": 26,
               "z_rotation": 88,
-              "x_translation": -15.499819303521393,
-              "y_translation": -65.48719919133283,
-              "z_translation": 151.52481092215893
+              "x_translation": 12.15450343134896,
+              "y_translation": -101.6372450616522,
+              "z_translation": 315.7209722859604
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001156",
               "http://purl.obolibrary.org/obo/UBERON_0001157",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0022276"
+              "http://purl.obolibrary.org/obo/UBERON_0022277"
             ]
           }
         }
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/80861d1897f0427a91e8e1886bde9009",
       "@type": "Donor",
-      "label": "Female, Age 67",
-      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/1628b6f7eb615862322d6274a6bc9fa0",
+      "label": "Male, Age 37",
+      "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/80861d1897f0427a91e8e1886bde9009",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/8124e9475115786c1fae3683a6714c32",
-          "@type": "Sample",
-          "sample_type": [
-            "Tissue Block",
-            "Tissue Section"
-          ],
-          "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
-          "description": [
-            "20 x 50 x 5 millimeter, 5 millimeter, 0 Sections",
-            "20 x 50 x 1.7 millimeter, 1.7 millimeter"
-          ],
-          "link": "https://portal.hubmapconsortium.org/browse/sample/8124e9475115786c1fae3683a6714c32",
-          "section_count": 0,
-          "section_size": 0,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
-            "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/8124e9475115786c1fae3683a6714c32",
-            "creator": "Antara Bhavsar",
-            "creator_first_name": "Antara",
-            "creator_last_name": "Bhavsar",
-            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
-            "x_dimension": 20,
-            "y_dimension": 50,
-            "z_dimension": 5,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@id": "http://purl.org/ccf/1.5/54299692-7ff8-468b-9c0a-c04a32f6fbe1_placement",
-              "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "x_rotation": 90,
-              "y_rotation": 0,
-              "z_rotation": 78,
-              "x_translation": 2.4062626091605197,
-              "y_translation": 66.55104654659522,
-              "z_translation": 45.821063431818665
-            },
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001052",
-              "http://purl.obolibrary.org/obo/UBERON_0001154",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0001159",
-              "http://purl.obolibrary.org/obo/UBERON_0002115",
-              "http://purl.org/sig/ont/fma/fma14966"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
-      "@type": "Donor",
-      "label": "Female, Age 67",
-      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/1628b6f7eb615862322d6274a6bc9fa0",
-      "consortium_name": "HuBMAP",
-      "provider_name": "TMC-Stanford",
-      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/8cdf44a106338aada6da04c71eeb767e",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/0cd6c870d7af957300eb309f4e98fc7b",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/19/2021, amir Bahmani, TMC-Stanford",
-          "description": "20 x 50 x 5 millimeter, 1.7 millimeter, 3 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/8cdf44a106338aada6da04c71eeb767e",
+          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/0cd6c870d7af957300eb309f4e98fc7b",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/80861d1897f0427a91e8e1886bde9009",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/8cdf44a106338aada6da04c71eeb767e",
+            "label": "https://entity.api.hubmapconsortium.org/entities/0cd6c870d7af957300eb309f4e98fc7b",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/93286ce3-669a-4f3f-a85a-7eaaedc15c59_placement",
+              "@id": "http://purl.org/ccf/1.5/91009a1d-ddea-4489-af88-3e32ca47cde7_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "x_rotation": 90,
-              "y_rotation": 0,
-              "z_rotation": 78,
-              "x_translation": 2.512827956378447,
-              "y_translation": 69.205811971405,
-              "z_translation": 24.56287991945876
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "x_translation": -102.34880271571006,
+              "y_translation": -48.653997340884054,
+              "z_translation": 205.79382309203095
             },
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001052",
-              "http://purl.obolibrary.org/obo/UBERON_0001154",
+              "http://purl.obolibrary.org/obo/UBERON_0022277",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
               "http://purl.obolibrary.org/obo/UBERON_0001156",
-              "http://purl.obolibrary.org/obo/UBERON_0001157",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0001159"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
-      "@type": "Donor",
-      "label": "Female, Age 67",
-      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/1628b6f7eb615862322d6274a6bc9fa0",
-      "consortium_name": "HuBMAP",
-      "provider_name": "TMC-Stanford",
-      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/96d320ccb24a968bc32571895cf1b05e",
-          "@type": "Sample",
-          "sample_type": [
-            "Tissue Section",
-            "Tissue Block"
-          ],
-          "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
-          "description": [
-            "20 x 50 x 5 millimeter, 5 millimeter, 0 Sections",
-            "20 x 50 x 1.7 millimeter, 1.7 millimeter"
-          ],
-          "link": "https://portal.hubmapconsortium.org/browse/sample/96d320ccb24a968bc32571895cf1b05e",
-          "section_count": 0,
-          "section_size": 0,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
-            "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/96d320ccb24a968bc32571895cf1b05e",
-            "creator": "Antara Bhavsar",
-            "creator_first_name": "Antara",
-            "creator_last_name": "Bhavsar",
-            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
-            "x_dimension": 20,
-            "y_dimension": 50,
-            "z_dimension": 5,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@id": "http://purl.org/ccf/1.5/4104aaa3-c9e7-44a2-acf6-58fbf19e4308_placement",
-              "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "x_rotation": 90,
-              "y_rotation": 0,
-              "z_rotation": 78,
-              "x_translation": 2.4062626091605197,
-              "y_translation": 66.55104654659522,
-              "z_translation": 45.821063431818665
-            },
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001159",
-              "http://purl.obolibrary.org/obo/UBERON_0001052",
-              "http://purl.obolibrary.org/obo/UBERON_0001154",
               "http://purl.obolibrary.org/obo/UBERON_0001158"
             ]
           }
@@ -624,120 +1079,107 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/80861d1897f0427a91e8e1886bde9009",
       "@type": "Donor",
-      "label": "Female, Age 67",
-      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/1628b6f7eb615862322d6274a6bc9fa0",
+      "label": "Male, Age 37",
+      "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/80861d1897f0427a91e8e1886bde9009",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/d0cb764459fd1d1c6f04fdce2e982831",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/2b269613d21a845988d12a344fa89e54",
           "@type": "Sample",
-          "sample_type": [
-            "Tissue Block",
-            "Tissue Section"
-          ],
-          "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
-          "description": [
-            "20 x 50 x 1 millimeter, 1 millimeter",
-            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
-          ],
-          "link": "https://portal.hubmapconsortium.org/browse/sample/d0cb764459fd1d1c6f04fdce2e982831",
+          "sample_type": "Tissue Block",
+          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 5 millimeter, 0 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/2b269613d21a845988d12a344fa89e54",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/80861d1897f0427a91e8e1886bde9009",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/d0cb764459fd1d1c6f04fdce2e982831",
+            "label": "https://entity.api.hubmapconsortium.org/entities/2b269613d21a845988d12a344fa89e54",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/296f4f10-2d50-4b28-932a-69a6658171c1_placement",
+              "@id": "http://purl.org/ccf/1.5/abab52f8-6fd4-4e3f-8f9c-bb9f5f62785f_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
               "x_rotation": 90,
-              "y_rotation": -3,
-              "z_rotation": 88,
-              "x_translation": -16.463317082677698,
-              "y_translation": -65.70664637175878,
-              "z_translation": 197.4472451419008
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -7.587611343775425,
+              "y_translation": -6.877345347716146,
+              "z_translation": 110.65428518752172
             },
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001157",
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0001159",
-              "http://purl.obolibrary.org/obo/UBERON_0022276"
+              "http://purl.obolibrary.org/obo/UBERON_0001052",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001159"
             ]
           }
         }
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/80861d1897f0427a91e8e1886bde9009",
       "@type": "Donor",
-      "label": "Female, Age 67",
-      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/1628b6f7eb615862322d6274a6bc9fa0",
+      "label": "Male, Age 37",
+      "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/80861d1897f0427a91e8e1886bde9009",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/e4ee92c09a755f8889cb8c37a669e160",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/3ed9afdc57afaf994670afccb55f3aad",
           "@type": "Sample",
-          "sample_type": [
-            "Tissue Block",
-            "Tissue Section"
-          ],
-          "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
-          "description": [
-            "20 x 50 x 1 millimeter, 1 millimeter",
-            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
-          ],
-          "link": "https://portal.hubmapconsortium.org/browse/sample/e4ee92c09a755f8889cb8c37a669e160",
+          "sample_type": "Tissue Block",
+          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/3ed9afdc57afaf994670afccb55f3aad",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/1628b6f7eb615862322d6274a6bc9fa0",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/80861d1897f0427a91e8e1886bde9009",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/e4ee92c09a755f8889cb8c37a669e160",
+            "label": "https://entity.api.hubmapconsortium.org/entities/3ed9afdc57afaf994670afccb55f3aad",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/2d293c0a-b148-4243-a5d9-32dbc7d1460f_placement",
+              "@id": "http://purl.org/ccf/1.5/82566926-7a8f-43a7-9f6a-ae0c463d7a1d_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "x_rotation": -18,
-              "y_rotation": 90,
-              "z_rotation": 0,
-              "x_translation": -94.59065867588887,
-              "y_translation": -27.863017046213336,
-              "z_translation": 145.94274189662477
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 90,
+              "y_rotation": 26,
+              "z_rotation": 88,
+              "x_translation": 12.15450343134896,
+              "y_translation": -101.6372450616522,
+              "z_translation": 315.7209722859604
             },
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001153",
               "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
               "http://purl.obolibrary.org/obo/UBERON_0022277"
             ]
           }
@@ -745,51 +1187,52 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/80861d1897f0427a91e8e1886bde9009",
       "@type": "Donor",
-      "label": "Female, Age 24",
-      "description": "Entered 5/8/2025, daniel cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/be425f8a2963dda1d3a7a0c79de5e466",
+      "label": "Male, Age 37",
+      "description": "Entered 5/8/2025, Daniel Cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/80861d1897f0427a91e8e1886bde9009",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/2ef7c7f89e172641c5f7c643d8a9c13d",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/acdb17a3cd92f28a6eb8ab5904c37dd3",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
+          "label": "Registered 6/8/2022, Daniel Cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/2ef7c7f89e172641c5f7c643d8a9c13d",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/acdb17a3cd92f28a6eb8ab5904c37dd3",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/80861d1897f0427a91e8e1886bde9009",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/2ef7c7f89e172641c5f7c643d8a9c13d",
+            "label": "https://entity.api.hubmapconsortium.org/entities/acdb17a3cd92f28a6eb8ab5904c37dd3",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/aab5a316-7fbc-4a57-8b3a-3fc1958c5292_placement",
+              "@id": "http://purl.org/ccf/1.5/ba9d007b-c5c7-4231-80f9-42403a98a6df_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
               "x_rotation": 0,
               "y_rotation": 90,
               "z_rotation": 0,
-              "x_translation": 83.76787645948683,
-              "y_translation": -46.529860991856935,
-              "z_translation": 82.58363041927484
+              "x_translation": 120.93149277841202,
+              "y_translation": -13.567733377921265,
+              "z_translation": 218.87689262106628
             },
             "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
               "http://purl.obolibrary.org/obo/UBERON_0001158",
               "http://purl.obolibrary.org/obo/UBERON_0022276"
             ]
@@ -798,55 +1241,279 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
       "@type": "Donor",
-      "label": "Female, Age 24",
-      "description": "Entered 5/8/2025, daniel cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/be425f8a2963dda1d3a7a0c79de5e466",
+      "label": "Male, Age 38",
+      "description": "Entered 5/7/2025, daniel cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/909b44eb01033314b357a3692b583387",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/539f15ce78fc8696e99c9d575be864be",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/05eae5d5018cf4b09434aaadf5f8a387",
           "@type": "Sample",
           "sample_type": [
             "Tissue Block",
             "Tissue Section"
           ],
-          "label": "Registered 2/16/2022, daniel cotter, TMC-Stanford",
+          "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
           "description": [
             "20 x 50 x 1 millimeter, 1 millimeter",
             "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
           ],
-          "link": "https://portal.hubmapconsortium.org/browse/sample/539f15ce78fc8696e99c9d575be864be",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/05eae5d5018cf4b09434aaadf5f8a387",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/539f15ce78fc8696e99c9d575be864be",
+            "label": "https://entity.api.hubmapconsortium.org/entities/05eae5d5018cf4b09434aaadf5f8a387",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/3425fa0c-c5cb-4493-b6ba-41520334b13e_placement",
+              "@id": "http://purl.org/ccf/1.5/6bbdd96b-5fae-406c-a0a5-8e20e1bd0d8e_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "x_rotation": -18,
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
               "y_rotation": 90,
               "z_rotation": 0,
-              "x_translation": -94.59065867588887,
-              "y_translation": -27.863017046213336,
-              "z_translation": 145.94274189662477
+              "x_translation": 120.93149277841202,
+              "y_translation": -13.567733377921265,
+              "z_translation": 218.87689262106628
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001158"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
+      "@type": "Donor",
+      "label": "Male, Age 38",
+      "description": "Entered 5/7/2025, daniel cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/909b44eb01033314b357a3692b583387",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/4cdc311cdb07ab1a49cc4ad1e4e8d4da",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/4cdc311cdb07ab1a49cc4ad1e4e8d4da",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/4cdc311cdb07ab1a49cc4ad1e4e8d4da",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/82d414d4-59a7-4a61-9d86-278cb73a3ddd_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "x_translation": 120.93149277841202,
+              "y_translation": -13.567733377921265,
+              "z_translation": 218.87689262106628
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0022276"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
+      "@type": "Donor",
+      "label": "Male, Age 38",
+      "description": "Entered 5/7/2025, daniel cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/909b44eb01033314b357a3692b583387",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/5590f1212159e1a53b045e7bedafc562",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/5590f1212159e1a53b045e7bedafc562",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/5590f1212159e1a53b045e7bedafc562",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/1f959974-4f3c-4023-a1af-6e5172d89f2c_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 90,
+              "y_rotation": 26,
+              "z_rotation": 88,
+              "x_translation": 12.15450343134896,
+              "y_translation": -101.6372450616522,
+              "z_translation": 315.7209722859604
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0022277",
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
+      "@type": "Donor",
+      "label": "Male, Age 38",
+      "description": "Entered 5/7/2025, daniel cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/909b44eb01033314b357a3692b583387",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/69b7f03c30bc3489a0b827864f7933c9",
+          "@type": "Sample",
+          "sample_type": [
+            "Tissue Block",
+            "Tissue Section"
+          ],
+          "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
+          "description": [
+            "20 x 50 x 1 millimeter, 1 millimeter",
+            "20 x 50 x 5 millimeter, 5 millimeter, 0 Sections"
+          ],
+          "link": "https://portal.hubmapconsortium.org/browse/sample/69b7f03c30bc3489a0b827864f7933c9",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/69b7f03c30bc3489a0b827864f7933c9",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/dfb35d10-65a1-48f9-94a0-baf36ce8a78b_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 90,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -7.587611343775425,
+              "y_translation": -6.877345347716146,
+              "z_translation": 110.65428518752172
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001159"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
+      "@type": "Donor",
+      "label": "Male, Age 38",
+      "description": "Entered 5/7/2025, daniel cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/909b44eb01033314b357a3692b583387",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/8113a08108f2d3174b7baf988aa18c95",
+          "@type": "Sample",
+          "sample_type": [
+            "Tissue Block",
+            "Tissue Section"
+          ],
+          "label": "Registered 2/16/2022, daniel Cotter, TMC-Stanford",
+          "description": [
+            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+            "20 x 50 x 5 millimeter, 5 millimeter"
+          ],
+          "link": "https://portal.hubmapconsortium.org/browse/sample/8113a08108f2d3174b7baf988aa18c95",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/8113a08108f2d3174b7baf988aa18c95",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/5df04f61-5fcc-4035-92c3-631f772a6ce0_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "x_translation": -102.34880271571006,
+              "y_translation": -48.653997340884054,
+              "z_translation": 205.79382309203095
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001156"
@@ -856,49 +1523,49 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
       "@type": "Donor",
-      "label": "Female, Age 24",
-      "description": "Entered 5/8/2025, daniel cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/be425f8a2963dda1d3a7a0c79de5e466",
+      "label": "Male, Age 38",
+      "description": "Entered 5/7/2025, daniel cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/909b44eb01033314b357a3692b583387",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/6563fb50b78d550893e1eb7a38a4ea04",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/8d2acd5b31c953a5507da41df918ec2e",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/6563fb50b78d550893e1eb7a38a4ea04",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/8d2acd5b31c953a5507da41df918ec2e",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/6563fb50b78d550893e1eb7a38a4ea04",
+            "label": "https://entity.api.hubmapconsortium.org/entities/8d2acd5b31c953a5507da41df918ec2e",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/c7ed4142-ddad-4cf5-b83b-dd431927bad5_placement",
+              "@id": "http://purl.org/ccf/1.5/fc556dba-cfb0-490d-913b-d76717762142_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "x_rotation": -18,
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
               "y_rotation": 90,
               "z_rotation": 0,
-              "x_translation": -94.41501039798547,
-              "y_translation": -31.31742220844706,
-              "z_translation": 133.40144502661468
+              "x_translation": -102.34880271571006,
+              "y_translation": -48.653997340884054,
+              "z_translation": 205.79382309203095
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001153",
@@ -910,54 +1577,111 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
       "@type": "Donor",
-      "label": "Female, Age 24",
-      "description": "Entered 5/8/2025, daniel cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/be425f8a2963dda1d3a7a0c79de5e466",
+      "label": "Male, Age 38",
+      "description": "Entered 5/7/2025, daniel cotter, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/909b44eb01033314b357a3692b583387",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/804aa1a7fcdf319c206808c106f67008",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/e03c30230e3405eb6855a91cdc3197a8",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
           "description": "20 x 50 x 5 millimeter, 5 millimeter, 1 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/804aa1a7fcdf319c206808c106f67008",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/e03c30230e3405eb6855a91cdc3197a8",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/909b44eb01033314b357a3692b583387",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/804aa1a7fcdf319c206808c106f67008",
+            "label": "https://entity.api.hubmapconsortium.org/entities/e03c30230e3405eb6855a91cdc3197a8",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/8b652088-8c73-466d-b59c-3fbb8c01e399_placement",
+              "@id": "http://purl.org/ccf/1.5/0a2ed64b-2a70-4382-90c4-ac9fb6520419_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
               "x_rotation": 90,
               "y_rotation": 0,
-              "z_rotation": 78,
-              "x_translation": 2.512827956378447,
-              "y_translation": 69.205811971405,
-              "z_translation": 24.56287991945876
+              "z_rotation": 0,
+              "x_translation": -7.587611343775425,
+              "y_translation": -6.877345347716146,
+              "z_translation": 110.65428518752172
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001052",
-              "http://purl.obolibrary.org/obo/UBERON_0001154",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
               "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001159",
+              "http://purl.obolibrary.org/obo/UBERON_0022277"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "@type": "Donor",
+      "label": "Male, Age 78",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/1de4ad9bd516660043b8e190e8978045",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/19/2021, Yiing Lin, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 2.5 millimeter, 2 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/1de4ad9bd516660043b8e190e8978045",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/1de4ad9bd516660043b8e190e8978045",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/df58ff32-e4db-41fe-9a25-47dbde90c694_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 90,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -7.587611343775425,
+              "y_translation": -6.877345347716146,
+              "z_translation": 110.65428518752172
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001052",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
               "http://purl.obolibrary.org/obo/UBERON_0001159"
             ]
           }
@@ -965,18 +1689,75 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+      "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
       "@type": "Donor",
-      "label": "Female, Age 24",
-      "description": "Entered 5/8/2025, daniel cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/be425f8a2963dda1d3a7a0c79de5e466",
+      "label": "Male, Age 78",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/d3ad6409d2ad37ef7dbcc90ccc199f68",
       "consortium_name": "HuBMAP",
       "provider_name": "TMC-Stanford",
       "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/932a048745b3d30bacd0cfc9ba692136",
+          "@id": "https://entity.api.hubmapconsortium.org/entities/2c4ed25579a369af5ae8f7523038235f",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/19/2021, Yiing Lin, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/2c4ed25579a369af5ae8f7523038235f",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/2c4ed25579a369af5ae8f7523038235f",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/37248725-6ed5-4589-ac5a-9951d1a783e7_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "x_translation": -102.34880271571006,
+              "y_translation": -48.653997340884054,
+              "z_translation": 205.79382309203095
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001159",
+              "http://purl.obolibrary.org/obo/UBERON_0022277",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "@type": "Donor",
+      "label": "Male, Age 78",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/7fd7eedb4f588e7c7da4dbf91024bcab",
           "@type": "Sample",
           "sample_type": [
             "Tissue Block",
@@ -987,33 +1768,772 @@
             "20 x 50 x 1 millimeter, 1 millimeter",
             "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
           ],
-          "link": "https://portal.hubmapconsortium.org/browse/sample/932a048745b3d30bacd0cfc9ba692136",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/7fd7eedb4f588e7c7da4dbf91024bcab",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/932a048745b3d30bacd0cfc9ba692136",
+            "label": "https://entity.api.hubmapconsortium.org/entities/7fd7eedb4f588e7c7da4dbf91024bcab",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 20,
             "y_dimension": 50,
             "z_dimension": 5,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/6ade433a-7d52-4e1e-ab9d-9bf8c118114c_placement",
+              "@id": "http://purl.org/ccf/1.5/bceacee1-bc17-49ba-ab6f-833a9ccde436_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 90,
+              "y_rotation": 26,
+              "z_rotation": 88,
+              "x_translation": 12.15450343134896,
+              "y_translation": -101.6372450616522,
+              "z_translation": 315.7209722859604
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001159",
+              "http://purl.obolibrary.org/obo/UBERON_0002114",
+              "http://purl.obolibrary.org/obo/UBERON_0002115",
+              "http://purl.obolibrary.org/obo/UBERON_0022277",
+              "http://purl.org/sig/ont/fma/fma14966"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "@type": "Donor",
+      "label": "Male, Age 78",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/855045d4390dfa55cb95435eb9c3bcd0",
+          "@type": "Sample",
+          "sample_type": [
+            "Tissue Block",
+            "Tissue Section"
+          ],
+          "label": "Registered 2/16/2022, daniel cotter, TMC-Stanford",
+          "description": [
+            "20 x 50 x 5 millimeter, 5 millimeter, 0 Sections",
+            "20 x 50 x 2.5 millimeter, 2.5 millimeter"
+          ],
+          "link": "https://portal.hubmapconsortium.org/browse/sample/855045d4390dfa55cb95435eb9c3bcd0",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/855045d4390dfa55cb95435eb9c3bcd0",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/0d005e9f-bd67-403b-a7fa-66f173fee596_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 90,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -7.587611343775425,
+              "y_translation": -6.877345347716146,
+              "z_translation": 110.65428518752172
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001052",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001159",
+              "http://purl.obolibrary.org/obo/UBERON_0002114",
+              "http://purl.obolibrary.org/obo/UBERON_0002115",
+              "http://purl.org/sig/ont/fma/fma14966"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "@type": "Donor",
+      "label": "Male, Age 78",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/8b675fffca25c82c530bea18d7b6294e",
+          "@type": "Sample",
+          "sample_type": [
+            "Tissue Block",
+            "Tissue Section"
+          ],
+          "label": "Registered 2/16/2022, daniel cotter, TMC-Stanford",
+          "description": [
+            "20 x 50 x 1 millimeter, 1 millimeter",
+            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
+          ],
+          "link": "https://portal.hubmapconsortium.org/browse/sample/8b675fffca25c82c530bea18d7b6294e",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/8b675fffca25c82c530bea18d7b6294e",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/fb4cec06-b147-4277-a6cf-8aa21e294183_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
               "x_rotation": 0,
               "y_rotation": 90,
               "z_rotation": 0,
-              "x_translation": 86.19190170181803,
-              "y_translation": -41.56776751111145,
-              "z_translation": 94.51682664870573
+              "x_translation": 120.93149277841202,
+              "y_translation": -13.567733377921265,
+              "z_translation": 218.87689262106628
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001159",
+              "http://purl.obolibrary.org/obo/UBERON_0002114",
+              "http://purl.obolibrary.org/obo/UBERON_0002115",
+              "http://purl.obolibrary.org/obo/UBERON_0022276",
+              "http://purl.org/sig/ont/fma/fma14966"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "@type": "Donor",
+      "label": "Male, Age 78",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/a596becf59c13e14a6489fb97fcdd2c9",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/19/2021, Yiing Lin, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/a596becf59c13e14a6489fb97fcdd2c9",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/a596becf59c13e14a6489fb97fcdd2c9",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/3c6f0725-dbe0-4245-82c4-1f11f2b72ba0_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "x_translation": 120.93149277841202,
+              "y_translation": -13.567733377921265,
+              "z_translation": 218.87689262106628
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001159",
+              "http://purl.obolibrary.org/obo/UBERON_0022276"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "@type": "Donor",
+      "label": "Male, Age 78",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/abe01e040eecba80c655fbca3aba165a",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/19/2021, Yiing Lin, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/abe01e040eecba80c655fbca3aba165a",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/abe01e040eecba80c655fbca3aba165a",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/3baf4809-eff0-4a0e-8ccb-0d7e6d83f371_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 90,
+              "y_rotation": 26,
+              "z_rotation": 88,
+              "x_translation": 12.15450343134896,
+              "y_translation": -101.6372450616522,
+              "z_translation": 315.7209722859604
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001159",
+              "http://purl.obolibrary.org/obo/UBERON_0022277"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "@type": "Donor",
+      "label": "Male, Age 78",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/d3ad6409d2ad37ef7dbcc90ccc199f68",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/edd2898e222ee5103b97084e3a528fd8",
+          "@type": "Sample",
+          "sample_type": [
+            "Tissue Section",
+            "Tissue Block"
+          ],
+          "label": "Registered 2/16/2022, daniel cotter, TMC-Stanford",
+          "description": [
+            "20 x 50 x 1 millimeter, 1 millimeter",
+            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
+          ],
+          "link": "https://portal.hubmapconsortium.org/browse/sample/edd2898e222ee5103b97084e3a528fd8",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/d3ad6409d2ad37ef7dbcc90ccc199f68",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/edd2898e222ee5103b97084e3a528fd8",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/2468f1c4-6182-4c0a-8dda-81287da09673_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "x_translation": -102.34880271571006,
+              "y_translation": -48.653997340884054,
+              "z_translation": 205.79382309203095
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0001159",
+              "http://purl.obolibrary.org/obo/UBERON_0002114",
+              "http://purl.obolibrary.org/obo/UBERON_0002115",
+              "http://purl.obolibrary.org/obo/UBERON_0022277",
+              "http://purl.org/sig/ont/fma/fma14966",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0",
+      "@type": "Donor",
+      "label": "Male, Age 37",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/f84ff583687f3407636d8ce843b48ff0",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/07178a55104fc2f8a6fda839b83198ca",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/07178a55104fc2f8a6fda839b83198ca",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/07178a55104fc2f8a6fda839b83198ca",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/7f0bfe51-5458-4ef8-8641-c3d9a5fbd538_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 90,
+              "y_rotation": 26,
+              "z_rotation": 88,
+              "x_translation": 12.15450343134896,
+              "y_translation": -101.6372450616522,
+              "z_translation": 315.7209722859604
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0022277"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0",
+      "@type": "Donor",
+      "label": "Male, Age 37",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/f84ff583687f3407636d8ce843b48ff0",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/1a97071a7f69470a96ce45cae97b1876",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/1a97071a7f69470a96ce45cae97b1876",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/1a97071a7f69470a96ce45cae97b1876",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/23e9d58a-c93f-414b-baf9-3692ea20fd1c_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "x_translation": 120.93149277841202,
+              "y_translation": -13.567733377921265,
+              "z_translation": 218.87689262106628
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0022276"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0",
+      "@type": "Donor",
+      "label": "Male, Age 37",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/f84ff583687f3407636d8ce843b48ff0",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/dbca13174e2a90f499151158b7faab7b",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/dbca13174e2a90f499151158b7faab7b",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/dbca13174e2a90f499151158b7faab7b",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/2ae3cef9-6621-46da-b056-da7bfbadc13b_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 90,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -7.587611343775425,
+              "y_translation": -6.877345347716146,
+              "z_translation": 110.65428518752172
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001052",
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001159"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0",
+      "@type": "Donor",
+      "label": "Male, Age 37",
+      "description": "Entered 5/8/2025, Yiing Lin, TMC-Stanford",
+      "link": "https://portal.hubmapconsortium.org/browse/donor/f84ff583687f3407636d8ce843b48ff0",
+      "consortium_name": "HuBMAP",
+      "provider_name": "TMC-Stanford",
+      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.hubmapconsortium.org/entities/e84915dd0319a303057a37a7796d428b",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
+          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
+          "link": "https://portal.hubmapconsortium.org/browse/sample/e84915dd0319a303057a37a7796d428b",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.hubmapconsortium.org/entities/f84ff583687f3407636d8ce843b48ff0",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.hubmapconsortium.org/entities/e84915dd0319a303057a37a7796d428b",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 20,
+            "y_dimension": 50,
+            "z_dimension": 5,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/3c695f26-b7ed-44ad-8e11-894932defa86_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": 0,
+              "y_rotation": 90,
+              "z_rotation": 0,
+              "x_translation": -102.34880271571006,
+              "y_translation": -48.653997340884054,
+              "z_translation": 205.79382309203095
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001153",
+              "http://purl.obolibrary.org/obo/UBERON_0001156",
+              "http://purl.obolibrary.org/obo/UBERON_0001157",
+              "http://purl.obolibrary.org/obo/UBERON_0001158",
+              "http://purl.obolibrary.org/obo/UBERON_0022277"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/08cd4da6e993d3af4c06a6d94dcc8540",
+      "@type": "Donor",
+      "label": "Male, Age 66",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=08cd4da6e993d3af4c06a6d94dcc8540",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/6225aacaaa27fa8ffc3b922d8874467e",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=6225aacaaa27fa8ffc3b922d8874467e",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/08cd4da6e993d3af4c06a6d94dcc8540",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/6225aacaaa27fa8ffc3b922d8874467e",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/f773e595-2a71-425b-814f-a0bc5640e4b0_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -85.2823833767753,
+              "y_translation": -10.84252403911012,
+              "z_translation": 221.83697344844109
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/08cd4da6e993d3af4c06a6d94dcc8540",
+      "@type": "Donor",
+      "label": "Male, Age 66",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=08cd4da6e993d3af4c06a6d94dcc8540",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/62359c7349eef68e1eddc2b9c73bc6da",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=62359c7349eef68e1eddc2b9c73bc6da",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/08cd4da6e993d3af4c06a6d94dcc8540",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/62359c7349eef68e1eddc2b9c73bc6da",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/e2b79771-e1f7-4f0b-82c7-fb892bd16044_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 1.8633442514474974,
+              "y_translation": 19.006441585726648,
+              "z_translation": 87.4776629213801
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001052"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/08cd4da6e993d3af4c06a6d94dcc8540",
+      "@type": "Donor",
+      "label": "Male, Age 66",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=08cd4da6e993d3af4c06a6d94dcc8540",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/b43a8fb2e3183d1627f7a57157d4b0c1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=b43a8fb2e3183d1627f7a57157d4b0c1",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/08cd4da6e993d3af4c06a6d94dcc8540",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/b43a8fb2e3183d1627f7a57157d4b0c1",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/6127c34e-a795-4067-ae45-d26cb6347d00_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 0.5237948579063905,
+              "y_translation": -10.842278910140255,
+              "z_translation": 296.99855182073503
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/08cd4da6e993d3af4c06a6d94dcc8540",
+      "@type": "Donor",
+      "label": "Male, Age 66",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=08cd4da6e993d3af4c06a6d94dcc8540",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/d9fadcdae16d0cabcdb0004698448cc7",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=d9fadcdae16d0cabcdb0004698448cc7",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/08cd4da6e993d3af4c06a6d94dcc8540",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/d9fadcdae16d0cabcdb0004698448cc7",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/61e9e848-101d-4107-8a50-699e57aedddf_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 100.9569042913613,
+              "y_translation": -10.842098141917788,
+              "z_translation": 176.60679524342368
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001158"
@@ -1023,111 +2543,207 @@
       ]
     },
     {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+      "@id": "https://entity.api.sennetconsortium.org/entities/5aa1ed5bb23943d9bec64ff9ee59d494",
       "@type": "Donor",
-      "label": "Female, Age 24",
-      "description": "Entered 5/8/2025, daniel cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/be425f8a2963dda1d3a7a0c79de5e466",
-      "consortium_name": "HuBMAP",
-      "provider_name": "TMC-Stanford",
-      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
+      "label": "Male, Age 31",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=5aa1ed5bb23943d9bec64ff9ee59d494",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/c46f3ffa2ad148019ee983453d06b745",
-          "@type": "Sample",
-          "sample_type": [
-            "Tissue Block",
-            "Tissue Section"
-          ],
-          "label": "Registered 2/16/2022, daniel cotter, TMC-Stanford",
-          "description": [
-            "20 x 50 x 1 millimeter, 1 millimeter",
-            "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections"
-          ],
-          "link": "https://portal.hubmapconsortium.org/browse/sample/c46f3ffa2ad148019ee983453d06b745",
-          "section_count": 0,
-          "section_size": 0,
-          "rui_location": {
-            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
-            "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/c46f3ffa2ad148019ee983453d06b745",
-            "creator": "Antara Bhavsar",
-            "creator_first_name": "Antara",
-            "creator_last_name": "Bhavsar",
-            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
-            "x_dimension": 20,
-            "y_dimension": 50,
-            "z_dimension": 5,
-            "dimension_units": "millimeter",
-            "placement": {
-              "@id": "http://purl.org/ccf/1.5/43e195fb-0f50-4b67-bff1-b74f68290fc6_placement",
-              "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFLargeIntestine",
-              "x_rotation": 90,
-              "y_rotation": -3,
-              "z_rotation": 88,
-              "x_translation": -16.463317082677698,
-              "y_translation": -65.70664637175878,
-              "z_translation": 197.4472451419008
-            },
-            "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001157"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
-      "@type": "Donor",
-      "label": "Female, Age 24",
-      "description": "Entered 5/8/2025, daniel cotter, TMC-Stanford",
-      "link": "https://portal.hubmapconsortium.org/browse/donor/be425f8a2963dda1d3a7a0c79de5e466",
-      "consortium_name": "HuBMAP",
-      "provider_name": "TMC-Stanford",
-      "provider_uuid": "def5fd76-ed43-11e8-b56a-0e8017bdda58",
-      "sex": "Female",
-      "samples": [
-        {
-          "@id": "https://entity.api.hubmapconsortium.org/entities/f53621bf6e120c11dd9a1e11d586d656",
+          "@id": "https://entity.api.sennetconsortium.org/entities/1b6f6f70acd57640f6cd23bcbdead52c",
           "@type": "Sample",
           "sample_type": "Tissue Block",
-          "label": "Registered 10/19/2021, daniel cotter, TMC-Stanford",
-          "description": "20 x 50 x 5 millimeter, 1 millimeter, 1 Sections",
-          "link": "https://portal.hubmapconsortium.org/browse/sample/f53621bf6e120c11dd9a1e11d586d656",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=1b6f6f70acd57640f6cd23bcbdead52c",
           "section_count": 0,
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://entity.api.hubmapconsortium.org/entities/be425f8a2963dda1d3a7a0c79de5e466",
+            "@id": "https://entity.api.sennetconsortium.org/entities/5aa1ed5bb23943d9bec64ff9ee59d494",
             "@type": "SpatialEntity",
-            "label": "https://entity.api.hubmapconsortium.org/entities/f53621bf6e120c11dd9a1e11d586d656",
+            "label": "https://entity.api.sennetconsortium.org/entities/1b6f6f70acd57640f6cd23bcbdead52c",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
-            "x_dimension": 20,
-            "y_dimension": 50,
-            "z_dimension": 5,
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/2f0bc1c1-551b-46d8-bd70-c77ac180ab7c_placement",
+              "@id": "http://purl.org/ccf/1.5/2cdddf66-2300-4474-b614-690093bfce17_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "x_rotation": 90,
-              "y_rotation": -3,
-              "z_rotation": 88,
-              "x_translation": -15.499819303521393,
-              "y_translation": -65.48719919133283,
-              "z_translation": 151.52481092215893
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -85.2823833767753,
+              "y_translation": -10.84252403911012,
+              "z_translation": 221.83697344844109
             },
             "ccf_annotations": [
-              "http://purl.obolibrary.org/obo/UBERON_0001158",
-              "http://purl.obolibrary.org/obo/UBERON_0022276",
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/5aa1ed5bb23943d9bec64ff9ee59d494",
+      "@type": "Donor",
+      "label": "Male, Age 31",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=5aa1ed5bb23943d9bec64ff9ee59d494",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/2adf5ff156244467a3a386a621d51442",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=2adf5ff156244467a3a386a621d51442",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/5aa1ed5bb23943d9bec64ff9ee59d494",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/2adf5ff156244467a3a386a621d51442",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/ab8757f5-337a-4166-b47e-247ef619f4c6_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 1.8633442514474974,
+              "y_translation": 19.006441585726648,
+              "z_translation": 87.4776629213801
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001052"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/5aa1ed5bb23943d9bec64ff9ee59d494",
+      "@type": "Donor",
+      "label": "Male, Age 31",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=5aa1ed5bb23943d9bec64ff9ee59d494",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/a46ca15bb82e202b709ff6809128fb2d",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=a46ca15bb82e202b709ff6809128fb2d",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/5aa1ed5bb23943d9bec64ff9ee59d494",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/a46ca15bb82e202b709ff6809128fb2d",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/0daf32c9-c1fe-423d-8ea4-12a2ce26ec46_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 100.9569042913613,
+              "y_translation": -10.842098141917788,
+              "z_translation": 176.60679524342368
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001158"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/5aa1ed5bb23943d9bec64ff9ee59d494",
+      "@type": "Donor",
+      "label": "Male, Age 31",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=5aa1ed5bb23943d9bec64ff9ee59d494",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/c87d8673d189198c6c39f7105b6f834f",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=c87d8673d189198c6c39f7105b6f834f",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/5aa1ed5bb23943d9bec64ff9ee59d494",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/c87d8673d189198c6c39f7105b6f834f",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/0bd3f56b-f6b8-4b2a-8ed2-b46a875a5ce5_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 0.5237948579063905,
+              "y_translation": -10.842278910140255,
+              "z_translation": 296.99855182073503
+            },
+            "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001157"
             ]
           }
@@ -1135,18 +2751,434 @@
       ]
     },
     {
-      "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors",
+      "@id": "https://entity.api.sennetconsortium.org/entities/94a3f2e9e4d4915136312192d31017bf",
       "@type": "Donor",
-      "label": "Females (n=133) Mean Age 51.7 (range 21 - 70)",
+      "label": "Male, Age 59",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=94a3f2e9e4d4915136312192d31017bf",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/0481fdce8910af0550fdbb23069f3450",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=0481fdce8910af0550fdbb23069f3450",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/94a3f2e9e4d4915136312192d31017bf",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/0481fdce8910af0550fdbb23069f3450",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/0b06bb5e-8a6f-4625-8ea2-6010ae4b572a_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -85.2823833767753,
+              "y_translation": -10.84252403911012,
+              "z_translation": 221.83697344844109
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/94a3f2e9e4d4915136312192d31017bf",
+      "@type": "Donor",
+      "label": "Male, Age 59",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=94a3f2e9e4d4915136312192d31017bf",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/318816ae242dc88e79919a53accfbc7d",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=318816ae242dc88e79919a53accfbc7d",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/94a3f2e9e4d4915136312192d31017bf",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/318816ae242dc88e79919a53accfbc7d",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/f5f3d8c8-cea3-47c3-bbd8-03558ae3b1cf_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 0.5237948579063905,
+              "y_translation": -10.842278910140255,
+              "z_translation": 296.99855182073503
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/94a3f2e9e4d4915136312192d31017bf",
+      "@type": "Donor",
+      "label": "Male, Age 59",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=94a3f2e9e4d4915136312192d31017bf",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/ad2fb27b166384c558336bb5787458a2",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=ad2fb27b166384c558336bb5787458a2",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/94a3f2e9e4d4915136312192d31017bf",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/ad2fb27b166384c558336bb5787458a2",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/394a7acd-1358-4242-a56d-006d8b368527_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 100.9569042913613,
+              "y_translation": -10.842098141917788,
+              "z_translation": 176.60679524342368
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001158"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/94a3f2e9e4d4915136312192d31017bf",
+      "@type": "Donor",
+      "label": "Male, Age 59",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=94a3f2e9e4d4915136312192d31017bf",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/da43e7cc64e249e44e2eee85f82a5092",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=da43e7cc64e249e44e2eee85f82a5092",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/94a3f2e9e4d4915136312192d31017bf",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/da43e7cc64e249e44e2eee85f82a5092",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/9147f676-99f6-4146-bbf4-ed94dcae076b_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 1.8633442514474974,
+              "y_translation": 19.006441585726648,
+              "z_translation": 87.4776629213801
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001052"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/f4505d8e98ea96e09da356771b1a3e03",
+      "@type": "Donor",
+      "label": "Male, Age 47",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=f4505d8e98ea96e09da356771b1a3e03",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/043f1209b345d034ac6cb240ed1719e6",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=043f1209b345d034ac6cb240ed1719e6",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/f4505d8e98ea96e09da356771b1a3e03",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/043f1209b345d034ac6cb240ed1719e6",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/36f06c60-7274-41c5-8824-67a522da8ec5_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 0.5237948579063905,
+              "y_translation": -10.842278910140255,
+              "z_translation": 296.99855182073503
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/f4505d8e98ea96e09da356771b1a3e03",
+      "@type": "Donor",
+      "label": "Male, Age 47",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=f4505d8e98ea96e09da356771b1a3e03",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/db4c926958571f211e47496d837f79b7",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=db4c926958571f211e47496d837f79b7",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/f4505d8e98ea96e09da356771b1a3e03",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/db4c926958571f211e47496d837f79b7",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/e4cd9ef2-4756-4d24-9026-45311625ade6_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 1.8633442514474974,
+              "y_translation": 19.006441585726648,
+              "z_translation": 87.4776629213801
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001052"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/f4505d8e98ea96e09da356771b1a3e03",
+      "@type": "Donor",
+      "label": "Male, Age 47",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=f4505d8e98ea96e09da356771b1a3e03",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/fbfe82a399727d2bb23ea2bf046486a6",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=fbfe82a399727d2bb23ea2bf046486a6",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/f4505d8e98ea96e09da356771b1a3e03",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/fbfe82a399727d2bb23ea2bf046486a6",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/761afe93-d726-4fa9-86e2-14b5e4e48c3c_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": -85.2823833767753,
+              "y_translation": -10.84252403911012,
+              "z_translation": 221.83697344844109
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001156"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://entity.api.sennetconsortium.org/entities/f4505d8e98ea96e09da356771b1a3e03",
+      "@type": "Donor",
+      "label": "Male, Age 47",
+      "description": "Entered 4/27/2026, Divya John, TMC - Duke University",
+      "link": "https://data.sennetconsortium.org/source?uuid=f4505d8e98ea96e09da356771b1a3e03",
+      "consortium_name": "SenNet",
+      "provider_name": "TMC - Duke University",
+      "provider_uuid": "e03acbf4-ee71-11ec-87fd-31892bd489e1",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://entity.api.sennetconsortium.org/entities/fc7165efd68d45c179275374f81b87ad",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 7/31/2025, Divya John, TMC - Duke University",
+          "description": "15 x 15 x 3 millimeter, 5 millimeter, 1 Sections",
+          "link": "https://data.sennetconsortium.org/sample?uuid=fc7165efd68d45c179275374f81b87ad",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://entity.api.sennetconsortium.org/entities/f4505d8e98ea96e09da356771b1a3e03",
+            "@type": "SpatialEntity",
+            "label": "https://entity.api.sennetconsortium.org/entities/fc7165efd68d45c179275374f81b87ad",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 15,
+            "y_dimension": 15,
+            "z_dimension": 3,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/d6a255a0-903e-4785-a39d-7dd878c5ddd0_placement",
+              "@type": "SpatialPlacement",
+              "target": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+              "x_rotation": 0,
+              "y_rotation": 0,
+              "z_rotation": 0,
+              "x_translation": 100.9569042913613,
+              "y_translation": -10.842098141917788,
+              "z_translation": 176.60679524342368
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001158"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=240) Mean Age 52.3 (range 20 - 70)",
       "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
       "link": "https://gtexportal.org/home/tissue/Colon_Sigmoid",
       "consortium_name": "GTEx",
       "provider_name": "GTEx",
       "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
-      "sex": "Female",
+      "sex": "Male",
       "samples": [
         {
-          "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors_TissueBlock1",
+          "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors_TissueBlock1",
           "@type": "Sample",
           "sample_type": "Tissue Block",
           "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
@@ -1156,31 +3188,83 @@
           "section_size": 0,
           "rui_location": {
             "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
-            "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors",
+            "@id": "https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors",
             "@type": "SpatialEntity",
-            "label": "https://gtexportal.org/home/tissue/Colon_Sigmoid#FDonors_TissueBlock1",
+            "label": "https://gtexportal.org/home/tissue/Colon_Sigmoid#MDonors_TissueBlock1",
             "creator": "Antara Bhavsar",
             "creator_first_name": "Antara",
             "creator_last_name": "Bhavsar",
             "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
-            "creation_date": "2026-04-22",
+            "creation_date": "2026-08-10",
             "x_dimension": 10,
             "y_dimension": 10,
             "z_dimension": 4,
             "dimension_units": "millimeter",
             "placement": {
-              "@id": "http://purl.org/ccf/1.5/8e476601-a5e6-4d15-86a4-e6d3da9abb7e_placement",
+              "@id": "http://purl.org/ccf/1.5/383d2c1a-4c8c-4aa3-b154-1ceacd3fa871_placement",
               "@type": "SpatialPlacement",
-              "target": "http://purl.org/ccf/latest/ccf.owl#VHFColon",
-              "x_rotation": -32,
-              "y_rotation": 9,
-              "z_rotation": -1,
-              "x_translation": -23.014483712487316,
-              "y_translation": -77.0882335639416,
-              "z_translation": 166.74584120569676
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": -30,
+              "y_rotation": 1,
+              "z_rotation": 17,
+              "x_translation": 14.785734961078692,
+              "y_translation": -106.01057584619831,
+              "z_translation": 320.58096193835917
             },
             "ccf_annotations": [
               "http://purl.obolibrary.org/obo/UBERON_0001157"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#MDonors",
+      "@type": "Donor",
+      "label": "Males (n=259) Mean Age 50.3 (range 21 - 70)",
+      "description": "Entered 5/18/2021, Kristin Ardlie, GTEx Project",
+      "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
+      "consortium_name": "GTEx",
+      "provider_name": "GTEx",
+      "provider_uuid": "083882bb-6cc6-4c12-a205-eac37c1a2640",
+      "sex": "Male",
+      "samples": [
+        {
+          "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#MDonors_TissueBlock1",
+          "@type": "Sample",
+          "sample_type": "Tissue Block",
+          "label": "Registered 8/16/2021, Kristin Ardlie, GTEx",
+          "description": "10 x 10 x 4 millimeter, 4 millimeter",
+          "link": "https://gtexportal.org/home/tissue/Colon_Transverse",
+          "section_count": 0,
+          "section_size": 0,
+          "rui_location": {
+            "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+            "@id": "https://gtexportal.org/home/tissue/Colon_Transverse#MDonors",
+            "@type": "SpatialEntity",
+            "label": "https://gtexportal.org/home/tissue/Colon_Transverse#MDonors_TissueBlock1",
+            "creator": "Antara Bhavsar",
+            "creator_first_name": "Antara",
+            "creator_last_name": "Bhavsar",
+            "creator_orcid": "https://orcid.org/0009-0006-6491-6503",
+            "creation_date": "2026-08-10",
+            "x_dimension": 10,
+            "y_dimension": 10,
+            "z_dimension": 4,
+            "dimension_units": "millimeter",
+            "placement": {
+              "@id": "http://purl.org/ccf/1.5/fd7270d4-105a-4058-aece-2d2bb0668da2_placement",
+              "@type": "SpatialPlacement",
+              "target": "http://purl.org/ccf/latest/ccf.owl#VHMColon",
+              "x_rotation": -103,
+              "y_rotation": 9,
+              "z_rotation": -47,
+              "x_translation": -17.173167849070243,
+              "y_translation": -27.055486241475222,
+              "z_translation": 51.88318943639399
+            },
+            "ccf_annotations": [
+              "http://purl.obolibrary.org/obo/UBERON_0001159"
             ]
           }
         }
