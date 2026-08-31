@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 
 def get_root_path() -> Path:
@@ -17,7 +16,9 @@ def get_bcpd_path() -> Path:
     # builds the bcpd directory path much more cleanly from the repo root (see get_root_path)
     # assumes that the bcpd repo will be cloned at the same level as that of the root (this is made explicit in the instructions, see BCPD_INSTALLATION.md and README.md)
     BASE_DIR = get_root_path()
-    if not BASE_DIR:
-        raise FileNotFoundError("BCPD directory not found. BCPD Install instructions:  https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md")
     BCPD_DIR = BASE_DIR.joinpath('bcpd')
+    BCPD_EXEC = BCPD_DIR.joinpath('bcpd')
+    if not BCPD_EXEC.is_file():
+        raise FileNotFoundError("BCPD executable not found. BCPD Install instructions:  https://github.com/cns-iu/hra-amap/blob/main/BCPD_INSTALLATION.md")
+
     return BCPD_DIR
